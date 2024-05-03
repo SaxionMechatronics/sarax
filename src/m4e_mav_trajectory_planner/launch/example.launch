@@ -1,0 +1,16 @@
+<launch>
+    <arg name="mav_name" default="sarax"/>
+
+    <group ns="$(arg mav_name)">
+        <!--- Trajectory planner -->
+        <node name="trajectory_planner" pkg="m4e_mav_trajectory_planner" type="m4e_mav_trajectory_planner" output="screen">
+        </node>
+
+        <!--- Trajectory sampler -->
+        <node name="trajectory_sampler" pkg="mav_trajectory_generation_ros" type="trajectory_sampler_node" output="screen">
+            <remap from="path_segments_4D" to="unsampled_trajectory"/>
+        </node>
+
+    </group>
+
+</launch>

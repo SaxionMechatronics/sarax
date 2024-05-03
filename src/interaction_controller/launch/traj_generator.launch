@@ -1,0 +1,6 @@
+<launch>
+
+<node name="traj_generator_node" pkg="interaction_controller" type="traj_generator_node" output="screen">
+</node>
+
+</launch>

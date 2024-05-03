@@ -1,0 +1,21 @@
+K_p_x: 7.00
+K_p_y: 7.00
+K_p_z: 6.00
+K_v_x: 6.00
+K_v_y: 6.00
+K_v_z: 3.00
+K_R_x: 1.2
+K_R_y: 1.2
+K_R_z: 0.1
+K_w_x: 0.7
+K_w_y: 0.7
+K_w_z: 0.1
+K_o_x: 2.20
+K_o_y: 2.20
+K_o_z: 0.1
+D_x: 0.6
+D_y: 0.6
+D_z: 0.1
+
+# TODO:
+# initialize position;  publish att-error in Lee; tuning; GUI presentation

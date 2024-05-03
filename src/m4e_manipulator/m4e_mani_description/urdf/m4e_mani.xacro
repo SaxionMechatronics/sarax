@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<!-- Revolute-Revolute Manipulator -->
+<robot name="m4e_mani" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Constants for robot dimensions -->
+  <xacro:property name="PI" value="3.1415926535897931"/>
+  <xacro:property name="mass_l1" value="0.141134" /> <!-- mass link 1 -->
+  <xacro:property name="mass_l2" value="1.066371" /> <!-- mass link 2 -->
+  <xacro:property name="mass_l3" value="0.363477" /> <!-- mass link 3 -->
+  <xacro:property name="mass_l4" value="0.113791" /> <!-- mass link 4 -->
+
+  <xacro:property name="ixx_l1" value="0.0001747" /> <!-- ixx link 1 -->
+  <xacro:property name="ixy_l1" value="0" /> <!-- ixy link 1 -->
+  <xacro:property name="ixz_l1" value="0" /> <!-- ixz link 1 -->
+  <xacro:property name="iyy_l1" value="0.0003488" /> <!-- iyy link 1 -->
+  <xacro:property name="iyz_l1" value="0" /> <!-- iyz link 1 -->
+  <xacro:property name="izz_l1" value="0.0001747" /> <!-- izz link 1 -->
+
+  <xacro:property name="ixx_l2" value="0.001663" /> <!-- ixx link 2 -->
+  <xacro:property name="ixy_l2" value="-0.000021838193" /> <!-- ixy link 2 -->
+  <xacro:property name="ixz_l2" value="-0.000021838193" /> <!-- ixz link 2 -->
+  <xacro:property name="iyy_l2" value="0.001855" /> <!-- iyy link 2 -->
+  <xacro:property name="iyz_l2" value="-0.000003622329" /> <!-- iyz link 2 -->
+  <xacro:property name="izz_l2" value="0.002551" /> <!-- izz link 2 -->
+
+  <xacro:property name="ixx_l3" value="0.01032" /> <!-- ixx link 3 -->
+  <xacro:property name="ixy_l3" value="-0.0001221" /> <!-- ixy link 3 -->
+  <xacro:property name="ixz_l3" value="0" /> <!-- ixz link 3 -->
+  <xacro:property name="iyy_l3" value="0.000222" /> <!-- iyy link 3 -->
+  <xacro:property name="iyz_l3" value="0" /> <!-- iyz link 3 -->
+  <xacro:property name="izz_l3" value="0.01038" /> <!-- izz link 3 -->
+
+  <xacro:property name="ixx_l4" value="0.003351" /> <!-- ixx link 4 -->
+  <xacro:property name="ixy_l4" value="0" /> <!-- ixy link 4 -->
+  <xacro:property name="ixz_l4" value="0" /> <!-- ixz link 4 -->
+  <xacro:property name="iyy_l4" value="0.003336" /> <!-- iyy link 4 -->
+  <xacro:property name="iyz_l4" value="0" /> <!-- iyz link 4 -->
+  <xacro:property name="izz_l4" value="0.000033013725" /> <!-- izz link 4 -->
+
+  <!-- Import all Gazebo-customization elements, including Gazebo colors -->
+  <xacro:include filename="$(find m4e_mani_description)/urdf/m4e_mani.gazebo" />
+  <!-- Import Rviz colors -->
+  <xacro:include filename="$(find m4e_mani_description)/urdf/materials.xacro" />
+
+  <!-- Used for fixing robot to Gazebo 'base_link' -->
+  <link name="world"/>
+  <joint name="fixed" type="fixed">
+    <parent link="world"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.002" rpy="${PI* (1/2)} 0 0"/>
+  </joint>
+  <!-- Link1 -->
+  <link name="link1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="package://m4e_mani_description/meshes/link1.dae"/>
+      </geometry>
+    </visual>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${mass_l1}"/>
+      <inertia ixx="${ixx_l1}" ixy="${ixy_l1}" ixz="${ixz_l1}" iyy="${iyy_l1}" iyz="${iyz_l1}" izz="${izz_l1}"/>
+    </inertial>
+  </link>
+  <!-- Joint1 -->
+  <joint name="joint1" type="continuous">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0.003 0" rpy="0 ${0.5 * PI} 0"/>
+    <axis xyz="0 1 0"/>
+    <dynamics damping="0.7"/>
+    <!-- <limit effort="30" velocity="1.0" lower="${-PI}" upper="${PI}" /> -->
+  </joint>
+  <!-- Link2 -->
+  <link name="link2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="package://m4e_mani_description/meshes/link2.dae"/>
+      </geometry>
+    </visual>
+    <inertial>
+      <origin xyz="0 0.0014 0" rpy="0 0 0"/>
+      <mass value="${mass_l2}"/>
+      <inertia ixx="${ixx_l2}" ixy="${ixy_l2}" ixz="${ixz_l2}" iyy="${iyy_l2}" iyz="${iyz_l2}" izz="${izz_l2}"/>
+    </inertial>
+  </link>
+  <!-- Joint2 -->
+  <joint name="joint2" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0 0.075 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <dynamics damping="0.7"/> 
+    <limit effort="30" velocity="1.0" lower="${-0.5 * PI}" upper="${0.5 * PI}" />
+
+  </joint>
+  <!-- Link3 -->
+  <link name="link3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="package://m4e_mani_description/meshes/link3.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="package://m4e_mani_description/meshes/link3.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.2587 0" rpy="0 0 0"/>
+      <mass value="${mass_l3}"/>
+      <inertia ixx="${ixx_l3}" ixy="${ixy_l3}" ixz="${ixz_l3}" iyy="${iyy_l3}" iyz="${iyz_l3}" izz="${izz_l3}"/>
+    </inertial>
+  </link>
+  <!-- Joint3 -->
+  <joint name="joint3" type="revolute">
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin xyz="0 0.4 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <dynamics damping="0.7"/> 
+    <limit effort="30" velocity="1.0" lower="-1.9" upper="2.6" /> <!-- Depending on the orientation placement of Link4 in the real robot these limits might be inverted-->
+
+  </joint>
+  <!-- Link3 -->
+   <link name="link4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="package://m4e_mani_description/meshes/link4.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="package://m4e_mani_description/meshes/link4.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0.2 0" rpy="0 0 0"/>
+      <mass value="${mass_l4}"/>
+      <inertia ixx="${ixx_l4}" ixy="${ixy_l4}" ixz="${ixz_l4}" iyy="${iyy_l4}" iyz="${iyz_l4}" izz="${izz_l4}"/>
+    </inertial>
+  </link>
+
+  <transmission name="tran1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint1">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor1">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint2">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor2">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran3">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint3">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor3">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+</robot>

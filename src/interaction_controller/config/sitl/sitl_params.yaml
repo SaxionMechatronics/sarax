@@ -1,0 +1,14 @@
+sitl_mode: true
+use_Lee_attitude_controller: false
+use_attitude_target_msgs: true
+initialize_yaw_from_odometry: false
+topics_names:
+  command_pose_topic: "command/pose"
+  command_traj_topic: "command/trajectory"
+  odometry_topic: "mavros/odometry/in"
+  state_topic: "mavros/state"
+  actuator_control_topic: "mavros/actuator_control"
+  attitude_target_topic: "mavros/setpoint_raw/attitude"
+services_names:
+  arming_client_name: "mavros/cmd/arming"
+  set_mode_client_name: "mavros/set_mode"

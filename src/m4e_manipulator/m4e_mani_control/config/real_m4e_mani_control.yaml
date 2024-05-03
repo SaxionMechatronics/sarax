@@ -1,0 +1,33 @@
+m4e_mani:
+  # Publish all joint states -----------------------------------
+  m4e_mani_joint_publisher:
+    type: joint_state_controller/JointStateController
+    publish_rate: 150  
+  
+  # Effort Controllers ---------------------------------------
+  joint1_effort_controller:
+    type: effort_controllers/JointEffortController
+    joint: joint1
+    pid: {p: 1.0, i: 0, d: 0.}
+  joint2_effort_controller:
+    type: effort_controllers/JointEffortController
+    joint: joint2
+    pid: {p: 1.0, i: 0, d: 0}
+  joint3_effort_controller:
+    type: effort_controllers/JointEffortController
+    joint: joint3
+    pid: {p: 1.0, i: 0, d: 0}
+    
+  # Position Controllers ---------------------------------------
+  joint1_position_controller:
+    type: position_controllers/JointPositionController
+    joint: joint1
+    pid: {p: 1.0, i: 0.0, d: 0.1}
+  joint2_position_controller:
+    type: position_controllers/JointPositionController
+    joint: joint2
+    pid: {p: 1.0, i: 0.0, d: 0.1}
+  joint3_position_controller:
+    type: position_controllers/JointPositionController
+    joint: joint3
+    pid: {p: 1.0, i: 0.0, d: 0.1}

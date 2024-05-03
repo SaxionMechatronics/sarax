@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>m4e_mani_description</name>
+  <version>0.0.0</version>
+  <description>The m4e_mani_description package</description>
+
+  <maintainer email="a.alharbat@saxion.nl">Ayham Alharbat</maintainer>
+
+  <license>BSD</license>
+
+  <author email="davetcoleman@gmail.com">Dave Coleman</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+
+  <export>
+  </export>
+</package>

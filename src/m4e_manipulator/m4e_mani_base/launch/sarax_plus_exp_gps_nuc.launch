@@ -1,0 +1,33 @@
+<launch>
+  <arg name="vehicle" default="sarax_plus"/>
+
+  <!--     Parameters -->
+  <rosparam command="load" file="$(find interaction_controller)/config/exp/exp_params.yaml"/>
+  <rosparam command="load" file="$(find interaction_controller)/config/uav_parameters/$(arg vehicle)_param.yaml"/>
+
+  <!--     Manipulator -->
+
+  <!--     Controller -->
+  <node name="manipulator_controller" pkg="m4e_mani_impedance_control" type="manipulator_controller" output="screen">
+    <rosparam command="load" file="$(find m4e_mani_impedance_control)/config/params.yaml"/>
+  </node>
+  <!--     Interface and drivers -->
+  <include file="$(find m4e_mani_description)/launch/m4e_mani_effort.launch"/>
+  <node name="socketcan_bridge" pkg="socketcan_bridge" type="socketcan_bridge_node" output="screen"/>
+
+
+  <!--     Drone -->
+
+  <!--     Controller -->
+  <node name="controller_node" pkg="interaction_controller" type="mrav_controller" output="screen">
+    <rosparam command="load" file="$(find interaction_controller)/config/controller/initial_gains_$(arg vehicle).yaml"/>
+  </node>
+  <!--- Trajectory planner -->
+  <node name="trajectory_planner" pkg="m4e_mav_trajectory_planner" type="m4e_mav_trajectory_planner" output="screen">
+  </node>
+  <!--- Trajectory sampler -->
+  <node name="trajectory_sampler" pkg="mav_trajectory_generation_ros" type="trajectory_sampler_node" output="screen">
+    <remap from="path_segments_4D" to="unsampled_trajectory"/>
+  </node>
+
+</launch>

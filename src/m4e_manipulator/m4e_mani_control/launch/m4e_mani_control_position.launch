@@ -1,0 +1,36 @@
+<launch>
+  <arg name="sim" default="true"/>
+
+  <!-- If a simulation is used -->
+  <group if="$(eval arg('sim') == true)"> 
+    <!-- Load joint controller configurations from YAML file to parameter server -->
+    <rosparam file="$(find m4e_mani_control)/config/sim_m4e_mani_control.yaml" command="load"/>
+
+    <!-- load the controllers -->
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/m4e_mani" args="m4e_mani_joint_publisher
+              joint1_position_controller
+              joint2_position_controller
+              joint3_position_controller"/>
+  </group>
+
+  <!-- If running on the real m4e manipulator -->
+  <group if="$(eval arg('sim') == false)"> 
+    <!-- Load joint controller configurations from YAML file to parameter server -->
+    <rosparam file="$(find m4e_mani_control)/config/real_m4e_mani_control.yaml" command="load"/>
+
+    <!-- load the controllers -->
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/m4e_mani" args="m4e_mani_joint_publisher
+              joint1_position_controller
+              joint2_position_controller
+              joint3_position_controller"/>
+  </group>
+
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+	respawn="false" output="screen">
+    <remap from="/joint_states" to="/m4e_mani/joint_states" />
+  </node>
+
+</launch>

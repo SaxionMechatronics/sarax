@@ -1,0 +1,21 @@
+topics_names:
+  joints_trajectory_topic: "/m4e_mani/trajectory"
+  joints_states_topic: "/sarax_mani/joint_states"
+  joints_actuator_2_control_topic: "/sarax_mani/joint1_effort_controller/command"
+  joints_actuator_3_control_topic: "/sarax_mani/joint2_effort_controller/command"
+  joints_actuators_control_topic: "/m4e_mani/impedance/commands"
+services_names:
+  arming_client_name: "m4e_ros_controller/enableAllMotors"
+  disarming_client_name: "m4e_ros_controller/disableAllMotors"
+  zeroing_client_name: "m4e_ros_controller/zeroAllMotors"
+  fold_arm_client_name: "/m4e_mani_user_control/foldArm"
+  extend_arm_client_name: "/m4e_mani_user_control/extendArm"
+controller_gains:
+  k_1: 0.5
+  k_2: 5
+  k_3: 5
+  d_1: 0.1
+  d_2: 0.5
+  d_3: 0.5
+zero_motors_at_startup: false
+simulation: true

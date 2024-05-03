@@ -1,0 +1,3 @@
+float32 goal_altitude  # goal altitude (z) for the planner, x and y are assumed to be equal to the current position
+---
+bool success  # true on success, false on planning failure

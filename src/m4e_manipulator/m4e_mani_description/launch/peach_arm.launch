@@ -1,0 +1,33 @@
+<launch>
+  
+  <!-- <node pkg="m4e_mani_description"
+                type="can_script.sh" name="can_script"
+                output="screen"
+        /> -->
+
+  <param name="robot_description"
+    command="$(find xacro)/xacro --inorder '$(find m4e_mani_description)/urdf/m4e_mani.xacro'" />
+
+  <!-- send fake joint values -->
+  <!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="TRUE"/>
+  </node> -->
+
+  <!-- Combine joint values -->
+  <!-- <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/> -->
+
+  <include file="$(find m4e_mani_control)/launch/m4e_mani_control_effort.launch">
+    <arg name="sim" value="false"/>
+  </include>
+
+  <node name="m4e_ros_controller_node" pkg="tmotor_ak60_drivers_cpp" type="m4e_ros_controller_node" ns="/m4e_mani" output="screen">
+    <param name="control_type" type="int" value="1" />
+  </node>
+
+  <!-- Show in Rviz   -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find m4e_mani_description)/launch/m4e_mani.rviz" output="screen"/>
+
+  <node name="socketcan_bridge_node" pkg="socketcan_bridge" type="socketcan_bridge_node" ns="/socketcan_bridge" output="screen">
+  </node>
+
+</launch>

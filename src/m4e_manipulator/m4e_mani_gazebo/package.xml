@@ -1,0 +1,22 @@
+<package>
+  <name>m4e_mani_gazebo</name>
+  <version>0.1.0</version>
+  <description>m4e_mani_gazebo</description>
+  <maintainer email="a.alharbat@saxion.nl">Ayham Alharbat</maintainer>
+
+  <license>BSD</license>
+
+  <author email="davetcoleman@gmail.com">Dave Coleman</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_plugins</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>m4e_mani_control</run_depend>
+  <run_depend>m4e_mani_description</run_depend>
+  <run_depend>xacro</run_depend>
+
+  <export>
+  </export>
+</package>

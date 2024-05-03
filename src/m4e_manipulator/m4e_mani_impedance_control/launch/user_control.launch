@@ -1,0 +1,9 @@
+<launch>
+
+<node name="m4e_mani_impedance_user_control" pkg="m4e_mani_impedance_control" type="m4e_mani_impedance_control_user_control" output="screen">
+    <rosparam command="load" file="$(find m4e_mani_impedance_control)/config/params.yaml"/>
+</node>
+
+<node name="rqt_reconfig" pkg="rqt_reconfigure" type="rqt_reconfigure"/>
+
+</launch>

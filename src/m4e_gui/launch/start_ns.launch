@@ -1,0 +1,7 @@
+<launch>
+
+  <group ns="sarax">
+    <node name="m4e_gui_node" pkg="m4e_gui" type="m4e_gui_node.py" output="screen"/>
+  </group>
+
+</launch>

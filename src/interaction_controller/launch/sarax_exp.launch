@@ -1,0 +1,25 @@
+<launch>
+
+<arg name="vehicle" default="sarax"/>
+<arg name="dyn_rec" default="true"/>
+<arg name="sitl" default="false"/>
+
+<group if="$(arg dyn_rec)">
+    <node name="rqt_reconfig" pkg="rqt_reconfigure" type="rqt_reconfigure"/>
+</group>
+
+<group if="$(arg sitl)">
+    <rosparam command="load" file="$(find interaction_controller)/config/sitl/sitl_params.yaml"/>
+</group>
+
+<group unless="$(arg sitl)">
+    <rosparam command="load" file="$(find interaction_controller)/config/exp/exp_params.yaml"/>
+    <include file="$(find interaction_controller)/launch/vrpn_$(arg vehicle).launch"/>
+</group>
+
+<node name="mrav_controller" pkg="interaction_controller" type="mrav_controller" output="screen">
+    <rosparam command="load" file="$(find interaction_controller)/config/uav_parameters/$(arg vehicle)_param.yaml"/>
+</node>
+
+<node name="load_initial_gains" pkg="dynamic_reconfigure" type="dynparam" args="load /mrav_controller $(find interaction_controller)/config/controller/initial_gains_$(arg vehicle).yaml"/>
+</launch>

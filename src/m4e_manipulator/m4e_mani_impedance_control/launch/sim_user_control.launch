@@ -1,0 +1,9 @@
+<launch>
+
+<node name="manipulator_controller" pkg="m4e_mani_impedance_control" type="manipulator_controller" output="screen">
+    <rosparam command="load" file="$(find m4e_mani_impedance_control)/config/params_sim.yaml"/>
+</node>
+
+<include file="$(find m4e_mani_impedance_control)/launch/user_control.launch"/>
+
+</launch>
