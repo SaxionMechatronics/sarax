@@ -51,7 +51,6 @@
 #include <string>
 
 #include <interaction_controller/parametersConfig.h>
-#include "interaction_controller/DigitalFilters.h"
 #include "interaction_controller/controller.h"
 
 class controller_node {
