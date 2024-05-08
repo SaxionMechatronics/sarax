@@ -21,10 +21,10 @@ jobs:
         export
         ulimit -a
 
-    - name: Update system
-      run: |
-        sudo apt update
-        sudo apt upgrade
+    # - name: Update system
+    #   run: |
+    #     sudo apt update
+    #     sudo apt upgrade
 
     - name: Install wstool
       run: |
