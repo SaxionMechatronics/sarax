@@ -28,7 +28,7 @@ jobs:
 
     - name: Install wstool
       run: |
-        python -m pip install scipy
+        pip install scipy
 
     - name: Create new workspace
       run: |
