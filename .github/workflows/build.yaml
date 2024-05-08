@@ -26,9 +26,10 @@ jobs:
     #     sudo apt update
     #     sudo apt upgrade
 
-    - name: Install wstool
+    - name: Install build dependencies
       run: |
         pip install scipy
+        pip install -U wstool
 
     - name: Create new workspace
       run: |
