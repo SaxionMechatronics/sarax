@@ -24,7 +24,7 @@ jobs:
     - name: Update system
       run: |
         sudo apt update
-        sudo apt ugrade
+        sudo apt upgrade
 
     - name: Install wstool
       run: |
