@@ -51,6 +51,8 @@ jobs:
     - name: Get dependencies using rosdep
       run: |
         cd ~/sarax_ws/
+        rosdep init
+        rosdep update
         rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
 
     - name: Build workspace
