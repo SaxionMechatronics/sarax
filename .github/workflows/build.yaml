@@ -55,11 +55,7 @@ jobs:
 
     - name: Check structure of workspace
       run: |
-        cd /
-        ls -l
-        cd /github/
-        ls -l
-        cd ~/
+        cd /__w/
         ls -l
         cd ~/sarax_ws/
         ls -l
