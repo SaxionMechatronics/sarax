@@ -26,11 +26,6 @@ jobs:
         . /opt/ros/$ROS_DISTRO/setup.sh
         rosdep update
 
-    - name: Update system
-      run: |
-        sudo apt update
-        sudo apt upgrade
-
     - name: Install build dependencies
       run: |
         pip install scipy
