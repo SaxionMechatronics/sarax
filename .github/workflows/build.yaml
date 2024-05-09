@@ -24,7 +24,7 @@ jobs:
     - name: Perform rosdep
       run: |
         . /opt/ros/$ROS_DISTRO/setup.sh
-        sudo rosdep init
+        rosdep update
 
     # - name: Update system
     #   run: |
