@@ -48,10 +48,15 @@ jobs:
         catkin init
         wstool init src
 
-    - name: Clone Sarax project
-      run: |
-        cd ~/sarax_ws/src
-        git clone https://github.com/SaxionMechatronics/sarax.git
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        path: "~/sarax_ws/src"
+    
+    # - name: Clone Sarax project
+    #   run: |
+    #     cd ~/sarax_ws/src
+    #     git clone https://github.com/SaxionMechatronics/sarax.git
 
     - name: Get dependencies using rosdep
       run: |
