@@ -1,18 +1,31 @@
 name: Publish docker image as package
 # Uncomment when debugging
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
 # Comment when debugging
-# on:
-#   workflow_run:
-#     workflows: [Setup and build packages]
-#     types: [completed]
+on:
+  workflow_run:
+    workflows: [Setup and build packages, Build SITL on PX4]
+    types: [completed]
 
 jobs:
+  on-success:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - run: echo 'The build workflows have passed'
+  
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The build workflows have failed'
+
   publish_package:
+    needs: on-success             # Uncomment when on default branch (main)
     runs-on: ubuntu-latest
     steps:
       
