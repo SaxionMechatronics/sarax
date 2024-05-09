@@ -1,4 +1,4 @@
-![Build Workflow](https://github.com/Arief-AK/sarax/actions/workflows/build.yaml/badge.svg) ![PX4 Build Workflow](https://github.com/Arief-AK/sarax/actions/workflows/sitl_build.yaml/badge.svg)
+![Build Workflow](https://github.com/Arief-AK/sarax/actions/workflows/build.yaml/badge.svg) ![PX4 Build Workflow](https://github.com/Arief-AK/sarax/actions/workflows/sitl_build.yaml/badge.svg) ![GHCR Package Publishing](https://github.com/Arief-AK/sarax/actions/workflows/publish_docker_package.yaml/badge.svg)
 
 # Sarax: An Open-Source Software/Hardware Framework for Aerial Manipulators
 
