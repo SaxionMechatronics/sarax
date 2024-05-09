@@ -7,7 +7,6 @@ on:
 
 env:
   USER: github.actor
-  WORKSPACE: github.workspace
 
 jobs:
   build:
@@ -32,10 +31,10 @@ jobs:
     #     sudo apt update
     #     sudo apt upgrade
 
-    - name: Install build dependencies
-      run: |
-        pip install scipy
-        pip install -U wstool
+    # - name: Install build dependencies
+    #   run: |
+    #     pip install scipy
+    #     pip install -U wstool
 
     - name: Create new workspace
       run: |
@@ -48,32 +47,12 @@ jobs:
     #     . /opt/ros/$ROS_DISTRO/setup.sh
     #     catkin init
     #     wstool init src
-
-    - name: Checkout Repository
-      uses: actions/checkout@v4
-      with:
-        path: "~/sarax_ws/src"
-
-    - name: Check structure of workspace
-      run: |
-        cd $WORKSPACE
-        ls -l
-        cd /__w/
-        ls -l
-        cd /__w/sarax/
-        ls -l
-
-    - name: Move the cloned repo
-      run: |
-        cd /__w/
-        mv sarax ~/sarax_ws/src/
-        cd ~/sarax_ws/src/
-        ls -l
     
-    # - name: Clone Sarax project
-    #   run: |
-    #     cd ~/sarax_ws/src
-    #     git clone https://github.com/SaxionMechatronics/sarax.git
+    - name: Clone Sarax project
+      run: |
+        cd ~/sarax_ws/src
+        git clone ${{ github.repositoryUrl }}
+        ls -l
 
     # - name: Get dependencies using rosdep
     #   run: |
