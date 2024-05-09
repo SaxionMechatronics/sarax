@@ -51,7 +51,7 @@ jobs:
     - name: Clone Sarax project
       run: |
         cd ~/sarax_ws/src
-        git clone ${{ github.repositoryUrl }}
+        git clone ${{ github.server_url }}/${{ github.repository }}.git
         ls -l
 
     # - name: Get dependencies using rosdep
