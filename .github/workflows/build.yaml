@@ -55,6 +55,8 @@ jobs:
 
     - name: Check structure of workspace
       run: |
+        cd /
+        ls -l
         cd ~/
         ls -l
         cd ~/sarax_ws/
