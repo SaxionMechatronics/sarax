@@ -26,7 +26,6 @@ on:
 
 jobs:
   build:
-    needs: 
     runs-on: ubuntu-latest
     container:
       image: px4io/px4-dev-ros-noetic:latest
