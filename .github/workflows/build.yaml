@@ -21,6 +21,11 @@ jobs:
         export
         ulimit -a
 
+    - name: Perform rosdep
+      run: |
+        . /opt/ros/$ROS_DISTRO/setup.sh
+        sudo rosdep init && sudo rosdep update
+
     # - name: Update system
     #   run: |
     #     sudo apt update
@@ -51,7 +56,7 @@ jobs:
     - name: Get dependencies using rosdep
       run: |
         cd ~/sarax_ws/
-        rosdep init
+        . /opt/ros/$ROS_DISTRO/setup.sh
         rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
 
     - name: Build workspace
