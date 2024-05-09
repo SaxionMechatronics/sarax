@@ -1,0 +1,62 @@
+name: Setup and build packages
+on:
+  push:
+    branches:
+      - main
+      - formatting
+
+env:
+  USER: github.actor
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: px4io/px4-dev-ros-noetic:latest
+      options: --privileged --ulimit core=-1 --security-opt seccomp=unconfined
+    steps:
+
+    - name: Check environment
+      run: |
+        export
+        ulimit -a
+
+    - name: Perform rosdep
+      run: |
+        . /opt/ros/$ROS_DISTRO/setup.sh
+        rosdep update
+
+    - name: Install build dependencies
+      run: |
+        pip install scipy
+        pip install -U wstool
+
+    - name: Create new workspace
+      run: |
+        cd ~
+        mkdir -p sarax_ws/src
+
+    - name: Initialise catkin workspace
+      run: |
+        cd ~/sarax_ws/
+        . /opt/ros/$ROS_DISTRO/setup.sh
+        catkin init
+        wstool init src
+    
+    - name: Clone Sarax project
+      run: |
+        cd ~/sarax_ws/src
+        git clone ${{ github.server_url }}/${{ github.repository }}.git
+        ls -l
+
+    - name: Get dependencies using rosdep
+      run: |
+        cd ~/sarax_ws/
+        . /opt/ros/$ROS_DISTRO/setup.sh
+        rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
+
+    - name: Build workspace
+      run: |
+        cd ~/sarax_ws/
+        . /opt/ros/$ROS_DISTRO/setup.sh
+        catkin build
