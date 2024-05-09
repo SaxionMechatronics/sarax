@@ -52,20 +52,29 @@ jobs:
       uses: actions/checkout@v4
       with:
         path: "~/sarax_ws/src"
+
+    - name: Check structure of workspace
+      run: |
+        cd ~/
+        ls -l
+        cd ~/sarax_ws/
+        ls -l
+        cd ~/sarax_ws/src/
+        ls -l
     
     # - name: Clone Sarax project
     #   run: |
     #     cd ~/sarax_ws/src
     #     git clone https://github.com/SaxionMechatronics/sarax.git
 
-    - name: Get dependencies using rosdep
-      run: |
-        cd ~/sarax_ws/
-        . /opt/ros/$ROS_DISTRO/setup.sh
-        rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
+    # - name: Get dependencies using rosdep
+    #   run: |
+    #     cd ~/sarax_ws/
+    #     . /opt/ros/$ROS_DISTRO/setup.sh
+    #     rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
 
-    - name: Build workspace
-      run: |
-        cd ~/sarax_ws/
-        . /opt/ros/$ROS_DISTRO/setup.sh
-        catkin build
+    # - name: Build workspace
+    #   run: |
+    #     cd ~/sarax_ws/
+    #     . /opt/ros/$ROS_DISTRO/setup.sh
+    #     catkin build
