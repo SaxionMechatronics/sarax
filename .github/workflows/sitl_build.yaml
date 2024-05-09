@@ -1,31 +1,32 @@
 name: Build SITL on PX4
-on:
-  push:
-    branches:
-      - main
-      - formatting
-
+# Uncomment when debugging
 # on:
-#   workflow_run:
-#     workflows: [Setup and build packages]
-#     types: [completed]
-#     branches: [formatting]
+#   push:
+#     branches:
+#       - main
+#       - formatting
 
-# jobs:
-#   on-success:
-#     runs-on: ubuntu-latest
-#     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-#     steps:
-#       - run: echo 'The Setup and build packages workflow passed'
-  
-#   on-failure:
-#     runs-on: ubuntu-latest
-#     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-#     steps:
-#       - run: echo 'The Setup and build packages workflow failed'
+# Comment when debugging
+on:
+  workflow_run:
+    workflows: [Setup and build packages]
+    types: [completed]
 
 jobs:
+  on-success:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow passed'
+  
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow failed'
+
   build:
+    needs: on-success             # Uncomment when on default branch (main)
     runs-on: ubuntu-latest
     container:
       image: px4io/px4-dev-ros-noetic:latest
