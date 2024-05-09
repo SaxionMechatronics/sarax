@@ -1,23 +1,30 @@
 name: Build SITL on PX4
 on:
-  workflow_run:
-    workflows: [Setup and build packages]
-    types: [completed]
-    branches: [formatting]
+  push:
+    branches:
+      - main
+      - formatting
+
+# on:
+#   workflow_run:
+#     workflows: [Setup and build packages]
+#     types: [completed]
+#     branches: [formatting]
+
+# jobs:
+#   on-success:
+#     runs-on: ubuntu-latest
+#     if: ${{ github.event.workflow_run.conclusion == 'success' }}
+#     steps:
+#       - run: echo 'The Setup and build packages workflow passed'
+  
+#   on-failure:
+#     runs-on: ubuntu-latest
+#     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+#     steps:
+#       - run: echo 'The Setup and build packages workflow failed'
 
 jobs:
-  on-success:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-      - run: echo 'The Setup and build packages workflow passed'
-  
-  on-failure:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-    steps:
-      - run: echo 'The Setup and build packages workflow failed'
-  
   build:
     needs: 
     runs-on: ubuntu-latest
