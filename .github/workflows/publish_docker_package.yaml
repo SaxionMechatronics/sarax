@@ -29,8 +29,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build --no-cache . -t ghcr.io/${{ github.actor }}/sarax-framework:latest
+          docker build --no-cache . -t ghcr.io/arief-ak/sarax-framework:latest
 
       - name: Publish image
         run: |
-          docker push ghcr.io/${{ github.actor }}/sarax-framework:latest
+          docker push ghcr.io/arief-ak/sarax-framework:latest
