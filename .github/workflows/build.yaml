@@ -7,6 +7,7 @@ on:
 
 env:
   USER: github.actor
+  WORKSPACE: github.workspace
 
 jobs:
   build:
@@ -55,6 +56,8 @@ jobs:
 
     - name: Check structure of workspace
       run: |
+        cd $WORKSPACE
+        ls -l
         cd /__w/
         ls -l
         cd /__w/sarax/
