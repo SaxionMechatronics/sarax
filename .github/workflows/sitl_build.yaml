@@ -1,0 +1,37 @@
+name: Build SITL on PX4
+on:
+  workflow_run:
+    workflows: [Setup and build packages]
+    types: [completed]
+    branches: [formatting]
+
+jobs:
+  on-success:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow passed'
+  
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow failed'
+  
+  build:
+    needs: 
+    runs-on: ubuntu-latest
+    container:
+      image: px4io/px4-dev-ros-noetic:latest
+      options: --privileged --ulimit core=-1 --security-opt seccomp=unconfined
+    steps:
+
+    - name: Clone the Sarax branch from PX4 repo
+      run: |
+        cd ~
+        git clone --recursive -b v1.13.2-sarax-sim https://github.com/SaxionMechatronics/PX4-Autopilot.git
+    
+    - name: Run sarax SITL
+      run: |
+        cd ~/PX4-Autopilot/
+        ./sarax_plus_sitl.bash
