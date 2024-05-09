@@ -57,6 +57,8 @@ jobs:
       run: |
         cd /
         ls -l
+        cd /github/
+        ls -l
         cd ~/
         ls -l
         cd ~/sarax_ws/
