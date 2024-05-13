@@ -64,6 +64,9 @@ cd $SARAX_WS/PX4-Autopilot && ./sarax_plus_sitl.bash
 roslaunch m4e_mani_base sarax_plus_sitl.launch
 ```
 
+## Docker container
+This repository produces a Docker container in the form of a GitHub [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
+
 ## License
 
 This project is released under the [BSD 3-Clause](./LICENSE.txt). Feel free to use, modify, and distribute the software and hardware designs in accordance with the terms of the license.
