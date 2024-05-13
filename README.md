@@ -36,12 +36,16 @@ pip install scipy
 pip install -U wstool
 ```
 
-
+Create the workspace, clone the necessary repositories, and build
 ```shell
 mkdir -p sarax_ws/src && cd sarax_ws/ && catkin init && wstool init src
 git clone --recursive -b v1.13.2-sarax-sim https://github.com/SaxionMechatronics/PX4-Autopilot.git
-cd src && git clone https://github.com/SaxionMechatronics/sarax.git && catkin build
-cd .. && echo "export SARAX_WS=$PWD" >> ~/.bashrc && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
+cd src && git clone https://github.com/SaxionMechatronics/sarax.git && cd .. && rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy" && catkin build
+```
+
+Export the sources into `.bashrc`
+```shell
+echo "export SARAX_WS=$PWD" >> ~/.bashrc && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
 ```
 
 ### Run the Simulation
