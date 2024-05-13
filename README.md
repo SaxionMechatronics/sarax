@@ -25,6 +25,17 @@ Welcome to the Sarax project! Sarax aims to develop an open-source aerial manipu
 - [QGroundControl](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html#ubuntu) is installed.
 
 ### Setup software
+Update the ROS dependencies using `rosdep`
+```shell
+rosdep update
+```
+
+Install build dependencies using `pip`
+```shell
+pip install scipy
+pip install -U wstool
+```
+
 
 ```shell
 mkdir -p sarax_ws/src && cd sarax_ws/ && catkin init && wstool init src
