@@ -51,11 +51,11 @@ jobs:
         git clone ${{ github.server_url }}/${{ github.repository }}.git
         ls -l
 
-    # - name: Get dependencies using rosdep
-    #   run: |
-    #     cd ~/sarax_ws/
-    #     . /opt/ros/$ROS_DISTRO/setup.sh
-    #     rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
+    - name: Get dependencies using rosdep
+      run: |
+        cd ~/sarax_ws/
+        . /opt/ros/$ROS_DISTRO/setup.sh
+        rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
 
     - name: Build workspace
       if: always()
