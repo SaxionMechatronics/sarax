@@ -8,7 +8,7 @@ name: Publish docker image as package
 # Comment when debugging
 on:
   workflow_run:
-    workflows: [Setup and build packages, Build SITL on PX4]
+    workflows: [Setup and build packages]
     types: [completed]
 
 jobs:
