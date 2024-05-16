@@ -251,24 +251,24 @@ To run Sarax, we need to connect the `QGroundControl` application to the simulat
 >       Finding the correct UDP port
 >   </summary>
 >
-    >   1. Head to the build directory for Sarax
-    >```shell
-    >cd ~/sarax_ws/PX4-Autopilot/build/px4_sitl_nolockstep/etc/>init.d-posix
-    >```
+>   1. Head to the build directory for Sarax
+>   ```shell
+>   cd ~/sarax_ws/PX4-Autopilot/build/px4_sitl_nolockstep/etc/>init.d-posix
+>   ```
 >
-    >   2. Run the following command to find the >`udp_gcs_port_local` for port-forwarding
-    >```shell
-    >grep "udp_gcs_port_local=" px4-rc.mavlink | cut -d'=' -f2
-    >```
+>   2. Run the following command to find the `udp_gcs_port_local` for port-forwarding
+>   ```shell
+>   grep "udp_gcs_port_local=" px4-rc.mavlink | cut -d'=' -f2
+>   ```
 >
-    >The output should look (similar) to this
-    >```shell
-    >$((18570+px4_instance)) # We only need the number!
-    >```
+>The output should look (similar) to this
+>   ```shell
+>   $((18570+px4_instance)) # We only need the number!
+>   ```
 >
-    >Now we know that port `18570` needs to be forwarded.
+>Now we know that port `18570` needs to be forwarded.
 >
->   Since we already created the existing docker container with a port associated to it. We will create a new image from the existing container. This way we don't lose our work.   
+>Since we already created the existing docker container with a port associated to it. We will create a new image from the existing container. This way we don't lose our work.   
 >
 >   3. Exit the current container
 >   ```shell
