@@ -21,9 +21,17 @@ docker run -it --name sarax_container --env="DISPLAY=$DISPLAY" \
 ```
 
 > [!TIP]\
-> An example would be\
-> ```docker run --name sarax_container -it --env="DISPLAY=$DISPLAY" --env="QT_X11_NO_MITSHM=1" -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env="XAUTHORITY=$XAUTH" -v $XAUTH:$XAUTH -p 18570:18570/udp --privileged 52e bash```
-
+>Find the appropriate image, in this case the image with prefix ID `0a5` is used.
+>   ```shell
+>    arief@ARIEF-ROG-G531:~$ docker image list
+>    REPOSITORY                         TAG          IMAGE ID       CREATED        SIZE
+>    new_sarax_image                    latest       0a5fe50c2e1a   21 hours ago   16.7GB
+>   ```
+>
+>An example command would be
+>   ```shell
+>    docker run --name sarax_container -it --env="DISPLAY=$DISPLAY" --env="QT_X11_NO_MITSHM=1" -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env="XAUTHORITY=$XAUTH" -v $XAUTH:$XAUTH -p 18570:18570/udp --privileged 0a5 bash
+>    ```
 ## ROS Noetic
 The Docker container already contains ROS Noetic. We can ensure that this is the case by running the following commands.
 
@@ -313,7 +321,7 @@ To run Sarax, we need to connect the `QGroundControl` application to the simulat
 cd $SARAX_WS/PX4-Autopilot/ && ./sarax_plus_sitl.bash
 ```
 
-4. Start another Docker container terminal
+4. In another terminal, start another Docker container terminal
 ```shell
 docker exec -it sarax_container_2 bash
 ```
