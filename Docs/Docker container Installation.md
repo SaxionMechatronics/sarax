@@ -1,5 +1,75 @@
 # Dry-run Docker installation
 
+## Installing NVIDIA drivers (Host)
+If you are running on Ubuntu. Install the base installer.
+```shell
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin && sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600 && wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda-repo-ubuntu2004-12-4-local_12.4.1-550.54.15-1_amd64.deb && sudo dpkg -i cuda-repo-ubuntu2004-12-4-local_12.4.1-550.54.15-1_amd64.deb && sudo cp /var/cuda-repo-ubuntu2004-12-4-local/cuda-*-keyring.gpg /usr/share/keyrings/ && sudo apt-get update && sudo apt-get -y install cuda-toolkit-12-4
+```
+
+Now we can install the Driver
+```shell
+sudo apt-get install -y cuda-drivers
+```
+
+Install the open kernel module
+```shell
+sudo apt-get install -y nvidia-driver-550-open && sudo apt-get install -y cuda-drivers-550
+```
+
+If you are running on WSL2
+```shell
+wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin && sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600 && wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda-repo-wsl-ubuntu-12-4-local_12.4.1-1_amd64.deb && sudo dpkg -i cuda-repo-wsl-ubuntu-12-4-local_12.4.1-1_amd64.deb && sudo cp /var/cuda-repo-wsl-ubuntu-12-4-local/cuda-*-keyring.gpg /usr/share/keyrings/ && sudo apt-get update && sudo apt-get -y install cuda-toolkit-12-4
+```
+
+## Installing NVIDIA Container Toolkit (Host)
+```shell
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+  && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+```
+
+Update the packages
+```shell
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+```
+### Root mode
+Configuring the Docker
+```shell
+sudo nvidia-ctk runtime configure --runtime=docker
+```
+
+Restart the Docker Daemon
+```shell
+sudo systemctl restart docker
+```
+
+### Rootless mode
+```shell
+nvidia-ctk runtime configure --runtime=docker --config=$HOME/.config/docker/daemon.json
+```
+
+Restart the Docker daemon
+```shell
+systemctl --user restart docker
+```
+
+Perform some configuration
+```shell
+sudo nvidia-ctk config --set nvidia-container-cli.no-cgroups --in-place
+```
+
+### Running a sample workload
+```shell
+sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+```
+
+## Pulling the Docker image
+To download the Docker image, pull the image from `px4io`
+```shell
+docker pull px4io/px4-dev-ros-noetic
+```
+
 ## Running the Docker container
 To ensure full functionality of the Docker container, we will (create) and run the container with some privileges.
 
@@ -21,17 +91,114 @@ docker run -it --name sarax_container --env="DISPLAY=$DISPLAY" \
 ```
 
 > [!TIP]\
->Find the appropriate image, in this case the image with prefix ID `0a5` is used.
+>Find the appropriate image, in this case the image with prefix ID `52e` is used.
 >   ```shell
 >    arief@ARIEF-ROG-G531:~$ docker image list
 >    REPOSITORY                         TAG          IMAGE ID       CREATED        SIZE
->    new_sarax_image                    latest       0a5fe50c2e1a   21 hours ago   16.7GB
+>    px4io/px4-dev-ros-noetic           latest       52e98aa51240   6 weeks ago    4.79GB
 >   ```
 >
 >An example command would be
 >   ```shell
->    docker run --name sarax_container -it --env="DISPLAY=$DISPLAY" --env="QT_X11_NO_MITSHM=1" -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env="XAUTHORITY=$XAUTH" -v $XAUTH:$XAUTH -p 18570:18570/udp --privileged 0a5 bash
+>    docker run --name sarax_container -it --env="DISPLAY=$DISPLAY" --env="QT_X11_NO_MITSHM=1" -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env="XAUTHORITY=$XAUTH" -v $XAUTH:$XAUTH -p 18570:18570/udp --privileged 52e bash
 >    ```
+
+```shell
+sudo apt get nano && nano ~/.bashrc
+```
+
+Place this in the bottom of the file
+```shell
+export LIBVA_DRIVER_NAME=d3d12
+export LD_LIBRARY_PATH=/usr/lib/wsl/lib
+```
+
+Source the `.bashrc`
+```shell
+source ~/.bashrc
+```
+
+Update the graphics library
+```shell
+sudo apt update && sudo apt-get install vainfo mesa-va-drives -y
+```
+
+Check the OpenGL info with `glxinfo`
+```shell
+glxinfo -B
+```
+
+The output should be like this
+```shell
+name of display: :0
+display: :0  screen: 0
+direct rendering: Yes               # <-- THIS IS IMPORTANT
+Extended renderer info (GLX_MESA_query_renderer):
+    Vendor: Microsoft Corporation (0xffffffff)
+    Device: D3D12 (NVIDIA GeForce GTX 1650) (0xffffffff)
+    Version: 21.0.3
+    Accelerated: yes
+    Video memory: 12052MB
+    Unified memory: no
+    Preferred profile: core (0x1)
+    Max core profile version: 3.3
+    Max compat profile version: 3.1
+    Max GLES1 profile version: 1.1
+    Max GLES[23] profile version: 3.0
+OpenGL vendor string: Microsoft Corporation
+OpenGL renderer string: D3D12 (NVIDIA GeForce GTX 1650)
+OpenGL core profile version string: 3.3 (Core Profile) Mesa 21.0.3
+OpenGL core profile shading language version string: 3.30
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+
+OpenGL version string: 3.1 Mesa 21.0.3
+OpenGL shading language version string: 1.40
+OpenGL context flags: (none)
+
+OpenGL ES profile version string: OpenGL ES 3.0 Mesa 21.0.3
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.00
+```
+
+Check if the dedicated graphics card can be accessed within the container
+```shell
+nvidia-smi
+```
+
+The output should look like this
+```shell
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.76.01              Driver Version: 552.44         CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GTX 1650        On  |   00000000:01:00.0  On |                  N/A |
+| N/A   43C    P8              1W /   50W |     954MiB /   4096MiB |      4%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A        25      G   /Xwayland                                   N/A      |
+|    0   N/A  N/A        35      G   /Xwayland                                   N/A      |
+|    0   N/A  N/A        36      G   /Xwayland                                   N/A      |
+|    0   N/A  N/A       442      G   /Xwayland                                   N/A      |
+|    0   N/A  N/A       920      G   /gzserver                                   N/A      |
++-----------------------------------------------------------------------------------------+
+```
+
+We can also test with Gazebo
+```shell
+gazebo
+```
+
+The following condition should be true `fps > 30`
+
 ## ROS Noetic
 The Docker container already contains ROS Noetic. We can ensure that this is the case by running the following commands.
 
@@ -48,9 +215,33 @@ echo $ROS_DISTRO
 ## Installing PX4
 Following the installation from the [PX4 guide](https://docs.px4.io/main/en/dev_setup/building_px4.html).
 
-1. Download the PX4 source code
+### Dependency Installation
+To keep things lightweight, we will only be installing the dependencies of PX4.
+
+1. Fetch all the required setup files and run
 ```shell
-git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/ubuntu.sh && wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/requirements.txt && chmod +x ubuntu.sh && ./ubuntu.sh
+```
+
+2. Exit the container
+```shell
+exit
+```
+
+3. Restart the container
+```shell
+docker restart sarax_container
+```
+
+4. Enter the container
+```shell
+docker exec -it sarax_container bash
+```
+
+### Source Installation
+1. Head to workspace area and download the PX4 source code
+```shell
+cd ~ && git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 ```
 
 2. Source the `setup.bash` for Ubuntu to install `PX4` dependencies
@@ -64,6 +255,27 @@ cd ~/PX4-Autopilot/ && make px4_sitl gazebo-classic
 ```
 
 ## Installing MAVROS
+### Binary installation
+Install using binaries
+```shell
+sudo apt-get install ros-$ROS_DISTRO-mavros ros-$ROS_DISTRO-mavros-extras
+```
+
+Install Geographic datasets
+```shell
+wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh && chmod +x install_geographiclib_datasets.sh && ./install_geographiclib_datasets.sh
+```
+Install ROS noetic building dependencies
+```shell
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
+```
+
+Install the catkin dependencies
+```shell
+sudo apt install python3-catkin-tools python3-rosinstall-generator python3-osrf-pycommon -y
+```
+
+### Source installation
 1. Install ROS noetic building dependencies
 ```shell
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
@@ -202,9 +414,14 @@ git clone --recursive -b v1.13.2-sarax-sim https://github.com/SaxionMechatronics
 cd src && git clone https://github.com/SaxionMechatronics/sarax.git
 ```
 
-4. Build the workspace
+4. Install Sarax dependencies
 ```shell
-cd .. && catkin build
+cd .. && source /opt/ros/noetic/setup.bash  && rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy"
+```
+
+5. Build the workspace
+```shell
+cd ~/sarax_ws/ && catkin build
 ```
 
 > [!WARNING]\
@@ -239,14 +456,14 @@ cd .. && catkin build
 >
 ></details>
 
-5. Create the `$SARAX_WS` variable, source the `setup.bash` and append it into `.bashrc`
+6. Create the `$SARAX_WS` variable, source the `setup.bash` and append it into `.bashrc`
 ```shell
-echo "export SARAX_WS=$PWD" >> ~/.bashrc && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
+echo "export SARAX_WS=$PWD" >> ~/.bashrc && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc && source ~/.bashrc
 ```
 
-6. Install [`rqt`](https://wiki.ros.org/rqt/UserGuide/Install/Groovy) dependency to run the Sarax GUI properly
+7. Install [`rqt`](https://wiki.ros.org/rqt/UserGuide/Install/Groovy) dependency to run the Sarax GUI properly
 ```shell
-sudo apt-get install ros-noetic-rqt ros-noetic-rqt-common-plugins
+sudo apt-get install ros-noetic-rqt ros-noetic-rqt-common-plugins -y
 ```
 
 ## Running Sarax
@@ -332,3 +549,66 @@ roslaunch m4e_mani_base sarax_plus_sitl.launch
 ```
 
 6. Connect to the new `Docker Container` comm link in QGroundControl
+
+## Running on Linux
+To run the Docker container with GPU acceleration on a `Linux` machine. Proceed with the following procedure.
+
+1. Find the correct image
+```shell
+docker ps
+```
+
+The output should be similar to this
+```shell
+REPOSITORY                         TAG          IMAGE ID       CREATED         SIZE
+sarax_framework_gpu_accelerated    latest       c43261cdbb5d   9 minutes ago   11.2GB
+```
+
+2. Run the container and name it `sarax_container`
+```shell
+# TBA
+```
+
+## Running on WSL2
+To run the Docker container with GPU acceleration on a `Windows` machine with `WSL2` enabled. Proceed with the following procedure.
+
+### Docker Desktop
+To provide access to the GPU, open Docker Desktop and head to `Settings->Docker Engine`. In the given code snippet, replace the following the existing script with the following.
+
+> [!TIP]\
+> Make sure to create a backup of the code snippet, just in case!
+
+```JSON
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "runtimes": {
+    "nvidia": {
+      "path": "/usr/bin/nvidia-container-runtime",
+      "runtimeArgs": []
+    }
+  }
+}
+```
+
+1. Find the correct image
+```shell
+docker ps
+```
+
+The output should be similar to this
+```shell
+REPOSITORY                         TAG          IMAGE ID       CREATED         SIZE
+sarax_framework_gpu_accelerated    latest       c43261cdbb5d   9 minutes ago   11.2GB
+```
+
+2. Run the container and name it `sarax_container`
+```shell
+sudo docker run --name sarax_container -it -v /tmp/.X11-unix:/tmp/.X11-unix -v /mnt/wslg:/mnt/wslg -v /usr/lib/wsl:/usr/lib
+/wsl --device=/dev/dxg -e DISPLAY=$DISPLAY --device /dev/dri/card0 --device /dev/dri/renderD128 -e WAYLAND_DISPLAY=$WAYLAND_DISPLAY -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR -e PULSE_SERVER=$PULSE_SERVER --gpus all c43 bash
+```
