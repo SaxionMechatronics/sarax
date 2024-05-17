@@ -566,7 +566,14 @@ sarax_framework_gpu_accelerated    latest       c43261cdbb5d   9 minutes ago   1
 
 2. Run the container and name it `sarax_container`
 ```shell
-# TBA
+docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_CAPABILITIES=all -it  -v /tmp/.X11-unix:/tmp/.X11-unix \
+           -e "DISPLAY=$DISPLAY" \
+           -e "QT_X11_NO_MITSHM=1" \
+           -e "XAUTHORITY=$XAUTH" \
+           --device /dev/dri/ \
+           -e "WAYLAND_DISPLAY=$WAYLAND_DISPLAY" -e "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR" \
+           -e "PULSE_SERVER=$PULSE_SERVER" \
+           --privileged c43 bash
 ```
 
 ## Running on WSL2
