@@ -32,5 +32,6 @@ jobs:
     
     - name: Run sarax SITL
       run: |
+        . ~/.bashrc
         cd $SARAX_WS/PX4-Autopilot/
         ./sarax_plus_sitl.bash
