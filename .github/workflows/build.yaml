@@ -23,6 +23,11 @@ jobs:
         export
         ulimit -a
 
+    - name: Update ROS dependencies
+      run: |
+        . /opt/ros/$ROS_DISTRO/setup.sh
+        rosdep update
+
     - name: Create dependency workspace
       run: |
         mkdir -p ~/dependencies
