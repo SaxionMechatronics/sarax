@@ -23,15 +23,24 @@ jobs:
         export
         ulimit -a
 
-    - name: Perform rosdep
+    - name: Install PX4 Dependencies
       run: |
-        . /opt/ros/$ROS_DISTRO/setup.sh
-        rosdep update
+        wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/ubuntu.sh
+        wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/requirements.txt
+        chmod +x ubuntu.sh && ./ubuntu.sh
 
-    - name: Install build dependencies
+    - name: Install MAVROS using binaries
       run: |
+        sudo apt-get install ros-$ROS_DISTRO-mavros ros-$ROS_DISTRO-mavros-extras
+        wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+        chmod +x install_geographiclib_datasets.sh && ./install_geographiclib_datasets.sh
+
+    - name: Install ROS building dependencies
+      run: |
+        sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+        sudo apt install python3-catkin-tools python3-rosinstall-generator python3-osrf-pycommon
+        sudo apt-get install ros-$ROS_DISTRO-rqt ros-$ROS_DISTRO-rqt-common-plugins
         pip install scipy
-        pip install -U wstool
 
     - name: Create new workspace
       run: |

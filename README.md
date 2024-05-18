@@ -25,17 +25,6 @@ Welcome to the Sarax project! Sarax aims to develop an open-source aerial manipu
 - [QGroundControl](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html#ubuntu) is installed.
 
 ### Setup software
-Update the ROS dependencies using `rosdep`
-```shell
-rosdep update
-```
-
-Install build dependencies using `pip`
-```shell
-pip install scipy
-pip install -U wstool
-```
-
 Create the workspace, clone the necessary repositories, and build
 ```shell
 mkdir -p sarax_ws/src && cd sarax_ws/ && catkin init && wstool init src
@@ -64,8 +53,9 @@ cd $SARAX_WS/PX4-Autopilot && ./sarax_plus_sitl.bash
 roslaunch m4e_mani_base sarax_plus_sitl.launch
 ```
 
-## Docker container
-This repository produces a Docker container in the form of a GitHub [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
+>[!TIP]
+>## Docker container
+>This repository produces a Docker container in the form of a GitHub [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read >the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
 
 ## License
 
