@@ -27,7 +27,7 @@ jobs:
       run: |
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/ubuntu.sh
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/requirements.txt
-        chmod +x ubuntu.sh && ./ubuntu.sh
+        source ubuntu.sh
 
     - name: Install MAVROS using binaries
       run: |
