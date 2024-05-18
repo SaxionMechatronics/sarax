@@ -44,10 +44,10 @@ jobs:
 
     - name: Install ROS building dependencies
       run: |
-        sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-        sudo apt install python3-catkin-tools python3-rosinstall-generator python3-osrf-pycommon
-        sudo apt-get install ros-$ROS_DISTRO-rqt ros-$ROS_DISTRO-rqt-common-plugins
-        pip install scipy
+        sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
+        sudo apt install python3-catkin-tools python3-rosinstall-generator python3-osrf-pycommon -y
+        sudo apt-get install ros-$ROS_DISTRO-rqt ros-$ROS_DISTRO-rqt-common-plugins -y
+        pip install scipy -y
 
     - name: Create new workspace
       run: |
