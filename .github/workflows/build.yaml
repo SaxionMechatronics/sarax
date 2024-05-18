@@ -33,7 +33,6 @@ jobs:
         cd ~/dependencies
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/ubuntu.sh
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/requirements.txt
-        ls -l
         chmod +x ubuntu.sh && . ubuntu.sh
 
     - name: Install MAVROS using binaries
