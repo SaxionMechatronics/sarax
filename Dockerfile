@@ -16,9 +16,27 @@ RUN echo "Use rosdep to update dependencies" \
     && . /opt/ros/$ROS_DISTRO/setup.sh \
     && rosdep update
 
-# Install build dependencies
-RUN pip install scipy \
-    && pip install -U wstool
+# Create a dependency workspace
+RUN mkdir -p ~/dependencies \
+    && cd ~/dependencies
+
+# Install PX4 Dependencies
+RUN cd ~/dependencies \
+    && wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/ubuntu.sh \
+    && wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/requirements.txt \
+    && chmod +x ~/dependencies/ubuntu.sh && . ~/dependencies/ubuntu.sh
+
+# Install MAVROS using binaries
+RUN cd ~/dependencies \
+    && sudo apt-get install ros-$ROS_DISTRO-mavros ros-$ROS_DISTRO-mavros-extras -y \
+    && wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh \
+    && chmod +x install_geographiclib_datasets.sh && ./install_geographiclib_datasets.sh
+
+# Install ROS build dependencies
+RUN sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y \
+    && sudo apt install python3-catkin-tools python3-rosinstall-generator python3-osrf-pycommon -y \
+    && sudo apt-get install ros-$ROS_DISTRO-rqt ros-$ROS_DISTRO-rqt-common-plugins -y \
+    && pip install scipy
 
 # Create a workspace
 RUN echo "Creating sarax workspace" \
