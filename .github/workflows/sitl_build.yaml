@@ -1,13 +1,13 @@
 name: Sarax PX4 SITL
 
 # To manually run the workflow on GH, use the workflow_dispatch event trigger
-#on: workflow_dispatch
+on: workflow_dispatch
 
 # To automatically run depending on the status of the build.yaml workflow, use workflow_run event trigger
-on:
-  workflow_run:
-    workflows: [Publish docker image as package]
-    types: [completed]
+# on:
+#   workflow_run:
+#     workflows: [Publish docker image as package]
+#     types: [completed]
 
 jobs:
   # on-success:
