@@ -33,7 +33,7 @@ jobs:
         cd ~/dependencies
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/ubuntu.sh
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/requirements.txt
-        chmod +x ubuntu.sh && . ubuntu.sh
+        chmod +x ~/dependencies/ubuntu.sh && . ~/dependencies/ubuntu.sh/ubuntu.sh
 
     - name: Install MAVROS using binaries
       run: |
@@ -41,7 +41,7 @@ jobs:
         sudo apt-get install ros-$ROS_DISTRO-mavros ros-$ROS_DISTRO-mavros-extras
         wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
         ls -l
-        chmod +x install_geographiclib_datasets.sh && . install_geographiclib_datasets.sh
+        chmod +x ~/dependencies/install_geographiclib_datasets.sh && . ~/dependencies/install_geographiclib_datasets.sh
 
     - name: Install ROS building dependencies
       run: |
