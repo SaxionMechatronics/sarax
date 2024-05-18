@@ -30,10 +30,11 @@ jobs:
     
     - name: Install PX4 Dependencies
       run: |
+        mkdir -p ~/dependencies
         cd ~/dependencies
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/ubuntu.sh
         wget https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/Tools/setup/requirements.txt
-        chmod +x ~/dependencies/ubuntu.sh && . ~/dependencies/ubuntu.sh/ubuntu.sh
+        chmod +x ~/dependencies/ubuntu.sh && . ~/dependencies/ubuntu.sh
 
     - name: Install MAVROS using binaries
       run: |
