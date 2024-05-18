@@ -108,6 +108,29 @@ sudo nvidia-ctk config --set nvidia-container-cli.no-cgroups --in-place
 ```
 
 ### Running a sample workload
+To test if a container is running with accellerated GPU from the host system, we can run a sample workload to test compatibility.
 ```shell
 sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+```
+
+In the docker container, the output should be similar to this
+```shell
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GTX 1650        Off |   00000000:01:00.0  On |                  N/A |
+| N/A   37C    P8              3W /   50W |     710MiB /   4096MiB |     34%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
++-----------------------------------------------------------------------------------------+
 ```

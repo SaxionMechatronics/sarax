@@ -1,7 +1,4 @@
 # Sarax on Docker container
-> [!CAUTION]\
-> The purpose of the Docker container is to provide a portable and isolated environment for testing. It is not advised for production use-cases.
-
 >[!NOTE]
 >## Prerequisites
 >This guide assumes the following:
@@ -38,8 +35,8 @@ docker image ls
 The output should be similar to this
 ```shell
 arief@ARIEF-ROG-G531:~$ docker image list
-REPOSITORY                         TAG          IMAGE ID       CREATED        SIZE
-px4io/px4-dev-ros-noetic           latest       52e98aa51240   6 weeks ago    4.79GB
+REPOSITORY                         TAG       IMAGE ID       CREATED         SIZE
+ghcr.io/arief-ak/sarax-framework   latest    233c0994f583   5 days ago      8.65GB
 ```
 
 3. Create the container with the name `sarax_container` and run it with the necessary privileges for running GUI applications.
@@ -52,7 +49,22 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
            -e "WAYLAND_DISPLAY=$WAYLAND_DISPLAY" -e "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR" \
            -e "PULSE_SERVER=$PULSE_SERVER" \
            -p 18570:18570/udp \
-           --privileged 52e bash
+           --privileged 233 bash
+```
+
+4. Head to the workspace and run the following bash file
+```shell
+cd $SARAX_WS/PX4-Autopilot && ./sarax_plus_sitl.bash
+```
+
+5. In another terminal, run another instance of the docker container
+```shell
+docker exec -it sarax_container bash
+```
+
+6. Run the `sarax` framework
+```shell
+roslaunch m4e_mani_base sarax_plus_sitl.launch
 ```
 
 ![alt text](images/Gazebo.png)
