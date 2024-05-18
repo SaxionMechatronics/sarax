@@ -1,12 +1,13 @@
-name: Build SITL on PX4
+name: Sarax PX4 SITL
+
 # To manually run the workflow on GH, use the workflow_dispatch event trigger
-on: workflow_dispatch
+#on: workflow_dispatch
 
 # To automatically run depending on the status of the build.yaml workflow, use workflow_run event trigger
-# on:
-#   workflow_run:
-#     workflows: [Setup and build packages]
-#     types: [completed]
+on:
+  workflow_run:
+    workflows: [Publish docker image as package]
+    types: [completed]
 
 jobs:
   # on-success:
@@ -25,16 +26,11 @@ jobs:
     #needs: on-success             # Uncomment when on default branch (main)
     runs-on: ubuntu-latest
     container:
-      image: px4io/px4-dev-ros-noetic:latest
+      image: ghcr.io/arief-ak/sarax-framework:latest
       options: --privileged --ulimit core=-1 --security-opt seccomp=unconfined
     steps:
-
-    - name: Clone the Sarax branch from PX4 repo
-      run: |
-        cd ~
-        git clone --recursive -b v1.13.2-sarax-sim https://github.com/SaxionMechatronics/PX4-Autopilot.git
     
     - name: Run sarax SITL
       run: |
-        cd ~/PX4-Autopilot/
+        cd $SARAX_WS/PX4-Autopilot/
         ./sarax_plus_sitl.bash
