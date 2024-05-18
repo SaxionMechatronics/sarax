@@ -1,29 +1,29 @@
 name: Sarax PX4 SITL
 
 # To manually run the workflow on GH, use the workflow_dispatch event trigger
-on: workflow_dispatch
+# on: workflow_dispatch
 
 # To automatically run depending on the status of the build.yaml workflow, use workflow_run event trigger
-# on:
-#   workflow_run:
-#     workflows: [Publish docker image as package]
-#     types: [completed]
+on:
+  workflow_run:
+    workflows: [Publish docker image as package]
+    types: [completed]
 
 jobs:
-  # on-success:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event.workflow_run.conclusion == 'success' }}
-  #   steps:
-  #     - run: echo 'The Setup and build packages workflow passed'
+  on-success:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow passed'
   
-  # on-failure:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-  #   steps:
-  #     - run: echo 'The Setup and build packages workflow failed'
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow failed'
 
   build:
-    #needs: on-success             # Uncomment when on default branch (main)
+    needs: on-success             # Uncomment when on default branch (main)
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/arief-ak/sarax-framework:latest
