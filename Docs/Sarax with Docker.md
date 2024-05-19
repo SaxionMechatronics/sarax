@@ -36,7 +36,7 @@ The output should be similar to this
 ```shell
 arief@ARIEF-ROG-G531:~$ docker image list
 REPOSITORY                         TAG       IMAGE ID       CREATED         SIZE
-ghcr.io/arief-ak/sarax-framework   latest    233c0994f583   5 days ago      8.65GB
+ghcr.io/arief-ak/sarax-framework   latest    020e6e5b7106   8 hours ago     7.41GB
 ```
 
 3. Create the container with the name `sarax_container` and run it with the necessary privileges for running GUI applications.
@@ -49,7 +49,7 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
            -e "WAYLAND_DISPLAY=$WAYLAND_DISPLAY" -e "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR" \
            -e "PULSE_SERVER=$PULSE_SERVER" \
            -p 18570:18570/udp \
-           --privileged 233 bash
+           --privileged 020 bash
 ```
 
 4. Head to the workspace and run the following bash file
@@ -67,4 +67,26 @@ docker exec -it sarax_container bash
 roslaunch m4e_mani_base sarax_plus_sitl.launch
 ```
 
-![alt text](images/Gazebo.png)
+Below is a screenshot of the framework without `QGroundControl` in the docker container
+![Sarax Preview](images/Sarax%20Preview.png)
+
+7. On the host machine, open `QGroundControl` and ensure that the `Virtual Joystick` setting is enabled in the `Application Settings`
+![Joystick](images/Virtual%20Joystick%20Setting.png)
+
+8. Create a new `Comm Link` in `Application Settings -> Comm Link`
+![New Comm Link](images/New%20Comm%20Link.png)
+
+9. Connect to the Comm Link by double-clicking and head back to the map view. QGroundControl should be connected to the container.
+![QGround Connected](images/QGroundControl%20Connected.png)
+
+### Getting started with Sarax GUI
+To perform a simple take-off procedure, proceed with the following commands.
+
+1. Arm the drone
+2. Switch to Offboard
+3. Set value for Takeoff to `1.5m` and press Takeoff
+
+The Sarax GUI and simulator should look like this
+![Takeoff Preview](images/Takeoff%20preview.png)
+
+Congrats, Sarax is successfully installed on the docker container.
