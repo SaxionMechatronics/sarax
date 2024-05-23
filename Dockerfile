@@ -66,6 +66,11 @@ RUN cd /home/user/sarax_ws/ \
     && . /opt/ros/$ROS_DISTRO/setup.sh \
     && catkin build
 
+# Export graphic libraries
+RUN echo "# If running on WSL2, uncomment the following lines" >> ~/.bashrc \
+    && echo "# export LD_LIBRARY_PATH=/usr/lib/wsl/lib" >> ~/.bashrc \
+    && echo "# export LIBVA_DRIVER_NAME=d3d12" >> ~/.bashrc
+
 # Export worskpace and update sourcing
 RUN cd /home/user/sarax_ws/ \
     && echo "export SARAX_WS=$PWD" >> ~/.bashrc \
