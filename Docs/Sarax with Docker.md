@@ -55,7 +55,6 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
 >### Docker Desktop
 >1. Find the correct image
 >```
->```shell
 >docker image ls
 >```
 >

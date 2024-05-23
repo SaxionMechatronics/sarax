@@ -3,6 +3,7 @@ FROM px4io/px4-dev-ros-noetic
 
 # Update the linux environment
 RUN echo "Updating environment" \
+    && sudo apt install nano -y \
     && sudo apt update -y \
     && sudo apt upgrade -y
 
