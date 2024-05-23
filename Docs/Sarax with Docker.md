@@ -13,11 +13,6 @@ This repository creates and publishes a Docker container onto the GitHub Contain
 ```shell
 docker pull ghcr.io/arief-ak/sarax-framework:latest
 ```
-<!-- ### Building the container
-Optionally, the container can be built using the [Dockerfile](../Dockerfile) in the source. This can be done after cloning the repository and building the [Dockerfile](../Dockerfile) with the command below.
-```shell
-docker build .
-``` -->
 
 ### Running the container
 To ensure full functionality of the Docker container, we will (create) and run the container with some privileges.
@@ -34,9 +29,8 @@ docker image ls
 
 The output should be similar to this
 ```shell
-arief@ARIEF-ROG-G531:~$ docker image list
-REPOSITORY                         TAG       IMAGE ID       CREATED         SIZE
-ghcr.io/arief-ak/sarax-framework   latest    020e6e5b7106   8 hours ago     7.41GB
+REPOSITORY                         TAG       IMAGE ID       CREATED       SIZE
+ghcr.io/arief-ak/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
 ```
 
 3. Create the container with the name `sarax_container` and run it with the necessary privileges for running GUI applications.
@@ -49,8 +43,33 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
            -e "WAYLAND_DISPLAY=$WAYLAND_DISPLAY" -e "XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR" \
            -e "PULSE_SERVER=$PULSE_SERVER" \
            -p 18570:18570/udp \
-           --privileged 020 bash
+           --privileged cb4 bash
 ```
+
+>[!NOTE]
+>
+>## Running on WSL2
+>To run the Docker container with GPU acceleration on a `Windows` machine with `WSL2` enabled. Proceed with the following procedure.
+><details>
+>
+>### Docker Desktop
+>1. Find the correct image
+>```
+>```shell
+>docker image ls
+>```
+>
+>The output should be similar to this
+>```shell
+>REPOSITORY                         TAG       IMAGE ID       CREATED       SIZE
+>ghcr.io/arief-ak/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
+>```
+>
+>2. Run the container from image `cb4` and name it `sarax_container`
+>```shell
+>sudo docker run --name sarax_container -it -v /tmp/.X11-unix:/tmp/.X11-unix -v /mnt/wslg:/mnt/wslg -v /usr/lib/wsl:/usr/lib/wsl --device=/dev/dxg -e DISPLAY=$DISPLAY --device /dev/dri/card0 --device /dev/dri/renderD128 -e WAYLAND_DISPLAY=$WAYLAND_DISPLAY -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR -e PULSE_SERVER=$PULSE_SERVER --gpus all cb4 bash
+>```
+></details>
 
 4. Head to the workspace and run the following bash file
 ```shell

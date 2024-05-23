@@ -1,7 +1,9 @@
 # Docker Prerequisites
-To allow effective use of the Docker container, we can utilise dedicated graphics to improve performance of GUI applications.
+This document showcases the required steps to setup the proper environment for running Docker containers.
 
 ## Installing NVIDIA drivers (Host)
+To allow effective use of the Docker container, we can utilise dedicated graphics to improve performance of GUI applications.
+
 If you are running on Ubuntu. Install NVIDIA drivers from the [PPA GPU drivers repository](https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa).
 
 1. Add the PPA repository

@@ -43,44 +43,23 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
 >## Running on WSL2
 >To run the Docker container with GPU acceleration on a `Windows` machine with `WSL2` enabled. Proceed with the following procedure.
 ><details>
+>
 >### Docker Desktop
->To provide access to the GPU, open Docker Desktop and head to `Settings->Docker Engine`. In the given code snippet, >replace the following the existing script with the following.
->
->> [!TIP]\
->> Make sure to create a backup of the code snippet, just in case!
->
->```JSON
->{
-  >"builder": {
-    >"gc": {
-      >"defaultKeepStorage": "20GB",
-      >"enabled": true
-    >}
-  >},
-  >"experimental": false,
-  >"runtimes": {
-    >"nvidia": {
-      >"path": "/usr/bin/nvidia-container-runtime",
-      >"runtimeArgs": []
-    >}
-  >}
->}
->```
->
 >1. Find the correct image
+>```
 >```shell
 >docker image ls
 >```
 >
 >The output should be similar to this
 >```shell
->REPOSITORY                         TAG          IMAGE ID       CREATED         SIZE
->sarax_framework_gpu_accelerated    latest       c43261cdbb5d   9 minutes ago   11.2GB
+>REPOSITORY                         TAG       IMAGE ID       CREATED       SIZE
+>ghcr.io/arief-ak/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
 >```
 >
->2. Run the container and name it `sarax_container`
+>2. Run the container from image `cb4` and name it `sarax_container`
 >```shell
->sudo docker run --name sarax_container -it -v /tmp/.X11-unix:/tmp/.X11-unix -v /mnt/wslg:/mnt/wslg -v /usr/lib/wsl:/usr/lib/wsl --device=/dev/dxg -e DISPLAY=$DISPLAY --device /dev/dri/card0 --device /dev/dri/renderD128 -e WAYLAND_DISPLAY=$WAYLAND_DISPLAY -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR -e PULSE_SERVER=$PULSE_SERVER --gpus all c43 bash
+>sudo docker run --name sarax_container -it -v /tmp/.X11-unix:/tmp/.X11-unix -v /mnt/wslg:/mnt/wslg -v /usr/lib/wsl:/usr/lib/wsl --device=/dev/dxg -e DISPLAY=$DISPLAY --device /dev/dri/card0 --device /dev/dri/renderD128 -e WAYLAND_DISPLAY=$WAYLAND_DISPLAY -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR -e PULSE_SERVER=$PULSE_SERVER --gpus all cb4 bash
 >```
 ></details>
 
@@ -119,7 +98,7 @@ Extended renderer info (GLX_MESA_query_renderer):
     Vendor: Microsoft Corporation (0xffffffff)
     Device: D3D12 (NVIDIA GeForce GTX 1650) (0xffffffff)
     Version: 21.0.3
-    Accelerated: yes
+    Accelerated: yes                # <-- THIS IS IMPORTANT
     Video memory: 12052MB
     Unified memory: no
     Preferred profile: core (0x1)
