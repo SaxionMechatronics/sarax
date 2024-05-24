@@ -24,6 +24,16 @@ Welcome to the Sarax project! Sarax aims to develop an open-source aerial manipu
 - [MAVROS](https://docs.px4.io/main/en/ros/mavros_installation.html#binary-installation-debian-ubuntu) is installed.
 - [QGroundControl](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html#ubuntu) is installed.
 
+### Quickstart
+A CLI application has been made to support the setup and installation of the framework.
+
+![image](Docs/images/sarax_cli_application.png)
+
+Run it with the following command.
+```shell
+sudo chmod +x scripts/run.sh && ./scripts/run.sh
+```
+
 ### Setup software
 Create the workspace, clone the necessary repositories, and build
 ```shell
@@ -55,7 +65,7 @@ roslaunch m4e_mani_base sarax_plus_sitl.launch
 
 >[!TIP]
 >## Docker container
->This repository produces a Docker container in the form of a GitHub [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read >the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
+>This repository produces a Docker container in the form of a GitHub [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
 
 ## License
 
