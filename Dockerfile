@@ -4,6 +4,7 @@ FROM px4io/px4-dev-ros-noetic
 # Update the linux environment
 RUN echo "Updating environment" \
     && sudo apt install nano -y \
+    && sudo apt install figlet -y \
     && sudo apt update -y \
     && sudo apt upgrade -y
 
@@ -75,6 +76,4 @@ RUN echo "# If running on WSL2, uncomment the following lines" >> ~/.bashrc \
 # Export worskpace and update sourcing
 RUN cd /home/user/sarax_ws/ \
     && echo "export SARAX_WS=$PWD" >> ~/.bashrc \
-    && echo "export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$SARAX_WS/PX4-Autopilot" \
-    && echo "export GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins" \
     && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
