@@ -43,7 +43,8 @@ def docker_config(system:str):
         print("\nSelect an option:")
         print("1. Install Docker")
         print("2. Install Docker container toolkit (GPU accelrated container)")
-        print("3. Exit")
+        print("3. Build and run the container")
+        print("4. Exit")
 
         choice = int(input("\nOption (1 - 3): "))
 
@@ -52,6 +53,8 @@ def docker_config(system:str):
         elif choice == 2:
             install_docker_deps()
         elif choice == 3:
+            print("\nFollow the updated instructions here : https://github.com/Arief-AK/sarax/blob/main/Docs/Sarax%20with%20Docker.md ")
+        elif choice == 4:
             done = True
         else:
             print("Invalid input")
@@ -63,8 +66,8 @@ def install_docker_deps():
         docker_deps = input("\nWould you like to install the container dependencies? (y or n): ")
 
         if docker_deps == 'y':
-            run(["chmod +x scripts/install_docker_prerequisites.sh"], shell=True)
-            run(["scripts/install_docker_prerequisites.sh"], shell=True)
+            run(["sudo chmod +x $PWD/install_docker_prerequisites.sh"], shell=True)
+            run(["$PWD/install_docker_prerequisites.sh"], shell=True)
         elif docker_deps == 'n':
             done = True
         else:
@@ -109,11 +112,11 @@ def install_sarax(system:str):
                 print("\nInstalling Sarax Framework...")
                 if system == "Linux":
                     print("Running commands for Linux system")
-                    run(["chmod +x scripts/install_sarax_linux.sh"], shell=True)
+                    run(["sudo chmod +x $PWD/install_sarax_linux.sh"], shell=True)
                     run(["$PWD/install_sarax_linux.sh"], shell=True)
                 if system == "Windows (WSL2)":
                     print("Running commands for Windows (WSL2) backend system")
-                    run(["chmod +x $PWD/install_sarax_wsl2.sh"], shell=True)
+                    run(["sudo chmod +x $PWD/install_sarax_wsl2.sh"], shell=True)
                     run(["$PWD/install_sarax_wsl2.sh"], shell=True)
                 
                 print("Sarax Framework installed successfully.")
