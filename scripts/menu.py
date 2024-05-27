@@ -30,7 +30,7 @@ def sarax_config(system:str):
         if choice == 1:
             install_sarax(system)
         elif choice == 2:
-            run_sarax()
+            run_sarax(system)
         elif choice == 3:
             done = True
         else:
@@ -110,11 +110,11 @@ def install_sarax(system:str):
                 if system == "Linux":
                     print("Running commands for Linux system")
                     run(["chmod +x scripts/install_sarax_linux.sh"], shell=True)
-                    run(["scripts/install_sarax_linux.sh"], shell=True)
+                    run(["$PWD/install_sarax_linux.sh"], shell=True)
                 if system == "Windows (WSL2)":
                     print("Running commands for Windows (WSL2) backend system")
-                    run(["chmod +x scripts/install_sarax_wsl2.sh"], shell=True)
-                    run(["scripts/install_sarax_wsl2.sh"], shell=True)
+                    run(["chmod +x $PWD/install_sarax_wsl2.sh"], shell=True)
+                    run(["$PWD/install_sarax_wsl2.sh"], shell=True)
                 
                 print("Sarax Framework installed successfully.")
                 choice = 'n'
@@ -122,31 +122,40 @@ def install_sarax(system:str):
         except Exception as e:
             print(f"Exception: {e}")
 
-def run_sarax():
+def run_sarax(system:str):
     print("\nMake sure to run QGroundControl before running Sarax.")
     choice = input("Do you want to continue? (y or n): ")
     
-    while choice == 'y':
-        # Set executable permission
-        run(["chmod +x scripts/run_sarax.sh"], shell=True)
+    # Execute the Bash script
+    result = run(["./check_existence.sh"], capture_output=True, text=True)
+    output = int(result.stdout.strip())
+
+    if output == 1:
+        while choice == 'y':
         
-        # Print menu options
-        print("\nOptions:")
-        print("1. Simulator\n2. Sarax Framework\n3. Exit")
-        option = int(input("\nWhat would you like to run? (1 - 3): "))
-        
-        if option == 1:
-            print("\nRunning Gazebo simulator")
-            SARAX_COMMAND = "cd ~/sarax_ws/PX4-Autopilot && ./sarax_plus_sitl.bash"
-            open_terminal(SARAX_COMMAND)
-            print("Successfully run PX4 simulator")
-        elif option == 2:
-            print("\nRunning Sarax framework...")
-            ROSLAUNCH_COMMAND = "echo 'ROS DISTRO: \$ROS_DISTRO' && cd ~/sarax_ws && source devel/setup.bash && roslaunch m4e_mani_base sarax_plus_sitl.launch"
-            open_terminal(ROSLAUNCH_COMMAND)
-            print("Successfully ran Sarax framework")
-        elif option == 3:
-            choice = 'n'
+            # Print menu options
+            print("\nOptions:")
+            print("1. Simulator\n2. Sarax Framework\n3. Exit")
+            option = int(input("\nWhat would you like to run? (1 - 3): "))
+            
+            if option == 1:
+                print("\nRunning Gazebo simulator")
+                SARAX_COMMAND = "cd ~/sarax_ws/PX4-Autopilot && ./sarax_plus_sitl.bash"
+                open_terminal(SARAX_COMMAND)
+                print("Successfully run PX4 simulator")
+            elif option == 2:
+                print("\nRunning Sarax framework...")
+                ROSLAUNCH_COMMAND = "echo 'ROS DISTRO: \$ROS_DISTRO' && cd ~/sarax_ws && source devel/setup.bash && roslaunch m4e_mani_base sarax_plus_sitl.launch"
+                open_terminal(ROSLAUNCH_COMMAND)
+                print("Successfully ran Sarax framework")
+            elif option == 3:
+                choice = 'n'
+    else:
+        print("Sarax workspace is not found, please install sarax first")
+        install_prompt = input("\nWould you like to install sarax? (y or n): ")
+
+        if install_prompt == 'y':
+            install_sarax(system)
 
     choice = input("\nEnter any value to continue")
 

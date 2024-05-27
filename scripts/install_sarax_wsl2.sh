@@ -44,4 +44,4 @@ echo "# export LIBVA_DRIVER_NAME=d3d12" >> ~/.bashrc
 
 # Inform user of workspace
 echo "Sarax workspace is created in the following path: $PWD"
-source ~/.bashrc
+. ~/.bashrc

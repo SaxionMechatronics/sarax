@@ -38,4 +38,4 @@ echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
 
 # Inform user of workspace
 echo "Sarax workspace is created in the following path: $PWD"
-source ~/.bashrc
+. ~/.bashrc
