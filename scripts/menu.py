@@ -3,6 +3,7 @@ import sys
 from subprocess import run, Popen
 
 TERMINAL = 'gnome-terminal'
+DOCKER_INSTRUCTIONS_URL = "https://github.com/Arief-AK/sarax/blob/main/Docs/Sarax%20with%20Docker.md"
 
 def open_terminal(command, terminal=TERMINAL):
     if terminal == 'gnome-terminal':
@@ -53,7 +54,7 @@ def docker_config(system:str):
         elif choice == 2:
             install_docker_deps()
         elif choice == 3:
-            print("\nFollow the updated instructions here : https://github.com/Arief-AK/sarax/blob/main/Docs/Sarax%20with%20Docker.md ")
+            print(f"\nFollow the updated instructions here :  {DOCKER_INSTRUCTIONS_URL}")
         elif choice == 4:
             done = True
         else:
