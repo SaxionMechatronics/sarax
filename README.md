@@ -30,9 +30,9 @@ A CLI application has been made to support the setup and installation of the fra
 
 ![image](Docs/images/sarax_cli_application.png)
 
-Clone and run it with the following command.
+Clone the repository and run it with the following command.
 ```shell
-git clone https://github.com/Arief-AK/sarax.git && sudo chmod +x scripts/run.sh && ./scripts/run.sh
+sudo chmod +x scripts/run.sh && ./scripts/run.sh
 ```
 
 #### Option 2:
