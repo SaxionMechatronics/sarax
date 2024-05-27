@@ -25,16 +25,21 @@ Welcome to the Sarax project! Sarax aims to develop an open-source aerial manipu
 - [QGroundControl](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html#ubuntu) is installed.
 
 ### Quickstart
+#### Option 1:
 A CLI application has been made to support the setup and installation of the framework.
 
 ![image](Docs/images/sarax_cli_application.png)
 
-Run it with the following command.
+Clone and run it with the following command.
 ```shell
-sudo chmod +x scripts/run.sh && ./scripts/run.sh
+git clone https://github.com/Arief-AK/sarax.git && sudo chmod +x scripts/run.sh && ./scripts/run.sh
 ```
 
+#### Option 2:
 ### Setup software
+> [!WARNING]\
+> This assumes that all dependencies mentioned in the [Assumptions](#assumptions) are installed
+
 Create the workspace, clone the necessary repositories, and build
 ```shell
 mkdir -p sarax_ws/src && cd sarax_ws/ && catkin init && wstool init src
