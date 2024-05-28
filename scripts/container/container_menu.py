@@ -10,7 +10,7 @@ def menu():
         print("2. Sarax Framework")
         print("3. Exit")
 
-        choice = input("\nChoice (1 - 3): ")
+        choice = int(input("\nChoice (1 - 3): "))
 
         if choice == 1:
             os.system(". $SARAX_WS/PX4-Autopilot/sarax_plus_sitl.bash")
@@ -20,3 +20,6 @@ def menu():
             done = True
         else:
             print("Invalid input")
+
+if __name__ == "__main__":
+    menu()
