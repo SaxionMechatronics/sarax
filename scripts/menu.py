@@ -4,6 +4,9 @@ from subprocess import run, Popen
 
 TERMINAL = 'gnome-terminal'
 DOCKER_INSTRUCTIONS_URL = "https://github.com/Arief-AK/sarax/blob/main/Docs/Sarax%20with%20Docker.md"
+DOCKER_CONTAINER_REPO = "ghcr.io/arief-ak/sarax-framework"
+DOCKER_COTAINER_TAG = "latest"
+DOCKER_CONTAINER_NAME = "sarax_container"
 
 def open_terminal(command, terminal=TERMINAL):
     if terminal == 'gnome-terminal':
@@ -21,6 +24,7 @@ def sarax_config(system:str):
     done = False
 
     while done == False:
+        os.system("figlet -t SARAX CONFIG")
         print("\nSelect an option:")
         print("1. Install Sarax")
         print("2. Run Sarax")
@@ -41,21 +45,40 @@ def docker_config(system:str):
     done = False
     
     while done == False:
+        os.system("figlet -t SARAX DOCKER CONFIG")
         print("\nSelect an option:")
         print("1. Install Docker")
         print("2. Install Docker container toolkit (GPU accelrated container)")
-        print("3. Build and run the container")
-        print("4. Exit")
+        print("3. Check Docker")
+        print("4. List images")
+        print("5. Download image")
+        print("6. Run container")
+        print("7. Start container")
+        print("8. Stop container")
+        print("9. Remove container")
+        print("0. Exit")
 
-        choice = int(input("\nOption (1 - 3): "))
+        choice = int(input("\nOption (0 - 9): "))
 
         if choice == 1:
             install_docker(system)
         elif choice == 2:
             install_docker_deps()
         elif choice == 3:
-            print(f"\nFollow the updated instructions here :  {DOCKER_INSTRUCTIONS_URL}")
+            os.system("sudo docker run hello-world")
         elif choice == 4:
+            os.system(f"./docker_container.sh {DOCKER_CONTAINER_REPO}:{DOCKER_COTAINER_TAG} {DOCKER_CONTAINER_REPO} {DOCKER_COTAINER_TAG} {system} {DOCKER_CONTAINER_NAME} Images")
+        elif choice == 5:
+            os.system(f"./docker_container.sh {DOCKER_CONTAINER_REPO}:{DOCKER_COTAINER_TAG} {DOCKER_CONTAINER_REPO} {DOCKER_COTAINER_TAG} {system} {DOCKER_CONTAINER_NAME} Download")
+        elif choice == 6:
+            os.system(f"./docker_container.sh {DOCKER_CONTAINER_REPO}:{DOCKER_COTAINER_TAG} {DOCKER_CONTAINER_REPO} {DOCKER_COTAINER_TAG} {system} {DOCKER_CONTAINER_NAME} Run")
+        elif choice == 7:
+            os.system(f"./docker_container.sh {DOCKER_CONTAINER_REPO}:{DOCKER_COTAINER_TAG} {DOCKER_CONTAINER_REPO} {DOCKER_COTAINER_TAG} {system} {DOCKER_CONTAINER_NAME} Start")
+        elif choice == 8:
+            os.system(f"./docker_container.sh {DOCKER_CONTAINER_REPO}:{DOCKER_COTAINER_TAG} {DOCKER_CONTAINER_REPO} {DOCKER_COTAINER_TAG} {system} {DOCKER_CONTAINER_NAME} Stop")
+        elif choice == 9:
+            os.system(f"./docker_container.sh {DOCKER_CONTAINER_REPO}:{DOCKER_COTAINER_TAG} {DOCKER_CONTAINER_REPO} {DOCKER_COTAINER_TAG} {system} {DOCKER_CONTAINER_NAME} Remove")
+        elif choice == 0:
             done = True
         else:
             print("Invalid input")
@@ -67,7 +90,6 @@ def install_docker_deps():
         docker_deps = input("\nWould you like to install the container dependencies? (y or n): ")
 
         if docker_deps == 'y':
-            run(["sudo chmod +x $PWD/install_docker_prerequisites.sh"], shell=True)
             run(["$PWD/install_docker_prerequisites.sh"], shell=True)
         elif docker_deps == 'n':
             done = True
@@ -83,10 +105,7 @@ def install_docker(system:str):
 
             if docker_install == 'y':
                 print("\nInstalling Docker...")
-                os.system("sudo apt-get update")
-                os.system("sudo apt-get install -y docker.io")
-                os.system("sudo systemctl start docker")
-                os.system("sudo systemctl enable docker")
+                os.system("./install_dokcker.sh")
                 print("Docker installed successfully.")
 
             elif docker_install == 'n':
@@ -113,11 +132,9 @@ def install_sarax(system:str):
                 print("\nInstalling Sarax Framework...")
                 if system == "Linux":
                     print("Running commands for Linux system")
-                    run(["sudo chmod +x $PWD/install_sarax_linux.sh"], shell=True)
                     run(["$PWD/install_sarax_linux.sh"], shell=True)
                 if system == "Windows (WSL2)":
                     print("Running commands for Windows (WSL2) backend system")
-                    run(["sudo chmod +x $PWD/install_sarax_wsl2.sh"], shell=True)
                     run(["$PWD/install_sarax_wsl2.sh"], shell=True)
                 
                 print("Sarax Framework installed successfully.")

@@ -11,5 +11,15 @@ else
     figlet SARAX
 fi
 
+# Modify permissions for all scripts
+cd scripts
+sudo chmod +x check_existence.sh
+sudo chmod +x docker_container.sh
+sudo chmod +x install_docker_prerequisites.sh
+sudo chmod +x install_docker.sh
+sudo chmod +x install_sarax_linux.sh
+sudo chmod +x install_sarax_wsl2.sh
+sudo chmod +x container/docker_entrypoint.sh
+
 # Run the menu application
-cd scripts && python3 menu.py
+python3 menu.py
