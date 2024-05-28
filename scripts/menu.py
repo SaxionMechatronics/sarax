@@ -53,7 +53,7 @@ def docker_config(system:str):
         print("4. List images")
         print("5. Download image")
         print("6. Run container")
-        print("7. Start container")
+        print("7. Start container (start another instance of the container)")
         print("8. Stop container")
         print("9. Remove container")
         print("0. Exit")

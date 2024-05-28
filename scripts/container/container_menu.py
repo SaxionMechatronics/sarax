@@ -13,7 +13,7 @@ def menu():
         choice = int(input("\nChoice (1 - 3): "))
 
         if choice == 1:
-            os.system(". $SARAX_WS/PX4-Autopilot/sarax_plus_sitl.bash")
+            os.system("cd $SARAX_WS/PX4-Autopilot && ./sarax_plus_sitl.bash")
         elif choice == 2:
             os.system("roslaunch m4e_mani_base sarax_plus_sitl.launch")
         elif choice == 3:

@@ -67,6 +67,9 @@ fi
 if [ $OPTION = 'Start' ]; then
     echo -e "\nStarting Docker container"
     docker start $CONTAINER_NAME
+    echo -e "\nEntering Docker container"
+    COMMAND="docker exec -it sarax_container bash"
+    open_new_terminal "$COMMAND"
 fi 
 
 if [ $OPTION = 'Stop' ]; then
