@@ -77,3 +77,5 @@ RUN echo "# If running on WSL2, uncomment the following lines" >> ~/.bashrc \
 RUN cd /home/user/sarax_ws/ \
     && echo "export SARAX_WS=$PWD" >> ~/.bashrc \
     && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
+
+ENTRYPOINT [ "/home/user/sarax_ws/src/sarax/scripts/container/docker_entrypoint.sh" ]

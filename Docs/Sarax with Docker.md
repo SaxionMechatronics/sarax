@@ -6,15 +6,28 @@
 >1. [Docker](https://docs.docker.com/engine/install/) is installed and configured
 >2. [Docker prerequisites](Docker%20prerequisites.md) are setup and installed
 
-## Using the container
+## Installation
 
-### Pulling the container from GHCR
+### Option 1: Using the CLI Application
+Users can use the CLI application to handle all Docker functionalities
+
+Run it with the following command
+```shell
+sudo chmod +x scripts/run.sh && ./scripts/run.sh
+```
+
+With the application, users are provided with the following options.
+![Docker Config](images/Sarax%20Docker%20Config.png)
+
+### Option 2: Manual Installation
+
+#### Pulling the container from GHCR
 This repository creates and publishes a Docker container onto the GitHub Container Registry as a [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework). The container can be pulled with the command below.
 ```shell
 docker pull ghcr.io/arief-ak/sarax-framework:latest
 ```
 
-### Running the container
+#### Running the container
 To ensure full functionality of the Docker container, we will (create) and run the container with some privileges.
 
 1. On the host machine, allow access for `xhost` from the container and setup the authorisation.
@@ -70,17 +83,19 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
 >```
 ></details>
 
-4. Head to the workspace and run the following bash file
+## Running Sarax on Docker Container
+
+1. Head to the workspace and run the following bash file
 ```shell
 cd $SARAX_WS/PX4-Autopilot && ./sarax_plus_sitl.bash
 ```
 
-5. In another terminal, run another instance of the docker container
+2. In another terminal, run another instance of the docker container
 ```shell
 docker exec -it sarax_container bash
 ```
 
-6. Run the `sarax` framework
+3. Run the `sarax` framework
 ```shell
 roslaunch m4e_mani_base sarax_plus_sitl.launch
 ```
@@ -88,16 +103,16 @@ roslaunch m4e_mani_base sarax_plus_sitl.launch
 Below is a screenshot of the framework without `QGroundControl` in the docker container
 ![Sarax Preview](images/Sarax%20Preview.png)
 
-7. On the host machine, open `QGroundControl` and ensure that the `Virtual Joystick` setting is enabled in the `Application Settings`
+4. On the host machine, open `QGroundControl` and ensure that the `Virtual Joystick` setting is enabled in the `Application Settings`
 ![Joystick](images/Virtual%20Joystick%20Setting.png)
 
-8. Create a new `Comm Link` in `Application Settings -> Comm Link`
+5. Create a new `Comm Link` in `Application Settings -> Comm Link`
 ![New Comm Link](images/New%20Comm%20Link.png)
 
-9. Connect to the Comm Link by double-clicking and head back to the map view. QGroundControl should be connected to the container.
+6. Connect to the Comm Link by double-clicking and head back to the map view. QGroundControl should be connected to the container.
 ![QGround Connected](images/QGroundControl%20Connected.png)
 
-### Getting started with Sarax GUI
+## Getting started with Sarax GUI
 To perform a simple take-off procedure, proceed with the following commands.
 
 1. Arm the drone
