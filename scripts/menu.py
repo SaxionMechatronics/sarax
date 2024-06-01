@@ -33,7 +33,7 @@ def sarax_config(system:str):
         choice = int(input("\nOption (1 - 3): "))
 
         if choice == 1:
-            install_sarax(system)
+            install_sarax(system)   
         elif choice == 2:
             run_sarax(system)
         elif choice == 3:
@@ -113,7 +113,7 @@ def install_docker(system:str):
             else:
                 print("Invalid input")
             
-        if system == "Windows (WSL2)":
+        if system == "WSL2":
             docker_install = input("\nWould you like to install Docker? (y or n): ")
 
             print("\nIt is advised to follow the instructions from the official Docker documentation")
@@ -133,8 +133,8 @@ def install_sarax(system:str):
                 if system == "Linux":
                     print("Running commands for Linux system")
                     run(["$PWD/install_sarax_linux.sh"], shell=True)
-                if system == "Windows (WSL2)":
-                    print("Running commands for Windows (WSL2) backend system")
+                if system == "WSL2":
+                    print("Running commands for WSL2 backend system")
                     run(["$PWD/install_sarax_wsl2.sh"], shell=True)
                 
                 print("Sarax Framework installed successfully.")
@@ -193,13 +193,13 @@ def get_OS() -> str:
     while True:
         print("What system are you running?")
         print("1. Linux")
-        print("2. Windows (WSL2)")
+        print("2. WSL2")
         choice = int(input("Enter your choice (1-2): "))
 
         if choice == 1:
             break
         elif choice == 2:
-            system = "Windows (WSL2)"
+            system = "WSL2"
             break
         else:
             print("Invalid choice. Please enter a number between 1 and .")

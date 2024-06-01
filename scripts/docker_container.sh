@@ -54,7 +54,7 @@ if [ $OPTION = 'Run' ]; then
         SARAX_FRAMEWORK_COMMANDS="docker exec -it sarax_container bash && roslaunch m4e_mani_base sarax_plus_sitl.launch"
     fi
 
-    if [ $SYSTEM = 'Windows (WSL2)' ]; then
+    if [ $SYSTEM = 'WSL2' ]; then
         SIMULATOR_COMMANDS="sudo docker run --name sarax_container -it -v /tmp/.X11-unix:/tmp/.X11-unix -v /mnt/wslg:/mnt/wslg -v /usr/lib/wsl:/usr/lib/wsl --device=/dev/dxg -e DISPLAY=$DISPLAY --device /dev/dri/card0 --device /dev/dri/renderD128 -e WAYLAND_DISPLAY=$WAYLAND_DISPLAY -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR -e PULSE_SERVER=$PULSE_SERVER --gpus all $IMAGE_ID bash"
         SARAX_FRAMEWORK_COMMANDS="docker exec -it sarax_container bash && roslaunch m4e_mani_base sarax_plus_sitl.launch"
     fi
