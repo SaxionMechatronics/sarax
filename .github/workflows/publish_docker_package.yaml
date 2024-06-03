@@ -3,6 +3,12 @@ name: Publish docker image as package
 # To manually run the workflow on GH, use the workflow_dispatch event trigger
 # on: workflow_dispatch
 
+# To test workflow using act, use the push event
+# on:
+#   push:
+#     branches:
+#       - main
+
 # To automatically run depending on the status of the build.yaml workflow, use workflow_run event trigger
 on:
   workflow_run:
