@@ -78,3 +78,7 @@ RUN cd /home/user/sarax_ws/ \
     && echo "export SARAX_WS=$PWD" >> ~/.bashrc \
     && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc \
     && echo "source \$SARAX_WS/src/sarax/scripts/container/docker_entrypoint.sh" >> ~/.bashrc
+
+# Build the simulator to speed up running within the container
+RUN cd /home/user/sarax_ws/PX4-Autopilot \
+    && ./sarax_plus_sitl.bash
