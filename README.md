@@ -1,3 +1,5 @@
+![Build Workflow](https://github.com/SaxionMechatronics/sarax/actions/workflows/build.yaml/badge.svg) ![PX4 Build Workflow](https://github.com/SaxionMechatronics/sarax/actions/workflows/sitl_build.yaml/badge.svg) ![GHCR Package Publishing](https://github.com/SaxionMechatronics/sarax/actions/workflows/publish_docker_package.yaml/badge.svg)
+
 # Sarax: An Open-Source Software/Hardware Framework for Aerial Manipulators
 
 <div style="text-align: center;">
@@ -22,13 +24,32 @@ Welcome to the Sarax project! Sarax aims to develop an open-source aerial manipu
 - [MAVROS](https://docs.px4.io/main/en/ros/mavros_installation.html#binary-installation-debian-ubuntu) is installed.
 - [QGroundControl](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html#ubuntu) is installed.
 
-### Setup software
+### Quickstart
+#### Option 1:
+A CLI application has been made to support the setup and installation of the framework.
 
+![image](Docs/images/sarax_cli_application.png)
+
+Clone the repository and run it with the following command.
+```shell
+sudo chmod +x scripts/run.sh && ./scripts/run.sh
+```
+
+#### Option 2:
+### Setup software
+> [!WARNING]\
+> This assumes that all dependencies mentioned in the [Assumptions](#assumptions) are installed
+
+Create the workspace, clone the necessary repositories, and build
 ```shell
 mkdir -p sarax_ws/src && cd sarax_ws/ && catkin init && wstool init src
 git clone --recursive -b v1.13.2-sarax-sim https://github.com/SaxionMechatronics/PX4-Autopilot.git
-cd src && git clone https://github.com/SaxionMechatronics/sarax.git && catkin build
-cd .. && echo "export SARAX_WS=$PWD" >> ~/.bashrc && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
+cd src && git clone https://github.com/SaxionMechatronics/sarax.git && cd .. && rosdep install --from-paths src --ignore-src -r -y --skip-keys="python-scipy" && catkin build
+```
+
+Export the sources into `.bashrc`
+```shell
+echo "export SARAX_WS=$PWD" >> ~/.bashrc && echo "source \$SARAX_WS/devel/setup.bash" >> ~/.bashrc
 ```
 
 ### Run the Simulation
@@ -46,6 +67,10 @@ cd $SARAX_WS/PX4-Autopilot && ./sarax_plus_sitl.bash
 ```shell
 roslaunch m4e_mani_base sarax_plus_sitl.launch
 ```
+
+>[!TIP]
+>## Docker container
+>This repository produces a Docker container in the form of a GitHub [package](https://github.com/SaxionMechatronics/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
 
 ## License
 

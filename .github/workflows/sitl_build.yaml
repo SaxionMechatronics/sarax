@@ -1,0 +1,44 @@
+name: Sarax PX4 SITL
+
+# To manually run the workflow on GH, use the workflow_dispatch event trigger
+# on: workflow_dispatch
+
+# To test workflow using act, use the push event
+# on:
+#   push:
+#     branches:
+#       - main
+
+# To automatically run depending on the status of the build.yaml workflow, use workflow_run event trigger
+on:
+  workflow_run:
+    workflows: [Publish docker image as package]
+    types: [completed]
+
+jobs:
+  on-success:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow passed'
+  
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The Setup and build packages workflow failed'
+
+  build:
+    needs: on-success             # Uncomment when on default branch (main)
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/SaxionMechatronics/sarax-framework:latest
+      options: --privileged --ulimit core=-1 --security-opt seccomp=unconfined
+    steps:
+    
+    - name: Run sarax SITL
+      run: |
+        . /home/user/.bashrc
+        cd /home/user/sarax_ws && ls -l
+        cd /home/user/sarax_ws/PX4-Autopilot/
+        ./sarax_plus_sitl.bash
