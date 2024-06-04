@@ -1,0 +1,48 @@
+<FDesign>
+	<Table InternalName="774FAB36-F848-4882-AFD5-2226F4BB1DDE">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<A DisplayName="" Units="hr" IsNumeric="1" IsVisible="1" IsRange="1" SelType="AVG" />
+				<AMax DisplayName="" Units="hr" IsNumeric="1" IsVisible="0" />
+				<Desc DisplayName="" Units="" IsNumeric="0" IsVisible="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<A>300</A>
+				<AMax>3000</AMax>
+				<Desc>%2%</Desc>
+			</Row>
+			<Row>
+				<A>3000</A>
+				<AMax>8000</AMax>
+				<Desc>%3%</Desc>
+			</Row>
+			<Row>
+				<A>8000</A>
+				<AMax>12000</AMax>
+				<Desc>%4%</Desc>
+			</Row>
+			<Row>
+				<A>10000</A>
+				<AMax>25000</AMax>
+				<Desc>%5%</Desc>
+			</Row>
+			<Row>
+				<A>20000</A>
+				<AMax>30000</AMax>
+				<Desc>%6%</Desc>
+			</Row>
+			<Row>
+				<A>40000</A>
+				<AMax>60000</AMax>
+				<Desc>%7%</Desc>
+			</Row>
+			<Row>
+				<A>60000</A>
+				<AMax>200000</AMax>
+				<Desc>%8%</Desc>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

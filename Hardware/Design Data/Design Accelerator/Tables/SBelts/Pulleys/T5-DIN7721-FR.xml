@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTSPULLEY" measuresystem="metric" thumbnail="FlangedFR.jpg" name="%1%" desc="%2%" flange="right">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <z src="table" dt="number" units="ul" />
+    <pb src="fixed" dt="number" units="mm">5</pb>
+    <hg src="fixed" dt="number" units="mm">1.25</hg>
+    <bw src="fixed" dt="number" units="mm">1.8</bw>
+    <fi src="fixed" dt="number" units="deg">25.0</fi>
+    <rb src="fixed" dt="number" units="mm">0.4</rb>
+    <rt src="fixed" dt="number" units="mm">0.6</rt>
+    <a src="fixed" dt="number" units="mm">0.5</a>
+    <b src="table" dt="number" units="mm" />
+    <bf src="table" dt="number" units="mm" />
+    <fw src="fixed" dt="number" units="mm">1</fw>
+    <fh src="fixed" dt="number" units="mm">1.2</fh>
+  </Parameters>
+  <Members>
+    <Member moniker="6-T5-10" >
+      <Size>7,5T5 x 10</Size>
+      <z>10</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-11" >
+      <Size>7,5T5 x 11</Size>
+      <z>11</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-12" >
+      <Size>7,5T5 x 12</Size>
+      <z>12</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-13" >
+      <Size>7,5T5 x 13</Size>
+      <z>13</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-14" >
+      <Size>7,5T5 x 14</Size>
+      <z>14</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-15" >
+      <Size>7,5T5 x 15</Size>
+      <z>15</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-16" >
+      <Size>7,5T5 x 16</Size>
+      <z>16</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-17" >
+      <Size>7,5T5 x 17</Size>
+      <z>17</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-18" >
+      <Size>7,5T5 x 18</Size>
+      <z>18</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-19" >
+      <Size>7,5T5 x 19</Size>
+      <z>19</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-20" >
+      <Size>7,5T5 x 20</Size>
+      <z>20</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-22" >
+      <Size>7,5T5 x 22</Size>
+      <z>22</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-25" >
+      <Size>7,5T5 x 25</Size>
+      <z>25</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-28" >
+      <Size>7,5T5 x 28</Size>
+      <z>28</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-32" >
+      <Size>7,5T5 x 32</Size>
+      <z>32</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-36" >
+      <Size>7,5T5 x 36</Size>
+      <z>36</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-40" >
+      <Size>7,5T5 x 40</Size>
+      <z>40</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-48" >
+      <Size>7,5T5 x 48</Size>
+      <z>48</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-60" >
+      <Size>7,5T5 x 60</Size>
+      <z>60</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-72" >
+      <Size>7,5T5 x 72</Size>
+      <z>72</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-84" >
+      <Size>7,5T5 x 84</Size>
+      <z>84</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="6-T5-96" >
+      <Size>7,5T5 x 96</Size>
+      <z>96</z>
+      <b>6.0</b>
+      <bf>7.5</bf>
+    </Member>
+    <Member moniker="10-T5-10" >
+      <Size>11,5T5 x 10</Size>
+      <z>10</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-11" >
+      <Size>11,5T5 x 11</Size>
+      <z>11</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-12" >
+      <Size>11,5T5 x 12</Size>
+      <z>12</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-13" >
+      <Size>11,5T5 x 13</Size>
+      <z>13</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-14" >
+      <Size>11,5T5 x 14</Size>
+      <z>14</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-15" >
+      <Size>11,5T5 x 15</Size>
+      <z>15</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-16" >
+      <Size>11,5T5 x 16</Size>
+      <z>16</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-17" >
+      <Size>11,5T5 x 17</Size>
+      <z>17</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-18" >
+      <Size>11,5T5 x 18</Size>
+      <z>18</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-19" >
+      <Size>11,5T5 x 19</Size>
+      <z>19</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-20" >
+      <Size>11,5T5 x 20</Size>
+      <z>20</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-22" >
+      <Size>11,5T5 x 22</Size>
+      <z>22</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-25" >
+      <Size>11,5T5 x 25</Size>
+      <z>25</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-28" >
+      <Size>11,5T5 x 28</Size>
+      <z>28</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-32" >
+      <Size>11,5T5 x 32</Size>
+      <z>32</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-36" >
+      <Size>11,5T5 x 36</Size>
+      <z>36</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-40" >
+      <Size>11,5T5 x 40</Size>
+      <z>40</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-48" >
+      <Size>11,5T5 x 48</Size>
+      <z>48</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-60" >
+      <Size>11,5T5 x 60</Size>
+      <z>60</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-72" >
+      <Size>11,5T5 x 72</Size>
+      <z>72</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-84" >
+      <Size>11,5T5 x 84</Size>
+      <z>84</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="10-T5-96" >
+      <Size>11,5T5 x 96</Size>
+      <z>96</z>
+      <b>10.0</b>
+      <bf>11.5</bf>
+    </Member>
+    <Member moniker="16-T5-10" >
+      <Size>17,5T5 x 10</Size>
+      <z>10</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-11" >
+      <Size>17,5T5 x 11</Size>
+      <z>11</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-12" >
+      <Size>17,5T5 x 12</Size>
+      <z>12</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-13" >
+      <Size>17,5T5 x 13</Size>
+      <z>13</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-14" >
+      <Size>17,5T5 x 14</Size>
+      <z>14</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-15" >
+      <Size>17,5T5 x 15</Size>
+      <z>15</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-16" >
+      <Size>17,5T5 x 16</Size>
+      <z>16</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-17" >
+      <Size>17,5T5 x 17</Size>
+      <z>17</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-18" >
+      <Size>17,5T5 x 18</Size>
+      <z>18</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-19" >
+      <Size>17,5T5 x 19</Size>
+      <z>19</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-20" >
+      <Size>17,5T5 x 20</Size>
+      <z>20</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-22" >
+      <Size>17,5T5 x 22</Size>
+      <z>22</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-25" >
+      <Size>17,5T5 x 25</Size>
+      <z>25</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-28" >
+      <Size>17,5T5 x 28</Size>
+      <z>28</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-32" >
+      <Size>17,5T5 x 32</Size>
+      <z>32</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-36" >
+      <Size>17,5T5 x 36</Size>
+      <z>36</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-40" >
+      <Size>17,5T5 x 40</Size>
+      <z>40</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-48" >
+      <Size>17,5T5 x 48</Size>
+      <z>48</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-60" >
+      <Size>17,5T5 x 60</Size>
+      <z>60</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-72" >
+      <Size>17,5T5 x 72</Size>
+      <z>72</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-84" >
+      <Size>17,5T5 x 84</Size>
+      <z>84</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="16-T5-96" >
+      <Size>17,5T5 x 96</Size>
+      <z>96</z>
+      <b>16</b>
+      <bf>17.5</bf>
+    </Member>
+    <Member moniker="25-T5-10" >
+      <Size>26,5T5 x 10</Size>
+      <z>10</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-11" >
+      <Size>26,5T5 x 11</Size>
+      <z>11</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-12" >
+      <Size>26,5T5 x 12</Size>
+      <z>12</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-13" >
+      <Size>26,5T5 x 13</Size>
+      <z>13</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-14" >
+      <Size>26,5T5 x 14</Size>
+      <z>14</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-15" >
+      <Size>26,5T5 x 15</Size>
+      <z>15</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-16" >
+      <Size>26,5T5 x 16</Size>
+      <z>16</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-17" >
+      <Size>26,5T5 x 17</Size>
+      <z>17</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-18" >
+      <Size>26,5T5 x 18</Size>
+      <z>18</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-19" >
+      <Size>26,5T5 x 19</Size>
+      <z>19</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-20" >
+      <Size>26,5T5 x 20</Size>
+      <z>20</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-22" >
+      <Size>26,5T5 x 22</Size>
+      <z>22</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-25" >
+      <Size>26,5T5 x 25</Size>
+      <z>25</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-28" >
+      <Size>26,5T5 x 28</Size>
+      <z>28</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-32" >
+      <Size>26,5T5 x 32</Size>
+      <z>32</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-36" >
+      <Size>26,5T5 x 36</Size>
+      <z>36</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-40" >
+      <Size>26,5T5 x 40</Size>
+      <z>40</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-48" >
+      <Size>26,5T5 x 48</Size>
+      <z>48</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-60" >
+      <Size>26,5T5 x 60</Size>
+      <z>60</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-72" >
+      <Size>26,5T5 x 72</Size>
+      <z>72</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-84" >
+      <Size>26,5T5 x 84</Size>
+      <z>84</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+    <Member moniker="25-T5-96" >
+      <Size>26,5T5 x 96</Size>
+      <z>96</z>
+      <b>25</b>
+      <bf>26.5</bf>
+    </Member>
+  </Members>
+</CustomFamily>

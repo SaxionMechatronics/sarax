@@ -1,0 +1,216 @@
+<Resources>
+	<string id="%1%" value="Joint Material"/>
+	<string id="%2%" value="Material Designation"/>
+	<string id="%3%" value="Yield Strength"/>
+	<string id="%4%" value="psi"/>
+	<string id="%5%" value="Tensile Strength"/>
+	<string id="%6%" value="Allowable limits of Tensile Strength"/>
+	<string id="%7%" value="Standard"/>
+	<string id="%8%" value="Material type"/>
+	<string id="%9%" value="Structural Steel A283-GradeC"/>
+	<string id="%10%" value="Basic material"/>
+	<string id="%11%" value="Structural Steel A519-1020"/>
+	<string id="%12%" value="Structural Steel A519-1035"/>
+	<string id="%13%" value="Structural Steel A572-Grade42"/>
+	<string id="%14%" value="Structural Steel A572-Grade50"/>
+	<string id="%15%" value="Structural Steel A519-1050"/>
+	<string id="%16%" value="Structural Steel A512-MT1010SR"/>
+	<string id="%17%" value="Electrode E60XX"/>
+	<string id="%18%" value="Weld material"/>
+	<string id="%19%" value="Electrode E70XX"/>
+	<string id="%20%" value="Electrode E80XX"/>
+	<string id="%21%" value="Electrode E90XX"/>
+	<string id="%22%" value="Electrode E100XX"/>
+	<string id="%23%" value="Electrode E120XX"/>
+	<string id="%24%" value="Std"/>
+	<string id="%25%" value="ANSI"/>
+	<string id="%26%" value="ISO"/>
+	<string id="%27%" value="DIN"/>
+	<string id="%28%" value="BS"/>
+	<string id="%29%" value="CSN"/>
+	<string id="%30%" value="NF"/>
+	<string id="%31%" value="JIS"/>
+	<string id="%32%" value="Material"/>
+	<string id="%33%" value="S|.y|"/>
+	<string id="%34%" value="S|.ult|"/>
+	<string id="%35%" value="S|.ult min| - S|.ult max|"/>
+	<string id="%36%" value="Type"/>
+	<string id="%37%" value="Structural Steel S235JRG1"/>
+	<string id="%38%" value="Structural Steel S235JRH"/>
+	<string id="%39%" value="Structural Steel S235JRG21"/>
+	<string id="%40%" value="Structural Steel S235J0"/>
+	<string id="%41%" value="Structural Steel SPT360"/>
+	<string id="%42%" value="Structural Steel SPT410"/>
+	<string id="%43%" value="Structural Steel S275J2G3"/>
+	<string id="%44%" value="Structural Steel S275J2HG3"/>
+	<string id="%45%" value="Structural Steel S355J2G3"/>
+	<string id="%46%" value="Structural Steel S355J2H"/>
+	<string id="%47%" value="Structural Steel S355J0"/>
+	<string id="%48%" value="Structural Steel S355J0H"/>
+	<string id="%49%" value="Structural Steel SPT510"/>
+	<string id="%50%" value="Structural Steel USt34-2"/>
+	<string id="%51%" value="Structural Steel USt37-2"/>
+	<string id="%52%" value="Structural Steel St37-2"/>
+	<string id="%53%" value="Structural Steel Rst37-2"/>
+	<string id="%54%" value="Structural Steel St37-3"/>
+	<string id="%55%" value="Structural Steel St44-3"/>
+	<string id="%56%" value="Structural Steel St44.0"/>
+	<string id="%57%" value="Structural Steel St34-2BK"/>
+	<string id="%58%" value="Structural Steel St52-3"/>
+	<string id="%59%" value="Structural Steel St52.0"/>
+	<string id="%60%" value="Structural Steel St37-2BK"/>
+	<string id="%61%" value="Structural Steel St52-3BK"/>
+	<string id="%62%" value="Electrode E43XX"/>
+	<string id="%63%" value="Electrode E51XX"/>
+	<string id="%64%" value="Structural Steel CFS3NBK"/>
+	<string id="%65%" value="Structural Steel 40A"/>
+	<string id="%66%" value="Structural Steel 40B"/>
+	<string id="%67%" value="Structural Steel 40C"/>
+	<string id="%68%" value="Structural Steel 43D"/>
+	<string id="%69%" value="Structural Steel CFS6NBK"/>
+	<string id="%70%" value="Structural Steel CFS8NBK"/>
+	<string id="%71%" value="Structural Steel CEW2BK"/>
+	<string id="%72%" value="Structural Steel 50D"/>
+	<string id="%73%" value="Structural Steel 50C"/>
+	<string id="%74%" value="Structural Steel CEW3BK"/>
+	<string id="%75%" value="Structural Steel CEW5BK"/>
+	<string id="%76%" value="Structural Steel 11343"/>
+	<string id="%77%" value="Structural Steel 11353"/>
+	<string id="%78%" value="Structural Steel 11366"/>
+	<string id="%79%" value="Structural Steel 11368"/>
+	<string id="%80%" value="Structural Steel 11369"/>
+	<string id="%81%" value="Structural Steel 11373"/>
+	<string id="%82%" value="Structural Steel 11375"/>
+	<string id="%83%" value="Structural Steel 11378"/>
+	<string id="%84%" value="Structural Steel 11416"/>
+	<string id="%85%" value="Structural Steel 11418"/>
+	<string id="%86%" value="Structural Steel 11419"/>
+	<string id="%87%" value="Structural Steel 11425"/>
+	<string id="%88%" value="Electrode 11366"/>
+	<string id="%89%" value="Structural Steel A34-2"/>
+	<string id="%90%" value="Structural Steel E24-2"/>
+	<string id="%91%" value="Structural Steel E24-3"/>
+	<string id="%92%" value="Structural Steel E28-4"/>
+	<string id="%93%" value="Structural Steel E36-3"/>
+	<string id="%94%" value="Structural Steel E36-4"/>
+	<string id="%95%" value="Structural Steel STKM12A"/>
+	<string id="%96%" value="Structural Steel SS330"/>
+	<string id="%97%" value="Structural Steel STKM13B"/>
+	<string id="%98%" value="Structural Steel STKM16A"/>
+	<string id="%99%" value="Structural Steel SM520C"/>
+	<string id="%100%" value="Structural Steel SM520B"/>
+	<string id="%101%" value="Structural Steel STKM12C"/>
+	<string id="%102%" value="Structural Steel STKM16C"/>
+	<string id="%103%" value="Electrode D43XX"/>
+	<string id="%104%" value="Electrode D50XX"/>
+	<string id="%105%" value="Structural Steel A36"/>
+	<string id="%106%" value="GOST"/>
+	<string id="%107%" value="Steel ST0 GOST 380-94"/>
+	<string id="%108%" value="Steel ST1KP GOST 380-94"/>
+	<string id="%109%" value="Steel ST1PS GOST 380-94"/>
+	<string id="%110%" value="Steel ST1SP GOST 380-94"/>
+	<string id="%111%" value="Steel ST2KP GOST 380-94"/>
+	<string id="%112%" value="Steel ST2PS GOST 380-94"/>
+	<string id="%113%" value="Steel ST2SP GOST 380-94"/>
+	<string id="%114%" value="Steel ST3KP GOST 380-94"/>
+	<string id="%115%" value="Steel ST3PS GOST 380-94"/>
+	<string id="%116%" value="Steel ST3SP GOST 380-94"/>
+	<string id="%117%" value="Steel ST3GPS GOST 380-94"/>
+	<string id="%118%" value="Steel ST3GSP GOST 380-94"/>
+	<string id="%119%" value="Steel ST4KP GOST 380-94"/>
+	<string id="%120%" value="Steel ST4PS GOST 380-94"/>
+	<string id="%121%" value="Steel ST4SP GOST 380-94"/>
+	<string id="%122%" value="Steel ST5PS GOST 380-94"/>
+	<string id="%123%" value="Steel ST5SP GOST 380-94"/>
+	<string id="%124%" value="Steel ST5GSP GOST 380-94"/>
+	<string id="%125%" value="Steel ST6PS GOST 380-94"/>
+	<string id="%126%" value="Steel ST6SP GOST 380-94"/>
+	<string id="%127%" value="Steel 08KP GOST 1050-88"/>
+	<string id="%128%" value="Steel 10 GOST 1050-88"/>
+	<string id="%129%" value="Steel 20 GOST 1050-88"/>
+	<string id="%130%" value="Steel 35 GOST 1050-88"/>
+	<string id="%131%" value="Steel 45 GOST 1050-88"/>
+	<string id="%132%" value="Cast steel 25L GOST 977-88"/>
+	<string id="%133%" value="Cast steel 35L GOST 977-88"/>
+	<string id="%134%" value="Steel 20Ch GOST 4543-71"/>
+	<string id="%135%" value="Steel 40Ch GOST 4543-71"/>
+	<string id="%136%" value="Steel 18ChGT GOST 4543-71"/>
+	<string id="%137%" value="Steel 30ChGSA GOST 4543-71"/>
+	<string id="%138%" value="Steel 06G2SJu"/>
+	<string id="%139%" value="Steel 06ChGSJu"/>
+	<string id="%140%" value="Steel 08G2S"/>
+	<string id="%141%" value="Steel 09G2 GOST 19281-89"/>
+	<string id="%142%" value="Steel 09G2D GOST 19281-89"/>
+	<string id="%143%" value="Steel 09G2S GOST 19281-89"/>
+	<string id="%144%" value="Steel 09G2SD GOST 19281-89"/>
+	<string id="%145%" value="Steel 10G2B GOST 19281-89"/>
+	<string id="%146%" value="Steel 10G2BD GOST 19281-89"/>
+	<string id="%147%" value="Steel 10G2S1 GOST 19281-89"/>
+	<string id="%148%" value="Steel 10G2S1D GOST 19281-89"/>
+	<string id="%149%" value="Steel 10GS2"/>
+	<string id="%150%" value="Steel 10GT"/>
+	<string id="%151%" value="Steel 10ChGSN1D GOST 19281-89"/>
+	<string id="%152%" value="Steel 10ChNDP GOST 19281-89"/>
+	<string id="%153%" value="Steel 10ChSND GOST 19281-89"/>
+	<string id="%154%" value="Steel 12G2SMF"/>
+	<string id="%155%" value="Steel 12GN2MFAJu"/>
+	<string id="%156%" value="Steel 12GS GOST 19281-89"/>
+	<string id="%157%" value="Steel 12ChGN2MFBAJu"/>
+	<string id="%158%" value="Steel 14G2 GOST 19281"/>
+	<string id="%159%" value="Steel 14G2AF GOST 19281"/>
+	<string id="%160%" value="Steel 14G2AFD GOST 19281"/>
+	<string id="%161%" value="Steel 14ChGS GOST 19281"/>
+	<string id="%162%" value="Steel 15G2AFD GOST 19281-89"/>
+	<string id="%163%" value="Steel 15G2AFDPS"/>
+	<string id="%164%" value="Steel 15G2SF GOST 19281-89"/>
+	<string id="%165%" value="Steel 15G2SFD GOST 19281-89"/>
+	<string id="%166%" value="Steel 15GS"/>
+	<string id="%167%" value="Steel 15GF GOST 19281-89"/>
+	<string id="%168%" value="Steel 15GFD GOST 19281-89"/>
+	<string id="%169%" value="Steel 15ChSND GOST 19281-89"/>
+	<string id="%170%" value="Steel 16G2AF GOST 19281-89"/>
+	<string id="%171%" value="Steel 16G2AFD GOST 19281-89"/>
+	<string id="%172%" value="Steel 16GS GOST 19281-89"/>
+	<string id="%173%" value="Steel 16D"/>
+	<string id="%174%" value="Steel 17G1S GOST 19281-89"/>
+	<string id="%175%" value="Steel 17GS GOST 19281-89"/>
+	<string id="%176%" value="Steel 18G2AF GOST 19281-89"/>
+	<string id="%177%" value="Steel 18G2AFD GOST 19281-89"/>
+	<string id="%178%" value="Steel 18G2AFDPS"/>
+	<string id="%179%" value="Steel 18G2AFPS"/>
+	<string id="%180%" value="Steel 18G2S"/>
+	<string id="%181%" value="Steel 1Ch2M1"/>
+	<string id="%182%" value="Steel 20GS"/>
+	<string id="%183%" value="Steel 20GS2"/>
+	<string id="%184%" value="Steel 20ChG2C"/>
+	<string id="%185%" value="Steel 23Ch2G2T"/>
+	<string id="%186%" value="Steel 25G2S"/>
+	<string id="%187%" value="Steel 25S2R"/>
+	<string id="%188%" value="Steel 28S"/>
+	<string id="%189%" value="Steel 30ChS2"/>
+	<string id="%190%" value="Steel 35GS"/>
+	<string id="%191%" value="Steel 80S"/>
+	<string id="%192%" value="Electrode E38"/>
+	<string id="%193%" value="Electrode E42"/>
+	<string id="%194%" value="Electrode E46"/>
+	<string id="%195%" value="Electrode E50"/>
+	<string id="%196%" value="Electrode E42A"/>
+	<string id="%197%" value="Electrode E46A"/>
+	<string id="%198%" value="Electrode E50A"/>
+	<string id="%199%" value="Electrode E55"/>
+	<string id="%200%" value="Electrode E60"/>
+	<string id="%201%" value="Electrode E70"/>
+	<string id="%202%" value="Electrode E85"/>
+	<string id="%203%" value="Electrode E100"/>
+	<string id="%204%" value="Electrode E125"/>
+	<string id="%205%" value="Electrode E150"/>
+	<string id="%206%" value="Electrode E-09M"/>
+	<string id="%207%" value="Electrode E-09MCh"/>
+	<string id="%208%" value="Electrode E-09Ch1M"/>
+	<string id="%209%" value="Electrode E-05Ch2M"/>
+	<string id="%210%" value="Electrode E-09Ch2M1"/>
+	<string id="%211%" value="Electrode E-09Ch1MF"/>
+	<string id="%212%" value="Electrode E-10Ch1M1NFB"/>
+	<string id="%213%" value="Electrode E-10Ch3M1BF"/>
+	<string id="%214%" value="Electrode E-10Ch5MF"/>
+</Resources>

@@ -1,0 +1,23 @@
+<FDesign>
+	<Table InternalName="68846E5D-154B-4426-8484-4CAEAB9BE7DA">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<PressureConnection DisplayName="%" IsVisible="1" Selectable="0" />
+			  <Lubrication DisplayName="" IsVisible="1" Selectable="0" />
+			  <data1 DisplayName="" IsVisible="1"  IsNumeric="1" Selectable="1" />
+			  <data2 DisplayName="" IsVisible="1"  IsNumeric="1" Selectable="1" />
+			  <data3 DisplayName="" IsVisible="1"  IsNumeric="1" Selectable="1" />
+			  <data4 DisplayName="" IsVisible="1"  IsNumeric="1" Selectable="1" />
+			</Columns>
+		</Definition>
+		<Data>
+		  <Row><PressureConnection>%2%</PressureConnection><Lubrication>%3%</Lubrication><data1>%4%</data1><SelectableRow_>0</SelectableRow_><colspan_>0,0,4,0,0,0</colspan_><rowspan_>3,3,0,0,0,0</rowspan_></Row>
+			<Row><PressureConnection>%9%</PressureConnection><Lubrication>%3%</Lubrication><data1>%5%</data1><data3>%6%</data3><SelectableRow_>0</SelectableRow_><colspan_>0,0,2,0,2,0</colspan_></Row>
+			<Row><data1>%7%</data1><data2>%8%</data2><data3>%7%</data3><data4>%8%</data4></Row>
+			
+			<Row><PressureConnection>%9%</PressureConnection><Lubrication>%10%</Lubrication><data1>0.13</data1><data2>0.14</data2><data3>0.08</data3><data4>0.055</data4><rowspan_>2,0,0,0,0,0</rowspan_></Row>
+			<Row><PressureConnection></PressureConnection><Lubrication>%11%</Lubrication><data1>0.35</data1><data3>0.15</data3><colspan_>0,0,2,0,2,0</colspan_></Row>
+			<Row><PressureConnection>%12%</PressureConnection><Lubrication>%10%</Lubrication><data1>0.09</data1><data3>0.05</data3><colspan_>0,0,2,0,2,0</colspan_></Row>
+		</Data>
+	</Table>
+</FDesign>

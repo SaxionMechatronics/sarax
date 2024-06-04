@@ -1,0 +1,89 @@
+<FDesign>
+  <Table InternalName="F2EB42C4-D902-4F07-8ED1-2F106929843E">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%19%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <mi DisplayName="%20%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <E DisplayName="%21%" Description="%5%" Units="%6%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <Pd DisplayName="%22%" Description="%7%" Units="%6%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <Alpha DisplayName="%23%" Description="%8%" Units="%9%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <Alpha1 DisplayName="%24%" Description="%10%" Units="%9%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>21CC6587961548978B5099407C157A01</ID>
+        <Material>%11%</Material>
+        <mi>0.3</mi>
+        <E>210000</E>
+        <Pd>310</Pd>
+        <Alpha>0.000011</Alpha>
+        <Alpha1>-0.0000085</Alpha1>
+      </Row>
+      <Row>
+        <ID>C573B400F3144BFD88E0BBEDCC187598</ID>
+        <Material>%12%</Material>
+        <mi>0.3</mi>
+        <E>95000</E>
+        <Pd>55</Pd>
+        <Alpha>0.000010</Alpha>
+        <Alpha1>-0.000008</Alpha1>
+      </Row>
+      <Row>
+        <ID>C9ADAB39A1544E3AACD3F07D9DBA99B7</ID>
+        <Material>%13%</Material>
+        <mi>0.3</mi>
+        <E>125000</E>
+        <Pd>40</Pd>
+        <Alpha>0.000016</Alpha>
+        <Alpha1>-0.0000014</Alpha1>
+      </Row>
+      <Row>
+        <ID>D8423B32A4BA4143A867468FF3C8D52A</ID>
+        <Material>%14%</Material>
+        <mi>0.3</mi>
+        <E>80000</E>
+        <Pd>40</Pd>
+        <Alpha>0.000018</Alpha>
+        <Alpha1>-0.0000016</Alpha1>
+      </Row>
+      <Row>
+        <ID>79661513F4754D4A9E24BE8090D12150</ID>
+        <Material>%15%</Material>
+        <mi>0.3</mi>
+        <E>110000</E>
+        <Pd>40</Pd>
+        <Alpha>0.000016</Alpha>
+        <Alpha1>-0.0000014</Alpha1>
+      </Row>
+      <Row>
+        <ID>BBB15936B7B5471CA8C2ACBCF5197AF0</ID>
+        <Material>%16%</Material>
+        <mi>0.3</mi>
+        <E>70000</E>
+        <Pd>30</Pd>
+        <Alpha>0.000023</Alpha>
+        <Alpha1>-0.0000018</Alpha1>
+      </Row>
+      <Row>
+        <ID>35A159BC214D488494565AB1D673ED27</ID>
+        <Material>%17%</Material>
+        <mi>0.3</mi>
+        <E>41000</E>
+        <Pd>30</Pd>
+        <Alpha>0.000026</Alpha>
+        <Alpha1>-0.0000021</Alpha1>
+      </Row>
+      <Row>
+        <ID>DF8A78D29A9E42139699F185A0F49F88</ID>
+        <Material>%18%</Material>
+        <mi>0.25</mi>
+        <E>90000</E>
+        <Pd>40</Pd>
+        <Alpha>0.000010</Alpha>
+        <Alpha1>-0.000008</Alpha1>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

@@ -1,0 +1,40 @@
+<FDesign>
+  <Table InternalName="A923F9A3-722F-4bd5-969D-E259636537BB">
+    <Definition DisplayName="Safety Factor">
+      <Columns>
+        <ks Description="Safety Factor" Units="ul" />
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ks>2</ks>
+      </Row>
+      <Row>
+        <ks>2.5</ks>
+      </Row>
+      <Row>
+        <ks>3</ks>
+      </Row>
+      <Row>
+        <ks>4</ks>
+      </Row>
+      <Row>
+        <ks>5</ks>
+      </Row>
+      <Row>
+        <ks>6</ks>
+      </Row>
+      <Row>
+        <ks>8</ks>
+      </Row>
+      <Row>
+        <ks>10</ks>
+      </Row>
+      <Row>
+        <ks>12</ks>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>
+
+	

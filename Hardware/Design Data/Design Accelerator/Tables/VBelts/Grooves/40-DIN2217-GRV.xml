@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="metric" thumbnail="StdGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="mm" >32.0</NomWidth>
+    <Diameter src="table" dt="number" units="mm" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="mm">33.0</Depth>
+    <DistSe src="fixed" dt="number" units="mm">29.0</DistSe>
+    <DistSg src="fixed" dt="number" units="mm">44.5</DistSg>
+    <Height src="fixed" dt="number" units="mm">12.0</Height>
+    <Rin src="fixed" dt="number" units="mm">0.0</Rin>
+    <Rex src="fixed" dt="number" units="mm">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="40:500" >
+      <Size>40 x 500</Size>
+      <Diameter>500.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="40:560" >
+      <Size>40 x 560</Size>
+      <Diameter>560.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="40:630" >
+      <Size>40 x 630</Size>
+      <Diameter>630.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="40:710" >
+      <Size>40 x 710</Size>
+      <Diameter>710.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:800" >
+      <Size>40 x 800</Size>
+      <Diameter>800.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:900" >
+      <Size>40 x 900</Size>
+      <Diameter>900.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:1000" >
+      <Size>40 x 1000</Size>
+      <Diameter>1000.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:1120" >
+      <Size>40 x 1120</Size>
+      <Diameter>1120.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:1250" >
+      <Size>40 x 1250</Size>
+      <Diameter>1250.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:1400" >
+      <Size>40 x 1400</Size>
+      <Diameter>1400.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:1600" >
+      <Size>40 x 1600</Size>
+      <Diameter>1600.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:1800" >
+      <Size>40 x 1800</Size>
+      <Diameter>1800.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="40:2000" >
+      <Size>40 x 2000</Size>
+      <Diameter>2000.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

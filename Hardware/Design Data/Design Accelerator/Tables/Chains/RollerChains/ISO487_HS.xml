@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.3" category="RCHAIN" thumbnail="ISO487_S.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="ISO487" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <b src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="N"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="mm^2"/>
+    <fi src="fixed" dt="number" units="ul">1.0</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.19</bax>
+    <Pc1 src="fixed" dt="string">12.85kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0008ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">953.5kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="S32-H-1" >
+      <Designation>S32-H</Designation>
+      <Size>S32-H</Size>
+      <k>1</k>
+      <p>29.21</p>
+      <b1>15.88</b1>
+      <d1>11.43</d1>
+      <d2>4.47</d2>
+      <b2>20.19</b2>
+      <Pt>25.0</Pt>
+      <h2>13.5</h2>
+      <h3>13.5</h3>
+      <b>26.7</b>
+      <A>90</A>
+      <Fu>17500</Fu>
+      <m>0.76</m>
+    </Member>
+    <Member moniker="S42-H-1" >
+      <Designation>S42-H</Designation>
+      <Size>S42-H</Size>
+      <k>1</k>
+      <p>34.93</p>
+      <b1>19.05</b1>
+      <d1>14.27</d1>
+      <d2>7.01</d2>
+      <b2>25.40</b2>
+      <Pt>32.0</Pt>
+      <h2>19.8</h2>
+      <h3>19.8</h3>
+      <b>34.3</b>
+      <A>178</A>
+      <Fu>41000</Fu>
+      <m>1.61</m>
+    </Member>
+    <Member moniker="S45-H-1" >
+      <Designation>S45-H</Designation>
+      <Size>S45-H</Size>
+      <k>1</k>
+      <p>41.40</p>
+      <b1>22.23</b1>
+      <d1>15.24</d1>
+      <d2>5.74</d2>
+      <b2>28.58</b2>
+      <Pt>35.0</Pt>
+      <h2>17.3</h2>
+      <h3>17.3</h3>
+      <b>38.1</b>
+      <A>164</A>
+      <Fu>32000</Fu>
+      <m>1.46</m>
+    </Member>
+    <Member moniker="S52-H-1" >
+      <Designation>S52-H</Designation>
+      <Size>S52-H</Size>
+      <k>1</k>
+      <p>38.10</p>
+      <b1>22.23</b1>
+      <d1>15.24</d1>
+      <d2>5.74</d2>
+      <b2>28.58</b2>
+      <Pt>35.0</Pt>
+      <h2>17.3</h2>
+      <h3>17.3</h3>
+      <b>38.1</b>
+      <A>164</A>
+      <Fu>32000</Fu>
+      <m>1.56</m>
+    </Member>
+    <Member moniker="S55-H-1" >
+      <Designation>S55-H</Designation>
+      <Size>S55-H</Size>
+      <k>1</k>
+      <p>41.40</p>
+      <b1>22.23</b1>
+      <d1>17.78</d1>
+      <d2>5.74</d2>
+      <b2>28.58</b2>
+      <Pt>35.0</Pt>
+      <h2>17.3</h2>
+      <h3>17.3</h3>
+      <b>38.1</b>
+      <A>164</A>
+      <Fu>32000</Fu>
+      <m>1.65</m>
+    </Member>
+    <Member moniker="S62-H-1" >
+      <Designation>S62-H</Designation>
+      <Size>S62-H</Size>
+      <k>1</k>
+      <p>41.91</p>
+      <b1>25.40</b1>
+      <d1>19.05</d1>
+      <d2>5.74</d2>
+      <b2>31.80</b2>
+      <Pt>39.0</Pt>
+      <h2>17.3</h2>
+      <h3>17.3</h3>
+      <b>40.6</b>
+      <A>164</A>
+      <Fu>32000</Fu>
+      <m>1.87</m>
+    </Member>
+    <Member moniker="S77-H-1" >
+      <Designation>S77-H</Designation>
+      <Size>S77-H</Size>
+      <k>1</k>
+      <p>58.34</p>
+      <b1>22.23</b1>
+      <d1>18.26</d1>
+      <d2>8.92</d2>
+      <b2>31.17</b2>
+      <Pt>41.0</Pt>
+      <h2>26.2</h2>
+      <h3>26.2</h3>
+      <b>43.9</b>
+      <A>278</A>
+      <Fu>80000</Fu>
+      <m>2.57</m>
+    </Member>
+    <Member moniker="S88-H-1" >
+      <Designation>S88-H</Designation>
+      <Size>S88-H</Size>
+      <k>1</k>
+      <p>66.27</p>
+      <b1>28.58</b1>
+      <d1>22.86</d1>
+      <d2>8.92</d2>
+      <b2>37.52</b2>
+      <Pt>47.0</Pt>
+      <h2>26.2</h2>
+      <h3>26.2</h3>
+      <b>50.8</b>
+      <A>335</A>
+      <Fu>80000</Fu>
+      <m>3.26</m>
+    </Member>
+  </Members>
+</CustomFamily>

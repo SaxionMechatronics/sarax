@@ -1,0 +1,48 @@
+<FDesign>
+	<Table InternalName="25820DE0-ABB4-4585-B291-7191D08E564E">
+		<Definition DisplayName="Limit Deviation of Helix Angle FS">
+			<Columns>
+				<A Description="Degree of tooth contact" Units="ul" /><B Description="Factor" Units="microm" /><C Description="Factor" Units="microm" /><D Description="Factor" Units="microm" /><E Description="Factor" Units="microm" /><F Description="Factor" Units="microm" />
+			</Columns>
+			<Note>First row contain: Facewidth [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>63</B><C>100</C><D>160</D><E>250</E><F>400</F>
+			</Row>
+			<Row>
+				<A>2</A><B>3.6</B><C>5</C><D>7.1</D><E>0</E><F>0</F>
+			</Row>
+			<Row>
+				<A>3</A><B>5</B><C>6</C><D>8</D><E>0</E><F>0</F>
+			</Row>
+			<Row>
+				<A>4</A><B>6</B><C>7.5</C><D>11</D><E>0</E><F>0</F>
+			</Row>
+			<Row>
+				<A>5</A><B>7.1</B><C>9.5</C><D>13</D><E>19</E><F>0</F>
+			</Row>
+			<Row>
+				<A>6</A><B>9</B><C>12</C><D>17</D><E>24</E><F>0</F>
+			</Row>
+			<Row>
+				<A>7</A><B>12</B><C>17</C><D>24</D><E>32</E><F>48</F>
+			</Row>
+			<Row>
+				<A>8</A><B>16</B><C>22</C><D>30</D><E>42</E><F>63</F>
+			</Row>
+			<Row>
+				<A>9</A><B>22</B><C>28</C><D>40</D><E>56</E><F>80</F>
+			</Row>
+			<Row>
+				<A>10</A><B>28</B><C>36</C><D>50</D><E>71</E><F>100</F>
+			</Row>
+			<Row>
+				<A>11</A><B>34</B><C>45</C><D>63</D><E>90</E><F>110</F>
+			</Row>
+			<Row>
+				<A>12</A><B>42</B><C>56</C><D>80</D><E>110</E><F>160</F>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

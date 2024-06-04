@@ -1,0 +1,6 @@
+<Resources>
+  <string id="%1%" value="Mesh Alignment Correction Factor"/>
+  <string id="%2%" value="Gearing is adjusted at assembly"/>
+  <string id="%3%" value="Compatibility of the gearing is improved by lapping"/>
+  <string id="%4%" value="All other conditions"/>
+</Resources>

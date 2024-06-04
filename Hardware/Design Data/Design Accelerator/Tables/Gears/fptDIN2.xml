@@ -1,0 +1,446 @@
+<FDesign>
+	<Table InternalName="1B8EA83C-ED5F-4526-8B5B-1F30CF07C490">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 1 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>1.5</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>2</B><C>2</C><D>2</D><E>2.5</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>2</B><C>2</C><D>2</D><E>2.5</E><F>3</F><G>4</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>2</B><C>2</C><D>2.5</D><E>2.5</E><F>3.5</F><G>4</G><H>6</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>2.5</C><D>2.5</D><E>3</E><F>3.5</F><G>4.5</G><H>6</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>3</D><E>3</E><F>3.5</F><G>4.5</G><H>6.5</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>3</D><E>3.5</E><F>4</F><G>5</G><H>6.5</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>3.5</E><F>4</F><G>5</G><H>7</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="DF6A02DD-25EF-4EE9-B280-03F446B9AB9C">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 2 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>2.5</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>2.5</B><C>2.5</C><D>3</D><E>3.5</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>2.5</B><C>3</C><D>3</D><E>3.5</E><F>4.5</F><G>5.5</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>3</B><C>3</C><D>3.5</D><E>4</E><F>4.5</F><G>6</G><H>8.5</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>3.5</C><D>3.5</D><E>4</E><F>5</F><G>6</G><H>8.5</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>4</D><E>4.5</E><F>5</F><G>6.5</G><H>9</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>4</D><E>4.5</E><F>5.5</F><G>6.5</G><H>9</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>5</E><F>6</F><G>7</G><H>9.5</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="3194AD7F-CC40-4932-8BE3-6ECC65D0E752">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 3 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>3.5</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>3.5</B><C>3.5</C><D>4</D><E>5</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>3.5</B><C>4</C><D>4.5</D><E>5</E><F>6</F><G>8</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>4</B><C>4</C><D>4.5</D><E>5.5</E><F>6.5</F><G>8</G><H>12</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>4.5</C><D>5</D><E>5.5</E><F>7</F><G>8.5</G><H>12</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>5.5</D><E>6</E><F>7</F><G>9</G><H>12</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>6</D><E>6.5</E><F>7.5</F><G>9.5</G><H>13</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>7</E><F>8</F><G>10</G><H>13</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="D5816E90-5FB8-441A-B614-A27AFFDB198B">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 4 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>4.5</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>5</B><C>5</C><D>6</D><E>7</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>5</B><C>5.5</C><D>6</D><E>7</E><F>8.5</F><G>11</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>5.5</B><C>6</C><D>6.5</D><E>7.5</E><F>9</F><G>11</G><H>16</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>6.5</C><D>7</D><E>8</E><F>9.5</F><G>12</G><H>17</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>7.5</D><E>8.5</E><F>10</F><G>12</G><H>17</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>8.5</D><E>9</E><F>11</F><G>13</G><H>18</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>10</E><F>12</F><G>14</G><H>19</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="185357CD-42C6-46F8-B2EE-BBA3459E6232">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 5 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>6.5</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>6.5</B><C>7.5</C><D>8</D><E>9.5</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>7</B><C>8</C><D>8.5</D><E>10</E><F>12</F><G>15</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>7.5</B><C>8.5</C><D>9</D><E>11</E><F>13</F><G>16</G><H>23</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>9</C><D>10</D><E>11</E><F>13</F><G>17</G><H>23</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>11</D><E>12</E><F>14</F><G>17</G><H>24</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>12</D><E>13</E><F>15</F><G>18</G><H>25</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>14</E><F>16</F><G>19</G><H>26</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="E6ECDA45-0B63-45B3-A61D-F119AE138B5A">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 6 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>9</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>9.5</B><C>10</C><D>11</D><E>13</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>10</B><C>11</C><D>12</D><E>14</E><F>17</F><G>22</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>11</B><C>12</C><D>13</D><E>15</E><F>18</F><G>22</G><H>32</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>13</C><D>14</D><E>16</E><F>19</F><G>23</G><H>33</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>15</D><E>17</E><F>20</F><G>24</G><H>34</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>16</D><E>18</E><F>21</F><G>26</G><H>35</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>20</E><F>23</F><G>27</G><H>37</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="B78BC04D-1D3F-44D7-B351-A663CE4F403C">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 7 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>13</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>13</B><C>14</C><D>16</D><E>19</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>14</B><C>15</C><D>17</D><E>20</E><F>24</F><G>30</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>15</B><C>16</C><D>18</D><E>21</E><F>25</F><G>31</G><H>44</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>18</C><D>19</D><E>22</E><F>26</F><G>33</G><H>46</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>21</D><E>24</E><F>28</F><G>34</G><H>47</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>23</D><E>25</E><F>30</F><G>36</G><H>49</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>27</E><F>32</F><G>38</G><H>51</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="69666A5F-E5B1-42BB-BA6C-3E42A970BAB9">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 8 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>18</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>19</B><C>20</C><D>22</D><E>26</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>20</B><C>21</C><D>24</D><E>27</E><F>33</F><G>42</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>21</B><C>23</C><D>25</D><E>29</E><F>35</F><G>44</G><H>62</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>25</C><D>27</D><E>31</E><F>37</F><G>46</G><H>64</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>29</D><E>33</E><F>39</F><G>48</G><H>66</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>32</D><E>35</E><F>41</F><G>50</G><H>69</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>38</E><F>44</F><G>53</G><H>72</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="65D353D7-553A-4E96-AD0E-35D56A869449">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 9 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>28</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>30</B><C>32</C><D>36</D><E>42</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>32</B><C>34</C><D>38</D><E>44</E><F>53</F><G>68</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>34</B><C>36</C><D>40</D><E>46</E><F>56</F><G>70</G><H>100</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>39</C><D>43</D><E>49</E><F>59</F><G>73</G><H>103</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>47</D><E>53</E><F>62</F><G>77</G><H>106</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>51</D><E>57</E><F>66</F><G>81</G><H>110</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>61</E><F>71</F><G>85</G><H>115</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="69342BA8-8AF5-4C97-9F2F-17D7B423150D">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 10 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>45</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>47</B><C>51</C><D>57</D><E>67</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>51</B><C>54</C><D>61</D><E>70</E><F>85</F><G>108</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>54</B><C>58</C><D>64</D><E>74</E><F>89</F><G>112</G><H>159</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>63</C><D>69</D><E>79</E><F>94</F><G>117</G><H>164</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>75</D><E>85</E><F>100</F><G>122</G><H>170</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>81</D><E>91</E><F>106</F><G>129</G><H>176</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>98</E><F>113</F><G>136</G><H>183</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="2D2E3DDE-D865-428B-A8BD-0007E520C2B5">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 11 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>72</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>76</B><C>82</C><D>92</D><E>107</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>81</B><C>87</C><D>97</D><E>112</E><F>137</F><G>173</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>87</B><C>93</C><D>103</D><E>118</E><F>143</F><G>179</G><H>255</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>101</C><D>110</D><E>126</E><F>150</F><G>187</G><H>263</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>120</D><E>135</E><F>160</F><G>196</G><H>272</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>130</D><E>145</E><F>170</F><G>206</G><H>282</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>157</E><F>181</F><G>217</G><H>294</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="F99BB8A5-21A8-4A48-994D-B971F8385A2F">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 12 (Bevel Gear)">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>2</B><C>3.55</C><D>6</D><E>10</E><F>16</F><G>25</G><H>50</H>
+			</Row>
+			<Row>
+				<A>10</A><B>115</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>50</A><B>121</B><C>131</C><D>147</D><E>172</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>125</A><B>130</B><C>139</C><D>155</D><E>180</E><F>219</F><G>277</G><H>0</H>
+			</Row>
+			<Row>
+				<A>280</A><B>139</B><C>149</C><D>164</D><E>189</E><F>228</F><G>286</G><H>408</H>
+			</Row>
+			<Row>
+				<A>560</A><B>0</B><C>161</C><D>177</D><E>202</E><F>240</F><G>299</G><H>421</H>
+			</Row>
+			<Row>
+				<A>1000</A><B>0</B><C>0</C><D>192</D><E>216</E><F>255</F><G>314</G><H>435</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>0</B><C>0</C><D>208</D><E>233</E><F>272</F><G>330</G><H>452</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>0</B><C>0</C><D>0</D><E>251</E><F>290</F><G>348</G><H>470</H>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

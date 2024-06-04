@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="XPZ-DIN7753.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\SPZ-DIN2211-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">8.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >9.7</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >8.5</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Le2Ld src="fixed" dt="number" units="mm">13.0</Le2Ld>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">120.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">50.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.072</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">50.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.0432173 - 1.15057/{Dpk} - 5.571e-09*pow({Dpk}*{nk};2) - 0.00531*(log({Dpk}*{nk})-log(2/(1+pow(10;216.68/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="XPZ630" >
+      <Size>XPZ 630</Size>
+      <Length>630.0</Length>
+      <C3>0.82</C3>
+    </Member>
+    <Member moniker="XPZ710">
+      <Size>XPZ 710</Size>
+      <Length>710.0</Length>
+      <C3>0.84</C3>
+    </Member>
+    <Member moniker="XPZ800">
+      <Size>XPZ 800</Size>
+      <Length>800.0</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="XPZ900">
+      <Size>XPZ 900</Size>
+      <Length>900.0</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="XPZ1000">
+      <Size>XPZ 1000</Size>
+      <Length>1000.0</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="XPZ1120">
+      <Size>XPZ 1120</Size>
+      <Length>1120.0</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="XPZ1250">
+      <Size>XPZ 1250</Size>
+      <Length>1250.0</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="XPZ1400">
+      <Size>XPZ 1400</Size>
+      <Length>1400.0</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="XPZ1600">
+      <Size>XPZ 1600</Size>
+      <Length>1600.0</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="XPZ1800">
+      <Size>XPZ 1800</Size>
+      <Length>1800.0</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="XPZ2000">
+      <Size>XPZ 2000</Size>
+      <Length>2000.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="XPZ2240">
+      <Size>XPZ 2240</Size>
+      <Length>2240.0</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="XPZ2500">
+      <Size>XPZ 2500</Size>
+      <Length>2500.0</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="XPZ2800">
+      <Size>XPZ 2800</Size>
+      <Length>2800.0</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="XPZ3150">
+      <Size>XPZ 3150</Size>
+      <Length>3150.0</Length>
+      <C3>1.11</C3>
+    </Member>
+    <Member moniker="XPZ3550">
+      <Size>XPZ 3550</Size>
+      <Length>3550.0</Length>
+      <C3>1.13</C3>
+    </Member>
+  </Members>
+</CustomFamily>

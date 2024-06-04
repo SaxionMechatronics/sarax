@@ -1,0 +1,51 @@
+<FDesign>
+	<Table InternalName="5ABB371B-BBD8-4B7C-B3DC-CA66CF575DC6">
+		<Definition DisplayName="Limit Deviation of Helix Angle Fbeta - DIN">
+			<Columns>
+				<A Description="Precission Degree of Tooth Contact" Units="ul" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Gear Width [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>20</B><C>40</C><D>100</D><E>160</E>
+			</Row>
+			<Row>
+				<A>1</A><B>2.5</B><C>3</C><D>4</D><E>5</E>
+			</Row>
+			<Row>
+				<A>2</A><B>3.5</B><C>4</C><D>5</D><E>6</E>
+			</Row>
+			<Row>
+				<A>3</A><B>4.5</B><C>5</C><D>6</D><E>8</E>
+			</Row>
+			<Row>
+				<A>4</A><B>5.5</B><C>6</C><D>8</D><E>10</E>
+			</Row>
+			<Row>
+				<A>5</A><B>7</B><C>8</C><D>10</D><E>12</E>
+			</Row>
+			<Row>
+				<A>6</A><B>9</B><C>10</C><D>12</D><E>16</E>
+			</Row>
+			<Row>
+				<A>7</A><B>13</B><C>15</C><D>18</D><E>22</E>
+			</Row>
+			<Row>
+				<A>8</A><B>18</B><C>20</C><D>25</D><E>32</E>
+			</Row>
+			<Row>
+				<A>9</A><B>28</B><C>32</C><D>40</D><E>50</E>
+			</Row>
+			<Row>
+				<A>10</A><B>45</B><C>50</C><D>63</D><E>80</E>
+			</Row>
+			<Row>
+				<A>11</A><B>71</B><C>80</C><D>100</D><E>125</E>
+			</Row>
+			<Row>
+				<A>12</A><B>110</B><C>125</C><D>160</D><E>200</E>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

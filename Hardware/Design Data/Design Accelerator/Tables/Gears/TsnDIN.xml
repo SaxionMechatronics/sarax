@@ -1,0 +1,45 @@
+<FDesign>
+	<Table InternalName="62DA6654-2D22-490D-A324-46FB3402EA0C">
+		<Definition DisplayName="Limit Deviation of Tooth Thickness Tsn - DIN">
+			<Columns>
+				<A Description="Backslash Tolerance" Units="ul" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" /><I Description="Deviation" Units="microm" /><J Description="Deviation" Units="microm" /><K Description="Deviation" Units="microm" /><L Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Pitch Diameter [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>10</B><C>50</C><D>125</D><E>280</E><F>560</F><G>1000</G><H>1600</H><I>2500</I><J>4000</J><K>6300</K><L>10000</L>
+			</Row>
+			<Row>
+				<A>21</A><B>3</B><C>5</C><D>6</D><E>8</E><F>10</F><G>12</G><H>16</H><I>20</I><J>25</J><K>30</K><L>40</L>
+			</Row>
+			<Row>
+				<A>22</A><B>5</B><C>8</C><D>10</D><E>12</E><F>16</F><G>20</G><H>25</H><I>30</I><J>40</J><K>50</K><L>60</L>
+			</Row>
+			<Row>
+				<A>23</A><B>8</B><C>12</C><D>16</D><E>20</E><F>25</F><G>30</G><H>40</H><I>50</I><J>60</J><K>80</K><L>100</L>
+			</Row>
+			<Row>
+				<A>24</A><B>12</B><C>20</C><D>25</D><E>30</E><F>40</F><G>50</G><H>60</H><I>80</I><J>100</J><K>130</K><L>160</L>
+			</Row>
+			<Row>
+				<A>25</A><B>20</B><C>30</C><D>40</D><E>50</E><F>60</F><G>80</G><H>100</H><I>130</I><J>160</J><K>200</K><L>250</L>
+			</Row>
+			<Row>
+				<A>26</A><B>30</B><C>50</C><D>60</D><E>80</E><F>100</F><G>130</G><H>160</H><I>200</I><J>250</J><K>300</K><L>400</L>
+			</Row>
+			<Row>
+				<A>27</A><B>50</B><C>80</C><D>100</D><E>130</E><F>160</F><G>200</G><H>250</H><I>300</I><J>400</J><K>500</K><L>600</L>
+			</Row>
+			<Row>
+				<A>28</A><B>80</B><C>130</C><D>160</D><E>200</E><F>250</F><G>300</G><H>400</H><I>500</I><J>600</J><K>800</K><L>1000</L>
+			</Row>
+			<Row>
+				<A>29</A><B>130</B><C>200</C><D>250</D><E>300</E><F>400</F><G>500</G><H>600</H><I>800</I><J>1000</J><K>1300</K><L>1600</L>
+			</Row>
+			<Row>
+				<A>30</A><B>200</B><C>300</C><D>400</D><E>500</E><F>600</F><G>800</G><H>1000</H><I>1300</I><J>1600</J><K>2000</K><L>2400</L>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

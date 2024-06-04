@@ -1,0 +1,17 @@
+<FDesign>
+	<Table InternalName="F9051CDD-EF94-4EBC-9A7E-79CC47334EFA">
+		<Definition DisplayName="Pressure Angle">
+			<Columns>
+				<A Description="Pressure Angle" Units="deg" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>14.5</A></Row>
+			<Row><A>17.5</A></Row>
+			<Row><A>20</A></Row>
+			<Row><A>22.5</A></Row>
+			<Row><A>25</A></Row>
+			<Row><A>30</A></Row>
+		</Data>
+	</Table>
+</FDesign>

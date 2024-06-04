@@ -1,0 +1,60 @@
+<FDesign>
+	<Table InternalName="6D6232F8-AD11-433C-82A6-EAA939D6541C">
+		<Definition DisplayName="Tooth Form Factor Yf">
+			<Columns>
+				<A Description="Virtual Gear No." Units="ul" /><B Description="Factor" Units="ul" />
+			</Columns>
+			<Note>First row contain: none [ul]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>1</B>
+			</Row>
+			<Row>
+				<A>20</A><B>1.98</B>
+			</Row>
+			<Row>
+				<A>22</A><B>1.93</B>
+			</Row>
+			<Row>
+				<A>25</A><B>1.85</B>
+			</Row>
+			<Row>
+				<A>27</A><B>1.8</B>
+			</Row>
+			<Row>
+				<A>30</A><B>1.76</B>
+			</Row>
+			<Row>
+				<A>33</A><B>1.7</B>
+			</Row>
+			<Row>
+				<A>36</A><B>1.62</B>
+			</Row>
+			<Row>
+				<A>40</A><B>1.55</B>
+			</Row>
+			<Row>
+				<A>45</A><B>1.48</B>
+			</Row>
+			<Row>
+				<A>50</A><B>1.45</B>
+			</Row>
+			<Row>
+				<A>60</A><B>1.4</B>
+			</Row>
+			<Row>
+				<A>80</A><B>1.34</B>
+			</Row>
+			<Row>
+				<A>100</A><B>1.3</B>
+			</Row>
+			<Row>
+				<A>150</A><B>1.27</B>
+			</Row>
+			<Row>
+				<A>300</A><B>1.24</B>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

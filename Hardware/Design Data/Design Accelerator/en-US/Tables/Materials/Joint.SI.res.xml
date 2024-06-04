@@ -1,0 +1,21 @@
+<Resources>
+  <string id="%1%" value="Joint Material"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Allowable Pressure (Static Loading)"/>
+  <string id="%4%" value="MPa"/>
+  <string id="%5%" value="Modulus of Elasticity"/>
+  <string id="%6%" value="Steel gr. 37; 42"/>
+  <string id="%7%" value="Steel gr. 50"/>
+  <string id="%8%" value="Steel gr. 60"/>
+  <string id="%9%" value="Steel gr. 70"/>
+  <string id="%10%" value="Cast steel"/>
+  <string id="%11%" value="Grey cast iron"/>
+  <string id="%12%" value="Bronze"/>
+  <string id="%13%" value="Material"/>
+  <string id="%14%" value="||s||.A1|"/>
+  <string id="%15%" value="E"/>
+  <string id="%16%" value="Allowable Pressure (Repeated Loading)"/>
+  <string id="%17%" value="Allowable Pressure (Alternating Loading)"/>
+  <string id="%18%" value="||s||.A2|"/>
+  <string id="%19%" value="||s||.A3|"/>
+</Resources>

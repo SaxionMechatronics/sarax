@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="SPB-DIN7753.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\SPB-DIN2211-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">13.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >16.3</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >14</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Le2Ld src="fixed" dt="number" units="mm">22.0</Le2Ld>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">100.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">40.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.178</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">140.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.11539415 - 7.563346/{Dpk} - 2.7814329e-08*pow({Dpk}*{nk};2) - 0.01320109*(log({Dpk}*{nk})-log(2/(1+pow(10;572.93/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="SPB1250">
+      <Size>SPB 1250</Size>
+      <Length>1250.0</Length>
+      <C3>0.82</C3>
+    </Member>
+    <Member moniker="SPB1400">
+      <Size>SPB 1400</Size>
+      <Length>1400.0</Length>
+      <C3>0.84</C3>
+    </Member>
+    <Member moniker="SPB1600">
+      <Size>SPB 1600</Size>
+      <Length>1600.0</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="SPB1800">
+      <Size>SPB 1800</Size>
+      <Length>1800.0</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="SPB2000">
+      <Size>SPB 2000</Size>
+      <Length>2000.0</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="SPB2240">
+      <Size>SPB 2240</Size>
+      <Length>2240.0</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="SPB2500">
+      <Size>SPB 2500</Size>
+      <Length>2500.0</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="SPB2800">
+      <Size>SPB 2800</Size>
+      <Length>2800.0</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="SPB3150">
+      <Size>SPB 3150</Size>
+      <Length>3150.0</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="SPB3550">
+      <Size>SPB 3550</Size>
+      <Length>3550.0</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="SPB4000">
+      <Size>SPB 4000</Size>
+      <Length>4000.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="SPB4500">
+      <Size>SPB 4500</Size>
+      <Length>4500.0</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="SPB5000">
+      <Size>SPB 5000</Size>
+      <Length>5000.0</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="SPB5600">
+      <Size>SPB 5600</Size>
+      <Length>5600.0</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="SPB6300">
+      <Size>SPB 6300</Size>
+      <Length>6300.0</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="SPB7100">
+      <Size>SPB 7100</Size>
+      <Length>7100.0</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="SPB8000">
+      <Size>SPB 8000</Size>
+      <Length>8000.0</Length>
+      <C3>1.14</C3>
+    </Member>
+  </Members>
+</CustomFamily>

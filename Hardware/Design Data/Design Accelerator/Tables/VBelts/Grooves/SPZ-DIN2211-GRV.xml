@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="metric" thumbnail="StdGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="mm" >8.5</NomWidth>
+    <Diameter src="table" dt="number" units="mm" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="mm">11.0</Depth>
+    <DistSe src="fixed" dt="number" units="mm">8.0</DistSe>
+    <DistSg src="fixed" dt="number" units="mm">12.0</DistSg>
+    <Height src="fixed" dt="number" units="mm">2.0</Height>
+    <Rin src="fixed" dt="number" units="mm">0.0</Rin>
+    <Rex src="fixed" dt="number" units="mm">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="SPZ-50" >
+      <Size>SPZ - 50</Size>
+      <Diameter>50.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-56" >
+      <Size>SPZ - 56</Size>
+      <Diameter>56.5</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-63" >
+      <Size>SPZ - 63</Size>
+      <Diameter>63.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-71" >
+      <Size>SPZ - 71</Size>
+      <Diameter>71.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-80" >
+      <Size>SPZ - 80</Size>
+      <Diameter>80.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-90" >
+      <Size>SPZ - 90</Size>
+      <Diameter>90.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-100" >
+      <Size>SPZ - 100</Size>
+      <Diameter>100.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-112" >
+      <Size>SPZ - 112</Size>
+      <Diameter>112.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-125" >
+      <Size>SPZ - 125</Size>
+      <Diameter>125.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-140" >
+      <Size>SPZ - 140</Size>
+      <Diameter>140.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-150" >
+      <Size>SPZ - 150</Size>
+      <Diameter>150.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-160" >
+      <Size>SPZ - 160</Size>
+      <Diameter>160.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-180" >
+      <Size>SPZ - 180</Size>
+      <Diameter>180.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-200" >
+      <Size>SPZ - 200</Size>
+      <Diameter>200.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-224" >
+      <Size>SPZ - 224</Size>
+      <Diameter>224.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-250" >
+      <Size>SPZ - 250</Size>
+      <Diameter>250.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-280" >
+      <Size>SPZ - 280</Size>
+      <Diameter>280.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-300" >
+      <Size>SPZ - 300</Size>
+      <Diameter>300.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-315" >
+      <Size>SPZ - 315</Size>
+      <Diameter>315.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-355" >
+      <Size>SPZ - 355</Size>
+      <Diameter>355.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-400" >
+      <Size>SPZ - 400</Size>
+      <Diameter>400.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-450" >
+      <Size>SPZ - 450</Size>
+      <Diameter>450.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPZ-500" >
+      <Size>SPZ - 500</Size>
+      <Diameter>500.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

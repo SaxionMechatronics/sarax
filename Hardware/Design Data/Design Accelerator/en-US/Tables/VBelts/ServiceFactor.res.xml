@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resources>
+  <string id="%1%" value="Service Factor"/>
+  <string id="%2%" value="Light Duty"/>
+  <string id="%3%" value="Medium Duty"/>
+  <string id="%4%" value="Heavy Duty"/>
+  <string id="%5%" value="Extra Heavy Duty"/>
+  <string id="%6%" value="Intermittent Service"/>
+  <string id="%7%" value="Normal Service"/>
+  <string id="%8%" value="Continuous Service"/>
+  <string id="%9%" value="3-5 Hours Daily"/>
+  <string id="%10%" value="8-10 Hours Daily"/>
+  <string id="%11%" value="16-24 Hours Daily"/>
+  <string id="%12%" value="DriveR Machine"/>
+  <string id="%13%" value="DriveN Machine"/>
+  <string id="%14%" value="Normal Torque"/>
+  <string id="%15%" value="High Torque"/>
+</Resources>

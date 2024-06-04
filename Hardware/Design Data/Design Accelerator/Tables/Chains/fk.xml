@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="41A63D71-8F51-47f1-8ED0-5488030FDA5E">
+		<Definition DisplayName="Number of teeth vs. chain speed factor">
+			<Columns>
+				<zs Units="ul"/>
+				<A Units="ul" />
+				<B Units="ul" />
+				<C Units="ul" />
+				<D Units="ul" />
+				<E Units="ul" />
+				<F Units="ul" />
+				<G Units="ul" />
+				<H Units="ul" />
+				<I Units="ul" />
+				<J Units="ul" />
+				<K Units="ul" />
+				<L Units="ul" />
+				<M Units="ul" />
+				<N Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><zs></zs><A>0.1</A><B>0.16</B><C>0.25</C><D>0.4</D><E>0.63</E><F>1.0</F><G>1.6</G><H>2.5</H><I>4.0</I><J>6.3</J><K>10</K><L>16</L><M>25</M><N>40</N></Row>
+			<Row><zs>11</zs><A>.917</A><B>.913</B><C>.910</C><D>.906</D><E>.900</E><F>.893</F><G>.885</G><H>.871</H><I>.855</I><J>.833</J><K>.807</K><L>.75</L><M>.5</M><N>.1</N></Row>
+			<Row><zs>12</zs><A>.947</A><B>.944</B><C>.940</C><D>.937</D><E>.931</E><F>.925</F><G>.918</G><H>.908</H><I>.894</I><J>.875</J><K>.855</K><L>.830</L><M>.801</M><N>.7</N></Row>
+			<Row><zs>13</zs><A>.972</A><B>.968</B><C>.965</C><D>.960</D><E>.955</E><F>.949</F><G>.943</G><H>.935</H><I>.924</I><J>.910</J><K>.893</K><L>.872</L><M>.849</M><N>.821</N></Row>
+			<Row><zs>14</zs><A>.980</A><B>.980</B><C>.978</C><D>.976</D><E>.973</E><F>.970</F><G>.966</G><H>.959</H><I>.950</I><J>.937</J><K>.921</K><L>.903</L><M>.882</M><N>.858</N></Row>
+			<Row><zs>15</zs><A>.990</A><B>.990</B><C>.990</C><D>.990</D><E>.988</E><F>.986</F><G>.982</G><H>.978</H><I>.970</I><J>.960</J><K>.947</K><L>.931</L><M>.911</M><N>.890</N></Row>
+			<Row><zs>16</zs><A>.990</A><B>.990</B><C>.990</C><D>.990</D><E>.990</E><F>.990</F><G>.988</G><H>.986</H><I>.983</I><J>.980</J><K>.974</K><L>.967</L><M>.954</M><N>.934</N></Row>
+			<Row><zs>17</zs><A>1</A><B>1.0</B><C>1.0</C><D>1.0</D><E>1.0</E><F>1.0</F><G>.999</G><H>.998</H><I>.996</I><J>.993</J><K>.989</K><L>.983</L><M>.976</M><N>.964</N></Row>
+			<Row><zs>18</zs><A>1</A><B>1.0</B><C>1.0</C><D>1.0</D><E>1.0</E><F>1.0</F><G>1.0</G><H>1.0</H><I>1.0</I><J>1.0</J><K>.999</K><L>.997</L><M>.992</M><N>.982</N></Row>
+		</Data>
+	</Table>
+</FDesign>

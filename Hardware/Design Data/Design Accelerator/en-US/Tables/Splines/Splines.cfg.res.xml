@@ -1,0 +1,15 @@
+<Resources>
+  <string id="%1%" value="S.A.E. - Serie A (Pernament Fit)"/>
+  <string id="%2%" value="S.A.E. - Serie B (To Slide-No Load)"/>
+  <string id="%3%" value="S.A.E. - Serie C (To Slide-Under Load)"/>
+  <string id="%4%" value="ISO 14 - Light serie"/>
+  <string id="%5%" value="ISO 14 - Medium serie"/>
+  <string id="%6%" value="CSN 01 4942 - Heavy serie"/>
+  <string id="%7%" value="DIN 5462"/>
+  <string id="%8%" value="DIN 5463"/>
+  <string id="%9%" value="DIN 5464"/>
+  <string id="%10%" value="DIN 5472"/>
+  <string id="%11%" value="GOST 1139-80 1991- Light serie"/>
+  <string id="%12%" value="GOST 1139-80 1991- Medium serie"/>
+  <string id="%13%" value="GOST 1139-80 1991 - Heavy serie"/>  
+</Resources>

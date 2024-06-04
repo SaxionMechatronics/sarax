@@ -1,0 +1,47 @@
+<FDesign>
+	<Table InternalName="0E45BE81-9E4F-4dd2-908F-88A6ACC2B608">
+		<Definition DisplayName="%1">
+		<Columns>
+		<temp  Description="%2" Units="|^o|C" />
+                <factor  Description="%3" IsVisible="0" Units="" />
+		</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<temp>0</temp>
+				<factor>1</factor>
+			</Row>		
+			<Row>
+				<temp>100</temp>
+				<factor>1</factor>
+			</Row>
+			<Row>
+				<temp>120</temp>
+				<factor>0.95</factor>
+			</Row>		
+			<Row>
+				<temp>150</temp>
+				<factor>0.9</factor>
+			</Row>		
+			<Row>
+				<temp>200</temp>
+				<factor>0.75</factor>
+			</Row>	
+			<Row>
+				<temp>250</temp>
+				<factor>0.6</factor>
+			</Row>
+			<Row>
+				<temp>300</temp>
+				<factor>0.5</factor>
+			</Row>
+			<Row>
+				<temp>350</temp>
+				<factor>0.45</factor>
+			</Row>		
+			
+		</Data>
+	</Table>
+</FDesign>
+
+	

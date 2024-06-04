@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resources>
+  <string id="%1%" value="Service Factor"/>
+  <string id="%2%" value="Driven machine characteristics"/>
+  <string id="%3%" value="Driver machine characteristics"/>
+  <string id="%4%" value="Smooth running"/>
+  <string id="%5%" value="Slight shocks"/>
+  <string id="%6%" value="Moderate shocks"/>
+  <string id="%7%" value="Heavy shocks"/>
+  <string id="%8%" value="Shock Factor"/>
+</Resources>

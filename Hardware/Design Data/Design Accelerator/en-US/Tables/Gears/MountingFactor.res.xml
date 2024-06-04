@@ -1,0 +1,11 @@
+<Resources>
+  <string id="%1%" value="Mounting Factor"/>
+  <string id="%2%" value="Characteristic of Support"/>
+  <string id="%3%" value="Face width [in]"/>
+  <string id="%4%" value="0 to 2"/>
+  <string id="%5%" value="16 up"/>
+  <string id="%6%" value="Accurate mountings, small bearing clearances, minimum deflection, precisions gears"/>
+  <string id="%7%" value="Less rigid mountings, less accurate gears, contact across full face"/>
+  <string id="%8%" value="Accuracy and mounting such that less than full-face contact exist"/>
+  <string id="%9%" value="over 2.2"/>
+</Resources>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.2" category="RCHAIN" thumbnail="ISO606_H.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="ISO" X0="120">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <b src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="kN"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="cm^2"/>
+    <fi src="fixed" dt="number" units="ul">1.0</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.13</bax>
+    <Pc1 src="fixed" dt="string">12.85kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0008ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">953.5kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="60H-1" >
+      <Designation>60H-1</Designation>
+      <Size>60H</Size>
+      <k>1</k>
+      <p>19.05</p>
+      <Pt>26.11</Pt>
+      <d1>11.91</d1>
+      <b1>12.75</b1>
+      <d2>5.96</d2>
+      <b>30.2</b>
+      <h2>18.1</h2>
+      <h3>15.62</h3>
+      <Fu>31.3</Fu>
+      <m>1.7</m>
+      <A>1.16</A>
+    </Member>
+    <Member moniker="60H-2" >
+      <Designation>60H-2</Designation>
+      <Size>60H</Size>
+      <k>2</k>
+      <p>19.05</p>
+      <Pt>26.11</Pt>
+      <d1>11.91</d1>
+      <b1>12.75</b1>
+      <d2>5.96</d2>
+      <b>56.3</b>
+      <h2>18.1</h2>
+      <h3>15.62</h3>
+      <Fu>62.6</Fu>
+      <m>3.2</m>
+      <A>2.32</A>
+    </Member>
+    <Member moniker="60H-3" >
+      <Designation>60H-3</Designation>
+      <Size>60H</Size>
+      <k>3</k>
+      <p>19.05</p>
+      <Pt>26.11</Pt>
+      <d1>11.91</d1>
+      <b1>12.75</b1>
+      <d2>5.96</d2>
+      <b>82.4</b>
+      <h2>18.1</h2>
+      <h3>15.62</h3>
+      <Fu>93.9</Fu>
+      <m>5</m>
+      <A>3.5</A>
+    </Member>
+    <Member moniker="80H-1" >
+      <Designation>80H-1</Designation>
+      <Size>80H</Size>
+      <k>1</k>
+      <p>25.4</p>
+      <Pt>32.59</Pt>
+      <d1>15.88</d1>
+      <b1>15.75</b1>
+      <d2>7.94</d2>
+      <b>37.4</b>
+      <h2>24.13</h2>
+      <h3>20.83</h3>
+      <Fu>55.6</Fu>
+      <m>3</m>
+      <A>1.92</A>
+    </Member>
+    <Member moniker="80H-2" >
+      <Designation>80H-2</Designation>
+      <Size>80H</Size>
+      <k>2</k>
+      <p>25.4</p>
+      <Pt>32.59</Pt>
+      <d1>15.88</d1>
+      <b1>15.75</b1>
+      <d2>7.94</d2>
+      <b>70</b>
+      <h2>24.13</h2>
+      <h3>20.83</h3>
+      <Fu>112.2</Fu>
+      <m>6.5</m>
+      <A>3.85</A>
+    </Member>
+    <Member moniker="80H-3" >
+      <Designation>80H-3</Designation>
+      <Size>80H</Size>
+      <k>3</k>
+      <p>25.4</p>
+      <Pt>32.59</Pt>
+      <d1>15.88</d1>
+      <b1>15.75</b1>
+      <d2>7.94</d2>
+      <b>102.6</b>
+      <h2>24.13</h2>
+      <h3>20.83</h3>
+      <Fu>166.8</Fu>
+      <m>9.9</m>
+      <A>5.77</A>
+    </Member>
+    <Member moniker="100H-1" >
+      <Designation>100H-1</Designation>
+      <Size>100H</Size>
+      <k>1</k>
+      <p>31.75</p>
+      <Pt>39.09</Pt>
+      <d1>19.05</d1>
+      <b1>18.9</b1>
+      <d2>9.54</d2>
+      <b>44.5</b>
+      <h2>30.17</h2>
+      <h3>26.04</h3>
+      <Fu>87</Fu>
+      <m>4.69</m>
+      <A>2.81</A>
+    </Member>
+    <Member moniker="100H-2" >
+      <Designation>100H-2</Designation>
+      <Size>100H</Size>
+      <k>2</k>
+      <p>31.75</p>
+      <Pt>39.09</Pt>
+      <d1>19.05</d1>
+      <b1>18.9</b1>
+      <d2>9.54</d2>
+      <b>83.6</b>
+      <h2>30.17</h2>
+      <h3>26.04</h3>
+      <Fu>174</Fu>
+      <m>10.2</m>
+      <A>5.63</A>
+    </Member>
+    <Member moniker="100H-3" >
+      <Designation>100H-3</Designation>
+      <Size>100H</Size>
+      <k>3</k>
+      <p>31.75</p>
+      <Pt>39.09</Pt>
+      <d1>19.05</d1>
+      <b1>18.9</b1>
+      <d2>9.54</d2>
+      <b>122.7</b>
+      <h2>30.17</h2>
+      <h3>26.04</h3>
+      <Fu>261</Fu>
+      <m>15.7</m>
+      <A>8.4</A>
+    </Member>
+    <Member moniker="120H-1" >
+      <Designation>120H-1</Designation>
+      <Size>120H</Size>
+      <k>1</k>
+      <p>38.1</p>
+      <Pt>48.87</Pt>
+      <d1>22.23</d1>
+      <b1>25.22</b1>
+      <d2>11.11</d2>
+      <b>55</b>
+      <h2>36.2</h2>
+      <h3>31.24</h3>
+      <Fu>125</Fu>
+      <m>6.9</m>
+      <A>4.1</A>
+    </Member>
+    <Member moniker="120H-2" >
+      <Designation>120H-2</Designation>
+      <Size>120H</Size>
+      <k>2</k>
+      <p>38.1</p>
+      <Pt>48.87</Pt>
+      <d1>22.23</d1>
+      <b1>25.22</b1>
+      <d2>11.11</d2>
+      <b>103.9</b>
+      <h2>36.2</h2>
+      <h3>31.24</h3>
+      <Fu>250</Fu>
+      <m>15.12</m>
+      <A>8.21</A>
+    </Member>
+    <Member moniker="120H-3" >
+      <Designation>120H-3</Designation>
+      <Size>120H</Size>
+      <k>3</k>
+      <p>38.1</p>
+      <Pt>48.87</Pt>
+      <d1>22.23</d1>
+      <b1>25.22</b1>
+      <d2>11.11</d2>
+      <b>152.8</b>
+      <h2>36.2</h2>
+      <h3>31.24</h3>
+      <Fu>375</Fu>
+      <m>23.3</m>
+      <A>12.32</A>
+    </Member>
+    <Member moniker="140H-1" >
+      <Designation>140H-1</Designation>
+      <Size>140H</Size>
+      <k>1</k>
+      <p>44.45</p>
+      <Pt>52.2</Pt>
+      <d1>25.4</d1>
+      <b1>25.22</b1>
+      <d2>12.71</d2>
+      <b>59</b>
+      <h2>42.23</h2>
+      <h3>36.45</h3>
+      <Fu>170</Fu>
+      <m>8.33</m>
+      <A>5.03</A>
+    </Member>
+    <Member moniker="140H-2" >
+      <Designation>140H-2</Designation>
+      <Size>140H</Size>
+      <k>2</k>
+      <p>44.45</p>
+      <Pt>52.2</Pt>
+      <d1>25.4</d1>
+      <b1>25.22</b1>
+      <b>111.2</b>
+      <d2>12.71</d2>
+      <h2>42.23</h2>
+      <h3>36.45</h3>
+      <Fu>340</Fu>
+      <m>18.24</m>
+      <A>10.06</A>
+    </Member>
+    <Member moniker="140H-3" >
+      <Designation>140H-3</Designation>
+      <Size>140H</Size>
+      <k>3</k>
+      <p>44.45</p>
+      <Pt>52.2</Pt>
+      <d1>25.4</d1>
+      <b1>25.22</b1>
+      <d2>12.71</d2>
+      <b>163.4</b>
+      <h2>42.23</h2>
+      <h3>36.45</h3>
+      <Fu>510</Fu>
+      <m>28.15</m>
+      <A>15.1</A>
+    </Member>
+    <Member moniker="160H-1" >
+      <Designation>160H-1</Designation>
+      <Size>160H</Size>
+      <k>1</k>
+      <p>50.8</p>
+      <Pt>61.9</Pt>
+      <d1>28.58</d1>
+      <b1>31.55</b1>
+      <d2>14.29</d2>
+      <b>69.4</b>
+      <h2>48.26</h2>
+      <h3>41.66</h3>
+      <Fu>223</Fu>
+      <m>11.5</m>
+      <A>6.62</A>
+    </Member>
+    <Member moniker="160H-2" >
+      <Designation>160H-2</Designation>
+      <Size>160H</Size>
+      <k>2</k>
+      <p>50.8</p>
+      <Pt>61.9</Pt>
+      <d1>28.58</d1>
+      <b1>31.55</b1>
+      <d2>14.29</d2>
+      <b>131.3</b>
+      <h2>48.26</h2>
+      <h3>41.66</h3>
+      <Fu>446</Fu>
+      <m>25.19</m>
+      <A>13.25</A>
+    </Member>
+    <Member moniker="160H-3" >
+      <Designation>160H-3</Designation>
+      <Size>160H</Size>
+      <k>3</k>
+      <p>50.8</p>
+      <Pt>61.9</Pt>
+      <d1>28.58</d1>
+      <b1>31.55</b1>
+      <d2>14.29</d2>
+      <b>193.2</b>
+      <h2>48.26</h2>
+      <h3>41.66</h3>
+      <Fu>669</Fu>
+      <m>38.9</m>
+      <A>19.9</A>
+    </Member>
+    <Member moniker="180H-1" >
+      <Designation>180H-1</Designation>
+      <Size>180H</Size>
+      <k>1</k>
+      <p>57.15</p>
+      <Pt>69.16</Pt>
+      <d1>35.71</d1>
+      <b1>35.48</b1>
+      <d2>17.46</d2>
+      <b>77.3</b>
+      <h2>54.3</h2>
+      <h3>46.86</h3>
+      <Fu>281</Fu>
+      <m>15.1</m>
+      <A>9.2</A>
+    </Member>
+    <Member moniker="180H-2" >
+      <Designation>180H-2</Designation>
+      <Size>180H</Size>
+      <k>2</k>
+      <p>57.15</p>
+      <Pt>69.16</Pt>
+      <d1>35.71</d1>
+      <b1>35.48</b1>
+      <d2>17.46</d2>
+      <b>146.5</b>
+      <h2>54.3</h2>
+      <h3>46.86</h3>
+      <Fu>562</Fu>
+      <m>32.6</m>
+      <A>18.3</A>
+    </Member>
+    <Member moniker="180H-3" >
+      <Designation>180H-3</Designation>
+      <Size>180H</Size>
+      <k>3</k>
+      <p>57.15</p>
+      <Pt>69.16</Pt>
+      <d1>35.71</d1>
+      <b1>35.48</b1>
+      <d2>17.46</d2>
+      <b>215.7</b>
+      <h2>54.3</h2>
+      <h3>46.86</h3>
+      <Fu>843</Fu>
+      <m>50</m>
+      <A>27.5</A>
+    </Member>
+    <Member moniker="200H-1" >
+      <Designation>200H-1</Designation>
+      <Size>200H</Size>
+      <k>1</k>
+      <p>63.5</p>
+      <Pt>78.31</Pt>
+      <d1>39.68</d1>
+      <b1>37.85</b1>
+      <d2>19.85</d2>
+      <b>87.1</b>
+      <h2>60.33</h2>
+      <h3>52.07</h3>
+      <Fu>347</Fu>
+      <m>18.83</m>
+      <A>11.5</A>
+    </Member>
+    <Member moniker="200H-2" >
+      <Designation>200H-2</Designation>
+      <Size>200H</Size>
+      <k>2</k>
+      <p>63.5</p>
+      <Pt>78.31</Pt>
+      <d1>39.68</d1>
+      <b1>37.85</b1>
+      <d2>19.85</d2>
+      <b>165.4</b>
+      <h2>60.33</h2>
+      <h3>52.07</h3>
+      <Fu>694</Fu>
+      <m>36.33</m>
+      <A>23</A>
+    </Member>
+    <Member moniker="200H-3" >
+      <Designation>200H-3</Designation>
+      <Size>200H</Size>
+      <k>3</k>
+      <p>63.5</p>
+      <Pt>78.31</Pt>
+      <d1>39.68</d1>
+      <b1>37.85</b1>
+      <d2>19.85</d2>
+      <b>243.7</b>
+      <h2>60.33</h2>
+      <h3>52.07</h3>
+      <Fu>1041</Fu>
+      <m>53.8</m>
+      <A>34.5</A>
+    </Member>
+    <Member moniker="240H-1" >
+      <Designation>240H-1</Designation>
+      <Size>240H</Size>
+      <k>1</k>
+      <p>76.2</p>
+      <Pt>101.22</Pt>
+      <d1>47.63</d1>
+      <b1>47.35</b1>
+      <d2>23.81</d2>
+      <b>111.4</b>
+      <h2>60.33</h2>
+      <h3>62.49</h3>
+      <Fu>500</Fu>
+      <m>27</m>
+      <A>17.8</A>
+    </Member>
+    <Member moniker="240H-2" >
+      <Designation>240H-2</Designation>
+      <Size>240H</Size>
+      <k>2</k>
+      <p>76.2</p>
+      <Pt>101.22</Pt>
+      <d1>47.63</d1>
+      <b1>47.35</b1>
+      <d2>23.81</d2>
+      <b>212.6</b>
+      <h2>60.33</h2>
+      <h3>62.49</h3>
+      <Fu>1000</Fu>
+      <m>52</m>
+      <A>68.5</A>
+    </Member>
+    <Member moniker="240H-3" >
+      <Designation>240H-3</Designation>
+      <Size>240H</Size>
+      <k>3</k>
+      <p>76.2</p>
+      <Pt>101.22</Pt>
+      <d1>47.63</d1>
+      <b1>47.35</b1>
+      <d2>23.81</d2>
+      <b>313.8</b>
+      <h2>60.33</h2>
+      <h3>62.49</h3>
+      <Fu>1500</Fu>
+      <m>77.5</m>
+      <A>53.3</A>
+    </Member>
+  </Members>
+</CustomFamily>

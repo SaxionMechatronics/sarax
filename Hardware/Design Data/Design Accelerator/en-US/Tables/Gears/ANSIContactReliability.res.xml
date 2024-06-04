@@ -1,0 +1,7 @@
+<Resources>
+  <string id="%1%" value="Reliability Factor Table"/>
+  <string id="%2%" value="99.9% reliability"/>
+  <string id="%3%" value="99% reliability"/>
+  <string id="%4%" value="90% reliability"/>
+  <string id="%5%" value="50% reliability"/>
+</Resources>

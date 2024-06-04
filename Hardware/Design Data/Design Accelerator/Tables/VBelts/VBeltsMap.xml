@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="60E2954E-17DC-4BF2-80CB-14B7AAE9C65F">
+		<Definition DisplayName="Map v-belts">
+			<Columns>
+				<Id/>
+				<File/>
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><Id>SpiData|vbelts|Z</Id><File>VBelts\Classical\10-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|M</Id><File>VBelts\Classical\10-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|A</Id><File>VBelts\Classical\13-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|B</Id><File>VBelts\Classical\17-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|C</Id><File>VBelts\Classical\22-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|D</Id><File>VBelts\Classical\32-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|E</Id><File>VBelts\Classical\40-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|Z10x6</Id><File>VBelts\Classical\10-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|A13x8</Id><File>VBelts\Classical\13-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|B17x11</Id><File>VBelts\Classical\17-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|C22x14</Id><File>VBelts\Classical\22-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|D32x20</Id><File>VBelts\Classical\32-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts|E38x23.5</Id><File>VBelts\Classical\40-DIN2215.xml</File></Row>
+			<Row><Id>SpiData|vbelts_a|A</Id><File>VBelts\Classical\A-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|vbelts_a|AX</Id><File>VBelts\Classical\AX-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|vbelts_a|B</Id><File>VBelts\Classical\B-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|vbelts_a|BX</Id><File>VBelts\Classical\BX-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|vbelts_a|C</Id><File>VBelts\Classical\C-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|vbelts_a|CX</Id><File>VBelts\Classical\CX-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|vbelts_a|D</Id><File>VBelts\Classical\D-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|HPII|A</Id><File>VBelts\Classical\A-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|HPII|AX</Id><File>VBelts\Classical\AX-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|HPII|B</Id><File>VBelts\Classical\B-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|HPII|BX</Id><File>VBelts\Classical\BX-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|HPII|C</Id><File>VBelts\Classical\C-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|HPII|CX</Id><File>VBelts\Classical\CX-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|HPII|D</Id><File>VBelts\Classical\D-ANSI-IP20.xml</File></Row>
+			<Row><Id>SpiData|vbelts_0|3V</Id><File>VBelts\Narrow\3V-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|vbelts_0|3VX</Id><File>VBelts\Narrow\3VX-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|vbelts_0|5V</Id><File>VBelts\Narrow\5V-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|vbelts_0|5VX</Id><File>VBelts\Narrow\5VX-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|vbelts_0|8V</Id><File>VBelts\Narrow\8V-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|SHC|3V</Id><File>VBelts\Narrow\3V-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|SHC|3VX</Id><File>VBelts\Narrow\3VX-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|SHC|5V</Id><File>VBelts\Narrow\5V-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|SHC|5VX</Id><File>VBelts\Narrow\5VX-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|SHC|8V</Id><File>VBelts\Narrow\8V-ANSI-IP-22.xml</File></Row>
+			<Row><Id>SpiData|vbelt0|SPZ</Id><File>VBelts\Narrow\SPZ-DIN7753.xml</File></Row>
+			<Row><Id>SpiData|vbelt0|SPA</Id><File>VBelts\Narrow\SPA-DIN7753.xml</File></Row>
+			<Row><Id>SpiData|vbelt0|SPB</Id><File>VBelts\Narrow\SPB-DIN7753.xml</File></Row>
+			<Row><Id>SpiData|vbelt0|SPC</Id><File>VBelts\Narrow\SPC-DIN7753.xml</File></Row>
+		</Data>
+	</Table>
+</FDesign>

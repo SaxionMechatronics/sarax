@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="A4B82AFD-636B-4d0f-BA0F-B047258DE7B1">
+		<Definition DisplayName="Belt Slip">
+		  <Columns>
+			  <A Description="Adhesion factor" Units="ul" />
+			  <B Description="Slip" Units="ul"/>
+		  </Columns>
+		</Definition>
+	<Data>
+		<Row><A>0.0</A><B>0.0</B></Row>
+		<Row><A>0.4</A><B>0.005</B></Row>
+		<Row><A>0.5</A><B>0.008</B></Row>
+		<Row><A>0.55</A><B>0.015</B></Row>
+		<Row><A>0.6</A><B>0.023</B></Row>
+		<Row><A>0.62</A><B>0.035</B></Row>
+		<Row><A>0.65</A><B>0.05</B></Row>
+		<Row><A>0.66</A><B>0.1</B></Row>
+		<Row><A>0.7</A><B>1.0</B></Row>
+		<Row><A>1.0</A><B>1.0</B></Row>
+	</Data>
+	</Table>
+</FDesign>

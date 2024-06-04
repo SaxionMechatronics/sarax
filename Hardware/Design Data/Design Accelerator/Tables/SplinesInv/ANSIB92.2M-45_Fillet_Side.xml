@@ -1,0 +1,5476 @@
+<FDesign>
+	<Table InternalName="208F064E-8743-4870-B12F-F03B3075F84A">
+		<Definition DisplayName="ANSI B92.2M - 45 deg, Fillet root, Side fit">
+			<Columns>
+				<Name DisplayName="Name" Description="Spline designation 'D|.EE| - m x Z'" Units="" />
+				<D DisplayName="D" Description="Pitch diameter" Units="mm" />
+				<DEE DisplayName="D|.EE|" Description="Max Major dimeter, External fit H/h" Units="mm" />
+				<m DisplayName="m" Description="Module" Units="mm" />
+				<Z DisplayName="Z" Description="Number of teeth" Units="ul" />
+				<l DisplayName="l" Description="Spline length" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><Name>2.95 %m% - 0.25 %m% x 11 %u%</Name>
+				<D>2.75</D>
+				<DEE>2.95</DEE>
+				<m>0.25</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>3.20 %m% - 0.25 %m% x 12 %u%</Name>
+				<D>3.00</D>
+				<DEE>3.20</DEE>
+				<m>0.25</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>3.40 %m% - 0.5 %m% x 6 %u%</Name>
+				<D>3.00</D>
+				<DEE>3.40</DEE>
+				<m>0.5</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>3.45 %m% - 0.25 %m% x 13 %u%</Name>
+				<D>3.25</D>
+				<DEE>3.45</DEE>
+				<m>0.25</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>3.70 %m% - 0.25 %m% x 14 %u%</Name>
+				<D>3.50</D>
+				<DEE>3.70</DEE>
+				<m>0.25</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>3.90 %m% - 0.5 %m% x 7 %u%</Name>
+				<D>3.50</D>
+				<DEE>3.90</DEE>
+				<m>0.5</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>3.95 %m% - 0.25 %m% x 15 %u%</Name>
+				<D>3.75</D>
+				<DEE>3.95</DEE>
+				<m>0.25</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>4.20 %m% - 0.25 %m% x 16 %u%</Name>
+				<D>4.00</D>
+				<DEE>4.20</DEE>
+				<m>0.25</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>4.40 %m% - 0.5 %m% x 8 %u%</Name>
+				<D>4.00</D>
+				<DEE>4.40</DEE>
+				<m>0.5</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>4.45 %m% - 0.25 %m% x 17 %u%</Name>
+				<D>4.25</D>
+				<DEE>4.45</DEE>
+				<m>0.25</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>4.70 %m% - 0.25 %m% x 18 %u%</Name>
+				<D>4.50</D>
+				<DEE>4.70</DEE>
+				<m>0.25</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>4.90 %m% - 0.5 %m% x 9 %u%</Name>
+				<D>4.50</D>
+				<DEE>4.90</DEE>
+				<m>0.5</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>4.95 %m% - 0.25 %m% x 19 %u%</Name>
+				<D>4.75</D>
+				<DEE>4.95</DEE>
+				<m>0.25</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.10 %m% - 0.75 %m% x 6 %u%</Name>
+				<D>4.50</D>
+				<DEE>5.10</DEE>
+				<m>0.75</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.20 %m% - 0.25 %m% x 20 %u%</Name>
+				<D>5.00</D>
+				<DEE>5.20</DEE>
+				<m>0.25</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.40 %m% - 0.5 %m% x 10 %u%</Name>
+				<D>5.00</D>
+				<DEE>5.40</DEE>
+				<m>0.5</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.45 %m% - 0.25 %m% x 21 %u%</Name>
+				<D>5.25</D>
+				<DEE>5.45</DEE>
+				<m>0.25</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.70 %m% - 0.25 %m% x 22 %u%</Name>
+				<D>5.50</D>
+				<DEE>5.70</DEE>
+				<m>0.25</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.85 %m% - 0.75 %m% x 7 %u%</Name>
+				<D>5.25</D>
+				<DEE>5.85</DEE>
+				<m>0.75</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.90 %m% - 0.5 %m% x 11 %u%</Name>
+				<D>5.50</D>
+				<DEE>5.90</DEE>
+				<m>0.5</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>5.95 %m% - 0.25 %m% x 23 %u%</Name>
+				<D>5.75</D>
+				<DEE>5.95</DEE>
+				<m>0.25</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.20 %m% - 0.25 %m% x 24 %u%</Name>
+				<D>6.00</D>
+				<DEE>6.20</DEE>
+				<m>0.25</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.40 %m% - 0.5 %m% x 12 %u%</Name>
+				<D>6.00</D>
+				<DEE>6.40</DEE>
+				<m>0.5</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.45 %m% - 0.25 %m% x 25 %u%</Name>
+				<D>6.25</D>
+				<DEE>6.45</DEE>
+				<m>0.25</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.60 %m% - 0.75 %m% x 8 %u%</Name>
+				<D>6.00</D>
+				<DEE>6.60</DEE>
+				<m>0.75</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.70 %m% - 0.25 %m% x 26 %u%</Name>
+				<D>6.50</D>
+				<DEE>6.70</DEE>
+				<m>0.25</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.80 %m% - 1 %m% x 6 %u%</Name>
+				<D>6.00</D>
+				<DEE>6.80</DEE>
+				<m>1</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.90 %m% - 0.5 %m% x 13 %u%</Name>
+				<D>6.50</D>
+				<DEE>6.90</DEE>
+				<m>0.5</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>6.95 %m% - 0.25 %m% x 27 %u%</Name>
+				<D>6.75</D>
+				<DEE>6.95</DEE>
+				<m>0.25</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>7.20 %m% - 0.25 %m% x 28 %u%</Name>
+				<D>7.00</D>
+				<DEE>7.20</DEE>
+				<m>0.25</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>7.35 %m% - 0.75 %m% x 9 %u%</Name>
+				<D>6.75</D>
+				<DEE>7.35</DEE>
+				<m>0.75</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>7.40 %m% - 0.5 %m% x 14 %u%</Name>
+				<D>7.00</D>
+				<DEE>7.40</DEE>
+				<m>0.5</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>7.45 %m% - 0.25 %m% x 29 %u%</Name>
+				<D>7.25</D>
+				<DEE>7.45</DEE>
+				<m>0.25</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>7.70 %m% - 0.25 %m% x 30 %u%</Name>
+				<D>7.50</D>
+				<DEE>7.70</DEE>
+				<m>0.25</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>7.80 %m% - 1 %m% x 7 %u%</Name>
+				<D>7.00</D>
+				<DEE>7.80</DEE>
+				<m>1</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>7.90 %m% - 0.5 %m% x 15 %u%</Name>
+				<D>7.50</D>
+				<DEE>7.90</DEE>
+				<m>0.5</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>8.10 %m% - 0.75 %m% x 10 %u%</Name>
+				<D>7.50</D>
+				<DEE>8.10</DEE>
+				<m>0.75</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>8.40 %m% - 0.5 %m% x 16 %u%</Name>
+				<D>8.00</D>
+				<DEE>8.40</DEE>
+				<m>0.5</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>8.50 %m% - 1.25 %m% x 6 %u%</Name>
+				<D>7.50</D>
+				<DEE>8.50</DEE>
+				<m>1.25</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>8.80 %m% - 1 %m% x 8 %u%</Name>
+				<D>8.00</D>
+				<DEE>8.80</DEE>
+				<m>1</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>8.85 %m% - 0.75 %m% x 11 %u%</Name>
+				<D>8.25</D>
+				<DEE>8.85</DEE>
+				<m>0.75</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>8.90 %m% - 0.5 %m% x 17 %u%</Name>
+				<D>8.50</D>
+				<DEE>8.90</DEE>
+				<m>0.5</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>9.40 %m% - 0.5 %m% x 18 %u%</Name>
+				<D>9.00</D>
+				<DEE>9.40</DEE>
+				<m>0.5</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>9.60 %m% - 0.75 %m% x 12 %u%</Name>
+				<D>9.00</D>
+				<DEE>9.60</DEE>
+				<m>0.75</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>9.75 %m% - 1.25 %m% x 7 %u%</Name>
+				<D>8.75</D>
+				<DEE>9.75</DEE>
+				<m>1.25</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>9.80 %m% - 1 %m% x 9 %u%</Name>
+				<D>9.00</D>
+				<DEE>9.80</DEE>
+				<m>1</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>9.90 %m% - 0.5 %m% x 19 %u%</Name>
+				<D>9.50</D>
+				<DEE>9.90</DEE>
+				<m>0.5</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>10.20 %m% - 1.5 %m% x 6 %u%</Name>
+				<D>9.00</D>
+				<DEE>10.20</DEE>
+				<m>1.5</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>10.35 %m% - 0.75 %m% x 13 %u%</Name>
+				<D>9.75</D>
+				<DEE>10.35</DEE>
+				<m>0.75</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>10.40 %m% - 0.5 %m% x 20 %u%</Name>
+				<D>10.00</D>
+				<DEE>10.40</DEE>
+				<m>0.5</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>10.80 %m% - 1 %m% x 10 %u%</Name>
+				<D>10.00</D>
+				<DEE>10.80</DEE>
+				<m>1</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>10.90 %m% - 0.5 %m% x 21 %u%</Name>
+				<D>10.50</D>
+				<DEE>10.90</DEE>
+				<m>0.5</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.00 %m% - 1.25 %m% x 8 %u%</Name>
+				<D>10.00</D>
+				<DEE>11.00</DEE>
+				<m>1.25</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.10 %m% - 0.75 %m% x 14 %u%</Name>
+				<D>10.50</D>
+				<DEE>11.10</DEE>
+				<m>0.75</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.40 %m% - 0.5 %m% x 22 %u%</Name>
+				<D>11.00</D>
+				<DEE>11.40</DEE>
+				<m>0.5</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.70 %m% - 1.5 %m% x 7 %u%</Name>
+				<D>10.50</D>
+				<DEE>11.70</DEE>
+				<m>1.5</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.80 %m% - 1 %m% x 11 %u%</Name>
+				<D>11.00</D>
+				<DEE>11.80</DEE>
+				<m>1</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.85 %m% - 0.75 %m% x 15 %u%</Name>
+				<D>11.25</D>
+				<DEE>11.85</DEE>
+				<m>0.75</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.90 %m% - 0.5 %m% x 23 %u%</Name>
+				<D>11.50</D>
+				<DEE>11.90</DEE>
+				<m>0.5</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>11.90 %m% - 1.75 %m% x 6 %u%</Name>
+				<D>10.50</D>
+				<DEE>11.90</DEE>
+				<m>1.75</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>12.25 %m% - 1.25 %m% x 9 %u%</Name>
+				<D>11.25</D>
+				<DEE>12.25</DEE>
+				<m>1.25</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>12.40 %m% - 0.5 %m% x 24 %u%</Name>
+				<D>12.00</D>
+				<DEE>12.40</DEE>
+				<m>0.5</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>12.60 %m% - 0.75 %m% x 16 %u%</Name>
+				<D>12.00</D>
+				<DEE>12.60</DEE>
+				<m>0.75</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>12.80 %m% - 1 %m% x 12 %u%</Name>
+				<D>12.00</D>
+				<DEE>12.80</DEE>
+				<m>1</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>12.90 %m% - 0.5 %m% x 25 %u%</Name>
+				<D>12.50</D>
+				<DEE>12.90</DEE>
+				<m>0.5</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.20 %m% - 1.5 %m% x 8 %u%</Name>
+				<D>12.00</D>
+				<DEE>13.20</DEE>
+				<m>1.5</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.35 %m% - 0.75 %m% x 17 %u%</Name>
+				<D>12.75</D>
+				<DEE>13.35</DEE>
+				<m>0.75</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.40 %m% - 0.5 %m% x 26 %u%</Name>
+				<D>13.00</D>
+				<DEE>13.40</DEE>
+				<m>0.5</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.50 %m% - 1.25 %m% x 10 %u%</Name>
+				<D>12.50</D>
+				<DEE>13.50</DEE>
+				<m>1.25</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.60 %m% - 2 %m% x 6 %u%</Name>
+				<D>12.00</D>
+				<DEE>13.60</DEE>
+				<m>2</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.65 %m% - 1.75 %m% x 7 %u%</Name>
+				<D>12.25</D>
+				<DEE>13.65</DEE>
+				<m>1.75</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.80 %m% - 1 %m% x 13 %u%</Name>
+				<D>13.00</D>
+				<DEE>13.80</DEE>
+				<m>1</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>13.90 %m% - 0.5 %m% x 27 %u%</Name>
+				<D>13.50</D>
+				<DEE>13.90</DEE>
+				<m>0.5</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>14.10 %m% - 0.75 %m% x 18 %u%</Name>
+				<D>13.50</D>
+				<DEE>14.10</DEE>
+				<m>0.75</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>14.40 %m% - 0.5 %m% x 28 %u%</Name>
+				<D>14.00</D>
+				<DEE>14.40</DEE>
+				<m>0.5</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>14.70 %m% - 1.5 %m% x 9 %u%</Name>
+				<D>13.50</D>
+				<DEE>14.70</DEE>
+				<m>1.5</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>14.75 %m% - 1.25 %m% x 11 %u%</Name>
+				<D>13.75</D>
+				<DEE>14.75</DEE>
+				<m>1.25</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>14.80 %m% - 1 %m% x 14 %u%</Name>
+				<D>14.00</D>
+				<DEE>14.80</DEE>
+				<m>1</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>14.85 %m% - 0.75 %m% x 19 %u%</Name>
+				<D>14.25</D>
+				<DEE>14.85</DEE>
+				<m>0.75</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>14.90 %m% - 0.5 %m% x 29 %u%</Name>
+				<D>14.50</D>
+				<DEE>14.90</DEE>
+				<m>0.5</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>15.40 %m% - 0.5 %m% x 30 %u%</Name>
+				<D>15.00</D>
+				<DEE>15.40</DEE>
+				<m>0.5</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>15.40 %m% - 1.75 %m% x 8 %u%</Name>
+				<D>14.00</D>
+				<DEE>15.40</DEE>
+				<m>1.75</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>15.60 %m% - 0.75 %m% x 20 %u%</Name>
+				<D>15.00</D>
+				<DEE>15.60</DEE>
+				<m>0.75</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>15.60 %m% - 2 %m% x 7 %u%</Name>
+				<D>14.00</D>
+				<DEE>15.60</DEE>
+				<m>2</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>15.80 %m% - 1 %m% x 15 %u%</Name>
+				<D>15.00</D>
+				<DEE>15.80</DEE>
+				<m>1</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>15.90 %m% - 0.5 %m% x 31 %u%</Name>
+				<D>15.50</D>
+				<DEE>15.90</DEE>
+				<m>0.5</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>16.00 %m% - 1.25 %m% x 12 %u%</Name>
+				<D>15.00</D>
+				<DEE>16.00</DEE>
+				<m>1.25</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>16.20 %m% - 1.5 %m% x 10 %u%</Name>
+				<D>15.00</D>
+				<DEE>16.20</DEE>
+				<m>1.5</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>16.35 %m% - 0.75 %m% x 21 %u%</Name>
+				<D>15.75</D>
+				<DEE>16.35</DEE>
+				<m>0.75</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>16.40 %m% - 0.5 %m% x 32 %u%</Name>
+				<D>16.00</D>
+				<DEE>16.40</DEE>
+				<m>0.5</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>16.80 %m% - 1 %m% x 16 %u%</Name>
+				<D>16.00</D>
+				<DEE>16.80</DEE>
+				<m>1</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>16.90 %m% - 0.5 %m% x 33 %u%</Name>
+				<D>16.50</D>
+				<DEE>16.90</DEE>
+				<m>0.5</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.00 %m% - 2.5 %m% x 6 %u%</Name>
+				<D>15.00</D>
+				<DEE>17.00</DEE>
+				<m>2.5</m>
+				<Z>6</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.10 %m% - 0.75 %m% x 22 %u%</Name>
+				<D>16.50</D>
+				<DEE>17.10</DEE>
+				<m>0.75</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.15 %m% - 1.75 %m% x 9 %u%</Name>
+				<D>15.75</D>
+				<DEE>17.15</DEE>
+				<m>1.75</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.25 %m% - 1.25 %m% x 13 %u%</Name>
+				<D>16.25</D>
+				<DEE>17.25</DEE>
+				<m>1.25</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.40 %m% - 0.5 %m% x 34 %u%</Name>
+				<D>17.00</D>
+				<DEE>17.40</DEE>
+				<m>0.5</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.60 %m% - 2 %m% x 8 %u%</Name>
+				<D>16.00</D>
+				<DEE>17.60</DEE>
+				<m>2</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.70 %m% - 1.5 %m% x 11 %u%</Name>
+				<D>16.50</D>
+				<DEE>17.70</DEE>
+				<m>1.5</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.80 %m% - 1 %m% x 17 %u%</Name>
+				<D>17.00</D>
+				<DEE>17.80</DEE>
+				<m>1</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.85 %m% - 0.75 %m% x 23 %u%</Name>
+				<D>17.25</D>
+				<DEE>17.85</DEE>
+				<m>0.75</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>17.90 %m% - 0.5 %m% x 35 %u%</Name>
+				<D>17.50</D>
+				<DEE>17.90</DEE>
+				<m>0.5</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>18.40 %m% - 0.5 %m% x 36 %u%</Name>
+				<D>18.00</D>
+				<DEE>18.40</DEE>
+				<m>0.5</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>18.50 %m% - 1.25 %m% x 14 %u%</Name>
+				<D>17.50</D>
+				<DEE>18.50</DEE>
+				<m>1.25</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>18.60 %m% - 0.75 %m% x 24 %u%</Name>
+				<D>18.00</D>
+				<DEE>18.60</DEE>
+				<m>0.75</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>18.80 %m% - 1 %m% x 18 %u%</Name>
+				<D>18.00</D>
+				<DEE>18.80</DEE>
+				<m>1</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>18.90 %m% - 0.5 %m% x 37 %u%</Name>
+				<D>18.50</D>
+				<DEE>18.90</DEE>
+				<m>0.5</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>18.90 %m% - 1.75 %m% x 10 %u%</Name>
+				<D>17.50</D>
+				<DEE>18.90</DEE>
+				<m>1.75</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.20 %m% - 1.5 %m% x 12 %u%</Name>
+				<D>18.00</D>
+				<DEE>19.20</DEE>
+				<m>1.5</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.35 %m% - 0.75 %m% x 25 %u%</Name>
+				<D>18.75</D>
+				<DEE>19.35</DEE>
+				<m>0.75</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.40 %m% - 0.5 %m% x 38 %u%</Name>
+				<D>19.00</D>
+				<DEE>19.40</DEE>
+				<m>0.5</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.50 %m% - 2.5 %m% x 7 %u%</Name>
+				<D>17.50</D>
+				<DEE>19.50</DEE>
+				<m>2.5</m>
+				<Z>7</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.60 %m% - 2 %m% x 9 %u%</Name>
+				<D>18.00</D>
+				<DEE>19.60</DEE>
+				<m>2</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.75 %m% - 1.25 %m% x 15 %u%</Name>
+				<D>18.75</D>
+				<DEE>19.75</DEE>
+				<m>1.25</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.80 %m% - 1 %m% x 19 %u%</Name>
+				<D>19.00</D>
+				<DEE>19.80</DEE>
+				<m>1</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>19.90 %m% - 0.5 %m% x 39 %u%</Name>
+				<D>19.50</D>
+				<DEE>19.90</DEE>
+				<m>0.5</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>20.10 %m% - 0.75 %m% x 26 %u%</Name>
+				<D>19.50</D>
+				<DEE>20.10</DEE>
+				<m>0.75</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>20.40 %m% - 0.5 %m% x 40 %u%</Name>
+				<D>20.00</D>
+				<DEE>20.40</DEE>
+				<m>0.5</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>20.65 %m% - 1.75 %m% x 11 %u%</Name>
+				<D>19.25</D>
+				<DEE>20.65</DEE>
+				<m>1.75</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>20.70 %m% - 1.5 %m% x 13 %u%</Name>
+				<D>19.50</D>
+				<DEE>20.70</DEE>
+				<m>1.5</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>20.80 %m% - 1 %m% x 20 %u%</Name>
+				<D>20.00</D>
+				<DEE>20.80</DEE>
+				<m>1</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>20.85 %m% - 0.75 %m% x 27 %u%</Name>
+				<D>20.25</D>
+				<DEE>20.85</DEE>
+				<m>0.75</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>20.90 %m% - 0.5 %m% x 41 %u%</Name>
+				<D>20.50</D>
+				<DEE>20.90</DEE>
+				<m>0.5</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>21.00 %m% - 1.25 %m% x 16 %u%</Name>
+				<D>20.00</D>
+				<DEE>21.00</DEE>
+				<m>1.25</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>21.40 %m% - 0.5 %m% x 42 %u%</Name>
+				<D>21.00</D>
+				<DEE>21.40</DEE>
+				<m>0.5</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>21.60 %m% - 0.75 %m% x 28 %u%</Name>
+				<D>21.00</D>
+				<DEE>21.60</DEE>
+				<m>0.75</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>21.60 %m% - 2 %m% x 10 %u%</Name>
+				<D>20.00</D>
+				<DEE>21.60</DEE>
+				<m>2</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>21.80 %m% - 1 %m% x 21 %u%</Name>
+				<D>21.00</D>
+				<DEE>21.80</DEE>
+				<m>1</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>21.90 %m% - 0.5 %m% x 43 %u%</Name>
+				<D>21.50</D>
+				<DEE>21.90</DEE>
+				<m>0.5</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.00 %m% - 2.5 %m% x 8 %u%</Name>
+				<D>20.00</D>
+				<DEE>22.00</DEE>
+				<m>2.5</m>
+				<Z>8</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.20 %m% - 1.5 %m% x 14 %u%</Name>
+				<D>21.00</D>
+				<DEE>22.20</DEE>
+				<m>1.5</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.25 %m% - 1.25 %m% x 17 %u%</Name>
+				<D>21.25</D>
+				<DEE>22.25</DEE>
+				<m>1.25</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.35 %m% - 0.75 %m% x 29 %u%</Name>
+				<D>21.75</D>
+				<DEE>22.35</DEE>
+				<m>0.75</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.40 %m% - 0.5 %m% x 44 %u%</Name>
+				<D>22.00</D>
+				<DEE>22.40</DEE>
+				<m>0.5</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.40 %m% - 1.75 %m% x 12 %u%</Name>
+				<D>21.00</D>
+				<DEE>22.40</DEE>
+				<m>1.75</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.80 %m% - 1 %m% x 22 %u%</Name>
+				<D>22.00</D>
+				<DEE>22.80</DEE>
+				<m>1</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>22.90 %m% - 0.5 %m% x 45 %u%</Name>
+				<D>22.50</D>
+				<DEE>22.90</DEE>
+				<m>0.5</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.10 %m% - 0.75 %m% x 30 %u%</Name>
+				<D>22.50</D>
+				<DEE>23.10</DEE>
+				<m>0.75</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.40 %m% - 0.5 %m% x 46 %u%</Name>
+				<D>23.00</D>
+				<DEE>23.40</DEE>
+				<m>0.5</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.50 %m% - 1.25 %m% x 18 %u%</Name>
+				<D>22.50</D>
+				<DEE>23.50</DEE>
+				<m>1.25</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.60 %m% - 2 %m% x 11 %u%</Name>
+				<D>22.00</D>
+				<DEE>23.60</DEE>
+				<m>2</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.70 %m% - 1.5 %m% x 15 %u%</Name>
+				<D>22.50</D>
+				<DEE>23.70</DEE>
+				<m>1.5</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.80 %m% - 1 %m% x 23 %u%</Name>
+				<D>23.00</D>
+				<DEE>23.80</DEE>
+				<m>1</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.85 %m% - 0.75 %m% x 31 %u%</Name>
+				<D>23.25</D>
+				<DEE>23.85</DEE>
+				<m>0.75</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>23.90 %m% - 0.5 %m% x 47 %u%</Name>
+				<D>23.50</D>
+				<DEE>23.90</DEE>
+				<m>0.5</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>24.15 %m% - 1.75 %m% x 13 %u%</Name>
+				<D>22.75</D>
+				<DEE>24.15</DEE>
+				<m>1.75</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>24.40 %m% - 0.5 %m% x 48 %u%</Name>
+				<D>24.00</D>
+				<DEE>24.40</DEE>
+				<m>0.5</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>24.50 %m% - 2.5 %m% x 9 %u%</Name>
+				<D>22.50</D>
+				<DEE>24.50</DEE>
+				<m>2.5</m>
+				<Z>9</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>24.60 %m% - 0.75 %m% x 32 %u%</Name>
+				<D>24.00</D>
+				<DEE>24.60</DEE>
+				<m>0.75</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>24.75 %m% - 1.25 %m% x 19 %u%</Name>
+				<D>23.75</D>
+				<DEE>24.75</DEE>
+				<m>1.25</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>24.80 %m% - 1 %m% x 24 %u%</Name>
+				<D>24.00</D>
+				<DEE>24.80</DEE>
+				<m>1</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>24.90 %m% - 0.5 %m% x 49 %u%</Name>
+				<D>24.50</D>
+				<DEE>24.90</DEE>
+				<m>0.5</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>25.20 %m% - 1.5 %m% x 16 %u%</Name>
+				<D>24.00</D>
+				<DEE>25.20</DEE>
+				<m>1.5</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>25.35 %m% - 0.75 %m% x 33 %u%</Name>
+				<D>24.75</D>
+				<DEE>25.35</DEE>
+				<m>0.75</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>25.40 %m% - 0.5 %m% x 50 %u%</Name>
+				<D>25.00</D>
+				<DEE>25.40</DEE>
+				<m>0.5</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>25.60 %m% - 2 %m% x 12 %u%</Name>
+				<D>24.00</D>
+				<DEE>25.60</DEE>
+				<m>2</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>25.80 %m% - 1 %m% x 25 %u%</Name>
+				<D>25.00</D>
+				<DEE>25.80</DEE>
+				<m>1</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>25.90 %m% - 0.5 %m% x 51 %u%</Name>
+				<D>25.50</D>
+				<DEE>25.90</DEE>
+				<m>0.5</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>25.90 %m% - 1.75 %m% x 14 %u%</Name>
+				<D>24.50</D>
+				<DEE>25.90</DEE>
+				<m>1.75</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>26.00 %m% - 1.25 %m% x 20 %u%</Name>
+				<D>25.00</D>
+				<DEE>26.00</DEE>
+				<m>1.25</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>26.10 %m% - 0.75 %m% x 34 %u%</Name>
+				<D>25.50</D>
+				<DEE>26.10</DEE>
+				<m>0.75</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>26.40 %m% - 0.5 %m% x 52 %u%</Name>
+				<D>26.00</D>
+				<DEE>26.40</DEE>
+				<m>0.5</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>26.70 %m% - 1.5 %m% x 17 %u%</Name>
+				<D>25.50</D>
+				<DEE>26.70</DEE>
+				<m>1.5</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>26.80 %m% - 1 %m% x 26 %u%</Name>
+				<D>26.00</D>
+				<DEE>26.80</DEE>
+				<m>1</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>26.85 %m% - 0.75 %m% x 35 %u%</Name>
+				<D>26.25</D>
+				<DEE>26.85</DEE>
+				<m>0.75</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>26.90 %m% - 0.5 %m% x 53 %u%</Name>
+				<D>26.50</D>
+				<DEE>26.90</DEE>
+				<m>0.5</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.00 %m% - 2.5 %m% x 10 %u%</Name>
+				<D>25.00</D>
+				<DEE>27.00</DEE>
+				<m>2.5</m>
+				<Z>10</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.25 %m% - 1.25 %m% x 21 %u%</Name>
+				<D>26.25</D>
+				<DEE>27.25</DEE>
+				<m>1.25</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.40 %m% - 0.5 %m% x 54 %u%</Name>
+				<D>27.00</D>
+				<DEE>27.40</DEE>
+				<m>0.5</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.60 %m% - 0.75 %m% x 36 %u%</Name>
+				<D>27.00</D>
+				<DEE>27.60</DEE>
+				<m>0.75</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.60 %m% - 2 %m% x 13 %u%</Name>
+				<D>26.00</D>
+				<DEE>27.60</DEE>
+				<m>2</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.65 %m% - 1.75 %m% x 15 %u%</Name>
+				<D>26.25</D>
+				<DEE>27.65</DEE>
+				<m>1.75</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.80 %m% - 1 %m% x 27 %u%</Name>
+				<D>27.00</D>
+				<DEE>27.80</DEE>
+				<m>1</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>27.90 %m% - 0.5 %m% x 55 %u%</Name>
+				<D>27.50</D>
+				<DEE>27.90</DEE>
+				<m>0.5</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>28.20 %m% - 1.5 %m% x 18 %u%</Name>
+				<D>27.00</D>
+				<DEE>28.20</DEE>
+				<m>1.5</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>28.35 %m% - 0.75 %m% x 37 %u%</Name>
+				<D>27.75</D>
+				<DEE>28.35</DEE>
+				<m>0.75</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>28.40 %m% - 0.5 %m% x 56 %u%</Name>
+				<D>28.00</D>
+				<DEE>28.40</DEE>
+				<m>0.5</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>28.50 %m% - 1.25 %m% x 22 %u%</Name>
+				<D>27.50</D>
+				<DEE>28.50</DEE>
+				<m>1.25</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>28.80 %m% - 1 %m% x 28 %u%</Name>
+				<D>28.00</D>
+				<DEE>28.80</DEE>
+				<m>1</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>28.90 %m% - 0.5 %m% x 57 %u%</Name>
+				<D>28.50</D>
+				<DEE>28.90</DEE>
+				<m>0.5</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.10 %m% - 0.75 %m% x 38 %u%</Name>
+				<D>28.50</D>
+				<DEE>29.10</DEE>
+				<m>0.75</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.40 %m% - 0.5 %m% x 58 %u%</Name>
+				<D>29.00</D>
+				<DEE>29.40</DEE>
+				<m>0.5</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.40 %m% - 1.75 %m% x 16 %u%</Name>
+				<D>28.00</D>
+				<DEE>29.40</DEE>
+				<m>1.75</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.50 %m% - 2.5 %m% x 11 %u%</Name>
+				<D>27.50</D>
+				<DEE>29.50</DEE>
+				<m>2.5</m>
+				<Z>11</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.60 %m% - 2 %m% x 14 %u%</Name>
+				<D>28.00</D>
+				<DEE>29.60</DEE>
+				<m>2</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.70 %m% - 1.5 %m% x 19 %u%</Name>
+				<D>28.50</D>
+				<DEE>29.70</DEE>
+				<m>1.5</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.75 %m% - 1.25 %m% x 23 %u%</Name>
+				<D>28.75</D>
+				<DEE>29.75</DEE>
+				<m>1.25</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.80 %m% - 1 %m% x 29 %u%</Name>
+				<D>29.00</D>
+				<DEE>29.80</DEE>
+				<m>1</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.85 %m% - 0.75 %m% x 39 %u%</Name>
+				<D>29.25</D>
+				<DEE>29.85</DEE>
+				<m>0.75</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>29.90 %m% - 0.5 %m% x 59 %u%</Name>
+				<D>29.50</D>
+				<DEE>29.90</DEE>
+				<m>0.5</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>30.40 %m% - 0.5 %m% x 60 %u%</Name>
+				<D>30.00</D>
+				<DEE>30.40</DEE>
+				<m>0.5</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>30.60 %m% - 0.75 %m% x 40 %u%</Name>
+				<D>30.00</D>
+				<DEE>30.60</DEE>
+				<m>0.75</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>30.80 %m% - 1 %m% x 30 %u%</Name>
+				<D>30.00</D>
+				<DEE>30.80</DEE>
+				<m>1</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>30.90 %m% - 0.5 %m% x 61 %u%</Name>
+				<D>30.50</D>
+				<DEE>30.90</DEE>
+				<m>0.5</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.00 %m% - 1.25 %m% x 24 %u%</Name>
+				<D>30.00</D>
+				<DEE>31.00</DEE>
+				<m>1.25</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.15 %m% - 1.75 %m% x 17 %u%</Name>
+				<D>29.75</D>
+				<DEE>31.15</DEE>
+				<m>1.75</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.20 %m% - 1.5 %m% x 20 %u%</Name>
+				<D>30.00</D>
+				<DEE>31.20</DEE>
+				<m>1.5</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.35 %m% - 0.75 %m% x 41 %u%</Name>
+				<D>30.75</D>
+				<DEE>31.35</DEE>
+				<m>0.75</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.40 %m% - 0.5 %m% x 62 %u%</Name>
+				<D>31.00</D>
+				<DEE>31.40</DEE>
+				<m>0.5</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.60 %m% - 2 %m% x 15 %u%</Name>
+				<D>30.00</D>
+				<DEE>31.60</DEE>
+				<m>2</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.80 %m% - 1 %m% x 31 %u%</Name>
+				<D>31.00</D>
+				<DEE>31.80</DEE>
+				<m>1</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>31.90 %m% - 0.5 %m% x 63 %u%</Name>
+				<D>31.50</D>
+				<DEE>31.90</DEE>
+				<m>0.5</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.00 %m% - 2.5 %m% x 12 %u%</Name>
+				<D>30.00</D>
+				<DEE>32.00</DEE>
+				<m>2.5</m>
+				<Z>12</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.10 %m% - 0.75 %m% x 42 %u%</Name>
+				<D>31.50</D>
+				<DEE>32.10</DEE>
+				<m>0.75</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.25 %m% - 1.25 %m% x 25 %u%</Name>
+				<D>31.25</D>
+				<DEE>32.25</DEE>
+				<m>1.25</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.40 %m% - 0.5 %m% x 64 %u%</Name>
+				<D>32.00</D>
+				<DEE>32.40</DEE>
+				<m>0.5</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.70 %m% - 1.5 %m% x 21 %u%</Name>
+				<D>31.50</D>
+				<DEE>32.70</DEE>
+				<m>1.5</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.80 %m% - 1 %m% x 32 %u%</Name>
+				<D>32.00</D>
+				<DEE>32.80</DEE>
+				<m>1</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.85 %m% - 0.75 %m% x 43 %u%</Name>
+				<D>32.25</D>
+				<DEE>32.85</DEE>
+				<m>0.75</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.90 %m% - 0.5 %m% x 65 %u%</Name>
+				<D>32.50</D>
+				<DEE>32.90</DEE>
+				<m>0.5</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>32.90 %m% - 1.75 %m% x 18 %u%</Name>
+				<D>31.50</D>
+				<DEE>32.90</DEE>
+				<m>1.75</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>33.40 %m% - 0.5 %m% x 66 %u%</Name>
+				<D>33.00</D>
+				<DEE>33.40</DEE>
+				<m>0.5</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>33.50 %m% - 1.25 %m% x 26 %u%</Name>
+				<D>32.50</D>
+				<DEE>33.50</DEE>
+				<m>1.25</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>33.60 %m% - 0.75 %m% x 44 %u%</Name>
+				<D>33.00</D>
+				<DEE>33.60</DEE>
+				<m>0.75</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>33.60 %m% - 2 %m% x 16 %u%</Name>
+				<D>32.00</D>
+				<DEE>33.60</DEE>
+				<m>2</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>33.80 %m% - 1 %m% x 33 %u%</Name>
+				<D>33.00</D>
+				<DEE>33.80</DEE>
+				<m>1</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>33.90 %m% - 0.5 %m% x 67 %u%</Name>
+				<D>33.50</D>
+				<DEE>33.90</DEE>
+				<m>0.5</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.20 %m% - 1.5 %m% x 22 %u%</Name>
+				<D>33.00</D>
+				<DEE>34.20</DEE>
+				<m>1.5</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.35 %m% - 0.75 %m% x 45 %u%</Name>
+				<D>33.75</D>
+				<DEE>34.35</DEE>
+				<m>0.75</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.40 %m% - 0.5 %m% x 68 %u%</Name>
+				<D>34.00</D>
+				<DEE>34.40</DEE>
+				<m>0.5</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.50 %m% - 2.5 %m% x 13 %u%</Name>
+				<D>32.50</D>
+				<DEE>34.50</DEE>
+				<m>2.5</m>
+				<Z>13</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.65 %m% - 1.75 %m% x 19 %u%</Name>
+				<D>33.25</D>
+				<DEE>34.65</DEE>
+				<m>1.75</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.75 %m% - 1.25 %m% x 27 %u%</Name>
+				<D>33.75</D>
+				<DEE>34.75</DEE>
+				<m>1.25</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.80 %m% - 1 %m% x 34 %u%</Name>
+				<D>34.00</D>
+				<DEE>34.80</DEE>
+				<m>1</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>34.90 %m% - 0.5 %m% x 69 %u%</Name>
+				<D>34.50</D>
+				<DEE>34.90</DEE>
+				<m>0.5</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>35.10 %m% - 0.75 %m% x 46 %u%</Name>
+				<D>34.50</D>
+				<DEE>35.10</DEE>
+				<m>0.75</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>35.40 %m% - 0.5 %m% x 70 %u%</Name>
+				<D>35.00</D>
+				<DEE>35.40</DEE>
+				<m>0.5</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>35.60 %m% - 2 %m% x 17 %u%</Name>
+				<D>34.00</D>
+				<DEE>35.60</DEE>
+				<m>2</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>35.70 %m% - 1.5 %m% x 23 %u%</Name>
+				<D>34.50</D>
+				<DEE>35.70</DEE>
+				<m>1.5</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>35.80 %m% - 1 %m% x 35 %u%</Name>
+				<D>35.00</D>
+				<DEE>35.80</DEE>
+				<m>1</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>35.85 %m% - 0.75 %m% x 47 %u%</Name>
+				<D>35.25</D>
+				<DEE>35.85</DEE>
+				<m>0.75</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>35.90 %m% - 0.5 %m% x 71 %u%</Name>
+				<D>35.50</D>
+				<DEE>35.90</DEE>
+				<m>0.5</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>36.00 %m% - 1.25 %m% x 28 %u%</Name>
+				<D>35.00</D>
+				<DEE>36.00</DEE>
+				<m>1.25</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>36.40 %m% - 0.5 %m% x 72 %u%</Name>
+				<D>36.00</D>
+				<DEE>36.40</DEE>
+				<m>0.5</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>36.40 %m% - 1.75 %m% x 20 %u%</Name>
+				<D>35.00</D>
+				<DEE>36.40</DEE>
+				<m>1.75</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>36.60 %m% - 0.75 %m% x 48 %u%</Name>
+				<D>36.00</D>
+				<DEE>36.60</DEE>
+				<m>0.75</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>36.80 %m% - 1 %m% x 36 %u%</Name>
+				<D>36.00</D>
+				<DEE>36.80</DEE>
+				<m>1</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>36.90 %m% - 0.5 %m% x 73 %u%</Name>
+				<D>36.50</D>
+				<DEE>36.90</DEE>
+				<m>0.5</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.00 %m% - 2.5 %m% x 14 %u%</Name>
+				<D>35.00</D>
+				<DEE>37.00</DEE>
+				<m>2.5</m>
+				<Z>14</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.20 %m% - 1.5 %m% x 24 %u%</Name>
+				<D>36.00</D>
+				<DEE>37.20</DEE>
+				<m>1.5</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.25 %m% - 1.25 %m% x 29 %u%</Name>
+				<D>36.25</D>
+				<DEE>37.25</DEE>
+				<m>1.25</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.35 %m% - 0.75 %m% x 49 %u%</Name>
+				<D>36.75</D>
+				<DEE>37.35</DEE>
+				<m>0.75</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.40 %m% - 0.5 %m% x 74 %u%</Name>
+				<D>37.00</D>
+				<DEE>37.40</DEE>
+				<m>0.5</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.60 %m% - 2 %m% x 18 %u%</Name>
+				<D>36.00</D>
+				<DEE>37.60</DEE>
+				<m>2</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.80 %m% - 1 %m% x 37 %u%</Name>
+				<D>37.00</D>
+				<DEE>37.80</DEE>
+				<m>1</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>37.90 %m% - 0.5 %m% x 75 %u%</Name>
+				<D>37.50</D>
+				<DEE>37.90</DEE>
+				<m>0.5</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.10 %m% - 0.75 %m% x 50 %u%</Name>
+				<D>37.50</D>
+				<DEE>38.10</DEE>
+				<m>0.75</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.15 %m% - 1.75 %m% x 21 %u%</Name>
+				<D>36.75</D>
+				<DEE>38.15</DEE>
+				<m>1.75</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.40 %m% - 0.5 %m% x 76 %u%</Name>
+				<D>38.00</D>
+				<DEE>38.40</DEE>
+				<m>0.5</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.50 %m% - 1.25 %m% x 30 %u%</Name>
+				<D>37.50</D>
+				<DEE>38.50</DEE>
+				<m>1.25</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.70 %m% - 1.5 %m% x 25 %u%</Name>
+				<D>37.50</D>
+				<DEE>38.70</DEE>
+				<m>1.5</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.80 %m% - 1 %m% x 38 %u%</Name>
+				<D>38.00</D>
+				<DEE>38.80</DEE>
+				<m>1</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.85 %m% - 0.75 %m% x 51 %u%</Name>
+				<D>38.25</D>
+				<DEE>38.85</DEE>
+				<m>0.75</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>38.90 %m% - 0.5 %m% x 77 %u%</Name>
+				<D>38.50</D>
+				<DEE>38.90</DEE>
+				<m>0.5</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.40 %m% - 0.5 %m% x 78 %u%</Name>
+				<D>39.00</D>
+				<DEE>39.40</DEE>
+				<m>0.5</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.50 %m% - 2.5 %m% x 15 %u%</Name>
+				<D>37.50</D>
+				<DEE>39.50</DEE>
+				<m>2.5</m>
+				<Z>15</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.60 %m% - 0.75 %m% x 52 %u%</Name>
+				<D>39.00</D>
+				<DEE>39.60</DEE>
+				<m>0.75</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.60 %m% - 2 %m% x 19 %u%</Name>
+				<D>38.00</D>
+				<DEE>39.60</DEE>
+				<m>2</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.75 %m% - 1.25 %m% x 31 %u%</Name>
+				<D>38.75</D>
+				<DEE>39.75</DEE>
+				<m>1.25</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.80 %m% - 1 %m% x 39 %u%</Name>
+				<D>39.00</D>
+				<DEE>39.80</DEE>
+				<m>1</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.90 %m% - 0.5 %m% x 79 %u%</Name>
+				<D>39.50</D>
+				<DEE>39.90</DEE>
+				<m>0.5</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>39.90 %m% - 1.75 %m% x 22 %u%</Name>
+				<D>38.50</D>
+				<DEE>39.90</DEE>
+				<m>1.75</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>40.20 %m% - 1.5 %m% x 26 %u%</Name>
+				<D>39.00</D>
+				<DEE>40.20</DEE>
+				<m>1.5</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>40.35 %m% - 0.75 %m% x 53 %u%</Name>
+				<D>39.75</D>
+				<DEE>40.35</DEE>
+				<m>0.75</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>40.40 %m% - 0.5 %m% x 80 %u%</Name>
+				<D>40.00</D>
+				<DEE>40.40</DEE>
+				<m>0.5</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>40.80 %m% - 1 %m% x 40 %u%</Name>
+				<D>40.00</D>
+				<DEE>40.80</DEE>
+				<m>1</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>40.90 %m% - 0.5 %m% x 81 %u%</Name>
+				<D>40.50</D>
+				<DEE>40.90</DEE>
+				<m>0.5</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.00 %m% - 1.25 %m% x 32 %u%</Name>
+				<D>40.00</D>
+				<DEE>41.00</DEE>
+				<m>1.25</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.10 %m% - 0.75 %m% x 54 %u%</Name>
+				<D>40.50</D>
+				<DEE>41.10</DEE>
+				<m>0.75</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.40 %m% - 0.5 %m% x 82 %u%</Name>
+				<D>41.00</D>
+				<DEE>41.40</DEE>
+				<m>0.5</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.60 %m% - 2 %m% x 20 %u%</Name>
+				<D>40.00</D>
+				<DEE>41.60</DEE>
+				<m>2</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.65 %m% - 1.75 %m% x 23 %u%</Name>
+				<D>40.25</D>
+				<DEE>41.65</DEE>
+				<m>1.75</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.70 %m% - 1.5 %m% x 27 %u%</Name>
+				<D>40.50</D>
+				<DEE>41.70</DEE>
+				<m>1.5</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.80 %m% - 1 %m% x 41 %u%</Name>
+				<D>41.00</D>
+				<DEE>41.80</DEE>
+				<m>1</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.85 %m% - 0.75 %m% x 55 %u%</Name>
+				<D>41.25</D>
+				<DEE>41.85</DEE>
+				<m>0.75</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>41.90 %m% - 0.5 %m% x 83 %u%</Name>
+				<D>41.50</D>
+				<DEE>41.90</DEE>
+				<m>0.5</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>42.00 %m% - 2.5 %m% x 16 %u%</Name>
+				<D>40.00</D>
+				<DEE>42.00</DEE>
+				<m>2.5</m>
+				<Z>16</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>42.25 %m% - 1.25 %m% x 33 %u%</Name>
+				<D>41.25</D>
+				<DEE>42.25</DEE>
+				<m>1.25</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>42.40 %m% - 0.5 %m% x 84 %u%</Name>
+				<D>42.00</D>
+				<DEE>42.40</DEE>
+				<m>0.5</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>42.60 %m% - 0.75 %m% x 56 %u%</Name>
+				<D>42.00</D>
+				<DEE>42.60</DEE>
+				<m>0.75</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>42.80 %m% - 1 %m% x 42 %u%</Name>
+				<D>42.00</D>
+				<DEE>42.80</DEE>
+				<m>1</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>42.90 %m% - 0.5 %m% x 85 %u%</Name>
+				<D>42.50</D>
+				<DEE>42.90</DEE>
+				<m>0.5</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.20 %m% - 1.5 %m% x 28 %u%</Name>
+				<D>42.00</D>
+				<DEE>43.20</DEE>
+				<m>1.5</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.35 %m% - 0.75 %m% x 57 %u%</Name>
+				<D>42.75</D>
+				<DEE>43.35</DEE>
+				<m>0.75</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.40 %m% - 0.5 %m% x 86 %u%</Name>
+				<D>43.00</D>
+				<DEE>43.40</DEE>
+				<m>0.5</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.40 %m% - 1.75 %m% x 24 %u%</Name>
+				<D>42.00</D>
+				<DEE>43.40</DEE>
+				<m>1.75</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.50 %m% - 1.25 %m% x 34 %u%</Name>
+				<D>42.50</D>
+				<DEE>43.50</DEE>
+				<m>1.25</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.60 %m% - 2 %m% x 21 %u%</Name>
+				<D>42.00</D>
+				<DEE>43.60</DEE>
+				<m>2</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.80 %m% - 1 %m% x 43 %u%</Name>
+				<D>43.00</D>
+				<DEE>43.80</DEE>
+				<m>1</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>43.90 %m% - 0.5 %m% x 87 %u%</Name>
+				<D>43.50</D>
+				<DEE>43.90</DEE>
+				<m>0.5</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.10 %m% - 0.75 %m% x 58 %u%</Name>
+				<D>43.50</D>
+				<DEE>44.10</DEE>
+				<m>0.75</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.40 %m% - 0.5 %m% x 88 %u%</Name>
+				<D>44.00</D>
+				<DEE>44.40</DEE>
+				<m>0.5</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.50 %m% - 2.5 %m% x 17 %u%</Name>
+				<D>42.50</D>
+				<DEE>44.50</DEE>
+				<m>2.5</m>
+				<Z>17</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.70 %m% - 1.5 %m% x 29 %u%</Name>
+				<D>43.50</D>
+				<DEE>44.70</DEE>
+				<m>1.5</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.75 %m% - 1.25 %m% x 35 %u%</Name>
+				<D>43.75</D>
+				<DEE>44.75</DEE>
+				<m>1.25</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.80 %m% - 1 %m% x 44 %u%</Name>
+				<D>44.00</D>
+				<DEE>44.80</DEE>
+				<m>1</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.85 %m% - 0.75 %m% x 59 %u%</Name>
+				<D>44.25</D>
+				<DEE>44.85</DEE>
+				<m>0.75</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>44.90 %m% - 0.5 %m% x 89 %u%</Name>
+				<D>44.50</D>
+				<DEE>44.90</DEE>
+				<m>0.5</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>45.15 %m% - 1.75 %m% x 25 %u%</Name>
+				<D>43.75</D>
+				<DEE>45.15</DEE>
+				<m>1.75</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>45.40 %m% - 0.5 %m% x 90 %u%</Name>
+				<D>45.00</D>
+				<DEE>45.40</DEE>
+				<m>0.5</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>45.60 %m% - 0.75 %m% x 60 %u%</Name>
+				<D>45.00</D>
+				<DEE>45.60</DEE>
+				<m>0.75</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>45.60 %m% - 2 %m% x 22 %u%</Name>
+				<D>44.00</D>
+				<DEE>45.60</DEE>
+				<m>2</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>45.80 %m% - 1 %m% x 45 %u%</Name>
+				<D>45.00</D>
+				<DEE>45.80</DEE>
+				<m>1</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>45.90 %m% - 0.5 %m% x 91 %u%</Name>
+				<D>45.50</D>
+				<DEE>45.90</DEE>
+				<m>0.5</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>46.00 %m% - 1.25 %m% x 36 %u%</Name>
+				<D>45.00</D>
+				<DEE>46.00</DEE>
+				<m>1.25</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>46.20 %m% - 1.5 %m% x 30 %u%</Name>
+				<D>45.00</D>
+				<DEE>46.20</DEE>
+				<m>1.5</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>46.35 %m% - 0.75 %m% x 61 %u%</Name>
+				<D>45.75</D>
+				<DEE>46.35</DEE>
+				<m>0.75</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>46.40 %m% - 0.5 %m% x 92 %u%</Name>
+				<D>46.00</D>
+				<DEE>46.40</DEE>
+				<m>0.5</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>46.80 %m% - 1 %m% x 46 %u%</Name>
+				<D>46.00</D>
+				<DEE>46.80</DEE>
+				<m>1</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>46.90 %m% - 0.5 %m% x 93 %u%</Name>
+				<D>46.50</D>
+				<DEE>46.90</DEE>
+				<m>0.5</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>46.90 %m% - 1.75 %m% x 26 %u%</Name>
+				<D>45.50</D>
+				<DEE>46.90</DEE>
+				<m>1.75</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.00 %m% - 2.5 %m% x 18 %u%</Name>
+				<D>45.00</D>
+				<DEE>47.00</DEE>
+				<m>2.5</m>
+				<Z>18</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.10 %m% - 0.75 %m% x 62 %u%</Name>
+				<D>46.50</D>
+				<DEE>47.10</DEE>
+				<m>0.75</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.25 %m% - 1.25 %m% x 37 %u%</Name>
+				<D>46.25</D>
+				<DEE>47.25</DEE>
+				<m>1.25</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.40 %m% - 0.5 %m% x 94 %u%</Name>
+				<D>47.00</D>
+				<DEE>47.40</DEE>
+				<m>0.5</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.60 %m% - 2 %m% x 23 %u%</Name>
+				<D>46.00</D>
+				<DEE>47.60</DEE>
+				<m>2</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.70 %m% - 1.5 %m% x 31 %u%</Name>
+				<D>46.50</D>
+				<DEE>47.70</DEE>
+				<m>1.5</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.80 %m% - 1 %m% x 47 %u%</Name>
+				<D>47.00</D>
+				<DEE>47.80</DEE>
+				<m>1</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.85 %m% - 0.75 %m% x 63 %u%</Name>
+				<D>47.25</D>
+				<DEE>47.85</DEE>
+				<m>0.75</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>47.90 %m% - 0.5 %m% x 95 %u%</Name>
+				<D>47.50</D>
+				<DEE>47.90</DEE>
+				<m>0.5</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>48.40 %m% - 0.5 %m% x 96 %u%</Name>
+				<D>48.00</D>
+				<DEE>48.40</DEE>
+				<m>0.5</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>48.50 %m% - 1.25 %m% x 38 %u%</Name>
+				<D>47.50</D>
+				<DEE>48.50</DEE>
+				<m>1.25</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>48.60 %m% - 0.75 %m% x 64 %u%</Name>
+				<D>48.00</D>
+				<DEE>48.60</DEE>
+				<m>0.75</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>48.65 %m% - 1.75 %m% x 27 %u%</Name>
+				<D>47.25</D>
+				<DEE>48.65</DEE>
+				<m>1.75</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>48.80 %m% - 1 %m% x 48 %u%</Name>
+				<D>48.00</D>
+				<DEE>48.80</DEE>
+				<m>1</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>48.90 %m% - 0.5 %m% x 97 %u%</Name>
+				<D>48.50</D>
+				<DEE>48.90</DEE>
+				<m>0.5</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.20 %m% - 1.5 %m% x 32 %u%</Name>
+				<D>48.00</D>
+				<DEE>49.20</DEE>
+				<m>1.5</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.35 %m% - 0.75 %m% x 65 %u%</Name>
+				<D>48.75</D>
+				<DEE>49.35</DEE>
+				<m>0.75</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.40 %m% - 0.5 %m% x 98 %u%</Name>
+				<D>49.00</D>
+				<DEE>49.40</DEE>
+				<m>0.5</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.50 %m% - 2.5 %m% x 19 %u%</Name>
+				<D>47.50</D>
+				<DEE>49.50</DEE>
+				<m>2.5</m>
+				<Z>19</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.60 %m% - 2 %m% x 24 %u%</Name>
+				<D>48.00</D>
+				<DEE>49.60</DEE>
+				<m>2</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.75 %m% - 1.25 %m% x 39 %u%</Name>
+				<D>48.75</D>
+				<DEE>49.75</DEE>
+				<m>1.25</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.80 %m% - 1 %m% x 49 %u%</Name>
+				<D>49.00</D>
+				<DEE>49.80</DEE>
+				<m>1</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>49.90 %m% - 0.5 %m% x 99 %u%</Name>
+				<D>49.50</D>
+				<DEE>49.90</DEE>
+				<m>0.5</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>50.10 %m% - 0.75 %m% x 66 %u%</Name>
+				<D>49.50</D>
+				<DEE>50.10</DEE>
+				<m>0.75</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>50.40 %m% - 0.5 %m% x 100 %u%</Name>
+				<D>50.00</D>
+				<DEE>50.40</DEE>
+				<m>0.5</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>50.40 %m% - 1.75 %m% x 28 %u%</Name>
+				<D>49.00</D>
+				<DEE>50.40</DEE>
+				<m>1.75</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>50.70 %m% - 1.5 %m% x 33 %u%</Name>
+				<D>49.50</D>
+				<DEE>50.70</DEE>
+				<m>1.5</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>50.80 %m% - 1 %m% x 50 %u%</Name>
+				<D>50.00</D>
+				<DEE>50.80</DEE>
+				<m>1</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>50.85 %m% - 0.75 %m% x 67 %u%</Name>
+				<D>50.25</D>
+				<DEE>50.85</DEE>
+				<m>0.75</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>51.00 %m% - 1.25 %m% x 40 %u%</Name>
+				<D>50.00</D>
+				<DEE>51.00</DEE>
+				<m>1.25</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>51.60 %m% - 0.75 %m% x 68 %u%</Name>
+				<D>51.00</D>
+				<DEE>51.60</DEE>
+				<m>0.75</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>51.60 %m% - 2 %m% x 25 %u%</Name>
+				<D>50.00</D>
+				<DEE>51.60</DEE>
+				<m>2</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>51.80 %m% - 1 %m% x 51 %u%</Name>
+				<D>51.00</D>
+				<DEE>51.80</DEE>
+				<m>1</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>52.00 %m% - 2.5 %m% x 20 %u%</Name>
+				<D>50.00</D>
+				<DEE>52.00</DEE>
+				<m>2.5</m>
+				<Z>20</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>52.15 %m% - 1.75 %m% x 29 %u%</Name>
+				<D>50.75</D>
+				<DEE>52.15</DEE>
+				<m>1.75</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>52.20 %m% - 1.5 %m% x 34 %u%</Name>
+				<D>51.00</D>
+				<DEE>52.20</DEE>
+				<m>1.5</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>52.25 %m% - 1.25 %m% x 41 %u%</Name>
+				<D>51.25</D>
+				<DEE>52.25</DEE>
+				<m>1.25</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>52.35 %m% - 0.75 %m% x 69 %u%</Name>
+				<D>51.75</D>
+				<DEE>52.35</DEE>
+				<m>0.75</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>52.80 %m% - 1 %m% x 52 %u%</Name>
+				<D>52.00</D>
+				<DEE>52.80</DEE>
+				<m>1</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>53.10 %m% - 0.75 %m% x 70 %u%</Name>
+				<D>52.50</D>
+				<DEE>53.10</DEE>
+				<m>0.75</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>53.50 %m% - 1.25 %m% x 42 %u%</Name>
+				<D>52.50</D>
+				<DEE>53.50</DEE>
+				<m>1.25</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>53.60 %m% - 2 %m% x 26 %u%</Name>
+				<D>52.00</D>
+				<DEE>53.60</DEE>
+				<m>2</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>53.70 %m% - 1.5 %m% x 35 %u%</Name>
+				<D>52.50</D>
+				<DEE>53.70</DEE>
+				<m>1.5</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>53.80 %m% - 1 %m% x 53 %u%</Name>
+				<D>53.00</D>
+				<DEE>53.80</DEE>
+				<m>1</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>53.85 %m% - 0.75 %m% x 71 %u%</Name>
+				<D>53.25</D>
+				<DEE>53.85</DEE>
+				<m>0.75</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>53.90 %m% - 1.75 %m% x 30 %u%</Name>
+				<D>52.50</D>
+				<DEE>53.90</DEE>
+				<m>1.75</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>54.50 %m% - 2.5 %m% x 21 %u%</Name>
+				<D>52.50</D>
+				<DEE>54.50</DEE>
+				<m>2.5</m>
+				<Z>21</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>54.60 %m% - 0.75 %m% x 72 %u%</Name>
+				<D>54.00</D>
+				<DEE>54.60</DEE>
+				<m>0.75</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>54.75 %m% - 1.25 %m% x 43 %u%</Name>
+				<D>53.75</D>
+				<DEE>54.75</DEE>
+				<m>1.25</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>54.80 %m% - 1 %m% x 54 %u%</Name>
+				<D>54.00</D>
+				<DEE>54.80</DEE>
+				<m>1</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>55.20 %m% - 1.5 %m% x 36 %u%</Name>
+				<D>54.00</D>
+				<DEE>55.20</DEE>
+				<m>1.5</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>55.35 %m% - 0.75 %m% x 73 %u%</Name>
+				<D>54.75</D>
+				<DEE>55.35</DEE>
+				<m>0.75</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>55.60 %m% - 2 %m% x 27 %u%</Name>
+				<D>54.00</D>
+				<DEE>55.60</DEE>
+				<m>2</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>55.65 %m% - 1.75 %m% x 31 %u%</Name>
+				<D>54.25</D>
+				<DEE>55.65</DEE>
+				<m>1.75</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>55.80 %m% - 1 %m% x 55 %u%</Name>
+				<D>55.00</D>
+				<DEE>55.80</DEE>
+				<m>1</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>56.00 %m% - 1.25 %m% x 44 %u%</Name>
+				<D>55.00</D>
+				<DEE>56.00</DEE>
+				<m>1.25</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>56.10 %m% - 0.75 %m% x 74 %u%</Name>
+				<D>55.50</D>
+				<DEE>56.10</DEE>
+				<m>0.75</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>56.70 %m% - 1.5 %m% x 37 %u%</Name>
+				<D>55.50</D>
+				<DEE>56.70</DEE>
+				<m>1.5</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>56.80 %m% - 1 %m% x 56 %u%</Name>
+				<D>56.00</D>
+				<DEE>56.80</DEE>
+				<m>1</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>56.85 %m% - 0.75 %m% x 75 %u%</Name>
+				<D>56.25</D>
+				<DEE>56.85</DEE>
+				<m>0.75</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>57.00 %m% - 2.5 %m% x 22 %u%</Name>
+				<D>55.00</D>
+				<DEE>57.00</DEE>
+				<m>2.5</m>
+				<Z>22</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>57.25 %m% - 1.25 %m% x 45 %u%</Name>
+				<D>56.25</D>
+				<DEE>57.25</DEE>
+				<m>1.25</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>57.40 %m% - 1.75 %m% x 32 %u%</Name>
+				<D>56.00</D>
+				<DEE>57.40</DEE>
+				<m>1.75</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>57.60 %m% - 0.75 %m% x 76 %u%</Name>
+				<D>57.00</D>
+				<DEE>57.60</DEE>
+				<m>0.75</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>57.60 %m% - 2 %m% x 28 %u%</Name>
+				<D>56.00</D>
+				<DEE>57.60</DEE>
+				<m>2</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>57.80 %m% - 1 %m% x 57 %u%</Name>
+				<D>57.00</D>
+				<DEE>57.80</DEE>
+				<m>1</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>58.20 %m% - 1.5 %m% x 38 %u%</Name>
+				<D>57.00</D>
+				<DEE>58.20</DEE>
+				<m>1.5</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>58.35 %m% - 0.75 %m% x 77 %u%</Name>
+				<D>57.75</D>
+				<DEE>58.35</DEE>
+				<m>0.75</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>58.50 %m% - 1.25 %m% x 46 %u%</Name>
+				<D>57.50</D>
+				<DEE>58.50</DEE>
+				<m>1.25</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>58.80 %m% - 1 %m% x 58 %u%</Name>
+				<D>58.00</D>
+				<DEE>58.80</DEE>
+				<m>1</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.10 %m% - 0.75 %m% x 78 %u%</Name>
+				<D>58.50</D>
+				<DEE>59.10</DEE>
+				<m>0.75</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.15 %m% - 1.75 %m% x 33 %u%</Name>
+				<D>57.75</D>
+				<DEE>59.15</DEE>
+				<m>1.75</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.50 %m% - 2.5 %m% x 23 %u%</Name>
+				<D>57.50</D>
+				<DEE>59.50</DEE>
+				<m>2.5</m>
+				<Z>23</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.60 %m% - 2 %m% x 29 %u%</Name>
+				<D>58.00</D>
+				<DEE>59.60</DEE>
+				<m>2</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.70 %m% - 1.5 %m% x 39 %u%</Name>
+				<D>58.50</D>
+				<DEE>59.70</DEE>
+				<m>1.5</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.75 %m% - 1.25 %m% x 47 %u%</Name>
+				<D>58.75</D>
+				<DEE>59.75</DEE>
+				<m>1.25</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.80 %m% - 1 %m% x 59 %u%</Name>
+				<D>59.00</D>
+				<DEE>59.80</DEE>
+				<m>1</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>59.85 %m% - 0.75 %m% x 79 %u%</Name>
+				<D>59.25</D>
+				<DEE>59.85</DEE>
+				<m>0.75</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>60.60 %m% - 0.75 %m% x 80 %u%</Name>
+				<D>60.00</D>
+				<DEE>60.60</DEE>
+				<m>0.75</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>60.80 %m% - 1 %m% x 60 %u%</Name>
+				<D>60.00</D>
+				<DEE>60.80</DEE>
+				<m>1</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>60.90 %m% - 1.75 %m% x 34 %u%</Name>
+				<D>59.50</D>
+				<DEE>60.90</DEE>
+				<m>1.75</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>61.00 %m% - 1.25 %m% x 48 %u%</Name>
+				<D>60.00</D>
+				<DEE>61.00</DEE>
+				<m>1.25</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>61.20 %m% - 1.5 %m% x 40 %u%</Name>
+				<D>60.00</D>
+				<DEE>61.20</DEE>
+				<m>1.5</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>61.35 %m% - 0.75 %m% x 81 %u%</Name>
+				<D>60.75</D>
+				<DEE>61.35</DEE>
+				<m>0.75</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>61.60 %m% - 2 %m% x 30 %u%</Name>
+				<D>60.00</D>
+				<DEE>61.60</DEE>
+				<m>2</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>61.80 %m% - 1 %m% x 61 %u%</Name>
+				<D>61.00</D>
+				<DEE>61.80</DEE>
+				<m>1</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>62.00 %m% - 2.5 %m% x 24 %u%</Name>
+				<D>60.00</D>
+				<DEE>62.00</DEE>
+				<m>2.5</m>
+				<Z>24</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>62.10 %m% - 0.75 %m% x 82 %u%</Name>
+				<D>61.50</D>
+				<DEE>62.10</DEE>
+				<m>0.75</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>62.25 %m% - 1.25 %m% x 49 %u%</Name>
+				<D>61.25</D>
+				<DEE>62.25</DEE>
+				<m>1.25</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>62.65 %m% - 1.75 %m% x 35 %u%</Name>
+				<D>61.25</D>
+				<DEE>62.65</DEE>
+				<m>1.75</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>62.70 %m% - 1.5 %m% x 41 %u%</Name>
+				<D>61.50</D>
+				<DEE>62.70</DEE>
+				<m>1.5</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>62.80 %m% - 1 %m% x 62 %u%</Name>
+				<D>62.00</D>
+				<DEE>62.80</DEE>
+				<m>1</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>62.85 %m% - 0.75 %m% x 83 %u%</Name>
+				<D>62.25</D>
+				<DEE>62.85</DEE>
+				<m>0.75</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>63.50 %m% - 1.25 %m% x 50 %u%</Name>
+				<D>62.50</D>
+				<DEE>63.50</DEE>
+				<m>1.25</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>63.60 %m% - 0.75 %m% x 84 %u%</Name>
+				<D>63.00</D>
+				<DEE>63.60</DEE>
+				<m>0.75</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>63.60 %m% - 2 %m% x 31 %u%</Name>
+				<D>62.00</D>
+				<DEE>63.60</DEE>
+				<m>2</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>63.80 %m% - 1 %m% x 63 %u%</Name>
+				<D>63.00</D>
+				<DEE>63.80</DEE>
+				<m>1</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>64.20 %m% - 1.5 %m% x 42 %u%</Name>
+				<D>63.00</D>
+				<DEE>64.20</DEE>
+				<m>1.5</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>64.35 %m% - 0.75 %m% x 85 %u%</Name>
+				<D>63.75</D>
+				<DEE>64.35</DEE>
+				<m>0.75</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>64.40 %m% - 1.75 %m% x 36 %u%</Name>
+				<D>63.00</D>
+				<DEE>64.40</DEE>
+				<m>1.75</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>64.50 %m% - 2.5 %m% x 25 %u%</Name>
+				<D>62.50</D>
+				<DEE>64.50</DEE>
+				<m>2.5</m>
+				<Z>25</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>64.75 %m% - 1.25 %m% x 51 %u%</Name>
+				<D>63.75</D>
+				<DEE>64.75</DEE>
+				<m>1.25</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>64.80 %m% - 1 %m% x 64 %u%</Name>
+				<D>64.00</D>
+				<DEE>64.80</DEE>
+				<m>1</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>65.10 %m% - 0.75 %m% x 86 %u%</Name>
+				<D>64.50</D>
+				<DEE>65.10</DEE>
+				<m>0.75</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>65.60 %m% - 2 %m% x 32 %u%</Name>
+				<D>64.00</D>
+				<DEE>65.60</DEE>
+				<m>2</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>65.70 %m% - 1.5 %m% x 43 %u%</Name>
+				<D>64.50</D>
+				<DEE>65.70</DEE>
+				<m>1.5</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>65.80 %m% - 1 %m% x 65 %u%</Name>
+				<D>65.00</D>
+				<DEE>65.80</DEE>
+				<m>1</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>65.85 %m% - 0.75 %m% x 87 %u%</Name>
+				<D>65.25</D>
+				<DEE>65.85</DEE>
+				<m>0.75</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>66.00 %m% - 1.25 %m% x 52 %u%</Name>
+				<D>65.00</D>
+				<DEE>66.00</DEE>
+				<m>1.25</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>66.15 %m% - 1.75 %m% x 37 %u%</Name>
+				<D>64.75</D>
+				<DEE>66.15</DEE>
+				<m>1.75</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>66.60 %m% - 0.75 %m% x 88 %u%</Name>
+				<D>66.00</D>
+				<DEE>66.60</DEE>
+				<m>0.75</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>66.80 %m% - 1 %m% x 66 %u%</Name>
+				<D>66.00</D>
+				<DEE>66.80</DEE>
+				<m>1</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>67.00 %m% - 2.5 %m% x 26 %u%</Name>
+				<D>65.00</D>
+				<DEE>67.00</DEE>
+				<m>2.5</m>
+				<Z>26</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>67.20 %m% - 1.5 %m% x 44 %u%</Name>
+				<D>66.00</D>
+				<DEE>67.20</DEE>
+				<m>1.5</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>67.25 %m% - 1.25 %m% x 53 %u%</Name>
+				<D>66.25</D>
+				<DEE>67.25</DEE>
+				<m>1.25</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>67.35 %m% - 0.75 %m% x 89 %u%</Name>
+				<D>66.75</D>
+				<DEE>67.35</DEE>
+				<m>0.75</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>67.60 %m% - 2 %m% x 33 %u%</Name>
+				<D>66.00</D>
+				<DEE>67.60</DEE>
+				<m>2</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>67.80 %m% - 1 %m% x 67 %u%</Name>
+				<D>67.00</D>
+				<DEE>67.80</DEE>
+				<m>1</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>67.90 %m% - 1.75 %m% x 38 %u%</Name>
+				<D>66.50</D>
+				<DEE>67.90</DEE>
+				<m>1.75</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>68.10 %m% - 0.75 %m% x 90 %u%</Name>
+				<D>67.50</D>
+				<DEE>68.10</DEE>
+				<m>0.75</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>68.50 %m% - 1.25 %m% x 54 %u%</Name>
+				<D>67.50</D>
+				<DEE>68.50</DEE>
+				<m>1.25</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>68.70 %m% - 1.5 %m% x 45 %u%</Name>
+				<D>67.50</D>
+				<DEE>68.70</DEE>
+				<m>1.5</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>68.80 %m% - 1 %m% x 68 %u%</Name>
+				<D>68.00</D>
+				<DEE>68.80</DEE>
+				<m>1</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>68.85 %m% - 0.75 %m% x 91 %u%</Name>
+				<D>68.25</D>
+				<DEE>68.85</DEE>
+				<m>0.75</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>69.50 %m% - 2.5 %m% x 27 %u%</Name>
+				<D>67.50</D>
+				<DEE>69.50</DEE>
+				<m>2.5</m>
+				<Z>27</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>69.60 %m% - 0.75 %m% x 92 %u%</Name>
+				<D>69.00</D>
+				<DEE>69.60</DEE>
+				<m>0.75</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>69.60 %m% - 2 %m% x 34 %u%</Name>
+				<D>68.00</D>
+				<DEE>69.60</DEE>
+				<m>2</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>69.65 %m% - 1.75 %m% x 39 %u%</Name>
+				<D>68.25</D>
+				<DEE>69.65</DEE>
+				<m>1.75</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>69.75 %m% - 1.25 %m% x 55 %u%</Name>
+				<D>68.75</D>
+				<DEE>69.75</DEE>
+				<m>1.25</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>69.80 %m% - 1 %m% x 69 %u%</Name>
+				<D>69.00</D>
+				<DEE>69.80</DEE>
+				<m>1</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>70.20 %m% - 1.5 %m% x 46 %u%</Name>
+				<D>69.00</D>
+				<DEE>70.20</DEE>
+				<m>1.5</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>70.35 %m% - 0.75 %m% x 93 %u%</Name>
+				<D>69.75</D>
+				<DEE>70.35</DEE>
+				<m>0.75</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>70.80 %m% - 1 %m% x 70 %u%</Name>
+				<D>70.00</D>
+				<DEE>70.80</DEE>
+				<m>1</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>71.00 %m% - 1.25 %m% x 56 %u%</Name>
+				<D>70.00</D>
+				<DEE>71.00</DEE>
+				<m>1.25</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>71.10 %m% - 0.75 %m% x 94 %u%</Name>
+				<D>70.50</D>
+				<DEE>71.10</DEE>
+				<m>0.75</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>71.40 %m% - 1.75 %m% x 40 %u%</Name>
+				<D>70.00</D>
+				<DEE>71.40</DEE>
+				<m>1.75</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>71.60 %m% - 2 %m% x 35 %u%</Name>
+				<D>70.00</D>
+				<DEE>71.60</DEE>
+				<m>2</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>71.70 %m% - 1.5 %m% x 47 %u%</Name>
+				<D>70.50</D>
+				<DEE>71.70</DEE>
+				<m>1.5</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>71.80 %m% - 1 %m% x 71 %u%</Name>
+				<D>71.00</D>
+				<DEE>71.80</DEE>
+				<m>1</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>71.85 %m% - 0.75 %m% x 95 %u%</Name>
+				<D>71.25</D>
+				<DEE>71.85</DEE>
+				<m>0.75</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>72.00 %m% - 2.5 %m% x 28 %u%</Name>
+				<D>70.00</D>
+				<DEE>72.00</DEE>
+				<m>2.5</m>
+				<Z>28</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>72.25 %m% - 1.25 %m% x 57 %u%</Name>
+				<D>71.25</D>
+				<DEE>72.25</DEE>
+				<m>1.25</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>72.60 %m% - 0.75 %m% x 96 %u%</Name>
+				<D>72.00</D>
+				<DEE>72.60</DEE>
+				<m>0.75</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>72.80 %m% - 1 %m% x 72 %u%</Name>
+				<D>72.00</D>
+				<DEE>72.80</DEE>
+				<m>1</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>73.15 %m% - 1.75 %m% x 41 %u%</Name>
+				<D>71.75</D>
+				<DEE>73.15</DEE>
+				<m>1.75</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>73.20 %m% - 1.5 %m% x 48 %u%</Name>
+				<D>72.00</D>
+				<DEE>73.20</DEE>
+				<m>1.5</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>73.35 %m% - 0.75 %m% x 97 %u%</Name>
+				<D>72.75</D>
+				<DEE>73.35</DEE>
+				<m>0.75</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>73.50 %m% - 1.25 %m% x 58 %u%</Name>
+				<D>72.50</D>
+				<DEE>73.50</DEE>
+				<m>1.25</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>73.60 %m% - 2 %m% x 36 %u%</Name>
+				<D>72.00</D>
+				<DEE>73.60</DEE>
+				<m>2</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>73.80 %m% - 1 %m% x 73 %u%</Name>
+				<D>73.00</D>
+				<DEE>73.80</DEE>
+				<m>1</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>74.10 %m% - 0.75 %m% x 98 %u%</Name>
+				<D>73.50</D>
+				<DEE>74.10</DEE>
+				<m>0.75</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>74.50 %m% - 2.5 %m% x 29 %u%</Name>
+				<D>72.50</D>
+				<DEE>74.50</DEE>
+				<m>2.5</m>
+				<Z>29</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>74.70 %m% - 1.5 %m% x 49 %u%</Name>
+				<D>73.50</D>
+				<DEE>74.70</DEE>
+				<m>1.5</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>74.75 %m% - 1.25 %m% x 59 %u%</Name>
+				<D>73.75</D>
+				<DEE>74.75</DEE>
+				<m>1.25</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>74.80 %m% - 1 %m% x 74 %u%</Name>
+				<D>74.00</D>
+				<DEE>74.80</DEE>
+				<m>1</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>74.85 %m% - 0.75 %m% x 99 %u%</Name>
+				<D>74.25</D>
+				<DEE>74.85</DEE>
+				<m>0.75</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>74.90 %m% - 1.75 %m% x 42 %u%</Name>
+				<D>73.50</D>
+				<DEE>74.90</DEE>
+				<m>1.75</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>75.60 %m% - 0.75 %m% x 100 %u%</Name>
+				<D>75.00</D>
+				<DEE>75.60</DEE>
+				<m>0.75</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>75.60 %m% - 2 %m% x 37 %u%</Name>
+				<D>74.00</D>
+				<DEE>75.60</DEE>
+				<m>2</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>75.80 %m% - 1 %m% x 75 %u%</Name>
+				<D>75.00</D>
+				<DEE>75.80</DEE>
+				<m>1</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>76.00 %m% - 1.25 %m% x 60 %u%</Name>
+				<D>75.00</D>
+				<DEE>76.00</DEE>
+				<m>1.25</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>76.20 %m% - 1.5 %m% x 50 %u%</Name>
+				<D>75.00</D>
+				<DEE>76.20</DEE>
+				<m>1.5</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>76.65 %m% - 1.75 %m% x 43 %u%</Name>
+				<D>75.25</D>
+				<DEE>76.65</DEE>
+				<m>1.75</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>76.80 %m% - 1 %m% x 76 %u%</Name>
+				<D>76.00</D>
+				<DEE>76.80</DEE>
+				<m>1</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>77.00 %m% - 2.5 %m% x 30 %u%</Name>
+				<D>75.00</D>
+				<DEE>77.00</DEE>
+				<m>2.5</m>
+				<Z>30</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>77.25 %m% - 1.25 %m% x 61 %u%</Name>
+				<D>76.25</D>
+				<DEE>77.25</DEE>
+				<m>1.25</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>77.60 %m% - 2 %m% x 38 %u%</Name>
+				<D>76.00</D>
+				<DEE>77.60</DEE>
+				<m>2</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>77.70 %m% - 1.5 %m% x 51 %u%</Name>
+				<D>76.50</D>
+				<DEE>77.70</DEE>
+				<m>1.5</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>77.80 %m% - 1 %m% x 77 %u%</Name>
+				<D>77.00</D>
+				<DEE>77.80</DEE>
+				<m>1</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>78.40 %m% - 1.75 %m% x 44 %u%</Name>
+				<D>77.00</D>
+				<DEE>78.40</DEE>
+				<m>1.75</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>78.50 %m% - 1.25 %m% x 62 %u%</Name>
+				<D>77.50</D>
+				<DEE>78.50</DEE>
+				<m>1.25</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>78.80 %m% - 1 %m% x 78 %u%</Name>
+				<D>78.00</D>
+				<DEE>78.80</DEE>
+				<m>1</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>79.20 %m% - 1.5 %m% x 52 %u%</Name>
+				<D>78.00</D>
+				<DEE>79.20</DEE>
+				<m>1.5</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>79.50 %m% - 2.5 %m% x 31 %u%</Name>
+				<D>77.50</D>
+				<DEE>79.50</DEE>
+				<m>2.5</m>
+				<Z>31</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>79.60 %m% - 2 %m% x 39 %u%</Name>
+				<D>78.00</D>
+				<DEE>79.60</DEE>
+				<m>2</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>79.75 %m% - 1.25 %m% x 63 %u%</Name>
+				<D>78.75</D>
+				<DEE>79.75</DEE>
+				<m>1.25</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>79.80 %m% - 1 %m% x 79 %u%</Name>
+				<D>79.00</D>
+				<DEE>79.80</DEE>
+				<m>1</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>80.15 %m% - 1.75 %m% x 45 %u%</Name>
+				<D>78.75</D>
+				<DEE>80.15</DEE>
+				<m>1.75</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>80.70 %m% - 1.5 %m% x 53 %u%</Name>
+				<D>79.50</D>
+				<DEE>80.70</DEE>
+				<m>1.5</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>80.80 %m% - 1 %m% x 80 %u%</Name>
+				<D>80.00</D>
+				<DEE>80.80</DEE>
+				<m>1</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>81.00 %m% - 1.25 %m% x 64 %u%</Name>
+				<D>80.00</D>
+				<DEE>81.00</DEE>
+				<m>1.25</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>81.60 %m% - 2 %m% x 40 %u%</Name>
+				<D>80.00</D>
+				<DEE>81.60</DEE>
+				<m>2</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>81.80 %m% - 1 %m% x 81 %u%</Name>
+				<D>81.00</D>
+				<DEE>81.80</DEE>
+				<m>1</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>81.90 %m% - 1.75 %m% x 46 %u%</Name>
+				<D>80.50</D>
+				<DEE>81.90</DEE>
+				<m>1.75</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>82.00 %m% - 2.5 %m% x 32 %u%</Name>
+				<D>80.00</D>
+				<DEE>82.00</DEE>
+				<m>2.5</m>
+				<Z>32</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>82.20 %m% - 1.5 %m% x 54 %u%</Name>
+				<D>81.00</D>
+				<DEE>82.20</DEE>
+				<m>1.5</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>82.25 %m% - 1.25 %m% x 65 %u%</Name>
+				<D>81.25</D>
+				<DEE>82.25</DEE>
+				<m>1.25</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>82.80 %m% - 1 %m% x 82 %u%</Name>
+				<D>82.00</D>
+				<DEE>82.80</DEE>
+				<m>1</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>83.50 %m% - 1.25 %m% x 66 %u%</Name>
+				<D>82.50</D>
+				<DEE>83.50</DEE>
+				<m>1.25</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>83.60 %m% - 2 %m% x 41 %u%</Name>
+				<D>82.00</D>
+				<DEE>83.60</DEE>
+				<m>2</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>83.65 %m% - 1.75 %m% x 47 %u%</Name>
+				<D>82.25</D>
+				<DEE>83.65</DEE>
+				<m>1.75</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>83.70 %m% - 1.5 %m% x 55 %u%</Name>
+				<D>82.50</D>
+				<DEE>83.70</DEE>
+				<m>1.5</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>83.80 %m% - 1 %m% x 83 %u%</Name>
+				<D>83.00</D>
+				<DEE>83.80</DEE>
+				<m>1</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>84.50 %m% - 2.5 %m% x 33 %u%</Name>
+				<D>82.50</D>
+				<DEE>84.50</DEE>
+				<m>2.5</m>
+				<Z>33</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>84.75 %m% - 1.25 %m% x 67 %u%</Name>
+				<D>83.75</D>
+				<DEE>84.75</DEE>
+				<m>1.25</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>84.80 %m% - 1 %m% x 84 %u%</Name>
+				<D>84.00</D>
+				<DEE>84.80</DEE>
+				<m>1</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>85.20 %m% - 1.5 %m% x 56 %u%</Name>
+				<D>84.00</D>
+				<DEE>85.20</DEE>
+				<m>1.5</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>85.40 %m% - 1.75 %m% x 48 %u%</Name>
+				<D>84.00</D>
+				<DEE>85.40</DEE>
+				<m>1.75</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>85.60 %m% - 2 %m% x 42 %u%</Name>
+				<D>84.00</D>
+				<DEE>85.60</DEE>
+				<m>2</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>85.80 %m% - 1 %m% x 85 %u%</Name>
+				<D>85.00</D>
+				<DEE>85.80</DEE>
+				<m>1</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>86.00 %m% - 1.25 %m% x 68 %u%</Name>
+				<D>85.00</D>
+				<DEE>86.00</DEE>
+				<m>1.25</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>86.70 %m% - 1.5 %m% x 57 %u%</Name>
+				<D>85.50</D>
+				<DEE>86.70</DEE>
+				<m>1.5</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>86.80 %m% - 1 %m% x 86 %u%</Name>
+				<D>86.00</D>
+				<DEE>86.80</DEE>
+				<m>1</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>87.00 %m% - 2.5 %m% x 34 %u%</Name>
+				<D>85.00</D>
+				<DEE>87.00</DEE>
+				<m>2.5</m>
+				<Z>34</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>87.15 %m% - 1.75 %m% x 49 %u%</Name>
+				<D>85.75</D>
+				<DEE>87.15</DEE>
+				<m>1.75</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>87.25 %m% - 1.25 %m% x 69 %u%</Name>
+				<D>86.25</D>
+				<DEE>87.25</DEE>
+				<m>1.25</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>87.60 %m% - 2 %m% x 43 %u%</Name>
+				<D>86.00</D>
+				<DEE>87.60</DEE>
+				<m>2</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>87.80 %m% - 1 %m% x 87 %u%</Name>
+				<D>87.00</D>
+				<DEE>87.80</DEE>
+				<m>1</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>88.20 %m% - 1.5 %m% x 58 %u%</Name>
+				<D>87.00</D>
+				<DEE>88.20</DEE>
+				<m>1.5</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>88.50 %m% - 1.25 %m% x 70 %u%</Name>
+				<D>87.50</D>
+				<DEE>88.50</DEE>
+				<m>1.25</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>88.80 %m% - 1 %m% x 88 %u%</Name>
+				<D>88.00</D>
+				<DEE>88.80</DEE>
+				<m>1</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>88.90 %m% - 1.75 %m% x 50 %u%</Name>
+				<D>87.50</D>
+				<DEE>88.90</DEE>
+				<m>1.75</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>89.50 %m% - 2.5 %m% x 35 %u%</Name>
+				<D>87.50</D>
+				<DEE>89.50</DEE>
+				<m>2.5</m>
+				<Z>35</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>89.60 %m% - 2 %m% x 44 %u%</Name>
+				<D>88.00</D>
+				<DEE>89.60</DEE>
+				<m>2</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>89.70 %m% - 1.5 %m% x 59 %u%</Name>
+				<D>88.50</D>
+				<DEE>89.70</DEE>
+				<m>1.5</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>89.75 %m% - 1.25 %m% x 71 %u%</Name>
+				<D>88.75</D>
+				<DEE>89.75</DEE>
+				<m>1.25</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>89.80 %m% - 1 %m% x 89 %u%</Name>
+				<D>89.00</D>
+				<DEE>89.80</DEE>
+				<m>1</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>90.65 %m% - 1.75 %m% x 51 %u%</Name>
+				<D>89.25</D>
+				<DEE>90.65</DEE>
+				<m>1.75</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>90.80 %m% - 1 %m% x 90 %u%</Name>
+				<D>90.00</D>
+				<DEE>90.80</DEE>
+				<m>1</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>91.00 %m% - 1.25 %m% x 72 %u%</Name>
+				<D>90.00</D>
+				<DEE>91.00</DEE>
+				<m>1.25</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>91.20 %m% - 1.5 %m% x 60 %u%</Name>
+				<D>90.00</D>
+				<DEE>91.20</DEE>
+				<m>1.5</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>91.60 %m% - 2 %m% x 45 %u%</Name>
+				<D>90.00</D>
+				<DEE>91.60</DEE>
+				<m>2</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>91.80 %m% - 1 %m% x 91 %u%</Name>
+				<D>91.00</D>
+				<DEE>91.80</DEE>
+				<m>1</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>92.00 %m% - 2.5 %m% x 36 %u%</Name>
+				<D>90.00</D>
+				<DEE>92.00</DEE>
+				<m>2.5</m>
+				<Z>36</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>92.25 %m% - 1.25 %m% x 73 %u%</Name>
+				<D>91.25</D>
+				<DEE>92.25</DEE>
+				<m>1.25</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>92.40 %m% - 1.75 %m% x 52 %u%</Name>
+				<D>91.00</D>
+				<DEE>92.40</DEE>
+				<m>1.75</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>92.70 %m% - 1.5 %m% x 61 %u%</Name>
+				<D>91.50</D>
+				<DEE>92.70</DEE>
+				<m>1.5</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>92.80 %m% - 1 %m% x 92 %u%</Name>
+				<D>92.00</D>
+				<DEE>92.80</DEE>
+				<m>1</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>93.50 %m% - 1.25 %m% x 74 %u%</Name>
+				<D>92.50</D>
+				<DEE>93.50</DEE>
+				<m>1.25</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>93.60 %m% - 2 %m% x 46 %u%</Name>
+				<D>92.00</D>
+				<DEE>93.60</DEE>
+				<m>2</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>93.80 %m% - 1 %m% x 93 %u%</Name>
+				<D>93.00</D>
+				<DEE>93.80</DEE>
+				<m>1</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>94.15 %m% - 1.75 %m% x 53 %u%</Name>
+				<D>92.75</D>
+				<DEE>94.15</DEE>
+				<m>1.75</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>94.20 %m% - 1.5 %m% x 62 %u%</Name>
+				<D>93.00</D>
+				<DEE>94.20</DEE>
+				<m>1.5</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>94.50 %m% - 2.5 %m% x 37 %u%</Name>
+				<D>92.50</D>
+				<DEE>94.50</DEE>
+				<m>2.5</m>
+				<Z>37</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>94.75 %m% - 1.25 %m% x 75 %u%</Name>
+				<D>93.75</D>
+				<DEE>94.75</DEE>
+				<m>1.25</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>94.80 %m% - 1 %m% x 94 %u%</Name>
+				<D>94.00</D>
+				<DEE>94.80</DEE>
+				<m>1</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>95.60 %m% - 2 %m% x 47 %u%</Name>
+				<D>94.00</D>
+				<DEE>95.60</DEE>
+				<m>2</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>95.70 %m% - 1.5 %m% x 63 %u%</Name>
+				<D>94.50</D>
+				<DEE>95.70</DEE>
+				<m>1.5</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>95.80 %m% - 1 %m% x 95 %u%</Name>
+				<D>95.00</D>
+				<DEE>95.80</DEE>
+				<m>1</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>95.90 %m% - 1.75 %m% x 54 %u%</Name>
+				<D>94.50</D>
+				<DEE>95.90</DEE>
+				<m>1.75</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>96.00 %m% - 1.25 %m% x 76 %u%</Name>
+				<D>95.00</D>
+				<DEE>96.00</DEE>
+				<m>1.25</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>96.80 %m% - 1 %m% x 96 %u%</Name>
+				<D>96.00</D>
+				<DEE>96.80</DEE>
+				<m>1</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>97.00 %m% - 2.5 %m% x 38 %u%</Name>
+				<D>95.00</D>
+				<DEE>97.00</DEE>
+				<m>2.5</m>
+				<Z>38</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>97.20 %m% - 1.5 %m% x 64 %u%</Name>
+				<D>96.00</D>
+				<DEE>97.20</DEE>
+				<m>1.5</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>97.25 %m% - 1.25 %m% x 77 %u%</Name>
+				<D>96.25</D>
+				<DEE>97.25</DEE>
+				<m>1.25</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>97.60 %m% - 2 %m% x 48 %u%</Name>
+				<D>96.00</D>
+				<DEE>97.60</DEE>
+				<m>2</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>97.65 %m% - 1.75 %m% x 55 %u%</Name>
+				<D>96.25</D>
+				<DEE>97.65</DEE>
+				<m>1.75</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>97.80 %m% - 1 %m% x 97 %u%</Name>
+				<D>97.00</D>
+				<DEE>97.80</DEE>
+				<m>1</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>98.50 %m% - 1.25 %m% x 78 %u%</Name>
+				<D>97.50</D>
+				<DEE>98.50</DEE>
+				<m>1.25</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>98.70 %m% - 1.5 %m% x 65 %u%</Name>
+				<D>97.50</D>
+				<DEE>98.70</DEE>
+				<m>1.5</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>98.80 %m% - 1 %m% x 98 %u%</Name>
+				<D>98.00</D>
+				<DEE>98.80</DEE>
+				<m>1</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>99.40 %m% - 1.75 %m% x 56 %u%</Name>
+				<D>98.00</D>
+				<DEE>99.40</DEE>
+				<m>1.75</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>99.50 %m% - 2.5 %m% x 39 %u%</Name>
+				<D>97.50</D>
+				<DEE>99.50</DEE>
+				<m>2.5</m>
+				<Z>39</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>99.60 %m% - 2 %m% x 49 %u%</Name>
+				<D>98.00</D>
+				<DEE>99.60</DEE>
+				<m>2</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>99.75 %m% - 1.25 %m% x 79 %u%</Name>
+				<D>98.75</D>
+				<DEE>99.75</DEE>
+				<m>1.25</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>99.80 %m% - 1 %m% x 99 %u%</Name>
+				<D>99.00</D>
+				<DEE>99.80</DEE>
+				<m>1</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>100.20 %m% - 1.5 %m% x 66 %u%</Name>
+				<D>99.00</D>
+				<DEE>100.20</DEE>
+				<m>1.5</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>100.80 %m% - 1 %m% x 100 %u%</Name>
+				<D>100.00</D>
+				<DEE>100.80</DEE>
+				<m>1</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>101.00 %m% - 1.25 %m% x 80 %u%</Name>
+				<D>100.00</D>
+				<DEE>101.00</DEE>
+				<m>1.25</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>101.15 %m% - 1.75 %m% x 57 %u%</Name>
+				<D>99.75</D>
+				<DEE>101.15</DEE>
+				<m>1.75</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>101.60 %m% - 2 %m% x 50 %u%</Name>
+				<D>100.00</D>
+				<DEE>101.60</DEE>
+				<m>2</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>101.70 %m% - 1.5 %m% x 67 %u%</Name>
+				<D>100.50</D>
+				<DEE>101.70</DEE>
+				<m>1.5</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>102.00 %m% - 2.5 %m% x 40 %u%</Name>
+				<D>100.00</D>
+				<DEE>102.00</DEE>
+				<m>2.5</m>
+				<Z>40</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>102.25 %m% - 1.25 %m% x 81 %u%</Name>
+				<D>101.25</D>
+				<DEE>102.25</DEE>
+				<m>1.25</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>102.90 %m% - 1.75 %m% x 58 %u%</Name>
+				<D>101.50</D>
+				<DEE>102.90</DEE>
+				<m>1.75</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>103.20 %m% - 1.5 %m% x 68 %u%</Name>
+				<D>102.00</D>
+				<DEE>103.20</DEE>
+				<m>1.5</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>103.50 %m% - 1.25 %m% x 82 %u%</Name>
+				<D>102.50</D>
+				<DEE>103.50</DEE>
+				<m>1.25</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>103.60 %m% - 2 %m% x 51 %u%</Name>
+				<D>102.00</D>
+				<DEE>103.60</DEE>
+				<m>2</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>104.50 %m% - 2.5 %m% x 41 %u%</Name>
+				<D>102.50</D>
+				<DEE>104.50</DEE>
+				<m>2.5</m>
+				<Z>41</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>104.65 %m% - 1.75 %m% x 59 %u%</Name>
+				<D>103.25</D>
+				<DEE>104.65</DEE>
+				<m>1.75</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>104.70 %m% - 1.5 %m% x 69 %u%</Name>
+				<D>103.50</D>
+				<DEE>104.70</DEE>
+				<m>1.5</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>104.75 %m% - 1.25 %m% x 83 %u%</Name>
+				<D>103.75</D>
+				<DEE>104.75</DEE>
+				<m>1.25</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>105.60 %m% - 2 %m% x 52 %u%</Name>
+				<D>104.00</D>
+				<DEE>105.60</DEE>
+				<m>2</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>106.00 %m% - 1.25 %m% x 84 %u%</Name>
+				<D>105.00</D>
+				<DEE>106.00</DEE>
+				<m>1.25</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>106.20 %m% - 1.5 %m% x 70 %u%</Name>
+				<D>105.00</D>
+				<DEE>106.20</DEE>
+				<m>1.5</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>106.40 %m% - 1.75 %m% x 60 %u%</Name>
+				<D>105.00</D>
+				<DEE>106.40</DEE>
+				<m>1.75</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>107.00 %m% - 2.5 %m% x 42 %u%</Name>
+				<D>105.00</D>
+				<DEE>107.00</DEE>
+				<m>2.5</m>
+				<Z>42</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>107.25 %m% - 1.25 %m% x 85 %u%</Name>
+				<D>106.25</D>
+				<DEE>107.25</DEE>
+				<m>1.25</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>107.60 %m% - 2 %m% x 53 %u%</Name>
+				<D>106.00</D>
+				<DEE>107.60</DEE>
+				<m>2</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>107.70 %m% - 1.5 %m% x 71 %u%</Name>
+				<D>106.50</D>
+				<DEE>107.70</DEE>
+				<m>1.5</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>108.15 %m% - 1.75 %m% x 61 %u%</Name>
+				<D>106.75</D>
+				<DEE>108.15</DEE>
+				<m>1.75</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>108.50 %m% - 1.25 %m% x 86 %u%</Name>
+				<D>107.50</D>
+				<DEE>108.50</DEE>
+				<m>1.25</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>109.20 %m% - 1.5 %m% x 72 %u%</Name>
+				<D>108.00</D>
+				<DEE>109.20</DEE>
+				<m>1.5</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>109.50 %m% - 2.5 %m% x 43 %u%</Name>
+				<D>107.50</D>
+				<DEE>109.50</DEE>
+				<m>2.5</m>
+				<Z>43</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>109.60 %m% - 2 %m% x 54 %u%</Name>
+				<D>108.00</D>
+				<DEE>109.60</DEE>
+				<m>2</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>109.75 %m% - 1.25 %m% x 87 %u%</Name>
+				<D>108.75</D>
+				<DEE>109.75</DEE>
+				<m>1.25</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>109.90 %m% - 1.75 %m% x 62 %u%</Name>
+				<D>108.50</D>
+				<DEE>109.90</DEE>
+				<m>1.75</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>110.70 %m% - 1.5 %m% x 73 %u%</Name>
+				<D>109.50</D>
+				<DEE>110.70</DEE>
+				<m>1.5</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>111.00 %m% - 1.25 %m% x 88 %u%</Name>
+				<D>110.00</D>
+				<DEE>111.00</DEE>
+				<m>1.25</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>111.60 %m% - 2 %m% x 55 %u%</Name>
+				<D>110.00</D>
+				<DEE>111.60</DEE>
+				<m>2</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>111.65 %m% - 1.75 %m% x 63 %u%</Name>
+				<D>110.25</D>
+				<DEE>111.65</DEE>
+				<m>1.75</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>112.00 %m% - 2.5 %m% x 44 %u%</Name>
+				<D>110.00</D>
+				<DEE>112.00</DEE>
+				<m>2.5</m>
+				<Z>44</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>112.20 %m% - 1.5 %m% x 74 %u%</Name>
+				<D>111.00</D>
+				<DEE>112.20</DEE>
+				<m>1.5</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>112.25 %m% - 1.25 %m% x 89 %u%</Name>
+				<D>111.25</D>
+				<DEE>112.25</DEE>
+				<m>1.25</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>113.40 %m% - 1.75 %m% x 64 %u%</Name>
+				<D>112.00</D>
+				<DEE>113.40</DEE>
+				<m>1.75</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>113.50 %m% - 1.25 %m% x 90 %u%</Name>
+				<D>112.50</D>
+				<DEE>113.50</DEE>
+				<m>1.25</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>113.60 %m% - 2 %m% x 56 %u%</Name>
+				<D>112.00</D>
+				<DEE>113.60</DEE>
+				<m>2</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>113.70 %m% - 1.5 %m% x 75 %u%</Name>
+				<D>112.50</D>
+				<DEE>113.70</DEE>
+				<m>1.5</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>114.50 %m% - 2.5 %m% x 45 %u%</Name>
+				<D>112.50</D>
+				<DEE>114.50</DEE>
+				<m>2.5</m>
+				<Z>45</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>114.75 %m% - 1.25 %m% x 91 %u%</Name>
+				<D>113.75</D>
+				<DEE>114.75</DEE>
+				<m>1.25</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>115.15 %m% - 1.75 %m% x 65 %u%</Name>
+				<D>113.75</D>
+				<DEE>115.15</DEE>
+				<m>1.75</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>115.20 %m% - 1.5 %m% x 76 %u%</Name>
+				<D>114.00</D>
+				<DEE>115.20</DEE>
+				<m>1.5</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>115.60 %m% - 2 %m% x 57 %u%</Name>
+				<D>114.00</D>
+				<DEE>115.60</DEE>
+				<m>2</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>116.00 %m% - 1.25 %m% x 92 %u%</Name>
+				<D>115.00</D>
+				<DEE>116.00</DEE>
+				<m>1.25</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>116.70 %m% - 1.5 %m% x 77 %u%</Name>
+				<D>115.50</D>
+				<DEE>116.70</DEE>
+				<m>1.5</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>116.90 %m% - 1.75 %m% x 66 %u%</Name>
+				<D>115.50</D>
+				<DEE>116.90</DEE>
+				<m>1.75</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>117.00 %m% - 2.5 %m% x 46 %u%</Name>
+				<D>115.00</D>
+				<DEE>117.00</DEE>
+				<m>2.5</m>
+				<Z>46</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>117.25 %m% - 1.25 %m% x 93 %u%</Name>
+				<D>116.25</D>
+				<DEE>117.25</DEE>
+				<m>1.25</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>117.60 %m% - 2 %m% x 58 %u%</Name>
+				<D>116.00</D>
+				<DEE>117.60</DEE>
+				<m>2</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>118.20 %m% - 1.5 %m% x 78 %u%</Name>
+				<D>117.00</D>
+				<DEE>118.20</DEE>
+				<m>1.5</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>118.50 %m% - 1.25 %m% x 94 %u%</Name>
+				<D>117.50</D>
+				<DEE>118.50</DEE>
+				<m>1.25</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>118.65 %m% - 1.75 %m% x 67 %u%</Name>
+				<D>117.25</D>
+				<DEE>118.65</DEE>
+				<m>1.75</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>119.50 %m% - 2.5 %m% x 47 %u%</Name>
+				<D>117.50</D>
+				<DEE>119.50</DEE>
+				<m>2.5</m>
+				<Z>47</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>119.60 %m% - 2 %m% x 59 %u%</Name>
+				<D>118.00</D>
+				<DEE>119.60</DEE>
+				<m>2</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>119.70 %m% - 1.5 %m% x 79 %u%</Name>
+				<D>118.50</D>
+				<DEE>119.70</DEE>
+				<m>1.5</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>119.75 %m% - 1.25 %m% x 95 %u%</Name>
+				<D>118.75</D>
+				<DEE>119.75</DEE>
+				<m>1.25</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>120.40 %m% - 1.75 %m% x 68 %u%</Name>
+				<D>119.00</D>
+				<DEE>120.40</DEE>
+				<m>1.75</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>121.00 %m% - 1.25 %m% x 96 %u%</Name>
+				<D>120.00</D>
+				<DEE>121.00</DEE>
+				<m>1.25</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>121.20 %m% - 1.5 %m% x 80 %u%</Name>
+				<D>120.00</D>
+				<DEE>121.20</DEE>
+				<m>1.5</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>121.60 %m% - 2 %m% x 60 %u%</Name>
+				<D>120.00</D>
+				<DEE>121.60</DEE>
+				<m>2</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>122.00 %m% - 2.5 %m% x 48 %u%</Name>
+				<D>120.00</D>
+				<DEE>122.00</DEE>
+				<m>2.5</m>
+				<Z>48</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>122.15 %m% - 1.75 %m% x 69 %u%</Name>
+				<D>120.75</D>
+				<DEE>122.15</DEE>
+				<m>1.75</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>122.25 %m% - 1.25 %m% x 97 %u%</Name>
+				<D>121.25</D>
+				<DEE>122.25</DEE>
+				<m>1.25</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>122.70 %m% - 1.5 %m% x 81 %u%</Name>
+				<D>121.50</D>
+				<DEE>122.70</DEE>
+				<m>1.5</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>123.50 %m% - 1.25 %m% x 98 %u%</Name>
+				<D>122.50</D>
+				<DEE>123.50</DEE>
+				<m>1.25</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>123.60 %m% - 2 %m% x 61 %u%</Name>
+				<D>122.00</D>
+				<DEE>123.60</DEE>
+				<m>2</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>123.90 %m% - 1.75 %m% x 70 %u%</Name>
+				<D>122.50</D>
+				<DEE>123.90</DEE>
+				<m>1.75</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>124.20 %m% - 1.5 %m% x 82 %u%</Name>
+				<D>123.00</D>
+				<DEE>124.20</DEE>
+				<m>1.5</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>124.50 %m% - 2.5 %m% x 49 %u%</Name>
+				<D>122.50</D>
+				<DEE>124.50</DEE>
+				<m>2.5</m>
+				<Z>49</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>124.75 %m% - 1.25 %m% x 99 %u%</Name>
+				<D>123.75</D>
+				<DEE>124.75</DEE>
+				<m>1.25</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>125.60 %m% - 2 %m% x 62 %u%</Name>
+				<D>124.00</D>
+				<DEE>125.60</DEE>
+				<m>2</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>125.65 %m% - 1.75 %m% x 71 %u%</Name>
+				<D>124.25</D>
+				<DEE>125.65</DEE>
+				<m>1.75</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>125.70 %m% - 1.5 %m% x 83 %u%</Name>
+				<D>124.50</D>
+				<DEE>125.70</DEE>
+				<m>1.5</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>126.00 %m% - 1.25 %m% x 100 %u%</Name>
+				<D>125.00</D>
+				<DEE>126.00</DEE>
+				<m>1.25</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>127.00 %m% - 2.5 %m% x 50 %u%</Name>
+				<D>125.00</D>
+				<DEE>127.00</DEE>
+				<m>2.5</m>
+				<Z>50</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>127.20 %m% - 1.5 %m% x 84 %u%</Name>
+				<D>126.00</D>
+				<DEE>127.20</DEE>
+				<m>1.5</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>127.40 %m% - 1.75 %m% x 72 %u%</Name>
+				<D>126.00</D>
+				<DEE>127.40</DEE>
+				<m>1.75</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>127.60 %m% - 2 %m% x 63 %u%</Name>
+				<D>126.00</D>
+				<DEE>127.60</DEE>
+				<m>2</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>128.70 %m% - 1.5 %m% x 85 %u%</Name>
+				<D>127.50</D>
+				<DEE>128.70</DEE>
+				<m>1.5</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>129.15 %m% - 1.75 %m% x 73 %u%</Name>
+				<D>127.75</D>
+				<DEE>129.15</DEE>
+				<m>1.75</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>129.50 %m% - 2.5 %m% x 51 %u%</Name>
+				<D>127.50</D>
+				<DEE>129.50</DEE>
+				<m>2.5</m>
+				<Z>51</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>129.60 %m% - 2 %m% x 64 %u%</Name>
+				<D>128.00</D>
+				<DEE>129.60</DEE>
+				<m>2</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>130.20 %m% - 1.5 %m% x 86 %u%</Name>
+				<D>129.00</D>
+				<DEE>130.20</DEE>
+				<m>1.5</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>130.90 %m% - 1.75 %m% x 74 %u%</Name>
+				<D>129.50</D>
+				<DEE>130.90</DEE>
+				<m>1.75</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>131.60 %m% - 2 %m% x 65 %u%</Name>
+				<D>130.00</D>
+				<DEE>131.60</DEE>
+				<m>2</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>131.70 %m% - 1.5 %m% x 87 %u%</Name>
+				<D>130.50</D>
+				<DEE>131.70</DEE>
+				<m>1.5</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>132.00 %m% - 2.5 %m% x 52 %u%</Name>
+				<D>130.00</D>
+				<DEE>132.00</DEE>
+				<m>2.5</m>
+				<Z>52</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>132.65 %m% - 1.75 %m% x 75 %u%</Name>
+				<D>131.25</D>
+				<DEE>132.65</DEE>
+				<m>1.75</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>133.20 %m% - 1.5 %m% x 88 %u%</Name>
+				<D>132.00</D>
+				<DEE>133.20</DEE>
+				<m>1.5</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>133.60 %m% - 2 %m% x 66 %u%</Name>
+				<D>132.00</D>
+				<DEE>133.60</DEE>
+				<m>2</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>134.40 %m% - 1.75 %m% x 76 %u%</Name>
+				<D>133.00</D>
+				<DEE>134.40</DEE>
+				<m>1.75</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>134.50 %m% - 2.5 %m% x 53 %u%</Name>
+				<D>132.50</D>
+				<DEE>134.50</DEE>
+				<m>2.5</m>
+				<Z>53</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>134.70 %m% - 1.5 %m% x 89 %u%</Name>
+				<D>133.50</D>
+				<DEE>134.70</DEE>
+				<m>1.5</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>135.60 %m% - 2 %m% x 67 %u%</Name>
+				<D>134.00</D>
+				<DEE>135.60</DEE>
+				<m>2</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>136.15 %m% - 1.75 %m% x 77 %u%</Name>
+				<D>134.75</D>
+				<DEE>136.15</DEE>
+				<m>1.75</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>136.20 %m% - 1.5 %m% x 90 %u%</Name>
+				<D>135.00</D>
+				<DEE>136.20</DEE>
+				<m>1.5</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>137.00 %m% - 2.5 %m% x 54 %u%</Name>
+				<D>135.00</D>
+				<DEE>137.00</DEE>
+				<m>2.5</m>
+				<Z>54</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>137.60 %m% - 2 %m% x 68 %u%</Name>
+				<D>136.00</D>
+				<DEE>137.60</DEE>
+				<m>2</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>137.70 %m% - 1.5 %m% x 91 %u%</Name>
+				<D>136.50</D>
+				<DEE>137.70</DEE>
+				<m>1.5</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>137.90 %m% - 1.75 %m% x 78 %u%</Name>
+				<D>136.50</D>
+				<DEE>137.90</DEE>
+				<m>1.75</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>139.20 %m% - 1.5 %m% x 92 %u%</Name>
+				<D>138.00</D>
+				<DEE>139.20</DEE>
+				<m>1.5</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>139.50 %m% - 2.5 %m% x 55 %u%</Name>
+				<D>137.50</D>
+				<DEE>139.50</DEE>
+				<m>2.5</m>
+				<Z>55</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>139.60 %m% - 2 %m% x 69 %u%</Name>
+				<D>138.00</D>
+				<DEE>139.60</DEE>
+				<m>2</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>139.65 %m% - 1.75 %m% x 79 %u%</Name>
+				<D>138.25</D>
+				<DEE>139.65</DEE>
+				<m>1.75</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>140.70 %m% - 1.5 %m% x 93 %u%</Name>
+				<D>139.50</D>
+				<DEE>140.70</DEE>
+				<m>1.5</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>141.40 %m% - 1.75 %m% x 80 %u%</Name>
+				<D>140.00</D>
+				<DEE>141.40</DEE>
+				<m>1.75</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>141.60 %m% - 2 %m% x 70 %u%</Name>
+				<D>140.00</D>
+				<DEE>141.60</DEE>
+				<m>2</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>142.00 %m% - 2.5 %m% x 56 %u%</Name>
+				<D>140.00</D>
+				<DEE>142.00</DEE>
+				<m>2.5</m>
+				<Z>56</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>142.20 %m% - 1.5 %m% x 94 %u%</Name>
+				<D>141.00</D>
+				<DEE>142.20</DEE>
+				<m>1.5</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>143.15 %m% - 1.75 %m% x 81 %u%</Name>
+				<D>141.75</D>
+				<DEE>143.15</DEE>
+				<m>1.75</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>143.60 %m% - 2 %m% x 71 %u%</Name>
+				<D>142.00</D>
+				<DEE>143.60</DEE>
+				<m>2</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>143.70 %m% - 1.5 %m% x 95 %u%</Name>
+				<D>142.50</D>
+				<DEE>143.70</DEE>
+				<m>1.5</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>144.50 %m% - 2.5 %m% x 57 %u%</Name>
+				<D>142.50</D>
+				<DEE>144.50</DEE>
+				<m>2.5</m>
+				<Z>57</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>144.90 %m% - 1.75 %m% x 82 %u%</Name>
+				<D>143.50</D>
+				<DEE>144.90</DEE>
+				<m>1.75</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>145.20 %m% - 1.5 %m% x 96 %u%</Name>
+				<D>144.00</D>
+				<DEE>145.20</DEE>
+				<m>1.5</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>145.60 %m% - 2 %m% x 72 %u%</Name>
+				<D>144.00</D>
+				<DEE>145.60</DEE>
+				<m>2</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>146.65 %m% - 1.75 %m% x 83 %u%</Name>
+				<D>145.25</D>
+				<DEE>146.65</DEE>
+				<m>1.75</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>146.70 %m% - 1.5 %m% x 97 %u%</Name>
+				<D>145.50</D>
+				<DEE>146.70</DEE>
+				<m>1.5</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>147.00 %m% - 2.5 %m% x 58 %u%</Name>
+				<D>145.00</D>
+				<DEE>147.00</DEE>
+				<m>2.5</m>
+				<Z>58</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>147.60 %m% - 2 %m% x 73 %u%</Name>
+				<D>146.00</D>
+				<DEE>147.60</DEE>
+				<m>2</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>148.20 %m% - 1.5 %m% x 98 %u%</Name>
+				<D>147.00</D>
+				<DEE>148.20</DEE>
+				<m>1.5</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>148.40 %m% - 1.75 %m% x 84 %u%</Name>
+				<D>147.00</D>
+				<DEE>148.40</DEE>
+				<m>1.75</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>149.50 %m% - 2.5 %m% x 59 %u%</Name>
+				<D>147.50</D>
+				<DEE>149.50</DEE>
+				<m>2.5</m>
+				<Z>59</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>149.60 %m% - 2 %m% x 74 %u%</Name>
+				<D>148.00</D>
+				<DEE>149.60</DEE>
+				<m>2</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>149.70 %m% - 1.5 %m% x 99 %u%</Name>
+				<D>148.50</D>
+				<DEE>149.70</DEE>
+				<m>1.5</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>150.15 %m% - 1.75 %m% x 85 %u%</Name>
+				<D>148.75</D>
+				<DEE>150.15</DEE>
+				<m>1.75</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>151.20 %m% - 1.5 %m% x 100 %u%</Name>
+				<D>150.00</D>
+				<DEE>151.20</DEE>
+				<m>1.5</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>151.60 %m% - 2 %m% x 75 %u%</Name>
+				<D>150.00</D>
+				<DEE>151.60</DEE>
+				<m>2</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>151.90 %m% - 1.75 %m% x 86 %u%</Name>
+				<D>150.50</D>
+				<DEE>151.90</DEE>
+				<m>1.75</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>152.00 %m% - 2.5 %m% x 60 %u%</Name>
+				<D>150.00</D>
+				<DEE>152.00</DEE>
+				<m>2.5</m>
+				<Z>60</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>153.60 %m% - 2 %m% x 76 %u%</Name>
+				<D>152.00</D>
+				<DEE>153.60</DEE>
+				<m>2</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>153.65 %m% - 1.75 %m% x 87 %u%</Name>
+				<D>152.25</D>
+				<DEE>153.65</DEE>
+				<m>1.75</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>154.50 %m% - 2.5 %m% x 61 %u%</Name>
+				<D>152.50</D>
+				<DEE>154.50</DEE>
+				<m>2.5</m>
+				<Z>61</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>155.40 %m% - 1.75 %m% x 88 %u%</Name>
+				<D>154.00</D>
+				<DEE>155.40</DEE>
+				<m>1.75</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>155.60 %m% - 2 %m% x 77 %u%</Name>
+				<D>154.00</D>
+				<DEE>155.60</DEE>
+				<m>2</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>157.00 %m% - 2.5 %m% x 62 %u%</Name>
+				<D>155.00</D>
+				<DEE>157.00</DEE>
+				<m>2.5</m>
+				<Z>62</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>157.15 %m% - 1.75 %m% x 89 %u%</Name>
+				<D>155.75</D>
+				<DEE>157.15</DEE>
+				<m>1.75</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>157.60 %m% - 2 %m% x 78 %u%</Name>
+				<D>156.00</D>
+				<DEE>157.60</DEE>
+				<m>2</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>158.90 %m% - 1.75 %m% x 90 %u%</Name>
+				<D>157.50</D>
+				<DEE>158.90</DEE>
+				<m>1.75</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>159.50 %m% - 2.5 %m% x 63 %u%</Name>
+				<D>157.50</D>
+				<DEE>159.50</DEE>
+				<m>2.5</m>
+				<Z>63</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>159.60 %m% - 2 %m% x 79 %u%</Name>
+				<D>158.00</D>
+				<DEE>159.60</DEE>
+				<m>2</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>160.65 %m% - 1.75 %m% x 91 %u%</Name>
+				<D>159.25</D>
+				<DEE>160.65</DEE>
+				<m>1.75</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>161.60 %m% - 2 %m% x 80 %u%</Name>
+				<D>160.00</D>
+				<DEE>161.60</DEE>
+				<m>2</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>162.00 %m% - 2.5 %m% x 64 %u%</Name>
+				<D>160.00</D>
+				<DEE>162.00</DEE>
+				<m>2.5</m>
+				<Z>64</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>162.40 %m% - 1.75 %m% x 92 %u%</Name>
+				<D>161.00</D>
+				<DEE>162.40</DEE>
+				<m>1.75</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>163.60 %m% - 2 %m% x 81 %u%</Name>
+				<D>162.00</D>
+				<DEE>163.60</DEE>
+				<m>2</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>164.15 %m% - 1.75 %m% x 93 %u%</Name>
+				<D>162.75</D>
+				<DEE>164.15</DEE>
+				<m>1.75</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>164.50 %m% - 2.5 %m% x 65 %u%</Name>
+				<D>162.50</D>
+				<DEE>164.50</DEE>
+				<m>2.5</m>
+				<Z>65</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>165.60 %m% - 2 %m% x 82 %u%</Name>
+				<D>164.00</D>
+				<DEE>165.60</DEE>
+				<m>2</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>165.90 %m% - 1.75 %m% x 94 %u%</Name>
+				<D>164.50</D>
+				<DEE>165.90</DEE>
+				<m>1.75</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>167.00 %m% - 2.5 %m% x 66 %u%</Name>
+				<D>165.00</D>
+				<DEE>167.00</DEE>
+				<m>2.5</m>
+				<Z>66</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>167.60 %m% - 2 %m% x 83 %u%</Name>
+				<D>166.00</D>
+				<DEE>167.60</DEE>
+				<m>2</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>167.65 %m% - 1.75 %m% x 95 %u%</Name>
+				<D>166.25</D>
+				<DEE>167.65</DEE>
+				<m>1.75</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>169.40 %m% - 1.75 %m% x 96 %u%</Name>
+				<D>168.00</D>
+				<DEE>169.40</DEE>
+				<m>1.75</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>169.50 %m% - 2.5 %m% x 67 %u%</Name>
+				<D>167.50</D>
+				<DEE>169.50</DEE>
+				<m>2.5</m>
+				<Z>67</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>169.60 %m% - 2 %m% x 84 %u%</Name>
+				<D>168.00</D>
+				<DEE>169.60</DEE>
+				<m>2</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>171.15 %m% - 1.75 %m% x 97 %u%</Name>
+				<D>169.75</D>
+				<DEE>171.15</DEE>
+				<m>1.75</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>171.60 %m% - 2 %m% x 85 %u%</Name>
+				<D>170.00</D>
+				<DEE>171.60</DEE>
+				<m>2</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>172.00 %m% - 2.5 %m% x 68 %u%</Name>
+				<D>170.00</D>
+				<DEE>172.00</DEE>
+				<m>2.5</m>
+				<Z>68</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>172.90 %m% - 1.75 %m% x 98 %u%</Name>
+				<D>171.50</D>
+				<DEE>172.90</DEE>
+				<m>1.75</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>173.60 %m% - 2 %m% x 86 %u%</Name>
+				<D>172.00</D>
+				<DEE>173.60</DEE>
+				<m>2</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>174.50 %m% - 2.5 %m% x 69 %u%</Name>
+				<D>172.50</D>
+				<DEE>174.50</DEE>
+				<m>2.5</m>
+				<Z>69</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>174.65 %m% - 1.75 %m% x 99 %u%</Name>
+				<D>173.25</D>
+				<DEE>174.65</DEE>
+				<m>1.75</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>175.60 %m% - 2 %m% x 87 %u%</Name>
+				<D>174.00</D>
+				<DEE>175.60</DEE>
+				<m>2</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>176.40 %m% - 1.75 %m% x 100 %u%</Name>
+				<D>175.00</D>
+				<DEE>176.40</DEE>
+				<m>1.75</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>177.00 %m% - 2.5 %m% x 70 %u%</Name>
+				<D>175.00</D>
+				<DEE>177.00</DEE>
+				<m>2.5</m>
+				<Z>70</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>177.60 %m% - 2 %m% x 88 %u%</Name>
+				<D>176.00</D>
+				<DEE>177.60</DEE>
+				<m>2</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>179.50 %m% - 2.5 %m% x 71 %u%</Name>
+				<D>177.50</D>
+				<DEE>179.50</DEE>
+				<m>2.5</m>
+				<Z>71</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>179.60 %m% - 2 %m% x 89 %u%</Name>
+				<D>178.00</D>
+				<DEE>179.60</DEE>
+				<m>2</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>181.60 %m% - 2 %m% x 90 %u%</Name>
+				<D>180.00</D>
+				<DEE>181.60</DEE>
+				<m>2</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>182.00 %m% - 2.5 %m% x 72 %u%</Name>
+				<D>180.00</D>
+				<DEE>182.00</DEE>
+				<m>2.5</m>
+				<Z>72</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>183.60 %m% - 2 %m% x 91 %u%</Name>
+				<D>182.00</D>
+				<DEE>183.60</DEE>
+				<m>2</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>184.50 %m% - 2.5 %m% x 73 %u%</Name>
+				<D>182.50</D>
+				<DEE>184.50</DEE>
+				<m>2.5</m>
+				<Z>73</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>185.60 %m% - 2 %m% x 92 %u%</Name>
+				<D>184.00</D>
+				<DEE>185.60</DEE>
+				<m>2</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>187.00 %m% - 2.5 %m% x 74 %u%</Name>
+				<D>185.00</D>
+				<DEE>187.00</DEE>
+				<m>2.5</m>
+				<Z>74</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>187.60 %m% - 2 %m% x 93 %u%</Name>
+				<D>186.00</D>
+				<DEE>187.60</DEE>
+				<m>2</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>189.50 %m% - 2.5 %m% x 75 %u%</Name>
+				<D>187.50</D>
+				<DEE>189.50</DEE>
+				<m>2.5</m>
+				<Z>75</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>189.60 %m% - 2 %m% x 94 %u%</Name>
+				<D>188.00</D>
+				<DEE>189.60</DEE>
+				<m>2</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>191.60 %m% - 2 %m% x 95 %u%</Name>
+				<D>190.00</D>
+				<DEE>191.60</DEE>
+				<m>2</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>192.00 %m% - 2.5 %m% x 76 %u%</Name>
+				<D>190.00</D>
+				<DEE>192.00</DEE>
+				<m>2.5</m>
+				<Z>76</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>193.60 %m% - 2 %m% x 96 %u%</Name>
+				<D>192.00</D>
+				<DEE>193.60</DEE>
+				<m>2</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>194.50 %m% - 2.5 %m% x 77 %u%</Name>
+				<D>192.50</D>
+				<DEE>194.50</DEE>
+				<m>2.5</m>
+				<Z>77</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>195.60 %m% - 2 %m% x 97 %u%</Name>
+				<D>194.00</D>
+				<DEE>195.60</DEE>
+				<m>2</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>197.00 %m% - 2.5 %m% x 78 %u%</Name>
+				<D>195.00</D>
+				<DEE>197.00</DEE>
+				<m>2.5</m>
+				<Z>78</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>197.60 %m% - 2 %m% x 98 %u%</Name>
+				<D>196.00</D>
+				<DEE>197.60</DEE>
+				<m>2</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>199.50 %m% - 2.5 %m% x 79 %u%</Name>
+				<D>197.50</D>
+				<DEE>199.50</DEE>
+				<m>2.5</m>
+				<Z>79</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>199.60 %m% - 2 %m% x 99 %u%</Name>
+				<D>198.00</D>
+				<DEE>199.60</DEE>
+				<m>2</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>201.60 %m% - 2 %m% x 100 %u%</Name>
+				<D>200.00</D>
+				<DEE>201.60</DEE>
+				<m>2</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>202.00 %m% - 2.5 %m% x 80 %u%</Name>
+				<D>200.00</D>
+				<DEE>202.00</DEE>
+				<m>2.5</m>
+				<Z>80</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>204.50 %m% - 2.5 %m% x 81 %u%</Name>
+				<D>202.50</D>
+				<DEE>204.50</DEE>
+				<m>2.5</m>
+				<Z>81</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>207.00 %m% - 2.5 %m% x 82 %u%</Name>
+				<D>205.00</D>
+				<DEE>207.00</DEE>
+				<m>2.5</m>
+				<Z>82</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>209.50 %m% - 2.5 %m% x 83 %u%</Name>
+				<D>207.50</D>
+				<DEE>209.50</DEE>
+				<m>2.5</m>
+				<Z>83</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>212.00 %m% - 2.5 %m% x 84 %u%</Name>
+				<D>210.00</D>
+				<DEE>212.00</DEE>
+				<m>2.5</m>
+				<Z>84</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>214.50 %m% - 2.5 %m% x 85 %u%</Name>
+				<D>212.50</D>
+				<DEE>214.50</DEE>
+				<m>2.5</m>
+				<Z>85</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>217.00 %m% - 2.5 %m% x 86 %u%</Name>
+				<D>215.00</D>
+				<DEE>217.00</DEE>
+				<m>2.5</m>
+				<Z>86</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>219.50 %m% - 2.5 %m% x 87 %u%</Name>
+				<D>217.50</D>
+				<DEE>219.50</DEE>
+				<m>2.5</m>
+				<Z>87</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>222.00 %m% - 2.5 %m% x 88 %u%</Name>
+				<D>220.00</D>
+				<DEE>222.00</DEE>
+				<m>2.5</m>
+				<Z>88</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>224.50 %m% - 2.5 %m% x 89 %u%</Name>
+				<D>222.50</D>
+				<DEE>224.50</DEE>
+				<m>2.5</m>
+				<Z>89</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>227.00 %m% - 2.5 %m% x 90 %u%</Name>
+				<D>225.00</D>
+				<DEE>227.00</DEE>
+				<m>2.5</m>
+				<Z>90</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>229.50 %m% - 2.5 %m% x 91 %u%</Name>
+				<D>227.50</D>
+				<DEE>229.50</DEE>
+				<m>2.5</m>
+				<Z>91</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>232.00 %m% - 2.5 %m% x 92 %u%</Name>
+				<D>230.00</D>
+				<DEE>232.00</DEE>
+				<m>2.5</m>
+				<Z>92</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>234.50 %m% - 2.5 %m% x 93 %u%</Name>
+				<D>232.50</D>
+				<DEE>234.50</DEE>
+				<m>2.5</m>
+				<Z>93</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>237.00 %m% - 2.5 %m% x 94 %u%</Name>
+				<D>235.00</D>
+				<DEE>237.00</DEE>
+				<m>2.5</m>
+				<Z>94</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>239.50 %m% - 2.5 %m% x 95 %u%</Name>
+				<D>237.50</D>
+				<DEE>239.50</DEE>
+				<m>2.5</m>
+				<Z>95</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>242.00 %m% - 2.5 %m% x 96 %u%</Name>
+				<D>240.00</D>
+				<DEE>242.00</DEE>
+				<m>2.5</m>
+				<Z>96</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>244.50 %m% - 2.5 %m% x 97 %u%</Name>
+				<D>242.50</D>
+				<DEE>244.50</DEE>
+				<m>2.5</m>
+				<Z>97</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>247.00 %m% - 2.5 %m% x 98 %u%</Name>
+				<D>245.00</D>
+				<DEE>247.00</DEE>
+				<m>2.5</m>
+				<Z>98</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>249.50 %m% - 2.5 %m% x 99 %u%</Name>
+				<D>247.50</D>
+				<DEE>249.50</DEE>
+				<m>2.5</m>
+				<Z>99</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row><Name>252.00 %m% - 2.5 %m% x 100 %u%</Name>
+				<D>250.00</D>
+				<DEE>252.00</DEE>
+				<m>2.5</m>
+				<Z>100</Z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

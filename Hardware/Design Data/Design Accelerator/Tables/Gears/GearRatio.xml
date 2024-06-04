@@ -1,0 +1,43 @@
+<FDesign>
+	<Table InternalName="26C81AAE-056C-4395-8589-69A84ED496F1">
+		<Definition DisplayName="Gear Ratio">
+			<Columns>
+				<A Description="Gear Ratio" Units="ul" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>1</A></Row>
+			<Row><A>1.12</A></Row>
+			<Row><A>1.25</A></Row>
+			<Row><A>1.4</A></Row>
+			<Row><A>1.6</A></Row>
+			<Row><A>1.8</A></Row>
+			<Row><A>2</A></Row>
+			<Row><A>2.24</A></Row>
+			<Row><A>2.5</A></Row>
+			<Row><A>2.8</A></Row>
+			<Row><A>3.15</A></Row>
+			<Row><A>3.55</A></Row>
+			<Row><A>4</A></Row>
+			<Row><A>4.5</A></Row>
+			<Row><A>5</A></Row>
+			<Row><A>5.6</A></Row>
+			<Row><A>6.3</A></Row>
+			<Row><A>7.1</A></Row>
+			<Row><A>8</A></Row>
+			<Row><A>9</A></Row>
+			<Row><A>10</A></Row>
+			<Row><A>11.2</A></Row>
+			<Row><A>12.5</A></Row>
+			<Row><A>14</A></Row>
+			<Row><A>16</A></Row>
+			<Row><A>18</A></Row>
+			<Row><A>20</A></Row>
+			<Row><A>22.4</A></Row>
+			<Row><A>25</A></Row>
+			<Row><A>28</A></Row>
+			<Row><A>31.5</A></Row>
+			<Row><A>40</A></Row>
+		</Data>
+	</Table>
+</FDesign>

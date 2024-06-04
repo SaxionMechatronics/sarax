@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.3" category="RCHAIN" thumbnail="ISO487_C.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="ISO487" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <b src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="N"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="mm^2"/>
+    <fi src="fixed" dt="number" units="ul">1.0</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.12</bax>
+    <Pc1 src="fixed" dt="string">12.85kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0008ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">953.5kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="C550-H-1" >
+      <Designation>C550-H</Designation>
+      <Size>C550-H</Size>
+      <k>1</k>
+      <p>41.40</p>
+      <b1>19.81</b1>
+      <d1>16.87</d1>
+      <d2>7.19</d2>
+      <b2>26.04</b2>
+      <Pt>33.0</Pt>
+      <h2>20.2</h2>
+      <h3>20.2</h3>
+      <b>35.6</b>
+      <A>187</A>
+      <Fu>57800</Fu>
+      <m>1.95</m>
+    </Member>
+    <Member moniker="C620-H-1" >
+      <Designation>C620-H</Designation>
+      <Size>C620-H</Size>
+      <k>1</k>
+      <p>42.01</p>
+      <b1>24.51</b1>
+      <d1>17.91</d1>
+      <d2>7.19</d2>
+      <b2>31.60</b2>
+      <Pt>39.0</Pt>
+      <h2>20.2</h2>
+      <h3>20.2</h3>
+      <b>42.2</b>
+      <A>227</A>
+      <Fu>57800</Fu>
+      <m>2.35</m>
+    </Member>
+  </Members>
+</CustomFamily>

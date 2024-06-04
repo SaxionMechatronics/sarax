@@ -1,0 +1,69 @@
+<FDesign>
+	<Table InternalName="22DF4186-93C4-40be-A638-F15A4BB2C32B">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Driving DisplayName="" Units="" IsNumeric="0" IsVisible="1" />
+				<Uniform DisplayName="%2%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<Light DisplayName="%3%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<Intermittent DisplayName="%4%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<Heavy DisplayName="%5%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<SelectableRow_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<colspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<rowspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Driving>%10%</Driving>
+				<Uniform>%9%</Uniform>
+				<Light />
+				<Intermittent />
+				<Heavy />
+				<SelectableRow_>0</SelectableRow_>
+				<colspan_>0,4,0,0,0</colspan_>
+				<rowspan_>3,0,0,0,0</rowspan_>
+			</Row>
+			<Row>
+				<Driving />
+				<Uniform>%2%</Uniform>
+				<Light>%3%</Light>
+				<Intermittent>%4%</Intermittent>
+				<Heavy>%5%</Heavy>
+				
+				<SelectableRow_>0</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving />
+				<Uniform>%11%</Uniform>
+				<Light>%12%</Light>
+				<Intermittent>%13%</Intermittent>
+				<Heavy>%14%</Heavy>
+				<SelectableRow_>0</SelectableRow_>
+			</Row>			
+			<Row>
+				<Driving>%6%</Driving>
+				<Uniform>1.0</Uniform>
+				<Light>1.2</Light>
+				<Intermittent>1.5</Intermittent>
+				<Heavy>1.8</Heavy>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>%7%</Driving>
+				<Uniform>1.2</Uniform>
+				<Light>1.3</Light>
+				<Intermittent>1.8</Intermittent>
+				<Heavy>2.1</Heavy>	
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>%8%</Driving>
+				<Uniform>2.0</Uniform>
+				<Light>2.2</Light>
+				<Intermittent>2.4</Intermittent>
+				<Heavy>2.8</Heavy>	
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

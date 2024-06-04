@@ -1,0 +1,20 @@
+<Resources>
+  <string id="%1%" value="Spline Material"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Brinell Hardness Number"/>
+  <string id="%4%" value="ul"/>
+  <string id="%5%" value="Vicker Hardness Number (pyramid)"/>
+  <string id="%6%" value="Allowable Compressive Stress"/>
+  <string id="%7%" value="psi"/>
+  <string id="%8%" value="Allowable Shear Stress"/>
+  <string id="%9%" value="Steel"/>
+  <string id="%10%" value="Surface-hardened steel"/>
+  <string id="%11%" value="Case-hardening steel"/>
+  <string id="%12%" value="Material"/>
+  <string id="%13%" value="B|.hn|"/>
+  <string id="%14%" value="HV"/>
+  <string id="%15%" value="S|.c|"/>
+  <string id="%16%" value="S|.s|"/>
+  <string id="%17%" value="Allowable Tensile Stress"/>
+  <string id="%18%" value="S|.t|"/>
+</Resources>

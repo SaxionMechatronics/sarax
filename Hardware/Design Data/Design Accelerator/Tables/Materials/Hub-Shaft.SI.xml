@@ -1,0 +1,50 @@
+<FDesign>
+  <Table InternalName="7BB25F7C-6B3F-45BE-8B7B-85ABF5AF0823">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%10%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <SigmaD1 DisplayName="%11%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD2 DisplayName="%11%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD3 DisplayName="%11%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>E642037A3D674C5DB9C8D5BC3B72946E</ID>
+        <Material>%5%</Material>
+        <SigmaD1>90</SigmaD1>
+        <SigmaD2>65</SigmaD2>
+        <SigmaD3>50</SigmaD3>
+      </Row>
+      <Row>
+        <ID>81EFBABFB4A84DF3AE05918E8D326091</ID>
+        <Material>%6%</Material>
+        <SigmaD1>120</SigmaD1>
+        <SigmaD2>90</SigmaD2>
+        <SigmaD3>60</SigmaD3>
+      </Row>
+      <Row>
+        <ID>DAC14EAE134348CB9E54C06022D824AD</ID>
+        <Material>%7%</Material>
+        <SigmaD1>80</SigmaD1>
+        <SigmaD2>60</SigmaD2>
+        <SigmaD3>40</SigmaD3>
+      </Row>
+      <Row>
+        <ID>05B6EC3F2D5F4014871E49AD02E96600</ID>
+        <Material>%8%</Material>
+        <SigmaD1>70</SigmaD1>
+        <SigmaD2>50</SigmaD2>
+        <SigmaD3>30</SigmaD3>
+      </Row>
+      <Row>
+        <ID>9972E7DF59B74530B50046C8A02E2CE7</ID>
+        <Material>%9%</Material>
+        <SigmaD1>32</SigmaD1>
+        <SigmaD2>22</SigmaD2>
+        <SigmaD3>16</SigmaD3>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

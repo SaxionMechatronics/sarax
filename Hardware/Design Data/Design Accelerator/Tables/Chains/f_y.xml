@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="DC6B9187-AF56-4c96-9117-FE694254ADA8">
+		<Definition DisplayName="Pitch factor for service life analysis ThL">
+			<Columns>
+				<p Units="mm"/>
+				<f Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><p>5</p><f>.2152</f></Row>
+			<Row><p>6</p><f>.2151</f></Row>
+			<Row><p>6.35</p><f>.2151</f></Row>
+			<Row><p>8</p><f>.2150</f></Row>
+			<Row><p>9.525</p><f>.2149</f></Row>
+			<Row><p>12.7</p><f>.2145</f></Row>
+			<Row><p>15.875</p><f>.2136</f></Row>
+			<Row><p>19.05</p><f>.2125</f></Row>
+			<Row><p>25.4</p><f>.2096</f></Row>
+			<Row><p>31.75</p><f>.2058</f></Row>
+			<Row><p>38.1</p><f>.2014</f></Row>
+			<Row><p>44.45</p><f>.1964</f></Row>
+			<Row><p>50.8</p><f>.1909</f></Row>
+			<Row><p>63.5</p><f>.1780</f></Row>
+			<Row><p>76.2</p><f>.14</f></Row>
+		</Data>
+	</Table>
+</FDesign>

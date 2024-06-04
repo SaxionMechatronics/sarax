@@ -1,0 +1,6 @@
+<Resources>
+  <string id="%1%" value="Pinion Proportion Modifier"/>
+  <string id="%2%" value="Straddle mounted pinions with offset ratio less than 0.175"/>
+  <string id="%3%" value="Straddle mounted pinions with offset ratio greater than 0.175"/>
+  <string id="%4%" value="Offset ratio is unit distance of pinion mid-face from bearing span centerline"/>
+</Resources>

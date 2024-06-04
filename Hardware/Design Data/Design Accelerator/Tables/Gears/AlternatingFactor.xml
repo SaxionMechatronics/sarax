@@ -1,0 +1,26 @@
+<FDesign>
+	<Table InternalName="226C2D91-8882-4E03-984B-C5ACCCFC1C2C">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Desc DisplayName="" Units="" IsNumeric="0" IsVisible="1" />
+				<A DisplayName="" Units="ul" IsNumeric="1" IsVisible="1" IsRange="1" SelType="MAX" />
+				<AMax DisplayName="" Units="ul" IsNumeric="1" IsVisible="0" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Desc>%2%</Desc>
+				<A>1</A>
+			</Row>
+			<Row>
+				<Desc>%3%</Desc>
+				<A>0.7</A>
+			</Row>
+			<Row>
+				<Desc>%4%</Desc>
+				<A>0.7</A>
+				<AMax>0.85</AMax>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

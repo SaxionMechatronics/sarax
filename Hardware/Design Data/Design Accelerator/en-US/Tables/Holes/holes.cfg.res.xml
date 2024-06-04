@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <string id="%1%" value="ANSI"/>
+  <string id="%2%" value="Flat Head Machine Screw (82)"/>
+  <string id="%3%" value="Flat Head Machine Screw (100)"/>
+  <string id="%4%" value="Hex Head Bolt"/>
+  <string id="%5%" value="Hex Machine Screw"/>
+  <string id="%6%" value="Oval Head Machine Screw"/>
+  <string id="%7%" value="Socket Head Cap Screw"/>
+  <string id="%8%" value="ANSI(Metric)"/>
+  <string id="%9%" value="Flat Head Machine Screw"/>
+  <string id="%10%" value="Hex Head Cap Screw"/>
+  <string id="%11%" value="Hex Head Machine Screw"/>
+  <string id="%12%" value="DIN"/>
+  <string id="%13%" value="Countersunk Flat Head Screw"/>
+  <string id="%14%" value="Countersunk Raised Head Screw"/>
+  <string id="%15%" value="Hex Head Screw"/>
+  <string id="%16%" value="Hex Socket Countersunk Hex Screw"/>
+  <string id="%17%" value="Hex Socket Head Cap Screw"/>
+  <string id="%18%" value="ISO"/>
+  <string id="%19%" value="Hex Socket Countersunk Cap Screw"/>
+  <string id="%20%" value="JIS"/>
+  <string id="%21%" value="Drilled hole"/>
+  <string id="%22%" value="Flat Head Machine Screw (80)"/>
+  <string id="%23%" value="Countersunk Flat Head Screw DIN EN ISO 2009"/>
+  <string id="%24%" value="Countersunk Raised Head Screw ISO 2010"/>
+  <string id="%25%" value="Hex Head Cap Screw DIN EN 24017"/>
+  <string id="%26%" value="Hex Head Cap Screw DIN EN 24014 (Spotface)"/>
+  <string id="%27%" value="Countersunk Flat Head Hex Socket Screw DIN EN ISO 10642"/>
+  <string id="%28%" value="Socket Head Cap Screw DIN EN ISO 4762"/>
+  <string id="%29%" value="Slotted Cheese Head Screw DIN 84"/>
+  <string id="%30%" value="Countersunk Flat Head Screw ISO 2009/7046"/>
+  <string id="%31%" value="Countersunk Raised Head Screw ISO 2010/7047"/>
+  <string id="%32%" value="Hex Head Cap Screw ISO 24017"/>
+  <string id="%33%" value="Hex Head Cap Screw ISO 24014 (Spotface)"/>
+  <string id="%34%" value="Countersunk Flat Head Hex Socket Screw ISO 10642"/>
+  <string id="%35%" value="Socket Head Cap Screw ISO 4762"/>
+  <string id="%36%" value="Slotted Cheese Head Screw ISO 1207"/>
+  <string id="%37%" value="GOST"/>
+  <string id="%38%" value="GOST 12876-67"/>
+  <string id="%39%" value="Countersunk Head GOST 12876-67"/>
+  <string id="%40%" value="Countersunk Head + Washer GOST 12876-67"/>
+  <string id="%41%" value="Hex Head Bolt / Nut GOST 12876-67"/>  
+  <string id="%42%" value="Hex Head Bolt / Nut (Reduced Size) GOST 12876-67"/>
+  <string id="%43%" value="Hex Head Bolt / Nut (Enlarged Washer) GOST 12876-67"/>
+  <string id="%44%" value="Cylindrical Head Hex Socket Screw GOST 12876-67"/>
+  <string id="%45%" value="Cylindrical Head Hex Socket Screw + Washer GOST 12876-67"/>
+  <string id="%46%" value="Cylindrical Head Slotted Screw GOST 12876-67"/>
+  <string id="%47%" value="Cylindrical Head Slotted Screw + Washer GOST 12876-67"/>
+</Resources>

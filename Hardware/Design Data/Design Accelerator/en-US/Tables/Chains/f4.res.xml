@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resources>
+  <string id="%1%" value="Lubrication factor"/>
+  <string id="%2%" value="Chain speed"/>
+  <string id="%3%" value="Lubrication method"/>
+  <string id="%4%" value="Recommended lubrication"/>
+  <string id="%5%" value="Acceptable lubrication"/>
+  <string id="%6%" value="Faultless"/>
+  <string id="%7%" value="Insufficient"/>
+  <string id="%8%" value="No lubrication"/>
+  <string id="%9%" value="Clean"/>
+  <string id="%10%" value="Soiled"/>
+  <string id="%11%" value="Up to 4 m/s"/>
+  <string id="%12%" value="Up to 7 m/s"/>
+  <string id="%13%" value="Up to 12 m/s"/>
+  <string id="%14%" value="Above 12 m/s"/>
+  <string id="%15%" value="Drip feeded"/>
+  <string id="%16%" value="Manual lurication"/>
+  <string id="%17%" value="Inadmissible"/>
+  <string id="%18%" value="Oil bath or disc"/>
+  <string id="%19%" value="Drip feeded"/>
+  <string id="%20%" value="Forced-feeded"/>
+  <string id="%21%" value="Oil steam, Forced-feeded"/>
+v</Resources>

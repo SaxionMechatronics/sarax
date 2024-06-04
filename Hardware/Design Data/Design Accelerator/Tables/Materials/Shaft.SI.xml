@@ -1,0 +1,68 @@
+<FDesign>
+  <Table InternalName="8FDDC7E5-FF6A-4E99-876E-40BBEECC6310">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%11%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <SigmaD1 DisplayName="%12%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauDK1 DisplayName="%13%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD2 DisplayName="%12%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauDK2 DisplayName="%13%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD3 DisplayName="%12%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauDK3 DisplayName="%13%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>845EB1B7CAE24026859FFE8DC13E358F</ID>
+        <Material>%6%</Material>
+        <SigmaD1>90</SigmaD1>
+        <TauDK1>56</TauDK1>
+        <SigmaD2>65</SigmaD2>
+        <TauDK2>40</TauDK2>
+        <SigmaD3>50</SigmaD3>
+        <TauDK3>28</TauDK3>
+      </Row>
+      <Row>
+        <ID>C30D8049F499427A807BC0F2DFC3B19C</ID>
+        <Material>%7%</Material>
+        <SigmaD1>120</SigmaD1>
+        <TauDK1>80</TauDK1>
+        <SigmaD2>90</SigmaD2>
+        <TauDK2>56</TauDK2>
+        <SigmaD3>60</SigmaD3>
+        <TauDK3>40</TauDK3>
+      </Row>
+      <Row>
+        <ID>864BFFFF1BE34EC6B3EC5AB424DEDA18</ID>
+        <Material>%8%</Material>
+        <SigmaD1>80</SigmaD1>
+        <TauDK1>40</TauDK1>
+        <SigmaD2>60</SigmaD2>
+        <TauDK2>28</TauDK2>
+        <SigmaD3>40</SigmaD3>
+        <TauDK3>20</TauDK3>
+      </Row>
+      <Row>
+        <ID>36E7725885EB481284A0EBC74B4470D7</ID>
+        <Material>%9%</Material>
+        <SigmaD1>70</SigmaD1>
+        <TauDK1>40</TauDK1>
+        <SigmaD2>50</SigmaD2>
+        <TauDK2>28</TauDK2>
+        <SigmaD3>30</SigmaD3>
+        <TauDK3>20</TauDK3>
+      </Row>
+      <Row>
+        <ID>ABF034E7ECBC4A6DA14F6488D36BD8DA</ID>
+        <Material>%10%</Material>
+        <SigmaD1>32</SigmaD1>
+        <TauDK1>15</TauDK1>
+        <SigmaD2>22</SigmaD2>
+        <TauDK2>10</TauDK2>
+        <SigmaD3>16</SigmaD3>
+        <TauDK3>7</TauDK3>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

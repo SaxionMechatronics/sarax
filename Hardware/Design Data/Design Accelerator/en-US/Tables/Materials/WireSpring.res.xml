@@ -1,0 +1,34 @@
+<Resources>
+<string id="%1%" value="Spring Material" />
+<string id="%2%" value="Material Designation" />
+<string id="%3%" value="Density" />
+<string id="%4%" value="lb/ft^3" />
+<string id="%5%" value="Shear Modulus" />
+<string id="%6%" value="psi" />
+<string id="%7%" value="Ratio of Allowable Torsional Stress to Ultimate Tensile Strength" />
+<string id="%8%" value="Ultimate Tensile Stress" />
+<string id="%9%" value="Hard drawn steel wire QQ-W-428" />
+<string id="%10%" value="Music wire QQ-W-470" />
+<string id="%11%" value="Oil-tempered steel wire QQ-W-428" />
+<string id="%12%" value="Chrome-silicon alloy steel wire QQ-W-412" />
+<string id="%13%" value="Corrosion-resisting steel wire QQ-W-423" />
+<string id="%14%" value="Chrome-vanadium alloy steel wire" />
+<string id="%15%" value="Silicon-manganese steel wire" />
+<string id="%16%" value="Valve-spring quality wire" />
+<string id="%17%" value="Stainless steel 304 and 420" />
+<string id="%18%" value="Stainless steel 316" />
+<string id="%19%" value="Stainless steel 431 and 17-7PH" />
+<string id="%20%" value="Material" />
+<string id="%21%" value="Std" />
+<string id="%22%" value="Standard" />
+<string id="%23%" value="R|.o|" />
+<string id="%24%" value="G" />
+<string id="%25%" value="Coeffs" />
+<string id="%26%" value="WD" />
+<string id="%27%" value="Wire Diameters" />
+<string id="%28%" value="in" />
+<string id="%29%" value="||s||.ult|" />
+<string id="%30%" value="ANSI" />
+<string id="%31%" value="Wire Diameters and Ultimate Tensile Strength" />
+<string id="%32%" value="ul" />
+</Resources>

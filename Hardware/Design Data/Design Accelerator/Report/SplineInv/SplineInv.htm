@@ -1,0 +1,96 @@
+<!--iif(ISCALCULATION)
+<h3 class="expanded">$$GrpGuide$</h3>
+<blockquote>
+ <p>$$GLoads$ - $$guide_SCN1$</p>
+ <p>$$GStrength$ - $$guide_SCN2$</p>
+</blockquote>
+<h3 class="expanded">$$GrpLoads$</h3>
+<blockquote>
+<table class="ta">
+ <tr>
+  <td>$$description_P$</td>
+  <td>$$designation_P$</td>
+  <td align="middle">$$value_P$</td>
+ </tr>
+ <tr>
+  <td>$$description_n$</td>
+  <td>$$designation_n$</td>
+  <td align="middle">$$value_n$</td>
+ </tr>
+ <tr>
+  <td>$$description_T$</td>
+  <td>$$designation_T$</td>
+  <td align="middle">$$value_T$</td>
+ </tr>
+</table>
+</blockquote>iif-->
+<h3 class="expanded">$$Dim$</h3>
+<blockquote>
+<table class="ta">
+ <tr>
+  <td>$$description_Spline$</td>
+  <td colspan="3" align="center"><b>$$value_Spline$</b></td>
+ </tr>
+ <tr>
+  <td>$$description_dh$</td>
+  <td>$$designation_dh$</td>
+  <td align="middle">$$value_dh$</td>
+ </tr>
+ <tr>
+  <td>$$description_Doi$</td>
+  <td>$$designation_Doi$</td>
+  <td align="middle">$$value_Doi$</td>
+ </tr>
+ <tr>
+  <td>$$description_l$</td>
+  <td>$$designation_l$</td>
+  <td align="middle">$$value_l$</td>
+ </tr>
+</table>
+</blockquote>
+$$GrpSplineDims$
+<!--iif(ISCALCULATION)
+<h3 class="expanded">$$GrpProperties$</h3>
+<blockquote>
+<table class="ta">
+  <tr>
+  <td>$$description_Sv$</td>
+  <td>$$designation_Sv$</td>
+  <td align="middle">$$value_Sv$</td>
+ </tr>
+$$GrpSplineProperties$
+</table>
+</blockquote>
+<h3 class="expanded">$$GrpMaterial$</h3>
+<blockquote>
+<table class="ta">
+$$GrpSplineShaftMaterial$<!--iif(ISHUB)
+$$GrpSplineHubMaterial$ iif-->
+</table>
+</blockquote>
+<h3 class="expanded">$$GrpResults$</h3>
+<blockquote>
+<table class="ta">
+ <tr>
+ <td>$$description_CHECK$</td>
+ <td colspan="3" align="center"><b>$$value_CHECK$</b></td>
+ </tr>
+  <tr>
+  <td>$$description_dmin$</td>
+  <td>$$designation_dmin$</td>
+  <td align="middle">$$value_dmin$</td>
+ </tr>
+  <tr>
+  <td>$$description_lmin$</td>
+  <td>$$designation_lmin$</td>
+  <td align="middle">$$value_lmin$</td>
+ </tr>
+$$GrSplinepResults$
+</table>
+</blockquote>
+<h3 class="expanded">$$ErrorManager$</h3>
+<blockquote>
+<table class="ta">
+<tr><td>$$ErrorManagerMessages$</td></tr>
+</table>
+</blockquote>iif-->

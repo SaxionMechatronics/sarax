@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="effective" measuresystem="imperial" thumbnail="3VX-ANSI-IP-22.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\3V-ANSI-IP22-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="in">0.3125</Height>
+    <HeightOffset src="fixed" dt="number" units="in">0</HeightOffset>
+    <WidthExt src="fixed" dt="number" units="in" >0.375</WidthExt>
+    <Width src="fixed" dt="number" units="in" >0.35</Width>
+    <PitchOffset src="fixed" dt="number" units="in">-0.025</PitchOffset>
+    <Length src="table" dt="number" units="in" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">120.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="ft/s">160.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="lbmass/ft">0.072</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">2.2</Dpkmin>
+    <Dpk src="fixed" dt="number" units="in">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="hp">{Dpk}*{nk}*(1.1691 - 1.5295/{Dpk} - 1.5229e-04*pow({Dpk}*{nk};2) - 0.15960*log({Dpk}*{nk}))-{nk}*0.5883*log((1+pow(10;2.6/{s}-2.6))/2)</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="3VX250" >
+      <Size>3VX250</Size>
+      <Length>25</Length>
+      <C3>0.83</C3>
+    </Member>
+    <Member moniker="3VX265" >
+      <Size>3VX265</Size>
+      <Length>26.5</Length>
+      <C3>0.84</C3>
+    </Member>
+    <Member moniker="3VX280" >
+      <Size>3VX280</Size>
+      <Length>28</Length>
+      <C3>0.85</C3>
+    </Member>
+    <Member moniker="3VX300" >
+      <Size>3VX300</Size>
+      <Length>30</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="3VX315" >
+      <Size>3VX315</Size>
+      <Length>31.5</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="3VX335" >
+      <Size>3VX335</Size>
+      <Length>33.5</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="3VX355" >
+      <Size>3VX355</Size>
+      <Length>35.5</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="3VX375" >
+      <Size>3VX375</Size>
+      <Length>37.5</Length>
+      <C3>0.90</C3>
+    </Member>
+    <Member moniker="3VX400" >
+      <Size>3VX400</Size>
+      <Length>40</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="3VX425" >
+      <Size>3VX425</Size>
+      <Length>42.5</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="3VX450" >
+      <Size>3VX450</Size>
+      <Length>45</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="3VX475" >
+      <Size>3VX475</Size>
+      <Length>47.5</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="3VX500" >
+      <Size>3VX500</Size>
+      <Length>50</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="3VX530" >
+      <Size>3VX530</Size>
+      <Length>53</Length>
+      <C3>0.97</C3>
+    </Member>
+    <Member moniker="3VX560" >
+      <Size>3VX560</Size>
+      <Length>56</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="3VX600" >
+      <Size>3VX600</Size>
+      <Length>60</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="3VX630" >
+      <Size>3VX630</Size>
+      <Length>63</Length>
+      <C3>1</C3>
+    </Member>
+    <Member moniker="3VX670" >
+      <Size>3VX670</Size>
+      <Length>67</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="3VX710" >
+      <Size>3VX710</Size>
+      <Length>71</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="3VX750" >
+      <Size>3VX750</Size>
+      <Length>75</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="3VX800" >
+      <Size>3VX800</Size>
+      <Length>80</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="3VX850" >
+      <Size>3VX850</Size>
+      <Length>85</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="3VX900" >
+      <Size>3VX900</Size>
+      <Length>90</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="3VX950" >
+      <Size>3VX950</Size>
+      <Length>95</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="3VX1000" >
+      <Size>3VX1000</Size>
+      <Length>100</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="3VX1060" >
+      <Size>3VX1060</Size>
+      <Length>106</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="3VX1120" >
+      <Size>3VX1120</Size>
+      <Length>112</Length>
+      <C3>1.11</C3>
+    </Member>
+    <Member moniker="3VX1180" >
+      <Size>3VX1180</Size>
+      <Length>118</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="3VX1250" >
+      <Size>3VX1250</Size>
+      <Length>125</Length>
+      <C3>1.13</C3>
+    </Member>
+    <Member moniker="3VX1320" >
+      <Size>3VX1320</Size>
+      <Length>132</Length>
+      <C3>1.14</C3>
+    </Member>
+    <Member moniker="3VX1400" >
+      <Size>3VX1400</Size>
+      <Length>140</Length>
+      <C3>1.15</C3>
+    </Member>
+  </Members>
+</CustomFamily>

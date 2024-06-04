@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="effective" measuresystem="imperial" thumbnail="3V-ANSI-IP-22.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\3V-ANSI-IP22-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="in">0.3125</Height>
+    <HeightOffset src="fixed" dt="number" units="in">0</HeightOffset>
+    <WidthExt src="fixed" dt="number" units="in" >0.375</WidthExt>
+    <Width src="fixed" dt="number" units="in" >0.35</Width>
+    <PitchOffset src="fixed" dt="number" units="in">-0.025</PitchOffset>
+    <Length src="table" dt="number" units="in" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">100.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="ft/s">138.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="lbmass/ft">0.072</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">2.65</Dpkmin>
+    <Dpk src="fixed" dt="number" units="in">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="hp">{Dpk}*{nk}*(1.2036 - 1.9040/{Dpk} - 2.0685e-04*pow({Dpk}*{nk};2) - 0.17634*log({Dpk}*{nk}))-{nk}*0.73231*log((1+pow(10;2.6/{s}-2.6))/2)</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="3V250" >
+      <Size>3V250</Size>
+      <Length>25</Length>
+      <C3>0.83</C3>
+    </Member>
+    <Member moniker="3V265" >
+      <Size>3V265</Size>
+      <Length>26.5</Length>
+      <C3>0.84</C3>
+    </Member>
+    <Member moniker="3V280" >
+      <Size>3V280</Size>
+      <Length>28</Length>
+      <C3>0.85</C3>
+    </Member>
+    <Member moniker="3V300" >
+      <Size>3V300</Size>
+      <Length>30</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="3V315" >
+      <Size>3V315</Size>
+      <Length>31.5</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="3V335" >
+      <Size>3V335</Size>
+      <Length>33.5</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="3V355" >
+      <Size>3V355</Size>
+      <Length>35.5</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="3V375" >
+      <Size>3V375</Size>
+      <Length>37.5</Length>
+      <C3>0.90</C3>
+    </Member>
+    <Member moniker="3V400" >
+      <Size>3V400</Size>
+      <Length>40</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="3V425" >
+      <Size>3V425</Size>
+      <Length>42.5</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="3V450" >
+      <Size>3V450</Size>
+      <Length>45</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="3V475" >
+      <Size>3V475</Size>
+      <Length>47.5</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="3V500" >
+      <Size>3V500</Size>
+      <Length>50</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="3V530" >
+      <Size>3V530</Size>
+      <Length>53</Length>
+      <C3>0.97</C3>
+    </Member>
+    <Member moniker="3V560" >
+      <Size>3V560</Size>
+      <Length>56</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="3V600" >
+      <Size>3V600</Size>
+      <Length>60</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="3V630" >
+      <Size>3V630</Size>
+      <Length>63</Length>
+      <C3>1</C3>
+    </Member>
+    <Member moniker="3V670" >
+      <Size>3V670</Size>
+      <Length>67</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="3V710" >
+      <Size>3V710</Size>
+      <Length>71</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="3V750" >
+      <Size>3V750</Size>
+      <Length>75</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="3V800" >
+      <Size>3V800</Size>
+      <Length>80</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="3V850" >
+      <Size>3V850</Size>
+      <Length>85</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="3V900" >
+      <Size>3V900</Size>
+      <Length>90</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="3V950" >
+      <Size>3V950</Size>
+      <Length>95</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="3V1000" >
+      <Size>3V1000</Size>
+      <Length>100</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="3V1060" >
+      <Size>3V1060</Size>
+      <Length>106</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="3V1120" >
+      <Size>3V1120</Size>
+      <Length>112</Length>
+      <C3>1.11</C3>
+    </Member>
+    <Member moniker="3V1180" >
+      <Size>3V1180</Size>
+      <Length>118</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="3V1250" >
+      <Size>3V1250</Size>
+      <Length>125</Length>
+      <C3>1.13</C3>
+    </Member>
+    <Member moniker="3V1320" >
+      <Size>3V1320</Size>
+      <Length>132</Length>
+      <C3>1.14</C3>
+    </Member>
+    <Member moniker="3V1400" >
+      <Size>3V1400</Size>
+      <Length>140</Length>
+      <C3>1.15</C3>
+    </Member>
+  </Members>
+</CustomFamily>

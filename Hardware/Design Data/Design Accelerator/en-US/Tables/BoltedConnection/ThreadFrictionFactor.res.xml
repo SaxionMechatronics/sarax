@@ -1,0 +1,9 @@
+<Resources>
+  <string id="%1%" value="Thread Friction Factor"/>
+  <string id="%2%" value="Thread surface"/>
+  <string id="%3%" value="Non-lubricated"/>
+  <string id="%4%" value="Lubricated"/>
+  <string id="%5%" value="black or phosphate coating"/>
+  <string id="%6%" value="galvanic zinc coating"/>
+  <string id="%7%" value="cadmium plating"/>
+</Resources>

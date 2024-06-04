@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Autodesk (Autodesk s.r.o.) -->
+<FDesign>
+	<Table InternalName="AE0ED3FD-5346-4334-91A8-E9457CB7E3EE">
+		<Definition DisplayName="LegacyMap">
+			<Columns>
+				<Legacy Description="Legacy hole" Units="ul"/>
+				<Current Description="Current hole" Units="ul"/>
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Legacy>HOLES_SIMPLE</Legacy>
+				<Current>85E7AA26-504B-428E-B4EC-1237864445F2</Current>
+			</Row>
+			<Row>
+				<Legacy>DIN|HOLES_SIMPLE</Legacy>
+				<Current>95C53894-2113-4869-B367-62F28A1092A8</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS|HOLES_SIMPLE</Legacy>
+				<Current>9B79833C-1BD5-4E23-8A71-A237199511F2</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS_IN|HOLES_SIMPLE</Legacy>
+				<Current>8B942C42-1382-4AE4-BEA9-43B7B59ED6C0</Current>
+			</Row>
+			<Row>
+				<Legacy>JIS|HOLES_SIMPLE</Legacy>
+				<Current>7C3E47F3-78EA-43CC-9EE4-5B76AC0D904A</Current>
+			</Row>
+			<Row>
+				<Legacy>HOLES_BLIND</Legacy>
+				<Current>85E7AA26-504B-428E-B4EC-1237864445F2</Current>
+			</Row>
+			<Row>
+				<Legacy>DIN|HOLES_BLIND</Legacy>
+				<Current>95C53894-2113-4869-B367-62F28A1092A8</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS|HOLES_BLIND</Legacy>
+				<Current>9B79833C-1BD5-4E23-8A71-A237199511F2</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS_IN|HOLES_BLIND</Legacy>
+				<Current>8B942C42-1382-4AE4-BEA9-43B7B59ED6C0</Current>
+			</Row>
+			<Row>
+				<Legacy>JIS|HOLES_BLIND</Legacy>
+				<Current>7C3E47F3-78EA-43CC-9EE4-5B76AC0D904A</Current>
+			</Row>
+			<Row>
+				<Legacy>HOLES_BORE</Legacy>
+				<Current>5A47765A-485B-44B1-84EB-0075FBB28766</Current>
+			</Row>
+			<Row>
+				<Legacy>DIN|HOLES_BORE</Legacy>
+				<Current>DB8A03C1-3DFF-4529-A30D-09988A320CF5</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS|HOLES_BORE</Legacy>
+				<Current>0E52D88C-5D43-41F2-A670-8494B5539993</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS_IN|HOLES_BORE</Legacy>
+				<Current>AA96472B-992E-48F0-B3E5-F56EAD118F8A</Current>
+			</Row>
+			<Row>
+				<Legacy>JIS|HOLES_BORE</Legacy>
+				<Current>FA2E89B3-DB99-4EF0-8C0B-EAAC0AD3D89B</Current>
+			</Row>
+			<Row>
+				<Legacy>HOLES_SINK</Legacy>
+				<Current>E900182E-025B-40DD-9674-E1F0D0B77E66</Current>
+			</Row>
+			<Row>
+				<Legacy>DIN|HOLES_SINK</Legacy>
+				<Current>F3134615-321A-4857-A11A-53372F95F245</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS|HOLES_SINK</Legacy>
+				<Current>EFD1F00E-17BF-4E96-B1A3-D47D3FAA2031</Current>
+			</Row>
+			<Row>
+				<Legacy>ANS_IN|HOLES_SINK</Legacy>
+				<Current>5A99797E-0DBC-49A8-AD6B-D45D3DDA0F78</Current>
+			</Row>
+			<Row>
+				<Legacy>JIS|HOLES_SINK</Legacy>
+				<Current>DE4AC060-1464-4489-9AFE-20F3BE747C9A</Current>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

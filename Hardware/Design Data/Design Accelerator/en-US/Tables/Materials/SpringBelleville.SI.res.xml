@@ -1,0 +1,38 @@
+<Resources>
+	<string id="%1%" value="Spring Material"/>
+	<string id="%2%" value="Material Designation"/>
+	<string id="%3%" value="Modulus of Elasticity"/>
+	<string id="%4%" value="MPa"/>
+	<string id="%5%" value="Poisson's Ratio"/>
+	<string id="%6%" value="AISI 1074 High Carbon Steel (ASTM A684, AMS 5120H)"/>
+	<string id="%7%" value="AISI 301 Stainless Steel (ASTM A666, AMS 5519)"/>
+	<string id="%8%" value="Inconel X-750 (hardenable nickel chrome alloy)"/>
+	<string id="%9%" value="Phosphor Bronze"/>
+	<string id="%10%" value="E"/>
+	<string id="%11%" value="||m|"/>
+	<string id="%12%" value="ul"/>
+	<string id="%13%" value="Steel 65 GOST 14959-79"/>
+	<string id="%14%" value="Steel 70 GOST 14959-79"/>
+	<string id="%15%" value="Steel 75 GOST 14959-79"/>
+	<string id="%16%" value="Steel 80 GOST 14959-79"/>
+	<string id="%17%" value="Steel 85 GOST 14959-79"/>
+	<string id="%18%" value="Steel 60G GOST 14959-79"/>
+	<string id="%19%" value="Steel 65G GOST 14959-79"/>
+	<string id="%20%" value="Steel 70G GOST 14959-79"/>
+	<string id="%21%" value="Steel 55S2 GOST 14959-79"/>
+	<string id="%22%" value="Steel 55S2A GOST 14959-79"/>
+	<string id="%23%" value="Steel 60S2 GOST 14959-79"/>
+	<string id="%24%" value="Steel 70S3A GOST 14959-79"/>
+	<string id="%25%" value="Steel 60S2G GOST 14959-79"/>
+	<string id="%26%" value="Steel 50ChG GOST 14959-79"/>
+	<string id="%27%" value="Steel 50ChGA GOST 14959-79"/>
+	<string id="%28%" value="Steel 55ChGR GOST 14959-79"/>
+	<string id="%29%" value="Steel 60S2A GOST 14959-79"/>
+	<string id="%30%" value="Steel 50ChFA GOST 14959-79"/>
+	<string id="%31%" value="Steel 50ChGFA GOST 14959-79"/>
+	<string id="%32%" value="Steel 55S2GF GOST 14959-79"/>
+	<string id="%33%" value="Steel 60S2ChA GOST 14959-79"/>
+	<string id="%34%" value="Steel 60S2ChFA GOST 14959-79"/>
+	<string id="%35%" value="Steel 65S2VA GOST 14959-79"/>
+	<string id="%36%" value="Steel 60S2N2A GOST 14959-79"/>
+</Resources>

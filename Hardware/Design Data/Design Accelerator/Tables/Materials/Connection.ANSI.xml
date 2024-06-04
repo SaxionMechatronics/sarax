@@ -1,0 +1,62 @@
+<FDesign>
+  <Table InternalName="7E6FE4DA-D1CA-45cd-A821-04E0FDC57BD7">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%12%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <Bhn DisplayName="%13%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1"/>
+        <HV DisplayName="%14%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1"/>
+        <SigmaD DisplayName="%15%" Description="%6%" Units="%7%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1"/>
+        <TauD DisplayName="%16%" Description="%8%" Units="%7%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1"/>
+        <SigmaT DisplayName="%18%" Description="%17%" Units="%7%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>66E50603875A4AE3B398723675A446C4</ID>
+        <Material>%9%</Material>
+        <Bhn>160-200</Bhn>
+        <HV>-----</HV>
+        <SigmaD>1500</SigmaD>
+        <TauD>20000</TauD>
+        <SigmaT>22000</SigmaT>
+      </Row>
+      <Row>
+        <ID>A896F2083A8F4A8F86CD831D3C7138FD</ID>
+        <Material>%9%</Material>
+        <Bhn>230-260</Bhn>
+        <HV>-----</HV>
+        <SigmaD>2000</SigmaD>
+        <TauD>30000</TauD>
+        <SigmaT>32000</SigmaT>
+      </Row>
+      <Row>
+        <ID>0272F2C9366B48BFBC65AE9282D50453</ID>
+        <Material>%9%</Material>
+        <Bhn>302-351</Bhn>
+        <HV>33-38</HV>
+        <SigmaD>3000</SigmaD>
+        <TauD>40000</TauD>
+        <SigmaT>45000</SigmaT>
+      </Row>
+      <Row>
+        <ID>40808D0A56D04D44A53873631AC98F0E</ID>
+        <Material>%10%</Material>
+        <Bhn>-----</Bhn>
+        <HV>48-53</HV>
+        <SigmaD>4000</SigmaD>
+        <TauD>40000</TauD>
+        <SigmaT>45000</SigmaT>
+      </Row>
+      <Row>
+        <ID>EFBBAADD35EA44028469B46B78E833E8</ID>
+        <Material>%11%</Material>
+        <Bhn>-----</Bhn>
+        <HV>58-63</HV>
+        <SigmaD>5000</SigmaD>
+        <TauD>50000</TauD>
+        <SigmaT>55000</SigmaT>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

@@ -1,0 +1,27 @@
+<Resources>
+  <string id="%1%" value="ANSI B92.1 - 30 deg, Flat root, Side fit"/>
+  <string id="%2%" value="ANSI B92.1 - 30 deg, Flat root, Major diam. fit"/>
+  <string id="%3%" value="ANSI B92.1 - 30 deg, Fillet root, Side fit"/>
+  <string id="%4%" value="ANSI B92.1 - 37.5 deg, Fillet root, Side fit"/>
+  <string id="%5%" value="ANSI B92.1 - 45 deg, Fillet root, Side fit"/>
+  <string id="%10%" value="ANSI B92.2M - 30 deg, Flat root, Side fit"/>
+  <string id="%11%" value="ANSI B92.2M - 30 deg, Fillet root, Side fit"/>
+  <string id="%12%" value="ANSI B92.2M - 37.5 deg, Fillet root, Side fit"/>
+  <string id="%13%" value="ANSI B92.2M - 45 deg, Fillet root, Side fit"/>
+  <string id="%6%" value="ISO 4156 - 30 deg, Flat root, Side fit"/>
+  <string id="%7%" value="ISO 4156 - 30 deg, Fillet root, Side fit"/>
+  <string id="%8%" value="ISO 4156 - 37.5 deg, Fillet root, Side fit"/>
+  <string id="%9%" value="ISO 4156 - 45 deg, Fillet root, Side fit"/>
+  <string id="%14%" value="DIN 5480 - 30 deg Flat root, Side fit"/>
+  <string id="%21%" value="DIN 5480 - 30 deg, Flat root, Outside fit"/>
+  <string id="%22%" value="DIN 5480 - 30 deg, Flat root, Inside fit"/>     
+  <string id="%15%" value="DIN 5481 - 55 deg"/>
+  <string id="%16%" value="DIN 5481 - 60 deg"/>
+  <string id="%17%" value="DIN 5482 - 30 deg"/>
+  <string id="%18%" value="CSN 4950 - 30 deg, Flat root, Side fit"/>
+  <string id="%19%" value="CSN 4950 - 30 deg, Flat root, Major diam. fit"/>
+  <string id="%20%" value="CSN 4950 - 30 deg, Fillet root, Side fit"/>
+  <string id="%23%" value="GOST 6033-80 - 30 deg, Flat root, Side fit"/>
+  <string id="%24%" value="GOST 6033-80 - 30 deg, Flat root, Major diam. fit"/>
+  <string id="%25%" value="GOST 6033-80 - 30 deg, Fillet root, Side fit"/>  
+</Resources>

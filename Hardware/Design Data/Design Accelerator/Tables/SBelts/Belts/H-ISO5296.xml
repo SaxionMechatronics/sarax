@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.2" category="SBELTS" thumbnail="H-ISO5296.jpg" name="%1%" desc="%2%" profile="single" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="in">0.5</Pitch>
+    <S src="fixed" dt="number" units="in">0.241</S>
+    <ht src="fixed" dt="number" units="in">0.09</ht>
+    <PitchOfst src="fixed" dt="number" units="in">0.027</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">20.0</beta>
+    <Height src="fixed" dt="number" units="in" >0.17</Height>
+    <ra src="fixed" dt="number" units="in" >0.04</ra>
+    <rr src="fixed" dt="number" units="in" >0.04</rr>
+    <Width0 src="fixed" dt="number" units="in">3.0</Width0>
+    <Width src="table" dt="number" units="in" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">80.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">40.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.351</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">2.546</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">2100.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="H:075:240" >
+      <Size>240H075</Size>
+      <Width>0.75</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="H:075:270" >
+      <Size>270H075</Size>
+      <Width>0.75</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="H:075:300" >
+      <Size>300H075</Size>
+      <Width>0.75</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="H:075:330" >
+      <Size>330H075</Size>
+      <Width>0.75</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="H:075:360" >
+      <Size>360H075</Size>
+      <Width>0.75</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="H:075:390" >
+      <Size>390H075</Size>
+      <Width>0.75</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="H:075:420" >
+      <Size>420H075</Size>
+      <Width>0.75</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="H:075:459" >
+      <Size>450H075</Size>
+      <Width>0.75</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="H:075:480" >
+      <Size>480H075</Size>
+      <Width>0.75</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="H:075:510" >
+      <Size>510H075</Size>
+      <Width>0.75</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="H:075:540" >
+      <Size>540H075</Size>
+      <Width>0.75</Width>
+      <Teeth>108</Teeth>
+    </Member>
+    <Member moniker="H:075:570" >
+      <Size>570H075</Size>
+      <Width>0.75</Width>
+      <Teeth>114</Teeth>
+    </Member>
+    <Member moniker="H:075:600" >
+      <Size>600H075</Size>
+      <Width>0.75</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="H:075:630" >
+      <Size>630H075</Size>
+      <Width>0.75</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="H:075:660" >
+      <Size>660H075</Size>
+      <Width>0.75</Width>
+      <Teeth>132</Teeth>
+    </Member>
+    <Member moniker="H:075:700" >
+      <Size>700H075</Size>
+      <Width>0.75</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="H:075:750" >
+      <Size>750H075</Size>
+      <Width>0.75</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="H:075:800" >
+      <Size>800H075</Size>
+      <Width>0.75</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="H:075:850" >
+      <Size>850H075</Size>
+      <Width>0.75</Width>
+      <Teeth>170</Teeth>
+    </Member>
+    <Member moniker="H:075:900" >
+      <Size>900H075</Size>
+      <Width>0.75</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="H:075:1000" >
+      <Size>1000H075</Size>
+      <Width>0.75</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="H:075:1100" >
+      <Size>1100H075</Size>
+      <Width>0.75</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="H:075:1250" >
+      <Size>1250H075</Size>
+      <Width>0.75</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="H:075:1400" >
+      <Size>1400H075</Size>
+      <Width>0.75</Width>
+      <Teeth>280</Teeth>
+    </Member>
+    <Member moniker="H:075:1700" >
+      <Size>1700H075</Size>
+      <Width>0.75</Width>
+      <Teeth>340</Teeth>
+    </Member>
+    <Member moniker="H:100:240" >
+      <Size>240H100</Size>
+      <Width>1.0</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="H:100:270" >
+      <Size>270H100</Size>
+      <Width>1.0</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="H:100:300" >
+      <Size>300H100</Size>
+      <Width>1.0</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="H:100:330" >
+      <Size>330H100</Size>
+      <Width>1.0</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="H:100:360" >
+      <Size>360H100</Size>
+      <Width>1.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="H:100:390" >
+      <Size>390H100</Size>
+      <Width>1.0</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="H:100:420" >
+      <Size>420H100</Size>
+      <Width>1.0</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="H:100:459" >
+      <Size>450H100</Size>
+      <Width>1.0</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="H:100:480" >
+      <Size>480H100</Size>
+      <Width>1.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="H:100:510" >
+      <Size>510H100</Size>
+      <Width>1.0</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="H:100:540" >
+      <Size>540H100</Size>
+      <Width>1.0</Width>
+      <Teeth>108</Teeth>
+    </Member>
+    <Member moniker="H:100:570" >
+      <Size>570H100</Size>
+      <Width>1.0</Width>
+      <Teeth>114</Teeth>
+    </Member>
+    <Member moniker="H:100:600" >
+      <Size>600H100</Size>
+      <Width>1.0</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="H:100:630" >
+      <Size>630H100</Size>
+      <Width>1.0</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="H:100:660" >
+      <Size>660H100</Size>
+      <Width>1.0</Width>
+      <Teeth>132</Teeth>
+    </Member>
+    <Member moniker="H:100:700" >
+      <Size>700H100</Size>
+      <Width>1.0</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="H:100:750" >
+      <Size>750H100</Size>
+      <Width>1.0</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="H:100:800" >
+      <Size>800H100</Size>
+      <Width>1.0</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="H:100:850" >
+      <Size>850H100</Size>
+      <Width>1.0</Width>
+      <Teeth>170</Teeth>
+    </Member>
+    <Member moniker="H:100:900" >
+      <Size>900H100</Size>
+      <Width>1.0</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="H:100:1000" >
+      <Size>1000H100</Size>
+      <Width>1.0</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="H:100:1100" >
+      <Size>1100H100</Size>
+      <Width>1.0</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="H:100:1250" >
+      <Size>1250H100</Size>
+      <Width>1.0</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="H:100:1400" >
+      <Size>1400H100</Size>
+      <Width>1.0</Width>
+      <Teeth>280</Teeth>
+    </Member>
+    <Member moniker="H:100:1700" >
+      <Size>1700H100</Size>
+      <Width>1.0</Width>
+      <Teeth>340</Teeth>
+    </Member>
+    <Member moniker="H:150:240" >
+      <Size>240H150</Size>
+      <Width>1.5</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="H:150:270" >
+      <Size>270H150</Size>
+      <Width>1.5</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="H:150:300" >
+      <Size>300H150</Size>
+      <Width>1.5</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="H:150:330" >
+      <Size>330H150</Size>
+      <Width>1.5</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="H:150:360" >
+      <Size>360H150</Size>
+      <Width>1.5</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="H:150:390" >
+      <Size>390H150</Size>
+      <Width>1.5</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="H:150:420" >
+      <Size>420H150</Size>
+      <Width>1.5</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="H:150:459" >
+      <Size>450H150</Size>
+      <Width>1.5</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="H:150:480" >
+      <Size>480H150</Size>
+      <Width>1.5</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="H:150:510" >
+      <Size>510H150</Size>
+      <Width>1.5</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="H:150:540" >
+      <Size>540H150</Size>
+      <Width>1.5</Width>
+      <Teeth>108</Teeth>
+    </Member>
+    <Member moniker="H:150:570" >
+      <Size>570H150</Size>
+      <Width>1.5</Width>
+      <Teeth>114</Teeth>
+    </Member>
+    <Member moniker="H:150:600" >
+      <Size>600H150</Size>
+      <Width>1.5</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="H:150:630" >
+      <Size>630H150</Size>
+      <Width>1.5</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="H:150:660" >
+      <Size>660H150</Size>
+      <Width>1.5</Width>
+      <Teeth>132</Teeth>
+    </Member>
+    <Member moniker="H:150:700" >
+      <Size>700H150</Size>
+      <Width>1.5</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="H:150:750" >
+      <Size>750H150</Size>
+      <Width>1.5</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="H:150:800" >
+      <Size>800H150</Size>
+      <Width>1.5</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="H:150:850" >
+      <Size>850H150</Size>
+      <Width>1.5</Width>
+      <Teeth>170</Teeth>
+    </Member>
+    <Member moniker="H:150:900" >
+      <Size>900H150</Size>
+      <Width>1.5</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="H:150:1000" >
+      <Size>1000H150</Size>
+      <Width>1.5</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="H:150:1100" >
+      <Size>1100H150</Size>
+      <Width>1.5</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="H:150:1250" >
+      <Size>1250H150</Size>
+      <Width>1.5</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="H:150:1400" >
+      <Size>1400H150</Size>
+      <Width>1.5</Width>
+      <Teeth>280</Teeth>
+    </Member>
+    <Member moniker="H:150:1700" >
+      <Size>1700H150</Size>
+      <Width>1.5</Width>
+      <Teeth>340</Teeth>
+    </Member>
+    <Member moniker="H:200:240" >
+      <Size>240H200</Size>
+      <Width>2.0</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="H:200:270" >
+      <Size>270H200</Size>
+      <Width>2.0</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="H:200:300" >
+      <Size>300H200</Size>
+      <Width>2.0</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="H:200:330" >
+      <Size>330H200</Size>
+      <Width>2.0</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="H:200:360" >
+      <Size>360H200</Size>
+      <Width>2.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="H:200:390" >
+      <Size>390H200</Size>
+      <Width>2.0</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="H:200:420" >
+      <Size>420H200</Size>
+      <Width>2.0</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="H:200:459" >
+      <Size>450H200</Size>
+      <Width>2.0</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="H:200:480" >
+      <Size>480H200</Size>
+      <Width>2.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="H:200:510" >
+      <Size>510H200</Size>
+      <Width>2.0</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="H:200:540" >
+      <Size>540H200</Size>
+      <Width>2.0</Width>
+      <Teeth>108</Teeth>
+    </Member>
+    <Member moniker="H:200:570" >
+      <Size>570H200</Size>
+      <Width>2.0</Width>
+      <Teeth>114</Teeth>
+    </Member>
+    <Member moniker="H:200:600" >
+      <Size>600H200</Size>
+      <Width>2.0</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="H:200:630" >
+      <Size>630H200</Size>
+      <Width>2.0</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="H:200:660" >
+      <Size>660H200</Size>
+      <Width>2.0</Width>
+      <Teeth>132</Teeth>
+    </Member>
+    <Member moniker="H:200:700" >
+      <Size>700H200</Size>
+      <Width>2.0</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="H:200:750" >
+      <Size>750H200</Size>
+      <Width>2.0</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="H:200:800" >
+      <Size>800H200</Size>
+      <Width>2.0</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="H:200:850" >
+      <Size>850H200</Size>
+      <Width>2.0</Width>
+      <Teeth>170</Teeth>
+    </Member>
+    <Member moniker="H:200:900" >
+      <Size>900H200</Size>
+      <Width>2.0</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="H:200:1000" >
+      <Size>1000H200</Size>
+      <Width>2.0</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="H:200:1100" >
+      <Size>1100H200</Size>
+      <Width>2.0</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="H:200:1250" >
+      <Size>1250H200</Size>
+      <Width>2.0</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="H:200:1400" >
+      <Size>1400H200</Size>
+      <Width>2.0</Width>
+      <Teeth>280</Teeth>
+    </Member>
+    <Member moniker="H:200:1700" >
+      <Size>1700H200</Size>
+      <Width>2.0</Width>
+      <Teeth>340</Teeth>
+    </Member>
+    <Member moniker="H:300:240" >
+      <Size>240H300</Size>
+      <Width>3.0</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="H:300:270" >
+      <Size>270H300</Size>
+      <Width>3.0</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="H:300:300" >
+      <Size>300H300</Size>
+      <Width>3.0</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="H:300:330" >
+      <Size>330H300</Size>
+      <Width>3.0</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="H:300:360" >
+      <Size>360H300</Size>
+      <Width>3.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="H:300:390" >
+      <Size>390H300</Size>
+      <Width>3.0</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="H:300:420" >
+      <Size>420H300</Size>
+      <Width>3.0</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="H:300:459" >
+      <Size>450H300</Size>
+      <Width>3.0</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="H:300:480" >
+      <Size>480H300</Size>
+      <Width>3.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="H:300:510" >
+      <Size>510H300</Size>
+      <Width>3.0</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="H:300:540" >
+      <Size>540H300</Size>
+      <Width>3.0</Width>
+      <Teeth>108</Teeth>
+    </Member>
+    <Member moniker="H:300:570" >
+      <Size>570H300</Size>
+      <Width>3.0</Width>
+      <Teeth>114</Teeth>
+    </Member>
+    <Member moniker="H:300:600" >
+      <Size>600H300</Size>
+      <Width>3.0</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="H:300:630" >
+      <Size>630H300</Size>
+      <Width>3.0</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="H:300:660" >
+      <Size>660H300</Size>
+      <Width>3.0</Width>
+      <Teeth>132</Teeth>
+    </Member>
+    <Member moniker="H:300:700" >
+      <Size>700H300</Size>
+      <Width>3.0</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="H:300:750" >
+      <Size>750H300</Size>
+      <Width>3.0</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="H:300:800" >
+      <Size>800H300</Size>
+      <Width>3.0</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="H:300:850" >
+      <Size>850H300</Size>
+      <Width>3.0</Width>
+      <Teeth>170</Teeth>
+    </Member>
+    <Member moniker="H:300:900" >
+      <Size>900H300</Size>
+      <Width>3.0</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="H:300:1000" >
+      <Size>1000H300</Size>
+      <Width>3.0</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="H:300:1100" >
+      <Size>1100H300</Size>
+      <Width>3.0</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="H:300:1250" >
+      <Size>1250H300</Size>
+      <Width>3.0</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="H:300:1400" >
+      <Size>1400H300</Size>
+      <Width>3.0</Width>
+      <Teeth>280</Teeth>
+    </Member>
+    <Member moniker="H:300:1700" >
+      <Size>1700H300</Size>
+      <Width>3.0</Width>
+      <Teeth>340</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

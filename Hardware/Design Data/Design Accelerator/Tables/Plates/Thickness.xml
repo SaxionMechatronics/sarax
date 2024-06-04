@@ -1,0 +1,112 @@
+<FDesign>
+  <Table InternalName="4325CDEA-0DAF-4523-BC8D-4B9BD95ADD8D">
+    <Definition DisplayName="Thickness(Metric)">
+      <Columns>
+        <t Description="Thickness" Units="mm" />
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <t>2</t>
+      </Row>
+      <Row>
+        <t>2.5</t>
+      </Row>
+      <Row>
+        <t>3</t>
+      </Row>
+      <Row>
+        <t>3.5</t>
+      </Row>
+      <Row>
+        <t>4</t>
+      </Row>
+      <Row>
+        <t>4.5</t>
+      </Row>
+      <Row>
+        <t>5</t>
+      </Row>
+      <Row>
+        <t>5.5</t>
+      </Row>
+      <Row>
+        <t>6</t>
+      </Row>
+      <Row>
+        <t>6.5</t>
+      </Row>
+      <Row>
+        <t>7</t>
+      </Row>
+      <Row>
+        <t>7.5</t>
+      </Row>
+      <Row>
+        <t>8</t>
+      </Row>
+      <Row>
+        <t>8.5</t>
+      </Row>
+      <Row>
+        <t>9</t>
+      </Row>
+      <Row>
+        <t>10</t>
+      </Row>
+      <Row>
+        <t>11</t>
+      </Row>
+      <Row>
+        <t>12</t>
+      </Row>
+      <Row>
+        <t>14</t>
+      </Row>
+      <Row>
+        <t>16</t>
+      </Row>
+      <Row>
+        <t>18</t>
+      </Row>
+      <Row>
+        <t>20</t>
+      </Row>
+    </Data>
+  </Table>
+  <Table InternalName="44762956-AE1D-4f9e-A968-A5B114E920FE">
+    <Definition DisplayName="Thickness(Imperial)">
+      <Columns>
+        <t Description="Thickness" Units="in"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <t>0.1</t>
+      </Row>
+      <Row>
+        <t>0.125</t>
+      </Row>
+      <Row>
+        <t>0.25</t>
+      </Row>
+      <Row>
+        <t>0.375</t>
+      </Row>
+      <Row>
+        <t>0.5</t>
+      </Row>
+      <Row>
+        <t>0.625</t>
+      </Row>
+      <Row>
+        <t>0.75</t>
+      </Row>
+      <Row>
+        <t>1</t>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>
+
+	

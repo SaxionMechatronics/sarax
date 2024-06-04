@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="metric" thumbnail="StdGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="mm" >11.0</NomWidth>
+    <Diameter src="table" dt="number" units="mm" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="mm">13.8</Depth>
+    <DistSe src="fixed" dt="number" units="mm">10.0</DistSe>
+    <DistSg src="fixed" dt="number" units="mm">15.0</DistSg>
+    <Height src="fixed" dt="number" units="mm">2.8</Height>
+    <Rin src="fixed" dt="number" units="mm">0.0</Rin>
+    <Rex src="fixed" dt="number" units="mm">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="SPA:71" >
+      <Size>SPA - 71</Size>
+      <Diameter>71.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:80" >
+      <Size>SPA - 80</Size>
+      <Diameter>80.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:90" >
+      <Size>SPA - 90</Size>
+      <Diameter>90.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:100" >
+      <Size>SPA - 100</Size>
+      <Diameter>100.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:112" >
+      <Size>SPA - 112</Size>
+      <Diameter>112.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:118" >
+      <Size>SPA - 118</Size>
+      <Diameter>118.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:125" >
+      <Size>SPA - 125</Size>
+      <Diameter>125.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:132" >
+      <Size>SPA - 132</Size>
+      <Diameter>132.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:140" >
+      <Size>SPA - 140</Size>
+      <Diameter>140.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:150" >
+      <Size>SPA - 150</Size>
+      <Diameter>150.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:160" >
+      <Size>SPA - 160</Size>
+      <Diameter>160.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:180" >
+      <Size>SPA - 180</Size>
+      <Diameter>180.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:190" >
+      <Size>SPA - 190</Size>
+      <Diameter>190.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:200" >
+      <Size>SPA - 200</Size>
+      <Diameter>200.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:224" >
+      <Size>SPA - 224</Size>
+      <Diameter>224.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:236" >
+      <Size>SPA - 236</Size>
+      <Diameter>236.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:250" >
+      <Size>SPA - 250</Size>
+      <Diameter>250.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:280" >
+      <Size>SPA - 280</Size>
+      <Diameter>280.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:300" >
+      <Size>SPA - 300</Size>
+      <Diameter>300.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:315" >
+      <Size>SPA - 315</Size>
+      <Diameter>315.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:355" >
+      <Size>SPA - 355</Size>
+      <Diameter>355.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:400" >
+      <Size>SPA - 400</Size>
+      <Diameter>400.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:450" >
+      <Size>SPA - 450</Size>
+      <Diameter>450.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:500" >
+      <Size>SPA - 500</Size>
+      <Diameter>500.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:560" >
+      <Size>SPA - 560</Size>
+      <Diameter>560.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="SPA:630" >
+      <Size>SPA - 630</Size>
+      <Diameter>630.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

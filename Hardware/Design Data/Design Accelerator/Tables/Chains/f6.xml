@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="F54895FB-5986-4933-98B9-1D6FC9E11F2E">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<A DisplayName="%2%" IsVisible="1" IsNumeric="1" Selectable="0" Units="ul" />
+				<B DisplayName="%3%" IsVisible="1" IsNumeric="1" Selectable="1" Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>1.0</A><B>1.2</B></Row>
+			<Row><A>2.0</A><B>1.1</B></Row>
+			<Row><A>3.0</A><B>1.0</B></Row>
+			<Row><A>4.0</A><B>0.94</B></Row>
+			<Row><A>5.0</A><B>0.91</B></Row>
+			<Row><A>6.0</A><B>0.89</B></Row>
+			<Row><A>7.0</A><B>0.87</B></Row>
+		</Data>
+	</Table>
+</FDesign>

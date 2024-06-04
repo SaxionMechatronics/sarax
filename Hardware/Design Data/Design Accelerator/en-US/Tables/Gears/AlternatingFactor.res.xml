@@ -1,0 +1,6 @@
+<Resources>
+  <string id="%1%" value="Alternating Factor"/>
+  <string id="%2%" value="Repeated Load"/>
+  <string id="%3%" value="Alternating Load (e.g. idler)"/>
+  <string id="%4%" value="Reversible Operation"/>
+</Resources>

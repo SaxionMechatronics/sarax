@@ -1,0 +1,46 @@
+<FDesign>
+	<Table InternalName="71F07EB8-9B95-4577-BC9F-9A0D5764A1CC">
+		<Definition DisplayName="Addendum">
+			<Columns>
+				<A Description="Addendum" Units="ul" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>0.8</A></Row>
+			<Row><A>1</A></Row>
+			<Row><A>1.2</A></Row>
+		</Data>
+	</Table>
+	<Table InternalName="9E52686B-98D6-4CB7-B57F-BE05FEC4405E">
+		<Definition DisplayName="Clearance">
+			<Columns>
+				<A Description="Clearance" Units="ul" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>0.157</A></Row>
+			<Row><A>0.2</A></Row>
+			<Row><A>0.25</A></Row>
+			<Row><A>0.3</A></Row>
+			<Row><A>0.35</A></Row>
+			<Row><A>0.4</A></Row>
+		</Data>
+	</Table>
+	<Table InternalName="5324AFE4-9A72-42EC-B1FB-775840FAE8C2">
+		<Definition DisplayName="Root Fillet">
+			<Columns>
+				<A Description="Root Fillet" Units="ul" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>0.2</A></Row>
+			<Row><A>0.25</A></Row>
+			<Row><A>0.3</A></Row>
+			<Row><A>0.35</A></Row>
+			<Row><A>0.375</A></Row>
+			<Row><A>0.4</A></Row>
+			<Row><A>0.45</A></Row>
+			<Row><A>0.5</A></Row>
+		</Data>
+	</Table>
+</FDesign>
