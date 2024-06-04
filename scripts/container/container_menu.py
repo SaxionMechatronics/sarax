@@ -1,6 +1,7 @@
 import os
+from subprocess import run
 
-def system_init() -> str:
+def system_init() -> tuple:
     done = False
     os_sys = "Linux"
 
@@ -14,16 +15,13 @@ def system_init() -> str:
 
         if choice == 1:
             done = True
-            print(f"Initialised for {os_sys} host system")
         elif choice == 2:
             os_sys = "WSL2"
-            os.system("cd ~ && sed -i 's/^# export LD_LIBRARY_PATH=\/usr\/lib\/wsl\/lib$/export LD_LIBRARY_PATH=\/usr\/lib\/wsl\/lib/' .bashrc")
-            os.system("cd ~ && sed -i 's/^# export LIBVA_DRIVER_NAME=d3d12$/export LIBVA_DRIVER_NAME=d3d12/' .bashrc")
-            print(f"Initialised for {os_sys} host system")
             done = True
         else:
             print("Invalid input")
 
+    print(f"Initialised for {os_sys} host system")
     return os_sys
 
 def menu(os_sys) -> int:

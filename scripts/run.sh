@@ -20,6 +20,7 @@ sudo chmod +x install_docker.sh
 sudo chmod +x install_sarax_linux.sh
 sudo chmod +x install_sarax_wsl2.sh
 sudo chmod +x container/docker_entrypoint.sh
+sudo chmod +x container/check_and_source.sh
 
 # Run the menu application
 python3 menu.py
