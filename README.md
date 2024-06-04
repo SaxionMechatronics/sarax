@@ -1,4 +1,4 @@
-![Build Workflow](https://github.com/Arief-AK/sarax/actions/workflows/build.yaml/badge.svg) ![PX4 Build Workflow](https://github.com/Arief-AK/sarax/actions/workflows/sitl_build.yaml/badge.svg) ![GHCR Package Publishing](https://github.com/Arief-AK/sarax/actions/workflows/publish_docker_package.yaml/badge.svg)
+![Build Workflow](https://github.com/SaxionMechatronics/sarax/actions/workflows/build.yaml/badge.svg) ![PX4 Build Workflow](https://github.com/SaxionMechatronics/sarax/actions/workflows/sitl_build.yaml/badge.svg) ![GHCR Package Publishing](https://github.com/SaxionMechatronics/sarax/actions/workflows/publish_docker_package.yaml/badge.svg)
 
 # Sarax: An Open-Source Software/Hardware Framework for Aerial Manipulators
 
@@ -70,7 +70,7 @@ roslaunch m4e_mani_base sarax_plus_sitl.launch
 
 >[!TIP]
 >## Docker container
->This repository produces a Docker container in the form of a GitHub [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
+>This repository produces a Docker container in the form of a GitHub [package](https://github.com/SaxionMechatronics/sarax/pkgs/container/sarax-framework) or as a source with the [Dockerfile](Dockerfile). Read the [Sarax with Docker](Docs/Sarax%20with%20Docker.md) document for more information.
 
 ## License
 

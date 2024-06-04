@@ -54,7 +54,7 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
 >The output should be similar to this
 >```shell
 >REPOSITORY                         TAG       IMAGE ID       CREATED       SIZE
->ghcr.io/arief-ak/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
+>ghcr.io/SaxionMechatronics/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
 >```
 >
 >2. Run the container from image `cb4` and name it `sarax_container`

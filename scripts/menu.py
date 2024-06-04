@@ -3,8 +3,8 @@ import sys
 from subprocess import run, Popen
 
 TERMINAL = 'gnome-terminal'
-DOCKER_INSTRUCTIONS_URL = "https://github.com/Arief-AK/sarax/blob/main/Docs/Sarax%20with%20Docker.md"
-DOCKER_CONTAINER_REPO = "ghcr.io/arief-ak/sarax-framework"
+DOCKER_INSTRUCTIONS_URL = "https://github.com/SaxionMechatronics/sarax/blob/main/Docs/Sarax%20with%20Docker.md"
+DOCKER_CONTAINER_REPO = "ghcr.io/SaxionMechatronics/sarax-framework"
 DOCKER_COTAINER_TAG = "latest"
 DOCKER_CONTAINER_NAME = "sarax_container"
 
@@ -119,7 +119,7 @@ def install_docker(system:str):
             print("\nIt is advised to follow the instructions from the official Docker documentation")
             print("Official Docker Documentation: https://docs.docker.com/desktop/install/windows-install/")
             print("\nPlease install Docker Desktop and enable WSL2 backend to continue with WSL2.")
-            print("Refer to the this document: https://github.com/Arief-AK/sarax/blob/main/Docs/Docker%20prerequisites.md")
+            print("Refer to the this document: https://github.com/SaxionMechatronics/sarax/blob/main/Docs/Docker%20prerequisites.md")
             done = True
 
 def install_sarax(system:str):

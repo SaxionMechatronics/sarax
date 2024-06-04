@@ -22,9 +22,9 @@ With the application, users are provided with the following options.
 ### Option 2: Manual Installation
 
 #### Pulling the container from GHCR
-This repository creates and publishes a Docker container onto the GitHub Container Registry as a [package](https://github.com/Arief-AK/sarax/pkgs/container/sarax-framework). The container can be pulled with the command below.
+This repository creates and publishes a Docker container onto the GitHub Container Registry as a [package](https://github.com/SaxionMechatronics/sarax/pkgs/container/sarax-framework). The container can be pulled with the command below.
 ```shell
-docker pull ghcr.io/arief-ak/sarax-framework:latest
+docker pull ghcr.io/SaxionMechatronics/sarax-framework:latest
 ```
 
 #### Running the container
@@ -43,7 +43,7 @@ docker image ls
 The output should be similar to this
 ```shell
 REPOSITORY                         TAG       IMAGE ID       CREATED       SIZE
-ghcr.io/arief-ak/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
+ghcr.io/SaxionMechatronics/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
 ```
 
 3. Create the container with the name `sarax_container` and run it with the necessary privileges for running GUI applications.
@@ -74,7 +74,7 @@ docker run --name sarax_container --runtime nvidia --gpus all -e NVIDIA_DRIVER_C
 >The output should be similar to this
 >```shell
 >REPOSITORY                         TAG       IMAGE ID       CREATED       SIZE
->ghcr.io/arief-ak/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
+>ghcr.io/SaxionMechatronics/sarax-framework   latest    cb4ae397281c   4 days ago    7.41GB
 >```
 >
 >2. Run the container from image `cb4` and name it `sarax_container`
