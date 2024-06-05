@@ -38,7 +38,7 @@ jobs:
 
       - name: Login to GH container registry
         run: |
-          docker login --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }} ghcr.io
+          docker login --username saxionmechatronics --password ${{ secrets.GITHUB_TOKEN }} ghcr.io
 
       - name: Cleanup system
         run: |
