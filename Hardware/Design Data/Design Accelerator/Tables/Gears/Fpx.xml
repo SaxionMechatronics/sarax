@@ -1,0 +1,48 @@
+<FDesign>
+	<Table InternalName="2D6BFDA2-13B3-419C-9D9D-621EDF2B744B">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpx">
+			<Columns>
+				<A Description="Accuracy Degree" Units="ul" /><B Description="Factor" Units="microm" /><C Description="Factor" Units="microm" /><D Description="Factor" Units="microm" /><E Description="Factor" Units="microm" /><F Description="Factor" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F>
+			</Row>
+			<Row>
+				<A>2</A><B>1.2</B><C>1.4</C><D>2</D><E>0</E><F>0</F>
+			</Row>
+			<Row>
+				<A>3</A><B>1.9</B><C>2.4</C><D>3</D><E>0</E><F>0</F>
+			</Row>
+			<Row>
+				<A>4</A><B>3</B><C>3.6</C><D>4.8</D><E>0</E><F>0</F>
+			</Row>
+			<Row>
+				<A>5</A><B>4.8</B><C>6.3</C><D>7.5</D><E>10</E><F>0</F>
+			</Row>
+			<Row>
+				<A>6</A><B>7.5</B><C>9</C><D>12</D><E>16</E><F>0</F>
+			</Row>
+			<Row>
+				<A>7</A><B>12</B><C>15</C><D>19</D><E>25</E><F>34</F>
+			</Row>
+			<Row>
+				<A>8</A><B>19</B><C>24</C><D>30</D><E>40</E><F>53</F>
+			</Row>
+			<Row>
+				<A>9</A><B>30</B><C>36</C><D>48</D><E>63</E><F>85</F>
+			</Row>
+			<Row>
+				<A>10</A><B>45</B><C>56</C><D>75</D><E>100</E><F>130</F>
+			</Row>
+			<Row>
+				<A>11</A><B>75</B><C>90</C><D>120</D><E>160</E><F>210</F>
+			</Row>
+			<Row>
+				<A>12</A><B>120</B><C>140</C><D>180</D><E>240</E><F>320</F>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

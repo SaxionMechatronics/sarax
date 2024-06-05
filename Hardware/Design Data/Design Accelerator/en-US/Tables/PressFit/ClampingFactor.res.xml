@@ -1,0 +1,14 @@
+<Resources>
+  <string id="%1%" value="Clamping Factor"/>
+  <string id="%2%" value="Pressure Connection"/>
+  <string id="%3%" value="Lubrication"/>
+  <string id="%4%" value="Clamping Factor for"/>
+  <string id="%5%" value="Releasing"/>
+  <string id="%6%" value="Sliding"/>
+  <string id="%7%" value="Circum-ferential"/>
+  <string id="%8%" value="Long-itudinal"/>
+  <string id="%9%" value="Contraction"/>
+  <string id="%10%" value="Lubricated"/>
+  <string id="%11%" value="Non-lubricated"/>
+  <string id="%12%" value="Pressing"/>
+</Resources>

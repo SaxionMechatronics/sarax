@@ -1,0 +1,5 @@
+<Resources>
+  <string id="%1%" value="Lead Correction Factor"/>
+  <string id="%2%" value="Gear with unmodified leads"/>
+  <string id="%3%" value="Gear with leads properly modified by crowning or lead correction"/>
+</Resources>

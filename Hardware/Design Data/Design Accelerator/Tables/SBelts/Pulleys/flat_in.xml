@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="FLATPULLEY" measuresystem="imperial" thumbnail="flatpulley.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <Diameter src="table" dt="number" units="in" />
+  </Parameters>
+  <Members>
+    <Member moniker="flat_in:2-0" >
+      <Size>D2</Size>
+      <Diameter>2</Diameter>
+    </Member>
+    <Member moniker="flat_in:2-2" >
+      <Size>D2.2</Size>
+      <Diameter>2.2</Diameter>
+    </Member>
+    <Member moniker="flat_in:2-35" >
+      <Size>D2.35</Size>
+      <Diameter>2.35</Diameter>
+    </Member>
+    <Member moniker="flat_in:2.5" >
+      <Size>D2.5</Size>
+      <Diameter>2.5</Diameter>
+    </Member>
+    <Member moniker="flat_in:2-65" >
+      <Size>D2.65</Size>
+      <Diameter>2.65</Diameter>
+    </Member>
+    <Member moniker="flat_in:2-8" >
+      <Size>D2.8</Size>
+      <Diameter>2.8</Diameter>
+    </Member>
+    <Member moniker="flat_in:3-0" >
+      <Size>D3</Size>
+      <Diameter>3.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:3-2" >
+      <Size>D3.2</Size>
+      <Diameter>3.2</Diameter>
+    </Member>
+    <Member moniker="flat_in:3-4" >
+      <Size>D3.4</Size>
+      <Diameter>3.4</Diameter>
+    </Member>
+    <Member moniker="flat_in:3-6" >
+      <Size>D3.6</Size>
+      <Diameter>3.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:3-8" >
+      <Size>D3.8</Size>
+      <Diameter>3.8</Diameter>
+    </Member>
+    <Member moniker="flat_in:4-0" >
+      <Size>D4</Size>
+      <Diameter>4.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:4-2" >
+      <Size>D4.2</Size>
+      <Diameter>4.2</Diameter>
+    </Member>
+    <Member moniker="flat_in:4-4" >
+      <Size>D4.4</Size>
+      <Diameter>4.4</Diameter>
+    </Member>
+    <Member moniker="flat_in:4-6" >
+      <Size>D4.6</Size>
+      <Diameter>4.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:4-8" >
+      <Size>D4.8</Size>
+      <Diameter>4.8</Diameter>
+    </Member>
+    <Member moniker="flat_in:5-0" >
+      <Size>D5</Size>
+      <Diameter>5.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:5-2" >
+      <Size>D5.2</Size>
+      <Diameter>5.2</Diameter>
+    </Member>
+    <Member moniker="flat_in:5-4" >
+      <Size>D5.4</Size>
+      <Diameter>5.4</Diameter>
+    </Member>
+    <Member moniker="flat_in:5-6" >
+      <Size>D5.6</Size>
+      <Diameter>5.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:5-8" >
+      <Size>D5.8</Size>
+      <Diameter>5.8</Diameter>
+    </Member>
+    <Member moniker="flat_in:6-0" >
+      <Size>D6</Size>
+      <Diameter>6.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:6-2" >
+      <Size>D6.2</Size>
+      <Diameter>6.2</Diameter>
+    </Member>
+    <Member moniker="flat_in:6-4" >
+      <Size>D6.4</Size>
+      <Diameter>6.4</Diameter>
+    </Member>
+    <Member moniker="flat_in:6-6" >
+      <Size>D6.6</Size>
+      <Diameter>6.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:7-0" >
+      <Size>D7</Size>
+      <Diameter>7.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:7-6" >
+      <Size>D7.6</Size>
+      <Diameter>7.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:8-2" >
+      <Size>D8.2</Size>
+      <Diameter>8.2</Diameter>
+    </Member>
+    <Member moniker="flat_in:9-0" >
+      <Size>D9</Size>
+      <Diameter>9.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:10-6" >
+      <Size>D10.6</Size>
+      <Diameter>10.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:12-0" >
+      <Size>D12</Size>
+      <Diameter>12.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:13-2" >
+      <Size>D13.2</Size>
+      <Diameter>13.2</Diameter>
+    </Member>
+    <Member moniker="flat_in:15-0" >
+      <Size>D15</Size>
+      <Diameter>15.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:15-6" >
+      <Size>D15.6</Size>
+      <Diameter>15.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:18-0" >
+      <Size>D18</Size>
+      <Diameter>18.0</Diameter>
+    </Member>
+    <Member moniker="flat_in:19-6" >
+      <Size>D19.6</Size>
+      <Diameter>19.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:24-6" >
+      <Size>D24.6</Size>
+      <Diameter>24.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:29-6" >
+      <Size>D29.6</Size>
+      <Diameter>29.6</Diameter>
+    </Member>
+    <Member moniker="flat_in:37-6" >
+      <Size>D37.6</Size>
+      <Diameter>37.6</Diameter>
+    </Member>
+  </Members>
+</CustomFamily>

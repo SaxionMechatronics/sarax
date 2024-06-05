@@ -1,0 +1,188 @@
+<FDesign>
+  <Table InternalName="34CDF231-679F-4234-8961-E1CFC0967008">
+    <Definition DisplayName="CSN 014960 Neckdown A,B">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <b1 Description="width" Units="mm"/>
+          <p Description="fillet/chamfer" Units="mm"/>
+          <hMin Description="min width os." Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<D>6</D>	<b>1.0</b>	<h>0.2</h>	<R>0.6</R>	<b1>0.8</b1>	<p>0.4</p>	<hMin>2</hMin>	</Row>
+        <Row>	<D>10</D>	<b>1.0</b>	<h>0.2</h>	<R>0.6</R>	<b1>0.8</b1>	<p>0.4</p>	<hMin>2</hMin>	</Row>
+        <Row>	<D>30</D>	<b>1.6</b>	<h>0.2</h>	<R>1.0</R>	<b1>1.4</b1>	<p>0.8</p>	<hMin>2.5</hMin>	</Row>
+        <Row>	<D>80</D>	<b>2.5</b>	<h>0.3</h>	<R>1.6</R>	<b1>2.2</b1>	<p>1.2</p>	<hMin>3</hMin>	</Row>
+        <Row>	<D>180</D>	<b>3.8</b>	<h>0.4</h>	<R>2.5</R>	<b1>3.4</b1>	<p>2.5</p>	<hMin>5</hMin>	</Row>
+        <Row>	<D>500</D>	<b>6.1</b>	<h>0.6</h>	<R>4.0</R>	<b1>5.5</b1>	<p>4</p>	<hMin>10</hMin>	</Row>
+        <Row>	<D>9999</D>	<b>6.1</b>	<h>0.6</h>	<R>4.0</R>	<b1>5.5</b1>	<p>4</p>	<hMin>10</hMin>	</Row>
+      </Data>
+   </Table>
+  <Table InternalName="641F3FFE-863C-43e0-9CAD-66B86C447DDD">
+    <Definition DisplayName="DIN 509 	Neckdown A,B">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <b1 Description="width" Units="mm"/>
+          <b2 Description="width" Units="mm"/>
+          <p Description="fillet/chamfer" Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<D>6</D>	<b>1</b>	<h>0.1</h>	<R>0.2</R>	<b1>0.5</b1>	<b2>0.8</b2>	<p>0.8</p>	</Row>
+        <Row>	<D>30</D>	<b>1</b>	<h>0.1</h>	<R>0.2</R>	<b1>0.5</b1>	<b2>0.8</b2>	<p>1.2</p>	</Row>
+        <Row>	<D>80</D>	<b>2</b>	<h>0.2</h>	<R>0.4</R>	<b1>1.0</b1>	<b2>1.5</b2>	<p>1.6</p>	</Row>
+        <Row>	<D>180</D>	<b>4</b>	<h>0.3</h>	<R>0.6</R>	<b1>1.5</b1>	<b2>3.3</b2>	<p>2.5</p>	</Row>
+        <Row>	<D>500</D>	<b>6</b>	<h>0.4</h>	<R>1.0</R>	<b1>2.3</b1>	<b2>5</b2>	<p>4</p>	</Row>
+        <Row>	<D>9999</D>	<b>6</b>	<h>0.4</h>	<R>1.0</R>	<b1>2.3</b1>	<b2>5</b2>	<p>4</p>	</Row>
+      </Data>
+   </Table>
+  <Table InternalName="0BF91715-6F81-4e73-A928-505FF026604F">
+    <Definition DisplayName="CSN 014960 Neckdown D">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<D>6</D>	<b>0.8</b>	<h>0.1</h>	<R>1.0</R>	</Row>
+        <Row>	<D>10</D>	<b>0.8</b>	<h>0.1</h>	<R>1.0</R>	</Row>
+        <Row>	<D>30</D>	<b>1.4</b>	<h>0.2</h>	<R>1.6</R>	</Row>
+        <Row>	<D>80</D>	<b>2.2</b>	<h>0.3</h>	<R>2.5</R>	</Row>
+        <Row>	<D>500</D>	<b>3.4</b>	<h>0.4</h>	<R>4.0</R>	</Row>
+        <Row>	<D>630</D>	<b>3.4</b>	<h>0.4</h>	<R>6.0</R>	</Row>
+        <Row>	<D>9999</D>	<b>3.4</b>	<h>0.4</h>	<R>6.0</R>	</Row>
+      </Data>
+   </Table>
+  <Table InternalName="CFC6A87F-2A16-40c6-AE0D-EF24ECBC0EAC">
+    <Definition DisplayName="DIN 509 Neckdown C,D">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b1 Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <b Description="width" Units="mm"/>
+          <p Description="min chamfer/fillet" Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<D>6</D>	<b1>1.4</b1>	<h>0.2</h>	<R>1</R>	<b>1.6</b>	<p>0.8</p>	</Row>
+        <Row>	<D>30</D>	<b1>1.4</b1>	<h>0.2</h>	<R>1</R>	<b>1.6</b>	<p>0.8</p>	</Row>
+        <Row>	<D>80</D>	<b1>2.2</b1>	<h>0.3</h>	<R>1.6</R>	<b>2.5</b>	<p>1.2</p>	</Row>
+        <Row>	<D>170</D>	<b1>3.4</b1>	<h>0.3</h>	<R>2.5</R>	<b>3.7</b>	<p>2</p>	</Row>
+        <Row>	<D>500</D>	<b1>3.4</b1>	<h>0.3</h>	<R>2.5</R>	<b>3.7</b>	<p>2</p>	</Row>
+        <Row>	<D>9999</D>	<b1>3.4</b1>	<h>0.3</h>	<R>2.5</R>	<b>3.7</b>	<p>2</p>	</Row>
+      </Data>	
+   </Table>
+  <Table InternalName="71CE2849-4826-4bb1-9D03-BA8D33EBD6C4">
+    <Definition DisplayName="CSN 014960 Neckdown F,G">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <b1 Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <h1 Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <p Description="fillet/chamfer" Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<D>1.6</D>	<b>0.5</b>	<b1>0.8</b1>	<h>0.1</h>	<h1>0.1</h1>	<R>0.1</R>	<p>0.1</p>	</Row>
+        <Row>	<D>1.7</D>	<b>1</b>	<b1>0.9</b1>	<h>0.1</h>	<h1>0.1</h1>	<R>0.2</R>	<p>0.1</p>	</Row>
+        <Row>	<D>3</D>	<b>1</b>	<b1>0.9</b1>	<h>0.1</h>	<h1>0.1</h1>	<R>0.2</R>	<p>0.1</p>	</Row>
+        <Row>	<D>18</D>	<b>2</b>	<b1>1.1</b1>	<h>0.2</h>	<h1>0.1</h1>	<R>0.4</R>	<p>0.3</p>	</Row>
+        <Row>	<D>80</D>	<b>2.5</b>	<b1>2.3</b1>	<h>0.3</h>	<h1>0.2</h1>	<R>0.8</R>	<p>0.6</p>	</Row>
+        <Row>	<D>630</D>	<b>4</b>	<b1>3.4</b1>	<h>0.4</h>	<h1>0.3</h1>	<R>1.2</R>	<p>1</p>	</Row>
+        <Row>	<D>9999</D>	<b>4</b>	<b1>3.4</b1>	<h>0.4</h>	<h1>0.3</h1>	<R>1.2</R>	<p>1</p>	</Row>
+      </Data>
+   </Table>
+  <Table InternalName="750769AE-3A08-4fbf-AB87-6455CA07F487">
+    <Definition DisplayName="DIN 509 Neckdown E,F">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <b1 Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <h1 Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <p Description="fillet/chamfer" Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<D>1.6</D>	<b>0.5</b>	<b1>0.8</b1>	<h>0.1</h>	<h1>0.1</h1>	<R>0.1</R>	<p>0.1</p>	</Row>
+        <Row>	<D>1.7</D>	<b>1</b>	<b1>0.9</b1>	<h>0.1</h>	<h1>0.1</h1>	<R>0.2</R>	<p>0.1</p>	</Row>
+        <Row>	<D>3</D>	<b>1</b>	<b1>0.9</b1>	<h>0.1</h>	<h1>0.1</h1>	<R>0.2</R>	<p>0.1</p>	</Row>
+        <Row>	<D>18</D>	<b>2</b>	<b1>1.4</b1>	<h>0.2</h>	<h1>0.1</h1>	<R>0.6</R>	<p>0.3</p>	</Row>
+        <Row>	<D>80</D>	<b>2.5</b>	<b1>2.1</b1>	<h>0.3</h>	<h1>0.2</h1>	<R>0.6</R>	<p>0.6</p>	</Row>
+        <Row>	<D>630</D>	<b>4</b>	<b1>3.2</b1>	<h>0.4</h>	<h1>0.3</h1>	<R>1</R>	<p>1</p>	</Row>
+        <Row>	<D>9999</D>	<b>4</b>	<b1>3.2</b1>	<h>0.4</h>	<h1>0.3</h1>	<R>1</R>	<p>1</p>	</Row>
+      </Data>
+   </Table>
+  <Table InternalName="E59C2F5E-3881-4305-B3DF-63FDEE24E76A">
+    <Definition DisplayName="GOST Relief table type 1,2">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <h1 Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <R1 Description="radius" Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<Dmin>0</Dmin>	<D>10</D>	<b>1</b>	<h>0.15</h>	<H1>0.2</H1>	<R>0.3</R>	<R1>0.2</R1>	</Row>
+        <Row>	<Dmin>0</Dmin>	<D>10</D>	<b>1.6</b>	<h>0.15</h>	<H1>0.2</H1>	<R>0.5</R>	<R1>0.3</R1>	</Row>
+        <Row>	<Dmin>0</Dmin>	<D>10</D>	<b>2</b>	<h>0.25</h>	<H1>0.3</H1>	<R>0.5</R>	<R1>0.3</R1>	</Row>
+        <Row>	<Dmin>10</Dmin>	<D>50</D>	<b>3</b>	<h>0.25</h>	<H1>0.3</H1>	<R>1.0</R>	<R1>0.5</R1>	</Row>
+        <Row>	<Dmin>50</Dmin>	<D>100</D>	<b>5</b>	<h>0.5</h>	<H1>0.5</H1>	<R>1.6</R>	<R1>0.5</R1>	</Row>
+        <Row>	<Dmin>50</Dmin>	<D>100</D>	<b>8</b>	<h>0.5</h>	<H1>0.5</H1>	<R>2.0</R>	<R1>1</R1>	</Row>
+        <Row>	<Dmin>50</Dmin>	<D>100</D>	<b>10</b>	<h>0.5</h>	<H1>0.5</H1>	<R>3.0</R>	<R1>1</R1>	</Row>
+      </Data>
+   </Table>
+   <Table InternalName="DDA2E15C-DB7C-48ff-A118-6BA80B129541">
+     <Definition DisplayName="GOST Relief table type 3">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <b1 Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <h1 Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <p Description="fillet/chamfer" Units="mm"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row>	<Dmin>0</Dmin>	<D>10</D>	</Row>
+        <Row>	<Dmin>10</Dmin>	<D>50</D>	<b>1.5</b>	<H1>0.25</H1>	<h>0.3</h>	<R>1.0</R>	<R1>0.5</R1>	</Row>
+        <Row>	<Dmin>50</Dmin>	<D>100</D>	<b>2.25</b>	<H1>0.5</H1>	<h>0.5</h>	<R>1.6</R>	<R1>0.5</R1>	</Row>
+        <Row>	<Dmin>50</Dmin>	<D>100</D>	<b>2.8</b>	<H1>0.5</H1>	<h>0.5</h>	<R>2.0</R>	<R1>1</R1>	</Row>
+        <Row>	<Dmin>50</Dmin>	<D>100</D>	<b>5</b>	<H1>0.5</H1>	<h>0.5</h>	<R>3.0</R>	<R1>1</R1>	</Row>
+      </Data>
+   </Table>
+   <Table InternalName="665AFD00-7878-4436-8CBF-B04C74487693">
+     <Definition DisplayName="GOST Relief table type 4">
+       <Columns>
+          <D Description="Diameter" Units="mm" />
+          <b Description="width" Units="mm"/>
+          <b1 Description="width" Units="mm"/>
+          <h Description="depth" Units="mm"/>
+          <h1 Description="depth" Units="mm"/>
+          <R Description="radius" Units="mm"/>
+          <p Description="fillet/chamfer" Units="mm"/>
+        </Columns>
+      </Definition>
+      <Data>
+        <Row>	<D></D>	<b>1.1</b>	<h1>0.1</h1>	<h>0.1</h>	<b1>0.5</b1>	<c>0.8</c>	<r2>0.2</r2>	</Row>
+        <Row>	<D></D>	<b>2.2</b>	<h1>0.2</h1>	<h>0.2</h>	<b1>1.0</b1>	<c>1.5</c>	<r2>0.4</r2>	</Row>
+        <Row>	<D></D>	<b>4.3</b>	<h1>0.3</h1>	<h>0.3</h>	<b1>1.5</b1>	<c>3.3</c>	<r2>0.6</r2>	</Row>
+        <Row>	<D></D>	<b>6.4</b>	<h1>0.4</h1>	<h>0.4</h>	<b1>2.3</b1>	<c>5.0</c>	<r2>1</r2>	</Row>
+      </Data>
+   </Table>
+</FDesign>

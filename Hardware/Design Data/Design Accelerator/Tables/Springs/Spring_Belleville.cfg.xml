@@ -1,0 +1,38 @@
+<FDesign>
+	<Table InternalName="C70867FC-B77C-4d6f-B561-81DED1FD63E5">
+		<Definition DisplayName="Belleville Spring Categories">
+			<Columns>
+				<Category DisplayName="InternalName" Description="InternalName" Units="ul" />
+				<DisplayName DisplayName="DisplayName" Description="DisplayName" Units="ul" />
+				<Type DisplayName="Standard" Description="Used Calculation for Geometry" Units="" Notes="0 - ISO, 1 - CSN, 2 - Ansi, 3 - Ansi metric, 4 - DIN, 5 - GOST" />
+				<Thumbnail DisplayName="Thumbnail" Description="Thumbnail" Units="" IsVisible="0" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Category>C0972E94-1981-4c24-AA39-E6245C38AA9D</Category>
+				<DisplayName>%1%</DisplayName>
+				<Type>1</Type>
+				<Thumbnail>SpringBelleville.jpg</Thumbnail>
+			</Row>
+			<Row>
+				<Category>4299DD2B-1394-4c7c-BBC6-39D51A049DB7</Category>
+				<DisplayName>%2%</DisplayName>
+				<Type>2</Type>
+				<Thumbnail>SpringBelleville.jpg</Thumbnail>
+			</Row>
+			<Row>
+				<Category>3C7156BD-8FB1-4425-B765-406D60997D55</Category>
+				<DisplayName>%3%</DisplayName>
+				<Type>4</Type>
+				<Thumbnail>SpringBelleville.jpg</Thumbnail>
+			</Row>
+			<Row>
+				<Category>D9F1DEDA-78E4-4842-9CEA-6F972A72F3EA</Category>
+				<DisplayName>%4%</DisplayName>
+				<Type>5</Type>
+				<Thumbnail>SpringBelleville.jpg</Thumbnail>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

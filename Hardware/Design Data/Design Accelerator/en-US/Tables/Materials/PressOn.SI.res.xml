@@ -1,0 +1,26 @@
+<Resources>
+  <string id="%1%" value="Pressure Connection Materials"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Poisson's Ratio"/>
+  <string id="%4%" value="ul"/>
+  <string id="%5%" value="Modulus of Elasticity"/>
+  <string id="%6%" value="MPa"/>
+  <string id="%7%" value="Allowable Stress"/>
+  <string id="%8%" value="Thermal Expansion"/>
+  <string id="%9%" value="m/mc"/>
+  <string id="%10%" value="Thermal Expansion for cooling"/>
+  <string id="%11%" value="Steel"/>
+  <string id="%12%" value="Malleable cast iron"/>
+  <string id="%13%" value="Copper"/>
+  <string id="%14%" value="Brass"/>
+  <string id="%15%" value="Bronze"/>
+  <string id="%16%" value="Aluminum Alloy"/>
+  <string id="%17%" value="Magnesium Alloy"/>
+  <string id="%18%" value="Cast iron"/>
+  <string id="%19%" value="Material"/>
+  <string id="%20%" value="||m|"/>
+  <string id="%21%" value="E"/>
+  <string id="%22%" value="p|.A|"/>
+  <string id="%23%" value="||a|"/>
+  <string id="%24%" value="||a||.1|"/>
+</Resources>

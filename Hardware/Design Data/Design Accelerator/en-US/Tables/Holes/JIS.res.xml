@@ -1,0 +1,16 @@
+<Resources>
+  <string id="%1%" value="Nominal diameter"/>
+  <string id="%2%" value="Close clearance"/>
+  <string id="%3%" value="Normal clearance"/>
+  <string id="%4%" value="Loose clearance"/>
+  <string id="%5%" value="Head diameter"/>
+  <string id="%6%" value="Counterbore depth"/>
+  <string id="%7%" value="Countersink angle"/>
+  <string id="%8%" value="JIS Drilled hole"/>
+  <string id="%9%" value="JIS Countersunk Flat Head Screw"/>
+  <string id="%10%" value="JIS Countersunk Raised Head Screw"/>
+  <string id="%11%" value="JIS Hex Head Cap Screw"/>
+  <string id="%12%" value="JIS Hex Head Bolt"/>
+  <string id="%13%" value="JIS Hex Head Screw"/>
+  <string id="%14%" value="JIS Hex Socket Head Cap Screw"/>
+</Resources>

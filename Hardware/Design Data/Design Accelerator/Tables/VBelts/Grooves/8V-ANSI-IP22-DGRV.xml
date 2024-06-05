@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="effective" measuresystem="imperial" thumbnail="DeepGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="in" >1</NomWidth>
+    <Diameter src="table" dt="number" units="in" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="in">1.252</Depth>
+    <DistSe src="fixed" dt="number" units="in">0.844</DistSe>
+    <DistSg src="fixed" dt="number" units="in">1.312</DistSg>
+    <Height src="fixed" dt="number" units="in">0.262</Height>
+    <Rin src="fixed" dt="number" units="in">0.0</Rin>
+    <Rex src="fixed" dt="number" units="in">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="8V125" >
+      <Size>8V - 12.5</Size>
+      <Diameter>12.5</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="8V132" >
+      <Size>8V - 13.2</Size>
+      <Diameter>13.2</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="8V140" >
+      <Size>8V - 14.0</Size>
+      <Diameter>14</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="8V150" >
+      <Size>8V - 15.0</Size>
+      <Diameter>15</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="8V160" >
+      <Size>8V - 16.0</Size>
+      <Diameter>16</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="8V170" >
+      <Size>8V - 17.0</Size>
+      <Diameter>17</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="8V180" >
+      <Size>8V - 18.0</Size>
+      <Diameter>18</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="8V190" >
+      <Size>8V - 19.0</Size>
+      <Diameter>19</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="8V200" >
+      <Size>8V - 20.0</Size>
+      <Diameter>20</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="8V212" >
+      <Size>8V - 21.2</Size>
+      <Diameter>21.2</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="8V224" >
+      <Size>8V - 22.4</Size>
+      <Diameter>22.4</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="8V236" >
+      <Size>8V - 23.6</Size>
+      <Diameter>23.6</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V248" >
+      <Size>8V - 24.8</Size>
+      <Diameter>24.8</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V300" >
+      <Size>8V - 30.0</Size>
+      <Diameter>30</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V315" >
+      <Size>8V - 31.5</Size>
+      <Diameter>31.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V355" >
+      <Size>8V - 35.5</Size>
+      <Diameter>35.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V400" >
+      <Size>8V - 40.0</Size>
+      <Diameter>40</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V445" >
+      <Size>8V - 44.5</Size>
+      <Diameter>44.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V500" >
+      <Size>8V - 50.0</Size>
+      <Diameter>50</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V520" >
+      <Size>8V - 52.0</Size>
+      <Diameter>52</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V630" >
+      <Size>8V - 63.0</Size>
+      <Diameter>63</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V710" >
+      <Size>8V - 71.0</Size>
+      <Diameter>71</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V790" >
+      <Size>8V - 79.0</Size>
+      <Diameter>79</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="8V990" >
+      <Size>8V - 99.0</Size>
+      <Diameter>99</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

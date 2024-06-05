@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="8-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\8-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">5.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >8.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >6.7</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">19.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.04</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">40.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.00918243 - 0.18053393/{Dpk} - 6.6026635e-09*pow({Dpk}*{nk};2) - 0.0009745*(log({Dpk}*{nk})-log(2/(1+pow(10;185.258/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="8-280" >
+      <Size>8 x 280</Size>
+      <Length>299.0</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="8-300" >
+      <Size>8 x 300</Size>
+      <Length>319.0</Length>
+      <C3>0.885</C3>
+    </Member>
+    <Member moniker="8-315" >
+      <Size>8 x 315</Size>
+      <Length>334.0</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="8-335" >
+      <Size>8 x 335</Size>
+      <Length>354.0</Length>
+      <C3>0.91</C3>
+    </Member>
+    <Member moniker="8-355" >
+      <Size>8 x 355</Size>
+      <Length>374.0</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="8-375" >
+      <Size>8 x 375</Size>
+      <Length>394.0</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="8-400" >
+      <Size>8 x 400</Size>
+      <Length>419.0</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="8-425" >
+      <Size>8 x 425</Size>
+      <Length>444.0</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="8-450" >
+      <Size>8 x 450</Size>
+      <Length>469.0</Length>
+      <C3>0.97</C3>
+    </Member>
+    <Member moniker="8-475" >
+      <Size>8 x 475</Size>
+      <Length>494.0</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="8-500" >
+      <Size>8 x 500</Size>
+      <Length>519.0</Length>
+      <C3>0.985</C3>
+    </Member>
+    <Member moniker="8-530" >
+      <Size>8 x 530</Size>
+      <Length>549.0</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="8-560" >
+      <Size>8 x 560</Size>
+      <Length>579.0</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="8-600" >
+      <Size>8 x 600</Size>
+      <Length>619.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="8-630" >
+      <Size>8 x 630</Size>
+      <Length>649.0</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="8-670" >
+      <Size>8 x 670</Size>
+      <Length>689.0</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="8-710" >
+      <Size>8 x 710</Size>
+      <Length>729.0</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="8-750" >
+      <Size>8 x 750</Size>
+      <Length>769.0</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="8-800" >
+      <Size>8 x 800</Size>
+      <Length>819.0</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="8-850" >
+      <Size>8 x 850</Size>
+      <Length>869.0</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="8-900" >
+      <Size>8 x 900</Size>
+      <Length>919.0</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="8-950" >
+      <Size>8 x 950</Size>
+      <Length>969.0</Length>
+      <C3>1.13</C3>
+    </Member>
+    <Member moniker="8-1000" >
+      <Size>8 x 1000</Size>
+      <Length>1019.0</Length>
+      <C3>1.14</C3>
+    </Member>
+    <Member moniker="8-1060" >
+      <Size>8 x 1060</Size>
+      <Length>1079.0</Length>
+      <C3>1.15</C3>
+    </Member>
+    <Member moniker="8-1120" >
+      <Size>8 x 1120</Size>
+      <Length>1139.0</Length>
+      <C3>1.16</C3>
+    </Member>
+    <Member moniker="8-1180" >
+      <Size>8 x 1180</Size>
+      <Length>1199.0</Length>
+      <C3>1.17</C3>
+    </Member>
+    <Member moniker="8-1250" >
+      <Size>8 x 1250</Size>
+      <Length>1269.0</Length>
+      <C3>1.19</C3>
+    </Member>
+    <Member moniker="8-1320" >
+      <Size>8 x 1320</Size>
+      <Length>1339.0</Length>
+      <C3>1.21</C3>
+    </Member>
+    <Member moniker="8-1400" >
+      <Size>8 x 1400</Size>
+      <Length>1419.0</Length>
+      <C3>1.23</C3>
+    </Member>
+    <Member moniker="8-1500" >
+      <Size>8 x 1500</Size>
+      <Length>1519.0</Length>
+      <C3>1.25</C3>
+    </Member>
+    <Member moniker="8-1600" >
+      <Size>8 x 1600</Size>
+      <Length>1619.0</Length>
+      <C3>1.27</C3>
+    </Member>
+  </Members>
+</CustomFamily>

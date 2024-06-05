@@ -1,0 +1,55 @@
+<Resources>
+  <string id="%1%" value="Dynamic Viscosity of selected Lubricants depended on temperature"/>
+  <string id="%2%" value="Lubricant"/>
+  <string id="%3%" value="Lubricant Designation"/>
+  <string id="%4%" value="||h|"/>
+  <string id="%5%" value="Lubricant Dynamic Viscosity at 0 |^o|C"/>
+  <string id="%6%" value="Pa s"/>
+  <string id="%7%" value="||r|"/>
+  <string id="%8%" value="Oil Density"/>
+  <string id="%9%" value="kg m|^3|"/>
+  <string id="%10%" value="Lubricant Dynamic Viscosity at 10 |^o|C"/>
+  <string id="%11%" value="Lubricant Dynamic Viscosity at 20 |^o|C"/>
+  <string id="%12%" value="Lubricant Dynamic Viscosity at 30 |^o|C"/>
+  <string id="%13%" value="Lubricant Dynamic Viscosity at 40 |^o|C"/>
+  <string id="%14%" value="Lubricant Dynamic Viscosity at 50 |^o|C"/>
+  <string id="%15%" value="Lubricant Dynamic Viscosity at 60 |^o|C"/>
+  <string id="%16%" value="Lubricant Dynamic Viscosity at 70 |^o|C"/>
+  <string id="%17%" value="Lubricant Dynamic Viscosity at 80 |^o|C"/>
+  <string id="%18%" value="Lubricant Dynamic Viscosity at 90 |^o|C"/>
+  <string id="%19%" value="Lubricant Dynamic Viscosity at 100 |^o|C"/>
+  <string id="%20%" value="Bearing Oil SAE 10; 10-W"/>
+  <string id="%21%" value="Bearing Oil SAE 20; 20-W"/>
+  <string id="%22%" value="Bearing Oil SAE 30"/>
+  <string id="%23%" value="Bearing Oil SAE 40"/>
+  <string id="%24%" value="Bearing Oil SAE 50"/>
+  <string id="%25%" value="Bearing Oil SAE 60"/>
+  <string id="%26%" value="Bearing Oil SAE 70"/>
+  <string id="%27%" value="Bearing oil P0"/>
+  <string id="%28%" value="Bearing oil J1"/>
+  <string id="%29%" value="Bearing oil J2"/>
+  <string id="%30%" value="Turbine oil TB32"/>
+  <string id="%31%" value="Bearing oil J3"/>
+  <string id="%32%" value="Turbine oil T4C"/>
+  <string id="%33%" value="Bearing oil J4"/>
+  <string id="%34%" value="Bearing oil J5"/>
+  <string id="%35%" value="Engine oil M3AD"/>
+  <string id="%36%" value="Engine oil M4A"/>
+  <string id="%37%" value="Bearing oil J6"/>
+  <string id="%38%" value="Engine oil M6A"/>
+  <string id="%39%" value="Oil OD8"/>
+  <string id="%40%" value="Oil M9A"/>
+  <string id="%41%" value="Oil K12"/>
+  <string id="%42%" value="Oil K18"/>
+  <string id="%43%" value="||h||.0|"/>
+  <string id="%44%" value="||h||.10|"/>
+  <string id="%45%" value="||h||.20|"/>
+  <string id="%46%" value="||h||.30|"/>
+  <string id="%47%" value="||h||.40|"/>
+  <string id="%48%" value="||h||.50|"/>
+  <string id="%49%" value="||h||.60|"/>
+  <string id="%50%" value="||h||.70|"/>
+  <string id="%51%" value="||h||.80|"/>
+  <string id="%52%" value="||h||.90|"/>
+  <string id="%53%" value="||h||.100|"/>
+</Resources>

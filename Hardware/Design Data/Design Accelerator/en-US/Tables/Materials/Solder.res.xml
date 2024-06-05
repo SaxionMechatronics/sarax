@@ -1,0 +1,13 @@
+<Resources>
+  <string id="%1%" value="Joint Material"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Joint Tensile Strength"/>
+  <string id="%4%" value="psi"/>
+  <string id="%5%" value="Joint Shear Strength"/>
+  <string id="%6%" value="Tin solder"/>
+  <string id="%7%" value="Copper solder"/>
+  <string id="%8%" value="Silver solder"/>
+  <string id="%9%" value="Material"/>
+  <string id="%10%" value="S||.s|"/>
+  <string id="%11%" value="S||.t|"/>
+</Resources>

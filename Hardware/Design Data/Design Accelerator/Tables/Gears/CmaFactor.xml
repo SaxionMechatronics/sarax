@@ -1,0 +1,38 @@
+<FDesign>
+	<Table InternalName="8832DDC1-6618-4ECB-ADBB-3EDBD07B3A60">
+		<Definition DisplayName="Empirical constants for Cma">
+			<Columns>
+				<Desc DisplayName="Type" Units="" IsNumeric="0" IsVisible="1" />
+				<A DisplayName="A" Units="ul" IsNumeric="1" IsVisible="1" />
+				<B DisplayName="B" Units="ul" IsNumeric="1" IsVisible="1" />
+				<C DisplayName="C" Units="ul" IsNumeric="1" IsVisible="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Desc>%1%</Desc>
+				<A>0.247</A>
+				<B>0.0167</B>
+				<C>0.0000765</C>
+			</Row>
+			<Row>
+				<Desc>%2%</Desc>
+				<A>0.127</A>
+				<B>0.0158</B>
+				<C>0.0001093</C>
+			</Row>
+			<Row>
+				<Desc>%3%</Desc>
+				<A>0.0675</A>
+				<B>0.0128</B>
+				<C>0.0000926</C>
+			</Row>
+			<Row>
+				<Desc>%4%</Desc>
+				<A>0.038</A>
+				<B>0.0102</B>
+				<C>0.0000822</C>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

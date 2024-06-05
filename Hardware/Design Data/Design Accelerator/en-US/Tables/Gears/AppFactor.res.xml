@@ -1,0 +1,9 @@
+<Resources>
+  <string id="%1%" value="Application Factor"/>
+  <string id="%2%" value="Driving Machine Shocks"/>
+  <string id="%3%" value="Driven Machine Shocks"/>
+  <string id="%4%" value="Fluently"/>
+  <string id="%5%" value="Light Shocks"/>
+  <string id="%6%" value="Moderate Shocks"/>
+  <string id="%7%" value="Hard Shocks"/>
+</Resources>

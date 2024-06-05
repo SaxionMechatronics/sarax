@@ -1,0 +1,5 @@
+<Resources>
+  <string id="%1%" value="Load rating decrease factor of bearing depended on working temperature (SKF)"/>
+  <string id="%2%" value="Temperature"/>
+  <string id="%3%" value="Load Rating Decrease Factor"/>
+</Resources>

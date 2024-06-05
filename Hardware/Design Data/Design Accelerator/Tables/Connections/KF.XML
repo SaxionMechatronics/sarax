@@ -1,0 +1,60 @@
+<FDesign>
+	<Table InternalName="28EAB5CB-4F3C-44bd-A8A9-450431952CF5">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Driving DisplayName="" Units="" IsNumeric="0" IsVisible="1" Selectable="0"/>
+				<Undirectional DisplayName="%2%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<FullyReversed DisplayName="%3%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<SelectableRow_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<colspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<rowspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Driving>%4%</Driving>
+				<Undirectional>%5%</Undirectional>
+				<FullyReversed/> 
+				<SelectableRow_>0</SelectableRow_>
+				<colspan_>0,2,0</colspan_>
+				<rowspan_>2,0,0</rowspan_>
+			</Row>
+			<Row>
+				<Driving>%4%</Driving>
+				<Undirectional>%2%</Undirectional>
+				<FullyReversed>%3%</FullyReversed>
+				<SelectableRow_>0</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>1000</Driving>
+				<Undirectional>1.8</Undirectional>
+				<FullyReversed>1.8</FullyReversed>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>10000</Driving>
+				<Undirectional>1.0</Undirectional>
+				<FullyReversed>1.0</FullyReversed>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>100000</Driving>
+				<Undirectional>0.5</Undirectional>
+				<FullyReversed>0.4</FullyReversed>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>1000000</Driving>
+				<Undirectional>0.4</Undirectional>
+				<FullyReversed>0.3</FullyReversed>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>	
+			<Row>
+				<Driving>10000000</Driving>
+				<Undirectional>0.3</Undirectional>
+				<FullyReversed>0.2</FullyReversed>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>						
+		</Data>
+	</Table>
+</FDesign>

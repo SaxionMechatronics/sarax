@@ -1,0 +1,71 @@
+<FDesign>
+	<Table InternalName="008DD43A-34C9-4A05-BEDA-AB2A90C52ABB">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<ID IsVisible="0" IsNumeric="0" EditableState="0" />
+				<Material DisplayName="%15%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1" />
+				<Su DisplayName="%16%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1" IsRequired="1" />
+				<SigmaD DisplayName="%17%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1" IsRequired="1" />
+				<TauD DisplayName="%18%" Description="%6%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1" IsRequired="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<ID>B4AE68B68A3448B589F97F9E27102A01</ID>
+				<Material>%7%</Material>
+				<Su>350</Su>
+				<SigmaD>90</SigmaD>
+				<TauD>140</TauD>
+			</Row>
+			<Row>
+				<ID>65E7F5C5AC614D34932738873A0B950A</ID>
+				<Material>%8%</Material>
+				<Su>500</Su>
+				<SigmaD>130</SigmaD>
+				<TauD>200</TauD>
+			</Row>
+			<Row>
+				<ID>3992F5DBA0404A56AB0F18A4B12F3ABA</ID>
+				<Material>%9%</Material>
+				<Su>600</Su>
+				<SigmaD>200</SigmaD>
+				<TauD>275</TauD>
+			</Row>
+			<Row>
+				<ID>8B02EC9C5A9A483093A5D90B531D8883</ID>
+				<Material>%10%</Material>
+				<Su>650</Su>
+				<SigmaD>600</SigmaD>
+				<TauD>275</TauD>
+			</Row>
+			<Row>
+				<ID>981C34BEB884461BA12558B2820D27DD</ID>
+				<Material>%11%</Material>
+				<Su>850</Su>
+				<SigmaD>300</SigmaD>
+				<TauD>340</TauD>
+			</Row>
+			<Row>
+				<ID>981C34BEB884461BA12558B2820D27EE</ID>
+				<Material>%12%</Material>
+				<Su>200</Su>
+				<SigmaD>68</SigmaD>
+				<TauD>70</TauD>
+			</Row>
+			<Row>
+				<ID>981C34BEB884461BA12558B2820D27CC</ID>
+				<Material>%13%</Material>
+				<Su>400</Su>
+				<SigmaD>135</SigmaD>
+				<TauD>140</TauD>
+			</Row>
+			<Row>
+				<ID>981C34BEB884461BA12558B2820D27BB</ID>
+				<Material>%14%</Material>
+				<Su>250</Su>
+				<SigmaD>90</SigmaD>
+				<TauD>100</TauD>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

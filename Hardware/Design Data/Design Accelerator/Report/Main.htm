@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>$$CalcTitle$</title>
+<meta charset="UTF-8" />
+<style>
+body,p,table,th,td,h1,h2,h3,h4,h5{font-weight: normal; font-size: 10pt; font-family: Tahoma, Arial, Helvetica, sans-serif}
+body{color: #000000; background-color: #ffffff}
+h1{font-weight: bold; font-size: 145%; margin-bottom: 1em}
+h2{font-weight: bold; font-size: 130%; margin-bottom: 0.6em}
+h3{font-weight: bold; font-size: 120%; margin-bottom: 0.5em}
+h4{font-weight: bold; font-size: 110%; margin-bottom: 0.5em}
+h5{font-weight: bold; font-size: 100%; margin-bottom: 0.5em}
+p{margin: 0.5em 0em 0.3em 0em; line-height: 100%}
+blockquote{margin: 0em 0em 0em 1em; font-size: 100%; line-height: 100%; direction: ltr}
+.ta{border: dodgerblue 1px solid; border-collapse: collapse; background-color: #d9e6ff}
+.ta td,.ta th{border: dodgerblue 1px solid; padding: 2pt; valign: top}
+.ta0{border: 0px; margin-top: -4px; margin-bottom: -4px}
+.ta0 td{border: 0px; valign: top}
+.collapsed{background: url("data:image/gif;base64,R0lGODlhCQAJAIAAAAAAAP///yH5BAEAAAEALAAAAAAJAAkAAAIRhI+hG7bwoJINIktzjizeUwAAOw==") left center no-repeat; display: block; padding: 0 0 0 14px; cursor: pointer}
+.expanded{background: url("data:image/gif;base64,R0lGODlhCQAJAIAAAAAAAP///yH5BAEAAAEALAAAAAAJAAkAAAIQhI+hG8brXgPzTHllfKiDAgA7") left center no-repeat; display: block; padding: 0 0 0 14px; cursor: pointer}
+</style>
+<script type="text/javascript">
+var toggle = function(e) {
+	var elem = e.target;
+	var elemNext = elem.nextElementSibling;
+	if (elemNext){
+		var st = elemNext.style;
+		if (st)
+			if (st.display == "none"){
+				elem.className = "expanded";
+				st.removeProperty("display");
+			}else{
+				elem.className = "collapsed";
+				st.display = "none";
+			}
+	}
+}
+window.onload = function() {
+	var elems = document.getElementsByClassName("expanded");
+	for(var i = 0; i < elems.length; i++) {
+		var elem = elems[i]
+		elem.onclick = toggle;
+		var elemNext = elem.nextElementSibling;
+		if (elemNext){
+			var st = elemNext.style;
+			if (st)
+				st.removeProperty("display");
+		}
+	}
+	elems = document.getElementsByClassName("collapsed");
+	for(var i = 0; i < elems.length; i++) {
+		var elem = elems[i]
+		elem.onclick = toggle;
+		var elemNext = elem.nextElementSibling;
+		if (elemNext){
+			var st = elemNext.style;
+			if (st)
+				st.display = "none";
+		}
+	}
+}</script>
+</head>
+<body>
+<h1>$$CalcTitle$ ($$GrpVersion$ $$version$)</h1>
+<p>$$Date$</p>
+<hr />
+<h3 class="collapsed">$$GrpProjectInfo$</h3>
+<blockquote>
+	<h5 class="collapsed">$$GrpSummary$</h5>
+	<blockquote>
+	<table class="ta">
+		<tr>
+		<td>$$Title$$</td>
+		<td>$$Title$</td>
+		</tr>
+		<tr>
+		<td>$$Subject$$</td>
+		<td>$$Subject$</td>
+		</tr>
+		<tr>
+		<td>$$Author$$</td>
+		<td>$$Author$</td>
+		</tr>
+		<tr>
+		<td>$$Manager$$</td>
+		<td>$$Manager$</td>
+		</tr>
+		<tr>
+		<td>$$Company$$</td>
+		<td>$$Company$</td>
+		</tr>
+		<tr>
+		<td>$$Category$$</td>
+		<td>$$Category$</td>
+		</tr>
+		<tr>
+		<td>$$Keywords$$</td>
+		<td>$$Keywords$</td>
+		</tr>
+		<tr>
+		<td>$$Comments$$</td>
+		<td>$$Comments$</td>
+		</tr>
+	</table>
+	</blockquote>
+	<h5 class="collapsed">$$GrpProject$</h5>
+	<blockquote>
+	<table class="ta">
+		<tr>
+		<td>$$Part Number$$</td>
+		<td>$$Part Number$</td>
+		</tr>
+		<tr>
+		<td>$$Stock Number$$</td>
+		<td>$$Stock Number$</td>
+		</tr>
+		<tr>
+		<td>$$Description$$</td>
+		<td>$$Description$</td>
+		</tr>
+		<tr>
+		<td>$$Revision Number$$</td>
+		<td>$$Revision Number$</td>
+		</tr>
+		<tr>
+		<td>$$Project$$</td>
+		<td>$$Project$</td>
+		</tr>
+		<tr>
+		<td>$$Designer$$</td>
+		<td>$$Designer$</td>
+		</tr>
+		<tr>
+		<td>$$Engineer$$</td>
+		<td>$$Engineer$</td>
+		</tr>
+		<tr>
+		<td>$$Authority$$</td>
+		<td>$$Authority$</td>
+		</tr>
+		<tr>
+		<td>$$Cost Center$$</td>
+		<td>$$Cost Center$</td>
+		</tr>
+		<tr>
+		<td>$$Cost$$</td>
+		<td>$$Cost$</td>
+		</tr>
+		<tr>
+		<td>$$Creation Time$$</td>
+		<td>$$Creation Time$</td>
+		</tr>
+		<tr>
+		<td>$$Vendor$$</td>
+		<td>$$Vendor$</td>
+		</tr>
+		<tr>
+		<td>$$Catalog Web Link$$</td>
+		<td>$$Catalog Web Link$</td>
+		</tr>
+	</table>
+	</blockquote>
+	<h5 class="collapsed">$$GrpStatus$</h5>
+	<blockquote>
+	<table class="ta">
+		<tr>
+		<td>$$User Status$$</td>
+		<td>$$User Status$</td>
+		</tr>
+		<tr>
+		<td>$$Design Status$$</td>
+		<td>$$Design Status$</td>
+		</tr>
+		<tr>
+		<td>$$Last Saved By$$</td>
+		<td>$$Last Saved By$</td>
+		</tr>
+		<tr>
+		<td>$$Checked By$$</td>
+		<td>$$Checked By$</td>
+		</tr>
+		<tr>
+		<td>$$Engr Approved By$$</td>
+		<td>$$Engr Approved By$</td>
+		</tr>
+		<tr>
+		<td>$$Engr Date Approved$$</td>
+		<td>$$Engr Date Approved$</td>
+		</tr>
+		<tr>
+		<td>$$Document SubType Name$$</td>
+		<td>$$Document SubType Name$</td>
+		</tr>
+		<tr>
+		<td>$$Mfg Approved By$$</td>
+		<td>$$Mfg Approved By$</td>
+		</tr>
+		<tr>
+		<td>$$Mfg Date Approved$$</td>
+		<td>$$Mfg Date Approved$</td>
+		</tr>
+		<tr>
+		<td>$$Standard$$</td>
+		<td>$$Standard$</td>
+		</tr>
+		<tr>
+		<td>$$Manufacturer$$</td>
+		<td>$$Manufacturer$</td>
+		</tr>
+		<tr>
+		<td>$$Standards Organization$$</td>
+		<td>$$Standards Organization$</td>
+		</tr>
+	</table>
+	</blockquote>
+</blockquote>
+$$SubTemplate$
+</body>
+</html>

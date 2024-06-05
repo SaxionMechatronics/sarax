@@ -1,0 +1,41 @@
+<Resources>
+<string id="%1%" value="Spring Material" />
+<string id="%2%" value="Material Designation" />
+<string id="%3%" value="Density" />
+<string id="%4%" value="kg/m^3" />
+<string id="%5%" value="Tensile Modulus" />
+<string id="%6%" value="MPa" />
+<string id="%7%" value="Ratio of Allowable Bending Stress to Ultimate Tensile Strength" />
+<string id="%8%" value="Ultimate Tensile Stress" />
+<string id="%9%" value="Drawn patented - Carbon steel - 1st class" />
+<string id="%10%" value="Drawn patented - Carbon steel - 2nd class" />
+<string id="%11%" value="Drawn patented - Carbon steel - 3rd class" />
+<string id="%12%" value="Drawn patented - Carbon steel - 4th class" />
+<string id="%13%" value="Drawn patented - Carbon steel - 5th class" />
+<string id="%14%" value="Heat treated wire carbon steel" />
+<string id="%15%" value="Heat treated wire - Steel Si-Cr (14 260)" />
+<string id="%16%" value="Annealed wire - Steel Si-Cr (14 260)" />
+<string id="%17%" value="Heat treated wire - Steel Mn-Cr-V (15 260)" />
+<string id="%18%" value="Annealed wire - Steel Mn-Cr-V (15 260)" />
+<string id="%19%" value="Drawn wire - Stainless steel Cr-Ni (17 242)" />
+<string id="%20%" value="Drawn tin bronze (42 3016 and 42 3018)" />
+<string id="%21%" value="Drawn brass (42 3210 and 42 3213)" />
+<string id="%22%" value="Material" />
+<string id="%23%" value="Std" />
+<string id="%24%" value="Standard" />
+<string id="%25%" value="R|.o|" />
+<string id="%26%" value="E" />
+<string id="%27%" value="Coeffs" />
+<string id="%28%" value="WD" />
+<string id="%29%" value="Wire Diameters" />
+<string id="%30%" value="mm" />
+<string id="%31%" value="||s||.ult|" />
+<string id="%32%" value="ISO" />
+<string id="%33%" value="DIN" />
+<string id="%34%" value="Wire Diameters and Ultimate Tensile Strength" />
+<string id="%35%" value="ul" />
+<string id="%36%" value="Steel Wire, Class 1" />
+<string id="%37%" value="Steel Wire, Class 2 and 2A" />
+<string id="%38%" value="Steel Wire, Class 3" />
+<string id="%39%" value="GOST" />
+</Resources>

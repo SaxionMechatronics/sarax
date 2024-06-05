@@ -1,0 +1,376 @@
+<FDesign>
+	<Table InternalName="EE5DB216-89EC-4087-89C7-3E411FCEA046">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 2">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>1.6</B><C>2</C><D>2.2</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>1.8</B><C>2.2</C><D>2.5</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>2</B><C>2.2</C><D>2.8</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>2</B><C>2.5</C><D>2.8</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>2.5</B><C>2.8</C><D>3.2</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>2.8</B><C>3.2</C><D>3.6</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="5FCB640B-08E3-45F8-9F17-4BA1604349FA">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 3">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>2.5</B><C>3.2</C><D>3.6</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>2.8</B><C>3.6</C><D>4</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>3.2</B><C>3.6</C><D>4.5</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>3.6</B><C>4</C><D>4.5</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>4</B><C>4.5</C><D>5</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>5</C><D>5.5</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>6</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="A348ACCB-29CB-4AEF-BBFF-4993AA5A2E88">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 4">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>4</B><C>5</C><D>5.5</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>4.5</B><C>5.5</C><D>6</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>5</B><C>5.5</C><D>7</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>5.5</B><C>6</C><D>7</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>6</B><C>7</C><D>8</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>8</C><D>9</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>10</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="007F9BB9-D192-4DA3-B26C-F65E740877C4">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 5">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>6</B><C>8</C><D>9</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>7</B><C>9</C><D>10</D><E>11</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>8</B><C>9</C><D>11</D><E>13</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>9</B><C>10</C><D>11</D><E>13</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>10</B><C>11</C><D>13</D><E>14</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>13</C><D>14</D><E>16</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>16</D><E>18</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="5CD9CDB0-AB73-4DFF-9227-1DC18DFE9B45">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 6">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>10</B><C>13</C><D>14</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>11</B><C>14</C><D>16</D><E>18</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>13</B><C>14</C><D>18</D><E>20</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>14</B><C>16</C><D>18</D><E>20</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>16</B><C>18</C><D>20</D><E>22</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>20</C><D>22</D><E>25</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>25</D><E>28</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="76C07876-6DEC-4BAF-9509-A4AD1877A0E7">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 7">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>14</B><C>18</C><D>20</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>16</B><C>20</C><D>22</D><E>25</E><F>32</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>18</B><C>20</C><D>25</D><E>28</E><F>36</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>20</B><C>22</C><D>25</D><E>28</E><F>36</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>22</B><C>25</C><D>28</D><E>32</E><F>40</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>28</C><D>32</D><E>36</E><F>40</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>36</D><E>40</E><F>45</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="10332CAE-B307-47F9-AEA5-F6C7A186DFC7">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 8">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>20</B><C>25</C><D>28</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>22</B><C>28</C><D>32</D><E>36</E><F>45</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>25</B><C>28</C><D>36</D><E>40</E><F>50</F><G>63</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>28</B><C>32</C><D>36</D><E>40</E><F>50</F><G>63</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>32</B><C>36</C><D>40</D><E>45</E><F>56</F><G>71</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>40</C><D>45</D><E>50</E><F>56</F><G>71</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>50</D><E>56</E><F>63</F><G>80</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="2A3864F7-BC6A-433F-9863-C3C191E1E123">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 9">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>28</B><C>36</C><D>40</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>32</B><C>40</C><D>45</D><E>50</E><F>63</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>36</B><C>40</C><D>50</D><E>56</E><F>71</F><G>90</G><H>112</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>40</B><C>45</C><D>50</D><E>56</E><F>71</F><G>90</G><H>125</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>45</B><C>50</C><D>56</D><E>63</E><F>80</F><G>100</G><H>125</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>56</C><D>63</D><E>71</E><F>80</F><G>100</G><H>140</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>71</D><E>80</E><F>90</F><G>112</G><H>140</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="F0C5F8AB-D7F9-43D7-851E-C532A76424BC">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 10">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>40</B><C>50</C><D>56</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>45</B><C>56</C><D>63</D><E>71</E><F>90</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>50</B><C>56</C><D>71</D><E>80</E><F>100</F><G>125</G><H>160</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>56</B><C>63</C><D>71</D><E>80</E><F>100</F><G>125</G><H>160</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>63</B><C>71</C><D>80</D><E>90</E><F>112</F><G>140</G><H>180</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>80</C><D>90</D><E>100</E><F>112</F><G>140</G><H>180</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>100</D><E>112</E><F>125</F><G>160</G><H>200</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="00483D67-F4A6-4F58-A9DA-EFD9961AB4F2">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 11">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>56</B><C>71</C><D>80</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>63</B><C>80</C><D>90</D><E>100</E><F>125</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>71</B><C>80</C><D>100</D><E>112</E><F>140</F><G>180</G><H>224</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>80</B><C>90</C><D>100</D><E>112</E><F>140</F><G>180</G><H>250</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>90</B><C>100</C><D>112</D><E>125</E><F>160</F><G>200</G><H>250</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>112</C><D>125</D><E>140</E><F>160</F><G>200</G><H>280</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>140</D><E>160</E><F>180</F><G>224</G><H>280</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="A34AE9EF-27F9-4BA0-ACA0-0F0F20D40AB6">
+		<Definition DisplayName="Limit Deviation of Axial Pitch fpt - for Degree of Operation Smoothness 12">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>80</B><C>100</C><D>112</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>90</B><C>112</C><D>125</D><E>140</E><F>180</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>100</B><C>112</C><D>140</D><E>160</E><F>200</F><G>250</G><H>315</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>112</B><C>125</C><D>140</D><E>160</E><F>200</F><G>250</G><H>355</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>125</B><C>140</C><D>160</D><E>180</E><F>224</F><G>280</G><H>355</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>160</C><D>180</D><E>200</E><F>224</F><G>280</G><H>400</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>200</D><E>224</E><F>280</F><G>315</G><H>400</H>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

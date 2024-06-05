@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.1" category="SBELTS" thumbnail="XXH-ISO5296.jpg" name="%1%" desc="%2%" profile="single" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="in">1.25</Pitch>
+    <S src="fixed" dt="number" units="in">0.75</S>
+    <ht src="fixed" dt="number" units="in">0.375</ht>
+    <PitchOfst src="fixed" dt="number" units="in">0.06</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">20.0</beta>
+    <Height src="fixed" dt="number" units="in" >0.62</Height>
+    <ra src="fixed" dt="number" units="in" >0.06</ra>
+    <rr src="fixed" dt="number" units="in" >0.09</rr>
+    <Width0 src="fixed" dt="number" units="in">5.0</Width0>
+    <Width src="table" dt="number" units="in" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">1.75</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">9.5</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">7100.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="700XXH200" >
+      <Size>700XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="770XXH200" >
+      <Size>800XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="900XXH200" >
+      <Size>900XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="1000XXH200" >
+      <Size>1000XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="1200XXH200" >
+      <Size>1200XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="1400XXH200" >
+      <Size>1400XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="1540XXH200" >
+      <Size>1600XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="1800XXH200" >
+      <Size>1800XXH200</Size>
+      <Width>2.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="700XXH300" >
+      <Size>700XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="770XXH300" >
+      <Size>800XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="900XXH300" >
+      <Size>900XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="1000XXH300" >
+      <Size>1000XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="1200XXH300" >
+      <Size>1200XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="1400XXH300" >
+      <Size>1400XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="1540XXH300" >
+      <Size>1600XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="1800XXH300" >
+      <Size>1800XXH300</Size>
+      <Width>3.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="700XXH400" >
+      <Size>700XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="770XXH400" >
+      <Size>800XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="900XXH400" >
+      <Size>900XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="1000XXH400" >
+      <Size>1000XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="1200XXH400" >
+      <Size>1200XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="1400XXH400" >
+      <Size>1400XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="1540XXH400" >
+      <Size>1600XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="1800XXH400" >
+      <Size>1800XXH400</Size>
+      <Width>4.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="700XXH500" >
+      <Size>700XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="770XXH500" >
+      <Size>800XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="900XXH500" >
+      <Size>900XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="1000XXH500" >
+      <Size>1000XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="1200XXH500" >
+      <Size>1200XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="1400XXH500" >
+      <Size>1400XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="1540XXH500" >
+      <Size>1600XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="1800XXH500" >
+      <Size>1800XXH500</Size>
+      <Width>5.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

@@ -1,0 +1,17 @@
+<Resources>
+  <string id="%1%" value="Nominal diameter"/>
+  <string id="%2%" value="Close clearance"/>
+  <string id="%3%" value="Normal clearance"/>
+  <string id="%4%" value="Loose clearance"/>
+  <string id="%5%" value="Head diameter"/>
+  <string id="%6%" value="Counterbore depth"/>
+  <string id="%7%" value="Countersink angle"/>
+  <string id="%8%" value="ANSI Unified Screw Threads"/>
+  <string id="%9%" value="ANSI Flat Head Machine Screw (82)"/>
+  <string id="%10%" value="ANSI Flat Head Machine Screw (100)"/>
+  <string id="%11%" value="ANSI Hex Head Bolt"/>
+  <string id="%12%" value="ANSI Hex Machine Screw"/>
+  <string id="%13%" value="ANSI Oval Head Machine Screw"/>
+  <string id="%14%" value="ANSI Socket Head Cap Screw"/>
+  <string id="%15%" value="ANSI Flat Head Machine Screw (80)"/>
+</Resources>

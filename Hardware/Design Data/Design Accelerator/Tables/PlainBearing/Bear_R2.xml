@@ -1,0 +1,36 @@
+<FDesign>
+	<Table InternalName="7DCE2A68-C87E-4FEF-BCCC-16C234616E3C">
+		<Definition DisplayName="Charakteristicke cislo recirkulace R2 zavislost B/D na Epsilon">
+			<Columns>
+				<A Description="Relativni sirka loziska" Units="ul" /><B Description="Charakteristicke cislo recirkulace R2" Units="ul" /><C Description="Charakteristicke cislo recirkulace R2" Units="ul" />
+			</Columns>
+			<Note>First row contain: Relativni vystrednost cepu []</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>0.5</B><C>0.8</C>
+			</Row>
+			<Row>
+				<A>0.2</A><B>0.105</B><C>0.04</C>
+			</Row>
+			<Row>
+				<A>0.4</A><B>0.2</B><C>0.08</C>
+			</Row>
+			<Row>
+				<A>0.6</A><B>0.305</B><C>0.13</C>
+			</Row>
+			<Row>
+				<A>0.8</A><B>0.42</B><C>0.18</C>
+			</Row>
+			<Row>
+				<A>1</A><B>0.53</B><C>0.23</C>
+			</Row>
+			<Row>
+				<A>1.2</A><B>0.645</B><C>0.265</C>
+			</Row>
+			<Row>
+				<A>1.5</A><B>0.83</B><C>0.34</C>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

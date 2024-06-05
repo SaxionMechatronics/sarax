@@ -1,0 +1,577 @@
+<FDesign>
+	<Table InternalName="5DE2EEE6-2CDC-4705-A9F2-CE661C2320C6">
+		<Definition DisplayName="DiameterAndPitches(Imperial)">
+			<Columns>
+				<d  Description="Thread Diameter" Units="in" />
+				<ID  Description="Pitche Table ID" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<d>0.2500</d>
+				<ID>0B4E0CD3-083A-460f-AFE5-55A6BCBD391D</ID>
+			</Row>		
+			<Row>
+				<d>0.3125</d>
+				<ID>8ACAD373-0E36-4b44-AE3A-180D592D7BD4</ID>
+			</Row>
+			<Row>
+				<d>0.3750</d>
+				<ID>C57B1479-0C89-4628-A42F-F96490D1825C</ID>
+			</Row>
+			<Row>
+				<d>0.4375</d>
+				<ID>C57B1479-0C89-4628-A42F-F96490D1825C</ID>
+			</Row>
+			<Row>
+				<d>0.5000</d>
+				<ID>7EF121F8-F593-422e-BB2B-924D6CC31B14</ID>
+			</Row>
+			<Row>
+				<d>0.6250</d>
+				<ID>B27C394F-860F-4d88-8681-E77030E7C170</ID>
+			</Row>
+			<Row>
+				<d>0.7500</d>
+				<ID>7E0C8BD6-6DD0-450a-8F27-4DF257F3AF4C</ID>
+			</Row>
+			<Row>
+				<d>0.8750</d>
+				<ID>7E0C8BD6-6DD0-450a-8F27-4DF257F3AF4C</ID>
+			</Row>
+			<Row>
+				<d>1.0000</d>
+				<ID>B9D3FC49-BC09-444f-85B1-E8E6AC9876A6</ID>
+			</Row>
+			<Row>
+				<d>1.1250</d>
+				<ID>B9D3FC49-BC09-444f-85B1-E8E6AC9876A6</ID>
+			</Row>
+			<Row>
+				<d>1.2500</d>
+				<ID>B9D3FC49-BC09-444f-85B1-E8E6AC9876A6</ID>
+			</Row>
+			<Row>
+				<d>1.3750</d>
+				<ID>7A660D0C-C68D-411a-947A-86F3956D469C</ID>
+			</Row>
+			<Row>
+				<d>1.5000</d>
+				<ID>7A660D0C-C68D-411a-947A-86F3956D469C</ID>
+			</Row>
+			<Row>
+				<d>1.7500</d>
+				<ID>7A660D0C-C68D-411a-947A-86F3956D469C</ID>
+			</Row>
+			<Row>
+				<d>2.0000</d>
+				<ID>7A660D0C-C68D-411a-947A-86F3956D469C</ID>
+			</Row>
+			<Row>
+				<d>2.2500</d>
+				<ID>7349CFE1-DAE7-4941-AB62-3B734FBE6620</ID>
+			</Row>
+			<Row>
+				<d>2.5000</d>
+				<ID>7349CFE1-DAE7-4941-AB62-3B734FBE6620</ID>
+			</Row>
+			<Row>
+				<d>2.7500</d>
+				<ID>7349CFE1-DAE7-4941-AB62-3B734FBE6620</ID>
+			</Row>
+			<Row>
+				<d>3.0000</d>
+				<ID>D9C89993-2546-46c7-B54E-F553BAE37A43</ID>
+			</Row>
+			<Row>
+				<d>3.5000</d>
+				<ID>D9C89993-2546-46c7-B54E-F553BAE37A43</ID>
+			</Row>
+			<Row>
+				<d>4.0000</d>
+				<ID>D9C89993-2546-46c7-B54E-F553BAE37A43</ID>
+			</Row>
+			<Row>
+				<d>4.5000</d>
+				<ID>7E4FA451-4288-4f9c-80D1-4121904A7B7D</ID>
+			</Row>
+			<Row>
+				<d>5.0000</d>
+				<ID>7E4FA451-4288-4f9c-80D1-4121904A7B7D</ID>
+			</Row>
+			<Row>
+				<d>5.5000</d>
+				<ID>7E4FA451-4288-4f9c-80D1-4121904A7B7D</ID>
+			</Row>
+			<Row>
+				<d>6.0000</d>
+				<ID>7E4FA451-4288-4f9c-80D1-4121904A7B7D</ID>
+			</Row>
+			<Row>
+				<d>7.0000</d>
+				<ID>0F332D9D-BB61-4e9d-BAB2-AF6551AFCC47</ID>
+			</Row>
+			<Row>
+				<d>8.0000</d>
+				<ID>0F332D9D-BB61-4e9d-BAB2-AF6551AFCC47</ID>
+			</Row>
+			<Row>
+				<d>9.0000</d>
+				<ID>0F332D9D-BB61-4e9d-BAB2-AF6551AFCC47</ID>
+			</Row>
+			<Row>
+				<d>10.0000</d>
+				<ID>0F332D9D-BB61-4e9d-BAB2-AF6551AFCC47</ID>
+			</Row>
+			<Row>
+				<d>11.0000</d>
+				<ID>2A92CF87-DB2C-46be-85EF-DCAABF12D66C</ID>
+			</Row>
+			<Row>
+				<d>12.0000</d>
+				<ID>2A92CF87-DB2C-46be-85EF-DCAABF12D66C</ID>
+			</Row>
+			<Row>
+				<d>14.0000</d>
+				<ID>2A92CF87-DB2C-46be-85EF-DCAABF12D66C</ID>
+			</Row>
+			<Row>
+				<d>16.0000</d>
+				<ID>2A92CF87-DB2C-46be-85EF-DCAABF12D66C</ID>
+			</Row>
+			<Row>
+				<d>18.0000</d>
+				<ID>38A68F07-DE94-41f3-B2EF-A3A3E079C429</ID>
+			</Row>
+			<Row>
+				<d>20.0000</d>
+				<ID>38A68F07-DE94-41f3-B2EF-A3A3E079C429</ID>
+			</Row>
+			<Row>
+				<d>22.0000</d>
+				<ID>38A68F07-DE94-41f3-B2EF-A3A3E079C429</ID>
+			</Row>
+			<Row>
+				<d>24.0000</d>
+				<ID>38A68F07-DE94-41f3-B2EF-A3A3E079C429</ID>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="0B4E0CD3-083A-460f-AFE5-55A6BCBD391D">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="8ACAD373-0E36-4b44-AE3A-180D592D7BD4">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/14</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="C57B1479-0C89-4628-A42F-F96490D1825C">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="7EF121F8-F593-422e-BB2B-924D6CC31B14">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="B27C394F-860F-4d88-8681-E77030E7C170">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="7E0C8BD6-6DD0-450a-8F27-4DF257F3AF4C">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="B9D3FC49-BC09-444f-85B1-E8E6AC9876A6">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="7A660D0C-C68D-411a-947A-86F3956D469C">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/4</p>
+			</Row>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="7349CFE1-DAE7-4941-AB62-3B734FBE6620">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/3</p>
+			</Row>
+			<Row>
+				<p>1/4</p>
+			</Row>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="D9C89993-2546-46c7-B54E-F553BAE37A43">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/2</p>
+			</Row>
+			<Row>
+				<p>1/3</p>
+			</Row>
+			<Row>
+				<p>1/4</p>
+			</Row>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>
+			<Row>
+				<p>1/16</p>
+			</Row>
+			<Row>
+				<p>1/20</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="7E4FA451-4288-4f9c-80D1-4121904A7B7D">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/2</p>
+			</Row>
+			<Row>
+				<p>1/3</p>
+			</Row>
+			<Row>
+				<p>1/4</p>
+			</Row>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>
+			<Row>
+				<p>1/12</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="0F332D9D-BB61-4e9d-BAB2-AF6551AFCC47">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/2</p>
+			</Row>
+			<Row>
+				<p>1/2.5</p>
+			</Row>
+			<Row>
+				<p>1/3</p>
+			</Row>
+			<Row>
+				<p>1/4</p>
+			</Row>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="2A92CF87-DB2C-46be-85EF-DCAABF12D66C">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/1.25</p>
+			</Row>
+			<Row>
+				<p>1/1.5</p>
+			</Row>
+			<Row>
+				<p>1/2</p>
+			</Row>
+			<Row>
+				<p>1/2.5</p>
+			</Row>
+			<Row>
+				<p>1/3</p>
+			</Row>
+			<Row>
+				<p>1/4</p>
+			</Row>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>
+			<Row>
+				<p>1/10</p>
+			</Row>	
+		</Data>
+	</Table>
+
+	<Table InternalName="38A68F07-DE94-41f3-B2EF-A3A3E079C429">
+		<Definition DisplayName="Pitches(Imperial)">
+			<Columns>
+				<p  Description="Pitch" Units="in" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>1/1.25</p>
+			</Row>
+			<Row>
+				<p>1/1.5</p>
+			</Row>
+			<Row>
+				<p>1/2</p>
+			</Row>
+			<Row>
+				<p>1/2.5</p>
+			</Row>
+			<Row>
+				<p>1/3</p>
+			</Row>
+			<Row>
+				<p>1/4</p>
+			</Row>
+			<Row>
+				<p>1/5</p>
+			</Row>
+			<Row>
+				<p>1/6</p>
+			</Row>
+			<Row>
+				<p>1/8</p>
+			</Row>	
+		</Data>
+	</Table>
+</FDesign>
+	

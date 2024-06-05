@@ -1,0 +1,76 @@
+<FDesign>
+	<Table InternalName="4AB31EF0-F88F-40B8-952F-5EAB594236DC">
+		<Definition DisplayName="YSa1 coefficients">
+			<Columns>
+				<A Description="Coefficient" Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>-0.44919</A></Row>
+			<Row><A>1.51991</A></Row>
+			<Row><A>0.20807</A></Row>
+			<Row><A>0.06878</A></Row>
+			<Row><A>-0.24309</A></Row>
+			<Row><A>0.26525</A></Row>
+			<Row><A>0.8</A></Row>
+			<Row><A>0.0061728</A></Row>
+			<Row><A>0.0012346</A></Row>
+			<Row><A>0.0012346</A></Row>
+			<Row><A>10</A></Row>
+			<Row><A>-19</A></Row>
+			<Row><A>7</A></Row>
+			<Row><A>25</A></Row>
+			<Row><A>-25</A></Row>
+			<Row><A>-14</A></Row>
+			<Row><A>-10</A></Row>
+			<Row><A>1</A></Row>
+			<Row><A>2</A></Row>
+			<Row><A>-0.120306</A></Row>
+			<Row><A>0.428401</A></Row>
+			<Row><A>0.751957</A></Row>
+			<Row><A>0.922347</A></Row>
+			<Row><A>-7.822789</A></Row>
+			<Row><A>15.759852</A></Row>
+			<Row><A>0.401021</A></Row>
+			<Row><A>-4.805402</A></Row>
+			<Row><A>14.395695</A></Row>
+		</Data>
+	</Table>
+	<Table InternalName="3AAC6675-B732-4278-8673-C72898CF6BCB">
+		<Definition DisplayName="YSa2 coefficients">
+			<Columns>
+				<A Description="Coefficient" Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>-0.58538</A></Row>
+			<Row><A>2.40574</A></Row>
+			<Row><A>-0.68513</A></Row>
+			<Row><A>0.08791</A></Row>
+			<Row><A>-0.36596</A></Row>
+			<Row><A>0.45622</A></Row>
+			<Row><A>0.95</A></Row>
+			<Row><A>1</A></Row>
+			<Row><A>0.0123457</A></Row>
+			<Row><A>0</A></Row>
+			<Row><A>0.132531</A></Row>
+			<Row><A>-0.184142</A></Row>
+			<Row><A>-0.0227062</A></Row>
+			<Row><A>-100</A></Row>
+			<Row><A>100</A></Row>
+			<Row><A>56</A></Row>
+			<Row><A>0</A></Row>
+			<Row><A>0</A></Row>
+			<Row><A>0</A></Row>
+			<Row><A>0.200510</A></Row>
+			<Row><A>1.452808</A></Row>
+			<Row><A>2.506599</A></Row>
+			<Row><A>-0.028853</A></Row>
+			<Row><A>0.293410</A></Row>
+			<Row><A>-0.722182</A></Row>
+			<Row><A>0</A></Row>
+			<Row><A>0</A></Row>
+			<Row><A>0</A></Row>
+		</Data>
+	</Table>
+</FDesign>

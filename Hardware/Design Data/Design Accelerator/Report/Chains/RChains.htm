@@ -1,0 +1,219 @@
+$$chain_html$
+$$sprockets_html$
+<h3 class="expanded">$$BasicParams$</h3>
+<blockquote>
+	<table class="ta">
+		<tr>
+			<td>$$description_P$</td>
+			<td>$$designation_P$</td>
+			<td align=middle>$$value_P$</td>
+		</tr>
+		<tr>
+			<td>$$description_T$</td>
+			<td>$$designation_T$</td>
+			<td align=middle>$$value_T$</td>
+		</tr>
+		<tr>
+			<td>$$description_Speed$</td>
+			<td>$$designation_Speed$</td>
+			<td align=middle>$$value_Speed$</td>
+		</tr>
+		<tr>
+			<td>$$description_eff$</td>
+			<td>$$designation_eff$</td>
+			<td align=middle>$$value_eff$</td>
+		</tr>
+		<tr>
+			<td>$$description_Lh$</td>
+			<td>$$designation_Lh$</td>
+			<td align=middle>$$value_Lh$</td>
+		</tr>
+		<tr>
+			<td>$$description_dL$</td>
+			<td>$$designation_dL$</td>
+			<td align=middle>$$value_dL$</td>
+		</tr><!--iif(IsNotCustomY)
+		<tr>
+			<td>$$Application$</td>
+			<td colspan="2">$$ApplicationVal$</td>
+		</tr>iif--><!--iif(IsNotCustomF4)
+		<tr>
+			<td>$$Environment$</td>
+			<td colspan="2">$$EnvironmentVal$</td>
+		</tr>
+		<tr>
+			<td>$$Lubrication$</td>
+			<td colspan="2">$$LubricationVal$</td>
+		</tr>iif-->
+	</table>
+</blockquote>
+<h3 class="expanded">$$PowerFactors$</h3>
+<blockquote>
+	<table class="ta">
+		<tr>
+			<td>$$description_Y$</td>
+			<td>$$designation_Y$</td>
+			<td align=middle>$$value_Y$</td>
+		</tr>
+		<tr>
+			<td>$$description_f1$</td>
+			<td>$$designation_f1$</td>
+			<td align=middle>$$value_f1$</td>
+		</tr>
+		<tr>
+			<td>$$description_f2$</td>
+			<td>$$designation_f2$</td>
+			<td align=middle>$$value_f2$</td>
+		</tr>
+		<tr>
+			<td>$$description_f3$</td>
+			<td>$$designation_f3$</td>
+			<td align=middle>$$value_f3$</td>
+		</tr>
+		<tr>
+			<td>$$description_f4$</td>
+			<td>$$designation_f4$</td>
+			<td align=middle>$$value_f4$</td>
+		</tr>
+		<tr>
+			<td>$$description_f5$</td>
+			<td>$$designation_f5$</td>
+			<td align=middle>$$value_f5$</td>
+		</tr>
+		<tr>
+			<td>$$description_f6$</td>
+			<td>$$designation_f6$</td>
+			<td align=middle>$$value_f6$</td>
+		</tr>
+		<tr>
+			<td>$$description_f7$</td>
+			<td>$$designation_f7$</td>
+			<td align=middle>$$value_f7$</td>
+		</tr>
+	</table>
+</blockquote>
+<h3 class="expanded">$$PowerRating$</h3>
+<blockquote>
+	<table><tr><td><img SRC="$$pic_powergraph$"></td></tr></table>
+</blockquote>
+<h3 class="expanded">$$Results$</h3>
+<blockquote>
+	<table class="ta">
+		<tr>
+			<td>$$description_v$</td>
+			<td>$$designation_v$</td>
+			<td align=middle>$$value_v$</td>
+		</tr>
+		<tr>
+			<td>$$description_Fp$</td>
+			<td>$$designation_Fp$</td>
+			<td align=middle>$$value_Fp$</td>
+		</tr>
+		<tr>
+			<td>$$description_Fc$</td>
+			<td>$$designation_Fc$</td>
+			<td align=middle>$$value_Fc$</td>
+		</tr>
+		<tr>
+			<td>$$description_Ftmax$</td>
+			<td>$$designation_Ftmax$</td>
+			<td align=middle>$$value_Ftmax$</td>
+		</tr>
+		<tr>
+			<td>$$description_S_s$</td>
+			<td>$$designation_S_s$ > $$designation_S_smin$</td>
+			<td align=middle>$$value_S_s$ > $$value_S_smin$</td>
+		</tr>
+		<tr>
+			<td>$$description_S_d$</td>
+			<td>$$designation_S_d$ > $$designation_S_dmin$</td>
+			<td align=middle>$$value_S_d$ > $$value_S_dmin$</td>
+		</tr>
+		<tr>
+			<td>$$description_pB$</td>
+			<td>$$designation_pB$ < $$designation_p0$ * $$designation_l$</td>
+			<td align=middle>$$value_pB$</td>
+		</tr><!--iif(IsLimitPb)
+		<tr>
+			<td>$$description_p0$</td>
+			<td>$$designation_p0$</td>
+			<td align=middle>$$value_p0$</td>
+		</tr>
+		<tr>
+			<td>$$description_l$</td>
+			<td>$$designation_l$</td>
+			<td align=middle>$$value_l$</td>
+		</tr>iif-->
+		<tr>
+			<td>$$description_PD$</td>
+			<td>$$designation_PD$ < $$designation_PR$</td>
+			<td align=middle>$$value_PD$</td>
+		</tr>
+		<tr>
+			<td>$$description_PR$</td>
+			<td>$$designation_PR$</td>
+			<td align=middle>$$value_PR$</td>
+		</tr>
+		<tr>
+			<td>$$description_th$</td>
+			<td>$$designation_th$ > $$designation_Lh$</td>
+			<td align=middle>$$value_th$</td>
+		</tr>
+		<tr>
+			<td>$$description_thl$</td>
+			<td>$$designation_thl$ > $$designation_Lh$</td>
+			<td align=middle>$$value_thl$</td>
+		</tr>
+		<tr>
+			<td>$$description_thr$</td>
+			<td>$$designation_thr$ > $$designation_Lh$</td>
+			<td align=middle>$$value_thr$</td>
+		</tr>
+	</table>
+</blockquote><!--iif(VibrationAnalysis)
+<h3 class="expanded">$$Vibration$</h3>
+<blockquote>
+	<table class="ta">
+		<tr>
+			<td>$$description_c$</td>
+			<td>$$designation_c$</td>
+			<td align=middle>$$value_c$</td>
+		</tr>
+		<tr>
+			<td>$$description_dn$</td>
+			<td>$$designation_dn$</td>
+			<td align=middle>$$value_dn$</td>
+		</tr>
+		<tr>
+			<td>$$description_ncl$</td>
+			<td>$$designation_ncl$</td>
+			<td align=middle>$$value_ncl$</td>
+		</tr>
+		<tr>
+			<td>$$description_ncw$</td>
+			<td>$$designation_ncw$</td>
+			<td align=middle>$$value_ncw$</td>
+		</tr>
+		<tr>
+			<td>$$description_ncaca$</td>
+			<td>$$designation_ncaca$</td>
+			<td align=middle>$$value_ncaca$</td>
+		</tr>
+		<tr>
+			<td>$$description_ncacr$</td>
+			<td>$$designation_ncacr$</td>
+			<td align=middle>$$value_ncacr$</td>
+		</tr>
+		<tr>
+			<td>$$description_ncaip$</td>
+			<td>$$designation_ncaip$</td>
+			<td align=middle>$$value_ncaip$</td>
+		</tr>
+	</table>
+</blockquote>iif-->
+<h3 class="expanded">$$ErrorManager$</h3>
+<blockquote>
+<table class="ta">
+<tr><td>$$ErrorManagerMessages$</td></tr>
+</table>
+</blockquote>

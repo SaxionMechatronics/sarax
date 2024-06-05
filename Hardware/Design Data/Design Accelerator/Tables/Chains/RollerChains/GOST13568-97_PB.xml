@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="RCHAIN" thumbnail="GOST13568-97_PB.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="GOST" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <b src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <t1 src="table" dt="number" units="mm"/>
+    <t2 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="kN"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="cm^2"/>
+    <fi src="fixed" dt="number" units="ul">1.0</fi>
+    <Lh0 src="fixed" dt="number" units="hr">10000</Lh0>
+    <Pc1 src="fixed" dt="string">11.682kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0008ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">1626.6kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="PB9525-11" >
+      <Designation>%3%-9,525-11,5</Designation>
+      <Size>PB9525-11</Size>
+      <k>1</k>
+      <p>9.525</p>
+      <Pt>10.13</Pt>
+      <d1>5</d1>
+      <b1>7.6</b1>
+      <d2>3.59</d2>
+      <b>18.5</b>
+      <h2>8.8</h2>
+      <h3>8.8</h3>
+      <t1>1.25</t1>
+      <t2>1.25</t2>
+      <Fu>11.5</Fu>
+      <m>0.2</m>
+      <A>0.4</A>
+    </Member>
+    <Member moniker="PB9525-13" >
+      <Designation>%3%-9,525-13</Designation>
+      <Size>PB9525-13</Size>
+      <k>1</k>
+      <p>9.525</p>
+      <Pt>10.13</Pt>
+      <d1>6</d1>
+      <b1>9.52</b1>
+      <d2>4.45</d2>
+      <b>21.2</b>
+      <h2>9.85</h2>
+      <h3>9.85</h3>
+      <t1>1.25</t1>
+      <t2>1.25</t2>
+      <Fu>13</Fu>
+      <m>0.65</m>
+      <A>0.56</A>
+    </Member>
+    <Member moniker="2PB9525-20" >
+      <Designation>2%3%-9,525-20</Designation>
+      <Size>2PB9525-20</Size>
+      <k>2</k>
+      <p>9.525</p>
+      <Pt>10.75</Pt>
+      <d1>6</d1>
+      <b1>5.2</b1>
+      <d2>4.45</d2>
+      <b>27.5</b>
+      <h2>9.85</h2>
+      <h3>9.85</h3>
+      <t1>1.25</t1>
+      <t2>1.25</t2>
+      <Fu>20</Fu>
+      <m>1</m>
+      <A>0.8</A>
+    </Member>
+  </Members>
+</CustomFamily>

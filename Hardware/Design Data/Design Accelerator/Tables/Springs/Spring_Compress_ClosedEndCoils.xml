@@ -1,0 +1,38 @@
+<FDesign>
+	<Table InternalName="C62F0638-052D-4eb7-9E8B-58CF784D27CB">
+		<Definition DisplayName="ClosedEndCoilsValues">
+			<Columns>
+				<nz Description="Closed End Coils" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<nz>0</nz>
+			</Row>
+			<Row>
+				<nz>0.25</nz>
+			</Row>
+			<Row>
+				<nz>0.5</nz>
+			</Row>
+			<Row>
+				<nz>0.75</nz>
+			</Row>
+			<Row>
+				<nz>1</nz>
+			</Row>
+			<Row>
+				<nz>1.25</nz>
+			</Row>
+			<Row>
+				<nz>1.5</nz>
+			</Row>
+			<Row>
+				<nz>1.75</nz>
+			</Row>
+			<Row>
+				<nz>2</nz>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

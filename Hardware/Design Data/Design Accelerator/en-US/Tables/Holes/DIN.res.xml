@@ -1,0 +1,18 @@
+<Resources>
+  <string id="%1%" value="Nominal diameter"/>
+  <string id="%2%" value="Close clearance"/>
+  <string id="%3%" value="Normal clearance"/>
+  <string id="%4%" value="Loose clearance"/>
+  <string id="%5%" value="Head diameter"/>
+  <string id="%6%" value="Counterbore depth"/>
+  <string id="%7%" value="Countersink angle"/>
+  <string id="%8%" value="DIN Drilled hole"/>
+  <string id="%9%" value="Countersunk Flat Head Screw DIN EN ISO 2009"/>
+  <string id="%10%" value="Countersunk Raised Head Screw ISO 2010"/>
+  <string id="%11%" value="Hex Head Cap Screw DIN EN 24017"/>
+  <string id="%12%" value="Hex Head Cap Screw DIN EN 24014 (Spotface)"/>
+  <string id="%13%" value="DIN Hex Head Screw"/>
+  <string id="%14%" value="Countersunk Flat Head Hex Socket Screw DIN EN ISO 10642"/>
+  <string id="%15%" value="Socket Head Cap Screw DIN EN ISO 4762"/>
+  <string id="%16%" value="Slotted Cheese Head Screw DIN 84"/>
+</Resources>

@@ -1,0 +1,204 @@
+<h5 class="expanded">$$Calculation_Properties$</h5>
+<blockquote>
+<table class=ta>
+	<tr>
+		<td align=middle>$$Include$</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td align=middle>$$UseDensity$</td>
+		<td>$$description_Ro$</td>
+		<td align=middle>$$designation_Ro$</td>
+		<td align=middle>$$value_Ro$</td>
+	</tr>
+	<tr>
+		<td align=middle>$$UseBeta$</td>
+		<td>$$description_Beta$</td>
+		<td align=middle>$$designation_Beta$</td>
+		<td align=middle>$$value_Beta$</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>$$description_Div$</td>
+		<td></td>
+		<td align=middle>$$value_Div$</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>$$ModeOfStress$</td>
+		<td></td>
+		<td align=middle>$$value_ModeOfStress$</td>
+	</tr>
+</table>
+</blockquote>
+
+<h5 class="expanded">$$Loads$</h5>
+<blockquote>
+<table class=ta>
+	<tr>
+		<td align=middle rowspan=2>$$Index$</td>
+		<td align=middle rowspan=2>$$Location$</td>
+		<td align=middle colspan=4>$$RadialForce$</td>
+		<td align=middle colspan=4>$$BendingMoment$</td>
+		<td align=middle colspan=5>$$ContinuousLoad$</td>
+		<td align=middle rowspan=2>$$AxialForce$</td>
+		<td align=middle rowspan=2>$$Torque$</td>
+		<td align=middle colspan=4>$$Deflection$</td>
+		<td align=middle rowspan=2>$$Rotation$</td>
+	</tr>
+	<tr>
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+		<td align=middle>$$Length$</td>
+
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+	</tr>
+	$$load_table$
+</table>
+</blockquote>
+
+<h5 class="expanded">$$Supports$</h5>
+<blockquote>
+<table class=ta>
+	<tr><!--iif(SHAFT)
+		<td align=middle rowspan=2>$$Index$</td>
+		<td align=middle rowspan=2>$$Type$</td>
+		<td align=middle rowspan=2>$$Location$</td>
+		<td align=middle colspan=5>$$ReactionForce$</td>
+		<td align=middle rowspan=2>$$Yielding$</td>
+		<td align=middle rowspan=2>$$Type$</td>
+		<td align=middle colspan=4>$$Deflection$</td>
+		<td align=middle rowspan=2>$$Rotation$</td>
+	</tr>
+	<tr>
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+		<td align=middle>$$AxialForce$</td>
+
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+	</tr>iif--><!--iif(BEAM)
+		<td align=middle rowspan=2>$$Index$</td>
+		<td align=middle rowspan=2>$$Type$</td>
+		<td align=middle rowspan=2>$$Location$</td>
+		<td align=middle colspan=5>$$ReactionForce$</td>
+		<td align=middle colspan=2>$$Yielding$</td>
+		<td align=middle colspan=2>$$RadialDisplacement$</td>
+		<td align=middle colspan=4>$$Deflection$</td>
+		<td align=middle rowspan=2>$$Rotation$</td>
+	</tr>
+	<tr>
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+		<td align=middle>$$AxialForce$</td>
+
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+
+		<td align=middle>$$XY$</td>
+		<td align=middle>$$XZ$</td>
+		<td align=middle>$$Size$</td>
+		<td align=middle>$$Angle$</td>
+	</tr>iif-->
+	$$support_table$
+</table>
+</blockquote>
+
+<h5 class="expanded">$$Results$</h5>
+<blockquote>
+<table class=ta>
+	<tr>
+		<td>$$description_ShLen$</td>
+		<td align=middle>$$designation_ShLen$</td>
+		<td align=middle>$$value_ShLen$</td>
+	</tr>
+	<tr>
+		<td>$$description_Mass$</td>
+		<td align=middle>$$designation_Mass$</td>
+		<td align=middle>$$value_Mass$</td>
+	</tr>
+	<tr>
+		<td>$$description_SigmaMax$</td>
+		<td align=middle>$$designation_SigmaMax$</td>
+		<td align=middle>$$value_SigmaMax$</td>
+	</tr>
+	<tr>
+		<td>$$description_ShearMax$</td>
+		<td align=middle>$$designation_ShearMax$</td>
+		<td align=middle>$$value_ShearMax$</td>
+	</tr>
+	<tr>
+		<td>$$description_TorsionMax$</td>
+		<td align=middle>$$designation_TorsionMax$</td>
+		<td align=middle>$$value_TorsionMax$</td>
+	</tr>
+	<tr>
+		<td>$$description_TensionMax$</td>
+		<td align=middle>$$designation_TensionMax$</td>
+		<td align=middle>$$value_TensionMax$</td>
+	</tr>
+	<tr>
+		<td>$$description_ReducedStressMax$</td>
+		<td align=middle>$$designation_ReducedStressMax$</td>
+		<td align=middle>$$value_ReducedStressMax$</td>
+	</tr>
+	<tr>
+		<td>$$description_MaxDefl$</td>
+		<td align=middle>$$designation_MaxDefl$</td>
+		<td align=middle>$$value_MaxDefl$</td>
+	</tr>
+		<td>$$description_Atw$</td>
+		<td align=middle>$$designation_Atw$</td>
+		<td align=middle>$$value_Atw$</td>
+	</tr>
+</table>
+</blockquote>
+<h5 class="expanded">$$Preview$</h5><blockquote><img src="ShaftPreview.png"></blockquote>
+<h5 class="expanded">$$GraphName3$</h5><blockquote><img src="Graph3.png"></blockquote>
+<h5 class="expanded">$$GraphName1$</h5><blockquote><img src="Graph1.png"></blockquote>
+<h5 class="expanded">$$GraphName2$</h5><blockquote><img src="Graph2.png"></blockquote>
+<h5 class="expanded">$$GraphName7$</h5><blockquote><img src="Graph7.png"></blockquote>
+<h5 class="expanded">$$GraphName5$</h5><blockquote><img src="Graph5.png"></blockquote>
+<h5 class="expanded">$$GraphName6$</h5><blockquote><img src="Graph6.png"></blockquote>
+<h5 class="expanded">$$GraphName11$</h5><blockquote><img src="Graph11.png"></blockquote>
+<h5 class="expanded">$$GraphName9$</h5><blockquote><img src="Graph9.png"></blockquote>
+<h5 class="expanded">$$GraphName10$</h5><blockquote><img src="Graph10.png"></blockquote>
+<h5 class="expanded">$$GraphName15$</h5><blockquote><img src="Graph15.png"></blockquote>
+<h5 class="expanded">$$GraphName13$</h5><blockquote><img src="Graph13.png"></blockquote>
+<h5 class="expanded">$$GraphName14$</h5><blockquote><img src="Graph14.png"></blockquote>
+<h5 class="expanded">$$GraphName19$</h5><blockquote><img src="Graph19.png"></blockquote>
+<h5 class="expanded">$$GraphName17$</h5><blockquote><img src="Graph17.png"></blockquote>
+<h5 class="expanded">$$GraphName18$</h5><blockquote><img src="Graph18.png"></blockquote>
+<h5 class="expanded">$$GraphName23$</h5><blockquote><img src="Graph23.png"></blockquote>
+<h5 class="expanded">$$GraphName21$</h5><blockquote><img src="Graph21.png"></blockquote>
+<h5 class="expanded">$$GraphName22$</h5><blockquote><img src="Graph22.png"></blockquote>
+<h5 class="expanded">$$GraphName24$</h5><blockquote><img src="Graph24.png"></blockquote>
+<h5 class="expanded">$$GraphName25$</h5><blockquote><img src="Graph25.png"></blockquote>
+<h5 class="expanded">$$GraphName26$</h5><blockquote><img src="Graph26.png"></blockquote>
+<h5 class="expanded">$$GraphName27$</h5><blockquote><img src="Graph27.png"></blockquote>

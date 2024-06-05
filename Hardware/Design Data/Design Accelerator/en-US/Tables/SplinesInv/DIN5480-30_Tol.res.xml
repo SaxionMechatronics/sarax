@@ -1,0 +1,26 @@
+<Resources>
+  <string id="%1%" value="a"/>
+  <string id="%2%" value="b"/>
+  <string id="%3%" value="c"/>
+  <string id="%4%" value="d"/>
+  <string id="%5%" value="e"/>  
+  <string id="%6%" value="f"/>
+  <string id="%7%" value="g"/>
+  <string id="%8%" value="h"/>  
+  <string id="%9%" value="i"/> 
+  <string id="%10%" value="k"/>   
+  <string id="%11%" value="m"/>   
+  <string id="%12%" value="n"/>   
+  <string id="%13%" value="p"/>   
+  <string id="%14%" value="r"/>   
+  <string id="%15%" value="s"/>   
+  <string id="%16%" value="t"/>   
+  <string id="%17%" value="u"/>   
+  <string id="%18%" value="v"/>   
+  <string id="%19%" value="F"/>   
+  <string id="%20%" value="G"/>    
+  <string id="%21%" value="H"/>  
+  <string id="%22%" value="J"/>  
+  <string id="%23%" value="K"/>  
+  <string id="%24%" value="M"/>                       
+</Resources>

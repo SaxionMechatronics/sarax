@@ -1,0 +1,43 @@
+<FDesign>
+  <Table InternalName="315542BB-EF73-409E-B2E6-259CD5AC2B2F">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%9%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <TauD1 DisplayName="%10%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauD2 DisplayName="%10%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauD3 DisplayName="%10%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>797C88D0398048758869F86E3BEDB48B</ID>
+        <Material>%5%</Material>
+        <TauD1>50</TauD1>
+        <TauD2>35</TauD2>
+        <TauD3>25</TauD3>
+      </Row>
+      <Row>
+        <ID>80118A8397AA4A0EABA2A11D742D84D0</ID>
+        <Material>%6%</Material>
+        <TauD1>90</TauD1>
+        <TauD2>60</TauD2>
+        <TauD3>45</TauD3>
+      </Row>
+      <Row>
+        <ID>72AB3825EA124A9C9ADE4A449298C91B</ID>
+        <Material>%7%</Material>
+        <TauD1>70</TauD1>
+        <TauD2>50</TauD2>
+        <TauD3>35</TauD3>
+      </Row>
+      <Row>
+        <ID>E5464AB53D974A01A0E40F3399D5373E</ID>
+        <Material>%8%</Material>
+        <TauD1>100</TauD1>
+        <TauD2>70</TauD2>
+        <TauD3>50</TauD3>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

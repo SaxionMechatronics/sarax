@@ -1,0 +1,33 @@
+<FDesign>
+	<Table InternalName="BACF8543-D58C-4D58-9B14-C000A6A107B9">
+		<Definition DisplayName="Tooth Shape Factor">
+			<Columns>
+				<A Description="Worm Diameter Factor" Units="ul" /><B Description="Factor" Units="ul" /><C Description="Factor" Units="ul" /><D Description="Factor" Units="ul" /><E Description="Factor" Units="ul" />
+			</Columns>
+			<Note>First row contain: Worm Teeth No. [ul]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>1</B><C>2</C><D>3</D><E>4</E>
+			</Row>
+			<Row>
+				<A>8</A><B>72</B><C>57</C><D>51</D><E>47</E>
+			</Row>
+			<Row>
+				<A>9</A><B>89</B><C>71</C><D>61</D><E>58</E>
+			</Row>
+			<Row>
+				<A>10</A><B>108</B><C>86</C><D>76</D><E>70</E>
+			</Row>
+			<Row>
+				<A>12</A><B>147</B><C>117</C><D>103</D><E>94</E>
+			</Row>
+			<Row>
+				<A>14</A><B>179</B><C>149</C><D>131</D><E>120</E>
+			</Row>
+			<Row>
+				<A>16</A><B>194</B><C>163</C><D>144</D><E>131</E>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

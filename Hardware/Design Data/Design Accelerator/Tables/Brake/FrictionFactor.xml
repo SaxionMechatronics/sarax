@@ -1,0 +1,20 @@
+<FDesign>
+  <Table InternalName="29140350-5D06-45de-A2CB-13272BC9D1DB">
+    <Definition DisplayName="%1%">
+       <Columns>
+          <Material DisplayName="%2%" IsVisible="1" Selectable="0" />
+          <f DisplayName="%3%" Units="ul" IsVisible="1" IsNumeric="1" IsRange="1" SelType="AVG" />
+          <fMax DisplayName="" Units="ul" IsVisible="0" IsNumeric="1"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row><Material>%4%</Material><f>0.25</f><fMax>0.45</fMax></Row>
+        <Row><Material>%5%</Material><f>0.25</f><fMax>0.45</fMax></Row>
+        <Row><Material>%6%</Material><f>0.15</f><fMax>0.45</fMax></Row>
+        <Row><Material>%7%</Material><f>0.30</f><fMax>0.50</fMax></Row>
+        <Row><Material>%8%</Material><f>0.20</f><fMax>0.30</fMax></Row>
+        <Row><Material>%9%</Material><f>0.15</f><fMax>0.25</fMax></Row>
+      </Data>
+   </Table>
+</FDesign>
+ 

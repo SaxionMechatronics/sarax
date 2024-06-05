@@ -1,0 +1,666 @@
+<FDesign>
+	<Table InternalName="4299DD2B-1394-4c7c-BBC6-39D51A049DB7">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Name DisplayName="%2%" Description="%3%" Units="" IsVisible="1" IsRequired="1" IsNumeric="0" EditableState="0" />
+				<D DisplayName="%4%" Description="%5%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+				<d DisplayName="%8%" Description="%7%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+				<t DisplayName="%10%" Description="%9%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+				<H DisplayName="%12%" Description="%11%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.25</D>
+				<d>0.125</d>
+				<t>0.013</t>
+				<H>0.02</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.25</D>
+				<d>0.125</d>
+				<t>0.009</t>
+				<H>0.016</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.25</D>
+				<d>0.125</d>
+				<t>0.006</t>
+				<H>0.014</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.3125</D>
+				<d>0.1563</d>
+				<t>0.016</t>
+				<H>0.024</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.3125</D>
+				<d>0.1563</d>
+				<t>0.011</t>
+				<H>0.019</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.3125</D>
+				<d>0.1563</d>
+				<t>0.008</t>
+				<H>0.018</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.375</D>
+				<d>0.1875</d>
+				<t>0.02</t>
+				<H>0.03</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.375</D>
+				<d>0.1875</d>
+				<t>0.013</t>
+				<H>0.023</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.375</D>
+				<d>0.1875</d>
+				<t>0.009</t>
+				<H>0.02</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.4375</D>
+				<d>0.2188</d>
+				<t>0.022</t>
+				<H>0.033</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.4375</D>
+				<d>0.2188</d>
+				<t>0.015</t>
+				<H>0.026</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.4375</D>
+				<d>0.2188</d>
+				<t>0.011</t>
+				<H>0.025</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.5</D>
+				<d>0.25</d>
+				<t>0.026</t>
+				<H>0.039</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.5</D>
+				<d>0.25</d>
+				<t>0.017</t>
+				<H>0.03</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.5</D>
+				<d>0.25</d>
+				<t>0.013</t>
+				<H>0.029</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.5625</D>
+				<d>0.2813</d>
+				<t>0.03</t>
+				<H>0.045</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.5625</D>
+				<d>0.2813</d>
+				<t>0.02</t>
+				<H>0.035</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.5625</D>
+				<d>0.2813</d>
+				<t>0.014</t>
+				<H>0.032</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.625</D>
+				<d>0.3125</d>
+				<t>0.032</t>
+				<H>0.048</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.625</D>
+				<d>0.3125</d>
+				<t>0.021</t>
+				<H>0.037</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.625</D>
+				<d>0.3125</d>
+				<t>0.016</t>
+				<H>0.036</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.6875</D>
+				<d>0.3438</d>
+				<t>0.036</t>
+				<H>0.054</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.6875</D>
+				<d>0.3438</d>
+				<t>0.024</t>
+				<H>0.042</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.6875</D>
+				<d>0.3438</d>
+				<t>0.017</t>
+				<H>0.038</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.75</D>
+				<d>0.375</d>
+				<t>0.04</t>
+				<H>0.06</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.75</D>
+				<d>0.375</d>
+				<t>0.026</t>
+				<H>0.046</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.75</D>
+				<d>0.375</d>
+				<t>0.019</t>
+				<H>0.043</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.875</D>
+				<d>0.4375</d>
+				<t>0.045</t>
+				<H>0.068</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.875</D>
+				<d>0.4375</d>
+				<t>0.03</t>
+				<H>0.053</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>0.875</D>
+				<d>0.4375</d>
+				<t>0.022</t>
+				<H>0.05</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1</D>
+				<d>0.5</d>
+				<t>0.053</t>
+				<H>0.08</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1</D>
+				<d>0.5</d>
+				<t>0.034</t>
+				<H>0.06</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1</D>
+				<d>0.5</d>
+				<t>0.025</t>
+				<H>0.056</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.125</D>
+				<d>0.5625</d>
+				<t>0.06</t>
+				<H>0.09</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.125</D>
+				<d>0.5625</d>
+				<t>0.038</t>
+				<H>0.067</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.125</D>
+				<d>0.5625</d>
+				<t>0.028</t>
+				<H>0.063</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.25</D>
+				<d>0.625</d>
+				<t>0.067</t>
+				<H>0.101</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.25</D>
+				<d>0.625</d>
+				<t>0.042</t>
+				<H>0.074</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.25</D>
+				<d>0.625</d>
+				<t>0.032</t>
+				<H>0.072</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.375</D>
+				<d>0.6875</d>
+				<t>0.071</t>
+				<H>0.107</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.375</D>
+				<d>0.6875</d>
+				<t>0.048</t>
+				<H>0.084</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.375</D>
+				<d>0.6875</d>
+				<t>0.034</t>
+				<H>0.077</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.5</D>
+				<d>0.75</d>
+				<t>0.08</t>
+				<H>0.12</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.5</D>
+				<d>0.75</d>
+				<t>0.053</t>
+				<H>0.093</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.5</D>
+				<d>0.75</d>
+				<t>0.038</t>
+				<H>0.086</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.75</D>
+				<d>0.875</d>
+				<t>0.09</t>
+				<H>0.135</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.75</D>
+				<d>0.875</d>
+				<t>0.06</t>
+				<H>0.105</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>1.75</D>
+				<d>0.875</d>
+				<t>0.045</t>
+				<H>0.101</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2</D>
+				<d>1</d>
+				<t>0.1</t>
+				<H>0.15</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2</D>
+				<d>1</d>
+				<t>0.067</t>
+				<H>0.117</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2</D>
+				<d>1</d>
+				<t>0.05</t>
+				<H>0.113</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.25</D>
+				<d>1.125</d>
+				<t>0.118</t>
+				<H>0.177</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.25</D>
+				<d>1.125</d>
+				<t>0.075</t>
+				<H>0.131</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.25</D>
+				<d>1.125</d>
+				<t>0.056</t>
+				<H>0.126</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.5</D>
+				<d>1.25</d>
+				<t>0.132</t>
+				<H>0.198</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.5</D>
+				<d>1.25</d>
+				<t>0.085</t>
+				<H>0.149</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.5</D>
+				<d>1.25</d>
+				<t>0.063</t>
+				<H>0.142</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.75</D>
+				<d>1.375</d>
+				<t>0.15</t>
+				<H>0.225</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.75</D>
+				<d>1.375</d>
+				<t>0.095</t>
+				<H>0.166</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>2.75</D>
+				<d>1.375</d>
+				<t>0.071</t>
+				<H>0.16</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>3</D>
+				<d>1.5</d>
+				<t>0.16</t>
+				<H>0.24</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>3</D>
+				<d>1.5</d>
+				<t>0.1</t>
+				<H>0.175</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>3</D>
+				<d>1.5</d>
+				<t>0.075</t>
+				<H>0.169</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>3.5</D>
+				<d>1.75</d>
+				<t>0.18</t>
+				<H>0.27</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>3.5</D>
+				<d>1.75</d>
+				<t>0.118</t>
+				<H>0.207</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>3.5</D>
+				<d>1.75</d>
+				<t>0.09</t>
+				<H>0.203</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>4</D>
+				<d>2</d>
+				<t>0.212</t>
+				<H>0.318</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>4</D>
+				<d>2</d>
+				<t>0.14</t>
+				<H>0.245</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>4</D>
+				<d>2</d>
+				<t>0.1</t>
+				<H>0.225</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>4.5</D>
+				<d>2.25</d>
+				<t>0.236</t>
+				<H>0.354</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>4.5</D>
+				<d>2.25</d>
+				<t>0.16</t>
+				<H>0.28</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>4.5</D>
+				<d>2.25</d>
+				<t>0.118</t>
+				<H>0.266</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>5</D>
+				<d>2.5</d>
+				<t>0.265</t>
+				<H>0.398</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>5</D>
+				<d>2.5</d>
+				<t>0.17</t>
+				<H>0.298</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>5</D>
+				<d>2.5</d>
+				<t>0.125</t>
+				<H>0.281</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>5.5</D>
+				<d>2.75</d>
+				<t>0.28</t>
+				<H>0.42</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>5.5</D>
+				<d>2.75</d>
+				<t>0.19</t>
+				<H>0.333</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>5.5</D>
+				<d>2.75</d>
+				<t>0.14</t>
+				<H>0.315</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>6</D>
+				<d>3</d>
+				<t>0.315</t>
+				<H>0.473</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>6</D>
+				<d>3</d>
+				<t>0.212</t>
+				<H>0.371</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>6</D>
+				<d>3</d>
+				<t>0.15</t>
+				<H>0.338</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>7</D>
+				<d>3.5</d>
+				<t>0.375</t>
+				<H>0.563</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>7</D>
+				<d>3.5</d>
+				<t>0.236</t>
+				<H>0.413</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>7</D>
+				<d>3.5</d>
+				<t>0.18</t>
+				<H>0.405</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>8</D>
+				<d>4</d>
+				<t>0.425</t>
+				<H>0.638</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>8</D>
+				<d>4</d>
+				<t>0.28</t>
+				<H>0.49</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>8</D>
+				<d>4</d>
+				<t>0.2</t>
+				<H>0.45</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>9</D>
+				<d>4.5</d>
+				<t>0.475</t>
+				<H>0.713</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>9</D>
+				<d>4.5</d>
+				<t>0.315</t>
+				<H>0.551</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>9</D>
+				<d>4.5</d>
+				<t>0.224</t>
+				<H>0.504</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>10</D>
+				<d>5</d>
+				<t>0.53</t>
+				<H>0.795</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>10</D>
+				<d>5</d>
+				<t>0.335</t>
+				<H>0.586</H>
+			</Row>
+			<Row>
+				<Name>%D x %d x %t x %H</Name>
+				<D>10</D>
+				<d>5</d>
+				<t>0.25</t>
+				<H>0.563</H>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

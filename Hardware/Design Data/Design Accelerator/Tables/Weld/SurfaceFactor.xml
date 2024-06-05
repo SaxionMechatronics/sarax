@@ -1,0 +1,62 @@
+<FDesign>
+<Table InternalName="81F3195B-CBD7-4e84-8CBE-D8399BABDAE2">
+	<Definition	DisplayName="SurfaceFactor">
+		<Columns>
+			<Su	Description="Ultimate	Strength"	Units="kpsi" />
+			<ka	Description="Surface Factor" Units="UNITS_UNITLESS"	/>
+		</Columns>
+	</Definition>
+	<Data>
+		<Row>
+			<Su>60</Su>
+			<ka>0.540</ka>
+		</Row>		
+		<Row>
+			<Su>70</Su>
+			<ka>0.490</ka>
+		</Row>
+		<Row>
+			<Su>80</Su>
+			<ka>0.455</ka>
+		</Row>
+		<Row>
+			<Su>90</Su>
+			<ka>0.425</ka>
+		</Row>
+		<Row>
+			<Su>100</Su>
+			<ka>0.400</ka>
+		</Row>
+		<Row>
+			<Su>120</Su>
+			<ka>0.360</ka>
+		</Row>
+		<Row>
+			<Su>140</Su>
+			<ka>0.330</ka>
+		</Row>
+		<Row>
+			<Su>160</Su>
+			<ka>0.300</ka>
+		</Row>
+		<Row>
+			<Su>180</Su>
+			<ka>0.275</ka>
+		</Row>
+		<Row>
+			<Su>200</Su>
+			<ka>0.250</ka>
+		</Row>
+		<Row>
+			<Su>220</Su>
+			<ka>0.225</ka>
+		</Row>
+		<Row>
+			<Su>240</Su>
+			<ka>0.200</ka>
+		</Row>
+	</Data>
+</Table>
+</FDesign>
+
+  

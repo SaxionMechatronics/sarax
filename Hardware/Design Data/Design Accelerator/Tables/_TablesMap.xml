@@ -1,0 +1,546 @@
+<FDesign>
+<Table InternalName="DF9079C5-302C-4378-B76C-A71BC16BDB81" FileName="BoltedConnection\FrictionFactor" />
+<Table InternalName="DD5550BF-BFF5-41D4-91CF-92CAFB167439" FileName="BoltedConnection\ThreadFrictionFactor" />
+<Table InternalName="6094E1E4-37B6-4d1a-A6F8-6D2083AEF73A" FileName="Bearings\SKFTemp" />
+<Table InternalName="0E45BE81-9E4F-4dd2-908F-88A6ACC2B608" FileName="Bearings\ANSITemp" />
+<Table InternalName="BA69FC31-46A5-44ee-A3E1-DC4260AA1FE1" FileName="Bearings\AddlForcesFactor" />
+<Table InternalName="F205672D-72A1-4649-9197-EEF54436A591" FileName="Splines\SAEA" />
+<Table InternalName="1687CC10-F23D-47b1-8909-D41A66F3CDD1" FileName="Splines\SAEB" />
+<Table InternalName="E71DA6F3-E313-48fd-AEDA-E805D4A60E43" FileName="Splines\SAEC" />
+<Table InternalName="25FF85AF-4C4F-484b-B5E5-4A4C269FC1A7" FileName="Splines\ISO14LS" />
+<Table InternalName="605A0796-2412-4aa9-81E0-E36325D0AE4F" FileName="Splines\ISO14MS" />
+<Table InternalName="3200853C-2540-40eb-9270-F1133B7AE3AB" FileName="Splines\CSNHS" />
+<Table InternalName="30988F96-C084-4da1-927D-3DB2FD34B0F9" FileName="Splines\DIN5462" />
+<Table InternalName="1D2A85D3-5959-4a88-B44D-2A695FB24E38" FileName="Splines\DIN5463" />
+<Table InternalName="104C4F5F-0154-4513-8E8A-555838162F0F" FileName="Splines\DIN5464" />
+<Table InternalName="02869939-4FEC-4b78-BD90-EC434A28D8D2" FileName="Splines\DIN5471" />
+<Table InternalName="C12256A1-580E-4883-9F67-280660F83DDF" FileName="Splines\DIN5472" />
+<Table InternalName="40CAD074-9CFF-480d-866B-596F87CFD103" FileName="Splines\LENGTH_IMP" />
+<Table InternalName="7BC17020-D979-40c1-80C4-7BB24E8EB36D" FileName="Splines\LENGTH_METRIC" />
+<Table InternalName="F205672D-72A1-4649-9197-EEF54436A597" FileName="Splines\SPLINES.CFG" />
+<Table InternalName="751F24E1-468D-4c24-9743-6DFF32C5621D" FileName="Splines\GOST1139-80LS_91" />
+<Table InternalName="786DBCA1-1E7C-4579-9C56-B534F96196BA" FileName="Splines\GOST1139-80MS_91" />
+<Table InternalName="1415BA94-7551-4b9e-82F5-5F9467619BC8" FileName="Splines\GOST1139-80HS_91" />
+<Table InternalName="28EAB5CB-4F3C-44bd-A8A9-450431952CF5" FileName="Connections\KF" />
+<Table InternalName="22DF4186-93C4-40be-A638-F15A4BB2C32B" FileName="Connections\KA" />
+<Table InternalName="7FDC7A16-22FC-4100-A498-BA61362137D9" FileName="Connections\KW" />
+<Table InternalName="C057D0D4-BE9E-486f-941C-8C4F61ACF313" FileName="Connections\KD" />
+<Table InternalName="94105087-7547-4518-9016-C79C080762AA" FileName="Connections\KM" />
+<Table InternalName="4FE4322A-1925-41FD-891A-EDAA00C3150F" FileName="Gears\AsneDIN" />
+<Table InternalName="A046FD17-D0FC-4D75-A7EB-30A6F61B7CB4" FileName="Gears\EHs" />
+<Table InternalName="A9DACD1C-799F-43E0-A9E2-0208A2533167" FileName="Gears\EHs" />
+<Table InternalName="20B402B4-699C-459D-8062-13E046D5135E" FileName="Gears\EHs" />
+<Table InternalName="1D8779B3-660D-4E1F-8A82-EAF56285E0ED" FileName="Gears\EHs" />
+<Table InternalName="6541B806-6E00-493B-9EE9-40E7F57843E0" FileName="Gears\EHs" />
+<Table InternalName="81B81972-8DE8-4A11-BD7E-84E021520F65" FileName="Gears\EHs" />
+<Table InternalName="98319445-80F3-4DE0-8A89-7673DB4C5533" FileName="Gears\fa" />
+<Table InternalName="D38490DC-0081-45AC-A080-E01EBD6237D3" FileName="Gears\Fbeta" />
+<Table InternalName="5ABB371B-BBD8-4B7C-B3DC-CA66CF575DC6" FileName="Gears\FbetaDIN" />
+<Table InternalName="EE5DB216-89EC-4087-89C7-3E411FCEA046" FileName="Gears\fpt" />
+<Table InternalName="5FCB640B-08E3-45F8-9F17-4BA1604349FA" FileName="Gears\fpt" />
+<Table InternalName="A348ACCB-29CB-4AEF-BBFF-4993AA5A2E88" FileName="Gears\fpt" />
+<Table InternalName="007F9BB9-D192-4DA3-B26C-F65E740877C4" FileName="Gears\fpt" />
+<Table InternalName="5CD9CDB0-AB73-4DFF-9227-1DC18DFE9B45" FileName="Gears\fpt" />
+<Table InternalName="76C07876-6DEC-4BAF-9509-A4AD1877A0E7" FileName="Gears\fpt" />
+<Table InternalName="10332CAE-B307-47F9-AEA5-F6C7A186DFC7" FileName="Gears\fpt" />
+<Table InternalName="2A3864F7-BC6A-433F-9863-C3C191E1E123" FileName="Gears\fpt" />
+<Table InternalName="F0C5F8AB-D7F9-43D7-851E-C532A76424BC" FileName="Gears\fpt" />
+<Table InternalName="00483D67-F4A6-4F58-A9DA-EFD9961AB4F2" FileName="Gears\fpt" />
+<Table InternalName="A34AE9EF-27F9-4BA0-ACA0-0F0F20D40AB6" FileName="Gears\fpt" />
+<Table InternalName="D64DBACA-E82F-4293-83FB-8C9593F5F610" FileName="Gears\fptDIN" />
+<Table InternalName="209A5D7D-75D7-49E4-AB6B-B77BF8316493" FileName="Gears\fptDIN" />
+<Table InternalName="FE575781-0E84-4D1F-A190-9CE898B31646" FileName="Gears\fptDIN" />
+<Table InternalName="2B3FB5A1-6092-4BD8-8B86-EDE669AC6653" FileName="Gears\fptDIN" />
+<Table InternalName="7193E2E4-E2EB-4774-903D-51A053544247" FileName="Gears\fptDIN" />
+<Table InternalName="EA6BA678-6C78-4AD3-8FF0-9CE08B687854" FileName="Gears\fptDIN" />
+<Table InternalName="A639668E-86DB-4A36-81F1-1DD649AEDE42" FileName="Gears\fptDIN" />
+<Table InternalName="BF36A3B7-602F-4B0F-A34E-DF622145A2D9" FileName="Gears\fptDIN" />
+<Table InternalName="F2EA7D7F-D60B-401D-8B49-1A08243C9DA6" FileName="Gears\fptDIN" />
+<Table InternalName="77DE82C8-E76C-47F4-8F18-BD5FC71B59CF" FileName="Gears\fptDIN" />
+<Table InternalName="56695DE1-731F-4002-AF13-A69B5F695FC8" FileName="Gears\fptDIN" />
+<Table InternalName="337F9158-743B-41DD-8A21-98E0E11BB8F2" FileName="Gears\fptDIN" />
+<Table InternalName="1B8EA83C-ED5F-4526-8B5B-1F30CF07C490" FileName="Gears\fptDIN2" />
+<Table InternalName="DF6A02DD-25EF-4EE9-B280-03F446B9AB9C" FileName="Gears\fptDIN2" />
+<Table InternalName="3194AD7F-CC40-4932-8BE3-6ECC65D0E752" FileName="Gears\fptDIN2" />
+<Table InternalName="D5816E90-5FB8-441A-B614-A27AFFDB198B" FileName="Gears\fptDIN2" />
+<Table InternalName="185357CD-42C6-46F8-B2EE-BBA3459E6232" FileName="Gears\fptDIN2" />
+<Table InternalName="E6ECDA45-0B63-45B3-A61D-F119AE138B5A" FileName="Gears\fptDIN2" />
+<Table InternalName="B78BC04D-1D3F-44D7-B351-A663CE4F403C" FileName="Gears\fptDIN2" />
+<Table InternalName="69666A5F-E5B1-42BB-BA6C-3E42A970BAB9" FileName="Gears\fptDIN2" />
+<Table InternalName="65D353D7-553A-4E96-AD0E-35D56A869449" FileName="Gears\fptDIN2" />
+<Table InternalName="69342BA8-8AF5-4C97-9F2F-17D7B423150D" FileName="Gears\fptDIN2" />
+<Table InternalName="2D2E3DDE-D865-428B-A8BD-0007E520C2B5" FileName="Gears\fptDIN2" />
+<Table InternalName="F99BB8A5-21A8-4A48-994D-B971F8385A2F" FileName="Gears\fptDIN2" />
+<Table InternalName="24F3F792-740B-4D87-A2AD-20B68F3A4B35" FileName="Gears\Fr" />
+<Table InternalName="2A5C0A33-C729-422C-A913-E8CCED877BDF" FileName="Gears\Fr" />
+<Table InternalName="B9C07917-7BB6-4BCF-B809-4F216EF2D4BA" FileName="Gears\Fr" />
+<Table InternalName="1CCCB2EE-6186-4D34-B8D0-3942F2E33104" FileName="Gears\Fr" />
+<Table InternalName="31E6DE58-C6E5-49E9-99B7-208AC4EDA410" FileName="Gears\Fr" />
+<Table InternalName="DE9348F2-F351-48E4-95D7-93274C18B2BB" FileName="Gears\Fr" />
+<Table InternalName="1DD44C1E-9581-4780-A508-A0524259DCF4" FileName="Gears\Fr" />
+<Table InternalName="B57357D9-1A56-4166-878D-BDBFB444A500" FileName="Gears\Fr" />
+<Table InternalName="9D8E3F47-C8EF-4F02-B94A-74EF8416BB0F" FileName="Gears\Fr" />
+<Table InternalName="21BF3C12-5675-4464-A21B-7C5D1477C7EB" FileName="Gears\Fr" />
+<Table InternalName="6E9A13FD-95EA-4C86-9977-EFED69B6E124" FileName="Gears\Fr" />
+<Table InternalName="195707A4-D0C8-4FBA-9097-75717384F0B8" FileName="Gears\FrDIN" />
+<Table InternalName="E471D9B4-CCFE-4B15-ABEF-4340377B427F" FileName="Gears\FrDIN" />
+<Table InternalName="541AD569-167B-414A-98FD-689D881E8993" FileName="Gears\FrDIN" />
+<Table InternalName="DBBF0387-79B7-48B1-8807-3D0272C1EABE" FileName="Gears\FrDIN" />
+<Table InternalName="373C847A-2A89-4978-B79E-D4CF5914CC2E" FileName="Gears\FrDIN" />
+<Table InternalName="1855DE04-CF35-4D95-9931-09A4FB7CFF5D" FileName="Gears\FrDIN" />
+<Table InternalName="9C225DC7-DB8C-4103-8710-BCEF9F1DCFC0" FileName="Gears\FrDIN" />
+<Table InternalName="C7C5268F-6CE9-43B3-970B-77DC80645C56" FileName="Gears\FrDIN" />
+<Table InternalName="E0E10443-75B2-4BF1-AD89-B094E7AEBF1E" FileName="Gears\FrDIN" />
+<Table InternalName="332469E7-4D9B-4243-ADE0-A0DD2A8051C6" FileName="Gears\FrDIN" />
+<Table InternalName="F51DE337-4A6C-431D-BF04-EBACAAFD153D" FileName="Gears\FrDIN" />
+<Table InternalName="8A592AB9-11D1-462F-B842-66294D4B9452" FileName="Gears\FrDIN" />
+<Table InternalName="4055EE90-685C-4C44-8618-727B6E6F1485" FileName="Gears\FrDIN2" />
+<Table InternalName="CF034D89-07E1-40EC-893B-889B17275D2E" FileName="Gears\FrDIN2" />
+<Table InternalName="020EE63F-8697-41A1-B98C-D55E507F05E5" FileName="Gears\FrDIN2" />
+<Table InternalName="C17F9669-3400-42FE-B687-860584D76A7C" FileName="Gears\FrDIN2" />
+<Table InternalName="E70F1360-E23B-4461-A293-CD2225B71FDC" FileName="Gears\FrDIN2" />
+<Table InternalName="AB8AE297-0F75-4D29-97B6-D0977430ABB8" FileName="Gears\FrDIN2" />
+<Table InternalName="FF411FFC-A2D3-4542-9FEC-8EBF75EC6769" FileName="Gears\FrDIN2" />
+<Table InternalName="B8051E43-75A2-46A1-B663-741BAC0FC3F5" FileName="Gears\FrDIN2" />
+<Table InternalName="D5C2BA99-BB93-45BE-8270-DD450D2CD2CB" FileName="Gears\FrDIN2" />
+<Table InternalName="BE1E644F-6159-4AF2-9125-D9E32B6EEC65" FileName="Gears\FrDIN2" />
+<Table InternalName="3F4E3D8E-C4DE-4ABD-A6A8-75E2E25CCBD6" FileName="Gears\FrDIN2" />
+<Table InternalName="AF0879FA-E7BD-460E-A360-E6C2DC17768F" FileName="Gears\FrDIN2" />
+<Table InternalName="0476EF56-2ECB-429C-AFFF-50B9EB77A15F" FileName="Gears\jn" />
+<Table InternalName="39B964C8-BEF4-4CE9-AC22-51D16930875F" FileName="Gears\Ny" />
+<Table InternalName="2DA572D7-0785-46DE-95D5-0661D1F9A7C0" FileName="Gears\Rd" />
+<Table InternalName="ABA4D157-77FC-4103-B276-F86EB8FE686C" FileName="Gears\Ro" />
+<Table InternalName="8CE0A58C-A0FB-4823-93D7-8A22E98D42FC" FileName="Gears\Th" />
+<Table InternalName="62DA6654-2D22-490D-A324-46FB3402EA0C" FileName="Gears\TsnDIN" />
+<Table InternalName="44B6AEC8-FE09-44C4-977D-A4EFD48CCF6B" FileName="Gears\Ydkor" />
+<Table InternalName="FACEE9DB-73A6-4772-A125-0658466B0187" FileName="Gears\Ydnekor" />
+<Table InternalName="DF14B92B-B158-472D-B164-90A2B176D7B6" FileName="Gears\Yo1kor" />
+<Table InternalName="5F82FC81-EAB1-4E54-AF21-A8E4418360D0" FileName="Gears\Yo1nekor" />
+<Table InternalName="485BD797-EEA9-4A6F-B03E-1F1F2C7AEF5E" FileName="Gears\Yo2kor" />
+<Table InternalName="1574364F-8565-45DE-A096-E70B5F684CB2" FileName="Gears\Yo2nekor" />
+<Table InternalName="B7D15393-1C52-4BD7-8E8C-D42E0384ADA2" FileName="Gears\CentrDist" />
+<Table InternalName="286EC36A-E6DB-40A5-87F5-D5FFD3E5F5E6" FileName="Gears\CentrDist" />
+<Table InternalName="A782E438-86AB-4506-96F9-DAD461C48159" FileName="Gears\Module" />
+<Table InternalName="80DA90D1-7295-49E1-A8A3-BE1ED156A35C" FileName="Gears\Module" />
+<Table InternalName="71F07EB8-9B95-4577-BC9F-9A0D5764A1CC" FileName="Gears\UnitSizes" />
+<Table InternalName="9E52686B-98D6-4CB7-B57F-BE05FEC4405E" FileName="Gears\UnitSizes" />
+<Table InternalName="5324AFE4-9A72-42EC-B1FB-775840FAE8C2" FileName="Gears\UnitSizes" />
+<Table InternalName="F9051CDD-EF94-4EBC-9A7E-79CC47334EFA" FileName="Gears\Alpha" />
+<Table InternalName="26C81AAE-056C-4395-8589-69A84ED496F1" FileName="Gears\GearRatio" />
+<Table InternalName="13684EC0-C441-4410-804C-2962D23BB104" FileName="Gears\TolerISO" />
+<Table InternalName="16235C11-13FE-4AF3-A2D9-CB289A66CFBD" FileName="Gears\TolerISO" />
+<Table InternalName="DC0934B7-E5D6-47A8-8C78-CA6485F33816" FileName="Gears\TolerISO" />
+<Table InternalName="E0FD4DD6-8A7F-4930-8046-DE73BB7A6BB5" FileName="Gears\BallDiam" />
+<Table InternalName="ECC279AC-0C14-4A15-839E-6E24AE78BA07" FileName="Gears\BallDiam" />
+<Table InternalName="BDB2AA85-F49E-41BB-B8C2-01D3AD205B5E" FileName="Gears\AppFactor" />
+<Table InternalName="4AB31EF0-F88F-40B8-952F-5EAB594236DC" FileName="Gears\YSa" />
+<Table InternalName="3AAC6675-B732-4278-8673-C72898CF6BCB" FileName="Gears\YSa" />
+<Table InternalName="8540FC88-3FFF-44ED-915E-E5577DC54501" FileName="Gears\KPlist" />
+<Table InternalName="CD6E22EC-2756-439F-8576-84D319A3D811" FileName="Gears\KPlist" />
+<Table InternalName="7583DCEA-838E-4DEA-8A32-C0856069E2A1" FileName="Gears\KPlist" />
+<Table InternalName="226C2D91-8882-4E03-984B-C5ACCCFC1C2C" FileName="Gears\AlternatingFactor" />
+<Table InternalName="BD370C7A-8499-4A40-8186-8F15AD2165F0" FileName="Gears\TechnologyFactor" />
+<Table InternalName="84354987-3F5A-4AD0-8AB0-CBD4B0C81E6A" FileName="Gears\MountingFactor" />
+<Table InternalName="8E9F9DC3-170D-44DC-831B-1B37AB5EC635" FileName="Gears\ANSIContactReliability" />
+<Table InternalName="CEBC016F-FB29-44B9-844B-E03A4FC4757E" FileName="Gears\ANSIBendingReliability" />
+<Table InternalName="55E220B3-5EAF-4581-9786-7670D2E5B55B" FileName="Gears\MeanStressFactor" />
+<Table InternalName="8832DDC1-6618-4ECB-ADBB-3EDBD07B3A60" FileName="Gears\CmaFactor" />
+<Table InternalName="1493A04F-8C52-4F34-B783-29AB4375C123" FileName="Gears\ANSI2Reliability" />
+<Table InternalName="EDFCB565-4589-49FC-BA06-55833B2F8E4F" FileName="Gears\CmcFactor" />
+<Table InternalName="326F6B00-03CD-4702-809F-3935DA2E5197" FileName="Gears\CeFactor" />
+<Table InternalName="BD7DBD90-D054-466F-B4F5-59B96C4FD436" FileName="Gears\CpmFactor" />
+<Table InternalName="BACF8543-D58C-4D58-9B14-C000A6A107B9" FileName="Gears\Deform" />
+<Table InternalName="1EDEF4C9-7C70-415C-A5E6-C9CA3E5C7B29" FileName="Gears\Ess1" />
+<Table InternalName="B2D7741D-9CAF-4C4E-8415-6DDC07C91809" FileName="Gears\Ess2" />
+<Table InternalName="6327CCEF-EC61-4C90-B913-AF468C9FBADB" FileName="Gears\Ess2" />
+<Table InternalName="2C5F4AF5-A1AA-42C2-9712-E8799A022FAE" FileName="Gears\Ess2" />
+<Table InternalName="9FC66AC8-8C79-43A3-ADD4-32B57F0D3822" FileName="Gears\Ess2" />
+<Table InternalName="E86ACDCB-CD2A-4667-B140-26BC0B597734" FileName="Gears\Ess2" />
+<Table InternalName="AF0D7DBE-36C2-4AB1-B6DC-89EE4B3868E1" FileName="Gears\Ess2" />
+<Table InternalName="20130F32-8A9E-49B5-BA19-77C67CFB1820" FileName="Gears\Ess2" />
+<Table InternalName="D3389813-EC25-4ACD-8DD3-EBB29A0F9058" FileName="Gears\Ess2" />
+<Table InternalName="4480DFCB-5C76-452B-9BF5-DB9CEB57D85E" FileName="Gears\Ess2" />
+<Table InternalName="C235E7EA-9058-48BF-9C07-2F4470EAD953" FileName="Gears\Ess2" />
+<Table InternalName="5006927A-864D-4AD1-A54A-28EC5FDAF768" FileName="Gears\Ess2" />
+<Table InternalName="F51AF269-625C-439F-9507-63C182582C73" FileName="Gears\far" />
+<Table InternalName="D503EF15-673F-447F-B941-FD9D160F41AC" FileName="Gears\fpt3" />
+<Table InternalName="97135D7A-C6E8-45AF-A5BD-91F8F030B3FD" FileName="Gears\fpt3" />
+<Table InternalName="1528B9FC-B4E2-4B4A-85B2-78FA6B7CDDF7" FileName="Gears\fpt3" />
+<Table InternalName="C765D6EC-043C-443C-825E-9300ABE270AD" FileName="Gears\fpt3" />
+<Table InternalName="FC2F1B4B-2B2E-4708-9833-5CB42DDC49BB" FileName="Gears\fpt3" />
+<Table InternalName="8E80D3A1-100D-4A13-9B4C-572E669ED8ED" FileName="Gears\fpt3" />
+<Table InternalName="BE1829A6-BB5B-4F99-925C-AF490EA7C78D" FileName="Gears\fpt3" />
+<Table InternalName="D59A95B7-31F1-42FC-A652-F4D94A51EE37" FileName="Gears\fpt3" />
+<Table InternalName="7625A363-6C87-4739-A648-F41E3755B630" FileName="Gears\fpt3" />
+<Table InternalName="A5F1C219-352D-4E65-9E80-4EB761FC88EA" FileName="Gears\fpt3" />
+<Table InternalName="AE045E09-EA24-408A-97C0-EEBCE1823F60" FileName="Gears\fpt3" />
+<Table InternalName="2D6BFDA2-13B3-419C-9D9D-621EDF2B744B" FileName="Gears\Fpx" />
+<Table InternalName="BECF5213-F8FE-4179-B280-5838E61E77C6" FileName="Gears\fr1" />
+<Table InternalName="3C689289-56DE-447F-8D09-9D553A9037C8" FileName="Gears\Fr2" />
+<Table InternalName="39FB8758-CD42-4F4B-A96B-F961ADA0D866" FileName="Gears\Fr2" />
+<Table InternalName="1CA5B165-A36B-4F65-AE04-C9E41FB66108" FileName="Gears\Fr2" />
+<Table InternalName="9FA8E185-A7F6-4032-9641-5E6F94CBAED9" FileName="Gears\Fr2" />
+<Table InternalName="15DF71C0-F6C6-4F03-B65A-F618DC63A8D7" FileName="Gears\Fr2" />
+<Table InternalName="F097CD85-6378-4280-B536-A2E6CC7EE703" FileName="Gears\Fr2" />
+<Table InternalName="B8F14C70-5AAB-4C8B-BC4C-072F856EC480" FileName="Gears\Fr2" />
+<Table InternalName="9AAAD521-7E36-42BB-A126-BAE4021F1191" FileName="Gears\Fr2" />
+<Table InternalName="A29F0880-4748-4F33-8387-71653CC6B7F8" FileName="Gears\Fr2" />
+<Table InternalName="025B9B96-F8E2-4CF2-9877-5BB9E16B4B6E" FileName="Gears\Fr2" />
+<Table InternalName="C543AC3A-6C94-486A-BEDA-767F6F302A08" FileName="Gears\Fr2" />
+<Table InternalName="25820DE0-ABB4-4585-B291-7191D08E564E" FileName="Gears\Fsuma" />
+<Table InternalName="01CD1996-9243-40F2-9F60-05A571A18A48" FileName="Gears\Ts" />
+<Table InternalName="6D6232F8-AD11-433C-82A6-EAA939D6541C" FileName="Gears\Yf" />
+<Table InternalName="5B98C907-6064-44DD-83A1-99764E1D70AC" FileName="Gears\GearRatio3" />
+<Table InternalName="34EA4957-84C4-43F5-8335-46166A12C404" FileName="Gears\Module3" />
+<Table InternalName="1E14A236-00A8-4C8F-A710-F99DBDBD88A4" FileName="Gears\Module3" />
+<Table InternalName="0E7A5F4C-A429-4ED8-AEC8-03820EA145A9" FileName="Gears\WormDiameterFactor" />
+<Table InternalName="008DD43A-34C9-4a05-BEDA-AB2A90C52ABB" FileName="Materials\Connection.SI" />
+<Table InternalName="F1572802-2F01-4968-98FA-54A356D55FBB" FileName="Materials\Connection" />
+<Table InternalName="6CE1A7C6-8578-4d84-9F47-40D9B4980017" FileName="Materials\Connection.ANSI.SI" />
+<Table InternalName="7E6FE4DA-D1CA-45cd-A821-04E0FDC57BD7" FileName="Materials\Connection.ANSI" />
+<Table InternalName="42281AC6-E27F-462a-853D-C5CAD8C2E918" FileName="Materials\Connection.CSN.SI" />
+<Table InternalName="07040CFB-1A3A-4bd1-A414-640CFEE4012D" FileName="Materials\Connection.CSN" />
+<Table InternalName="C9839951-CA35-4DC5-8AC4-7CA972D0E5FB" FileName="Materials\Weld" />
+<Table InternalName="248BFF6F-6386-4551-9006-93C626369772" FileName="Materials\Weld.SI" />
+<Table InternalName="4F2C6E73-48E2-4F7E-90FD-C94FBDECBA70" FileName="Materials\Solder" />
+<Table InternalName="7D944E42-5BC3-4F51-9758-2A9A65CD8331" FileName="Materials\Solder.Si" />
+<Table InternalName="F639871E-934A-449F-BB55-46851B67A578" FileName="Materials\Solder Base" />
+<Table InternalName="61CE2DC2-F617-468E-BC5F-640429419401" FileName="Materials\Solder Base.Si" />
+<Table InternalName="B9FDFECB-FCCF-4C25-870B-4A4F8081BCCE" FileName="Materials\Shaft" />
+<Table InternalName="8FDDC7E5-FF6A-4E99-876E-40BBEECC6310" FileName="Materials\Shaft.SI" />
+<Table InternalName="0898808D-4257-4D88-BBC2-4F49BBB8BD53" FileName="Materials\Rod-Clevis" />
+<Table InternalName="10613D72-AF39-47EC-B374-DB270ABDF6EB" FileName="Materials\Rod-Clevis.SI" />
+<Table InternalName="B260265A-4A91-4292-AFCB-AB156F7EFFF1" FileName="Materials\PressOn" />
+<Table InternalName="F2EB42C4-D902-4F07-8ED1-2F106929843E" FileName="Materials\PressOn.SI" />
+<Table InternalName="87959CEA-37CF-43B4-B4AA-F60260302A71" FileName="Materials\Pin" />
+<Table InternalName="315542BB-EF73-409E-B2E6-259CD5AC2B2F" FileName="Materials\PIN.SI" />
+<Table InternalName="71B1186E-ECAA-4176-BC05-41958AC24780" FileName="Materials\MatTypes" />
+<Table InternalName="7711DA53-271A-406C-869A-BAF143F1CA28" FileName="Materials\MatTypes.SI" />
+<Table InternalName="AC2B3A5C-6E70-4A33-9AA1-94C714C04073" FileName="Materials\Mat" />
+<Table InternalName="53DEBB75-8166-44E4-A0B4-73996C40CB11" FileName="Materials\Mat.SI" />
+<Table InternalName="A04C13E6-B3E4-41C8-807C-C1C6A2827143" FileName="Materials\Journal.SI" />
+<Table InternalName="4AB1D80E-1AE9-49B7-BEFB-9EB0ECDF93C3" FileName="Materials\Joint" />
+<Table InternalName="1966735D-48BF-4D5E-BAC3-BB43C4BB3473" FileName="Materials\Joint.SI" />
+<Table InternalName="38007D72-B8B8-4857-B759-51FAA08E34CF" FileName="Materials\Hub-Shaft" />
+<Table InternalName="7BB25F7C-6B3F-45BE-8B7B-85ABF5AF0823" FileName="Materials\Hub-Shaft.SI" />
+<Table InternalName="42961C6C-FFEC-4534-AB3C-417EF7328333" FileName="Materials\Gear3" />
+<Table InternalName="6B017636-AE68-41CD-A85A-42F1647574B5" FileName="Materials\Gear3.SI" />
+<Table InternalName="09A6F2ED-D59D-4912-9F8E-F7BDE83B1754" FileName="Materials\Gear1.SI" />
+<Table InternalName="ECC0E7A0-4F76-40D1-8606-DA0FD8F21D6C" FileName="Materials\Gear1" />
+<Table InternalName="9929D1A8-BC74-4278-8B50-7A64D07A8A7C" FileName="Materials\Clevis_Pin" />
+<Table InternalName="E768F2DB-9468-4B6E-BF1A-0E7F3C8DF079" FileName="Materials\Clevis_Pin.SI" />
+<Table InternalName="E40CA062-1983-41ED-8835-43129291B310" FileName="Materials\WireSpring" />
+<Table InternalName="A9033298-85AA-4543-8DD9-CEE25E77783B" FileName="Materials\WireSpring.SI" />
+<Table InternalName="E1187EA4-C851-48B1-9646-3469B003A4AE" FileName="Materials\WireSpring_Torsion" />
+<Table InternalName="6D781ACE-1A4D-42D4-BA04-3E2BDC58179A" FileName="Materials\WireSpring_Torsion.SI" />
+<Table InternalName="A807A2E1-58E6-4A9B-830E-32EACCC861F4" FileName="Materials\SpringBelleville" />
+<Table InternalName="20585281-9A58-4D39-B1EF-442F585E9D7D" FileName="Materials\SpringBelleville.SI" />
+<Table InternalName="48B210B6-8598-4293-9E2D-ADA667339605" FileName="Materials\Bear2.SI" />
+<Table InternalName="B1C6A1E5-DAE7-48EB-A19C-2F7B6993F6A8" FileName="Materials\Gear3w" />
+<Table InternalName="4EEC4059-CA85-47E3-9DAB-2A128A893000" FileName="Materials\Gear3w.SI" />
+<Table InternalName="D50662FF-6A81-411F-80BD-176884CDBAAC" FileName="Holes\holes.cfg"/>
+<Table InternalName="8B942C42-1382-4AE4-BEA9-43B7B59ED6C0" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="5A99797E-0DBC-49A8-AD6B-D45D3DDA0F78" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="BC81B4B5-9856-403B-B27A-D6E685896367" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="AA96472B-992E-48F0-B3E5-F56EAD118F8A" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="29E6FAE5-ECDE-4CD9-9505-06F588A28799" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="D1EFA8F2-D083-4F03-BB5F-7B02CA827D15" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="BFE242B9-2D61-41E5-B91C-2F4A82913B10" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="FF9F976F-1A13-4900-BDB9-B2036B780DD3" FileName="Holes\Ansi Unified Screw Threads"/>
+<Table InternalName="9B79833C-1BD5-4E23-8A71-A237199511F2" FileName="Holes\Ansi Metric M Profile"/>
+<Table InternalName="EFD1F00E-17BF-4E96-B1A3-D47D3FAA2031" FileName="Holes\Ansi Metric M Profile"/>
+<Table InternalName="0E52D88C-5D43-41F2-A670-8494B5539993" FileName="Holes\Ansi Metric M Profile"/>
+<Table InternalName="880DB739-E32A-44EC-BD47-8929409D2DA0" FileName="Holes\Ansi Metric M Profile"/>
+<Table InternalName="D7721BB8-5EF6-48CB-9D94-75AD8D8E9352" FileName="Holes\Ansi Metric M Profile"/>
+<Table InternalName="2B521B4C-1208-45FD-AFE5-160BFD2465CB" FileName="Holes\Ansi Metric M Profile"/>
+<Table InternalName="508473F2-D24E-4A55-B54B-81D0887B6558" FileName="Holes\Ansi Metric M Profile"/>
+<Table InternalName="95C53894-2113-4869-B367-62F28A1092A8" FileName="Holes\DIN"/>
+<Table InternalName="F3134615-321A-4857-A11A-53372F95F245" FileName="Holes\DIN"/>
+<Table InternalName="9661AB06-006A-4A9E-A7BF-8884335C70E5" FileName="Holes\DIN"/>
+<Table InternalName="DB8A03C1-3DFF-4529-A30D-09988A320CF5" FileName="Holes\DIN"/>
+<Table InternalName="F06B3A35-D11C-4D93-A91F-716B382095E8" FileName="Holes\DIN"/>
+<Table InternalName="6573B56E-8311-4CFB-A292-4040623E79B8" FileName="Holes\DIN"/>
+<Table InternalName="14077B8A-B05F-461B-9F5F-9E0945281969" FileName="Holes\DIN"/>
+<Table InternalName="D5E1E9CA-1BEA-41AB-B998-AED20B661F86" FileName="Holes\DIN"/>
+<Table InternalName="AD2AC14F-D0C2-43b6-9F8F-D57639AF87AD" FileName="Holes\DIN"/>
+<Table InternalName="85E7AA26-504B-428E-B4EC-1237864445F2" FileName="Holes\ISO"/>
+<Table InternalName="E900182E-025B-40DD-9674-E1F0D0B77E66" FileName="Holes\ISO"/>
+<Table InternalName="EB43BC09-66EF-45AA-82A7-67C598DEEA53" FileName="Holes\ISO"/>
+<Table InternalName="5A47765A-485B-44B1-84EB-0075FBB28766" FileName="Holes\ISO"/>
+<Table InternalName="264E7C42-2B5B-4135-AE19-5FC760C107DA" FileName="Holes\ISO"/>
+<Table InternalName="CC3EB066-0DBD-4E2E-A5A7-49734D89C204" FileName="Holes\ISO"/>
+<Table InternalName="88BDE8CA-D167-4CC2-8A73-E1BDB3F5D658" FileName="Holes\ISO"/>
+<Table InternalName="902A1FA0-7B38-4C3A-9D32-96D9583BD768" FileName="Holes\ISO"/>
+<Table InternalName="B5E551FA-1668-41c9-83CD-AA09AC198DCD" FileName="Holes\ISO"/>
+<Table InternalName="7C3E47F3-78EA-43CC-9EE4-5B76AC0D904A" FileName="Holes\JIS"/>
+<Table InternalName="DE4AC060-1464-4489-9AFE-20F3BE747C9A" FileName="Holes\JIS"/>
+<Table InternalName="009A0DE7-CEC2-430D-B4F7-7702EB56CBC2" FileName="Holes\JIS"/>
+<Table InternalName="FA2E89B3-DB99-4EF0-8C0B-EAAC0AD3D89B" FileName="Holes\JIS"/>
+<Table InternalName="700A311B-5A25-4F8C-A754-7791FAB76F8D" FileName="Holes\JIS"/>
+<Table InternalName="363C251C-FBF3-4DCB-AE41-6813D93F25CE" FileName="Holes\JIS"/>
+<Table InternalName="19FCBDFC-AD9B-40A0-9919-DFB1BFA039EC" FileName="Holes\JIS"/>
+<Table InternalName="DD21A1E3-7DB5-4844-A36F-8CA26DACB5D9" FileName="Holes\GOST"/>
+<Table InternalName="62AC2608-7E12-4fce-8ECF-67D65511614E" FileName="Holes\GOST"/>
+<Table InternalName="374BCF95-DAFA-4ad9-BB17-6787733608D4" FileName="Holes\GOST"/>
+<Table InternalName="71F27008-E40C-45dc-B252-5F09365A11D1" FileName="Holes\GOST"/>
+<Table InternalName="39E8F38D-F8F0-4b34-90C9-C47E96AD3A0F" FileName="Holes\GOST"/>
+<Table InternalName="0CC23515-3AFF-4f68-B3FA-B647C787AF63" FileName="Holes\GOST"/>
+<Table InternalName="AA1A0F69-68F0-4c2a-A070-0F1BD48CC726" FileName="Holes\GOST"/>
+<Table InternalName="C4F9B841-A712-4a53-AADF-43E1ED248563" FileName="Holes\GOST"/>
+<Table InternalName="2E35FFC4-5E50-4d72-B247-8DDA88C19B2C" FileName="Holes\GOST"/>
+<Table InternalName="E793B94D-E75B-473f-9D01-989480C4BAE6" FileName="Holes\GOST"/>
+<Table InternalName="AE0ED3FD-5346-4334-91A8-E9457CB7E3EE" FileName="Holes\LegacyMap"/>
+<Table InternalName="0298ED57-D166-48ef-954D-5D555D595958" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="6DA68811-7BF2-475d-AE95-050C8C5538B6" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="F4F78810-0512-439a-AF56-CFA28BB56103" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="084BEDC3-1A3F-4213-B1A4-3A2DDCEB666E" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="01CBF9D1-CD5C-4d5a-8132-CD352F071AD6" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="989ED918-D613-4340-B1B6-56E843D91A36" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="CBE6DAFC-B228-4f62-8A3A-F33DDCAAA12D" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="3F5A55C7-30EE-403d-91F9-4D6207CDB356" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="AE24DB40-A7E7-45e1-A5E4-49171875B67E" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="EE11270A-FE66-4cec-A3ED-2EDEDB64B230" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="AA4084A7-5E6E-43c6-BA3A-D61427E0E7E5" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="9FB3F4B5-CB63-4096-836D-5C83B13BE3FF" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="403CA3C4-8175-4787-B877-538ECE97B638" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="5EB78278-8805-4984-8966-49AB98B4ADB1" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="7789B65A-35AC-4c53-8E40-7116CA2C1CF5" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="6512CEBD-C43C-4aa8-9640-6F5C744B2902" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="824BB4BF-5BBB-446b-98C2-BDD4E7AEF345" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="1F8FE8A6-AF4F-40cc-A832-7F282426DE35" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="E45F5A32-AA79-48c5-A41D-A365A3475E80" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="FEF36A1C-CC6E-4a00-93B5-79BD5EC2EFE3" FileName="PowerScrew\Diameter_Metric"/>
+<Table InternalName="5DE2EEE6-2CDC-4705-A9F2-CE661C2320C6" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="0B4E0CD3-083A-460f-AFE5-55A6BCBD391D" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="8ACAD373-0E36-4b44-AE3A-180D592D7BD4" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="C57B1479-0C89-4628-A42F-F96490D1825C" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="7EF121F8-F593-422e-BB2B-924D6CC31B14" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="B27C394F-860F-4d88-8681-E77030E7C170" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="7E0C8BD6-6DD0-450a-8F27-4DF257F3AF4C" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="B9D3FC49-BC09-444f-85B1-E8E6AC9876A6" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="7A660D0C-C68D-411a-947A-86F3956D469C" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="7349CFE1-DAE7-4941-AB62-3B734FBE6620" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="D9C89993-2546-46c7-B54E-F553BAE37A43" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="7E4FA451-4288-4f9c-80D1-4121904A7B7D" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="0F332D9D-BB61-4e9d-BAB2-AF6551AFCC47" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="2A92CF87-DB2C-46be-85EF-DCAABF12D66C" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="38A68F07-DE94-41f3-B2EF-A3A3E079C429" FileName="PowerScrew\Diameter_imp"/>
+<Table InternalName="D1FC6A92-C520-4497-9760-DABDBBE353D5" FileName="PowerScrew\NutHeight_Imp"/>
+<Table InternalName="993E08B8-E659-4b79-80C0-13DD9A1FFD93" FileName="PowerScrew\NutHeight_Metric"/>
+<Table InternalName="9EA5BB30-DA31-4476-A921-67A17203EDF6" FileName="PowerScrew\MaxLength_Imp"/>
+<Table InternalName="827DFB0D-BAFF-4193-8725-08BF576BF81F" FileName="PowerScrew\MaxLength_Metric"/>
+<Table InternalName="AF076BA4-598C-4c58-9353-741A707F0B6E" FileName="Joint\Metric" />
+<Table InternalName="FAC7ADA5-287D-4bd2-AA87-C24BC9DF772A" FileName="Joint\Imperial" />
+<Table InternalName="9426F488-0CBB-4095-A36B-6E73F635CE64" FileName="Joint\ShaftDiameter_Imp"/>
+<Table InternalName="715F84E9-6BAE-4ee7-9C03-ECFC32582359" FileName="Joint\ShaftDiameter_Metric"/>
+<Table InternalName="4325CDEA-0DAF-4523-BC8D-4B9BD95ADD8D" FileName="Plates\Thickness" />
+<Table InternalName="44762956-AE1D-4f9e-A968-A5B114E920FE" FileName="Plates\Thickness" />
+<Table InternalName="564FD896-4357-4f47-AADC-6C235B737D20" FileName="Plates\Length" />
+<Table InternalName="5F86E4E5-EB17-4378-A9B7-43B8EA094D2B" FileName="Plates\Length" />
+<Table InternalName="A923F9A3-722F-4bd5-969D-E259636537BB" FileName="Plates\SafetyFactor" />
+<Table InternalName="728A9C00-6E7D-4e69-A8A9-908485354070" FileName="Pins\Joint_Clevis" />
+<Table InternalName="763752F0-E953-4f06-A7BA-A04608A5C6F0" FileName="Pins\Joint_Pins" />
+<Table InternalName="89805079-6B61-499a-B92F-8F5AC682EFFA" FileName="SolderJoint\Thickness_Metric" />
+<Table InternalName="F7E21923-8A04-4767-BDBD-55D410B9B351" FileName="SolderJoint\Thickness_Imperial" />
+<Table InternalName="68846E5D-154B-4426-8484-4CAEAB9BE7DA" FileName="PressFit\ClampingFactor"/>
+<Table InternalName="144B9906-30B9-416b-9759-64A5AB70F3F5" FileName="PressFit\ShaftDiameter_Imp"/>
+<Table InternalName="87E3B671-57E9-4494-846A-82230A0A9A2C" FileName="PressFit\ShaftDiameter_Metric"/>
+<Table InternalName="EE5CC2E5-8564-4644-B1E2-ECB609F7C9FC" FileName="PressFit\Texture_Imp"/>
+<Table InternalName="312E95B6-74F6-4c0c-8B8B-013776AE8076" FileName="PressFit\Texture_Metric"/>
+<Table InternalName="5BAA5961-1A20-4e50-8BB4-BDA2B14C7B12" FileName="PlainBearing\Diameter_Metric"/>
+<Table InternalName="8C7C7B86-8CE9-44AF-BF26-6E77AC8EBC47" FileName="PlainBearing\Bear_So"/>
+<Table InternalName="35204778-72BF-4DE7-84D5-75B189DB4BFB" FileName="PlainBearing\Bear_M1"/>
+<Table InternalName="1B45CB88-C280-4E1D-ADDE-9866B64FCB83" FileName="PlainBearing\Bear_M2"/>
+<Table InternalName="C650AF12-379B-4FF9-95F5-C25A6520B66D" FileName="PlainBearing\Bear_R1"/>
+<Table InternalName="7DCE2A68-C87E-4FEF-BCCC-16C234616E3C" FileName="PlainBearing\Bear_R2"/>
+<Table InternalName="3C6DB4D3-566C-454E-BE7D-69C7A138EA98" FileName="PlainBearing\Bear_Pm"/>
+<Table InternalName="F2DD7365-554B-4400-855D-535893939716" FileName="PlainBearing\Bear_Ol"/>
+<Table InternalName="29140350-5D06-45de-A2CB-13272BC9D1DB" FileName="Brake\FrictionFactor"/>
+<Table InternalName="A7F0406F-3C69-4ee7-883E-840CB617729C" FileName="Brake\BrakePressure"/>
+<Table InternalName="29AAF299-A70C-4282-A9C6-A8BBC51064C8" FileName="Brake\FrictionFactor_Imp"/>
+<Table InternalName="8E20E918-970C-4d2b-BC80-9DE52911E73A" FileName="Brake\BrakePressure_Imp"/>
+<Table InternalName="614FABF1-039E-4521-A8AD-08F68A827A46" FileName="PlainBearing\Bear_Oil"/>
+<Table InternalName="0BDC8AF9-32DC-4d91-A8F3-5D2E29CEA4B1" FileName="PlainBearing\Bear_Temp"/>
+<Table InternalName="774FAB36-F848-4882-AFD5-2226F4BB1DDE" FileName="Common\ServiceLife"/>
+<Table InternalName="4072AD30-B879-4a73-B804-3EABF04A7C21" FileName="Common\ServiceLifeR"/>
+<Table InternalName="D674AE0D-6468-465e-847F-361E5F145BC6" FileName="SplinesInv\Inv_Splines.cfg"/>
+<Table InternalName="2ABFF81E-3D55-4c2c-B679-CE4EB7BCBD2E" FileName="SplinesInv\Inv_Splines.cfg"/>
+<Table InternalName="026BB254-FE69-471a-9741-665089732A21" FileName="SplinesInv\ANSIB92.2M-30_Fillet_Side" />
+<Table InternalName="0536825D-9FA7-45b5-ACEE-96F21A1974D0" FileName="SplinesInv\ANSIB92.2M-30_Flat_Side" />
+<Table InternalName="F7414D72-E392-468f-B91D-D3E19C1BD958" FileName="SplinesInv\ANSIB92.2M-375_Fillet_Side" />
+<Table InternalName="208F064E-8743-4870-B12F-F03B3075F84A" FileName="SplinesInv\ANSIB92.2M-45_Fillet_Side" />
+<Table InternalName="76B53286-6ED3-4342-B171-DABFD1CF790E" FileName="SplinesInv\ANSIB921-30_Fillet_Side" />
+<Table InternalName="AEF785CC-A746-42e9-A92F-BC57B668C71B" FileName="SplinesInv\ANSIB921-30_Flat_Diam" />
+<Table InternalName="69BB3186-26E3-419d-B74B-B11B0FC976D3" FileName="SplinesInv\ANSIB921-30_Flat_Side" />
+<Table InternalName="8DAAF675-2A4C-4f37-850C-199B80AECE21" FileName="SplinesInv\ANSIB921-375_Fillet_Side" />
+<Table InternalName="E80DA5DD-1D50-472d-B11A-591D8ADA8E7B" FileName="SplinesInv\ANSIB921-45_Fillet_Side" />
+<Table InternalName="6B700694-BFA7-4d2f-AAED-9F27DC43F30C" FileName="SplinesInv\CSN4950-30_Fillet_Side" />
+<Table InternalName="DFC82653-B0C6-4e02-8DA5-FB45753C5A29" FileName="SplinesInv\CSN4950-30_Flat_Diam" />
+<Table InternalName="2E929C09-D1D4-444c-8539-D243989DBBD1" FileName="SplinesInv\CSN4950-30_Flat_Side" />
+<Table InternalName="5B8C86AA-FB48-4460-B770-8B75E5940F18" FileName="SplinesInv\DIN5480-30" />
+<Table InternalName="BE7809CF-BA1B-40f5-838B-B373D4A12D39" FileName="SplinesInv\DIN5480-30_Out" />
+<Table InternalName="2D1A5892-F04A-48aa-B4DB-18C2D5440CC1" FileName="SplinesInv\DIN5480-30_In" />
+<Table InternalName="368EFAA5-CD1A-475b-95B5-136990C2A6FF" FileName="SplinesInv\DIN5481-55" />
+<Table InternalName="CF17724A-B424-44a0-A293-5262862746F1" FileName="SplinesInv\DIN5481-60" />
+<Table InternalName="F35348F2-12F3-42c3-BDDC-051041D32C0E" FileName="SplinesInv\DIN5482-30" />
+<Table InternalName="8E5996EB-2361-4e2e-A3A2-9252B976CA8B" FileName="SplinesInv\ISO4156-30_Fillet_Side" />
+<Table InternalName="887DEA69-D7DF-40e5-B174-DB7BE0FB732D" FileName="SplinesInv\ISO4156-30_Tol" />
+<Table InternalName="B35004A0-0E8F-440c-B2AB-D3CC69B311E5" FileName="SplinesInv\ISO4156-30_Flat_Side" />
+<Table InternalName="90F7CFBD-554D-45ef-BCD5-FEF1746C7FAC" FileName="SplinesInv\ISO4156-375_Fillet_Side" />
+<Table InternalName="8C6551D8-B872-47d3-8202-1E549AE21547" FileName="SplinesInv\ISO4156-45_Fillet_Side" />
+<Table InternalName="16982C5C-28D3-493E-8C04-AAD8E25DCD3B" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="1346740A-C903-48e4-A2DE-6C1E98C14BE9" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="0505B97B-9993-41bc-BCE1-4D52AF37613E" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="5E9FBB52-280D-40d8-8892-A7A8B60BDEBE" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="F1265FD0-BD1D-405e-B699-5E6ABE3BEDAA" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="046B44B6-C078-440f-8041-EA4A4E11A59F" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="264ADD85-2682-4f2f-B38D-C098ECB5D705" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="042D1496-60C6-4f64-B1BA-9AE5A1240DBD" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="75455B5F-E1FD-4705-84F6-51EAFA7A96D0" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="CDE23F30-14CA-47ad-BBAA-C6F2BCDC46D9" FileName="SplinesInv\ANSIB921-30_Tol" />
+<Table InternalName="F24A2271-3364-4416-9051-B719BAEEFADF" FileName="SplinesInv\CutterTypes" />
+<Table InternalName="721D20F8-5EFA-4d03-8141-1489F75131BF" FileName="Weld\Wldcsn" />
+<Table InternalName="1AA804A6-CC02-466a-AA35-B01CDB770854" FileName="Weld\Wldcsn" />
+<Table InternalName="8FC35E47-93FA-431c-9DB2-77A593D750B2" FileName="Weld\Wldcsn" />
+<Table InternalName="81F3195B-CBD7-4e84-8CBE-D8399BABDAE2" FileName="Weld\SurfaceFactor" />
+<Table InternalName="BC3DD5CE-B7F1-440f-ACBD-82BB9596A7FE" FileName="SplinesInv\ANSIB92.2M_Tol" />
+<Table InternalName="62A469CE-64FF-4d5a-A737-A31F1590F558" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="A259C412-10C5-442b-B10C-A7291EFCE7EB" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="A7DED685-D04B-40c9-A0BD-9FC37C222E84" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="1F9B2362-3A17-4d3b-A35E-E347993CB4BE" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="6A325828-47BD-4be3-92B7-C178D109FB7A" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="32AA5D2D-40D6-4155-92A4-1060A79C6CD5" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="72C22347-2917-421b-8D90-5014DA66CEC7" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="66C46370-E9BC-471f-BF15-83B64CEEECF7" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="C7CF31CC-FD48-4ff2-9DAC-2C40141ED2A7" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="70FCF884-7EEF-4bf3-A344-8AD8C2ED4E81" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="2F2DB3A1-3B51-4ddf-8985-96B089A6ABD3" FileName="SplinesInv\DIN5480-30_Tol" />
+<Table InternalName="37F6904E-87B5-4312-93E9-8BA0E5B268F0" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="9BD7F9F6-177B-4d3e-88D1-88E05AA8FEBF" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="860750A0-8BB0-410c-AEC5-EA3B0477C615" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="B11F2CDF-2B6F-4c4d-928F-021B0DB73DCD" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="04FAEB1D-FDA7-4653-9878-EB5391BA9C36" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="419A6A79-90AF-4500-A8EB-4DF2306D598F" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="614F03BE-8CA5-4d9d-8BDC-6CF3D17359B0" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="E00F7146-D706-4181-AB9D-2720804A1F8D" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="CDFECFFB-ABD3-4acc-8AF9-C9AFAFA4D9DB" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="1EACD05A-6082-4ede-9D14-ACBA266990CC" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="88B220D7-7EDF-4804-B424-9A130586938D" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="CC236BE9-BA65-437a-AA53-E52F65A2ED7B" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="776C5D49-DA6D-4fb0-8367-7F398AE2731AB" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="71A9607D-2B60-4586-8F27-28A82E41291A" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="C6C7FC7D-9889-4ec9-AD63-7020AED78913" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="EB6E0E52-9AC0-4577-A3E0-2991ED6911D9" FileName="SplinesInv\CSN4950-30_Tol" />
+<Table InternalName="531B154C-2AAD-4c30-A09C-CEE1E68BBA6B" FileName="SplinesInv\ISO4156-30_Tol" />
+<Table InternalName="F1B963F2-23C8-4a79-988C-B0901AF2D6EA" FileName="SplinesInv\ISO4156-30_Tol" />
+<Table InternalName="E4969A4F-56DE-44a8-8E02-CE8A844A2CBE" FileName="SplinesInv\ISO4156-30_Tol" />
+<Table InternalName="6A06D9E4-51FB-4b1f-B315-C9BBAF9E21CA" FileName="SplinesInv\ISO4156-30_Tol" />
+<Table InternalName="A1DA31CA-4FDE-4aad-9C34-90D362AE66D6" FileName="SplinesInv\ISO4156-30_InspDims" />
+<Table InternalName="D01D8073-B04F-4753-9B6F-BD48BEC267E7" FileName="SplinesInv\ISO4156-30_InspDims" />
+<Table InternalName="6D232028-43EC-4018-87E8-8AC2D5597E9F" FileName="SplinesInv\ISO4156-30_InspDims" />
+<Table InternalName="9D22F63E-8B1E-4443-B7C1-5DB32A9389A2" FileName="SplinesInv\ISO4156-30_InspDims" />
+<Table InternalName="9FB00725-6244-442a-ADD7-D3BD574E48DA" FileName="SplinesInv\ISO4156-30_InspDims" />
+<Table InternalName="0F2A579B-E84F-40a8-B51D-92BC66CFE061" FileName="SplinesInv\ISO4156-30_InspDims" />
+
+<Table InternalName="2DCCA1D5-FB83-4420-AA6B-65DD935F6AC8" FileName="SplinesInv\GOST6033-80-30_Fillet_Side" />
+<Table InternalName="096E3215-490A-4b25-B926-A82E7D8A7C2E" FileName="SplinesInv\GOST6033-80-30_Flat_Diam" />
+<Table InternalName="DA808465-80EF-413b-AC56-C203BA5BC5A5" FileName="SplinesInv\GOST6033-80-30_Flat_Side" />
+
+<Table InternalName="D6B1B80A-9FE7-4fed-94B3-A16C9CC7EA1B" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="4CCD9115-F4A0-452c-8AE0-C7680D9CD2A8" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="9E67F24C-DF31-4802-A59E-70620D06E52B" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="CA7516A-AD44-4c02-8442-AE61B594A34D" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="7AC7BA07-B5A3-4f7a-AA4C-1F3B74D30055" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="F0E7983A-C412-48ef-AC6B-2FD7E1BE9EAF" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="E37EED08-6AC1-4305-897E-BA530878F0C2" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="7716B264-356B-4463-B919-28AF4977B062" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="B62105E5-0BB8-40c7-9A6E-3C3FA6F035F2" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="95626567-70B0-4fe1-ADEA-49FB77CED513" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="D17DCB37-D66C-4579-9A0E-9E41A5D3D5DB" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="3D1F1DD3-3862-4ccd-9E7E-FBFB1D10F93E" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="F40FFCDF-A298-4ff0-B1B0-7CF72A823C56" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="F051A622-382A-4fbd-B518-1273C8127397" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="4F352D20-E5EC-435f-AB0E-620FA41F3118" FileName="SplinesInv\GOST6033-80-30_Tol" />
+<Table InternalName="BF178CD6-A49E-4388-B62F-2A9A3E374C2A" FileName="SplinesInv\GOST6033-80-30_Tol" />
+
+<Table InternalName="2F9138AC-5C48-4a10-AAC9-79B27B62157E" FileName="VBelts\ServiceFactor" />
+<Table InternalName="31C121D8-4C50-48DC-B076-D6C154A9ABAA" FileName="VBelts\VBelts" />
+<Table InternalName="52ACDB18-4A3F-4825-84EC-1BE6D0A22299" FileName="VBelts\VBelts" />
+<Table InternalName="B44F5FC7-FB65-4d8a-B2B6-23288A18698F" FileName="VBelts\VBelts" />
+<Table InternalName="E6657B8E-A1D1-4895-90E0-BED56661E8F3" FileName="VBelts\VBelts" />
+<Table InternalName="332336AB-CB2A-48fc-ACE7-3F90C2A68089" FileName="VBelts\VBelts" />
+<Table InternalName="A4B82AFD-636B-4d0f-BA0F-B047258DE7B1" FileName="VBelts\BeltSlip" />
+<Table InternalName="EDC3E9E7-7392-4a04-9587-C9589DEE5679" FileName="VBelts\BeltsC4" />
+<Table InternalName="6344E57B-D4A2-4261-95AF-9171D8C90CDA" FileName="VBelts\BeltsC5" />
+<Table InternalName="60E2954E-17DC-4BF2-80CB-14B7AAE9C65F" FileName="VBelts\VBeltsMap" />
+<Table InternalName="184B8B83-4BF3-4a10-90EA-02EBE8BDD8AE" FileName="SBelts\ServiceFactor" />
+<Table InternalName="AEC495B0-A138-4e07-9CB3-B75FCAEFDCE7" FileName="SBelts\SBelts" />
+<Table InternalName="1B470AD6-B203-4d8b-ADED-306055194648" FileName="SBelts\SBelts" />
+<Table InternalName="F6EF2578-1209-435d-915D-B1950887DAF3" FileName="SBelts\SBelts" />
+<Table InternalName="30D3CDD8-B7B9-4faf-87B3-000AD45472CB" FileName="SBelts\SBelts" />
+<Table InternalName="19F55C2E-DED2-480f-8DFF-FFFE704D8E56" FileName="SBelts\SBelts" />
+<Table InternalName="DB444381-2CD4-4ddb-8C28-B5E90CA5C325" FileName="SBelts\SBeltsMap" />
+<Table InternalName="D6BEB7FE-B97B-4c94-837E-5C0B5F94A0EC" FileName="VBelts\VBelts" />
+<Table InternalName="63755576-90B3-4c37-9E5C-3191B91A95FD" FileName="VBelts\VBelts" />
+<Table InternalName="3DAE495C-FBA8-467e-8AA6-9DE4F67E9664" FileName="VBelts\VBelts" />
+<Table InternalName="A200F6F2-0F1E-4920-BFE3-BDADC791F238" FileName="VBelts\VBelts" />
+<Table InternalName="B9AF486D-A7A5-44f9-AF06-6CD7CB4BB9FF" FileName="Chains\f1" />
+<Table InternalName="295681BF-58B6-4396-B97F-9BE7E74FBCF8" FileName="Chains\f1" />
+<Table InternalName="FBCB2D70-F681-4eaa-91D6-D16B0320B16B" FileName="Chains\fY" />
+<Table InternalName="8FD81E84-1457-4a24-A174-CB51E83CCDBE" FileName="Chains\f3" />
+<Table InternalName="B639CFC0-0432-4e9c-A228-566F44FECEBB" FileName="Chains\f4" />
+<Table InternalName="F80BDB76-A0C6-40d0-8A0C-C628C39ADAF9" FileName="Chains\f5" />
+<Table InternalName="F54895FB-5986-4933-98B9-1D6FC9E11F2E" FileName="Chains\f6" />
+<Table InternalName="EA5ED9F3-AE8D-4efc-8363-781C83B6EE5E" FileName="Chains\pb" />
+<Table InternalName="41A63D71-8F51-47f1-8ED0-5488030FDA5E" FileName="Chains\fk" />
+<Table InternalName="427ADD0F-A8E3-46dc-8AF8-166CD1C5CE16" FileName="Chains\fm" />
+<Table InternalName="738D141E-B3FE-4079-B22E-6527E9D57A56" FileName="Chains\fc" />
+<Table InternalName="DC6B9187-AF56-4c96-9117-FE694254ADA8" FileName="Chains\f_y" />
+<Table InternalName="3B6D22E2-0CFE-4fec-9EF9-0A5A1E94E197" FileName="Chains\fz" />
+<Table InternalName="B5918A93-6B3A-4ea5-B1D4-F564BA75BBE9" FileName="Chains\RChains" />
+<Table InternalName="B21AD86C-3C24-4ea0-9086-FFD32238469D" FileName="Chains\RChains" />
+<Table InternalName="A09AD590-F51B-41a3-B21F-268D6FA1DB86" FileName="Chains\RChains" />
+<Table InternalName="77841125-8D93-48fb-A163-7373E9FD90A2" FileName="Chains\RChains" />
+<Table InternalName="930F5481-C403-4e82-8B0C-BE4BA42EF1E9" FileName="Chains\RChainsMap" />
+<Table InternalName="C70867FC-B77C-4d6f-B561-81DED1FD63E5" FileName="Springs\Spring_Belleville.cfg" />
+<Table InternalName="C0972E94-1981-4c24-AA39-E6245C38AA9D" FileName="Springs\SpringBelleville_CSN" />
+<Table InternalName="4299DD2B-1394-4c7c-BBC6-39D51A049DB7" FileName="Springs\SpringBelleville_ANSI" />
+<Table InternalName="3C7156BD-8FB1-4425-B765-406D60997D55" FileName="Springs\SpringBelleville_DIN" />
+<Table InternalName="D9F1DEDA-78E4-4842-9CEA-6F972A72F3EA" FileName="Springs\SpringBelleville_GOST" />
+<Table InternalName="A0656AE2-126F-4553-A07B-2A3063D4F758" FileName="Springs\SpringWireDiameter_Metric"/>
+<Table InternalName="133EA286-27F8-4612-B338-3265464335BD" FileName="Springs\SpringWireDiameter_ANSI"/>
+<Table InternalName="092CB585-8ACF-417c-B78C-6ED085AE372B" FileName="Springs\Spring_Compress_GroundCoils"/>
+<Table InternalName="C62F0638-052D-4eb7-9E8B-58CF784D27CB" FileName="Springs\Spring_Compress_ClosedEndCoils"/>
+<Table InternalName="A38408E7-C607-4fd3-9128-8E41E42B7D84" FileName="Springs\Spring_Compress_TransitionCoils"/>
+<Table InternalName="4CB97297-5FAE-4131-8D50-4B150F4D0907" FileName="Shaft\ShaftDimensions"/>
+<Table InternalName="BD68C786-37F6-4818-9057-5F68934E3FDA" FileName="Shaft\ShaftDimensions"/>
+<Table InternalName="7C46116C-C592-4655-A89F-46F0B136BCEF" FileName="Shaft\ShaftDimensions"/>
+<Table InternalName="6F7F462C-4997-4937-8B32-CA553594AB0E" FileName="Shaft\ShaftDimensions"/>
+<Table InternalName="4F9D4F34-994B-4cff-96AE-6FC8EA08FF3F" FileName="Shaft\ShaftDimensions"/>
+<Table InternalName="979C7EAE-A246-443f-8C8B-6FD09AC2D50A" FileName="Shaft\ShaftDimensions"/>
+<Table InternalName="5FEC0DA7-D240-49b1-B884-F14E970F447B" FileName="LimFit\Grades_IT_Imp"/>
+<Table InternalName="D7EAF888-8627-41c5-8504-87D484FEEE2D" FileName="LimFit\Grades_IT_Metric"/>
+<Table InternalName="A061768D-018D-42b9-9937-3892CEEE3421" FileName="LimFit\UpperDeviation_ES_Metric"/>
+<Table InternalName="0147186D-5EA0-4524-8DA2-930B2762128C" FileName="LimFit\LowerDeviation_EI_Metric"/>
+<Table InternalName="BE659642-9D6C-476d-9BD4-5306CF812347" FileName="LimFit\UpperDeviation_ES_Imp"/>
+<Table InternalName="A83B7B63-85E6-449f-913D-4335B4F8F4B0" FileName="LimFit\LowerDeviation_EI_Imp"/>
+<Table InternalName="059BE83A-C00C-4548-ACEF-AD8DE6C42DF4" FileName="LimFit\AdjustValues"/>
+<Table InternalName="0254D1FA-524A-453e-B9E4-D23935E23241" FileName="LimFit\PreferredFits_Imp"/>
+<Table InternalName="4A45F66B-3207-4656-8A08-B15451DB245A" FileName="LimFit\PreferredFits_Metric"/>
+<Table InternalName="34CDF231-679F-4234-8961-E1CFC0967008" FileName="Shaft\NeckDown"/>
+<Table InternalName="641F3FFE-863C-43e0-9CAD-66B86C447DDD" FileName="Shaft\NeckDown"/>
+<Table InternalName="0BF91715-6F81-4e73-A928-505FF026604F" FileName="Shaft\NeckDown"/>
+<Table InternalName="CFC6A87F-2A16-40c6-AE0D-EF24ECBC0EAC" FileName="Shaft\NeckDown"/>
+<Table InternalName="71CE2849-4826-4bb1-9D03-BA8D33EBD6C4" FileName="Shaft\NeckDown"/>
+<Table InternalName="750769AE-3A08-4fbf-AB87-6455CA07F487" FileName="Shaft\NeckDown"/>
+<Table InternalName="E59C2F5E-3881-4305-B3DF-63FDEE24E76A" FileName="Shaft\NeckDown"/>
+<Table InternalName="DDA2E15C-DB7C-48ff-A118-6BA80B129541" FileName="Shaft\NeckDown"/>
+<Table InternalName="665AFD00-7878-4436-8CBF-B04C74487693" FileName="Shaft\NeckDown"/>
+<Table InternalName="E458EAB6-D85B-4c4a-8FD8-540EF1619614" FileName="Shaft\Keyway"/>
+<Table InternalName="4F24D9C6-9671-4f63-A54B-565DCD7E5DCE" FileName="Shaft\Keyway"/>
+<Table InternalName="F7918EC9-941E-4c29-8300-913746D8150F" FileName="Shaft\Scales"/>
+<Table InternalName="D6F0405E-EC86-40a0-A03E-463B743A2B39" FileName="Shaft\Locknut"/>
+<Table InternalName="F8B6811B-E0D7-486c-9F3D-262DE6DDE3F4" FileName="Shaft\Keyway"/>
+<Table InternalName="450B8050-47CE-4963-AC48-9E01010B8CB8" FileName="Shaft\Keyway"/>
+</FDesign>
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="5-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\5-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">3.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >5.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >4.2</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">11.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.015</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">20.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.00342678 - 0.0319374/{Dpk} - 2.50157724e-08*pow({Dpk}*{nk};2) - 0.00041963*(log({Dpk}*{nk})-log(2/(1+pow(10;76.108/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="5-160" >
+      <Size>5 x 160</Size>
+      <Length>171.0</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="5-170" >
+      <Size>5 x 170</Size>
+      <Length>181.0</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="5-180" >
+      <Size>5 x 180</Size>
+      <Length>191.0</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="5-190" >
+      <Size>5 x 190</Size>
+      <Length>201.0</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="5-200" >
+      <Size>5 x 200</Size>
+      <Length>211.0</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="5-212" >
+      <Size>5 x 212</Size>
+      <Length>223.0</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="5-224" >
+      <Size>5 x 224</Size>
+      <Length>235.0</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="5-236" >
+      <Size>5 x 236</Size>
+      <Length>247.0</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="5-250" >
+      <Size>5 x 250</Size>
+      <Length>261.0</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="5-265" >
+      <Size>5 x 265</Size>
+      <Length>276.0</Length>
+      <C3>0.97</C3>
+    </Member>
+    <Member moniker="5-280" >
+      <Size>5 x 280</Size>
+      <Length>291.0</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="5-300" >
+      <Size>5 x 300</Size>
+      <Length>311.0</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="5-315" >
+      <Size>5 x 315</Size>
+      <Length>326.0</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="5-335" >
+      <Size>5 x 335</Size>
+      <Length>346.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="5-355" >
+      <Size>5 x 355</Size>
+      <Length>366.0</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="5-375" >
+      <Size>5 x 375</Size>
+      <Length>386.0</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="5-400" >
+      <Size>5 x 400</Size>
+      <Length>411.0</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="5-425" >
+      <Size>5 x 425</Size>
+      <Length>436.0</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="5-450" >
+      <Size>5 x 450</Size>
+      <Length>461.0</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="5-475" >
+      <Size>5 x 475</Size>
+      <Length>486.0</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="5-500" >
+      <Size>5 x 500</Size>
+      <Length>511.0</Length>
+      <C3>1.11</C3>
+    </Member>
+    <Member moniker="5-530" >
+      <Size>5 x 530</Size>
+      <Length>541.0</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="5-560" >
+      <Size>5 x 560</Size>
+      <Length>571.0</Length>
+      <C3>1.13</C3>
+    </Member>
+    <Member moniker="5-600" >
+      <Size>5 x 600</Size>
+      <Length>611.0</Length>
+      <C3>1.15</C3>
+    </Member>
+  </Members>
+</CustomFamily>

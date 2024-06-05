@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resources>
+  <string id="%1%" value="Service Factor"/>
+  <string id="%2%" value="Low Load"/>
+  <string id="%3%" value="Uniform Load"/>
+  <string id="%4%" value="Ligh Shock Load"/>
+  <string id="%5%" value="Moderate Shock Load"/>
+  <string id="%6%" value="Heavy Shock Load"/>
+  <string id="%7%" value="Intermittent Service"/>
+  <string id="%8%" value="Normal Service"/>
+  <string id="%9%" value="Continuous Service"/>
+  <string id="%10%" value="3-8 Hours Daily"/>
+  <string id="%11%" value="8-16 Hours Daily"/>
+  <string id="%12%" value="16-24 Hours Daily"/>
+  <string id="%13%" value="DriveR"/>
+  <string id="%14%" value="DriveN"/>
+  <string id="%15%" value="Uniform Torque"/>
+  <string id="%16%" value="High/Non-Uniform Torque"/>
+</Resources>

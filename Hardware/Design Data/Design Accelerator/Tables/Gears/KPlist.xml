@@ -1,0 +1,62 @@
+<FDesign>
+	<Table InternalName="8540FC88-3FFF-44ED-915E-E5577DC54501">
+		<Definition DisplayName="KP constants - ISO">
+			<Columns>
+				<A Description="Kp" Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>1.4</A></Row>
+			<Row><A>2.1</A></Row>
+			<Row><A>3.9</A></Row>
+			<Row><A>7.5</A></Row>
+			<Row><A>14.9</A></Row>
+			<Row><A>26.8</A></Row>
+			<Row><A>39.1</A></Row>
+			<Row><A>52.8</A></Row>
+			<Row><A>76.6</A></Row>
+			<Row><A>102.6</A></Row>
+			<Row><A>146.3</A></Row>
+		</Data>
+	</Table>
+	<Table InternalName="CD6E22EC-2756-439F-8576-84D319A3D811">
+		<Definition DisplayName="KP constants - DIN">
+			<Columns>
+				<A Description="Kp" Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>1.4</A></Row>
+			<Row><A>2.1</A></Row>
+			<Row><A>3.3</A></Row>
+			<Row><A>5.7</A></Row>
+			<Row><A>9.6</A></Row>
+			<Row><A>15.3</A></Row>
+			<Row><A>24.5</A></Row>
+			<Row><A>34.5</A></Row>
+			<Row><A>53.6</A></Row>
+			<Row><A>76.6</A></Row>
+			<Row><A>122.5</A></Row>
+		</Data>
+	</Table>
+	<Table InternalName="7583DCEA-838E-4DEA-8A32-C0856069E2A1">
+		<Definition DisplayName="KP constants - CSN">
+			<Columns>
+				<A Description="Kp" Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>1.4</A></Row>
+			<Row><A>2.15</A></Row>
+			<Row><A>3.91</A></Row>
+			<Row><A>7.51</A></Row>
+			<Row><A>14.94</A></Row>
+			<Row><A>26.81</A></Row>
+			<Row><A>39.07</A></Row>
+			<Row><A>52.85</A></Row>
+			<Row><A>76.60</A></Row>
+			<Row><A>102.64</A></Row>
+			<Row><A>146.31</A></Row>
+		</Data>
+	</Table>
+</FDesign>

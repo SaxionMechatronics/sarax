@@ -1,0 +1,33 @@
+<FDesign>
+	<Table InternalName="1EDEF4C9-7C70-415C-A5E6-C9CA3E5C7B29">
+		<Definition DisplayName="Upper Deviation of Tooth Thickness Ess (1. part)">
+			<Columns>
+				<A Description="Backlash group" Units="ul" /><B Description="Factor" Units="microm" /><C Description="Factor" Units="microm" /><D Description="Factor" Units="microm" /><E Description="Factor" Units="microm" /><F Description="Factor" Units="microm" /><G Description="Factor" Units="microm" /><H Description="Factor" Units="microm" /><I Description="Factor" Units="microm" /><J Description="Factor" Units="microm" /><K Description="Factor" Units="microm" /><L Description="Factor" Units="microm" /><M Description="Factor" Units="microm" /><N Description="Factor" Units="microm" /><O Description="Factor" Units="microm" /><P Description="Factor" Units="microm" /><Q Description="Factor" Units="microm" />
+			</Columns>
+			<Note>First row contain: Center Distance [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>80</B><C>125</C><D>180</D><E>250</E><F>315</F><G>400</G><H>500</H><I>630</I><J>800</J><K>1000</K><L>1250</L><M>1600</M><N>2000</N><O>2500</O><P>3150</P><Q>4000</Q>
+			</Row>
+			<Row>
+				<A>H</A><B>0</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H><I>0</I><J>0</J><K>0</K><L>0</L><M>0</M><N>0</N><O>0</O><P>0</P><Q>0</Q>
+			</Row>
+			<Row>
+				<A>E</A><B>32</B><C>38</C><D>42</D><E>48</E><F>56</F><G>60</G><H>67</H><I>75</I><J>85</J><K>95</K><L>110</L><M>130</M><N>160</N><O>190</O><P>220</P><Q>280</Q>
+			</Row>
+			<Row>
+				<A>D</A><B>48</B><C>56</C><D>67</D><E>75</E><F>85</F><G>95</G><H>105</H><I>120</I><J>130</J><K>150</K><L>170</L><M>200</M><N>240</N><O>300</O><P>360</P><Q>420</Q>
+			</Row>
+			<Row>
+				<A>C</A><B>80</B><C>95</C><D>105</D><E>120</E><F>130</F><G>140</G><H>160</H><I>180</I><J>210</J><K>240</K><L>280</L><M>320</M><N>400</N><O>480</O><P>560</P><Q>710</Q>
+			</Row>
+			<Row>
+				<A>B</A><B>130</B><C>150</C><D>170</D><E>205</E><F>220</F><G>240</G><H>260</H><I>300</I><J>340</J><K>380</K><L>450</L><M>530</M><N>630</N><O>710</O><P>900</P><Q>1100</Q>
+			</Row>
+			<Row>
+				<A>A</A><B>200</B><C>220</C><D>260</D><E>300</E><F>340</F><G>380</G><H>420</H><I>480</I><J>530</J><K>600</K><L>710</L><M>850</M><N>950</N><O>1180</O><P>1400</P><Q>1800</Q>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

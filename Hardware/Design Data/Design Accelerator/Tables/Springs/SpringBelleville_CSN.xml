@@ -1,0 +1,87 @@
+<FDesign>	<Table InternalName="C0972E94-1981-4c24-AA39-E6245C38AA9D">		<Definition DisplayName="%1%">
+			<Columns>
+				<Name DisplayName="%2%" Description="%3%" Units="" IsVisible="1" IsRequired="1" IsNumeric="0" EditableState="0" />
+				<D DisplayName="%4%" Description="%5%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+				<d DisplayName="%8%" Description="%7%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+				<t DisplayName="%10%" Description="%9%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+				<H DisplayName="%12%" Description="%11%" Units="%6%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1" />
+			</Columns>
+		</Definition>
+		<Data>			<Row><Name>%D x %d x %t x %H</Name><D>8</D><d>4.2</d><t>0.2</t><H>0.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>8</D><d>4.2</d><t>0.3</t><H>0.55</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>8</D><d>4.2</d><t>0.4</t><H>0.6</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>10</D><d>3.2</d><t>0.3</t><H>0.65</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>10</D><d>3.2</d><t>0.4</t><H>0.7</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>10</D><d>5.2</d><t>0.5</t><H>0.75</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>12</D><d>4.2</d><t>0.6</t><H>1.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>12.5</D><d>6.2</d><t>0.5</t><H>0.85</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>12.5</D><d>6.2</d><t>0.7</t><H>1.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>16</D><d>8.2</d><t>0.6</t><H>1.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>16</D><d>8.2</d><t>0.9</t><H>1.25</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>20</D><d>10.2</d><t>0.5</t><H>1.2</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>20</D><d>10.2</d><t>0.8</t><H>1.35</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>20</D><d>10.2</d><t>0.9</t><H>1.45</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>20</D><d>10.2</d><t>1.0</t><H>1.55</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>20</D><d>10.2</d><t>1.1</t><H>1.55</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>25</D><d>12.2</d><t>0.7</t><H>1.6</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>25</D><d>12.2</d><t>0.9</t><H>1.6</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>25</D><d>12.2</d><t>1.5</t><H>2.05</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>28</D><d>14.2</d><t>0.8</t><H>1.8</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>28</D><d>14.2</d><t>1.0</t><H>1.8</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>28</D><d>14.2</d><t>1.2</t><H>2.1</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>28</D><d>14.2</d><t>1.5</t><H>2.15</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>31.5</D><d>16.3</d><t>0.8</t><H>1.9</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>31.5</D><d>16.3</d><t>1.2</t><H>2.1</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>31.5</D><d>16.3</d><t>1.8</t><H>2.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>35.5</D><d>18.3</d><t>0.9</t><H>2.1</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>35.5</D><d>18.3</d><t>1.2</t><H>2.2</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>35.5</D><d>18.3</d><t>2.0</t><H>2.8</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>40</D><d>20.4</d><t>1.0</t><H>2.4</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>40</D><d>20.4</d><t>1.5</t><H>2.65</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>40</D><d>20.4</d><t>2.0</t><H>3.1</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>40</D><d>20.4</d><t>2.2</t><H>3.1</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>40</D><d>20.4</d><t>2.5</t><H>3.45</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>45</D><d>22.4</d><t>1.2</t><H>2.85</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>45</D><d>22.4</d><t>1.8</t><H>3.10</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>45</D><d>22.4</d><t>2.5</t><H>3.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>45</D><d>28</d><t>3.0</t><H>3.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>50</D><d>25</d><t>3.0</t><H>4.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>50</D><d>25</d><t>3.5</t><H>4.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>56</D><d>25</d><t>3.5</t><H>4.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>63</D><d>31</d><t>3.0</t><H>4.3</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>63</D><d>31</d><t>3.5</t><H>4.9</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>70</D><d>35.5</d><t>3.0</t><H>5.1</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>70</D><d>35.5</d><t>4.0</t><H>5.8</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>80</D><d>32</d><t>3.0</t><H>6.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>80</D><d>41</d><t>4.0</t><H>6.2</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>80</D><d>41</d><t>5.0</t><H>6.7</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>90</D><d>46</d><t>4.0</t><H>6.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>90</D><d>46</d><t>4.5</t><H>7.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>90</D><d>50</d><t>5.0</t><H>7.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>90</D><d>50</d><t>6.0</t><H>8.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>100</D><d>51</d><t>3.5</t><H>6.3</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>100</D><d>51</d><t>4.0</t><H>7.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>100</D><d>54</d><t>4.5</t><H>7.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>100</D><d>54</d><t>5.0</t><H>8.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>110</D><d>45</d><t>4.5</t><H>7.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>110</D><d>52</d><t>6.0</t><H>8.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>110</D><d>52</d><t>5.0</t><H>8.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>125</D><d>45</d><t>3.5</t><H>8.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>125</D><d>45</d><t>4.5</t><H>8.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>140</D><d>46</d><t>5.0</t><H>8.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>140</D><d>72</d><t>8.0</t><H>11.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>160</D><d>82</d><t>6.0</t><H>10.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>160</D><d>82</d><t>10.0</t><H>13.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>180</D><d>61</d><t>8.0</t><H>10.7</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>200</D><d>102</d><t>14.0</t><H>18.2</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>220</D><d>100</d><t>10.0</t><H>16.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>250</D><d>100</d><t>14.0</t><H>20.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>280</D><d>122</d><t>14.0</t><H>20.5</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>280</D><d>85</d><t>17.0</t><H>22.3</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>315</D><d>163</d><t>16.0</t><H>24.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>355</D><d>130</d><t>9.0</t><H>21.4</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>400</D><d>230</d><t>10.0</t><H>18.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>450</D><d>250</d><t>12.0</t><H>20.0</H></Row>
+			<Row><Name>%D x %d x %t x %H</Name><D>500</D><d>330</d><t>15.0</t><H>30.0</H></Row>
+		</Data>	</Table>
+</FDesign>

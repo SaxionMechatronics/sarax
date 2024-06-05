@@ -1,0 +1,36 @@
+<FDesign>
+	<Table InternalName="5B98C907-6064-44DD-83A1-99764E1D70AC">
+		<Definition DisplayName="Gear Ratio (Worm Gear)">
+			<Columns>
+				<A Description="Gear Ratio" Units="ul" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>5.6</A></Row>
+			<Row><A>6.3</A></Row>
+			<Row><A>7.1</A></Row>
+			<Row><A>8</A></Row>
+			<Row><A>9</A></Row>
+			<Row><A>10</A></Row>
+			<Row><A>11.2</A></Row>
+			<Row><A>12.5</A></Row>
+			<Row><A>14</A></Row>
+			<Row><A>16</A></Row>
+			<Row><A>18</A></Row>
+			<Row><A>20</A></Row>
+			<Row><A>22.4</A></Row>
+			<Row><A>25</A></Row>
+			<Row><A>28</A></Row>
+			<Row><A>31.5</A></Row>
+			<Row><A>40</A></Row>
+			<Row><A>45</A></Row>
+			<Row><A>50</A></Row>
+			<Row><A>56</A></Row>
+			<Row><A>63</A></Row>
+			<Row><A>71</A></Row>
+			<Row><A>80</A></Row>
+			<Row><A>90</A></Row>
+			<Row><A>100</A></Row>
+		</Data>
+	</Table>
+</FDesign>

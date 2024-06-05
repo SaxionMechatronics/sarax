@@ -1,0 +1,11 @@
+<Resources>
+  <string id="%1%" value="Base Material"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Allowable Pressure"/>
+  <string id="%4%" value="MPa"/>
+  <string id="%5%" value="Cast steel"/>
+  <string id="%6%" value="Hammered steel"/>
+  <string id="%7%" value="Wrought steel"/>
+  <string id="%8%" value="Material"/>
+  <string id="%9%" value="||s||.al|"/>
+</Resources>

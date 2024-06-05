@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTSPULLEY" measuresystem="imperial" thumbnail="Unflanged.jpg" name="%1%" desc="%2%" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <z src="table" dt="number" units="ul" />
+    <pb src="fixed" dt="number" units="in">1.25</pb>
+    <hg src="fixed" dt="number" units="in">0.406</hg>
+    <bw src="fixed" dt="number" units="in">0.479</bw>
+    <fi src="fixed" dt="number" units="deg">20.0</fi>
+    <rb src="fixed" dt="number" units="in">0.156</rb>
+    <rt src="fixed" dt="number" units="in">0.125</rt>
+    <a src="fixed" dt="number" units="in">0.06</a>
+    <b src="table" dt="number" units="in" />
+    <bf src="table" dt="number" units="in" />
+  </Parameters>
+  <Members>
+    <Member moniker="18XXH200" >
+      <Size>18XXH200</Size>
+      <z>18</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="19XXH200" >
+      <Size>19XXH200</Size>
+      <z>19</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="20XXH200" >
+      <Size>20XXH200</Size>
+      <z>20</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="21XXH200" >
+      <Size>21XXH200</Size>
+      <z>21</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="22XXH200" >
+      <Size>22XXH200</Size>
+      <z>22</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="23XXH200" >
+      <Size>23XXH200</Size>
+      <z>23</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="24XXH200" >
+      <Size>24XXH200</Size>
+      <z>24</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="25XXH200" >
+      <Size>25XXH200</Size>
+      <z>25</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="26XXH200" >
+      <Size>26XXH200</Size>
+      <z>26</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="27XXH200" >
+      <Size>27XXH200</Size>
+      <z>27</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="28XXH200" >
+      <Size>28XXH200</Size>
+      <z>28</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="30XXH200" >
+      <Size>30XXH200</Size>
+      <z>30</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="32XXH200" >
+      <Size>32XXH200</Size>
+      <z>32</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="36XXH200" >
+      <Size>36XXH200</Size>
+      <z>36</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="40XXH200" >
+      <Size>40XXH200</Size>
+      <z>40</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="48XXH200" >
+      <Size>48XXH200</Size>
+      <z>48</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="60XXH200" >
+      <Size>60XXH200</Size>
+      <z>60</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="72XXH200" >
+      <Size>72XXH200</Size>
+      <z>72</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="84XXH200" >
+      <Size>84XXH200</Size>
+      <z>84</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="96XXH200" >
+      <Size>96XXH200</Size>
+      <z>96</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="120XXH200" >
+      <Size>120XXH200</Size>
+      <z>120</z>
+      <b>2.0</b>
+      <bf>2.52</bf>
+    </Member>
+    <Member moniker="18XXH300" >
+      <Size>18XXH300</Size>
+      <z>18</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="19XXH300" >
+      <Size>19XXH300</Size>
+      <z>19</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="20XXH300" >
+      <Size>20XXH300</Size>
+      <z>20</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="21XXH300" >
+      <Size>21XXH300</Size>
+      <z>21</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="22XXH300" >
+      <Size>22XXH300</Size>
+      <z>22</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="23XXH300" >
+      <Size>23XXH300</Size>
+      <z>23</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="24XXH300" >
+      <Size>24XXH300</Size>
+      <z>24</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="25XXH300" >
+      <Size>25XXH300</Size>
+      <z>25</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="26XXH300" >
+      <Size>26XXH300</Size>
+      <z>26</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="27XXH300" >
+      <Size>27XXH300</Size>
+      <z>27</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="28XXH300" >
+      <Size>28XXH300</Size>
+      <z>28</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="30XXH300" >
+      <Size>30XXH300</Size>
+      <z>30</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="32XXH300" >
+      <Size>32XXH300</Size>
+      <z>32</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="36XXH300" >
+      <Size>36XXH300</Size>
+      <z>36</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="40XXH300" >
+      <Size>40XXH300</Size>
+      <z>40</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="48XXH300" >
+      <Size>48XXH300</Size>
+      <z>48</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="60XXH300" >
+      <Size>60XXH300</Size>
+      <z>60</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="72XXH300" >
+      <Size>72XXH300</Size>
+      <z>72</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="84XXH300" >
+      <Size>84XXH300</Size>
+      <z>84</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="96XXH300" >
+      <Size>96XXH300</Size>
+      <z>96</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="120XXH300" >
+      <Size>120XXH300</Size>
+      <z>120</z>
+      <b>3.0</b>
+      <bf>3.59</bf>
+    </Member>
+    <Member moniker="18XXH400" >
+      <Size>18XXH400</Size>
+      <z>18</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="19XXH400" >
+      <Size>19XXH400</Size>
+      <z>19</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="20XXH400" >
+      <Size>20XXH400</Size>
+      <z>20</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="21XXH400" >
+      <Size>21XXH400</Size>
+      <z>21</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="22XXH400" >
+      <Size>22XXH400</Size>
+      <z>22</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="23XXH400" >
+      <Size>23XXH400</Size>
+      <z>23</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="24XXH400" >
+      <Size>24XXH400</Size>
+      <z>24</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="25XXH400" >
+      <Size>25XXH400</Size>
+      <z>25</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="26XXH400" >
+      <Size>26XXH400</Size>
+      <z>26</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="27XXH400" >
+      <Size>27XXH400</Size>
+      <z>27</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="28XXH400" >
+      <Size>28XXH400</Size>
+      <z>28</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="30XXH400" >
+      <Size>30XXH400</Size>
+      <z>30</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="32XXH400" >
+      <Size>32XXH400</Size>
+      <z>32</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="36XXH400" >
+      <Size>36XXH400</Size>
+      <z>36</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="40XXH400" >
+      <Size>40XXH400</Size>
+      <z>40</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="48XXH400" >
+      <Size>48XXH400</Size>
+      <z>48</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="60XXH400" >
+      <Size>60XXH400</Size>
+      <z>60</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="72XXH400" >
+      <Size>72XXH400</Size>
+      <z>72</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="84XXH400" >
+      <Size>84XXH400</Size>
+      <z>84</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="96XXH400" >
+      <Size>96XXH400</Size>
+      <z>96</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="120XXH400" >
+      <Size>120XXH400</Size>
+      <z>120</z>
+      <b>4.0</b>
+      <bf>4.65</bf>
+    </Member>
+    <Member moniker="18XXH500" >
+      <Size>18XXH500</Size>
+      <z>18</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="19XXH500" >
+      <Size>19XXH500</Size>
+      <z>19</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="20XXH500" >
+      <Size>20XXH500</Size>
+      <z>20</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="21XXH500" >
+      <Size>21XXH500</Size>
+      <z>21</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="22XXH500" >
+      <Size>22XXH500</Size>
+      <z>22</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="23XXH500" >
+      <Size>23XXH500</Size>
+      <z>23</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="24XXH500" >
+      <Size>24XXH500</Size>
+      <z>24</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="25XXH500" >
+      <Size>25XXH500</Size>
+      <z>25</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="26XXH500" >
+      <Size>26XXH500</Size>
+      <z>26</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="27XXH500" >
+      <Size>27XXH500</Size>
+      <z>27</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="28XXH500" >
+      <Size>28XXH500</Size>
+      <z>28</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="30XXH500" >
+      <Size>30XXH500</Size>
+      <z>30</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="32XXH500" >
+      <Size>32XXH500</Size>
+      <z>32</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="36XXH500" >
+      <Size>36XXH500</Size>
+      <z>36</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="40XXH500" >
+      <Size>40XXH500</Size>
+      <z>40</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="48XXH500" >
+      <Size>48XXH500</Size>
+      <z>48</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="60XXH500" >
+      <Size>60XXH500</Size>
+      <z>60</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="72XXH500" >
+      <Size>72XXH500</Size>
+      <z>72</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="84XXH500" >
+      <Size>84XXH500</Size>
+      <z>84</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="96XXH500" >
+      <Size>96XXH500</Size>
+      <z>96</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+    <Member moniker="120XXH500" >
+      <Size>120XXH500</Size>
+      <z>120</z>
+      <b>5.0</b>
+      <bf>5.72</bf>
+    </Member>
+  </Members>
+</CustomFamily>

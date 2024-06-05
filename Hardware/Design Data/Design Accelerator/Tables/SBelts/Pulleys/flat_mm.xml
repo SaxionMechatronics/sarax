@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="FLATPULLEY" measuresystem="metric" thumbnail="flatpulley.jpg" name="%1%" desc="%2%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <Diameter src="table" dt="number" units="mm" />
+  </Parameters>
+  <Members>
+    <Member moniker="FLAT_MM:20" >
+      <Size>D20</Size>
+      <Diameter>20.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:22" >
+      <Size>D22</Size>
+      <Diameter>22.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:25" >
+      <Size>D25</Size>
+      <Diameter>25.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:28" >
+      <Size>D28</Size>
+      <Diameter>28.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:31" >
+      <Size>D31.5</Size>
+      <Diameter>31.5</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:35" >
+      <Size>D35.5</Size>
+      <Diameter>35.5</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:40" >
+      <Size>D40</Size>
+      <Diameter>40.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:45" >
+      <Size>D45</Size>
+      <Diameter>45.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:50" >
+      <Size>D50</Size>
+      <Diameter>50.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:56" >
+      <Size>D56</Size>
+      <Diameter>56.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:63" >
+      <Size>D63</Size>
+      <Diameter>63.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:71" >
+      <Size>D71</Size>
+      <Diameter>71.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:80" >
+      <Size>D80</Size>
+      <Diameter>80.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:90" >
+      <Size>D90</Size>
+      <Diameter>90.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:100" >
+      <Size>D100</Size>
+      <Diameter>100.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:112" >
+      <Size>D112</Size>
+      <Diameter>112.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:125" >
+      <Size>D125</Size>
+      <Diameter>125.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:132" >
+      <Size>D132</Size>
+      <Diameter>132.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:140" >
+      <Size>D140</Size>
+      <Diameter>140.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:150" >
+      <Size>D150</Size>
+      <Diameter>150.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:160" >
+      <Size>D160</Size>
+      <Diameter>160.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:170" >
+      <Size>D170</Size>
+      <Diameter>170.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:180" >
+      <Size>D180</Size>
+      <Diameter>180.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:190" >
+      <Size>D190</Size>
+      <Diameter>190.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:200" >
+      <Size>D200</Size>
+      <Diameter>200.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:212" >
+      <Size>D212</Size>
+      <Diameter>212.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:224" >
+      <Size>D224</Size>
+      <Diameter>224.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:236" >
+      <Size>D236</Size>
+      <Diameter>236.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:250" >
+      <Size>D250</Size>
+      <Diameter>250.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:265" >
+      <Size>D265</Size>
+      <Diameter>265.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:280" >
+      <Size>D280</Size>
+      <Diameter>280.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:300" >
+      <Size>D300</Size>
+      <Diameter>300.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:315" >
+      <Size>D315</Size>
+      <Diameter>315.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:335" >
+      <Size>D335</Size>
+      <Diameter>335.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:355" >
+      <Size>D55</Size>
+      <Diameter>355.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:375" >
+      <Size>D375</Size>
+      <Diameter>375.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:400" >
+      <Size>D400</Size>
+      <Diameter>400.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:425" >
+      <Size>D425</Size>
+      <Diameter>425.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:450" >
+      <Size>D450</Size>
+      <Diameter>450.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:475" >
+      <Size>D475</Size>
+      <Diameter>475.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:500" >
+      <Size>D500</Size>
+      <Diameter>500.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:530" >
+      <Size>D530</Size>
+      <Diameter>530.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:560" >
+      <Size>D560</Size>
+      <Diameter>560.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:600" >
+      <Size>D600</Size>
+      <Diameter>600.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:630" >
+      <Size>D630</Size>
+      <Diameter>630.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:670" >
+      <Size>D670</Size>
+      <Diameter>670.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:710" >
+      <Size>D710</Size>
+      <Diameter>710.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:750" >
+      <Size>D750</Size>
+      <Diameter>750.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:800" >
+      <Size>D800</Size>
+      <Diameter>800.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:850" >
+      <Size>D850</Size>
+      <Diameter>850.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:900" >
+      <Size>D900</Size>
+      <Diameter>900.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:950" >
+      <Size>D950</Size>
+      <Diameter>950.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1000" >
+      <Size>D1000</Size>
+      <Diameter>1000.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1060" >
+      <Size>D1060</Size>
+      <Diameter>1060.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1120" >
+      <Size>D1120</Size>
+      <Diameter>1120.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1180" >
+      <Size>D1180</Size>
+      <Diameter>1180.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1250" >
+      <Size>D1250</Size>
+      <Diameter>1250.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1350" >
+      <Size>D1350</Size>
+      <Diameter>1350.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1400" >
+      <Size>D1400</Size>
+      <Diameter>1400.0</Diameter>
+    </Member>
+    <Member moniker="FLAT_MM:1500" >
+      <Size>D1500</Size>
+      <Diameter>1500.0</Diameter>
+    </Member>
+  </Members>
+</CustomFamily>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="metric" thumbnail="StdGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="mm" >19.0</NomWidth>
+    <Diameter src="table" dt="number" units="mm" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="mm">23.8</Depth>
+    <DistSe src="fixed" dt="number" units="mm">17.0</DistSe>
+    <DistSg src="fixed" dt="number" units="mm">25.5</DistSg>
+    <Height src="fixed" dt="number" units="mm">4.8</Height>
+    <Rin src="fixed" dt="number" units="mm">0.0</Rin>
+    <Rex src="fixed" dt="number" units="mm">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="22:180" >
+      <Size>22 - 180</Size>
+      <Diameter>180.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:190" >
+      <Size>22 - 190</Size>
+      <Diameter>190.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:200" >
+      <Size>22 - 200</Size>
+      <Diameter>200.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:212" >
+      <Size>22 - 212</Size>
+      <Diameter>212.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:224" >
+      <Size>22 - 224</Size>
+      <Diameter>224.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:236" >
+      <Size>22 - 236</Size>
+      <Diameter>236.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:250" >
+      <Size>22 - 250</Size>
+      <Diameter>250.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:280" >
+      <Size>22 - 280</Size>
+      <Diameter>280.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:300" >
+      <Size>22 - 300</Size>
+      <Diameter>300.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:315" >
+      <Size>22 - 315</Size>
+      <Diameter>315.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="22:355" >
+      <Size>22 - 355</Size>
+      <Diameter>355.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:400" >
+      <Size>22 - 400</Size>
+      <Diameter>400.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:450" >
+      <Size>22 - 450</Size>
+      <Diameter>450.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:500" >
+      <Size>22 - 500</Size>
+      <Diameter>500.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:560" >
+      <Size>22 - 560</Size>
+      <Diameter>560.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:630" >
+      <Size>22 - 630</Size>
+      <Diameter>630.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:710" >
+      <Size>22 - 710</Size>
+      <Diameter>710.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:800" >
+      <Size>22 - 800</Size>
+      <Diameter>800.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:900" >
+      <Size>22 - 900</Size>
+      <Diameter>900.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:1000" >
+      <Size>22 - 1000</Size>
+      <Diameter>1000.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:1120" >
+      <Size>22 - 1120</Size>
+      <Diameter>1120.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:1250" >
+      <Size>22 - 1250</Size>
+      <Diameter>1250.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:1400" >
+      <Size>22 - 1400</Size>
+      <Diameter>1400.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:1600" >
+      <Size>22 - 1600</Size>
+      <Diameter>1600.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:1800" >
+      <Size>22 - 1800</Size>
+      <Diameter>1800.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="22:2000" >
+      <Size>22 - 2000</Size>
+      <Diameter>2000.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

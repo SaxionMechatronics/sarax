@@ -1,0 +1,48 @@
+<FDesign>
+	<Table InternalName="4FE4322A-1925-41FD-891A-EDAA00C3150F">
+		<Definition DisplayName="Upper Deviation of Tooth Thickness Asne - DIN">
+			<Columns>
+				<A Description="Backlash Tolerance" Units="string" /><B Description="Deviation" Units="ul" /><C Description="Deviation" Units="ul" /><D Description="Deviation" Units="ul" /><E Description="Deviation" Units="ul" /><F Description="Deviation" Units="ul" /><G Description="Deviation" Units="ul" /><H Description="Deviation" Units="ul" /><I Description="Deviation" Units="ul" /><J Description="Deviation" Units="ul" /><K Description="Deviation" Units="ul" /><L Description="Deviation" Units="ul" />
+			</Columns>
+			<Note>First row contain: Pitch Diameter [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>10</B><C>50</C><D>125</D><E>280</E><F>560</F><G>1000</G><H>1600</H><I>2500</I><J>4000</J><K>6300</K><L>10000</L>
+			</Row>
+			<Row>
+				<A>h</A><B>0</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H><I>0</I><J>0</J><K>0</K><L>0</L>
+			</Row>
+			<Row>
+				<A>g</A><B>5</B><C>7</C><D>9</D><E>12</E><F>17</F><G>22</G><H>30</H><I>41</I><J>56</J><K>75</K><L>100</L>
+			</Row>
+			<Row>
+				<A>f</A><B>10</B><C>14</C><D>19</D><E>26</E><F>35</F><G>48</G><H>64</H><I>85</I><J>115</J><K>155</K><L>210</L>
+			</Row>
+			<Row>
+				<A>e</A><B>22</B><C>30</C><D>40</D><E>56</E><F>75</F><G>100</G><H>135</H><I>180</I><J>250</J><K>330</K><L>450</L>
+			</Row>
+			<Row>
+				<A>d</A><B>33</B><C>44</C><D>60</D><E>80</E><F>110</F><G>145</G><H>200</H><I>270</I><J>360</J><K>480</K><L>640</L>
+			</Row>
+			<Row>
+				<A>cd</A><B>40</B><C>54</C><D>70</D><E>95</E><F>130</F><G>175</G><H>240</H><I>320</I><J>430</J><K>580</K><L>780</L>
+			</Row>
+			<Row>
+				<A>c</A><B>48</B><C>65</C><D>85</D><E>115</E><F>155</F><G>210</G><H>290</H><I>390</I><J>520</J><K>700</K><L>940</L>
+			</Row>
+			<Row>
+				<A>bc</A><B>58</B><C>75</C><D>105</D><E>140</E><F>190</F><G>260</G><H>340</H><I>460</I><J>620</J><K>840</K><L>1150</L>
+			</Row>
+			<Row>
+				<A>b</A><B>70</B><C>95</C><D>125</D><E>170</E><F>230</F><G>310</G><H>420</H><I>560</I><J>760</J><K>1020</K><L>1350</L>
+			</Row>
+			<Row>
+				<A>ab</A><B>85</B><C>110</C><D>150</D><E>200</E><F>280</F><G>370</G><H>500</H><I>680</I><J>920</J><K>1250</K><L>1650</L>
+			</Row>
+			<Row>
+				<A>a</A><B>100</B><C>135</C><D>180</D><E>250</E><F>330</F><G>450</G><H>600</H><I>820</I><J>1100</J><K>1500</K><L>2000</L>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

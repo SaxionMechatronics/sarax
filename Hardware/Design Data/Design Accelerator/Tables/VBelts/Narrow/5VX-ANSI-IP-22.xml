@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="effective" measuresystem="imperial" thumbnail="5VX-ANSI-IP-22.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\5V-ANSI-IP22-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="in">0.53125</Height>
+    <HeightOffset src="fixed" dt="number" units="in">0</HeightOffset>
+    <WidthExt src="fixed" dt="number" units="in" >0.625</WidthExt>
+    <Width src="fixed" dt="number" units="in" >0.6</Width>
+    <PitchOffset src="fixed" dt="number" units="in">-0.05</PitchOffset>
+    <Length src="table" dt="number" units="in" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">120.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="ft/s">160.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="lbmass/ft">0.072</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">4.4</Dpkmin>
+    <Dpk src="fixed" dt="number" units="in">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="hp">{Dpk}*{nk}*(3.3038 - 7.781/{Dpk} - 3.6432e-04*pow({Dpk}*{nk};2) - 0.43343*log({Dpk}*{nk}))-{nk}*2.9927*log((1+pow(10;2.6/{s}-2.6))/2)</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="5VX500" >
+      <Size>5VX500</Size>
+      <Length>50.0</Length>
+      <C3>0.85</C3>
+    </Member>
+    <Member moniker="5VX530" >
+      <Size>5VX530</Size>
+      <Length>53</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="5VX560" >
+      <Size>5VX560</Size>
+      <Length>56</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="5VX600" >
+      <Size>5VX600</Size>
+      <Length>60</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="5VX630" >
+      <Size>5VX630</Size>
+      <Length>63</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="5VX670" >
+      <Size>5VX670</Size>
+      <Length>67</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="5VX710" >
+      <Size>5VX710</Size>
+      <Length>71</Length>
+      <C3>0.91</C3>
+    </Member>
+    <Member moniker="5VX750" >
+      <Size>5VX750</Size>
+      <Length>75</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="5VX800" >
+      <Size>5VX800</Size>
+      <Length>80</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="5VX850" >
+      <Size>5VX850</Size>
+      <Length>85</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="5VX900" >
+      <Size>5VX900</Size>
+      <Length>90</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="5VX950" >
+      <Size>5VX950</Size>
+      <Length>95</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="5VX1000" >
+      <Size>5VX1000</Size>
+      <Length>100</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="5VX1060" >
+      <Size>5VX1060</Size>
+      <Length>106</Length>
+      <C3>0.97</C3>
+    </Member>
+    <Member moniker="5VX1120" >
+      <Size>5VX1120</Size>
+      <Length>112</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="5VX1180" >
+      <Size>5VX1180</Size>
+      <Length>118</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="5VX1250" >
+      <Size>5VX1250</Size>
+      <Length>125</Length>
+      <C3>1</C3>
+    </Member>
+    <Member moniker="5VX1320" >
+      <Size>5VX1320</Size>
+      <Length>132</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="5VX1400" >
+      <Size>5VX1400</Size>
+      <Length>140</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="5VX1500" >
+      <Size>5VX1500</Size>
+      <Length>150</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="5VX1600" >
+      <Size>5VX1600</Size>
+      <Length>160</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="5VX1700" >
+      <Size>5VX1700</Size>
+      <Length>170</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="5VX1800" >
+      <Size>5VX1800</Size>
+      <Length>180</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="5VX1900" >
+      <Size>5VX1900</Size>
+      <Length>190</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="5VX2000" >
+      <Size>5VX2000</Size>
+      <Length>200</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="5VX2120" >
+      <Size>5VX2120</Size>
+      <Length>212</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="5VX2240" >
+      <Size>5VX2240</Size>
+      <Length>224</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="5VX2360" >
+      <Size>5VX2360</Size>
+      <Length>236</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="5VX2500" >
+      <Size>5VX2500</Size>
+      <Length>250</Length>
+      <C3>1.11</C3>
+    </Member>
+    <Member moniker="5VX2650" >
+      <Size>5VX2650</Size>
+      <Length>265</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="5VX2800" >
+      <Size>5VX2800</Size>
+      <Length>280</Length>
+      <C3>1.13</C3>
+    </Member>
+    <Member moniker="5VX3000" >
+      <Size>5VX3000</Size>
+      <Length>300</Length>
+      <C3>1.14</C3>
+    </Member>
+    <Member moniker="5VX3150" >
+      <Size>5VX3150</Size>
+      <Length>315</Length>
+      <C3>1.15</C3>
+    </Member>
+    <Member moniker="5VX3350" >
+      <Size>5VX3350</Size>
+      <Length>335</Length>
+      <C3>1.16</C3>
+    </Member>
+    <Member moniker="5VX5500" >
+      <Size>5VX5500</Size>
+      <Length>355</Length>
+      <C3>1.17</C3>
+    </Member>
+  </Members>
+</CustomFamily>

@@ -1,0 +1,16 @@
+<Resources>
+  <string id="%1%" value="Worm Materials"/>
+  <string id="%2%" value="Material"/>
+  <string id="%3%" value="Material Designation"/>
+  <string id="%4%" value="Worm Material Coefficient"/>
+  <string id="%5%" value="ul"/>
+  <string id="%6%" value="E"/>
+  <string id="%7%" value="Modulus of Elasticity"/>
+  <string id="%8%" value="||m|"/>
+  <string id="%9%" value="Poisson's Ratio"/>
+  <string id="%10%" value="psi"/>
+  <string id="%11%" value="Hardened Steel"/>
+  <string id="%12%" value="Steel"/>
+  <string id="%13%" value="Cast Iron"/>
+  <string id="%14%" value="k|.mat|"/>
+</Resources>

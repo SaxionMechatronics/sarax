@@ -1,0 +1,36 @@
+<FDesign>
+  <Table InternalName="B1C6A1E5-DAE7-48EB-A19C-2F7B6993F6A8">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%2%" Description="%3%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <Coef DisplayName="%14%" Description="%4%" Units="%5%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <E DisplayName="%6%" Description="%7%" Units="%10%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <mi DisplayName="%8%" Description="%9%" Units="%5%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>3B954411790942428548AEF673FEE139</ID>
+        <Material>%11%</Material>
+        <Coef>1</Coef>
+        <E>29900000</E>
+        <mi>0.3</mi>
+      </Row>
+      <Row>
+        <ID>63F3DB671F3548A6B325C9E76CA9085B</ID>
+        <Material>%12%</Material>
+        <Coef>0.75</Coef>
+        <E>29900000</E>
+        <mi>0.3</mi>
+      </Row>
+      <Row>
+        <ID>AAF401AE7B7C4FABADD8C5A957C93631</ID>
+        <Material>%13%</Material>
+        <Coef>0.5</Coef>
+        <E>15200000</E>
+        <mi>0.25</mi>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

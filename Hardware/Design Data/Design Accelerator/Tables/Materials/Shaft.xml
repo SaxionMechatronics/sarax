@@ -1,0 +1,68 @@
+<FDesign>
+  <Table InternalName="B9FDFECB-FCCF-4C25-870B-4A4F8081BCCE">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%11%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <SigmaD1 DisplayName="%12%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauDK1 DisplayName="%13%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD2 DisplayName="%12%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauDK2 DisplayName="%13%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD3 DisplayName="%12%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauDK3 DisplayName="%13%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>3921B313C12241E69E748D5699884866</ID>
+        <Material>%6%</Material>
+        <SigmaD1>13000</SigmaD1>
+        <TauDK1>8000</TauDK1>
+        <SigmaD2>9500</SigmaD2>
+        <TauDK2>6000</TauDK2>
+        <SigmaD3>7000</SigmaD3>
+        <TauDK3>4000</TauDK3>
+      </Row>
+      <Row>
+        <ID>3CBB7207D4C54468BDFFFB09EBB8AF0B</ID>
+        <Material>%7%</Material>
+        <SigmaD1>17500</SigmaD1>
+        <TauDK1>11500</TauDK1>
+        <SigmaD2>13000</SigmaD2>
+        <TauDK2>8000</TauDK2>
+        <SigmaD3>8500</SigmaD3>
+        <TauDK3>6000</TauDK3>
+      </Row>
+      <Row>
+        <ID>1A45EE5F5CCB4F7E92B4EAA95482C516</ID>
+        <Material>%8%</Material>
+        <SigmaD1>11500</SigmaD1>
+        <TauDK1>6000</TauDK1>
+        <SigmaD2>8500</SigmaD2>
+        <TauDK2>4000</TauDK2>
+        <SigmaD3>6000</SigmaD3>
+        <TauDK3>3000</TauDK3>
+      </Row>
+      <Row>
+        <ID>5845836495A2406B8019EABA743F87FC</ID>
+        <Material>%9%</Material>
+        <SigmaD1>10000</SigmaD1>
+        <TauDK1>6000</TauDK1>
+        <SigmaD2>7000</SigmaD2>
+        <TauDK2>4000</TauDK2>
+        <SigmaD3>4500</SigmaD3>
+        <TauDK3>3000</TauDK3>
+      </Row>
+      <Row>
+        <ID>8C122433CE5648739D06184C18E46A9A</ID>
+        <Material>%10%</Material>
+        <SigmaD1>4500</SigmaD1>
+        <TauDK1>2000</TauDK1>
+        <SigmaD2>3000</SigmaD2>
+        <TauDK2>1500</TauDK2>
+        <SigmaD3>2300</SigmaD3>
+        <TauDK3>1000</TauDK3>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

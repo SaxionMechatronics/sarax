@@ -1,0 +1,28 @@
+<FDesign>
+	<Table InternalName="728A9C00-6E7D-4e69-A8A9-908485354070">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Name DisplayName="" Selectable="0" IsVisible="1" />
+				<Static DisplayName="%2%" Units="ul" IsVisible="1" IsNumeric="1" />
+				<Repeated DisplayName="%3%" Units="ul" IsVisible="1" IsNumeric="1" />
+				<Alternated DisplayName="%4%" Units="ul" IsVisible="1" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>		
+			<Row>
+				<Name>%5%</Name>
+				<Static>1.0</Static>
+				<Repeated>0.75</Repeated>
+				<Alternated>0.5</Alternated>
+			</Row>
+			<Row>
+				<Name>%6%</Name>
+				<Static>0.3</Static>
+				<Repeated>0.25</Repeated>
+				<Alternated>0.15</Alternated>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>
+
+

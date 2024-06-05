@@ -1,0 +1,20 @@
+<FDesign>
+	<Table InternalName="55E220B3-5EAF-4581-9786-7670D2E5B55B">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Desc DisplayName="" Units="" IsNumeric="0" IsVisible="1" Selectable="0" />
+				<A DisplayName="" Units="ul" IsNumeric="1" IsVisible="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Desc>%2%</Desc>
+				<A>1</A>
+			</Row>
+			<Row>
+				<Desc>%3%</Desc>
+				<A>1.4</A>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

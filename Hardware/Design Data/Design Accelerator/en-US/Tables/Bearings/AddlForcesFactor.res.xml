@@ -1,0 +1,20 @@
+<Resources>
+  <string id="%1%" value="Factor of Additional Forces"/>
+  <string id="%2%" value="Factor"/>
+  <string id="%3%" value="Machine Type"/>
+  <string id="%4%" value="Electric rotary machines, turbines, turbo-compressors"/>
+  <string id="%5%" value="Railway and piston engine"/>
+  <string id="%6%" value="Belt conveyors, ropeways, pumps, fans"/>
+  <string id="%7%" value="Cranes, elevators, mine fans"/>
+  <string id="%8%" value="Mine elevators and pumps"/>
+  <string id="%9%" value="Piston pumps and compressors"/>
+  <string id="%10%" value="Pan, tube and hammer mills, crushers"/>
+  <string id="%11%" value="Machines for soil removing, deep drilling machines"/>
+  <string id="%12%" value="Drying drums"/>
+  <string id="%13%" value="Paper and textile machines"/>
+  <string id="%14%" value="Machines for food processing"/>
+  <string id="%15%" value="Grinders; drilling, milling, sawing and wood-cutting machines"/>
+  <string id="%16%" value="Lathes, cutting machines with reciprocating motion"/>
+  <string id="%17%" value="Rolling mills, forging hammers, power sheet shears, stamp. m."/>
+  <string id="%18%" value="Roughing and break-down mills"/>
+</Resources>

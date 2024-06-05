@@ -1,0 +1,33 @@
+<FDesign>
+	<Table InternalName="0476EF56-2ECB-429C-AFFF-50B9EB77A15F">
+		<Definition DisplayName="Guaranted Backlash jn">
+			<Columns>
+				<A Description="Backlash Group" Units="string" /><B Description="Backlash" Units="microm" /><C Description="Backlash" Units="microm" /><D Description="Backlash" Units="microm" /><E Description="Backlash" Units="microm" /><F Description="Backlash" Units="microm" /><G Description="Backlash" Units="microm" /><H Description="Backlash" Units="microm" /><I Description="Backlash" Units="microm" /><J Description="Backlash" Units="microm" /><K Description="Backlash" Units="microm" /><L Description="Backlash" Units="microm" /><M Description="Backlash" Units="microm" /><N Description="Backlash" Units="microm" /><O Description="Backlash" Units="microm" /><P Description="Backlash" Units="microm" /><Q Description="Backlash" Units="microm" />
+			</Columns>
+			<Note>First row contain: Center Distance [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>80</B><C>125</C><D>180</D><E>250</E><F>315</F><G>400</G><H>500</H><I>630</I><J>800</J><K>1000</K><L>1250</L><M>1600</M><N>2000</N><O>2500</O><P>3150</P><Q>4000</Q>
+			</Row>
+			<Row>
+				<A>H</A><B>0</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H><I>0</I><J>0</J><K>0</K><L>0</L><M>0</M><N>0</N><O>0</O><P>0</P><Q>0</Q>
+			</Row>
+			<Row>
+				<A>E</A><B>30</B><C>35</C><D>40</D><E>46</E><F>52</F><G>57</G><H>63</H><I>70</I><J>80</J><K>90</K><L>105</L><M>125</M><N>150</N><O>175</O><P>210</P><Q>260</Q>
+			</Row>
+			<Row>
+				<A>D</A><B>46</B><C>54</C><D>63</D><E>72</E><F>81</F><G>89</G><H>97</H><I>110</I><J>125</J><K>140</K><L>165</L><M>195</M><N>230</N><O>280</O><P>330</P><Q>410</Q>
+			</Row>
+			<Row>
+				<A>C</A><B>74</B><C>87</C><D>100</D><E>115</E><F>130</F><G>140</G><H>155</H><I>175</I><J>200</J><K>230</K><L>260</L><M>310</M><N>370</N><O>440</O><P>540</P><Q>660</Q>
+			</Row>
+			<Row>
+				<A>B</A><B>120</B><C>140</C><D>160</D><E>185</E><F>210</F><G>230</G><H>250</H><I>280</I><J>320</J><K>360</K><L>420</L><M>500</M><N>600</N><O>700</O><P>860</P><Q>1050</Q>
+			</Row>
+			<Row>
+				<A>A</A><B>190</B><C>220</C><D>250</D><E>290</E><F>320</F><G>360</G><H>400</H><I>440</I><J>500</J><K>560</K><L>660</L><M>780</M><N>920</N><O>1100</O><P>1350</P><Q>1650</Q>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

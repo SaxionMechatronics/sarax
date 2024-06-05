@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.3" category="RCHAIN" thumbnail="CSN023315.jpg" name="%1%" desc="%2%" DblPitch="True" Sprocket="CSN" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="N"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="mm^2"/>
+    <fi src="fixed" dt="number" units="ul">1.5</fi>
+    <Lh0 src="fixed" dt="number" units="hr">10000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.065</bax>
+    <Pc1 src="fixed" dt="string">9.93kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0009ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">953.5kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="208B-1" >
+      <Designation>208 B</Designation>
+      <Size>208B</Size>
+      <k>1</k>
+      <p>25.40</p>
+      <b1>7.75</b1>
+      <d1>8.51</d1>
+      <d2>4.45</d2>
+      <b2>11.45</b2>
+      <Pt>15.1</Pt>
+      <h2>12.0</h2>
+      <h3>12.0</h3>
+      <b>17.0</b>
+      <A>50</A>
+      <Fu>17800</Fu>
+      <m>0.48</m>
+    </Member>
+    <Member moniker="210B-1" >
+      <Designation>210 B</Designation>
+      <Size>210B</Size>
+      <k>1</k>
+      <p>31.75</p>
+      <b1>9.65</b1>
+      <d1>10.16</d1>
+      <d2>5.08</d2>
+      <b2>13.28</b2>
+      <Pt>16.9</Pt>
+      <h2>14.8</h2>
+      <h3>14.8</h3>
+      <b>19.6</b>
+      <A>67</A>
+      <Fu>22200</Fu>
+      <m>0.55</m>
+    </Member>
+    <Member moniker="212B-1" >
+      <Designation>212 B</Designation>
+      <Size>212B</Size>
+      <k>1</k>
+      <p>38.10</p>
+      <b1>11.68</b1>
+      <d1>12.07</d1>
+      <d2>5.72</d2>
+      <b2>15.62</b2>
+      <Pt>19.5</Pt>
+      <h2>16.4</h2>
+      <h3>16.4</h3>
+      <b>22.7</b>
+      <A>89</A>
+      <Fu>28900</Fu>
+      <m>0.80</m>
+    </Member>
+    <Member moniker="216B-1" >
+      <Designation>216 B</Designation>
+      <Size>216B</Size>
+      <k>1</k>
+      <p>50.80</p>
+      <b1>17.02</b1>
+      <d1>15.88</d1>
+      <d2>8.28</d2>
+      <b2>25.45</b2>
+      <Pt>33.8</Pt>
+      <h2>24.0</h2>
+      <h3>24.0</h3>
+      <b>36.1</b>
+      <A>210</A>
+      <Fu>43100</Fu>
+      <m>1.90</m>
+    </Member>
+    <Member moniker="220B-1" >
+      <Designation>220 B</Designation>
+      <Size>220B</Size>
+      <k>1</k>
+      <p>63.50</p>
+      <b1>19.56</b1>
+      <d1>19.05</d1>
+      <d2>10.24</d2>
+      <b2>29.01</b2>
+      <Pt>38.4</Pt>
+      <h2>27.0</h2>
+      <h3>27.0</h3>
+      <b>43.2</b>
+      <A>259</A>
+      <Fu>65800</Fu>
+      <m>2.60</m>
+    </Member>
+    <Member moniker="224B-1" >
+      <Designation>224 B</Designation>
+      <Size>224B</Size>
+      <k>1</k>
+      <p>76.20</p>
+      <b1>25.40</b1>
+      <d1>25.40</d1>
+      <d2>14.68</d2>
+      <b2>38.50</b2>
+      <Pt>51.4</Pt>
+      <h2>36.0</h2>
+      <h3>36.0</h3>
+      <b>53.4</b>
+      <A>554</A>
+      <Fu>99800</Fu>
+      <m>4.51</m>
+    </Member>
+  </Members>
+</CustomFamily>

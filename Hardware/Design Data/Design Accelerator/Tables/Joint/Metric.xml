@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FDesign>
+  <Table InternalName="AF076BA4-598C-4c58-9353-741A707F0B6E">
+    <Definition DisplayName="%2%">
+      <Columns>
+        <NomDiam Description="%1%" Units="mm"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <NomDiam>1.6</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>2</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>2.5</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>3</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>3.5</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>4</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>5</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>6</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>8</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>10</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>12</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>16</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>20</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>24</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>30</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>33</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>36</NomDiam>
+      </Row>
+      <Row>
+        <NomDiam>39</NomDiam>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

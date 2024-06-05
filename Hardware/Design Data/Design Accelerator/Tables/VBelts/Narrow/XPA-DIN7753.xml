@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="XPA-DIN7753.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\SPA-DIN2211-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">9.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >12.7</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >11</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Le2Ld src="fixed" dt="number" units="mm">18.0</Le2Ld>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">120.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">50.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.112</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">63.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.06722651 - 2.54290798/{Dpk} - 2.10564e-08*pow({Dpk}*{nk};2) - 0.0066249*(log({Dpk}*{nk})-log(2/(1+pow(10;383.84/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="XPA800" >
+      <Size>XPA 800</Size>
+      <Length>800.0</Length>
+      <C3>0.81</C3>
+    </Member>
+    <Member moniker="XPA900">
+      <Size>XPA 900</Size>
+      <Length>900.0</Length>
+      <C3>0.83</C3>
+    </Member>
+    <Member moniker="XPA1000">
+      <Size>XPA 1000</Size>
+      <Length>1000.0</Length>
+      <C3>0.85</C3>
+    </Member>
+    <Member moniker="XPA1120">
+      <Size>XPA 1120</Size>
+      <Length>1120.0</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="XPA1250">
+      <Size>XPA 1250</Size>
+      <Length>1250.0</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="XPA1400">
+      <Size>XPA 1400</Size>
+      <Length>1400.0</Length>
+      <C3>0.91</C3>
+    </Member>
+    <Member moniker="XPA1600">
+      <Size>XPA 1600</Size>
+      <Length>1600.0</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="XPA1800">
+      <Size>XPA 1800</Size>
+      <Length>1800.0</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="XPA2000">
+      <Size>XPA 2000</Size>
+      <Length>2000.0</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="XPA2240">
+      <Size>XPA 2240</Size>
+      <Length>2240.0</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="XPA2500">
+      <Size>XPA 2500</Size>
+      <Length>2500.0</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="XPA2800">
+      <Size>XPA 2800</Size>
+      <Length>2800.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="XPA3150">
+      <Size>XPA 3150</Size>
+      <Length>3150.0</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="XPA3550">
+      <Size>XPA 3550</Size>
+      <Length>3550.0</Length>
+      <C3>1.06</C3>
+    </Member>
+  </Members>
+</CustomFamily>

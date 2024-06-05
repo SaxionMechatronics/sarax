@@ -1,0 +1,13 @@
+<Resources>
+  <string id="%1%" value="Spline Material"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Allowable Ultimate Tensile Stress"/>
+  <string id="%4%" value="MPa"/>
+  <string id="%5%" value="Hardened steel"/>
+  <string id="%6%" value="Material"/>
+  <string id="%7%" value="S|.u|"/>
+  <string id="%8%" value="Hardeness" />
+  <string id="%9%" value="HRC" />
+  <string id="%10%" value="Hardeness of tooth sides" />
+  <string id="%11%" value="ul"/>
+</Resources>

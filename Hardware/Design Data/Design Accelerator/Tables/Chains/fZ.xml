@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="3B6D22E2-0CFE-4fec-9EF9-0A5A1E94E197">
+		<Definition DisplayName="Teeth factor for service life analysis ThL">
+			<Columns>
+				<zs Units="ul"/>
+				<f Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><zs>10</zs><f>6.2</f></Row>
+			<Row><zs>12</zs><f>7.3</f></Row>
+			<Row><zs>16</zs><f>9.3</f></Row>
+			<Row><zs>20</zs><f>11.1</f></Row>
+			<Row><zs>25</zs><f>13.1</f></Row>
+			<Row><zs>30</zs><f>15.1</f></Row>
+			<Row><zs>36</zs><f>17.5</f></Row>
+			<Row><zs>42</zs><f>19.8</f></Row>
+			<Row><zs>50</zs><f>22.7</f></Row>
+			<Row><zs>60</zs><f>26.2</f></Row>
+		</Data>
+	</Table>
+</FDesign>
+
+
+
+
+
+
+
+
+

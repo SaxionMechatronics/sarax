@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTS" thumbnail="DT5-DIN7721.jpg" measuresystem="metric" name="%1%" desc="%2%" profile="staggered">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="mm">5</Pitch>
+    <S src="fixed" dt="number" units="mm">2.65</S>
+    <ht src="fixed" dt="number" units="mm">1.2</ht>
+    <PitchOfst src="fixed" dt="number" units="mm">0.5</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">20.0</beta>
+    <Height src="fixed" dt="number" units="mm" >3.4</Height>
+    <ra src="fixed" dt="number" units="mm" >0.4</ra>
+    <rr src="fixed" dt="number" units="mm" >0.4</rr>
+    <Width0 src="fixed" dt="number" units="mm">25</Width0>
+    <Width src="table" dt="number" units="mm" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">80</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.0625</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">15</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">875</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="6-T5-20D">
+      <Size>6T5 x 100 D</Size>
+      <Width>6.0</Width>
+      <Teeth>20</Teeth>
+    </Member>
+    <Member moniker="6-T5-30D">
+      <Size>6T5 x 150 D</Size>
+      <Width>6.0</Width>
+      <Teeth>30</Teeth>
+    </Member>
+    <Member moniker="6-T5-33D">
+      <Size>6T5 x 165 D</Size>
+      <Width>6.0</Width>
+      <Teeth>33</Teeth>
+    </Member>
+    <Member moniker="6-T5-36D">
+      <Size>6T5 x 180 D</Size>
+      <Width>6.0</Width>
+      <Teeth>36</Teeth>
+    </Member>
+    <Member moniker="6-T5-37D">
+      <Size>6T5 x 185 D</Size>
+      <Width>6.0</Width>
+      <Teeth>37</Teeth>
+    </Member>
+    <Member moniker="6-T5-40D">
+      <Size>6T5 x 200 D</Size>
+      <Width>6.0</Width>
+      <Teeth>40</Teeth>
+    </Member>
+    <Member moniker="6-T5-42D">
+      <Size>6T5 x 210 D</Size>
+      <Width>6.0</Width>
+      <Teeth>42</Teeth>
+    </Member>
+    <Member moniker="6-T5-43D">
+      <Size>6T5 x 215 D</Size>
+      <Width>6.0</Width>
+      <Teeth>43</Teeth>
+    </Member>
+    <Member moniker="6-T5-44D">
+      <Size>6T5 x 220 D</Size>
+      <Width>6.0</Width>
+      <Teeth>44</Teeth>
+    </Member>
+    <Member moniker="6-T5-45D">
+      <Size>6T5 x 225 D</Size>
+      <Width>6.0</Width>
+      <Teeth>45</Teeth>
+    </Member>
+    <Member moniker="6-T5-49D">
+      <Size>6T5 x 245 D</Size>
+      <Width>6.0</Width>
+      <Teeth>49</Teeth>
+    </Member>
+    <Member moniker="6-T5-50D">
+      <Size>6T5 x 250 D</Size>
+      <Width>6.0</Width>
+      <Teeth>50</Teeth>
+    </Member>
+    <Member moniker="6-T5-51D">
+      <Size>6T5 x 255 D</Size>
+      <Width>6.0</Width>
+      <Teeth>51</Teeth>
+    </Member>
+    <Member moniker="6-T5-52D">
+      <Size>6T5 x 260 D</Size>
+      <Width>6.0</Width>
+      <Teeth>52</Teeth>
+    </Member>
+    <Member moniker="6-T5-54D">
+      <Size>6T5 x 270 D</Size>
+      <Width>6.0</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="6-T5-56D">
+      <Size>6T5 x 280 D</Size>
+      <Width>6.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="6-T5-59D">
+      <Size>6T5 x 295 D</Size>
+      <Width>6.0</Width>
+      <Teeth>59</Teeth>
+    </Member>
+    <Member moniker="6-T5-61D">
+      <Size>6T5 x 305 D</Size>
+      <Width>6.0</Width>
+      <Teeth>61</Teeth>
+    </Member>
+    <Member moniker="6-T5-66D">
+      <Size>6T5 x 330 D</Size>
+      <Width>6.0</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="6-T5-68D">
+      <Size>6T5 x 340 D</Size>
+      <Width>6.0</Width>
+      <Teeth>68</Teeth>
+    </Member>
+    <Member moniker="6-T5-71D">
+      <Size>6T5 x 355 D</Size>
+      <Width>6.0</Width>
+      <Teeth>71</Teeth>
+    </Member>
+    <Member moniker="6-T5-73D">
+      <Size>6T5 x 365 D</Size>
+      <Width>6.0</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="6-T5-78D">
+      <Size>6T5 x 390 D</Size>
+      <Width>6.0</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="6-T5-80D">
+      <Size>6T5 x 400 D</Size>
+      <Width>6.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="6-T5-82D">
+      <Size>6T5 x 410 D</Size>
+      <Width>6.0</Width>
+      <Teeth>82</Teeth>
+    </Member>
+    <Member moniker="6-T5-84D">
+      <Size>6T5 x 420 D</Size>
+      <Width>6.0</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="6-T5-91D">
+      <Size>6T5 x 455 D</Size>
+      <Width>6.0</Width>
+      <Teeth>91</Teeth>
+    </Member>
+    <Member moniker="6-T5-92D">
+      <Size>6T5 x 460 D</Size>
+      <Width>6.0</Width>
+      <Teeth>92</Teeth>
+    </Member>
+    <Member moniker="6-T5-96D">
+      <Size>6T5 x 480 D</Size>
+      <Width>6.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="6-T5-100D">
+      <Size>6T5 x 500 D</Size>
+      <Width>6.0</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="6-T5-101D">
+      <Size>6T5 x 505 D</Size>
+      <Width>6.0</Width>
+      <Teeth>101</Teeth>
+    </Member>
+    <Member moniker="6-T5-102D">
+      <Size>6T5 x 510 D</Size>
+      <Width>6.0</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="6-T5-105D">
+      <Size>6T5 x 525 D</Size>
+      <Width>6.0</Width>
+      <Teeth>105</Teeth>
+    </Member>
+    <Member moniker="6-T5-109D">
+      <Size>6T5 x 545 D</Size>
+      <Width>6.0</Width>
+      <Teeth>109</Teeth>
+    </Member>
+    <Member moniker="6-T5-110D">
+      <Size>6T5 x 550 D</Size>
+      <Width>6.0</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="6-T5-112D">
+      <Size>6T5 x 560 D</Size>
+      <Width>6.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="6-T5-115D">
+      <Size>6T5 x 575 D</Size>
+      <Width>6.0</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="6-T5-118D">
+      <Size>6T5 x 590 D</Size>
+      <Width>6.0</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="6-T5-122D">
+      <Size>6T5 x 610 D</Size>
+      <Width>6.0</Width>
+      <Teeth>122</Teeth>
+    </Member>
+    <Member moniker="6-T5-124D">
+      <Size>6T5 x 620 D</Size>
+      <Width>6.0</Width>
+      <Teeth>124</Teeth>
+    </Member>
+    <Member moniker="6-T5-126D">
+      <Size>6T5 x 630 D</Size>
+      <Width>6.0</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="6-T5-130D">
+      <Size>6T5 x 650 D</Size>
+      <Width>6.0</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="6-T5-138D">
+      <Size>6T5 x 690 D</Size>
+      <Width>6.0</Width>
+      <Teeth>138</Teeth>
+    </Member>
+    <Member moniker="6-T5-140D">
+      <Size>6T5 x 700 D</Size>
+      <Width>6.0</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="6-T5-144D">
+      <Size>6T5 x 720 D</Size>
+      <Width>6.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="6-T5-145D">
+      <Size>6T5 x 725 D</Size>
+      <Width>6.0</Width>
+      <Teeth>145</Teeth>
+    </Member>
+    <Member moniker="6-T5-150D">
+      <Size>6T5 x 750 D</Size>
+      <Width>6.0</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="6-T5-153D">
+      <Size>6T5 x 765 D</Size>
+      <Width>6.0</Width>
+      <Teeth>153</Teeth>
+    </Member>
+    <Member moniker="6-T5-156D">
+      <Size>6T5 x 780 D</Size>
+      <Width>6.0</Width>
+      <Teeth>156</Teeth>
+    </Member>
+    <Member moniker="6-T5-160D">
+      <Size>6T5 x 800 D</Size>
+      <Width>6.0</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="6-T5-163D">
+      <Size>6T5 x 815 D</Size>
+      <Width>6.0</Width>
+      <Teeth>163</Teeth>
+    </Member>
+    <Member moniker="6-T5-168D">
+      <Size>6T5 x 840 D</Size>
+      <Width>6.0</Width>
+      <Teeth>168</Teeth>
+    </Member>
+    <Member moniker="6-T5-180D">
+      <Size>6T5 x 900 D</Size>
+      <Width>6.0</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="6-T5-184D">
+      <Size>6T5 x 920 D</Size>
+      <Width>6.0</Width>
+      <Teeth>184</Teeth>
+    </Member>
+    <Member moniker="6-T5-185D">
+      <Size>6T5 x 925 D</Size>
+      <Width>6.0</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="6-T5-188D">
+      <Size>6T5 x 940 D</Size>
+      <Width>6.0</Width>
+      <Teeth>188</Teeth>
+    </Member>
+    <Member moniker="6-T5-198D">
+      <Size>6T5 x 990 D</Size>
+      <Width>6.0</Width>
+      <Teeth>198</Teeth>
+    </Member>
+    <Member moniker="6-T5-215D">
+      <Size>6T5 x 1075 D</Size>
+      <Width>6.0</Width>
+      <Teeth>215</Teeth>
+    </Member>
+    <Member moniker="6-T5-220D">
+      <Size>6T5 x 1100 D</Size>
+      <Width>6.0</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="6-T5-232D">
+      <Size>6T5 x 1160 D</Size>
+      <Width>6.0</Width>
+      <Teeth>232</Teeth>
+    </Member>
+    <Member moniker="6-T5-243D">
+      <Size>6T5 x 1215 D</Size>
+      <Width>6.0</Width>
+      <Teeth>243</Teeth>
+    </Member>
+    <Member moniker="6-T5-263D">
+      <Size>6T5 x 1315 D</Size>
+      <Width>6.0</Width>
+      <Teeth>263</Teeth>
+    </Member>
+    <Member moniker="6-T5-276D">
+      <Size>6T5 x 1380 D</Size>
+      <Width>6.0</Width>
+      <Teeth>276</Teeth>
+    </Member>
+    <Member moniker="6-T5-300D">
+      <Size>6T5 x 1500 D</Size>
+      <Width>6.0</Width>
+      <Teeth>300</Teeth>
+    </Member>
+    <Member moniker="10-T5-20D">
+      <Size>10T5 x 100 D</Size>
+      <Width>10</Width>
+      <Teeth>20</Teeth>
+    </Member>
+    <Member moniker="10-T5-30D">
+      <Size>10T5 x 150 D</Size>
+      <Width>10</Width>
+      <Teeth>30</Teeth>
+    </Member>
+    <Member moniker="10-T5-33D">
+      <Size>10T5 x 165 D</Size>
+      <Width>10</Width>
+      <Teeth>33</Teeth>
+    </Member>
+    <Member moniker="10-T5-36D">
+      <Size>10T5 x 180 D</Size>
+      <Width>10</Width>
+      <Teeth>36</Teeth>
+    </Member>
+    <Member moniker="10-T5-37D">
+      <Size>10T5 x 185 D</Size>
+      <Width>10</Width>
+      <Teeth>37</Teeth>
+    </Member>
+    <Member moniker="10-T5-40D">
+      <Size>10T5 x 200 D</Size>
+      <Width>10</Width>
+      <Teeth>40</Teeth>
+    </Member>
+    <Member moniker="10-T5-42D">
+      <Size>10T5 x 210 D</Size>
+      <Width>10</Width>
+      <Teeth>42</Teeth>
+    </Member>
+    <Member moniker="10-T5-43D">
+      <Size>10T5 x 215 D</Size>
+      <Width>10</Width>
+      <Teeth>43</Teeth>
+    </Member>
+    <Member moniker="10-T5-44D">
+      <Size>10T5 x 220 D</Size>
+      <Width>10</Width>
+      <Teeth>44</Teeth>
+    </Member>
+    <Member moniker="10-T5-45D">
+      <Size>10T5 x 225 D</Size>
+      <Width>10</Width>
+      <Teeth>45</Teeth>
+    </Member>
+    <Member moniker="10-T5-49D">
+      <Size>10T5 x 245 D</Size>
+      <Width>10</Width>
+      <Teeth>49</Teeth>
+    </Member>
+    <Member moniker="10-T5-50D">
+      <Size>10T5 x 250 D</Size>
+      <Width>10</Width>
+      <Teeth>50</Teeth>
+    </Member>
+    <Member moniker="10-T5-51D">
+      <Size>10T5 x 255 D</Size>
+      <Width>10</Width>
+      <Teeth>51</Teeth>
+    </Member>
+    <Member moniker="10-T5-52D">
+      <Size>10T5 x 260 D</Size>
+      <Width>10</Width>
+      <Teeth>52</Teeth>
+    </Member>
+    <Member moniker="10-T5-54D">
+      <Size>10T5 x 270 D</Size>
+      <Width>10</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="10-T5-56D">
+      <Size>10T5 x 280 D</Size>
+      <Width>10</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="10-T5-59D">
+      <Size>10T5 x 295 D</Size>
+      <Width>10</Width>
+      <Teeth>59</Teeth>
+    </Member>
+    <Member moniker="10-T5-61D">
+      <Size>10T5 x 305 D</Size>
+      <Width>10</Width>
+      <Teeth>61</Teeth>
+    </Member>
+    <Member moniker="10-T5-66D">
+      <Size>10T5 x 330 D</Size>
+      <Width>10</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="10-T5-68D">
+      <Size>10T5 x 340 D</Size>
+      <Width>10</Width>
+      <Teeth>68</Teeth>
+    </Member>
+    <Member moniker="10-T5-71D">
+      <Size>10T5 x 355 D</Size>
+      <Width>10</Width>
+      <Teeth>71</Teeth>
+    </Member>
+    <Member moniker="10-T5-73D">
+      <Size>10T5 x 365 D</Size>
+      <Width>10</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="10-T5-78D">
+      <Size>10T5 x 390 D</Size>
+      <Width>10</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="10-T5-80D">
+      <Size>10T5 x 400 D</Size>
+      <Width>10</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="10-T5-82D">
+      <Size>10T5 x 410 D</Size>
+      <Width>10</Width>
+      <Teeth>82</Teeth>
+    </Member>
+    <Member moniker="10-T5-84D">
+      <Size>10T5 x 420 D</Size>
+      <Width>10</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="10-T5-91D">
+      <Size>10T5 x 455 D</Size>
+      <Width>10</Width>
+      <Teeth>91</Teeth>
+    </Member>
+    <Member moniker="10-T5-92D">
+      <Size>10T5 x 460 D</Size>
+      <Width>10</Width>
+      <Teeth>92</Teeth>
+    </Member>
+    <Member moniker="10-T5-96D">
+      <Size>10T5 x 480 D</Size>
+      <Width>10</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="10-T5-100D">
+      <Size>10T5 x 500 D</Size>
+      <Width>10</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="10-T5-101D">
+      <Size>10T5 x 505 D</Size>
+      <Width>10</Width>
+      <Teeth>101</Teeth>
+    </Member>
+    <Member moniker="10-T5-102D">
+      <Size>10T5 x 510 D</Size>
+      <Width>10</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="10-T5-105D">
+      <Size>10T5 x 525 D</Size>
+      <Width>10</Width>
+      <Teeth>105</Teeth>
+    </Member>
+    <Member moniker="10-T5-109D">
+      <Size>10T5 x 545 D</Size>
+      <Width>10</Width>
+      <Teeth>109</Teeth>
+    </Member>
+    <Member moniker="10-T5-110D">
+      <Size>10T5 x 550 D</Size>
+      <Width>10</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="10-T5-112D">
+      <Size>10T5 x 560 D</Size>
+      <Width>10</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="10-T5-115D">
+      <Size>10T5 x 575 D</Size>
+      <Width>10</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="10-T5-118D">
+      <Size>10T5 x 590 D</Size>
+      <Width>10</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="10-T5-122D">
+      <Size>10T5 x 610 D</Size>
+      <Width>10</Width>
+      <Teeth>122</Teeth>
+    </Member>
+    <Member moniker="10-T5-124D">
+      <Size>10T5 x 620 D</Size>
+      <Width>10</Width>
+      <Teeth>124</Teeth>
+    </Member>
+    <Member moniker="10-T5-126D">
+      <Size>10T5 x 630 D</Size>
+      <Width>10</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="10-T5-130D">
+      <Size>10T5 x 650 D</Size>
+      <Width>10</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="10-T5-138D">
+      <Size>10T5 x 690 D</Size>
+      <Width>10</Width>
+      <Teeth>138</Teeth>
+    </Member>
+    <Member moniker="10-T5-140D">
+      <Size>10T5 x 700 D</Size>
+      <Width>10</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="10-T5-144D">
+      <Size>10T5 x 720 D</Size>
+      <Width>10</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="10-T5-145D">
+      <Size>10T5 x 725 D</Size>
+      <Width>10</Width>
+      <Teeth>145</Teeth>
+    </Member>
+    <Member moniker="10-T5-150D">
+      <Size>10T5 x 750 D</Size>
+      <Width>10</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="10-T5-153D">
+      <Size>10T5 x 765 D</Size>
+      <Width>10</Width>
+      <Teeth>153</Teeth>
+    </Member>
+    <Member moniker="10-T5-156D">
+      <Size>10T5 x 780 D</Size>
+      <Width>10</Width>
+      <Teeth>156</Teeth>
+    </Member>
+    <Member moniker="10-T5-160D">
+      <Size>10T5 x 800 D</Size>
+      <Width>10</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="10-T5-163D">
+      <Size>10T5 x 815 D</Size>
+      <Width>10</Width>
+      <Teeth>163</Teeth>
+    </Member>
+    <Member moniker="10-T5-168D">
+      <Size>10T5 x 840 D</Size>
+      <Width>10</Width>
+      <Teeth>168</Teeth>
+    </Member>
+    <Member moniker="10-T5-180D">
+      <Size>10T5 x 900 D</Size>
+      <Width>10</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="10-T5-184D">
+      <Size>10T5 x 920 D</Size>
+      <Width>10</Width>
+      <Teeth>184</Teeth>
+    </Member>
+    <Member moniker="10-T5-185D">
+      <Size>10T5 x 925 D</Size>
+      <Width>10</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="10-T5-188D">
+      <Size>10T5 x 940 D</Size>
+      <Width>10</Width>
+      <Teeth>188</Teeth>
+    </Member>
+    <Member moniker="10-T5-198D">
+      <Size>10T5 x 990 D</Size>
+      <Width>10</Width>
+      <Teeth>198</Teeth>
+    </Member>
+    <Member moniker="10-T5-215D">
+      <Size>10T5 x 1075 D</Size>
+      <Width>10</Width>
+      <Teeth>215</Teeth>
+    </Member>
+    <Member moniker="10-T5-220D">
+      <Size>10T5 x 1100 D</Size>
+      <Width>10</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="10-T5-232D">
+      <Size>10T5 x 1160 D</Size>
+      <Width>10</Width>
+      <Teeth>232</Teeth>
+    </Member>
+    <Member moniker="10-T5-243D">
+      <Size>10T5 x 1215 D</Size>
+      <Width>10</Width>
+      <Teeth>243</Teeth>
+    </Member>
+    <Member moniker="10-T5-263D">
+      <Size>10T5 x 1315 D</Size>
+      <Width>10</Width>
+      <Teeth>263</Teeth>
+    </Member>
+    <Member moniker="10-T5-276D">
+      <Size>10T5 x 1380 D</Size>
+      <Width>10</Width>
+      <Teeth>276</Teeth>
+    </Member>
+    <Member moniker="10-T5-300D">
+      <Size>10T5 x 1500 D</Size>
+      <Width>10</Width>
+      <Teeth>300</Teeth>
+    </Member>
+    <Member moniker="16-T5-20D">
+      <Size>16T5 x 100 D</Size>
+      <Width>16</Width>
+      <Teeth>20</Teeth>
+    </Member>
+    <Member moniker="16-T5-30D">
+      <Size>16T5 x 150 D</Size>
+      <Width>16</Width>
+      <Teeth>30</Teeth>
+    </Member>
+    <Member moniker="16-T5-33D">
+      <Size>16T5 x 165 D</Size>
+      <Width>16</Width>
+      <Teeth>33</Teeth>
+    </Member>
+    <Member moniker="16-T5-36D">
+      <Size>16T5 x 180 D</Size>
+      <Width>16</Width>
+      <Teeth>36</Teeth>
+    </Member>
+    <Member moniker="16-T5-37D">
+      <Size>16T5 x 185 D</Size>
+      <Width>16</Width>
+      <Teeth>37</Teeth>
+    </Member>
+    <Member moniker="16-T5-40D">
+      <Size>16T5 x 200 D</Size>
+      <Width>16</Width>
+      <Teeth>40</Teeth>
+    </Member>
+    <Member moniker="16-T5-42D">
+      <Size>16T5 x 210 D</Size>
+      <Width>16</Width>
+      <Teeth>42</Teeth>
+    </Member>
+    <Member moniker="16-T5-43D">
+      <Size>16T5 x 215 D</Size>
+      <Width>16</Width>
+      <Teeth>43</Teeth>
+    </Member>
+    <Member moniker="16-T5-44D">
+      <Size>16T5 x 220 D</Size>
+      <Width>16</Width>
+      <Teeth>44</Teeth>
+    </Member>
+    <Member moniker="16-T5-45D">
+      <Size>16T5 x 225 D</Size>
+      <Width>16</Width>
+      <Teeth>45</Teeth>
+    </Member>
+    <Member moniker="16-T5-49D">
+      <Size>16T5 x 245 D</Size>
+      <Width>16</Width>
+      <Teeth>49</Teeth>
+    </Member>
+    <Member moniker="16-T5-50D">
+      <Size>16T5 x 250 D</Size>
+      <Width>16</Width>
+      <Teeth>50</Teeth>
+    </Member>
+    <Member moniker="16-T5-51D">
+      <Size>16T5 x 255 D</Size>
+      <Width>16</Width>
+      <Teeth>51</Teeth>
+    </Member>
+    <Member moniker="16-T5-52D">
+      <Size>16T5 x 260 D</Size>
+      <Width>16</Width>
+      <Teeth>52</Teeth>
+    </Member>
+    <Member moniker="16-T5-54D">
+      <Size>16T5 x 270 D</Size>
+      <Width>16</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="16-T5-56D">
+      <Size>16T5 x 280 D</Size>
+      <Width>16</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="16-T5-59D">
+      <Size>16T5 x 295 D</Size>
+      <Width>16</Width>
+      <Teeth>59</Teeth>
+    </Member>
+    <Member moniker="16-T5-61D">
+      <Size>16T5 x 305 D</Size>
+      <Width>16</Width>
+      <Teeth>61</Teeth>
+    </Member>
+    <Member moniker="16-T5-66D">
+      <Size>16T5 x 330 D</Size>
+      <Width>16</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="16-T5-68D">
+      <Size>16T5 x 340 D</Size>
+      <Width>16</Width>
+      <Teeth>68</Teeth>
+    </Member>
+    <Member moniker="16-T5-71D">
+      <Size>16T5 x 355 D</Size>
+      <Width>16</Width>
+      <Teeth>71</Teeth>
+    </Member>
+    <Member moniker="16-T5-73D">
+      <Size>16T5 x 365 D</Size>
+      <Width>16</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="16-T5-78D">
+      <Size>16T5 x 390 D</Size>
+      <Width>16</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="16-T5-80D">
+      <Size>16T5 x 400 D</Size>
+      <Width>16</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="16-T5-82D">
+      <Size>16T5 x 410 D</Size>
+      <Width>16</Width>
+      <Teeth>82</Teeth>
+    </Member>
+    <Member moniker="16-T5-84D">
+      <Size>16T5 x 420 D</Size>
+      <Width>16</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="16-T5-91D">
+      <Size>16T5 x 455 D</Size>
+      <Width>16</Width>
+      <Teeth>91</Teeth>
+    </Member>
+    <Member moniker="16-T5-92D">
+      <Size>16T5 x 460 D</Size>
+      <Width>16</Width>
+      <Teeth>92</Teeth>
+    </Member>
+    <Member moniker="16-T5-96D">
+      <Size>16T5 x 480 D</Size>
+      <Width>16</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="16-T5-100D">
+      <Size>16T5 x 500 D</Size>
+      <Width>16</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="16-T5-101D">
+      <Size>16T5 x 505 D</Size>
+      <Width>16</Width>
+      <Teeth>101</Teeth>
+    </Member>
+    <Member moniker="16-T5-102D">
+      <Size>16T5 x 510 D</Size>
+      <Width>16</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="16-T5-105D">
+      <Size>16T5 x 525 D</Size>
+      <Width>16</Width>
+      <Teeth>105</Teeth>
+    </Member>
+    <Member moniker="16-T5-109D">
+      <Size>16T5 x 545 D</Size>
+      <Width>16</Width>
+      <Teeth>109</Teeth>
+    </Member>
+    <Member moniker="16-T5-110D">
+      <Size>16T5 x 550 D</Size>
+      <Width>16</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="16-T5-112D">
+      <Size>16T5 x 560 D</Size>
+      <Width>16</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="16-T5-115D">
+      <Size>16T5 x 575 D</Size>
+      <Width>16</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="16-T5-118D">
+      <Size>16T5 x 590 D</Size>
+      <Width>16</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="16-T5-122D">
+      <Size>16T5 x 610 D</Size>
+      <Width>16</Width>
+      <Teeth>122</Teeth>
+    </Member>
+    <Member moniker="16-T5-124D">
+      <Size>16T5 x 620 D</Size>
+      <Width>16</Width>
+      <Teeth>124</Teeth>
+    </Member>
+    <Member moniker="16-T5-126D">
+      <Size>16T5 x 630 D</Size>
+      <Width>16</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="16-T5-130D">
+      <Size>16T5 x 650 D</Size>
+      <Width>16</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="16-T5-138D">
+      <Size>16T5 x 690 D</Size>
+      <Width>16</Width>
+      <Teeth>138</Teeth>
+    </Member>
+    <Member moniker="16-T5-140D">
+      <Size>16T5 x 700 D</Size>
+      <Width>16</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="16-T5-144D">
+      <Size>16T5 x 720 D</Size>
+      <Width>16</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="16-T5-145D">
+      <Size>16T5 x 725 D</Size>
+      <Width>16</Width>
+      <Teeth>145</Teeth>
+    </Member>
+    <Member moniker="16-T5-150D">
+      <Size>16T5 x 750 D</Size>
+      <Width>16</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="16-T5-153D">
+      <Size>16T5 x 765 D</Size>
+      <Width>16</Width>
+      <Teeth>153</Teeth>
+    </Member>
+    <Member moniker="16-T5-156D">
+      <Size>16T5 x 780 D</Size>
+      <Width>16</Width>
+      <Teeth>156</Teeth>
+    </Member>
+    <Member moniker="16-T5-160D">
+      <Size>16T5 x 800 D</Size>
+      <Width>16</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="16-T5-163D">
+      <Size>16T5 x 815 D</Size>
+      <Width>16</Width>
+      <Teeth>163</Teeth>
+    </Member>
+    <Member moniker="16-T5-168D">
+      <Size>16T5 x 840 D</Size>
+      <Width>16</Width>
+      <Teeth>168</Teeth>
+    </Member>
+    <Member moniker="16-T5-180D">
+      <Size>16T5 x 900 D</Size>
+      <Width>16</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="16-T5-184D">
+      <Size>16T5 x 920 D</Size>
+      <Width>16</Width>
+      <Teeth>184</Teeth>
+    </Member>
+    <Member moniker="16-T5-185D">
+      <Size>16T5 x 925 D</Size>
+      <Width>16</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="16-T5-188D">
+      <Size>16T5 x 940 D</Size>
+      <Width>16</Width>
+      <Teeth>188</Teeth>
+    </Member>
+    <Member moniker="16-T5-198D">
+      <Size>16T5 x 990 D</Size>
+      <Width>16</Width>
+      <Teeth>198</Teeth>
+    </Member>
+    <Member moniker="16-T5-215D">
+      <Size>16T5 x 1075 D</Size>
+      <Width>16</Width>
+      <Teeth>215</Teeth>
+    </Member>
+    <Member moniker="16-T5-220D">
+      <Size>16T5 x 1100 D</Size>
+      <Width>16</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="16-T5-232D">
+      <Size>16T5 x 1160 D</Size>
+      <Width>16</Width>
+      <Teeth>232</Teeth>
+    </Member>
+    <Member moniker="16-T5-243D">
+      <Size>16T5 x 1215 D</Size>
+      <Width>16</Width>
+      <Teeth>243</Teeth>
+    </Member>
+    <Member moniker="16-T5-263D">
+      <Size>16T5 x 1315 D</Size>
+      <Width>16</Width>
+      <Teeth>263</Teeth>
+    </Member>
+    <Member moniker="16-T5-276D">
+      <Size>16T5 x 1380 D</Size>
+      <Width>16</Width>
+      <Teeth>276</Teeth>
+    </Member>
+    <Member moniker="16-T5-300D">
+      <Size>16T5 x 1500 D</Size>
+      <Width>16</Width>
+      <Teeth>300</Teeth>
+    </Member>
+    <Member moniker="25-T5-20D">
+      <Size>25T5 x 100 D</Size>
+      <Width>25</Width>
+      <Teeth>20</Teeth>
+    </Member>
+    <Member moniker="25-T5-30D">
+      <Size>25T5 x 150 D</Size>
+      <Width>25</Width>
+      <Teeth>30</Teeth>
+    </Member>
+    <Member moniker="25-T5-33D">
+      <Size>25T5 x 165 D</Size>
+      <Width>25</Width>
+      <Teeth>33</Teeth>
+    </Member>
+    <Member moniker="25-T5-36D">
+      <Size>25T5 x 180 D</Size>
+      <Width>25</Width>
+      <Teeth>36</Teeth>
+    </Member>
+    <Member moniker="25-T5-37D">
+      <Size>25T5 x 185 D</Size>
+      <Width>25</Width>
+      <Teeth>37</Teeth>
+    </Member>
+    <Member moniker="25-T5-40D">
+      <Size>25T5 x 200 D</Size>
+      <Width>25</Width>
+      <Teeth>40</Teeth>
+    </Member>
+    <Member moniker="25-T5-42D">
+      <Size>25T5 x 210 D</Size>
+      <Width>25</Width>
+      <Teeth>42</Teeth>
+    </Member>
+    <Member moniker="25-T5-43D">
+      <Size>25T5 x 215 D</Size>
+      <Width>25</Width>
+      <Teeth>43</Teeth>
+    </Member>
+    <Member moniker="25-T5-44D">
+      <Size>25T5 x 220 D</Size>
+      <Width>25</Width>
+      <Teeth>44</Teeth>
+    </Member>
+    <Member moniker="25-T5-45D">
+      <Size>25T5 x 225 D</Size>
+      <Width>25</Width>
+      <Teeth>45</Teeth>
+    </Member>
+    <Member moniker="25-T5-49D">
+      <Size>25T5 x 245 D</Size>
+      <Width>25</Width>
+      <Teeth>49</Teeth>
+    </Member>
+    <Member moniker="25-T5-50D">
+      <Size>25T5 x 250 D</Size>
+      <Width>25</Width>
+      <Teeth>50</Teeth>
+    </Member>
+    <Member moniker="25-T5-51D">
+      <Size>25T5 x 255 D</Size>
+      <Width>25</Width>
+      <Teeth>51</Teeth>
+    </Member>
+    <Member moniker="25-T5-52D">
+      <Size>25T5 x 260 D</Size>
+      <Width>25</Width>
+      <Teeth>52</Teeth>
+    </Member>
+    <Member moniker="25-T5-54D">
+      <Size>25T5 x 270 D</Size>
+      <Width>25</Width>
+      <Teeth>54</Teeth>
+    </Member>
+    <Member moniker="25-T5-56D">
+      <Size>25T5 x 280 D</Size>
+      <Width>25</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="25-T5-59D">
+      <Size>25T5 x 295 D</Size>
+      <Width>25</Width>
+      <Teeth>59</Teeth>
+    </Member>
+    <Member moniker="25-T5-61D">
+      <Size>25T5 x 305 D</Size>
+      <Width>25</Width>
+      <Teeth>61</Teeth>
+    </Member>
+    <Member moniker="25-T5-66D">
+      <Size>25T5 x 330 D</Size>
+      <Width>25</Width>
+      <Teeth>66</Teeth>
+    </Member>
+    <Member moniker="25-T5-68D">
+      <Size>25T5 x 340 D</Size>
+      <Width>25</Width>
+      <Teeth>68</Teeth>
+    </Member>
+    <Member moniker="25-T5-71D">
+      <Size>25T5 x 355 D</Size>
+      <Width>25</Width>
+      <Teeth>71</Teeth>
+    </Member>
+    <Member moniker="25-T5-73D">
+      <Size>25T5 x 365 D</Size>
+      <Width>25</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="25-T5-78D">
+      <Size>25T5 x 390 D</Size>
+      <Width>25</Width>
+      <Teeth>78</Teeth>
+    </Member>
+    <Member moniker="25-T5-80D">
+      <Size>25T5 x 400 D</Size>
+      <Width>25</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="25-T5-82D">
+      <Size>25T5 x 410 D</Size>
+      <Width>25</Width>
+      <Teeth>82</Teeth>
+    </Member>
+    <Member moniker="25-T5-84D">
+      <Size>25T5 x 420 D</Size>
+      <Width>25</Width>
+      <Teeth>84</Teeth>
+    </Member>
+    <Member moniker="25-T5-91D">
+      <Size>25T5 x 455 D</Size>
+      <Width>25</Width>
+      <Teeth>91</Teeth>
+    </Member>
+    <Member moniker="25-T5-92D">
+      <Size>25T5 x 460 D</Size>
+      <Width>25</Width>
+      <Teeth>92</Teeth>
+    </Member>
+    <Member moniker="25-T5-96D">
+      <Size>25T5 x 480 D</Size>
+      <Width>25</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="25-T5-100D">
+      <Size>25T5 x 500 D</Size>
+      <Width>25</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="25-T5-101D">
+      <Size>25T5 x 505 D</Size>
+      <Width>25</Width>
+      <Teeth>101</Teeth>
+    </Member>
+    <Member moniker="25-T5-102D">
+      <Size>25T5 x 510 D</Size>
+      <Width>25</Width>
+      <Teeth>102</Teeth>
+    </Member>
+    <Member moniker="25-T5-105D">
+      <Size>25T5 x 525 D</Size>
+      <Width>25</Width>
+      <Teeth>105</Teeth>
+    </Member>
+    <Member moniker="25-T5-109D">
+      <Size>25T5 x 545 D</Size>
+      <Width>25</Width>
+      <Teeth>109</Teeth>
+    </Member>
+    <Member moniker="25-T5-110D">
+      <Size>25T5 x 550 D</Size>
+      <Width>25</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="25-T5-112D">
+      <Size>25T5 x 560 D</Size>
+      <Width>25</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="25-T5-115D">
+      <Size>25T5 x 575 D</Size>
+      <Width>25</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="25-T5-118D">
+      <Size>25T5 x 590 D</Size>
+      <Width>25</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="25-T5-122D">
+      <Size>25T5 x 610 D</Size>
+      <Width>25</Width>
+      <Teeth>122</Teeth>
+    </Member>
+    <Member moniker="25-T5-124D">
+      <Size>25T5 x 620 D</Size>
+      <Width>25</Width>
+      <Teeth>124</Teeth>
+    </Member>
+    <Member moniker="25-T5-126D">
+      <Size>25T5 x 630 D</Size>
+      <Width>25</Width>
+      <Teeth>126</Teeth>
+    </Member>
+    <Member moniker="25-T5-130D">
+      <Size>25T5 x 650 D</Size>
+      <Width>25</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="25-T5-138D">
+      <Size>25T5 x 690 D</Size>
+      <Width>25</Width>
+      <Teeth>138</Teeth>
+    </Member>
+    <Member moniker="25-T5-140D">
+      <Size>25T5 x 700 D</Size>
+      <Width>25</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="25-T5-144D">
+      <Size>25T5 x 720 D</Size>
+      <Width>25</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="25-T5-145D">
+      <Size>25T5 x 725 D</Size>
+      <Width>25</Width>
+      <Teeth>145</Teeth>
+    </Member>
+    <Member moniker="25-T5-150D">
+      <Size>25T5 x 750 D</Size>
+      <Width>25</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="25-T5-153D">
+      <Size>25T5 x 765 D</Size>
+      <Width>25</Width>
+      <Teeth>153</Teeth>
+    </Member>
+    <Member moniker="25-T5-156D">
+      <Size>25T5 x 780 D</Size>
+      <Width>25</Width>
+      <Teeth>156</Teeth>
+    </Member>
+    <Member moniker="25-T5-160D">
+      <Size>25T5 x 800 D</Size>
+      <Width>25</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="25-T5-163D">
+      <Size>25T5 x 815 D</Size>
+      <Width>25</Width>
+      <Teeth>163</Teeth>
+    </Member>
+    <Member moniker="25-T5-168D">
+      <Size>25T5 x 840 D</Size>
+      <Width>25</Width>
+      <Teeth>168</Teeth>
+    </Member>
+    <Member moniker="25-T5-180D">
+      <Size>25T5 x 900 D</Size>
+      <Width>25</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="25-T5-184D">
+      <Size>25T5 x 920 D</Size>
+      <Width>25</Width>
+      <Teeth>184</Teeth>
+    </Member>
+    <Member moniker="25-T5-185D">
+      <Size>25T5 x 925 D</Size>
+      <Width>25</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="25-T5-188D">
+      <Size>25T5 x 940 D</Size>
+      <Width>25</Width>
+      <Teeth>188</Teeth>
+    </Member>
+    <Member moniker="25-T5-198D">
+      <Size>25T5 x 990 D</Size>
+      <Width>25</Width>
+      <Teeth>198</Teeth>
+    </Member>
+    <Member moniker="25-T5-215D">
+      <Size>25T5 x 1075 D</Size>
+      <Width>25</Width>
+      <Teeth>215</Teeth>
+    </Member>
+    <Member moniker="25-T5-220D">
+      <Size>25T5 x 1100 D</Size>
+      <Width>25</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="25-T5-232D">
+      <Size>25T5 x 1160 D</Size>
+      <Width>25</Width>
+      <Teeth>232</Teeth>
+    </Member>
+    <Member moniker="25-T5-243D">
+      <Size>25T5 x 1215 D</Size>
+      <Width>25</Width>
+      <Teeth>243</Teeth>
+    </Member>
+    <Member moniker="25-T5-263D">
+      <Size>25T5 x 1315 D</Size>
+      <Width>25</Width>
+      <Teeth>263</Teeth>
+    </Member>
+    <Member moniker="25-T5-276D">
+      <Size>25T5 x 1380 D</Size>
+      <Width>25</Width>
+      <Teeth>276</Teeth>
+    </Member>
+    <Member moniker="25-T5-300D">
+      <Size>25T5 x 1500 D</Size>
+      <Width>25</Width>
+      <Teeth>300</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

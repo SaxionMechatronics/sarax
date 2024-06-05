@@ -1,0 +1,56 @@
+<FDesign>
+  <Table InternalName="F7918EC9-941E-4c29-8300-913746D8150F">
+    <Definition DisplayName="Scale values for 2D and 3D previews">
+      <Columns>
+        <xx Description="Scale" Units="ul"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <xx>0.50</xx>
+      </Row>
+      <Row>
+        <xx>1.00</xx>
+      </Row>
+      <Row>
+        <xx>1.50</xx>
+      </Row>
+      <Row>
+        <xx>2.00</xx>
+      </Row>
+      <Row>
+        <xx>2.50</xx>
+      </Row>
+      <Row>
+        <xx>3.00</xx>
+      </Row>
+      <Row>
+        <xx>3.50</xx>
+      </Row>
+      <Row>
+        <xx>4.00</xx>
+      </Row>
+      <Row>
+        <xx>4.50</xx>
+      </Row>
+      <Row>
+        <xx>5.00</xx>
+      </Row>
+      <Row>
+        <xx>6.00</xx>
+      </Row>
+      <Row>
+        <xx>7.00</xx>
+      </Row>
+      <Row>
+        <xx>8.00</xx>
+      </Row>
+      <Row>
+        <xx>9.00</xx>
+      </Row>
+      <Row>
+        <xx>10.00</xx>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

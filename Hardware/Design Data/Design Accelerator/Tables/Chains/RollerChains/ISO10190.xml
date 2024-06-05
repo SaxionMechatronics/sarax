@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.2" category="RCHAIN" thumbnail="ISO10190.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="ISO" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="N"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="mm^2"/>
+    <fi src="fixed" dt="number" units="ul">1.0</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.006</bax>
+    <Pc1 src="fixed" dt="string">11.682kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0008ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">953.5kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="04 MA">
+      <Designation>04 MA</Designation>
+      <Size>04MA</Size>
+      <k>1</k>
+      <p>6.35</p>
+      <b1>3.10</b1>
+      <d1>3.30</d1>
+      <d2>2.3</d2>
+      <b2>5.10</b2>
+      <Pt>7.4</Pt>
+      <h2>6.0</h2>
+      <h3>6.0</h3>
+      <b4>9.1</b4>
+      <b8>1.0</b8>
+      <Fu>4500</Fu>
+      <m>0.15</m>
+      <A>12</A>
+    </Member>
+    <Member moniker="05 MA">
+      <Designation>05 MA</Designation>
+      <Size>05MA</Size>
+      <k>1</k>
+      <p>7.774</p>
+      <b1>4.68</b1>
+      <d1>4.59</d1>
+      <d2>3</d2>
+      <b2>7.08</b2>
+      <Pt>9.8</Pt>
+      <h2>7.6</h2>
+      <h3>7.6</h3>
+      <b4>12</b4>
+      <b8>1.2</b8>
+      <Fu>6600</Fu>
+      <m>0.25</m>
+      <A>21</A>
+    </Member>
+    <Member moniker="05 MB">
+      <Designation>05 MB</Designation>
+      <Size>05MB</Size>
+      <k>1</k>
+      <p>8</p>
+      <b1>5.72</b1>
+      <d1>4.77</d1>
+      <d2>3.3</d2>
+      <b2>8.52</b2>
+      <Pt>11.6</Pt>
+      <h2>7.6</h2>
+      <h3>7.6</h3>
+      <b4>13.9</b4>
+      <b8>1.4</b8>
+      <Fu>8900</Fu>
+      <m>0.35</m>
+      <A>28</A>
+    </Member>
+    <Member moniker="05 MC">
+      <Designation>05 MC</Designation>
+      <Size>05MC</Size>
+      <k>1</k>
+      <p>8.5</p>
+      <b1>4.75</b1>
+      <d1>5</d1>
+      <d2>3.3</d2>
+      <b2>8.35</b2>
+      <Pt>12.4</Pt>
+      <h2>8.6</h2>
+      <h3>8.6</h3>
+      <b4>13.3</b4>
+      <b8>1.8</b8>
+      <Fu>9800</Fu>
+      <m>0.32</m>
+      <A>28</A>
+    </Member>
+    <Member moniker="08 MA">
+      <Designation>08 MA</Designation>
+      <Size>08MA</Size>
+      <k>1</k>
+      <p>12.70</p>
+      <b1>6.25</b1>
+      <d1>7.77</d1>
+      <d2>4.0</d2>
+      <b2>9.25</b2>
+      <Pt>12.6</Pt>
+      <h2>12.1</h2>
+      <h3>12.1</h3>
+      <b4>16</b4>
+      <b8>1.5</b8>
+      <Fu>15000</Fu>
+      <m>0.4</m>
+      <A>37</A>
+    </Member>
+    <Member moniker="08 MB">
+      <Designation>08 MB</Designation>
+      <Size>08MB</Size>
+      <k>1</k>
+      <p>12.70</p>
+      <b1>7.75</b1>
+      <d1>8.51</d1>
+      <d2>4.4</d2>
+      <b2>10.75</b2>
+      <Pt>14.1</Pt>
+      <h2>12.5</h2>
+      <h3>12.5</h3>
+      <b4>17</b4>
+      <b8>1.5</b8>
+      <Fu>17800</Fu>
+      <m>0.8</m>
+      <A>47</A>
+    </Member>
+    <Member moniker="08 MB-2">
+      <Size>08MB</Size>
+      <Designation>08 MB-2</Designation>
+      <k>2</k>
+      <p>12.70</p>
+      <b1>7.75</b1>
+      <d1>8.51</d1>
+      <d2>4.4</d2>
+      <b2>10.75</b2>
+      <Pt>14.1</Pt>
+      <h2>12.5</h2>
+      <h3>12.5</h3>
+      <b4>31.2</b4>
+      <b8>1.5</b8>
+      <Fu>31100</Fu>
+      <m>1.5</m>
+      <A>94</A>
+    </Member>
+    <Member moniker="08 MC">
+      <Designation>08 MC</Designation>
+      <Size>08MC</Size>
+      <k>1</k>
+      <p>12.70</p>
+      <b1>7.75</b1>
+      <d1>8.51</d1>
+      <d2>4.4</d2>
+      <b2>11.75</b2>
+      <Pt>16.2</Pt>
+      <h2>15.5</h2>
+      <h3>15.5</h3>
+      <b4>19.3</b4>
+      <b8>2</b8>
+      <Fu>20600</Fu>
+      <m>0.82</m>
+      <A>52</A>
+    </Member>
+    <Member moniker="10 MA">
+      <Designation>10 MA</Designation>
+      <Size>10MA</Size>
+      <k>1</k>
+      <p>15.875</p>
+      <b1>6.25</b1>
+      <d1>10.16</d1>
+      <d2>5.2</d2>
+      <b2>10.25</b2>
+      <Pt>14.7</Pt>
+      <h2>15.3</h2>
+      <h3>15.3</h3>
+      <b4>19</b4>
+      <b8>2</b8>
+      <Fu>26500</Fu>
+      <m>0.35</m>
+      <A>53</A>
+    </Member>
+    <Member moniker="10 MB">
+      <Designation>10 MB</Designation>
+      <Size>10MB</Size>
+      <k>1</k>
+      <p>15.875</p>
+      <b1>9.40</b1>
+      <d1>10.16</d1>
+      <d2>5.2</d2>
+      <b2>13.40</b2>
+      <Pt>17.8</Pt>
+      <h2>15.3</h2>
+      <h3>15.3</h3>
+      <b4>22</b4>
+      <b8>2</b8>
+      <Fu>26500</Fu>
+      <m>0.42</m>
+      <A>70</A>
+    </Member>
+    <Member moniker="12 MA">
+      <Designation>12 MA</Designation>
+      <Size>12MA</Size>
+      <k>1</k>
+      <p>19.05</p>
+      <b1>9.40</b1>
+      <d1>11.91</d1>
+      <d2>5.9</d2>
+      <b2>14.20</b2>
+      <Pt>19.5</Pt>
+      <h2>18.6</h2>
+      <h3>18.6</h3>
+      <b4>24</b4>
+      <b8>2.4</b8>
+      <Fu>35000</Fu>
+      <m>1.3</m>
+      <A>84</A>
+    </Member>
+  </Members>
+</CustomFamily>

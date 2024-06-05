@@ -1,0 +1,18 @@
+<FDesign>
+	<Table InternalName="DD5550BF-BFF5-41D4-91CF-92CAFB167439">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<ThreadSurface DisplayName="%2%" Units="" IsVisible="1" Selectable="0" />
+			  <Non-lubricated DisplayName="%3%" Units="ul" IsVisible="1" IsNumeric="1" IsRange="1" SelType="AVG" />
+			  <Non-lubricatedMax DisplayName="" Units="ul" IsVisible="0" IsNumeric="1" />
+			  <Lubricated DisplayName="%4%" Units="ul" IsVisible="1" IsNumeric="1" IsRange="1" SelType="AVG" />
+			  <LubricatedMax DisplayName="" Units="ul" IsVisible="0" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><ThreadSurface>%5%</ThreadSurface><Non-lubricated>0.14</Non-lubricated><Non-lubricatedMax>0.21</Non-lubricatedMax><Lubricated>0.12</Lubricated><LubricatedMax>0.15</LubricatedMax></Row>
+			<Row><ThreadSurface>%6%</ThreadSurface><Non-lubricated>0.13</Non-lubricated><Non-lubricatedMax>0.18</Non-lubricatedMax><Lubricated>0.12</Lubricated><LubricatedMax>0.17</LubricatedMax></Row>
+			<Row><ThreadSurface>%7%</ThreadSurface><Non-lubricated>0.08</Non-lubricated><Non-lubricatedMax>0.12</Non-lubricatedMax><Lubricated>0.08</Lubricated><LubricatedMax>0.11</LubricatedMax></Row>
+		</Data>
+	</Table>
+</FDesign>

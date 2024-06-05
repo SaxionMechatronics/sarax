@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTSPULLEY" measuresystem="imperial" thumbnail="Unflanged.jpg" name="%1%" desc="%2%" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <z src="table" dt="number" units="ul" />
+    <pb src="fixed" dt="number" units="in">0.125</pb>
+    <hg src="fixed" dt="number" units="in">0.033</hg>
+    <bw src="fixed" dt="number" units="in">0.038</bw>
+    <fi src="fixed" dt="number" units="deg">25.0</fi>
+    <rb src="fixed" dt="number" units="in">0.014</rb>
+    <rt src="fixed" dt="number" units="in">0.012</rt>
+    <a src="fixed" dt="number" units="in">0.01</a>
+    <b src="table" dt="number" units="in" />
+    <bf src="table" dt="number" units="in" />
+  </Parameters>
+  <Members>
+    <Member moniker="10XXL012" >
+      <Size>10XXL012</Size>
+      <z>10</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="11XXL012" >
+      <Size>11XXL012</Size>
+      <z>11</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="12XXL012" >
+      <Size>12XXL012</Size>
+      <z>12</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="13XXL012" >
+      <Size>13XXL012</Size>
+      <z>13</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="14XXL012" >
+      <Size>14XXL012</Size>
+      <z>14</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="15XXL012" >
+      <Size>15XXL012</Size>
+      <z>15</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="16XXL012" >
+      <Size>16XXL012</Size>
+      <z>16</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="17XXL012" >
+      <Size>17XXL012</Size>
+      <z>17</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="18XXL012" >
+      <Size>18XXL012</Size>
+      <z>18</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="19XXL012" >
+      <Size>19XXL012</Size>
+      <z>19</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="20XXL012" >
+      <Size>20XXL012</Size>
+      <z>20</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="21XXL012" >
+      <Size>21XXL012</Size>
+      <z>21</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="22XXL012" >
+      <Size>22XXL012</Size>
+      <z>22</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="23XXL012" >
+      <Size>23XXL012</Size>
+      <z>23</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="24XXL012" >
+      <Size>24XXL012</Size>
+      <z>24</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="25XXL012" >
+      <Size>25XXL012</Size>
+      <z>25</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="26XXL012" >
+      <Size>26XXL012</Size>
+      <z>26</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="27XXL012" >
+      <Size>27XXL012</Size>
+      <z>27</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="28XXL012" >
+      <Size>28XXL012</Size>
+      <z>28</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="30XXL012" >
+      <Size>30XXL012</Size>
+      <z>30</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="32XXL012" >
+      <Size>32XXL012</Size>
+      <z>32</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="36XXL012" >
+      <Size>36XXL012</Size>
+      <z>36</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="40XXL012" >
+      <Size>40XXL012</Size>
+      <z>40</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="48XXL012" >
+      <Size>48XXL012</Size>
+      <z>48</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="60XXL012" >
+      <Size>60XXL012</Size>
+      <z>60</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="72XXL012" >
+      <Size>72XXL012</Size>
+      <z>72</z>
+      <b>0.12</b>
+      <bf>0.22</bf>
+    </Member>
+    <Member moniker="10XXL019" >
+      <Size>10XXL019</Size>
+      <z>10</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="11XXL019" >
+      <Size>11XXL019</Size>
+      <z>11</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="12XXL019" >
+      <Size>12XXL019</Size>
+      <z>12</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="13XXL019" >
+      <Size>13XXL019</Size>
+      <z>13</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="14XXL019" >
+      <Size>14XXL019</Size>
+      <z>14</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="15XXL019" >
+      <Size>15XXL019</Size>
+      <z>15</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="16XXL019" >
+      <Size>16XXL019</Size>
+      <z>16</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="17XXL019" >
+      <Size>17XXL019</Size>
+      <z>17</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="18XXL019" >
+      <Size>18XXL019</Size>
+      <z>18</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="19XXL019" >
+      <Size>19XXL019</Size>
+      <z>19</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="20XXL019" >
+      <Size>20XXL019</Size>
+      <z>20</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="21XXL019" >
+      <Size>21XXL019</Size>
+      <z>21</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="22XXL019" >
+      <Size>22XXL019</Size>
+      <z>22</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="23XXL019" >
+      <Size>23XXL019</Size>
+      <z>23</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="24XXL019" >
+      <Size>24XXL019</Size>
+      <z>24</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="25XXL019" >
+      <Size>25XXL019</Size>
+      <z>25</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="26XXL019" >
+      <Size>26XXL019</Size>
+      <z>26</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="27XXL019" >
+      <Size>27XXL019</Size>
+      <z>27</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="28XXL019" >
+      <Size>28XXL019</Size>
+      <z>28</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="30XXL019" >
+      <Size>30XXL019</Size>
+      <z>30</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="32XXL019" >
+      <Size>32XXL019</Size>
+      <z>32</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="36XXL019" >
+      <Size>36XXL019</Size>
+      <z>36</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="40XXL019" >
+      <Size>40XXL019</Size>
+      <z>40</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="48XXL019" >
+      <Size>48XXL019</Size>
+      <z>48</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="60XXL019" >
+      <Size>60XXL019</Size>
+      <z>60</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="72XXL019" >
+      <Size>72XXL019</Size>
+      <z>72</z>
+      <b>0.19</b>
+      <bf>0.28</bf>
+    </Member>
+    <Member moniker="10XXL025" >
+      <Size>10XXL025</Size>
+      <z>10</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="11XXL025" >
+      <Size>11XXL025</Size>
+      <z>11</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="12XXL025" >
+      <Size>12XXL025</Size>
+      <z>12</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="13XXL025" >
+      <Size>13XXL025</Size>
+      <z>13</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="14XXL025" >
+      <Size>14XXL025</Size>
+      <z>14</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="15XXL025" >
+      <Size>15XXL025</Size>
+      <z>15</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="16XXL025" >
+      <Size>16XXL025</Size>
+      <z>16</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="17XXL025" >
+      <Size>17XXL025</Size>
+      <z>17</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="18XXL025" >
+      <Size>18XXL025</Size>
+      <z>18</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="19XXL025" >
+      <Size>19XXL025</Size>
+      <z>19</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="20XXL025" >
+      <Size>20XXL025</Size>
+      <z>20</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="21XXL025" >
+      <Size>21XXL025</Size>
+      <z>21</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="22XXL025" >
+      <Size>22XXL025</Size>
+      <z>22</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="23XXL025" >
+      <Size>23XXL025</Size>
+      <z>23</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="24XXL025" >
+      <Size>24XXL025</Size>
+      <z>24</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="25XXL025" >
+      <Size>25XXL025</Size>
+      <z>25</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="26XXL025" >
+      <Size>26XXL025</Size>
+      <z>26</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="27XXL025" >
+      <Size>27XXL025</Size>
+      <z>27</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="28XXL025" >
+      <Size>28XXL025</Size>
+      <z>28</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="30XXL025" >
+      <Size>30XXL025</Size>
+      <z>30</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="32XXL025" >
+      <Size>32XXL025</Size>
+      <z>32</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="36XXL025" >
+      <Size>36XXL025</Size>
+      <z>36</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="40XXL025" >
+      <Size>40XXL025</Size>
+      <z>40</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="48XXL025" >
+      <Size>48XXL025</Size>
+      <z>48</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="60XXL025" >
+      <Size>60XXL025</Size>
+      <z>60</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+    <Member moniker="72XXL025" >
+      <Size>72XXL025</Size>
+      <z>72</z>
+      <b>0.25</b>
+      <bf>0.35</bf>
+    </Member>
+  </Members>
+</CustomFamily>

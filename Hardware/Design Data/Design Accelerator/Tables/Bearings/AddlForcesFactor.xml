@@ -1,0 +1,28 @@
+<FDesign>
+	<Table InternalName="BA69FC31-46A5-44ee-A3E1-DC4260AA1FE1">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Desc DisplayName="%3%" IsVisible="1" IsNumeric="0" />
+				<Factor DisplayName="%2%" IsVisible="1" IsNumeric="1" IsRange="1" SelType="AVG" />
+			  	<FactorMax DisplayName="" IsVisible="0" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><Factor>1.0</Factor><FactorMax>1.2</FactorMax><Desc>%4%</Desc></Row>
+			<Row><Factor>1.2</Factor><FactorMax>1.5</FactorMax><Desc>%5%</Desc></Row>
+			<Row><Factor>1.0</Factor><FactorMax>1.2</FactorMax><Desc>%6%</Desc></Row>
+			<Row><Factor>1.0</Factor><FactorMax>1.4</FactorMax><Desc>%7%</Desc></Row>
+			<Row><Factor>1.5</Factor><FactorMax>1.8</FactorMax><Desc>%8%</Desc></Row>
+			<Row><Factor>1.2</Factor><FactorMax>1.5</FactorMax><Desc>%9%</Desc></Row>
+			<Row><Factor>1.5</Factor><FactorMax>1.8</FactorMax><Desc>%10%</Desc></Row>
+			<Row><Factor>1.2</Factor><FactorMax>1.5</FactorMax><Desc>%11%</Desc></Row>
+			<Row><Factor>1.3</Factor><FactorMax>1.5</FactorMax><Desc>%12%</Desc></Row>
+			<Row><Factor>1.0</Factor><FactorMax>1.5</FactorMax><Desc>%13%</Desc></Row>
+			<Row><Factor>1.1</Factor><FactorMax>1.5</FactorMax><Desc>%14%</Desc></Row>
+			<Row><Factor>1.1</Factor><FactorMax>1.3</FactorMax><Desc>%15%</Desc></Row>
+			<Row><Factor>1.4</Factor><FactorMax>1.6</FactorMax><Desc>%16%</Desc></Row>
+			<Row><Factor>1.3</Factor><FactorMax>2.0</FactorMax><Desc>%17%</Desc></Row>
+			<Row><Factor>1.5</Factor><FactorMax>3.0</FactorMax><Desc>%18%</Desc></Row>
+		</Data>
+	</Table>
+</FDesign>

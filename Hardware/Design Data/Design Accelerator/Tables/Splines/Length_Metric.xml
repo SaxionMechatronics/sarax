@@ -1,0 +1,57 @@
+<FDesign>
+	<Table InternalName="7BC17020-D979-40c1-80C4-7BB24E8EB36D">
+		<Definition DisplayName="Length (Metric)">
+			<Columns>
+				<l Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>		
+			<Row><l>10</l></Row>
+			<Row><l>12</l></Row>
+			<Row><l>14</l></Row>
+			<Row><l>16</l></Row>
+			<Row><l>18</l></Row>
+			<Row><l>20</l></Row>
+			<Row><l>22</l></Row>
+			<Row><l>25</l></Row>
+			<Row><l>28</l></Row>
+			<Row><l>32</l></Row>
+			<Row><l>36</l></Row>
+			<Row><l>40</l></Row>
+			<Row><l>45</l></Row>
+			<Row><l>50</l></Row>
+			<Row><l>56</l></Row>
+			<Row><l>63</l></Row>
+			<Row><l>70</l></Row>
+			<Row><l>80</l></Row>
+			<Row><l>90</l></Row>
+			<Row><l>100</l></Row>
+			<Row><l>110</l></Row>
+			<Row><l>125</l></Row>
+			<Row><l>140</l></Row>
+			<Row><l>160</l></Row>
+			<Row><l>180</l></Row>
+			<Row><l>200</l></Row>
+			<Row><l>220</l></Row>
+			<Row><l>250</l></Row>
+			<Row><l>280</l></Row>
+			<Row><l>300</l></Row>
+			<Row><l>320</l></Row>
+			<Row><l>340</l></Row>
+			<Row><l>360</l></Row>
+			<Row><l>380</l></Row>
+			<Row><l>400</l></Row>
+			<Row><l>420</l></Row>
+			<Row><l>440</l></Row>
+			<Row><l>460</l></Row>
+			<Row><l>480</l></Row>
+			<Row><l>500</l></Row>
+			<Row><l>550</l></Row>
+			<Row><l>600</l></Row>
+			<Row><l>650</l></Row>
+			<Row><l>700</l></Row>
+			<Row><l>750</l></Row>
+			<Row><l>800</l></Row>
+		</Data>
+	</Table>
+</FDesign>	

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="32-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\32-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">20.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >32.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >27.0</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">75.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.63</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">355.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.20175214 - 26.528035/{Dpk} - 6.72641778e-08*pow({Dpk}*{nk};2) - 0.02825772*(log({Dpk}*{nk})-log(2/(1+pow(10;938.79/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="32-2000" >
+      <Size>32 x 2000</Size>
+      <Length>2075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-2120" >
+      <Size>32 x 2120</Size>
+      <Length>2195</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-2240" >
+      <Size>32 x 2240</Size>
+      <Length>2315</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-2360" >
+      <Size>32 x 2360</Size>
+      <Length>2435</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-2500" >
+      <Size>32 x 2500</Size>
+      <Length>2575</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-2650" >
+      <Size>32 x 2650</Size>
+      <Length>2725</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-2665" >
+      <Size>32 x 2665</Size>
+      <Length>2740</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-2800" >
+      <Size>32 x 2800</Size>
+      <Length>2875</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3000" >
+      <Size>32 x 3000</Size>
+      <Length>3075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3025" >
+      <Size>32 x 3025</Size>
+      <Length>3100</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3150" >
+      <Size>32 x 3150</Size>
+      <Length>3225</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3255" >
+      <Size>32 x 3255</Size>
+      <Length>3330</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3350" >
+      <Size>32 x 3350</Size>
+      <Length>3425</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3550" >
+      <Size>32 x 3550</Size>
+      <Length>3625</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3655" >
+      <Size>32 x 3655</Size>
+      <Length>3730</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-3750" >
+      <Size>32 x 3750</Size>
+      <Length>3825</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-4000" >
+      <Size>32 x 4000</Size>
+      <Length>4075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-4005" >
+      <Size>32 x 4005</Size>
+      <Length>4080</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-4250" >
+      <Size>32 x 4250</Size>
+      <Length>4325</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-4500" >
+      <Size>32 x 4500</Size>
+      <Length>4575</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-4545" >
+      <Size>32 x 4545</Size>
+      <Length>4620</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-4750" >
+      <Size>32 x 4750</Size>
+      <Length>4825</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-5000" >
+      <Size>32 x 5000</Size>
+      <Length>5075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-5300" >
+      <Size>32 x 5300</Size>
+      <Length>5375</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-5325" >
+      <Size>32 x 5325</Size>
+      <Length>5400</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-5600" >
+      <Size>32 x 5600</Size>
+      <Length>5675</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-6000" >
+      <Size>32 x 6000</Size>
+      <Length>6075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-6025" >
+      <Size>32 x 6025</Size>
+      <Length>6100</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-6300" >
+      <Size>32 x 6300</Size>
+      <Length>6375</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-6700" >
+      <Size>32 x 6700</Size>
+      <Length>6775</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-6765" >
+      <Size>32 x 6765</Size>
+      <Length>6840</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-7100" >
+      <Size>32 x 7100</Size>
+      <Length>7175</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-7500" >
+      <Size>32 x 7500</Size>
+      <Length>7575</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-7545" >
+      <Size>32 x 7545</Size>
+      <Length>7620</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-8000" >
+      <Size>32 x 8000</Size>
+      <Length>8075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-8500" >
+      <Size>32 x 8500</Size>
+      <Length>8575</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-9000" >
+      <Size>32 x 9000</Size>
+      <Length>9075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-9065" >
+      <Size>32 x 9065</Size>
+      <Length>9140</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-9500" >
+      <Size>32 x 9500</Size>
+      <Length>9540</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-10000" >
+      <Size>32 x 10000</Size>
+      <Length>10075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-10600" >
+      <Size>32 x 10600</Size>
+      <Length>10675</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-10625" >
+      <Size>32 x 10625</Size>
+      <Length>10700</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-11200" >
+      <Size>32 x 11200</Size>
+      <Length>11275</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-11800" >
+      <Size>32 x 11800</Size>
+      <Length>11875</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-12200" >
+      <Size>32 x 12200</Size>
+      <Length>12275</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-12500" >
+      <Size>32 x 12500</Size>
+      <Length>12575</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-13625" >
+      <Size>32 x 13625</Size>
+      <Length>13700</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-14000" >
+      <Size>32 x 14000</Size>
+      <Length>14075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-15125" >
+      <Size>32 x 15125</Size>
+      <Length>15200</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-16000" >
+      <Size>32 x 16000</Size>
+      <Length>16075</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="32-18000" >
+      <Size>32 x 18000</Size>
+      <Length>18075</Length>
+      <C3>1.0</C3>
+    </Member>
+  </Members>
+</CustomFamily>

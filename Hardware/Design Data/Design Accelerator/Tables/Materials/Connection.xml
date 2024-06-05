@@ -1,0 +1,71 @@
+<FDesign>
+  <Table InternalName="F1572802-2F01-4968-98FA-54A356D55FBB">
+    <Definition DisplayName="%1%">
+      <Columns>
+		<ID IsVisible="0" IsNumeric="0" EditableState="0" />
+		<Material DisplayName="%15%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1" />
+		<Su DisplayName="%16%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1" IsRequired="1" />
+		<SigmaD DisplayName="%17%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1" IsRequired="1" />
+		<TauD DisplayName="%18%" Description="%6%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1" IsRequired="1" />
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>72D664F439C1443FBE787B75FDD0B7A2</ID>
+        <Material>%7%</Material>
+		<Su>50000</Su>
+		<SigmaD>13000</SigmaD>
+		<TauD>20000</TauD>        
+      </Row>
+      <Row>
+        <ID>24CD075E2FFA4810BDAA1487963FC997</ID>
+        <Material>%8%</Material>
+		<Su>72000</Su>
+		<SigmaD>19000</SigmaD>
+		<TauD>30000</TauD>        
+      </Row>
+      <Row>
+        <ID>6A1EC53083A142718771A62AF071211F</ID>
+        <Material>%9%</Material>
+		<Su>87000</Su>
+		<SigmaD>29000</SigmaD>
+		<TauD>40000</TauD>        
+      </Row>
+      <Row>
+        <ID>7631D501C0384E509189514DEFA5FFFA</ID>
+        <Material>%10%</Material>
+		<Su>95000</Su>
+		<SigmaD>36000</SigmaD>
+		<TauD>40000</TauD>        
+      </Row>
+	  <Row>
+		<ID>501B52F9341D4024B44432DD25303F36</ID>
+		<Material>%11%</Material>
+		<Su>120000</Su>
+		<SigmaD>44000</SigmaD>
+		<TauD>50000</TauD>
+	  </Row>
+	  <Row>
+		<ID>17F067B99DE04f7c97779B3E3CF2C415</ID>
+		<Material>%12%</Material>
+		<Su>30000</Su>
+		<SigmaD>10000</SigmaD>
+		<TauD>10000</TauD>
+	  </Row>
+	  <Row>
+		<ID>45BA1F1195EE42838D83FA3796FB425A</ID>
+		<Material>%13%</Material>
+		<Su>58000</Su>
+		<SigmaD>20000</SigmaD>
+		<TauD>20000</TauD>
+	  </Row>
+	  <Row>
+		<ID>A1308478-2F0846f08CB9499BD45A30B5</ID>
+		<Material>%14%</Material>
+		<Su>36000</Su>
+		<SigmaD>15000</SigmaD>
+		<TauD>13000</TauD>
+	  </Row>      
+    </Data>
+  </Table>
+</FDesign>

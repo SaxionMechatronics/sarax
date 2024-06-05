@@ -1,0 +1,24 @@
+<FDesign>
+	<Table InternalName="0E7A5F4C-A429-4ED8-AEC8-03820EA145A9">
+		<Definition DisplayName="Worm Diameter Factor">
+			<Columns>
+				<A Description="Worm Diameter Factor" Units="ul" IsNumeric="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>6.300</A></Row>
+			<Row><A>7.100</A></Row>
+			<Row><A>8.000</A></Row>
+			<Row><A>9.000</A></Row>
+			<Row><A>10.000</A></Row>
+			<Row><A>11.200</A></Row>
+			<Row><A>12.500</A></Row>
+			<Row><A>14.000</A></Row>
+			<Row><A>16.000</A></Row>
+			<Row><A>18.000</A></Row>
+			<Row><A>20.000</A></Row>
+			<Row><A>22.400</A></Row>
+			<Row><A>25.000</A></Row>
+		</Data>
+	</Table>
+</FDesign>

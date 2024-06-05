@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.3" category="RCHAIN" thumbnail="ISO606_B.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="ISO" X0="120">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <b src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <t1 src="table" dt="number" units="mm"/>
+    <t2 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="kN"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="cm^2"/>
+    <fi src="fixed" dt="number" units="ul">1.0</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.13</bax>
+    <Pc1 src="fixed" dt="string">11.682kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0008ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">1626.6kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="04C-1" >
+      <Designation>04C-1</Designation>
+      <Size>04C</Size>
+      <k>1</k>
+      <p>6.35</p>
+      <Pt>6.4</Pt>
+      <d1>3.3</d1>
+      <b1>3.1</b1>
+      <b>9.1</b>
+      <d2>2.31</d2>
+      <h2>6.02</h2>
+      <h3>5.21</h3>
+      <t1>0.75</t1>
+      <t2>0.75</t2>
+      <Fu>3.5</Fu>
+      <m>0.13</m>
+      <A>0.11</A>
+    </Member>
+    <Member moniker="04C-2" >
+      <Designation>04C-2</Designation>
+      <Size>04C</Size>
+      <k>2</k>
+      <p>6.35</p>
+      <Pt>6.4</Pt>
+      <d1>3.3</d1>
+      <b1>3.1</b1>
+      <d2>2.31</d2>
+      <b>15.5</b>
+      <h2>6.02</h2>
+      <h3>5.21</h3>
+      <t1>0.75</t1>
+      <t2>0.75</t2>
+      <Fu>7</Fu>
+      <m>0.26</m>
+      <A>0.22</A>
+    </Member>
+    <Member moniker="04C-3" >
+      <Designation>04C-3</Designation>
+      <Size>04C</Size>
+      <k>3</k>
+      <p>6.35</p>
+      <Pt>6.4</Pt>
+      <d1>3.3</d1>
+      <b1>3.1</b1>
+      <d2>2.31</d2>
+      <b>21.8</b>
+      <h2>6.02</h2>
+      <h3>5.21</h3>
+      <t1>0.75</t1>
+      <t2>0.75</t2>
+      <Fu>10.5</Fu>
+      <m>0.39</m>
+      <A>0.33</A>
+    </Member>
+    <Member moniker="06C-1" >
+      <Designation>06C-1</Designation>
+      <Size>06C</Size>
+      <k>1</k>
+      <p>9.525</p>
+      <Pt>10.13</Pt>
+      <d1>5.08</d1>
+      <b1>4.68</b1>
+      <d2>3.6</d2>
+      <b>13.2</b>
+      <h2>9.05</h2>
+      <h3>7.81</h3>
+      <t1>1.25</t1>
+      <t2>1.25</t2>
+      <Fu>7.9</Fu>
+      <m>0.35</m>
+      <A>0.27</A>
+    </Member>
+    <Member moniker="06C-2" >
+      <Designation>06C-2</Designation>
+      <Size>06C</Size>
+      <k>2</k>
+      <p>9.525</p>
+      <Pt>10.13</Pt>
+      <d1>5.08</d1>
+      <b1>4.68</b1>
+      <d2>3.6</d2>
+      <b>23.4</b>
+      <h2>9.05</h2>
+      <h3>7.81</h3>
+      <t1>1.25</t1>
+      <t2>1.25</t2>
+      <Fu>15.8</Fu>
+      <m>0.7</m>
+      <A>0.54</A>
+    </Member>
+    <Member moniker="06C-3" >
+      <Designation>06C-3</Designation>
+      <Size>06C</Size>
+      <k>3</k>
+      <p>9.525</p>
+      <Pt>10.13</Pt>
+      <d1>5.08</d1>
+      <b1>4.68</b1>
+      <d2>3.6</d2>
+      <b>33.5</b>
+      <h2>9.05</h2>
+      <h3>7.81</h3>
+      <t1>1.25</t1>
+      <t2>1.25</t2>
+      <Fu>23.7</Fu>
+      <m>1.05</m>
+      <A>0.81</A>
+    </Member>
+  </Members>
+</CustomFamily>

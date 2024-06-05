@@ -1,0 +1,13 @@
+<Resources>
+  <string id="%1%" value="Pin Material (ANSI)"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Allowable Shear Stress"/>
+  <string id="%4%" value="psi"/>
+  <string id="%5%" value="Carbon steel 1211; 1212; 1213"/>
+  <string id="%6%" value="High carbon steel 1070 - 1095"/>
+  <string id="%7%" value="Stainless steel 302"/>
+  <string id="%8%" value="Stainless steel 410 - 420"/>
+  <string id="%9%" value="Alloy steel 6150H"/>
+  <string id="%10%" value="Material"/>
+  <string id="%11%" value="||t||.Al|"/>
+</Resources>

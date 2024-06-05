@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="17-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\17-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">11.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >17.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >14.0</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">43.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.17</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">112.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.04244438 - 2.65731666/{Dpk} - 2.98106428e-08*pow({Dpk}*{nk};2) - 0.00361581*(log({Dpk}*{nk})-log(2/(1+pow(10;734.92/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="17-670" >
+      <Size>17 x 670</Size>
+      <Length>713</Length>
+      <C3>0.77</C3>
+    </Member>
+    <Member moniker="17-710" >
+      <Size>17 x 710</Size>
+      <Length>753</Length>
+      <C3>0.78</C3>
+    </Member>
+    <Member moniker="17-750" >
+      <Size>17 x 750</Size>
+      <Length>793</Length>
+      <C3>0.79</C3>
+    </Member>
+    <Member moniker="17-800" >
+      <Size>17 x 800</Size>
+      <Length>843</Length>
+      <C3>0.8</C3>
+    </Member>
+    <Member moniker="17-850" >
+      <Size>17 x 850</Size>
+      <Length>893</Length>
+      <C3>0.802</C3>
+    </Member>
+    <Member moniker="17-887" >
+      <Size>17 x 887</Size>
+      <Length>930</Length>
+      <C3>0.806</C3>
+    </Member>
+    <Member moniker="17-900" >
+      <Size>17 x 900</Size>
+      <Length>943</Length>
+      <C3>0.81</C3>
+    </Member>
+    <Member moniker="17-950" >
+      <Size>17 x 950</Size>
+      <Length>993</Length>
+      <C3>0.83</C3>
+    </Member>
+    <Member moniker="17-957" >
+      <Size>17 x 957</Size>
+      <Length>1000</Length>
+      <C3>0.84</C3>
+    </Member>
+    <Member moniker="17-1000" >
+      <Size>17 x 1000</Size>
+      <Length>1043</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="17-1057" >
+      <Size>17 x 1057</Size>
+      <Length>1100</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="17-1060" >
+      <Size>17 x 1060</Size>
+      <Length>1103</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="17-1120" >
+      <Size>17 x 1120</Size>
+      <Length>1163</Length>
+      <C3>0.872</C3>
+    </Member>
+    <Member moniker="17-1167" >
+      <Size>17 x 1167</Size>
+      <Length>1210</Length>
+      <C3>0.873</C3>
+    </Member>
+    <Member moniker="17-1180" >
+      <Size>17 x 1180</Size>
+      <Length>1223</Length>
+      <C3>0.875</C3>
+    </Member>
+    <Member moniker="17-1250" >
+      <Size>17 x 1250</Size>
+      <Length>1293</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="17-1320" >
+      <Size>17 x 1320</Size>
+      <Length>1363</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="17-1327" >
+      <Size>17 x 1327</Size>
+      <Length>1370</Length>
+      <C3>0.895</C3>
+    </Member>
+    <Member moniker="17-1400" >
+      <Size>17 x 1400</Size>
+      <Length>1443</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="17-1500" >
+      <Size>17 x 1500</Size>
+      <Length>1543</Length>
+      <C3>0.91</C3>
+    </Member>
+    <Member moniker="17-1517" >
+      <Size>17 x 1517</Size>
+      <Length>1560</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="17-1600" >
+      <Size>17 x 1600</Size>
+      <Length>1643</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="17-1700" >
+      <Size>17 x 1700</Size>
+      <Length>1743</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="17-1717" >
+      <Size>17 x 1717</Size>
+      <Length>1760</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="17-1800" >
+      <Size>17 x 1800</Size>
+      <Length>1843</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="17-1900" >
+      <Size>17 x 1900</Size>
+      <Length>1943</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="17-1907" >
+      <Size>17 x 1907</Size>
+      <Length>1950</Length>
+      <C3>0.965</C3>
+    </Member>
+    <Member moniker="17-2000" >
+      <Size>17 x 2000</Size>
+      <Length>2043</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="17-2120" >
+      <Size>17 x 2120</Size>
+      <Length>2163</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="17-2137" >
+      <Size>17 x 2137</Size>
+      <Length>2180</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="17-2240" >
+      <Size>17 x 2240</Size>
+      <Length>2283</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="17-2257" >
+      <Size>17 x 2257</Size>
+      <Length>2300</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="17-2360" >
+      <Size>17 x 2360</Size>
+      <Length>2403</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="17-2457" >
+      <Size>17 x 2457</Size>
+      <Length>2500</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="17-2500" >
+      <Size>17 x 2500</Size>
+      <Length>2543</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="17-2650" >
+      <Size>17 x 2650</Size>
+      <Length>2693</Length>
+      <C3>1.035</C3>
+    </Member>
+    <Member moniker="17-2657" >
+      <Size>17 x 2657</Size>
+      <Length>2700</Length>
+      <C3>1.045</C3>
+    </Member>
+    <Member moniker="17-2800" >
+      <Size>17 x 2800</Size>
+      <Length>2843</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="17-2827" >
+      <Size>17 x 2827</Size>
+      <Length>2870</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="17-3000" >
+      <Size>17 x 3000</Size>
+      <Length>3043</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="17-3150" >
+      <Size>17 x 3150</Size>
+      <Length>3193</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="17-3157" >
+      <Size>17 x 3157</Size>
+      <Length>3200</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="17-3350" >
+      <Size>17 x 3350</Size>
+      <Length>3393</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="17-3550" >
+      <Size>17 x 3550</Size>
+      <Length>3593</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="17-3557" >
+      <Size>17 x 3557</Size>
+      <Length>3600</Length>
+      <C3>1.11</C3>
+    </Member>
+    <Member moniker="17-3750" >
+      <Size>17 x 3750</Size>
+      <Length>3793</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="17-4000" >
+      <Size>17 x 4000</Size>
+      <Length>4043</Length>
+      <C3>1.13</C3>
+    </Member>
+    <Member moniker="17-4017" >
+      <Size>17 x 4017</Size>
+      <Length>4060</Length>
+      <C3>1.132</C3>
+    </Member>
+    <Member moniker="17-4250" >
+      <Size>17 x 4250</Size>
+      <Length>4293</Length>
+      <C3>1.136</C3>
+    </Member>
+    <Member moniker="17-4387" >
+      <Size>17 x 4387</Size>
+      <Length>4430</Length>
+      <C3>1.14</C3>
+    </Member>
+    <Member moniker="17-4500" >
+      <Size>17 x 4500</Size>
+      <Length>4543</Length>
+      <C3>1.15</C3>
+    </Member>
+    <Member moniker="17-4750" >
+      <Size>17 x 4750</Size>
+      <Length>4793</Length>
+      <C3>1.16</C3>
+    </Member>
+    <Member moniker="17-4777" >
+      <Size>17 x 4777</Size>
+      <Length>4820</Length>
+      <C3>1.17</C3>
+    </Member>
+    <Member moniker="17-5000" >
+      <Size>17 x 5000</Size>
+      <Length>5043</Length>
+      <C3>1.18</C3>
+    </Member>
+    <Member moniker="17-5300" >
+      <Size>17 x 5300</Size>
+      <Length>5043</Length>
+      <C3>1.19</C3>
+    </Member>
+    <Member moniker="17-5327" >
+      <Size>17 x 5327</Size>
+      <Length>5370</Length>
+      <C3>1.19</C3>
+    </Member>
+    <Member moniker="17-5600" >
+      <Size>17 x 5600</Size>
+      <Length>5643</Length>
+      <C3>1.20</C3>
+    </Member>
+    <Member moniker="17-6000" >
+      <Size>17 x 6000</Size>
+      <Length>6043</Length>
+      <C3>1.21</C3>
+    </Member>
+    <Member moniker="17-6027" >
+      <Size>17 x 6027</Size>
+      <Length>6070</Length>
+      <C3>1.22</C3>
+    </Member>
+    <Member moniker="17-6300" >
+      <Size>17 x 6300</Size>
+      <Length>6343</Length>
+      <C3>1.23</C3>
+    </Member>
+    <Member moniker="17-6700" >
+      <Size>17 x 6700</Size>
+      <Length>6743</Length>
+      <C3>1.24</C3>
+    </Member>
+    <Member moniker="17-7100" >
+      <Size>17 x 7100</Size>
+      <Length>7143</Length>
+      <C3>1.25</C3>
+    </Member>
+  </Members>
+</CustomFamily>

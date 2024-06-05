@@ -1,0 +1,4356 @@
+<FDesign>
+	<Table InternalName="F35348F2-12F3-42c3-BDDC-051041D32C0E">
+		<Definition DisplayName="DIN 5482 - 30 deg">
+			<Columns>
+				<Name DisplayName="Name" Description="Spline designation 'Do - m x N'" Units="" />
+				<Do DisplayName="D|.o|" Description="External spline major diameter" Units="mm" />
+				<m DisplayName="m" Description="Module" Units="mm" />
+				<N DisplayName="N" Description="Number of teeth" Units="ul" />
+				<l DisplayName="l" Description="Spline length" Units="mm" />
+				<Dd DisplayName="D|.d|" Description="Pitch diameter" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Name>5.8 - 0.8 x 6*</Name>
+				<Do>5.8</Do>
+				<m>0.8</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>5.9 - 0.6 x 8</Name>
+				<Do>5.9</Do>
+				<m>0.6</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>5.9 - 0.5 x 10</Name>
+				<Do>5.9</Do>
+				<m>0.5</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>6.8 - 0.8 x 7*</Name>
+				<Do>6.8</Do>
+				<m>0.8</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>6.9 - 0.6 x 10</Name>
+				<Do>6.9</Do>
+				<m>0.6</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>6.9 - 0.5 x 12</Name>
+				<Do>6.9</Do>
+				<m>0.5</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>7.8 - 1 x 6</Name>
+				<Do>7.8</Do>
+				<m>1</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>7.8 - 0.8 x 8*</Name>
+				<Do>7.8</Do>
+				<m>0.8</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>7.9 - 0.6 x 12</Name>
+				<Do>7.9</Do>
+				<m>0.6</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>7.9 - 0.5 x 14</Name>
+				<Do>7.9</Do>
+				<m>0.5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>8.8 - 1 x 7</Name>
+				<Do>8.8</Do>
+				<m>1</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>8.8 - 0.8 x 10*</Name>
+				<Do>8.8</Do>
+				<m>0.8</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>8.9 - 0.6 x 13</Name>
+				<Do>8.9</Do>
+				<m>0.6</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>8.9 - 0.5 x 16</Name>
+				<Do>8.9</Do>
+				<m>0.5</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>9.8 - 1.25 x 6</Name>
+				<Do>9.8</Do>
+				<m>1.25</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>9.8 - 1 x 8</Name>
+				<Do>9.8</Do>
+				<m>1</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>9.8 - 0.8 x 11*</Name>
+				<Do>9.8</Do>
+				<m>0.8</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>9.9 - 0.6 x 15</Name>
+				<Do>9.9</Do>
+				<m>0.6</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>9.9 - 0.5 x 18</Name>
+				<Do>9.9</Do>
+				<m>0.5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>10.8 - 1.25 x 7</Name>
+				<Do>10.8</Do>
+				<m>1.25</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>10.8 - 1 x 9</Name>
+				<Do>10.8</Do>
+				<m>1</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>10.8 - 0.8 x 12*</Name>
+				<Do>10.8</Do>
+				<m>0.8</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>10.9 - 0.6 x 17</Name>
+				<Do>10.9</Do>
+				<m>0.6</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>10.9 - 0.5 x 20</Name>
+				<Do>10.9</Do>
+				<m>0.5</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>11.7 - 1.5 x 6</Name>
+				<Do>11.7</Do>
+				<m>1.5</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>11.8 - 1.25 x 8</Name>
+				<Do>11.8</Do>
+				<m>1.25</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>11.8 - 1 x 10</Name>
+				<Do>11.8</Do>
+				<m>1</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>11.8 - 0.8 x 13*</Name>
+				<Do>11.8</Do>
+				<m>0.8</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>11.9 - 0.6 x 18</Name>
+				<Do>11.9</Do>
+				<m>0.6</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>11.9 - 0.5 x 22</Name>
+				<Do>11.9</Do>
+				<m>0.5</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>12.7 - 1.5 x 7</Name>
+				<Do>12.7</Do>
+				<m>1.5</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>12.8 - 1.25 x 9</Name>
+				<Do>12.8</Do>
+				<m>1.25</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>12.8 - 1 x 11</Name>
+				<Do>12.8</Do>
+				<m>1</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>12.8 - 0.8 x 15*</Name>
+				<Do>12.8</Do>
+				<m>0.8</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>12.9 - 0.6 x 20</Name>
+				<Do>12.9</Do>
+				<m>0.6</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>12.9 - 0.5 x 24</Name>
+				<Do>12.9</Do>
+				<m>0.5</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>13.7 - 1.5 x 8</Name>
+				<Do>13.7</Do>
+				<m>1.5</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>13.8 - 1.25 x 10</Name>
+				<Do>13.8</Do>
+				<m>1.25</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>13.8 - 1 x 12</Name>
+				<Do>13.8</Do>
+				<m>1</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>13.8 - 0.8 x 16*</Name>
+				<Do>13.8</Do>
+				<m>0.8</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>13.9 - 0.6 x 22</Name>
+				<Do>13.9</Do>
+				<m>0.6</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>13.9 - 0.5 x 26</Name>
+				<Do>13.9</Do>
+				<m>0.5</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>14.6 - 2 x 6</Name>
+				<Do>14.6</Do>
+				<m>2</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>14.7 - 1.5 x 8</Name>
+				<Do>14.7</Do>
+				<m>1.5</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>14.8 - 1.25 x 10</Name>
+				<Do>14.8</Do>
+				<m>1.25</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>14.8 - 1 x 13</Name>
+				<Do>14.8</Do>
+				<m>1</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>14.8 - 0.8 x 17*</Name>
+				<Do>14.8</Do>
+				<m>0.8</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>14.9 - 0.6 x 23</Name>
+				<Do>14.9</Do>
+				<m>0.6</m>
+				<N>23</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>14.9 - 0.5 x 28</Name>
+				<Do>14.9</Do>
+				<m>0.5</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>15.6 - 2 x 6</Name>
+				<Do>15.6</Do>
+				<m>2</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>15.7 - 1.5 x 9</Name>
+				<Do>15.7</Do>
+				<m>1.5</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>15.8 - 1.25 x 11</Name>
+				<Do>15.8</Do>
+				<m>1.25</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>15.8 - 1 x 14</Name>
+				<Do>15.8</Do>
+				<m>1</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>15.8 - 0.8 x 18*</Name>
+				<Do>15.8</Do>
+				<m>0.8</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>15.9 - 0.6 x 25</Name>
+				<Do>15.9</Do>
+				<m>0.6</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>15.9 - 0.5 x 30</Name>
+				<Do>15.9</Do>
+				<m>0.5</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>16.6 - 2 x 7</Name>
+				<Do>16.6</Do>
+				<m>2</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>16.7 - 1.5 x 10</Name>
+				<Do>16.7</Do>
+				<m>1.5</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>16.8 - 1.25 x 12*</Name>
+				<Do>16.8</Do>
+				<m>1.25</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>16.8 - 1 x 15</Name>
+				<Do>16.8</Do>
+				<m>1</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>16.8 - 0.8 x 20*</Name>
+				<Do>16.8</Do>
+				<m>0.8</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>16.9 - 0.6 x 27</Name>
+				<Do>16.9</Do>
+				<m>0.6</m>
+				<N>27</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>16.9 - 0.5 x 32</Name>
+				<Do>16.9</Do>
+				<m>0.5</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>17.6 - 2 x 7</Name>
+				<Do>17.6</Do>
+				<m>2</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>17.7 - 1.5 x 10</Name>
+				<Do>17.7</Do>
+				<m>1.5</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>17.8 - 1.25 x 13*</Name>
+				<Do>17.8</Do>
+				<m>1.25</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>17.8 - 1 x 16</Name>
+				<Do>17.8</Do>
+				<m>1</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>17.8 - 0.8 x 21*</Name>
+				<Do>17.8</Do>
+				<m>0.8</m>
+				<N>21</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>17.9 - 0.6 x 28</Name>
+				<Do>17.9</Do>
+				<m>0.6</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>17.9 - 0.5 x 34</Name>
+				<Do>17.9</Do>
+				<m>0.5</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>18.7 - 1.5 x 11</Name>
+				<Do>18.7</Do>
+				<m>1.5</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>18.8 - 1.25 x 14*</Name>
+				<Do>18.8</Do>
+				<m>1.25</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>18.8 - 1 x 17</Name>
+				<Do>18.8</Do>
+				<m>1</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>18.8 - 0.8 x 22*</Name>
+				<Do>18.8</Do>
+				<m>0.8</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>18.9 - 0.6 x 30</Name>
+				<Do>18.9</Do>
+				<m>0.6</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>18.9 - 0.5 x 36</Name>
+				<Do>18.9</Do>
+				<m>0.5</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.5 - 2.5 x 6</Name>
+				<Do>19.5</Do>
+				<m>2.5</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.6 - 2 x 8</Name>
+				<Do>19.6</Do>
+				<m>2</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.7 - 1.5 x 12</Name>
+				<Do>19.7</Do>
+				<m>1.5</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.8 - 1.25 x 14*</Name>
+				<Do>19.8</Do>
+				<m>1.25</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.8 - 1 x 18</Name>
+				<Do>19.8</Do>
+				<m>1</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.8 - 0.8 x 24*</Name>
+				<Do>19.8</Do>
+				<m>0.8</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.9 - 0.6 x 32</Name>
+				<Do>19.9</Do>
+				<m>0.6</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>19.9 - 0.5 x 38</Name>
+				<Do>19.9</Do>
+				<m>0.5</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>20.7 - 1.5 x 12</Name>
+				<Do>20.7</Do>
+				<m>1.5</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>20.8 - 1.25 x 15*</Name>
+				<Do>20.8</Do>
+				<m>1.25</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>20.8 - 1 x 19</Name>
+				<Do>20.8</Do>
+				<m>1</m>
+				<N>19</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>20.8 - 0.8 x 25*</Name>
+				<Do>20.8</Do>
+				<m>0.8</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>20.9 - 0.6 x 34</Name>
+				<Do>20.9</Do>
+				<m>0.6</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>20.9 - 0.5 x 40</Name>
+				<Do>20.9</Do>
+				<m>0.5</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.4 - 3 x 6</Name>
+				<Do>21.4</Do>
+				<m>3</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.5 - 2.5 x 7</Name>
+				<Do>21.5</Do>
+				<m>2.5</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.6 - 2 x 9</Name>
+				<Do>21.6</Do>
+				<m>2</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.7 - 1.5 x 13</Name>
+				<Do>21.7</Do>
+				<m>1.5</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.8 - 1.25 x 16*</Name>
+				<Do>21.8</Do>
+				<m>1.25</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.8 - 1 x 20</Name>
+				<Do>21.8</Do>
+				<m>1</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.8 - 0.8 x 26*</Name>
+				<Do>21.8</Do>
+				<m>0.8</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.9 - 0.6 x 35</Name>
+				<Do>21.9</Do>
+				<m>0.6</m>
+				<N>35</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>21.9 - 0.5 x 42</Name>
+				<Do>21.9</Do>
+				<m>0.5</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>22.7 - 1.5 x 14</Name>
+				<Do>22.7</Do>
+				<m>1.5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>22.8 - 1.25 x 17*</Name>
+				<Do>22.8</Do>
+				<m>1.25</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>22.8 - 1 x 22</Name>
+				<Do>22.8</Do>
+				<m>1</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>22.8 - 0.8 x 27*</Name>
+				<Do>22.8</Do>
+				<m>0.8</m>
+				<N>27</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>22.9 - 0.6 x 37</Name>
+				<Do>22.9</Do>
+				<m>0.6</m>
+				<N>37</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>22.9 - 0.5 x 44</Name>
+				<Do>22.9</Do>
+				<m>0.5</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>23.7 - 1.5 x 14</Name>
+				<Do>23.7</Do>
+				<m>1.5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>23.8 - 1.25 x 18*</Name>
+				<Do>23.8</Do>
+				<m>1.25</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>23.8 - 1 x 22</Name>
+				<Do>23.8</Do>
+				<m>1</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>23.8 - 0.8 x 28*</Name>
+				<Do>23.8</Do>
+				<m>0.8</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>23.9 - 0.6 x 38</Name>
+				<Do>23.9</Do>
+				<m>0.6</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>23.9 - 0.5 x 46</Name>
+				<Do>23.9</Do>
+				<m>0.5</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.4 - 3 x 7</Name>
+				<Do>24.4</Do>
+				<m>3</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.5 - 2.5 x 8</Name>
+				<Do>24.5</Do>
+				<m>2.5</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.6 - 2 x 11</Name>
+				<Do>24.6</Do>
+				<m>2</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.7 - 1.5 x 15</Name>
+				<Do>24.7</Do>
+				<m>1.5</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.8 - 1.25 x 18*</Name>
+				<Do>24.8</Do>
+				<m>1.25</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.8 - 1 x 24</Name>
+				<Do>24.8</Do>
+				<m>1</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.8 - 0.8 x 30*</Name>
+				<Do>24.8</Do>
+				<m>0.8</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.9 - 0.6 x 40</Name>
+				<Do>24.9</Do>
+				<m>0.6</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>24.9 - 0.5 x 48</Name>
+				<Do>24.9</Do>
+				<m>0.5</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>25.7 - 1.5 x 16</Name>
+				<Do>25.7</Do>
+				<m>1.5</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>25.8 - 1.25 x 19*</Name>
+				<Do>25.8</Do>
+				<m>1.25</m>
+				<N>19</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>25.8 - 1 x 24</Name>
+				<Do>25.8</Do>
+				<m>1</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>25.8 - 0.8 x 31*</Name>
+				<Do>25.8</Do>
+				<m>0.8</m>
+				<N>31</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>25.9 - 0.6 x 42</Name>
+				<Do>25.9</Do>
+				<m>0.6</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>25.9 - 0.5 x 50</Name>
+				<Do>25.9</Do>
+				<m>0.5</m>
+				<N>50</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>26.7 - 1.5 x 16</Name>
+				<Do>26.7</Do>
+				<m>1.5</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>26.8 - 1.25 x 20*</Name>
+				<Do>26.8</Do>
+				<m>1.25</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>26.8 - 1 x 26</Name>
+				<Do>26.8</Do>
+				<m>1</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>26.8 - 0.8 x 32*</Name>
+				<Do>26.8</Do>
+				<m>0.8</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>26.9 - 0.6 x 44</Name>
+				<Do>26.9</Do>
+				<m>0.6</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>26.9 - 0.5 x 52</Name>
+				<Do>26.9</Do>
+				<m>0.5</m>
+				<N>52</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.4 - 3 x 8</Name>
+				<Do>27.4</Do>
+				<m>3</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.5 - 2.5 x 10</Name>
+				<Do>27.5</Do>
+				<m>2.5</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.6 - 2 x 12</Name>
+				<Do>27.6</Do>
+				<m>2</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.7 - 1.5 x 17</Name>
+				<Do>27.7</Do>
+				<m>1.5</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.8 - 1.25 x 21*</Name>
+				<Do>27.8</Do>
+				<m>1.25</m>
+				<N>21</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.8 - 1 x 26</Name>
+				<Do>27.8</Do>
+				<m>1</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.8 - 0.8 x 34*</Name>
+				<Do>27.8</Do>
+				<m>0.8</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.9 - 0.6 x 45</Name>
+				<Do>27.9</Do>
+				<m>0.6</m>
+				<N>45</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>27.9 - 0.5 x 54</Name>
+				<Do>27.9</Do>
+				<m>0.5</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>28.7 - 1.5 x 18</Name>
+				<Do>28.7</Do>
+				<m>1.5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>28.8 - 1.25 x 22*</Name>
+				<Do>28.8</Do>
+				<m>1.25</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>28.8 - 1 x 28</Name>
+				<Do>28.8</Do>
+				<m>1</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>28.8 - 0.8 x 35*</Name>
+				<Do>28.8</Do>
+				<m>0.8</m>
+				<N>35</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>28.9 - 0.6 x 47</Name>
+				<Do>28.9</Do>
+				<m>0.6</m>
+				<N>47</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>28.9 - 0.5 x 56</Name>
+				<Do>28.9</Do>
+				<m>0.5</m>
+				<N>56</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.4 - 3 x 8</Name>
+				<Do>29.4</Do>
+				<m>3</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.5 - 2.5 x 10</Name>
+				<Do>29.5</Do>
+				<m>2.5</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.6 - 2 x 13</Name>
+				<Do>29.6</Do>
+				<m>2</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.6 - 2 x 14</Name>
+				<Do>29.6</Do>
+				<m>2</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.7 - 1.5 x 18</Name>
+				<Do>29.7</Do>
+				<m>1.5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.8 - 1.25 x 22*</Name>
+				<Do>29.8</Do>
+				<m>1.25</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.8 - 1 x 28</Name>
+				<Do>29.8</Do>
+				<m>1</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.8 - 0.8 x 36*</Name>
+				<Do>29.8</Do>
+				<m>0.8</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.9 - 0.6 x 48</Name>
+				<Do>29.9</Do>
+				<m>0.6</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>29.9 - 0.5 x 58</Name>
+				<Do>29.9</Do>
+				<m>0.5</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>30.7 - 1.5 x 19</Name>
+				<Do>30.7</Do>
+				<m>1.5</m>
+				<N>19</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>30.8 - 1.25 x 23*</Name>
+				<Do>30.8</Do>
+				<m>1.25</m>
+				<N>23</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>30.8 - 1 x 30</Name>
+				<Do>30.8</Do>
+				<m>1</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>30.8 - 0.8 x 37*</Name>
+				<Do>30.8</Do>
+				<m>0.8</m>
+				<N>37</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>30.9 - 0.6 x 50</Name>
+				<Do>30.9</Do>
+				<m>0.6</m>
+				<N>50</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>30.9 - 0.5 x 60</Name>
+				<Do>30.9</Do>
+				<m>0.5</m>
+				<N>60</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.2 - 4 x 6</Name>
+				<Do>31.2</Do>
+				<m>4</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.4 - 3 x 9</Name>
+				<Do>31.4</Do>
+				<m>3</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.5 - 2.5 x 11</Name>
+				<Do>31.5</Do>
+				<m>2.5</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.6 - 2 x 14</Name>
+				<Do>31.6</Do>
+				<m>2</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.7 - 1.5 x 20</Name>
+				<Do>31.7</Do>
+				<m>1.5</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.8 - 1.25 x 24*</Name>
+				<Do>31.8</Do>
+				<m>1.25</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.8 - 1 x 30</Name>
+				<Do>31.8</Do>
+				<m>1</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.8 - 0.8 x 38*</Name>
+				<Do>31.8</Do>
+				<m>0.8</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.9 - 0.6 x 52</Name>
+				<Do>31.9</Do>
+				<m>0.6</m>
+				<N>52</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>31.9 - 0.5 x 62</Name>
+				<Do>31.9</Do>
+				<m>0.5</m>
+				<N>62</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>32.7 - 1.5 x 20</Name>
+				<Do>32.7</Do>
+				<m>1.5</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>32.8 - 1.25 x 25*</Name>
+				<Do>32.8</Do>
+				<m>1.25</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>32.8 - 1 x 32</Name>
+				<Do>32.8</Do>
+				<m>1</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>32.8 - 0.8 x 40*</Name>
+				<Do>32.8</Do>
+				<m>0.8</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>32.9 - 0.6 x 54</Name>
+				<Do>32.9</Do>
+				<m>0.6</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>32.9 - 0.5 x 64</Name>
+				<Do>32.9</Do>
+				<m>0.5</m>
+				<N>64</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>33.7 - 1.5 x 21</Name>
+				<Do>33.7</Do>
+				<m>1.5</m>
+				<N>21</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>33.8 - 1.25 x 26*</Name>
+				<Do>33.8</Do>
+				<m>1.25</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>33.8 - 1 x 32</Name>
+				<Do>33.8</Do>
+				<m>1</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>33.8 - 0.8 x 41*</Name>
+				<Do>33.8</Do>
+				<m>0.8</m>
+				<N>41</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>33.9 - 0.6 x 55</Name>
+				<Do>33.9</Do>
+				<m>0.6</m>
+				<N>55</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>33.9 - 0.5 x 66</Name>
+				<Do>33.9</Do>
+				<m>0.5</m>
+				<N>66</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.2 - 4 x 7</Name>
+				<Do>34.2</Do>
+				<m>4</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.4 - 3 x 10</Name>
+				<Do>34.4</Do>
+				<m>3</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.5 - 2.5 x 12</Name>
+				<Do>34.5</Do>
+				<m>2.5</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.6 - 2 x 16*</Name>
+				<Do>34.6</Do>
+				<m>2</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.7 - 1.5 x 22</Name>
+				<Do>34.7</Do>
+				<m>1.5</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.8 - 1.25 x 26*</Name>
+				<Do>34.8</Do>
+				<m>1.25</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.8 - 1 x 34</Name>
+				<Do>34.8</Do>
+				<m>1</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.8 - 0.8 x 42*</Name>
+				<Do>34.8</Do>
+				<m>0.8</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.9 - 0.6 x 57</Name>
+				<Do>34.9</Do>
+				<m>0.6</m>
+				<N>57</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>34.9 - 0.5 x 68</Name>
+				<Do>34.9</Do>
+				<m>0.5</m>
+				<N>68</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>35.7 - 1.5 x 22</Name>
+				<Do>35.7</Do>
+				<m>1.5</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>35.8 - 1.25 x 27*</Name>
+				<Do>35.8</Do>
+				<m>1.25</m>
+				<N>27</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>35.8 - 1 x 34</Name>
+				<Do>35.8</Do>
+				<m>1</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>35.8 - 0.8 x 44*</Name>
+				<Do>35.8</Do>
+				<m>0.8</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>35.9 - 0.6 x 58</Name>
+				<Do>35.9</Do>
+				<m>0.6</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>35.9 - 0.5 x 70</Name>
+				<Do>35.9</Do>
+				<m>0.5</m>
+				<N>70</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.2 - 4 x 8</Name>
+				<Do>36.2</Do>
+				<m>4</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.4 - 3 x 11</Name>
+				<Do>36.4</Do>
+				<m>3</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.5 - 2.5 x 13</Name>
+				<Do>36.5</Do>
+				<m>2.5</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.6 - 2 x 17*</Name>
+				<Do>36.6</Do>
+				<m>2</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.7 - 1.5 x 23</Name>
+				<Do>36.7</Do>
+				<m>1.5</m>
+				<N>23</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.8 - 1.25 x 28*</Name>
+				<Do>36.8</Do>
+				<m>1.25</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.8 - 1 x 36</Name>
+				<Do>36.8</Do>
+				<m>1</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.8 - 0.8 x 45*</Name>
+				<Do>36.8</Do>
+				<m>0.8</m>
+				<N>45</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.9 - 0.6 x 60</Name>
+				<Do>36.9</Do>
+				<m>0.6</m>
+				<N>60</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>36.9 - 0.5 x 72</Name>
+				<Do>36.9</Do>
+				<m>0.5</m>
+				<N>72</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.2 - 4 x 8</Name>
+				<Do>37.2</Do>
+				<m>4</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.4 - 3 x 11</Name>
+				<Do>37.4</Do>
+				<m>3</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.5 - 2.5 x 14</Name>
+				<Do>37.5</Do>
+				<m>2.5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.6 - 2 x 18*</Name>
+				<Do>37.6</Do>
+				<m>2</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.7 - 1.5 x 24</Name>
+				<Do>37.7</Do>
+				<m>1.5</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.8 - 1.25 x 29*</Name>
+				<Do>37.8</Do>
+				<m>1.25</m>
+				<N>29</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.8 - 1 x 36</Name>
+				<Do>37.8</Do>
+				<m>1</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.8 - 0.8 x 46*</Name>
+				<Do>37.8</Do>
+				<m>0.8</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.9 - 0.6 x 62</Name>
+				<Do>37.9</Do>
+				<m>0.6</m>
+				<N>62</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>37.9 - 0.5 x 74</Name>
+				<Do>37.9</Do>
+				<m>0.5</m>
+				<N>74</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>38.7 - 1.5 x 24</Name>
+				<Do>38.7</Do>
+				<m>1.5</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>38.8 - 1.25 x 30*</Name>
+				<Do>38.8</Do>
+				<m>1.25</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>38.8 - 1 x 38</Name>
+				<Do>38.8</Do>
+				<m>1</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>38.8 - 0.8 x 47</Name>
+				<Do>38.8</Do>
+				<m>0.8</m>
+				<N>47</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>38.9 - 0.6 x 64</Name>
+				<Do>38.9</Do>
+				<m>0.6</m>
+				<N>64</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>38.9 - 0.5 x 76</Name>
+				<Do>38.9</Do>
+				<m>0.5</m>
+				<N>76</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.0 - 5 x 6</Name>
+				<Do>39.0</Do>
+				<m>5</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.2 - 4 x 8</Name>
+				<Do>39.2</Do>
+				<m>4</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.4 - 3 x 12</Name>
+				<Do>39.4</Do>
+				<m>3</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.5 - 2.5 x 14</Name>
+				<Do>39.5</Do>
+				<m>2.5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.6 - 2 x 18*</Name>
+				<Do>39.6</Do>
+				<m>2</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.7 - 1.5 x 25</Name>
+				<Do>39.7</Do>
+				<m>1.5</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.8 - 1.25 x 30*</Name>
+				<Do>39.8</Do>
+				<m>1.25</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.8 - 1 x 38</Name>
+				<Do>39.8</Do>
+				<m>1</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.8 - 0.8 x 48</Name>
+				<Do>39.8</Do>
+				<m>0.8</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.9 - 0.6 x 64</Name>
+				<Do>39.9</Do>
+				<m>0.6</m>
+				<N>64</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>39.9 - 0.5 x 78</Name>
+				<Do>39.9</Do>
+				<m>0.5</m>
+				<N>78</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.0 - 5 x 7</Name>
+				<Do>41.0</Do>
+				<m>5</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.2 - 4 x 9</Name>
+				<Do>41.2</Do>
+				<m>4</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.4 - 3 x 12</Name>
+				<Do>41.4</Do>
+				<m>3</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.5 - 2.5 x 15</Name>
+				<Do>41.5</Do>
+				<m>2.5</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.6 - 2 x 20*</Name>
+				<Do>41.6</Do>
+				<m>2</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.7 - 1.5 x 26</Name>
+				<Do>41.7</Do>
+				<m>1.5</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.8 - 1.25 x 32*</Name>
+				<Do>41.8</Do>
+				<m>1.25</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.8 - 1 x 40</Name>
+				<Do>41.8</Do>
+				<m>1</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.8 - 0.8 x 51</Name>
+				<Do>41.8</Do>
+				<m>0.8</m>
+				<N>51</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>41.9 - 0.6 x 68</Name>
+				<Do>41.9</Do>
+				<m>0.6</m>
+				<N>68</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.0 - 5 x 7</Name>
+				<Do>44.0</Do>
+				<m>5</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.2 - 4 x 10</Name>
+				<Do>44.2</Do>
+				<m>4</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.4 - 3 x 13</Name>
+				<Do>44.4</Do>
+				<m>3</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.4 - 3 x 14</Name>
+				<Do>44.4</Do>
+				<m>3</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.5 - 2.5 x 16</Name>
+				<Do>44.5</Do>
+				<m>2.5</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.6 - 2 x 21*</Name>
+				<Do>44.6</Do>
+				<m>2</m>
+				<N>21</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.7 - 1.5 x 28</Name>
+				<Do>44.7</Do>
+				<m>1.5</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.8 - 1.25 x 34*</Name>
+				<Do>44.8</Do>
+				<m>1.25</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.8 - 1 x 44</Name>
+				<Do>44.8</Do>
+				<m>1</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.8 - 0.8 x 55</Name>
+				<Do>44.8</Do>
+				<m>0.8</m>
+				<N>55</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>44.9 - 0.6 x 74</Name>
+				<Do>44.9</Do>
+				<m>0.6</m>
+				<N>74</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.0 - 5 x 8</Name>
+				<Do>46.0</Do>
+				<m>5</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.2 - 4 x 10</Name>
+				<Do>46.2</Do>
+				<m>4</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.4 - 3 x 14</Name>
+				<Do>46.4</Do>
+				<m>3</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.5 - 2.5 x 17</Name>
+				<Do>46.5</Do>
+				<m>2.5</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.6 - 2 x 22*</Name>
+				<Do>46.6</Do>
+				<m>2</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.7 - 1.5 x 30</Name>
+				<Do>46.7</Do>
+				<m>1.5</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.8 - 1.25 x 36*</Name>
+				<Do>46.8</Do>
+				<m>1.25</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.8 - 1 x 46</Name>
+				<Do>46.8</Do>
+				<m>1</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.8 - 6 x 6</Name>
+				<Do>46.8</Do>
+				<m>6</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.8 - 0.8 x 57</Name>
+				<Do>46.8</Do>
+				<m>0.8</m>
+				<N>57</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>46.9 - 0.6 x 76</Name>
+				<Do>46.9</Do>
+				<m>0.6</m>
+				<N>76</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.0 - 5 x 8</Name>
+				<Do>47.0</Do>
+				<m>5</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.2 - 4 x 10</Name>
+				<Do>47.2</Do>
+				<m>4</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.4 - 3 x 14</Name>
+				<Do>47.4</Do>
+				<m>3</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.5 - 2.5 x 18</Name>
+				<Do>47.5</Do>
+				<m>2.5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.6 - 2 x 22*</Name>
+				<Do>47.6</Do>
+				<m>2</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.7 - 1.5 x 30</Name>
+				<Do>47.7</Do>
+				<m>1.5</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.8 - 1.25 x 37*</Name>
+				<Do>47.8</Do>
+				<m>1.25</m>
+				<N>37</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.8 - 1 x 46</Name>
+				<Do>47.8</Do>
+				<m>1</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.8 - 0.8 x 58</Name>
+				<Do>47.8</Do>
+				<m>0.8</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>47.9 - 0.6 x 78</Name>
+				<Do>47.9</Do>
+				<m>0.6</m>
+				<N>78</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>48.8 - 6 x 7</Name>
+				<Do>48.8</Do>
+				<m>6</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.0 - 5 x 8</Name>
+				<Do>49.0</Do>
+				<m>5</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.2 - 4 x 11</Name>
+				<Do>49.2</Do>
+				<m>4</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.4 - 3 x 15</Name>
+				<Do>49.4</Do>
+				<m>3</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.5 - 2.5 x 18</Name>
+				<Do>49.5</Do>
+				<m>2.5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.6 - 2 x 24*</Name>
+				<Do>49.6</Do>
+				<m>2</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.7 - 1.5 x 32</Name>
+				<Do>49.7</Do>
+				<m>1.5</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.8 - 1.25 x 38*</Name>
+				<Do>49.8</Do>
+				<m>1.25</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.8 - 1 x 48</Name>
+				<Do>49.8</Do>
+				<m>1</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>49.8 - 0.8 x 60</Name>
+				<Do>49.8</Do>
+				<m>0.8</m>
+				<N>60</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>50.8 - 6 x 7</Name>
+				<Do>50.8</Do>
+				<m>6</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.0 - 5 x 9</Name>
+				<Do>51.0</Do>
+				<m>5</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.2 - 4 x 11</Name>
+				<Do>51.2</Do>
+				<m>4</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.4 - 3 x 16*</Name>
+				<Do>51.4</Do>
+				<m>3</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.5 - 2.5 x 19</Name>
+				<Do>51.5</Do>
+				<m>2.5</m>
+				<N>19</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.6 - 2 x 24*</Name>
+				<Do>51.6</Do>
+				<m>2</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.7 - 1.5 x 33</Name>
+				<Do>51.7</Do>
+				<m>1.5</m>
+				<N>33</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.8 - 1.25 x 40</Name>
+				<Do>51.8</Do>
+				<m>1.25</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.8 - 1 x 50</Name>
+				<Do>51.8</Do>
+				<m>1</m>
+				<N>50</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>51.8 - 0.8 x 64</Name>
+				<Do>51.8</Do>
+				<m>0.8</m>
+				<N>64</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>53.8 - 6 x 8</Name>
+				<Do>53.8</Do>
+				<m>6</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.0 - 5 x 9</Name>
+				<Do>54.0</Do>
+				<m>5</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.2 - 4 x 12</Name>
+				<Do>54.2</Do>
+				<m>4</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.4 - 3 x 17*</Name>
+				<Do>54.4</Do>
+				<m>3</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.5 - 2.5 x 20</Name>
+				<Do>54.5</Do>
+				<m>2.5</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.6 - 2 x 26*</Name>
+				<Do>54.6</Do>
+				<m>2</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.7 - 1.5 x 35</Name>
+				<Do>54.7</Do>
+				<m>1.5</m>
+				<N>35</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.8 - 1.25 x 42</Name>
+				<Do>54.8</Do>
+				<m>1.25</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.8 - 1 x 54</Name>
+				<Do>54.8</Do>
+				<m>1</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>54.8 - 0.8 x 66</Name>
+				<Do>54.8</Do>
+				<m>0.8</m>
+				<N>66</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>56.8 - 6 x 8</Name>
+				<Do>56.8</Do>
+				<m>6</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.0 - 5 x 10</Name>
+				<Do>57.0</Do>
+				<m>5</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.2 - 4 x 13</Name>
+				<Do>57.2</Do>
+				<m>4</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.4 - 3 x 18*</Name>
+				<Do>57.4</Do>
+				<m>3</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.5 - 2.5 x 22</Name>
+				<Do>57.5</Do>
+				<m>2.5</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.6 - 2 x 28*</Name>
+				<Do>57.6</Do>
+				<m>2</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.7 - 1.5 x 37</Name>
+				<Do>57.7</Do>
+				<m>1.5</m>
+				<N>37</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.8 - 1.25 x 45</Name>
+				<Do>57.8</Do>
+				<m>1.25</m>
+				<N>45</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.8 - 1 x 56</Name>
+				<Do>57.8</Do>
+				<m>1</m>
+				<N>56</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>57.8 - 0.8 x 70</Name>
+				<Do>57.8</Do>
+				<m>0.8</m>
+				<N>70</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>58.4 - 8 x 6</Name>
+				<Do>58.4</Do>
+				<m>8</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>58.8 - 6 x 8</Name>
+				<Do>58.8</Do>
+				<m>6</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.0 - 5 x 10</Name>
+				<Do>59.0</Do>
+				<m>5</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.2 - 4 x 13</Name>
+				<Do>59.2</Do>
+				<m>4</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.2 - 4 x 14</Name>
+				<Do>59.2</Do>
+				<m>4</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.4 - 3 x 18*</Name>
+				<Do>59.4</Do>
+				<m>3</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.5 - 2.5 x 22</Name>
+				<Do>59.5</Do>
+				<m>2.5</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.6 - 2 x 28*</Name>
+				<Do>59.6</Do>
+				<m>2</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.7 - 1.5 x 38</Name>
+				<Do>59.7</Do>
+				<m>1.5</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.8 - 1.25 x 46</Name>
+				<Do>59.8</Do>
+				<m>1.25</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.8 - 1 x 58</Name>
+				<Do>59.8</Do>
+				<m>1</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>59.8 - 0.8 x 74</Name>
+				<Do>59.8</Do>
+				<m>0.8</m>
+				<N>74</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>60.8 - 6 x 9</Name>
+				<Do>60.8</Do>
+				<m>6</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>61.0 - 5 x 11</Name>
+				<Do>61.0</Do>
+				<m>5</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>61.2 - 4 x 14</Name>
+				<Do>61.2</Do>
+				<m>4</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>61.4 - 3 x 19*</Name>
+				<Do>61.4</Do>
+				<m>3</m>
+				<N>19</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>61.5 - 2.5 x 23</Name>
+				<Do>61.5</Do>
+				<m>2.5</m>
+				<N>23</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>61.6 - 2 x 30*</Name>
+				<Do>61.6</Do>
+				<m>2</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>61.7 - 1.5 x 40</Name>
+				<Do>61.7</Do>
+				<m>1.5</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>61.8 - 1.25 x 48</Name>
+				<Do>61.8</Do>
+				<m>1.25</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>63.4 - 8 x 7</Name>
+				<Do>63.4</Do>
+				<m>8</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>63.8 - 6 x 9</Name>
+				<Do>63.8</Do>
+				<m>6</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>64.0 - 5 x 11</Name>
+				<Do>64.0</Do>
+				<m>5</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>64.2 - 4 x 15</Name>
+				<Do>64.2</Do>
+				<m>4</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>64.4 - 3 x 20*</Name>
+				<Do>64.4</Do>
+				<m>3</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>64.5 - 2.5 x 24</Name>
+				<Do>64.5</Do>
+				<m>2.5</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>64.6 - 2 x 31*</Name>
+				<Do>64.6</Do>
+				<m>2</m>
+				<N>31</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>64.7 - 1.5 x 42</Name>
+				<Do>64.7</Do>
+				<m>1.5</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>64.8 - 1.25 x 50</Name>
+				<Do>64.8</Do>
+				<m>1.25</m>
+				<N>50</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>66.8 - 6 x 10</Name>
+				<Do>66.8</Do>
+				<m>6</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.0 - 5 x 12</Name>
+				<Do>67.0</Do>
+				<m>5</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.2 - 4 x 15</Name>
+				<Do>67.2</Do>
+				<m>4</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.2 - 4 x 16</Name>
+				<Do>67.2</Do>
+				<m>4</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.4 - 3 x 21*</Name>
+				<Do>67.4</Do>
+				<m>3</m>
+				<N>21</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.5 - 2.5 x 26</Name>
+				<Do>67.5</Do>
+				<m>2.5</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.6 - 2 x 32*</Name>
+				<Do>67.6</Do>
+				<m>2</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.7 - 1.5 x 44</Name>
+				<Do>67.7</Do>
+				<m>1.5</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>67.8 - 1.25 x 53</Name>
+				<Do>67.8</Do>
+				<m>1.25</m>
+				<N>53</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>68.4 - 8 x 7</Name>
+				<Do>68.4</Do>
+				<m>8</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>68.8 - 6 x 10</Name>
+				<Do>68.8</Do>
+				<m>6</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>69.0 - 5 x 12</Name>
+				<Do>69.0</Do>
+				<m>5</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>69.2 - 4 x 16</Name>
+				<Do>69.2</Do>
+				<m>4</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>69.4 - 3 x 22*</Name>
+				<Do>69.4</Do>
+				<m>3</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>69.5 - 2.5 x 26</Name>
+				<Do>69.5</Do>
+				<m>2.5</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>69.6 - 2 x 34*</Name>
+				<Do>69.6</Do>
+				<m>2</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>69.7 - 1.5 x 45</Name>
+				<Do>69.7</Do>
+				<m>1.5</m>
+				<N>45</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>69.8 - 1.25 x 54</Name>
+				<Do>69.8</Do>
+				<m>1.25</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>70.8 - 6 x 10</Name>
+				<Do>70.8</Do>
+				<m>6</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>71.0 - 5 x 13</Name>
+				<Do>71.0</Do>
+				<m>5</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>71.2 - 4 x 16</Name>
+				<Do>71.2</Do>
+				<m>4</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>71.4 - 3 x 22*</Name>
+				<Do>71.4</Do>
+				<m>3</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>71.5 - 2.5 x 27</Name>
+				<Do>71.5</Do>
+				<m>2.5</m>
+				<N>27</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>71.6 - 2 x 34*</Name>
+				<Do>71.6</Do>
+				<m>2</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>71.7 - 1.5 x 46</Name>
+				<Do>71.7</Do>
+				<m>1.5</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>71.8 - 1.25 x 56</Name>
+				<Do>71.8</Do>
+				<m>1.25</m>
+				<N>56</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>73.4 - 8 x 8</Name>
+				<Do>73.4</Do>
+				<m>8</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>73.8 - 6 x 11</Name>
+				<Do>73.8</Do>
+				<m>6</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.0 - 5 x 13</Name>
+				<Do>74.0</Do>
+				<m>5</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.0 - 5 x 14</Name>
+				<Do>74.0</Do>
+				<m>5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.2 - 4 x 17</Name>
+				<Do>74.2</Do>
+				<m>4</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.4 - 3 x 24*</Name>
+				<Do>74.4</Do>
+				<m>3</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.5 - 2.5 x 28</Name>
+				<Do>74.5</Do>
+				<m>2.5</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.6 - 2 x 36*</Name>
+				<Do>74.6</Do>
+				<m>2</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.7 - 1.5 x 48</Name>
+				<Do>74.7</Do>
+				<m>1.5</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>74.8 - 1.25 x 58</Name>
+				<Do>74.8</Do>
+				<m>1.25</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>76.8 - 6 x 11</Name>
+				<Do>76.8</Do>
+				<m>6</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>76.8 - 6 x 12</Name>
+				<Do>76.8</Do>
+				<m>6</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>77.0 - 5 x 14</Name>
+				<Do>77.0</Do>
+				<m>5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>77.2 - 4 x 18</Name>
+				<Do>77.2</Do>
+				<m>4</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>77.4 - 3 x 24*</Name>
+				<Do>77.4</Do>
+				<m>3</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>77.5 - 2.5 x 30</Name>
+				<Do>77.5</Do>
+				<m>2.5</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>77.6 - 2 x 38*</Name>
+				<Do>77.6</Do>
+				<m>2</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>77.7 - 1.5 x 50</Name>
+				<Do>77.7</Do>
+				<m>1.5</m>
+				<N>50</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>77.8 - 1.25 x 60</Name>
+				<Do>77.8</Do>
+				<m>1.25</m>
+				<N>60</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>78.0 - 10 x 6</Name>
+				<Do>78.0</Do>
+				<m>10</m>
+				<N>6</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>78.4 - 8 x 8</Name>
+				<Do>78.4</Do>
+				<m>8</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>78.8 - 6 x 12</Name>
+				<Do>78.8</Do>
+				<m>6</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>79.0 - 5 x 14</Name>
+				<Do>79.0</Do>
+				<m>5</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>79.2 - 4 x 18</Name>
+				<Do>79.2</Do>
+				<m>4</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>79.4 - 3 x 25*</Name>
+				<Do>79.4</Do>
+				<m>3</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>79.5 - 2.5 x 30</Name>
+				<Do>79.5</Do>
+				<m>2.5</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>79.6 - 2 x 38*</Name>
+				<Do>79.6</Do>
+				<m>2</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>79.7 - 1.5 x 52</Name>
+				<Do>79.7</Do>
+				<m>1.5</m>
+				<N>52</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>79.8 - 1.25 x 62</Name>
+				<Do>79.8</Do>
+				<m>1.25</m>
+				<N>62</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>80.8 - 6 x 12</Name>
+				<Do>80.8</Do>
+				<m>6</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>81.0 - 5 x 15*</Name>
+				<Do>81.0</Do>
+				<m>5</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>81.2 - 4 x 19</Name>
+				<Do>81.2</Do>
+				<m>4</m>
+				<N>19</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>81.4 - 3 x 26*</Name>
+				<Do>81.4</Do>
+				<m>3</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>81.5 - 2.5 x 31</Name>
+				<Do>81.5</Do>
+				<m>2.5</m>
+				<N>31</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>81.6 - 2 x 40</Name>
+				<Do>81.6</Do>
+				<m>2</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>81.7 - 1.5 x 53</Name>
+				<Do>81.7</Do>
+				<m>1.5</m>
+				<N>53</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>83.0 - 10 x 7</Name>
+				<Do>83.0</Do>
+				<m>10</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>83.4 - 8 x 9</Name>
+				<Do>83.4</Do>
+				<m>8</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>83.8 - 6 x 13</Name>
+				<Do>83.8</Do>
+				<m>6</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>84.0 - 5 x 15*</Name>
+				<Do>84.0</Do>
+				<m>5</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>84.0 - 5 x 16*</Name>
+				<Do>84.0</Do>
+				<m>5</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>84.2 - 4 x 20</Name>
+				<Do>84.2</Do>
+				<m>4</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>84.4 - 3 x 27*</Name>
+				<Do>84.4</Do>
+				<m>3</m>
+				<N>27</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>84.5 - 2.5 x 32</Name>
+				<Do>84.5</Do>
+				<m>2.5</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>84.6 - 2 x 41</Name>
+				<Do>84.6</Do>
+				<m>2</m>
+				<N>41</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>84.7 - 1.5 x 55</Name>
+				<Do>84.7</Do>
+				<m>1.5</m>
+				<N>55</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>86.8 - 6 x 13</Name>
+				<Do>86.8</Do>
+				<m>6</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>87.0 - 5 x 16*</Name>
+				<Do>87.0</Do>
+				<m>5</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>87.2 - 4 x 20</Name>
+				<Do>87.2</Do>
+				<m>4</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>87.4 - 3 x 28*</Name>
+				<Do>87.4</Do>
+				<m>3</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>87.5 - 2.5 x 34</Name>
+				<Do>87.5</Do>
+				<m>2.5</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>87.6 - 2 x 42</Name>
+				<Do>87.6</Do>
+				<m>2</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>87.7 - 1.5 x 57</Name>
+				<Do>87.7</Do>
+				<m>1.5</m>
+				<N>57</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>88.0 - 10 x 7</Name>
+				<Do>88.0</Do>
+				<m>10</m>
+				<N>7</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>88.4 - 8 x 10</Name>
+				<Do>88.4</Do>
+				<m>8</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>88.8 - 6 x 13</Name>
+				<Do>88.8</Do>
+				<m>6</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>88.8 - 6 x 14</Name>
+				<Do>88.8</Do>
+				<m>6</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>89.0 - 5 x 16*</Name>
+				<Do>89.0</Do>
+				<m>5</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>89.2 - 4 x 21</Name>
+				<Do>89.2</Do>
+				<m>4</m>
+				<N>21</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>89.4 - 3 x 28*</Name>
+				<Do>89.4</Do>
+				<m>3</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>89.5 - 2.5 x 34</Name>
+				<Do>89.5</Do>
+				<m>2.5</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>89.6 - 2 x 44</Name>
+				<Do>89.6</Do>
+				<m>2</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>89.7 - 1.5 x 58</Name>
+				<Do>89.7</Do>
+				<m>1.5</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>90.8 - 6 x 14</Name>
+				<Do>90.8</Do>
+				<m>6</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>91.0 - 5 x 17*</Name>
+				<Do>91.0</Do>
+				<m>5</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>91.2 - 4 x 22</Name>
+				<Do>91.2</Do>
+				<m>4</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>91.4 - 3 x 29*</Name>
+				<Do>91.4</Do>
+				<m>3</m>
+				<N>29</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>91.5 - 2.5 x 35</Name>
+				<Do>91.5</Do>
+				<m>2.5</m>
+				<N>35</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>91.6 - 2 x 44</Name>
+				<Do>91.6</Do>
+				<m>2</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>91.7 - 1.5 x 60</Name>
+				<Do>91.7</Do>
+				<m>1.5</m>
+				<N>60</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>93.0 - 10 x 8</Name>
+				<Do>93.0</Do>
+				<m>10</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>93.4 - 8 x 10</Name>
+				<Do>93.4</Do>
+				<m>8</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>93.8 - 6 x 14</Name>
+				<Do>93.8</Do>
+				<m>6</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>94.0 - 5 x 18*</Name>
+				<Do>94.0</Do>
+				<m>5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>94.2 - 4 x 22</Name>
+				<Do>94.2</Do>
+				<m>4</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>94.4 - 3 x 30*</Name>
+				<Do>94.4</Do>
+				<m>3</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>94.5 - 2.5 x 36</Name>
+				<Do>94.5</Do>
+				<m>2.5</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>94.6 - 2 x 46</Name>
+				<Do>94.6</Do>
+				<m>2</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>94.7 - 1.5 x 62</Name>
+				<Do>94.7</Do>
+				<m>1.5</m>
+				<N>62</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>96.8 - 6 x 15</Name>
+				<Do>96.8</Do>
+				<m>6</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>97.0 - 5 x 18*</Name>
+				<Do>97.0</Do>
+				<m>5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>97.2 - 4 x 23</Name>
+				<Do>97.2</Do>
+				<m>4</m>
+				<N>23</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>97.4 - 3 x 31*</Name>
+				<Do>97.4</Do>
+				<m>3</m>
+				<N>31</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>97.5 - 2.5 x 38</Name>
+				<Do>97.5</Do>
+				<m>2.5</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>97.6 - 2 x 48</Name>
+				<Do>97.6</Do>
+				<m>2</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>97.7 - 1.5 x 64</Name>
+				<Do>97.7</Do>
+				<m>1.5</m>
+				<N>64</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>98.0 - 10 x 8</Name>
+				<Do>98.0</Do>
+				<m>10</m>
+				<N>8</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>98.4 - 8 x 11</Name>
+				<Do>98.4</Do>
+				<m>8</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>98.8 - 6 x 15</Name>
+				<Do>98.8</Do>
+				<m>6</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>99.0 - 5 x 18*</Name>
+				<Do>99.0</Do>
+				<m>5</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>99.2 - 4 x 24</Name>
+				<Do>99.2</Do>
+				<m>4</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>99.4 - 3 x 32*</Name>
+				<Do>99.4</Do>
+				<m>3</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>99.5 - 2.5 x 38</Name>
+				<Do>99.5</Do>
+				<m>2.5</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>99.6 - 2 x 48</Name>
+				<Do>99.6</Do>
+				<m>2</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>99.7 - 1.5 x 64</Name>
+				<Do>99.7</Do>
+				<m>1.5</m>
+				<N>64</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>103.0 - 10 x 9</Name>
+				<Do>103.0</Do>
+				<m>10</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>103.4 - 8 x 12</Name>
+				<Do>103.4</Do>
+				<m>8</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>103.8 - 6 x 16</Name>
+				<Do>103.8</Do>
+				<m>6</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>104.0 - 5 x 20*</Name>
+				<Do>104.0</Do>
+				<m>5</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>104.2 - 4 x 25</Name>
+				<Do>104.2</Do>
+				<m>4</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>104.4 - 3 x 34*</Name>
+				<Do>104.4</Do>
+				<m>3</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>104.5 - 2.5 x 40</Name>
+				<Do>104.5</Do>
+				<m>2.5</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>104.6 - 2 x 51</Name>
+				<Do>104.6</Do>
+				<m>2</m>
+				<N>51</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>104.7 - 1.5 x 68</Name>
+				<Do>104.7</Do>
+				<m>1.5</m>
+				<N>68</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>108.0 - 10 x 9</Name>
+				<Do>108.0</Do>
+				<m>10</m>
+				<N>9</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>108.4 - 8 x 12</Name>
+				<Do>108.4</Do>
+				<m>8</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>108.8 - 6 x 17</Name>
+				<Do>108.8</Do>
+				<m>6</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>109.0 - 5 x 20*</Name>
+				<Do>109.0</Do>
+				<m>5</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>109.2 - 4 x 26</Name>
+				<Do>109.2</Do>
+				<m>4</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>109.4 - 3 x 35*</Name>
+				<Do>109.4</Do>
+				<m>3</m>
+				<N>35</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>109.5 - 2.5 x 42</Name>
+				<Do>109.5</Do>
+				<m>2.5</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>109.6 - 2 x 54</Name>
+				<Do>109.6</Do>
+				<m>2</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>109.7 - 1.5 x 72</Name>
+				<Do>109.7</Do>
+				<m>1.5</m>
+				<N>72</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>118.0 - 10 x 10</Name>
+				<Do>118.0</Do>
+				<m>10</m>
+				<N>10</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>118.4 - 8 x 13</Name>
+				<Do>118.4</Do>
+				<m>8</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>118.4 - 8 x 14</Name>
+				<Do>118.4</Do>
+				<m>8</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>118.8 - 6 x 18</Name>
+				<Do>118.8</Do>
+				<m>6</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>119.0 - 5 x 22*</Name>
+				<Do>119.0</Do>
+				<m>5</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>119.2 - 4 x 28</Name>
+				<Do>119.2</Do>
+				<m>4</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>119.4 - 3 x 38*</Name>
+				<Do>119.4</Do>
+				<m>3</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>119.5 - 2.5 x 46</Name>
+				<Do>119.5</Do>
+				<m>2.5</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>119.6 - 2 x 58</Name>
+				<Do>119.6</Do>
+				<m>2</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>128.0 - 10 x 11</Name>
+				<Do>128.0</Do>
+				<m>10</m>
+				<N>11</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>128.0 - 10 x 12</Name>
+				<Do>128.0</Do>
+				<m>10</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>128.4 - 8 x 15</Name>
+				<Do>128.4</Do>
+				<m>8</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>128.8 - 6 x 20</Name>
+				<Do>128.8</Do>
+				<m>6</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>129.0 - 5 x 24*</Name>
+				<Do>129.0</Do>
+				<m>5</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>129.2 - 4 x 31</Name>
+				<Do>129.2</Do>
+				<m>4</m>
+				<N>31</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>129.4 - 3 x 42*</Name>
+				<Do>129.4</Do>
+				<m>3</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>129.5 - 2.5 x 50</Name>
+				<Do>129.5</Do>
+				<m>2.5</m>
+				<N>50</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>129.6 - 2 x 64</Name>
+				<Do>129.6</Do>
+				<m>2</m>
+				<N>64</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>138.0 - 10 x 12</Name>
+				<Do>138.0</Do>
+				<m>10</m>
+				<N>12</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>138.4 - 8 x 16</Name>
+				<Do>138.4</Do>
+				<m>8</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>138.8 - 6 x 22</Name>
+				<Do>138.8</Do>
+				<m>6</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>139.0 - 5 x 26*</Name>
+				<Do>139.0</Do>
+				<m>5</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>139.2 - 4 x 34</Name>
+				<Do>139.2</Do>
+				<m>4</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>139.4 - 3 x 45*</Name>
+				<Do>139.4</Do>
+				<m>3</m>
+				<N>45</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>139.5 - 2.5 x 54</Name>
+				<Do>139.5</Do>
+				<m>2.5</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>139.6 - 2 x 68</Name>
+				<Do>139.6</Do>
+				<m>2</m>
+				<N>68</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>148.0 - 10 x 13</Name>
+				<Do>148.0</Do>
+				<m>10</m>
+				<N>13</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>148.0 - 10 x 14</Name>
+				<Do>148.0</Do>
+				<m>10</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>148.4 - 8 x 17</Name>
+				<Do>148.4</Do>
+				<m>8</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>148.8 - 6 x 24</Name>
+				<Do>148.8</Do>
+				<m>6</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>149.0 - 5 x 28*</Name>
+				<Do>149.0</Do>
+				<m>5</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>149.2 - 4 x 36</Name>
+				<Do>149.2</Do>
+				<m>4</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>149.4 - 3 x 48*</Name>
+				<Do>149.4</Do>
+				<m>3</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>149.5 - 2.5 x 58</Name>
+				<Do>149.5</Do>
+				<m>2.5</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>149.6 - 2 x 74</Name>
+				<Do>149.6</Do>
+				<m>2</m>
+				<N>74</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>158.0 - 10 x 14</Name>
+				<Do>158.0</Do>
+				<m>10</m>
+				<N>14</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>158.4 - 8 x 18*</Name>
+				<Do>158.4</Do>
+				<m>8</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>158.8 - 6 x 25</Name>
+				<Do>158.8</Do>
+				<m>6</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>159.0 - 5 x 30*</Name>
+				<Do>159.0</Do>
+				<m>5</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>159.2 - 4 x 38</Name>
+				<Do>159.2</Do>
+				<m>4</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>159.4 - 3 x 52</Name>
+				<Do>159.4</Do>
+				<m>3</m>
+				<N>52</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>168.0 - 10 x 15</Name>
+				<Do>168.0</Do>
+				<m>10</m>
+				<N>15</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>168.0 - 10 x 16</Name>
+				<Do>168.0</Do>
+				<m>10</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>168.4 - 8 x 20*</Name>
+				<Do>168.4</Do>
+				<m>8</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>168.8 - 6 x 27</Name>
+				<Do>168.8</Do>
+				<m>6</m>
+				<N>27</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>169.0 - 5 x 32*</Name>
+				<Do>169.0</Do>
+				<m>5</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>169.2 - 4 x 41</Name>
+				<Do>169.2</Do>
+				<m>4</m>
+				<N>41</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>169.4 - 3 x 55</Name>
+				<Do>169.4</Do>
+				<m>3</m>
+				<N>55</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>178.0 - 10 x 16</Name>
+				<Do>178.0</Do>
+				<m>10</m>
+				<N>16</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>178.4 - 8 x 21*</Name>
+				<Do>178.4</Do>
+				<m>8</m>
+				<N>21</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>178.8 - 6 x 28</Name>
+				<Do>178.8</Do>
+				<m>6</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>179.0 - 5 x 34*</Name>
+				<Do>179.0</Do>
+				<m>5</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>179.2 - 4 x 44</Name>
+				<Do>179.2</Do>
+				<m>4</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>179.4 - 3 x 58</Name>
+				<Do>179.4</Do>
+				<m>3</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>188.0 - 10 x 17</Name>
+				<Do>188.0</Do>
+				<m>10</m>
+				<N>17</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>188.0 - 10 x 18</Name>
+				<Do>188.0</Do>
+				<m>10</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>188.4 - 8 x 22*</Name>
+				<Do>188.4</Do>
+				<m>8</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>188.8 - 6 x 30</Name>
+				<Do>188.8</Do>
+				<m>6</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>189.0 - 5 x 36*</Name>
+				<Do>189.0</Do>
+				<m>5</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>189.2 - 4 x 46</Name>
+				<Do>189.2</Do>
+				<m>4</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>189.4 - 3 x 62</Name>
+				<Do>189.4</Do>
+				<m>3</m>
+				<N>62</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>198.0 - 10 x 18</Name>
+				<Do>198.0</Do>
+				<m>10</m>
+				<N>18</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>198.4 - 8 x 24*</Name>
+				<Do>198.4</Do>
+				<m>8</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>198.8 - 6 x 32</Name>
+				<Do>198.8</Do>
+				<m>6</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>199.0 - 5 x 38*</Name>
+				<Do>199.0</Do>
+				<m>5</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>199.2 - 4 x 48</Name>
+				<Do>199.2</Do>
+				<m>4</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>199.4 - 3 x 65</Name>
+				<Do>199.4</Do>
+				<m>3</m>
+				<N>65</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>208.0 - 10 x 20</Name>
+				<Do>208.0</Do>
+				<m>10</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>208.4 - 8 x 25*</Name>
+				<Do>208.4</Do>
+				<m>8</m>
+				<N>25</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>208.8 - 6 x 34</Name>
+				<Do>208.8</Do>
+				<m>6</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>209.0 - 5 x 40*</Name>
+				<Do>209.0</Do>
+				<m>5</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>209.2 - 4 x 51</Name>
+				<Do>209.2</Do>
+				<m>4</m>
+				<N>51</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>209.4 - 3 x 68</Name>
+				<Do>209.4</Do>
+				<m>3</m>
+				<N>68</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>209.4 - 3 x 69</Name>
+				<Do>209.4</Do>
+				<m>3</m>
+				<N>69</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>218.0 - 10 x 20</Name>
+				<Do>218.0</Do>
+				<m>10</m>
+				<N>20</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>218.4 - 8 x 26*</Name>
+				<Do>218.4</Do>
+				<m>8</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>218.8 - 6 x 35</Name>
+				<Do>218.8</Do>
+				<m>6</m>
+				<N>35</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>219.0 - 5 x 42*</Name>
+				<Do>219.0</Do>
+				<m>5</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>238.0 - 10 x 22</Name>
+				<Do>238.0</Do>
+				<m>10</m>
+				<N>22</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>238.4 - 8 x 28*</Name>
+				<Do>238.4</Do>
+				<m>8</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>238.8 - 6 x 38</Name>
+				<Do>238.8</Do>
+				<m>6</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>239.0 - 5 x 46*</Name>
+				<Do>239.0</Do>
+				<m>5</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>248.0 - 10 x 24</Name>
+				<Do>248.0</Do>
+				<m>10</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>248.4 - 8 x 30*</Name>
+				<Do>248.4</Do>
+				<m>8</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>248.8 - 6 x 40</Name>
+				<Do>248.8</Do>
+				<m>6</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>249.0 - 5 x 48*</Name>
+				<Do>249.0</Do>
+				<m>5</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>258.0 - 10 x 24</Name>
+				<Do>258.0</Do>
+				<m>10</m>
+				<N>24</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>258.4 - 8 x 31*</Name>
+				<Do>258.4</Do>
+				<m>8</m>
+				<N>31</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>258.8 - 6 x 42</Name>
+				<Do>258.8</Do>
+				<m>6</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>259.0 - 5 x 50*</Name>
+				<Do>259.0</Do>
+				<m>5</m>
+				<N>50</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>278.0 - 10 x 26</Name>
+				<Do>278.0</Do>
+				<m>10</m>
+				<N>26</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>278.4 - 8 x 34*</Name>
+				<Do>278.4</Do>
+				<m>8</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>278.8 - 6 x 45</Name>
+				<Do>278.8</Do>
+				<m>6</m>
+				<N>45</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>279.0 - 5 x 54*</Name>
+				<Do>279.0</Do>
+				<m>5</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>298.0 - 10 x 28</Name>
+				<Do>298.0</Do>
+				<m>10</m>
+				<N>28</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>298.4 - 8 x 36*</Name>
+				<Do>298.4</Do>
+				<m>8</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>298.8 - 6 x 48</Name>
+				<Do>298.8</Do>
+				<m>6</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>299.0 - 5 x 58</Name>
+				<Do>299.0</Do>
+				<m>5</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>318.0 - 10 x 30</Name>
+				<Do>318.0</Do>
+				<m>10</m>
+				<N>30</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>318.4 - 8 x 38*</Name>
+				<Do>318.4</Do>
+				<m>8</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>318.8 - 6 x 52</Name>
+				<Do>318.8</Do>
+				<m>6</m>
+				<N>52</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>319.0 - 5 x 62</Name>
+				<Do>319.0</Do>
+				<m>5</m>
+				<N>62</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>338.0 - 10 x 32</Name>
+				<Do>338.0</Do>
+				<m>10</m>
+				<N>32</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>338.4 - 8 x 41*</Name>
+				<Do>338.4</Do>
+				<m>8</m>
+				<N>41</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>338.8 - 6 x 55</Name>
+				<Do>338.8</Do>
+				<m>6</m>
+				<N>55</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>358.0 - 10 x 34</Name>
+				<Do>358.0</Do>
+				<m>10</m>
+				<N>34</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>358.4 - 8 x 44*</Name>
+				<Do>358.4</Do>
+				<m>8</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>358.8 - 6 x 58</Name>
+				<Do>358.8</Do>
+				<m>6</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>378.0 - 10 x 36</Name>
+				<Do>378.0</Do>
+				<m>10</m>
+				<N>36</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>378.4 - 8 x 46*</Name>
+				<Do>378.4</Do>
+				<m>8</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>378.8 - 6 x 62</Name>
+				<Do>378.8</Do>
+				<m>6</m>
+				<N>62</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>398.0 - 10 x 38</Name>
+				<Do>398.0</Do>
+				<m>10</m>
+				<N>38</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>398.4 - 8 x 48*</Name>
+				<Do>398.4</Do>
+				<m>8</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>398.8 - 6 x 65</Name>
+				<Do>398.8</Do>
+				<m>6</m>
+				<N>65</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>418.0 - 10 x 40</Name>
+				<Do>418.0</Do>
+				<m>10</m>
+				<N>40</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>418.4 - 8 x 51*</Name>
+				<Do>418.4</Do>
+				<m>8</m>
+				<N>51</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>418.8 - 6 x 68</Name>
+				<Do>418.8</Do>
+				<m>6</m>
+				<N>68</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>438.0 - 10 x 42</Name>
+				<Do>438.0</Do>
+				<m>10</m>
+				<N>42</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>438.4 - 8 x 54*</Name>
+				<Do>438.4</Do>
+				<m>8</m>
+				<N>54</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>438.8 - 6 x 72</Name>
+				<Do>438.8</Do>
+				<m>6</m>
+				<N>72</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>448.0 - 10 x 44</Name>
+				<Do>448.0</Do>
+				<m>10</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>448.4 - 8 x 55*</Name>
+				<Do>448.4</Do>
+				<m>8</m>
+				<N>55</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>448.8 - 6 x 74</Name>
+				<Do>448.8</Do>
+				<m>6</m>
+				<N>74</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>458.0 - 10 x 44</Name>
+				<Do>458.0</Do>
+				<m>10</m>
+				<N>44</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>458.4 - 8 x 56*</Name>
+				<Do>458.4</Do>
+				<m>8</m>
+				<N>56</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>458.8 - 6 x 75</Name>
+				<Do>458.8</Do>
+				<m>6</m>
+				<N>75</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>478.0 - 10 x 46</Name>
+				<Do>478.0</Do>
+				<m>10</m>
+				<N>46</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>478.4 - 8 x 58*</Name>
+				<Do>478.4</Do>
+				<m>8</m>
+				<N>58</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>478.8 - 6 x 78</Name>
+				<Do>478.8</Do>
+				<m>6</m>
+				<N>78</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>498.0 - 10 x 48</Name>
+				<Do>498.0</Do>
+				<m>10</m>
+				<N>48</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>498.4 - 8 x 61*</Name>
+				<Do>498.4</Do>
+				<m>8</m>
+				<N>61</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+			<Row>
+				<Name>498.8 - 6 x 82</Name>
+				<Do>498.8</Do>
+				<m>6</m>
+				<N>82</N>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

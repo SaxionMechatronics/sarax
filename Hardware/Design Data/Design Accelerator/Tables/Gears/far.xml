@@ -1,0 +1,48 @@
+<FDesign>
+	<Table InternalName="F51AF269-625C-439F-9507-63C182582C73">
+		<Definition DisplayName="Limit Deviation of Center Distance far">
+			<Columns>
+				<A Description="Accuracy Degree" Units="ul" /><B Description="Factor" Units="microm" /><C Description="Factor" Units="microm" /><D Description="Factor" Units="microm" /><E Description="Factor" Units="microm" /><F Description="Factor" Units="microm" /><G Description="Factor" Units="microm" /><H Description="Factor" Units="microm" /><I Description="Factor" Units="microm" /><J Description="Factor" Units="microm" /><K Description="Factor" Units="microm" /><L Description="Factor" Units="microm" /><M Description="Factor" Units="microm" /><N Description="Factor" Units="microm" /><O Description="Factor" Units="microm" /><P Description="Factor" Units="microm" /><Q Description="Factor" Units="microm" />
+			</Columns>
+			<Note>First row contain: Center Distance [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>80</B><C>125</C><D>180</D><E>250</E><F>315</F><G>400</G><H>500</H><I>630</I><J>800</J><K>1000</K><L>1250</L><M>1600</M><N>2000</N><O>2500</O><P>3150</P><Q>4000</Q>
+			</Row>
+			<Row>
+				<A>2</A><B>4.5</B><C>5</C><D>6</D><E>7</E><F>7</F><G>8</G><H>8.5</H><I>9</I><J>10</J><K>11</K><L>12</L><M>12</M><N>13</N><O>14</O><P>16</P><Q>17</Q>
+			</Row>
+			<Row>
+				<A>3</A><B>7.1</B><C>8</C><D>9.5</D><E>10</E><F>12</F><G>13</G><H>14</H><I>15</I><J>16</J><K>17</K><L>18</L><M>20</M><N>21</N><O>22</O><P>24</P><Q>28</Q>
+			</Row>
+			<Row>
+				<A>4</A><B>11</B><C>13</C><D>15</D><E>17</E><F>18</F><G>20</G><H>21</H><I>23</I><J>26</J><K>28</K><L>30</L><M>32</M><N>34</N><O>36</O><P>40</P><Q>42</Q>
+			</Row>
+			<Row>
+				<A>5</A><B>18</B><C>20</C><D>24</D><E>26</E><F>28</F><G>32</G><H>34</H><I>36</I><J>40</J><K>42</K><L>46</L><M>50</M><N>53</N><O>56</O><P>63</P><Q>67</Q>
+			</Row>
+			<Row>
+				<A>6</A><B>28</B><C>32</C><D>38</D><E>42</E><F>45</F><G>50</G><H>53</H><I>56</I><J>63</J><K>67</K><L>75</L><M>80</M><N>85</N><O>90</O><P>95</P><Q>105</Q>
+			</Row>
+			<Row>
+				<A>7</A><B>45</B><C>50</C><D>60</D><E>67</E><F>75</F><G>80</G><H>85</H><I>90</I><J>95</J><K>105</K><L>118</L><M>125</M><N>130</N><O>140</O><P>160</P><Q>170</Q>
+			</Row>
+			<Row>
+				<A>8</A><B>71</B><C>80</C><D>90</D><E>105</E><F>110</F><G>125</G><H>130</H><I>140</I><J>160</J><K>170</K><L>180</L><M>190</M><N>200</N><O>220</O><P>240</P><Q>260</Q>
+			</Row>
+			<Row>
+				<A>9</A><B>110</B><C>130</C><D>150</D><E>160</E><F>180</F><G>200</G><H>210</H><I>240</I><J>250</J><K>260</K><L>280</L><M>300</M><N>340</N><O>360</O><P>400</P><Q>420</Q>
+			</Row>
+			<Row>
+				<A>10</A><B>180</B><C>200</C><D>220</D><E>260</E><F>280</F><G>300</G><H>340</H><I>360</I><J>380</J><K>420</K><L>450</L><M>480</M><N>530</N><O>560</O><P>600</P><Q>670</Q>
+			</Row>
+			<Row>
+				<A>11</A><B>280</B><C>320</C><D>375</D><E>420</E><F>450</F><G>500</G><H>530</H><I>560</I><J>600</J><K>670</K><L>710</L><M>800</M><N>850</N><O>900</O><P>950</P><Q>1000</Q>
+			</Row>
+			<Row>
+				<A>12</A><B>450</B><C>500</C><D>560</D><E>630</E><F>710</F><G>750</G><H>850</H><I>900</I><J>950</J><K>1050</K><L>1100</L><M>1200</M><N>1300</N><O>1400</O><P>1500</P><Q>1600</Q>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

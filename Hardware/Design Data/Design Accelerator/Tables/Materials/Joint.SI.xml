@@ -1,0 +1,72 @@
+<FDesign>
+  <Table InternalName="1966735D-48BF-4D5E-BAC3-BB43C4BB3473">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%13%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <SigmaD7 DisplayName="%14%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD8 DisplayName="%18%" Description="%16%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <SigmaD9 DisplayName="%19%" Description="%17%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <E DisplayName="%15%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>CD6B882EC99A44378C5D299E9A7521C9</ID>
+        <Material>%6%</Material>
+        <SigmaD7>90</SigmaD7>
+        <SigmaD8>63</SigmaD8>
+        <SigmaD9>45</SigmaD9>
+        <E>210000</E>
+      </Row>
+      <Row>
+        <ID>BF39BCC8082740C9BFFCACBA272CD4C2</ID>
+        <Material>%7%</Material>
+        <SigmaD7>125</SigmaD7>
+        <SigmaD8>90</SigmaD8>
+        <SigmaD9>56</SigmaD9>
+        <E>210000</E>
+      </Row>
+      <Row>
+        <ID>62B7F87D74D243AF96BF062D2DF93C15</ID>
+        <Material>%8%</Material>
+        <SigmaD7>160</SigmaD7>
+        <SigmaD8>100</SigmaD8>
+        <SigmaD9>63</SigmaD9>
+        <E>210000</E>
+      </Row>
+      <Row>
+        <ID>9C6DA7BA57C142E6B8EA55AF1310E7DF</ID>
+        <Material>%9%</Material>
+        <SigmaD7>180</SigmaD7>
+        <SigmaD8>110</SigmaD8>
+        <SigmaD9>70</SigmaD9>
+        <E>210000</E>
+      </Row>
+      <Row>
+        <ID>9897CC88921745BC928B262AB2595C68</ID>
+        <Material>%10%</Material>
+        <SigmaD7>80</SigmaD7>
+        <SigmaD8>56</SigmaD8>
+        <SigmaD9>40</SigmaD9>
+        <E>210000</E>
+      </Row>
+      <Row>
+        <ID>8A9349DD5E214A28B1B9ED1825CFC75D</ID>
+        <Material>%11%</Material>
+        <SigmaD7>32</SigmaD7>
+        <SigmaD8>22</SigmaD8>
+        <SigmaD9>26</SigmaD9>
+        <E>60000</E>
+      </Row>
+      <Row>
+        <ID>0953477FF6CF41E294EF37245DEC98C7</ID>
+        <Material>%12%</Material>
+        <SigmaD7>32</SigmaD7>
+        <SigmaD8>22</SigmaD8>
+        <SigmaD9>26</SigmaD9>
+        <E>30000</E>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

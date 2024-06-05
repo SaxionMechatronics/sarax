@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="40-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\40-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">25.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >40.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >32.0</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">82.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.97</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">500.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.2864761 - 49.80336943/{Dpk} - 9.755235e-08*pow({Dpk}*{nk};2) - 0.03929375*(log({Dpk}*{nk})-log(2/(1+pow(10;1267.46/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="40-3000">
+      <Size>40 x 3000</Size>
+      <Length>3082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-3150">
+      <Size>40 x 3150</Size>
+      <Length>3232</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-3350">
+      <Size>40 x 3350</Size>
+      <Length>3432</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-3550">
+      <Size>40 x 3550</Size>
+      <Length>3632</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-3750">
+      <Size>40 x 3750</Size>
+      <Length>3832</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-4000">
+      <Size>40 x 4000</Size>
+      <Length>4082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-4250">
+      <Size>40 x 4250</Size>
+      <Length>4332</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-4500">
+      <Size>40 x 4500</Size>
+      <Length>4582</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-4578">
+      <Size>40 x 4578</Size>
+      <Length>4660</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-4750">
+      <Size>40 x 4750</Size>
+      <Length>4832</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-4958">
+      <Size>40 x 4958</Size>
+      <Length>5040</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-5000">
+      <Size>40 x 5000</Size>
+      <Length>5082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-5300">
+      <Size>40 x 5300</Size>
+      <Length>5382</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-5338">
+      <Size>40 x 5338</Size>
+      <Length>5420</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-5600">
+      <Size>40 x 5600</Size>
+      <Length>5682</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-6000">
+      <Size>40 x 6000</Size>
+      <Length>6082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-6018">
+      <Size>40 x 6018</Size>
+      <Length>6100</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-6300">
+      <Size>40 x 6300</Size>
+      <Length>6382</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-6700">
+      <Size>40 x 6700</Size>
+      <Length>6782</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-6768">
+      <Size>40 x 6768</Size>
+      <Length>6850</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-7100">
+      <Size>40 x 7100</Size>
+      <Length>7182</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-7500">
+      <Size>40 x 7500</Size>
+      <Length>7582</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-7568">
+      <Size>40 x 7568</Size>
+      <Length>7650</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-8000">
+      <Size>40 x 8000</Size>
+      <Length>8082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-8500">
+      <Size>40 x 8500</Size>
+      <Length>8582</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-9000">
+      <Size>40 x 9000</Size>
+      <Length>9082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-9068">
+      <Size>40 x 9068</Size>
+      <Length>9150</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-9500">
+      <Size>40 x 9500</Size>
+      <Length>9582</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-10000">
+      <Size>40 x 10000</Size>
+      <Length>10082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-10600">
+      <Size>40 x 10600</Size>
+      <Length>10682</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-11200">
+      <Size>40 x 11200</Size>
+      <Length>11282</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-11800">
+      <Size>40 x 11800</Size>
+      <Length>11882</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-12148">
+      <Size>40 x 12148</Size>
+      <Length>12230</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-12500">
+      <Size>40 x 12500</Size>
+      <Length>12582</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-13668">
+      <Size>40 x 13668</Size>
+      <Length>13750</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-14000">
+      <Size>40 x 14000</Size>
+      <Length>14082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-15198">
+      <Size>40 x 15198</Size>
+      <Length>15280</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-16000">
+      <Size>40 x 16000</Size>
+      <Length>16082</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-16718">
+      <Size>40 x 16718</Size>
+      <Length>16800</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="40-18000">
+      <Size>40 x 18000</Size>
+      <Length>18082</Length>
+      <C3>1.0</C3>
+    </Member>
+  </Members>
+</CustomFamily>

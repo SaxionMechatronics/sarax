@@ -1,0 +1,258 @@
+<Resources>
+  <string id="%1%" value="Gear Materials (SI)"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Heat treatment"/>
+  <string id="%4%" value="Endurance Limit"/>
+  <string id="%5%" value="MPa"/>
+  <string id="%6%" value="Surface Fatigue Strength"/>
+  <string id="%7%" value="Allowable Bending Stress"/>
+  <string id="%8%" value="Allowable Contact Stress"/>
+  <string id="%9%" value="Tensile Strength"/>
+  <string id="%10%" value="Yield Strength"/>
+  <string id="%11%" value="Hardness in Tooth Core"/>
+  <string id="%12%" value="ul"/>
+  <string id="%13%" value="Hardness in Tooth Side"/>
+  <string id="%14%" value="Contact Fatigue Limit"/>
+  <string id="%15%" value="Bending Fatigue Limit"/>
+  <string id="%16%" value="Base Number of Load Cycles in Contact"/>
+  <string id="%17%" value="Base Number of Load Cycles in Bending"/>
+  <string id="%18%" value="Wohler Curve Exponent for Contact"/>
+  <string id="%19%" value="Wohler Curve Exponent for Bending"/>
+  <string id="%20%" value="Modulus of Elasticity"/>
+  <string id="%21%" value="Poisson's Ratio"/>
+  <string id="%22%" value="Type of Treatment"/>
+  <string id="%23%" value="Description"/>
+  <string id="%24%" value="Grey cast iron class 30"/>
+  <string id="%25%" value="grey cast iron"/>
+  <string id="%26%" value="Grey cast iron class 40"/>
+  <string id="%27%" value="Grey cast iron class 45"/>
+  <string id="%28%" value="Nodular cast iron"/>
+  <string id="%29%" value="nodular cast iron"/>
+  <string id="%30%" value="heat treated"/>
+  <string id="%31%" value="Malleable cast iron"/>
+  <string id="%32%" value="normalized"/>
+  <string id="%33%" value="malleable cast iron"/>
+  <string id="%34%" value="Carbon cast steel"/>
+  <string id="%35%" value="carbon cast steel"/>
+  <string id="%36%" value="tooth face hard."/>
+  <string id="%37%" value="36Mn5"/>
+  <string id="%38%" value="alloy cast steel"/>
+  <string id="%39%" value="17CrMoV5 11"/>
+  <string id="%40%" value="30CrMoV6 4"/>
+  <string id="%41%" value="A572-Grade 50"/>
+  <string id="%42%" value="structural steel"/>
+  <string id="%43%" value="A519-1050"/>
+  <string id="%44%" value="A572-Grade 65"/>
+  <string id="%45%" value="A572-Grade 70"/>
+  <string id="%46%" value="A576-1010"/>
+  <string id="%47%" value="case-hardened"/>
+  <string id="%48%" value="carbon struct. steel"/>
+  <string id="%49%" value="A576-1015"/>
+  <string id="%50%" value="A576-1045"/>
+  <string id="%51%" value="A576-1050"/>
+  <string id="%52%" value="face hardened"/>
+  <string id="%53%" value="A576-1060"/>
+  <string id="%54%" value="nitro-carburized"/>
+  <string id="%55%" value="37MnSi5"/>
+  <string id="%56%" value="alloy struct. steel"/>
+  <string id="%57%" value="42MnV7"/>
+  <string id="%58%" value="nitrided"/>
+  <string id="%59%" value="A322-5135"/>
+  <string id="%60%" value="nitro-case-hard."/>
+  <string id="%61%" value="16MnCr5"/>
+  <string id="%62%" value="35CrMo4"/>
+  <string id="%63%" value="30CrV9"/>
+  <string id="%64%" value="42CrV6"/>
+  <string id="%65%" value="30CrMoV9"/>
+  <string id="%66%" value="A322-4320"/>
+  <string id="%67%" value="A322-4340"/>
+  <string id="%68%" value="14NiCr14"/>
+  <string id="%69%" value="26NiCrMoV8 5"/>
+  <string id="%70%" value="31NiCr14"/>
+  <string id="%71%" value="14NiCr18"/>
+  <string id="%72%" value="Standard"/>
+  <string id="%73%" value="Std"/>
+  <string id="%74%" value="ANSI"/>
+  <string id="%75%" value="ISO"/>
+  <string id="%76%" value="DIN"/>
+  <string id="%77%" value="BS"/>
+  <string id="%78%" value="CSN"/>
+  <string id="%79%" value="GOST"/>
+  <string id="%80%" value="NF"/>
+  <string id="%81%" value="JIS"/>
+  <string id="%82%" value="Material"/>
+  <string id="%83%" value="Heat treatment"/>
+  <string id="%84%" value="S|.n|"/>
+  <string id="%85%" value="S|.fe|"/>
+  <string id="%86%" value="||s||.Ab|"/>
+  <string id="%87%" value="||s||.Ac|"/>
+  <string id="%88%" value="R|.m|"/>
+  <string id="%89%" value="R|.e|/R|.p02|"/>
+  <string id="%90%" value="JHV"/>
+  <string id="%91%" value="VHV"/>
+  <string id="%92%" value="s|.Hlim|"/>
+  <string id="%93%" value="s|.Flim|"/>
+  <string id="%94%" value="N|.Hlim|"/>
+  <string id="%95%" value="N|.Flim|"/>
+  <string id="%96%" value="q|.H|"/>
+  <string id="%97%" value="q|.F|"/>
+  <string id="%98%" value="E"/>
+  <string id="%99%" value="||m|"/>
+  <string id="%100%" value="type"/>
+  <string id="%101%" value="Desc."/>
+  <string id="%102%" value="Grey cast iron"/>
+  <string id="%103%" value="EN E295"/>
+  <string id="%104%" value="EN S355JO"/>
+  <string id="%105%" value="EN E355"/>
+  <string id="%106%" value="EN E360"/>
+  <string id="%107%" value="EN C10E"/>
+  <string id="%108%" value="EN C16E"/>
+  <string id="%109%" value="EN C45"/>
+  <string id="%110%" value="EN C50"/>
+  <string id="%111%" value="EN C60"/>
+  <string id="%112%" value="37Cr4"/>
+  <string id="%113%" value="15NiCr6"/>
+  <string id="%114%" value="34CrNiMo6"/>
+  <string id="%115%" value="DIN GG - 20"/>
+  <string id="%116%" value="DIN GG - 25"/>
+  <string id="%117%" value="DIN GG - 30"/>
+  <string id="%118%" value="DIN GGG - 60"/>
+  <string id="%119%" value="DIN GGG - 70"/>
+  <string id="%120%" value="DIN GGG - 80"/>
+  <string id="%121%" value="DIN GTS - 50"/>
+  <string id="%122%" value="DIN GS - C 25"/>
+  <string id="%123%" value="DIN Ck 45"/>
+  <string id="%124%" value="DIN 36Mn5"/>
+  <string id="%125%" value="DIN GS - 17CrMoV5 11"/>
+  <string id="%126%" value="DIN GS - 30CrMoV6 4"/>
+  <string id="%127%" value="DIN St 50 - 2"/>
+  <string id="%128%" value="DIN St 52 - 3"/>
+  <string id="%129%" value="DIN St 60 - 2"/>
+  <string id="%130%" value="DIN St 70 - 2"/>
+  <string id="%131%" value="DIN Ck 10"/>
+  <string id="%132%" value="DIN Ck 15"/>
+  <string id="%133%" value="DIN Ck 50"/>
+  <string id="%134%" value="DIN Ck 60"/>
+  <string id="%135%" value="DIN 37MnSi5"/>
+  <string id="%136%" value="DIN 42MnV7"/>
+  <string id="%137%" value="DIN 37Cr4"/>
+  <string id="%138%" value="DIN 16MnCr5"/>
+  <string id="%139%" value="DIN 35CrMo4"/>
+  <string id="%140%" value="DIN 30CrV9"/>
+  <string id="%141%" value="DIN 42CrV6"/>
+  <string id="%142%" value="DIN 30CrMoV9"/>
+  <string id="%143%" value="DIN 15NiCr6"/>
+  <string id="%144%" value="DIN 34CrNiMo6"/>
+  <string id="%145%" value="DIN 14NiCr14"/>
+  <string id="%146%" value="DIN 26NiCrMoV8 5"/>
+  <string id="%147%" value="DIN 31NiCr14"/>
+  <string id="%148%" value="DIN 14NiCr18"/>
+  <string id="%149%" value="Grade 200"/>
+  <string id="%150%" value="Grade 260"/>
+  <string id="%151%" value="Grade 300"/>
+  <string id="%152%" value="Grade 600/3"/>
+  <string id="%153%" value="Grade 700/3"/>
+  <string id="%154%" value="Grade 800/3"/>
+  <string id="%155%" value="BS 50B"/>
+  <string id="%156%" value="BS 50C"/>
+  <string id="%157%" value="BS 55C"/>
+  <string id="%158%" value="BS 60C"/>
+  <string id="%159%" value="BS 045M10"/>
+  <string id="%160%" value="BS 080M15"/>
+  <string id="%161%" value="BS 080M46"/>
+  <string id="%162%" value="BS 080M50"/>
+  <string id="%163%" value="BS 000A67"/>
+  <string id="%164%" value="BS 530A36"/>
+  <string id="%165%" value="BS 527M17"/>
+  <string id="%166%" value="BS 815M17"/>
+  <string id="%167%" value="BS 817M40"/>
+  <string id="%168%" value="CSN 422420"/>
+  <string id="%169%" value="CSN 422425"/>
+  <string id="%170%" value="CSN 422430"/>
+  <string id="%171%" value="CSN 422306"/>
+  <string id="%172%" value="CSN 422307"/>
+  <string id="%173%" value="CSN 422308"/>
+  <string id="%174%" value="CSN 422550"/>
+  <string id="%175%" value="CSN 422650"/>
+  <string id="%176%" value="CSN 422660"/>
+  <string id="%177%" value="CSN 422719"/>
+  <string id="%178%" value="CSN 422750"/>
+  <string id="%179%" value="CSN 422767"/>
+  <string id="%180%" value="CSN 11500"/>
+  <string id="%181%" value="CSN 11523"/>
+  <string id="%182%" value="CSN 11600"/>
+  <string id="%183%" value="CSN 11700"/>
+  <string id="%184%" value="CSN 12010"/>
+  <string id="%185%" value="CSN 12020"/>
+  <string id="%186%" value="CSN 12050"/>
+  <string id="%187%" value="CSN 12051"/>
+  <string id="%188%" value="CSN 12061"/>
+  <string id="%189%" value="CSN 13240"/>
+  <string id="%190%" value="CSN 13242"/>
+  <string id="%191%" value="CSN 14140"/>
+  <string id="%192%" value="CSN 14220"/>
+  <string id="%193%" value="CSN 14223"/>
+  <string id="%194%" value="CSN 15230"/>
+  <string id="%195%" value="CSN 15241"/>
+  <string id="%196%" value="CSN 15330"/>
+  <string id="%197%" value="CSN 16220"/>
+  <string id="%198%" value="CSN 16343"/>
+  <string id="%199%" value="CSN 16420"/>
+  <string id="%200%" value="CSN 16436"/>
+  <string id="%201%" value="CSN 16440"/>
+  <string id="%202%" value="CSN 16526"/>
+  <string id="%203%" value="GOST S285"/>
+  <string id="%204%" value="GOST 35"/>
+  <string id="%205%" value="GOST S345"/>
+  <string id="%206%" value="GOST S375"/>
+  <string id="%207%" value="GOST 10"/>
+  <string id="%208%" value="GOST 15"/>
+  <string id="%209%" value="GOST 45"/>
+  <string id="%210%" value="GOST 50"/>
+  <string id="%211%" value="GOST 60"/>
+  <string id="%212%" value="GOST 38ChA"/>
+  <string id="%213%" value="GOST 18ChG"/>
+  <string id="%214%" value="GOST 18ChGT"/>
+  <string id="%215%" value="GOST 38Ch2MJuA"/>
+  <string id="%216%" value="GOST 12ChN3A"/>
+  <string id="%217%" value="NF FGL200"/>
+  <string id="%218%" value="NF FGL250"/>
+  <string id="%219%" value="NF FGL300"/>
+  <string id="%220%" value="NF FGS600-3"/>
+  <string id="%221%" value="NF FGS700-3"/>
+  <string id="%222%" value="NF FGS800-3"/>
+  <string id="%223%" value="NF 320-560M"/>
+  <string id="%224%" value="NF A50-2"/>
+  <string id="%225%" value="NF E36-3"/>
+  <string id="%226%" value="NF A60-2"/>
+  <string id="%227%" value="NF A70-2"/>
+  <string id="%228%" value="NF XC10"/>
+  <string id="%229%" value="NF XC12"/>
+  <string id="%230%" value="NF XC48H1"/>
+  <string id="%231%" value="NF XC55H1"/>
+  <string id="%232%" value="NF 38C4"/>
+  <string id="%233%" value="NF 16MC5"/>
+  <string id="%234%" value="NF 16NC6"/>
+  <string id="%235%" value="JIS FC200"/>
+  <string id="%236%" value="JIS FC250"/>
+  <string id="%237%" value="JIS FC300"/>
+  <string id="%238%" value="JIS FCD600"/>
+  <string id="%239%" value="JIS FCD700"/>
+  <string id="%240%" value="JIS FCD800"/>
+  <string id="%241%" value="JIS SS490"/>
+  <string id="%242%" value="JIS SM520B"/>
+  <string id="%243%" value="JIS SM570"/>
+  <string id="%244%" value="JIS SM620"/>
+  <string id="%245%" value="JIS S10C"/>
+  <string id="%246%" value="JIS S15C"/>
+  <string id="%247%" value="JIS S45C"/>
+  <string id="%248%" value="JIS S50C"/>
+  <string id="%249%" value="JIS S58C"/>
+  <string id="%250%" value="JIS SCr435"/>
+  <string id="%251%" value="JIS SNC815"/>
+  <string id="%252%" value="JIS SNCM447"/>
+  <string id="%253%" value="s|.ac|"/>
+  <string id="%254%" value="Allowable Contact Stress"/>
+  <string id="%255%" value="s|.at|"/>
+  <string id="%256%" value="Allowable Bending Stress"/>
+</Resources>

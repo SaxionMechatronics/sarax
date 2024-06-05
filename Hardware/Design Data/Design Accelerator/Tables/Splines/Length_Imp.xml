@@ -1,0 +1,56 @@
+<FDesign>
+	<Table InternalName="40CAD074-9CFF-480d-866B-596F87CFD103">
+		<Definition DisplayName="Length (Imperial)">
+			<Columns>
+				<l Units="in" />
+			</Columns>
+		</Definition>
+		<Data>						
+			<Row><l>0.25</l></Row>		
+			<Row><l>0.3125</l></Row>
+			<Row><l>0.375</l></Row>
+			<Row><l>0.4375</l></Row>
+			<Row><l>0.5</l></Row>
+			<Row><l>0.5625</l></Row>
+			<Row><l>0.625</l></Row>
+			<Row><l>0.6875</l></Row>
+			<Row><l>0.75</l></Row>
+			<Row><l>0.875</l></Row>
+			<Row><l>1</l></Row>
+			<Row><l>1.125</l></Row>
+			<Row><l>1.25</l></Row>
+			<Row><l>1.375</l></Row>
+			<Row><l>1.5</l></Row>
+			<Row><l>1.75</l></Row>
+			<Row><l>2</l></Row>
+			<Row><l>2.5</l></Row>
+			<Row><l>3</l></Row>
+			<Row><l>3.5</l></Row>
+			<Row><l>4</l></Row>
+			<Row><l>4.5</l></Row>
+			<Row><l>5</l></Row>
+			<Row><l>5.5</l></Row>
+			<Row><l>6</l></Row>
+			<Row><l>6.5</l></Row>
+			<Row><l>7</l></Row>
+			<Row><l>8</l></Row>
+			<Row><l>9</l></Row>
+			<Row><l>10</l></Row>		
+			<Row><l>11</l></Row>
+			<Row><l>12</l></Row>
+			<Row><l>13</l></Row>
+			<Row><l>14</l></Row>
+			<Row><l>15</l></Row>
+			<Row><l>16</l></Row>
+			<Row><l>17</l></Row>
+			<Row><l>18</l></Row>	
+			<Row><l>19</l></Row>
+			<Row><l>20</l></Row>
+			<Row><l>22</l></Row>
+			<Row><l>24</l></Row>
+			<Row><l>26</l></Row>
+			<Row><l>28</l></Row>
+			<Row><l>30</l></Row>
+		</Data>
+	</Table>
+</FDesign>
