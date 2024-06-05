@@ -49,25 +49,25 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          push: true
-          tags: ghcr.io/arief-ak/sarax-framework:latest
+      # - name: Build and push Docker image
+      #   uses: docker/build-push-action@v2
+      #   with:
+      #     context: .
+      #     push: true
+      #     tags: ghcr.io/arief-ak/sarax-framework:latest
 
       # - name: Login to GH container registry
       #   run: |
       #     docker login --username saxionmechatronics --password ${{ secrets.GITHUB_TOKEN }} ghcr.io
       
-      # - name: Cleanup system
-      #   run: |
-      #     docker image prune
+      - name: Cleanup system
+        run: |
+          docker image prune
 
-      # - name: Build Docker image
-      #   run: |
-      #     docker build --no-cache . -t ghcr.io/saxionmechatronics/sarax-framework:latest
+      - name: Build Docker image
+        run: |
+          docker build --no-cache . -t ghcr.io/arief-ak/sarax-framework:latest
 
-      # - name: Publish image
-      #   run: |
-      #     docker push ghcr.io/saxionmechatronics/sarax-framework:latest
+      - name: Publish image
+        run: |
+          docker push ghcr.io/arief-ak/sarax-framework:latest
