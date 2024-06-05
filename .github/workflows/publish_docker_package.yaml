@@ -54,7 +54,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/saxionmechatronics/sarax:latest
+          tags: ghcr.io/${{ github.actor }}/sarax-framework:latest
 
       # - name: Login to GH container registry
       #   run: |
