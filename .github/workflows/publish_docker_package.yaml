@@ -46,7 +46,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build --no-cache . -t ghcr.io/SaxionMechatronics/sarax-framework:latest
+          docker build --no-cache . -t ghcr.io/saxionmechatronics/sarax-framework:latest
 
       - name: Publish image
         run: |
