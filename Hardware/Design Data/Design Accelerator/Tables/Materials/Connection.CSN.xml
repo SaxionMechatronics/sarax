@@ -1,0 +1,20 @@
+<FDesign>
+  <Table InternalName="07040CFB-1A3A-4bd1-A414-640CFEE4012D">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%6%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <HRC DisplayName="%9%" Description="%10%" Units="%11%" IsVisible="1" IsNumeric="0" EditableState="1" />
+        <Su DisplayName="%7%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" EditableState="1" IsRequired="1" />
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>845D6375363A48FDB3CF8E7AFF8E3022</ID>
+        <Material>%5%</Material>
+        <HRC>55</HRC>
+        <Su>500</Su>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

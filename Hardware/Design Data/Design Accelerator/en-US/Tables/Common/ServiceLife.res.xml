@@ -1,0 +1,10 @@
+<Resources>
+  <string id="%1%" value="Desired Service Life [hours]"/>
+  <string id="%2%" value="Household machines, instruments and tools rarely used"/>
+  <string id="%3%" value="Machines for short or intermittent service, el. hand-operated tools"/>
+  <string id="%4%" value="Highly reliable machines for short-period or intermittent service"/>
+  <string id="%5%" value="Machines for 8-hours daily service not always fully used"/>
+  <string id="%6%" value="Machines for 8 to 16-hours daily service fully used"/>
+  <string id="%7%" value="Machines for continuous service"/>
+  <string id="%8%" value="Machines for continuous service with great service safety"/>
+</Resources>

@@ -1,0 +1,33 @@
+<FDesign>
+	<Table InternalName="98319445-80F3-4DE0-8A89-7673DB4C5533">
+		<Definition DisplayName="Limit Deviation of Center Distance fa">
+			<Columns>
+				<A Description="Class of Center Distance Deviation" Units="string" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" /><I Description="Deviation" Units="microm" /><J Description="Deviation" Units="microm" /><K Description="Deviation" Units="microm" /><L Description="Deviation" Units="microm" /><M Description="Deviation" Units="microm" /><N Description="Deviation" Units="microm" /><O Description="Deviation" Units="microm" /><P Description="Deviation" Units="microm" /><Q Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Osova vzdalenost [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>80</B><C>125</C><D>180</D><E>250</E><F>315</F><G>400</G><H>500</H><I>630</I><J>800</J><K>1000</K><L>1250</L><M>1600</M><N>2000</N><O>2500</O><P>3150</P><Q>4000</Q>
+			</Row>
+			<Row>
+				<A>I</A><B>10</B><C>11</C><D>12</D><E>14</E><F>16</F><G>18</G><H>20</H><I>22</I><J>25</J><K>28</K><L>35</L><M>40</M><N>45</N><O>55</O><P>70</P><Q>90</Q>
+			</Row>
+			<Row>
+				<A>II</A><B>16</B><C>18</C><D>20</D><E>22</E><F>25</F><G>28</G><H>30</H><I>35</I><J>40</J><K>45</K><L>50</L><M>60</M><N>70</N><O>90</O><P>110</P><Q>140</Q>
+			</Row>
+			<Row>
+				<A>III</A><B>22</B><C>28</C><D>30</D><E>35</E><F>40</F><G>45</G><H>50</H><I>55</I><J>60</J><K>70</K><L>80</L><M>100</M><N>110</N><O>140</O><P>160</P><Q>200</Q>
+			</Row>
+			<Row>
+				<A>IV</A><B>35</B><C>45</C><D>50</D><E>55</E><F>60</F><G>70</G><H>80</H><I>90</I><J>100</J><K>110</K><L>140</L><M>160</M><N>180</N><O>220</O><P>280</P><Q>350</Q>
+			</Row>
+			<Row>
+				<A>V</A><B>60</B><C>70</C><D>80</D><E>90</E><F>100</F><G>110</G><H>120</H><I>140</I><J>160</J><K>180</K><L>220</L><M>250</M><N>300</N><O>350</O><P>450</P><Q>550</Q>
+			</Row>
+			<Row>
+				<A>VI</A><B>100</B><C>110</C><D>120</D><E>140</E><F>160</F><G>180</G><H>200</H><I>220</I><J>250</J><K>280</K><L>350</L><M>400</M><N>450</N><O>550</O><P>700</P><Q>800</Q>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

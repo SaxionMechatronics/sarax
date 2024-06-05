@@ -1,0 +1,12 @@
+<Resources>
+  <string id="%1%" value="Load Distribution Factor for Misaligment of Flexible Splines"/>
+  <string id="%2%" value="Misaligment, inches per inch"/>
+  <string id="%3%" value="Load Distribution Factor, Km"/>
+  <string id="%4%" value="1/2-in Face Width"/>
+  <string id="%5%" value="1-in Face Width"/>
+  <string id="%6%" value="2-in Face Width"/>
+  <string id="%7%" value="4-in Face Width"/>
+</Resources>
+
+
+

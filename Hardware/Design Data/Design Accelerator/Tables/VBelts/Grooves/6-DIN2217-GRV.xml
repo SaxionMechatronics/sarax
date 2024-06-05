@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="metric" thumbnail="StdGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="mm" >5.3</NomWidth>
+    <Diameter src="table" dt="number" units="mm" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="mm">7.0</Depth>
+    <DistSe src="fixed" dt="number" units="mm">6.0</DistSe>
+    <DistSg src="fixed" dt="number" units="mm">8.0</DistSg>
+    <Height src="fixed" dt="number" units="mm">1.6</Height>
+    <Rin src="fixed" dt="number" units="mm">0.0</Rin>
+    <Rex src="fixed" dt="number" units="mm">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="6-28" >
+      <Size>6 x 28</Size>
+      <Diameter>28.0</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-31.5" >
+      <Size>6 x 31,5</Size>
+      <Diameter>31.5</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-35.5" >
+      <Size>6 x 35,5</Size>
+      <Diameter>35.5</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-40" >
+      <Size>6 x 40</Size>
+      <Diameter>40.0</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-45" >
+      <Size>6 x 45</Size>
+      <Diameter>45.0</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-50" >
+      <Size>6 x 50</Size>
+      <Diameter>50.0</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-56" >
+      <Size>6 x 56</Size>
+      <Diameter>56.0</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-63" >
+      <Size>6 x 63</Size>
+      <Diameter>63.0</Diameter>
+      <WedgeAng>32.0</WedgeAng>
+    </Member>
+    <Member moniker="6-71" >
+      <Size>6 x 71</Size>
+      <Diameter>71.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="6-80" >
+      <Size>6 x 80</Size>
+      <Diameter>80.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="6-90" >
+      <Size>6 x 90</Size>
+      <Diameter>90.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="6-100" >
+      <Size>6 x 100</Size>
+      <Diameter>100.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="6-112" >
+      <Size>6 x 112</Size>
+      <Diameter>112.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="6-125" >
+      <Size>6 x 125</Size>
+      <Diameter>125.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

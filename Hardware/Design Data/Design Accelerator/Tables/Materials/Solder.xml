@@ -1,0 +1,32 @@
+<FDesign>
+  <Table InternalName="4F2C6E73-48E2-4F7E-90FD-C94FBDECBA70">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%9%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <SigmaD16 DisplayName="%10%" Description="%3%" Units="%4%" IsRequired="1"  IsVisible="1" IsNumeric="1" EditableState="1"/>
+        <TauD DisplayName="%11%" Description="%5%" Units="%4%" IsRequired="1"  IsVisible="1" IsNumeric="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>DC3D8AF3FBC14C7A871D63D68084F10A</ID>
+        <Material>%6%</Material>
+        <SigmaD16>8000</SigmaD16>
+        <TauD>4500</TauD>
+      </Row>
+      <Row>
+        <ID>3432FE0C051E452AB6FF3CAA38F39162</ID>
+        <Material>%7%</Material>
+        <SigmaD16>40000</SigmaD16>
+        <TauD>23000</TauD>
+      </Row>
+      <Row>
+        <ID>50930E65804C4AC0BAB07F813F5E464C</ID>
+        <Material>%8%</Material>
+        <SigmaD16>45000</SigmaD16>
+        <TauD>28000</TauD>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

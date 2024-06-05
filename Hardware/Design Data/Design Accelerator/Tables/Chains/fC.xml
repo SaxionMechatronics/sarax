@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="738D141E-B3FE-4079-B22E-6527E9D57A56">
+		<Definition DisplayName="Wear factor">
+			<Columns>
+				<f4 Units="ul"/>
+				<A Units="ul" />
+				<B Units="ul" />
+				<C Units="ul" />
+				<D Units="ul" />
+				<E Units="ul" />
+				<F Units="ul" />
+				<G Units="ul" />
+				<H Units="ul" />
+				<I Units="ul" />
+				<J Units="ul" />
+				<K Units="ul" />
+				<L Units="ul" />
+				<M Units="ul" />
+				<N Units="ul" />
+				<O Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><f4></f4><A>0</A><B>5</B><C>10</C><D>15</D><E>20</E><F>25</F><G>30</G><H>35</H><I>40</I><J>45</J><K>50</K><L>55</L><M>60</M><N>65</N><O>70</O></Row>
+			<Row><f4>0.1</f4><A>0</A><B>30</B><C>50</C><D>70</D><E>80</E><F>90</F><G>100</G><H>110</H><I>115</I><J>120</J><K>120</K><L>120</L><M>120</M><N>120</N><O>120</O></Row>
+			<Row><f4>0.15</f4><A>0</A><B>30</B><C>50</C><D>70</D><E>80</E><F>90</F><G>100</G><H>110</H><I>115</I><J>120</J><K>120</K><L>120</L><M>120</M><N>120</N><O>120</O></Row>
+			<Row><f4>0.3</f4><A>0</A><B>250</B><C>360</C><D>430</D><E>455</E><F>450</F><G>440</G><H>425</H><I>410</I><J>385</J><K>360</K><L>330</L><M>300</M><N>275</N><O>250</O></Row>
+			<Row><f4>0.6</f4><A>0</A><B>250</B><C>400</C><D>495</D><E>560</E><F>590</F><G>600</G><H>600</H><I>600</I><J>600</J><K>600</K><L>600</L><M>600</M><N>600</N><O>600</O></Row>
+			<Row><f4>1.0</f4><A>0</A><B>250</B><C>425</C><D>555</D><E>650</E><F>725</F><G>790</G><H>825</H><I>850</I><J>855</J><K>855</K><L>855</L><M>855</M><N>855</N><O>855</O></Row>
+			<Row><f4>10.0</f4><A>0</A><B>250</B><C>425</C><D>555</D><E>650</E><F>725</F><G>790</G><H>825</H><I>850</I><J>855</J><K>855</K><L>855</L><M>855</M><N>855</N><O>855</O></Row>
+		</Data>
+	</Table>
+</FDesign>

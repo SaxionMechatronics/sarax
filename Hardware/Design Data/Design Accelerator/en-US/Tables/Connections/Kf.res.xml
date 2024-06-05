@@ -1,0 +1,10 @@
+<Resources>
+  <string id="%1%" value="Fatigue-Life Factor"/>
+  <string id="%2%" value="Unidirectional"/>
+  <string id="%3%" value="Fully-reversed"/>
+  <string id="%4%" value="No. of Torque Cycles"/>
+  <string id="%5%" value="Fatigue-Life Factor, Kf"/>
+</Resources>
+
+
+

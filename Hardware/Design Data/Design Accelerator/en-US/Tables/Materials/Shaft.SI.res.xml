@@ -1,0 +1,15 @@
+<Resources>
+  <string id="%1%" value="Shaft Material"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Allowable Pressure"/>
+  <string id="%4%" value="MPa"/>
+  <string id="%5%" value="Allowable Torsion Stress"/>
+  <string id="%6%" value="Steel gr. 37; 42; 4D"/>
+  <string id="%7%" value="High-grade/alloy steel"/>
+  <string id="%8%" value="Cast steel"/>
+  <string id="%9%" value="Grey cast iron"/>
+  <string id="%10%" value="Bronze"/>
+  <string id="%11%" value="Material"/>
+  <string id="%12%" value="||s||.Al|"/>
+  <string id="%13%" value="||t||.AlT|"/>
+</Resources>

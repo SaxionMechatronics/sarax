@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="SPC-DIN7753.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\SPC-DIN2211-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">18.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >22.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >19.0</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Le2Ld src="fixed" dt="number" units="mm">30.0</Le2Ld>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">100.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">40.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.38</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">224.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.21152444 - 20.72467663/{Dpk} - 4.8730847e-08*pow({Dpk}*{nk};2) - 0,02374*(log({Dpk}*{nk})-log(2/(1+pow(10;872.9/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="SPC2000">
+      <Size>SPC 2000</Size>
+      <Length>2000.0</Length>
+      <C3>0.8</C3>
+    </Member>
+    <Member moniker="SPC2240">
+      <Size>SPC 2240</Size>
+      <Length>2240.0</Length>
+      <C3>0.83</C3>
+    </Member>
+    <Member moniker="SPC2500">
+      <Size>SPC 2500</Size>
+      <Length>2500.0</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="SPC2800">
+      <Size>SPC 2800</Size>
+      <Length>2800.0</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="SPC3150">
+      <Size>SPC 3150</Size>
+      <Length>3150.0</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="SPC3550">
+      <Size>SPC 3550</Size>
+      <Length>3550.0</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="SPC4000">
+      <Size>SPC 4000</Size>
+      <Length>4000.0</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="SPC4500">
+      <Size>SPC 4500</Size>
+      <Length>4500.0</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="SPC5000">
+      <Size>SPC 5000</Size>
+      <Length>5000.0</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="SPC5600">
+      <Size>SPC 5600</Size>
+      <Length>5600.0</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="SPC6300">
+      <Size>SPC 6300</Size>
+      <Length>6300.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="SPC7100">
+      <Size>SPC 7100</Size>
+      <Length>7100.0</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="SPC8000">
+      <Size>SPC 8000</Size>
+      <Length>8000.0</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="SPC9000">
+      <Size>SPC 9000</Size>
+      <Length>9000.0</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="SPC10000">
+      <Size>SPC 10000</Size>
+      <Length>10000.0</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="SPC11200">
+      <Size>SPC 11200</Size>
+      <Length>11200.0</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="SPC12500">
+      <Size>SPC 12500</Size>
+      <Length>12500.0</Length>
+      <C3>1.14</C3>
+    </Member>
+  </Members>
+</CustomFamily>

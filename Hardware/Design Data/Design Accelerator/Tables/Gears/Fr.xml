@@ -1,0 +1,376 @@
+<FDesign>
+	<Table InternalName="24F3F792-740B-4D87-A2AD-20B68F3A4B35">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 2">
+			<Columns>
+				<A Description="Roztecny prumer" Units="ul" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>5.5</B><C>7</C><D>8</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>6</B><C>8</C><D>9</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>7</B><C>8</C><D>9</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>8</B><C>9</C><D>10</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>9</B><C>10</C><D>11</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>10</B><C>11</C><D>13</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>0</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="2A5C0A33-C729-422C-A913-E8CCED877BDF">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 3">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>6</B><C>7</C><D>8</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>9</B><C>10</C><D>11</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>11</B><C>13</C><D>14</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>13</B><C>14</C><D>16</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>14</B><C>16</C><D>18</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>18</C><D>20</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>22</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="B9C07917-7BB6-4BCF-B809-4F216EF2D4BA">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 4">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>10</B><C>11</C><D>13</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>15</B><C>16</C><D>18</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>18</B><C>20</C><D>22</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>20</B><C>22</C><D>25</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>22</B><C>25</C><D>28</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>28</C><D>32</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>36</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="1CCCB2EE-6186-4D34-B8D0-3942F2E33104">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 5">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>16</B><C>18</C><D>20</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>22</B><C>25</C><D>28</D><E>32</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>28</B><C>32</C><D>36</D><E>40</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>32</B><C>36</C><D>40</D><E>45</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>36</B><C>40</C><D>45</D><E>50</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>45</C><D>50</D><E>56</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>56</D><E>63</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="31E6DE58-C6E5-49E9-99B7-208AC4EDA410">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 6">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>25</B><C>28</C><D>32</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>36</B><C>40</C><D>45</D><E>50</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>45</B><C>50</C><D>56</D><E>63</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>50</B><C>56</C><D>63</D><E>71</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>56</B><C>63</C><D>71</D><E>80</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>71</C><D>80</D><E>90</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>90</D><E>100</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="DE9348F2-F351-48E4-95D7-93274C18B2BB">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 7">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>36</B><C>40</C><D>45</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>50</B><C>56</C><D>63</D><E>71</E><F>80</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>63</B><C>71</C><D>80</D><E>90</E><F>100</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>71</B><C>80</C><D>90</D><E>100</E><F>112</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>80</B><C>90</C><D>100</D><E>112</E><F>125</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>100</C><D>112</D><E>125</E><F>140</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>125</D><E>140</E><F>160</F><G>0</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="1DD44C1E-9581-4780-A508-A0524259DCF4">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 8">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>45</B><C>50</C><D>56</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>63</B><C>71</C><D>80</D><E>90</E><F>100</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>80</B><C>90</C><D>100</D><E>112</E><F>125</F><G>140</G><H>0</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>90</B><C>100</C><D>112</D><E>125</E><F>140</F><G>160</G><H>0</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>100</B><C>112</C><D>125</D><E>140</E><F>160</F><G>190</G><H>0</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>125</C><D>140</D><E>160</E><F>180</F><G>224</G><H>0</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>160</D><E>180</E><F>200</F><G>250</G><H>0</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="B57357D9-1A56-4166-878D-BDBFB444A500">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 9">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>71</B><C>80</C><D>90</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>80</B><C>100</C><D>112</D><E>125</E><F>160</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>100</B><C>112</C><D>125</D><E>160</E><F>200</F><G>250</G><H>315</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>112</B><C>125</C><D>140</D><E>160</E><F>200</F><G>250</G><H>315</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>125</B><C>140</C><D>160</D><E>180</E><F>224</F><G>280</G><H>355</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>160</C><D>180</D><E>200</E><F>224</F><G>280</G><H>355</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>200</D><E>224</E><F>250</F><G>315</G><H>400</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="9D8E3F47-C8EF-4F02-B94A-74EF8416BB0F">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 10">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>100</B><C>125</C><D>140</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>112</B><C>140</C><D>160</D><E>180</E><F>224</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>125</B><C>140</C><D>160</D><E>200</E><F>250</F><G>315</G><H>400</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>140</B><C>160</C><D>180</D><E>200</E><F>250</F><G>315</G><H>400</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>160</B><C>180</C><D>200</D><E>224</E><F>280</F><G>355</G><H>450</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>200</C><D>224</D><E>250</E><F>280</F><G>355</G><H>450</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>250</D><E>280</E><F>315</F><G>400</G><H>500</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="21BF3C12-5675-4464-A21B-7C5D1477C7EB">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 11">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>125</B><C>160</C><D>180</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>140</B><C>180</C><D>200</D><E>224</E><F>280</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>160</B><C>180</C><D>200</D><E>250</E><F>315</F><G>400</G><H>500</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>180</B><C>200</C><D>224</D><E>250</E><F>315</F><G>400</G><H>500</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>200</B><C>224</C><D>250</D><E>280</E><F>355</F><G>450</G><H>560</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>250</C><D>280</D><E>315</E><F>355</F><G>450</G><H>560</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>315</D><E>355</E><F>400</F><G>500</G><H>630</H>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="6E9A13FD-95EA-4C86-9977-EFED69B6E124">
+		<Definition DisplayName="Limit Circumferential Run-out Fr - for Kinematics Accuracy Degree 12">
+			<Columns>
+				<A Description="Pitch Diameter" Units="mm" /><B Description="Fr" Units="microm" /><C Description="Fr" Units="microm" /><D Description="Fr" Units="microm" /><E Description="Fr" Units="microm" /><F Description="Fr" Units="microm" /><G Description="Fr" Units="microm" /><H Description="Fr" Units="microm" />
+			</Columns>
+			<Note>First row contain: Module [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>3.5</B><C>6.3</C><D>10</D><E>16</E><F>25</F><G>40</G><H>55</H>
+			</Row>
+			<Row>
+				<A>125</A><B>160</B><C>200</C><D>224</D><E>0</E><F>0</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>400</A><B>180</B><C>224</C><D>250</D><E>280</E><F>355</F><G>0</G><H>0</H>
+			</Row>
+			<Row>
+				<A>800</A><B>200</B><C>224</C><D>250</D><E>315</E><F>400</F><G>500</G><H>630</H>
+			</Row>
+			<Row>
+				<A>1600</A><B>224</B><C>250</C><D>280</D><E>315</E><F>400</F><G>500</G><H>630</H>
+			</Row>
+			<Row>
+				<A>2500</A><B>250</B><C>280</C><D>315</D><E>355</E><F>450</F><G>560</G><H>710</H>
+			</Row>
+			<Row>
+				<A>4000</A><B>0</B><C>315</C><D>355</D><E>400</E><F>450</F><G>560</G><H>710</H>
+			</Row>
+			<Row>
+				<A>6300</A><B>0</B><C>0</C><D>400</D><E>450</E><F>500</F><G>630</G><H>800</H>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

@@ -1,0 +1,57 @@
+<FDesign>
+	<Table InternalName="7FDC7A16-22FC-4100-A498-BA61362137D9">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Driving DisplayName="" Units="" IsNumeric="0" IsVisible="1" Selectable="0"/>
+				<WearLifeFactor DisplayName="%2%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<SelectableRow_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<colspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<rowspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Driving>%2%</Driving>
+				<WearLifeFactor>%3%</WearLifeFactor>
+				<SelectableRow_>0</SelectableRow_>
+				<colspan_>0,0</colspan_>
+				<rowspan_>1,1</rowspan_>
+			</Row>
+			<Row>
+				<Driving>10000</Driving>
+				<WearLifeFactor>4.0</WearLifeFactor>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>100000</Driving>
+				<WearLifeFactor>2.8</WearLifeFactor>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>1000000</Driving>
+				<WearLifeFactor>2.0</WearLifeFactor>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>10000000</Driving>
+				<WearLifeFactor>1.4</WearLifeFactor>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>	
+			<Row>
+				<Driving>100000000</Driving>
+				<WearLifeFactor>1.0</WearLifeFactor>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>		
+			<Row>
+				<Driving>1000000000</Driving>
+				<WearLifeFactor>0.7</WearLifeFactor>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>		
+			<Row>
+				<Driving>10000000000</Driving>
+				<WearLifeFactor>0.5</WearLifeFactor>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>										
+		</Data>
+	</Table>
+</FDesign>

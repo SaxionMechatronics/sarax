@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="2F9138AC-5C48-4a10-AAC9-79B27B62157E">
+		<Definition DisplayName="%1%">
+		<Columns>
+			<Column1 DisplayName="" IsVisible="1" Selectable="0" />
+			<Column2 DisplayName="A" IsVisible="1" IsNumeric="1" Selectable="1"/>
+			<Column3 DisplayName="B" IsVisible="1" IsNumeric="1" Selectable="1"/>
+			<Column4 DisplayName="C" IsVisible="1" IsNumeric="1" Selectable="1"/>
+			<Column5 DisplayName="D" IsVisible="1" IsNumeric="1" Selectable="1"/>
+			<Column6 DisplayName="E" IsVisible="1" IsNumeric="1" Selectable="1"/>
+			<Column7 DisplayName="F" IsVisible="1" IsNumeric="1" Selectable="1"/>
+			<colspan_ DisplayName="" IsNumeric="0" IsVisible="0" Selectable="0"/>
+			<rowspan_ DisplayName="" IsNumeric="0" IsVisible="0" Selectable="0"/>
+		</Columns>
+		</Definition>
+	<Data>
+		<Row>
+			<Column1>%13%</Column1>
+			<Column2>%12%</Column2>
+			<colspan_>0,6,0,0,0,0,0</colspan_>
+			<rowspan_>4,0,0,0,0,0,0</rowspan_>
+		</Row>
+		<Row>
+			<Column2>%14%</Column2>
+			<Column5>%15%</Column5>
+			<colspan_>0,3,0,0,3,0,0</colspan_>
+		</Row>
+		<Row>
+			<Column2>%6%</Column2>
+			<Column3>%7%</Column3>
+			<Column4>%8%</Column4>
+			<Column5>%6%</Column5>
+			<Column6>%7%</Column6>
+			<Column7>%8%</Column7>
+		</Row>
+		<Row>
+			<Column2>%9%</Column2>
+			<Column3>%10%</Column3>
+			<Column4>%11%</Column4>
+			<Column5>%9%</Column5>
+			<Column6>%10%</Column6>
+			<Column7>%11%</Column7>
+		</Row>
+		<Row><Column1>%2%</Column1><Column2>1.0</Column2><Column3>1.1</Column3><Column4>1.2</Column4><Column5>1.1</Column5><Column6>1.2</Column6><Column7>1.3</Column7></Row>
+		<Row><Column1>%3%</Column1><Column2>1.1</Column2><Column3>1.2</Column3><Column4>1.3</Column4><Column5>1.2</Column5><Column6>1.3</Column6><Column7>1.4</Column7></Row>
+		<Row><Column1>%4%</Column1><Column2>1.2</Column2><Column3>1.3</Column3><Column4>1.4</Column4><Column5>1.4</Column5><Column6>1.5</Column6><Column7>1.6</Column7></Row>
+		<Row><Column1>%5%</Column1><Column2>1.3</Column2><Column3>1.4</Column3><Column4>1.5</Column4><Column5>1.5</Column5><Column6>1.6</Column6><Column7>1.8</Column7></Row>
+	</Data>
+	</Table>
+</FDesign>

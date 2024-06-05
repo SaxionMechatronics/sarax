@@ -1,0 +1,11 @@
+<Resources>
+  <string id="%1%" value="Brake Pressure"/>
+  <string id="%2%" value="Material"/>
+  <string id="%3%" value="p[psi]"/>
+  <string id="%4%" value="Molded"/>
+  <string id="%5%" value="Woven"/>
+  <string id="%6%" value="Sintered metal"/>
+  <string id="%7%" value="Cork"/>
+  <string id="%8%" value="Wood"/>
+  <string id="%9%" value="Cast iron, hard steel"/>
+</Resources>

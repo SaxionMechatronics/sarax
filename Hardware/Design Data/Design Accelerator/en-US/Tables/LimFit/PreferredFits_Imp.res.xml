@@ -1,0 +1,20 @@
+<Resources>
+  <string id="%1%" value="Prefered Fit(Imperial)"/>
+  <string id="%2%" value="Fit name"/>
+  <string id="%3%" value="Transition=1 Interference=2 Clearance=3"/>
+  <string id="%4%" value="Hole-basis=1 Shaft-basis=2"/>
+  <string id="%5%" value="The description of the fit's usage"/>
+  <string id="%10%" value="Locational transition fits\nCompromise between clearance and interference fits.\nUsed for application where accuracy of location is important."/>
+  <string id="%11%" value="Locational Interference fits\nUsed where accuracy of location is prime importance.\nNot inteded  for parts designed to transmit functional loads from\none part to another by virtue of the tightness of fit."/>
+  <string id="%12%" value="Medium drive fits\nSuitable for ordinary steel parts of for shrink fits on light sections."/>
+  <string id="%13%" value="Heavy drive fits\nSuitable for heavier steel parts or for shrink fits in medium sections."/>
+  <string id="%14%" value="Force fits\nSuitable for parts which can be highly stressed or for shrink fits where\nthe heavy pressing forces required are impractical."/>
+  <string id="%15%" value="Close Sliding fits\nInteded for the accurate location of parts which\nmust assemble without perceptible play."/>
+  <string id="%16%" value="Sliding fits\nInteded for accurate location.\nParts move and turn easily but are not inteded to run freely."/>
+  <string id="%17%" value="Precision running fits\nInteded for precision work at slow speeds and\nhigh light journal pressures."/>
+  <string id="%18%" value="Close running fits\nInteded for running fits on accurate machinery\nwith moderate surface speeds and journal pressure."/>
+  <string id="%19%" value="Medium running fits\nIntended for higher running speeds or heavy journal pressures."/>
+  <string id="%20%" value="Free running fits\nInteded for use where accuracy is not essential or where\nlarge temperature variations are likely to be encountered."/>
+  <string id="%21%" value="Loose running fits\nInteded for use where wide commerical tolerances may be necessary,\ntogether with an allowance, on the external member."/>
+  <string id="%22%" value="Locational clearance fits\nInteded for parts which are normally stationary,\nbut can be freely assembled or disassembled."/>
+</Resources>

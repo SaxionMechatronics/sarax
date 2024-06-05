@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.2" category="RCHAIN" thumbnail="ASME293.jpg" name="%1%" desc="%2%" DblPitch="True" Sprocket="ANS" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="in"/>
+    <Pt src="table" dt="number" units="in"/>
+    <d1 src="table" dt="number" units="in"/>
+    <b1 src="table" dt="number" units="in"/>
+    <d2 src="table" dt="number" units="in"/>
+    <b src="table" dt="number" units="in"/>
+    <h2 src="table" dt="number" units="in"/>
+    <h3 src="table" dt="number" units="in"/>
+    <t1 src="table" dt="number" units="in"/>
+    <t2 src="table" dt="number" units="in"/>
+    <Fu src="table" dt="number" units="lbforce"/>
+    <m  src="table" dt="number" units="lbmass/ft"/>
+    <A src="table" dt="number" units="in^2"/>
+    <bax src="fixed" dt="number" units="ul">0.0625</bax>
+    <fi src="fixed" dt="number" units="ul">1.5</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <Pc1 src="fixed" dt="string">0.0044hp*{zs}ul*pow({ns;rpm}ul;0.96ul)*pow({p;in}ul;3ul-0.07ul*{p;in}ul)</Pc1>
+    <Pc2 src="fixed" dt="string">17000hp*pow({zs}ul;1.5ul)*pow({p;in}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">6.452hp*{zs}ul*pow({p;in}ul;2ul)-1hp*pow({ns;rpm}ul*{zs}ul;3ul)*pow({p;in};5ul)*(2ul+0.03226ul*{zs}ul)/3.96e12ul</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="2040-1" >
+      <Designation>2040</Designation>
+      <Size>2040</Size>
+      <k>1</k>
+      <p>1</p>
+      <b1>0.3125</b1>
+      <d1>0.312</d1>
+      <d2>0.156</d2>
+      <b>0.68</b>
+      <Pt>0.566</Pt>
+      <h2>0.475</h2>
+      <h3>0.475</h3>
+      <t1>0.06</t1>
+      <t2>0.06</t2>
+      <Fu>3700</Fu>
+      <A>0.067</A>
+      <m>0.28</m>
+    </Member>
+    <Member moniker="2050-1" >
+      <Designation>2050</Designation>
+      <Size>2050</Size>
+      <k>1</k>
+      <p>1.125</p>
+      <b1>0.375</b1>
+      <d1>0.4</d1>
+      <d2>0.2</d2>
+      <b>0.84</b>
+      <Pt>0.713</Pt>
+      <h2>0.594</h2>
+      <h3>0.594</h3>
+      <t1>0.08</t1>
+      <t2>0.08</t2>
+      <Fu>6100</Fu>
+      <A>0.107</A>
+      <m>0.52</m>
+    </Member>
+    <Member moniker="2060-1" >
+      <Designation>2060</Designation>
+      <Size>2060</Size>
+      <k>1</k>
+      <p>1.5</p>
+      <b1>0.5</b1>
+      <d1>0.469</d1>
+      <d2>0.234</d2>
+      <b>1.05</b>
+      <Pt>0.897</Pt>
+      <h2>0.712</h2>
+      <h3>0.712</h3>
+      <t1>0.094</t1>
+      <t2>0.094</t2>
+      <Fu>8500</Fu>
+      <A>0.161</A>
+      <m>0.72</m>
+    </Member>
+    <Member moniker="2080-1" >
+      <Designation>2080</Designation>
+      <Size>2080</Size>
+      <k>1</k>
+      <p>2.0</p>
+      <b1>0.625</b1>
+      <d1>0.625</d1>
+      <d2>0.312</d2>
+      <b>1.32</b>
+      <Pt>1.153</Pt>
+      <h2>0.95</h2>
+      <h3>0.95</h3>
+      <t1>0.125</t1>
+      <t2>0.125</t2>
+      <Fu>14500</Fu>
+      <A>0.273</A>
+      <m>1.13</m>
+    </Member>
+  </Members>
+</CustomFamily>

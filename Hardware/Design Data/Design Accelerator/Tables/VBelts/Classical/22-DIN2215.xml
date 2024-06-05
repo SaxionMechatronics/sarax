@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="22-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\22-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">14.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >22.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >19.0</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">52.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.3</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">180.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.09305238 - 7.48188956/{Dpk} - 3.303701e-08*pow({Dpk}*{nk};2) - 0.01323*(log({Dpk}*{nk})-log(2/(1+pow(10;565.52/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="22-1180" >
+      <Size>22 x 1180</Size>
+      <Length>1232</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1250" >
+      <Size>22 x 1250</Size>
+      <Length>1302</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1320" >
+      <Size>22 x 1320</Size>
+      <Length>1372</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1400" >
+      <Size>22 x 1400</Size>
+      <Length>1452</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1500" >
+      <Size>22 x 1500</Size>
+      <Length>1552</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1513" >
+      <Size>22 x 1513</Size>
+      <Length>1565</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1600" >
+      <Size>22 x 1600</Size>
+      <Length>1652</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1700" >
+      <Size>22 x 1700</Size>
+      <Length>1752</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1708" >
+      <Size>22 x 1708</Size>
+      <Length>1760</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1800" >
+      <Size>22 x 1800</Size>
+      <Length>1852</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1898" >
+      <Size>22 x 1898</Size>
+      <Length>1950</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-1900" >
+      <Size>22 x 1900</Size>
+      <Length>1952</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2000" >
+      <Size>22 x 2000</Size>
+      <Length>2052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2120" >
+      <Size>22 x 2120</Size>
+      <Length>2172</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2143" >
+      <Size>22 x 2143</Size>
+      <Length>2195</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2240" >
+      <Size>22 x 2240</Size>
+      <Length>2292</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2360" >
+      <Size>22 x 2360</Size>
+      <Length>2412</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2368" >
+      <Size>22 x 2368</Size>
+      <Length>2420</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2500" >
+      <Size>22 x 2500</Size>
+      <Length>2552</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2650" >
+      <Size>22 x 2650</Size>
+      <Length>2702</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2663" >
+      <Size>22 x 2663</Size>
+      <Length>2715</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2800" >
+      <Size>22 x 2800</Size>
+      <Length>2852</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-2828" >
+      <Size>22 x 2828</Size>
+      <Length>2880</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-3000" >
+      <Size>22 x 3000</Size>
+      <Length>3052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-3028" >
+      <Size>22 x 3028</Size>
+      <Length>3080</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-3150" >
+      <Size>22 x 3150</Size>
+      <Length>3202</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-3350" >
+      <Size>22 x 3350</Size>
+      <Length>3402</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-3468" >
+      <Size>22 x 3468</Size>
+      <Length>3520</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-3550" >
+      <Size>22 x 3550</Size>
+      <Length>3602</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-3750" >
+      <Size>22 x 3750</Size>
+      <Length>3802</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-4000" >
+      <Size>22 x 4000</Size>
+      <Length>4052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-4008" >
+      <Size>22 x 4008</Size>
+      <Length>4060</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-4250" >
+      <Size>22 x 4250</Size>
+      <Length>4302</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-4500" >
+      <Size>22 x 4500</Size>
+      <Length>4552</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-4548" >
+      <Size>22 x 4548</Size>
+      <Length>4600</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-4750" >
+      <Size>22 x 4750</Size>
+      <Length>4802</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-5000" >
+      <Size>22 x 5000</Size>
+      <Length>5052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-5300" >
+      <Size>22 x 5300</Size>
+      <Length>5352</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-5328" >
+      <Size>22 x 5328</Size>
+      <Length>5380</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-5600" >
+      <Size>22 x 5600</Size>
+      <Length>5652</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-6000" >
+      <Size>22 x 6000</Size>
+      <Length>6052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-6048" >
+      <Size>22 x 6048</Size>
+      <Length>6100</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-6300" >
+      <Size>22 x 6300</Size>
+      <Length>6352</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-6700" >
+      <Size>22 x 6700</Size>
+      <Length>6752</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-6763" >
+      <Size>22 x 6763</Size>
+      <Length>6815</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-7100" >
+      <Size>22 x 7100</Size>
+      <Length>7152</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-7500" >
+      <Size>22 x 7500</Size>
+      <Length>7552</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-7548" >
+      <Size>22 x 7548</Size>
+      <Length>7600</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-8000" >
+      <Size>22 x 8000</Size>
+      <Length>8052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-8500" >
+      <Size>22 x 8500</Size>
+      <Length>8552</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-9000" >
+      <Size>22 x 9000</Size>
+      <Length>9052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-9048" >
+      <Size>22 x 9048</Size>
+      <Length>9100</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-9500" >
+      <Size>22 x 9500</Size>
+      <Length>9552</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-10000" >
+      <Size>22 x 10000</Size>
+      <Length>10052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-10600" >
+      <Size>22 x 10600</Size>
+      <Length>10652</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-10648" >
+      <Size>22 x 10648</Size>
+      <Length>10700</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-11200" >
+      <Size>22 x 11200</Size>
+      <Length>11252</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-11800" >
+      <Size>22 x 11800</Size>
+      <Length>11852</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-12500" >
+      <Size>22 x 12500</Size>
+      <Length>12552</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-14000" >
+      <Size>22 x 14000</Size>
+      <Length>14052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-16000" >
+      <Size>22 x 16000</Size>
+      <Length>16052</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="22-18000" >
+      <Size>22 x 18000</Size>
+      <Length>18052</Length>
+      <C3>1.0</C3>
+    </Member>
+  </Members>
+</CustomFamily>

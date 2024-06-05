@@ -1,0 +1,33 @@
+<FDesign>
+	<Table InternalName="F24A2271-3364-4416-9051-B719BAEEFADF">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Name DisplayName="%2%" Description="%3%" Units="" />
+				<hap0 DisplayName="%4%" Description="%5%" Units="%6%" />
+				<cfp0 DisplayName="%11%" Description="%12%" Units="%6%" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Name>%7%</Name>
+				<hap0>0.60</hap0>
+				<cfp0>0.07</cfp0>
+			</Row>
+			<Row>
+				<Name>%8%</Name>
+				<hap0>0.65</hap0>
+				<cfp0>0.12</cfp0>
+			</Row>
+			<Row>
+				<Name>%9%</Name>
+				<hap0>0.55</hap0>
+				<cfp0>0.02</cfp0>
+			</Row>
+			<Row>
+				<Name>%10%</Name>
+				<hap0>0.65</hap0>
+				<cfp0>0.12</cfp0>
+			</Row>									
+		</Data>
+	</Table>
+</FDesign>

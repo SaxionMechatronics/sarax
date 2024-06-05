@@ -1,0 +1,29 @@
+<Resources>
+  <string id="%1%" value="Material Types"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Modulus of Elasticity"/>
+  <string id="%4%" value="psi"/>
+  <string id="%5%" value="Modulus of Rigidity"/>
+  <string id="%6%" value="Poisson's Ratio"/>
+  <string id="%7%" value="Density"/>
+  <string id="%8%" value="lb/ft^3"/>
+  <string id="%9%" value="Grey cast iron"/>
+  <string id="%10%" value="Malleable cast iron"/>
+  <string id="%11%" value="Steel"/>
+  <string id="%12%" value="Cast steel"/>
+  <string id="%13%" value="Steel, nickel"/>
+  <string id="%14%" value="Stainless steel"/>
+  <string id="%15%" value="Brass"/>
+  <string id="%16%" value="Bronze"/>
+  <string id="%17%" value="Aluminum, alloy"/>
+  <string id="%18%" value="Magnesium alloys"/>
+  <string id="%19%" value="Copper"/>
+  <string id="%20%" value="Material"/>
+  <string id="%21%" value="E"/>
+  <string id="%22%" value="G"/>
+  <string id="%23%" value="||m|"/>
+  <string id="%24%" value="||r|"/>
+  <string id="%25%" value="ul"/>
+  <string id="%26%" value="S|.y|"/>
+  <string id="%27%" value="Yield Strength"/>
+</Resources>

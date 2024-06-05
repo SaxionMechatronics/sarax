@@ -1,0 +1,61 @@
+<FDesign>
+	<Table InternalName="DC0934B7-E5D6-47A8-8C78-CA6485F33816">
+		<Definition DisplayName="Module Limits">
+			<Columns>
+				<A Description="Module Limits" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>0.5</A></Row>
+			<Row><A>2</A></Row>
+			<Row><A>3.5</A></Row>
+			<Row><A>6</A></Row>
+			<Row><A>10</A></Row>
+			<Row><A>16</A></Row>
+			<Row><A>25</A></Row>
+			<Row><A>40</A></Row>
+			<Row><A>70</A></Row>
+		</Data>
+	</Table>
+	<Table InternalName="16235C11-13FE-4AF3-A2D9-CB289A66CFBD">
+		<Definition DisplayName="Width Limits">
+			<Columns>
+				<A Description="Width Limits" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>4</A></Row>
+			<Row><A>10</A></Row>
+			<Row><A>20</A></Row>
+			<Row><A>40</A></Row>
+			<Row><A>80</A></Row>
+			<Row><A>160</A></Row>
+			<Row><A>250</A></Row>
+			<Row><A>400</A></Row>
+			<Row><A>650</A></Row>
+			<Row><A>1000</A></Row>
+		</Data>
+	</Table>
+	<Table InternalName="13684EC0-C441-4410-804C-2962D23BB104">
+		<Definition DisplayName="Diameter Limits">
+			<Columns>
+				<A Description="Diameter Limits" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><A>5</A></Row>
+			<Row><A>20</A></Row>
+			<Row><A>50</A></Row>
+			<Row><A>125</A></Row>
+			<Row><A>280</A></Row>
+			<Row><A>560</A></Row>
+			<Row><A>1000</A></Row>
+			<Row><A>1600</A></Row>
+			<Row><A>2500</A></Row>
+			<Row><A>4000</A></Row>
+			<Row><A>6000</A></Row>
+			<Row><A>8000</A></Row>
+			<Row><A>10000</A></Row>
+		</Data>
+	</Table>
+</FDesign>

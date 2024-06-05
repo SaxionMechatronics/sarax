@@ -1,0 +1,12 @@
+<Resources>
+  <string id="%1%" value="Desired Service Life [mil. of revolutions]"/>
+  <string id="%2%" value="Low rpm, rarely used"/>
+  <string id="%3%" value="Low rpm, not always fully used"/>
+  <string id="%4%" value="Low rpm, fully used"/>
+  <string id="%5%" value="Medium rpm, rarely used"/>
+  <string id="%6%" value="Medium rpm, not always fully used"/>
+  <string id="%7%" value="Medium rpm, fully used"/>
+  <string id="%8%" value="High rpm, rarely used"/>
+  <string id="%9%" value="High rpm, not always fully used"/>
+  <string id="%10%" value="High rpm, fully used"/>
+</Resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="effective" measuresystem="imperial" thumbnail="StdGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="in" >0.6</NomWidth>
+    <Diameter src="table" dt="number" units="in" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="in">0.590</Depth>
+    <DistSe src="fixed" dt="number" units="in">0.5</DistSe>
+    <DistSg src="fixed" dt="number" units="in">0.688</DistSg>
+    <Height src="fixed" dt="number" units="in">0.0</Height>
+    <Rin src="fixed" dt="number" units="in">0.0</Rin>
+    <Rex src="fixed" dt="number" units="in">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="5V44" >
+      <Size>5V,5VX - 4.4</Size>
+      <Diameter>4.4</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V46" >
+      <Size>5V,5VX - 46.5</Size>
+      <Diameter>4.65</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V49" >
+      <Size>5V,5VX - 4.9</Size>
+      <Diameter>4.9</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V52" >
+      <Size>5V,5VX - 5.2</Size>
+      <Diameter>5.2</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V55" >
+      <Size>5V,5VX - 5.5</Size>
+      <Diameter>5.5</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V59" >
+      <Size>5V,5VX - 5.9</Size>
+      <Diameter>5.9</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V63" >
+      <Size>5V,5VX - 6.3</Size>
+      <Diameter>6.3</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V67" >
+      <Size>5V,5VX - 6.7</Size>
+      <Diameter>6.7</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V71" >
+      <Size>5V,5VX - 7.1</Size>
+      <Diameter>7.1</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V75" >
+      <Size>5V,5VX - 7.5</Size>
+      <Diameter>7.5</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V80" >
+      <Size>5V,5VX - 8.0</Size>
+      <Diameter>8</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V85" >
+      <Size>5V,5VX - 8.5</Size>
+      <Diameter>8.5</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V90" >
+      <Size>5V,5VX - 9.0</Size>
+      <Diameter>9</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V92" >
+      <Size>5V,5VX - 9.25</Size>
+      <Diameter>9.25</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V97" >
+      <Size>5V,5VX - 9.75</Size>
+      <Diameter>9.75</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="5V103" >
+      <Size>5V,5VX - 10.3</Size>
+      <Diameter>10.3</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V106" >
+      <Size>5V,5VX - 10.6</Size>
+      <Diameter>10.6</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V109" >
+      <Size>5V,5VX - 10.9</Size>
+      <Diameter>10.9</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V113" >
+      <Size>5V,5VX - 11.3</Size>
+      <Diameter>11.3</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V118" >
+      <Size>5V,5VX - 11.8</Size>
+      <Diameter>11.8</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V125" >
+      <Size>5V,5VX - 12.5</Size>
+      <Diameter>12.5</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V132" >
+      <Size>5V,5VX - 13.2</Size>
+      <Diameter>13.2</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V140" >
+      <Size>5V,5VX - 14.0</Size>
+      <Diameter>14</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V150" >
+      <Size>5V,5VX - 15.0</Size>
+      <Diameter>15</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V160" >
+      <Size>5V,5VX - 16.0</Size>
+      <Diameter>16</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="5V187" >
+      <Size>5V,5VX - 18.7</Size>
+      <Diameter>18.7</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V200" >
+      <Size>5V,5VX - 20.0</Size>
+      <Diameter>20</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V212" >
+      <Size>5V,5VX - 21.2</Size>
+      <Diameter>21.2</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V236" >
+      <Size>5V,5VX - 23.6</Size>
+      <Diameter>23.6</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V250" >
+      <Size>5V,5VX - 25.0</Size>
+      <Diameter>25</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V280" >
+      <Size>5V,5VX - 28.0</Size>
+      <Diameter>28</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V315" >
+      <Size>5V,5VX - 31.5</Size>
+      <Diameter>31.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V375" >
+      <Size>5V,5VX - 37.5</Size>
+      <Diameter>37.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V400" >
+      <Size>5V,5VX - 40.0</Size>
+      <Diameter>40</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V445" >
+      <Size>5V,5VX - 44.5</Size>
+      <Diameter>44.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V500" >
+      <Size>5V,5VX - 50.0</Size>
+      <Diameter>50</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V630" >
+      <Size>5V,5VX - 63.0</Size>
+      <Diameter>63</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="5V710" >
+      <Size>5V,5VX - 71.0</Size>
+      <Diameter>71</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

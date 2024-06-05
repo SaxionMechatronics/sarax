@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resources>
+  <string id="%1%" value="Shock Factor"/>
+  <string id="%2%" value="Driven machine"/>
+  <string id="%3%" value="Electric motors"/>
+  <string id="%4%" value="Low speed combustion engines (1 cylinder)"/>
+  <string id="%5%" value="Low speed combustion engines (2 cylinders)"/>
+  <string id="%6%" value="High speed combustion engines (1 or 2 cylinders)"/>
+  <string id="%7%" value="High speed combustion engines (4 cylinders)"/>
+  <string id="%8%" value="High speed combustion engines (6 and more cylinders)"/>
+  <string id="%9%" value="High speed hydraulic turbines"/>
+  <string id="%10%" value="Low speed hydraulic turbines"/>
+  <string id="%11%" value="Steam turbines"/>
+  <string id="%12%" value="Steam engines"/>
+  <string id="%13%" value="Transmission gearbox output"/>
+  <string id="%14%" value="Lathes, Drills"/>
+  <string id="%15%" value="Milling machines"/>
+  <string id="%16%" value="Planers"/>
+  <string id="%17%" value="Shapers, Slotters"/>
+  <string id="%18%" value="Stretcher levellers"/>
+  <string id="%19%" value="Hydraulic presses"/>
+  <string id="%20%" value="Eccentric presses"/>
+  <string id="%21%" value="Lever presses"/>
+  <string id="%22%" value="Woodworking machinery"/>
+  <string id="%23%" value="Looms"/>
+  <string id="%24%" value="Circular frames"/>
+  <string id="%25%" value="Flat hosiery frames"/>
+  <string id="%26%" value="Spinners"/>
+  <string id="%27%" value="Reciprocating single-stage compressors"/>
+  <string id="%28%" value="Reciprocating double-stage compressors"/>
+  <string id="%29%" value="Centrifugal single-stage compressors"/>
+  <string id="%30%" value="Centrifugal double-stage compressors"/>
+  <string id="%31%" value="Blowers"/>
+  <string id="%32%" value="Ventilator fans"/>
+  <string id="%33%" value="Piston single-cylinder pumps"/>
+  <string id="%34%" value="Piston double-cylinder pumps"/>
+  <string id="%35%" value="Centrifugal pumps"/>
+  <string id="%36%" value="Multiple-stand mills"/>
+  <string id="%37%" value="Continuous mills"/>
+  <string id="%38%" value="Crushers"/>
+  <string id="%39%" value="Pan mills"/>
+  <string id="%40%" value="Tube mills"/>
+  <string id="%41%" value="Hammer mills"/>
+  <string id="%42%" value="Transmission calenders"/>
+  <string id="%43%" value="Direct calenders"/>
+  <string id="%44%" value="Cellulose grinders"/>
+  <string id="%45%" value="Shaking screens"/>
+  <string id="%46%" value="Ramming machines"/>
+  <string id="%47%" value="Rotating mixers"/>
+  <string id="%48%" value="Excavators"/>
+  <string id="%49%" value="Rotary cultivators"/>
+  <string id="%50%" value="Mixers"/>
+  <string id="%51%" value="Conveyers for loose material"/>
+  <string id="%52%" value="Conveyers for structural material"/>
+  <string id="%53%" value="Lifting devices"/>
+  <string id="%54%" value="Fork lift trucks"/>
+  <string id="%55%" value="Mining windlasses"/>
+  <string id="%56%" value="Generators - large"/>
+  <string id="%57%" value="Generators - small"/>
+  <string id="%58%" value="Transmission gearbox input"/>
+</Resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="8FD81E84-1457-4a24-A174-CB51E83CCDBE">
+		<Definition DisplayName="%1%">
+		<Columns>
+			<A DisplayName="%2%" IsVisible="1" IsNumeric="1" Selectable="0" Units="ul" />
+			<B DisplayName="%3%" IsVisible="1" IsNumeric="1" Selectable="1" Units="ul" />
+		</Columns>
+		</Definition>
+	<Data>
+		<Row><A>1</A><B>1</B></Row>
+		<Row><A>2</A><B>1.7</B></Row>
+		<Row><A>3</A><B>2.5</B></Row>
+		<Row><A>4</A><B>3.3</B></Row>
+		<Row><A>5</A><B>3.9</B></Row>
+		<Row><A>6</A><B>4.6</B></Row>
+	</Data>
+	</Table>
+</FDesign>

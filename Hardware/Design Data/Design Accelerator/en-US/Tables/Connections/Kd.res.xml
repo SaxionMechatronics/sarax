@@ -1,0 +1,9 @@
+<Resources>
+  <string id="%1%" value="Coupling Design Factor"/>
+  <string id="%2%" value="Fixed Connection"/>
+  <string id="%3%" value="Sliding Coupling without Loading"/>
+  <string id="%4%" value="Sliding Coupling during Loading"/>
+</Resources>
+
+
+

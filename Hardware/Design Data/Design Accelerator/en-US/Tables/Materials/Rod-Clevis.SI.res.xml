@@ -1,0 +1,13 @@
+<Resources>
+  <string id="%1%" value="Clevis - Rod Material"/>
+  <string id="%2%" value="Material Designation"/>
+  <string id="%3%" value="Allowable Pressure"/>
+  <string id="%4%" value="MPa"/>
+  <string id="%5%" value="Stainless steel"/>
+  <string id="%6%" value="High-grade/alloy steel"/>
+  <string id="%7%" value="Cast steel"/>
+  <string id="%8%" value="Grey cast iron"/>
+  <string id="%9%" value="Bronze"/>
+  <string id="%10%" value="Material"/>
+  <string id="%11%" value="p|.Al|"/>
+</Resources>

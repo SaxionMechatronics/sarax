@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="6344E57B-D4A2-4261-95AF-9171D8C90CDA">
+		<Definition DisplayName="Number of pulleys correction factor">
+		  <Columns>
+			  <A Description="Number of pulleys" Units="ul" />
+			  <B Description="Factor" Units="ul"/>
+		  </Columns>
+		</Definition>
+	<Data>
+		<Row><A>2.0</A><B>1.0</B></Row>
+		<Row><A>3.0</A><B>0.91</B></Row>
+		<Row><A>4.0</A><B>0.86</B></Row>
+		<Row><A>5.0</A><B>0.81</B></Row>
+		<Row><A>6.0</A><B>0.78</B></Row>
+		<Row><A>7.0</A><B>0.76</B></Row>
+		<Row><A>8.0</A><B>0.75</B></Row>
+		<Row><A>100.0</A><B>0.7</B></Row>
+	</Data>
+	</Table>
+</FDesign>

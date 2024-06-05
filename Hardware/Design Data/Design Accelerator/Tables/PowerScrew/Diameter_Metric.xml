@@ -1,0 +1,569 @@
+<FDesign>
+	<Table InternalName="0298ED57-D166-48ef-954D-5D555D595958">
+		<Definition DisplayName="DiameterAndPitches(Metric)">
+			<Columns>
+				<d  Description="Thread Diameter" Units="mm" />
+				<ID  Description="Pitch Table ID" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<d>8</d>
+				<ID>6DA68811-7BF2-475d-AE95-050C8C5538B6</ID>
+			</Row>		
+			<Row>
+				<d>10</d>
+				<ID>F4F78810-0512-439a-AF56-CFA28BB56103</ID>
+			</Row>
+			<Row>
+				<d>12</d>
+				<ID>084BEDC3-1A3F-4213-B1A4-3A2DDCEB666E</ID>
+			</Row>
+			<Row>
+				<d>14</d>
+				<ID>01CBF9D1-CD5C-4d5a-8132-CD352F071AD6</ID>
+			</Row>
+			<Row>
+				<d>16</d>
+				<ID>01CBF9D1-CD5C-4d5a-8132-CD352F071AD6</ID>
+			</Row>
+			<Row>
+				<d>18</d>
+				<ID>01CBF9D1-CD5C-4d5a-8132-CD352F071AD6</ID>
+			</Row>
+			<Row>
+				<d>20</d>
+				<ID>01CBF9D1-CD5C-4d5a-8132-CD352F071AD6</ID>
+			</Row>
+			<Row>
+				<d>22</d>
+				<ID>989ED918-D613-4340-B1B6-56E843D91A36</ID>
+			</Row>
+			<Row>
+				<d>24</d>
+				<ID>CBE6DAFC-B228-4f62-8A3A-F33DDCAAA12D</ID>
+			</Row>
+			<Row>
+				<d>26</d>
+				<ID>CBE6DAFC-B228-4f62-8A3A-F33DDCAAA12D</ID>
+			</Row>
+			<Row>
+				<d>28</d>
+				<ID>CBE6DAFC-B228-4f62-8A3A-F33DDCAAA12D</ID>
+			</Row>
+			<Row>
+				<d>30</d>
+				<ID>3F5A55C7-30EE-403d-91F9-4D6207CDB356</ID>
+			</Row>
+			<Row>
+				<d>32</d>
+				<ID>3F5A55C7-30EE-403d-91F9-4D6207CDB356</ID>
+			</Row>
+			<Row>
+				<d>36</d>
+				<ID>3F5A55C7-30EE-403d-91F9-4D6207CDB356</ID>
+			</Row>
+			<Row>
+				<d>40</d>
+				<ID>AE24DB40-A7E7-45e1-A5E4-49171875B67E</ID>
+			</Row>
+			<Row>
+				<d>44</d>
+				<ID>AE24DB40-A7E7-45e1-A5E4-49171875B67E</ID>
+			</Row>
+			<Row>
+				<d>48</d>
+				<ID>EE11270A-FE66-4cec-A3ED-2EDEDB64B230</ID>
+			</Row>
+			<Row>
+				<d>50</d>
+				<ID>EE11270A-FE66-4cec-A3ED-2EDEDB64B230</ID>
+			</Row>
+			<Row>
+				<d>52</d>
+				<ID>EE11270A-FE66-4cec-A3ED-2EDEDB64B230</ID>
+			</Row>
+			<Row>
+				<d>55</d>
+				<ID>AA4084A7-5E6E-43c6-BA3A-D61427E0E7E5</ID>
+			</Row>
+			<Row>
+				<d>60</d>
+				<ID>AA4084A7-5E6E-43c6-BA3A-D61427E0E7E5</ID>
+			</Row>
+			<Row>
+				<d>65</d>
+				<ID>9FB3F4B5-CB63-4096-836D-5C83B13BE3FF</ID>
+			</Row>
+			<Row>
+				<d>70</d>
+				<ID>9FB3F4B5-CB63-4096-836D-5C83B13BE3FF</ID>
+			</Row>
+			<Row>
+				<d>75</d>
+				<ID>9FB3F4B5-CB63-4096-836D-5C83B13BE3FF</ID>
+			</Row>
+			<Row>
+				<d>80</d>
+				<ID>9FB3F4B5-CB63-4096-836D-5C83B13BE3FF</ID>
+			</Row>
+			<Row>
+				<d>85</d>
+				<ID>403CA3C4-8175-4787-B877-538ECE97B638</ID>
+			</Row>
+			<Row>
+				<d>90</d>
+				<ID>403CA3C4-8175-4787-B877-538ECE97B638</ID>
+			</Row>
+			<Row>
+				<d>95</d>
+				<ID>403CA3C4-8175-4787-B877-538ECE97B638</ID>
+			</Row>
+			<Row>
+				<d>100</d>
+				<ID>403CA3C4-8175-4787-B877-538ECE97B638</ID>
+			</Row>
+			<Row>
+				<d>110</d>
+				<ID>403CA3C4-8175-4787-B877-538ECE97B638</ID>
+			</Row>
+			<Row>
+				<d>120</d>
+				<ID>5EB78278-8805-4984-8966-49AB98B4ADB1</ID>
+			</Row>
+			<Row>
+				<d>130</d>
+				<ID>5EB78278-8805-4984-8966-49AB98B4ADB1</ID>
+			</Row>
+			<Row>
+				<d>140</d>
+				<ID>5EB78278-8805-4984-8966-49AB98B4ADB1</ID>
+			</Row>
+			<Row>
+				<d>150</d>
+				<ID>7789B65A-35AC-4c53-8E40-7116CA2C1CF5</ID>
+			</Row>
+			<Row>
+				<d>160</d>
+				<ID>7789B65A-35AC-4c53-8E40-7116CA2C1CF5</ID>
+			</Row>
+			<Row>
+				<d>170</d>
+				<ID>7789B65A-35AC-4c53-8E40-7116CA2C1CF5</ID>
+			</Row>
+			<Row>
+				<d>180</d>
+				<ID>6512CEBD-C43C-4aa8-9640-6F5C744B2902</ID>
+			</Row>
+			<Row>
+				<d>190</d>
+				<ID>6512CEBD-C43C-4aa8-9640-6F5C744B2902</ID>
+			</Row>
+			<Row>
+				<d>200</d>
+				<ID>6512CEBD-C43C-4aa8-9640-6F5C744B2902</ID>
+			</Row>
+			<Row>
+				<d>210</d>
+				<ID>824BB4BF-5BBB-446b-98C2-BDD4E7AEF345</ID>
+			</Row>
+			<Row>
+				<d>220</d>
+				<ID>824BB4BF-5BBB-446b-98C2-BDD4E7AEF345</ID>
+			</Row>
+			<Row>
+				<d>230</d>
+				<ID>824BB4BF-5BBB-446b-98C2-BDD4E7AEF345</ID>
+			</Row>
+			<Row>
+				<d>240</d>
+				<ID>1F8FE8A6-AF4F-40cc-A832-7F282426DE35</ID>
+			</Row>
+			<Row>
+				<d>250</d>
+				<ID>1F8FE8A6-AF4F-40cc-A832-7F282426DE35</ID>
+			</Row>
+			<Row>
+				<d>260</d>
+				<ID>1F8FE8A6-AF4F-40cc-A832-7F282426DE35</ID>
+			</Row>
+			<Row>
+				<d>270</d>
+				<ID>E45F5A32-AA79-48c5-A41D-A365A3475E80</ID>
+			</Row>
+			<Row>
+				<d>280</d>
+				<ID>E45F5A32-AA79-48c5-A41D-A365A3475E80</ID>
+			</Row>
+			<Row>
+				<d>290</d>
+				<ID>E45F5A32-AA79-48c5-A41D-A365A3475E80</ID>
+			</Row>
+			<Row>
+				<d>300</d>
+				<ID>FEF36A1C-CC6E-4a00-93B5-79BD5EC2EFE3</ID>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="6DA68811-7BF2-475d-AE95-050C8C5538B6">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>2</p>
+			</Row>
+			<Row>
+				<p>1.5</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="F4F78810-0512-439a-AF56-CFA28BB56103">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>3</p>
+			</Row>
+			<Row>
+				<p>2</p>
+			</Row>
+			<Row>
+				<p>1.5</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="084BEDC3-1A3F-4213-B1A4-3A2DDCEB666E">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>3</p>
+			</Row>
+			<Row>
+				<p>2</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="01CBF9D1-CD5C-4d5a-8132-CD352F071AD6">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>4</p>
+			</Row>
+			<Row>
+				<p>3</p>
+			</Row>
+			<Row>
+				<p>2</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="989ED918-D613-4340-B1B6-56E843D91A36">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>5</p>
+			</Row>
+			<Row>
+				<p>3</p>
+			</Row>
+			<Row>
+				<p>2</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="CBE6DAFC-B228-4f62-8A3A-F33DDCAAA12D">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>8</p>
+			</Row>
+			<Row>
+				<p>5</p>
+			</Row>
+			<Row>
+				<p>3</p>
+			</Row>
+			<Row>
+				<p>2</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="3F5A55C7-30EE-403d-91F9-4D6207CDB356">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>10</p>
+			</Row>
+			<Row>
+				<p>6</p>
+			</Row>
+			<Row>
+				<p>3</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="AE24DB40-A7E7-45e1-A5E4-49171875B67E">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>10</p>
+			</Row>
+			<Row>
+				<p>7</p>
+			</Row>
+			<Row>
+				<p>6</p>
+			</Row>
+			<Row>
+				<p>3</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="EE11270A-FE66-4cec-A3ED-2EDEDB64B230">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>12</p>
+			</Row>
+			<Row>
+				<p>8</p>
+			</Row>
+			<Row>
+				<p>3</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="AA4084A7-5E6E-43c6-BA3A-D61427E0E7E5">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>14</p>
+			</Row>
+			<Row>
+				<p>9</p>
+			</Row>
+			<Row>
+				<p>8</p>
+			</Row>
+			<Row>
+				<p>3</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="9FB3F4B5-CB63-4096-836D-5C83B13BE3FF">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>16</p>
+			</Row>
+			<Row>
+				<p>10</p>
+			</Row>
+			<Row>
+				<p>4</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="403CA3C4-8175-4787-B877-538ECE97B638">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>20</p>
+			</Row>
+			<Row>
+				<p>12</p>
+			</Row>
+			<Row>
+				<p>4</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="5EB78278-8805-4984-8966-49AB98B4ADB1">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>24</p>
+			</Row>
+			<Row>
+				<p>16</p>
+			</Row>
+			<Row>
+				<p>14</p>
+			</Row>
+			<Row>
+				<p>6</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="7789B65A-35AC-4c53-8E40-7116CA2C1CF5">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>28</p>
+			</Row>
+			<Row>
+				<p>16</p>
+			</Row>
+			<Row>
+				<p>6</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="6512CEBD-C43C-4aa8-9640-6F5C744B2902">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>32</p>
+			</Row>
+			<Row>
+				<p>18</p>
+			</Row>
+			<Row>
+				<p>8</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="824BB4BF-5BBB-446b-98C2-BDD4E7AEF345">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>20</p>
+			</Row>
+			<Row>
+				<p>10</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="1F8FE8A6-AF4F-40cc-A832-7F282426DE35">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>22</p>
+			</Row>
+			<Row>
+				<p>12</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="E45F5A32-AA79-48c5-A41D-A365A3475E80">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>24</p>
+			</Row>
+			<Row>
+				<p>16</p>
+			</Row>
+		</Data>
+	</Table>
+
+	<Table InternalName="FEF36A1C-CC6E-4a00-93B5-79BD5EC2EFE3">
+		<Definition DisplayName="Pitches(Metric)">
+			<Columns>
+				<p  Description="Pitch" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<p>26</p>
+			</Row>
+			<Row>
+				<p>18</p>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>
+
+
+
+
+
+	

@@ -1,0 +1,64 @@
+<FDesign>
+	<Table InternalName="312E95B6-74F6-4c0c-8B8B-013776AE8076">
+		<Definition DisplayName="SurfaceTexture(Metric)">
+			<Columns>
+				<Ra Description="Surface Texture" Units="micron" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Ra>0.01</Ra>
+			</Row>		
+			<Row>
+				<Ra>0.012</Ra>
+			</Row>
+			<Row>
+				<Ra>0.025</Ra>
+			</Row>
+			<Row>
+				<Ra>0.05</Ra>
+			</Row>
+			<Row>
+				<Ra>0.1</Ra>
+			</Row>
+			<Row>
+				<Ra>0.2</Ra>
+			</Row>
+			<Row>
+				<Ra>0.4</Ra>
+			</Row>
+			<Row>
+				<Ra>0.8</Ra>
+			</Row>
+			<Row>
+				<Ra>1.6</Ra>
+			</Row>
+			<Row>
+				<Ra>3.2</Ra>
+			</Row>
+			<Row>
+				<Ra>6.3</Ra>
+			</Row>
+			<Row>
+				<Ra>12.5</Ra>
+			</Row>
+			<Row>
+				<Ra>25</Ra>
+			</Row>
+			<Row>
+				<Ra>50</Ra>
+			</Row>
+			<Row>
+				<Ra>100</Ra>
+			</Row>
+			<Row>
+				<Ra>200</Ra>
+			</Row>
+			<Row>
+				<Ra>400</Ra>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>
+
+	

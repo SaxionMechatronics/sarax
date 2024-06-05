@@ -1,0 +1,39 @@
+<FDesign>
+	<Table InternalName="8CE0A58C-A0FB-4823-93D7-8A22E98D42FC">
+		<Definition DisplayName="Limit Deviation of Base Profile Movement TH">
+			<Columns>
+				<A Description="Backlash Tolerance" Units="string" /><B Description="Deviation" Units="microm" /><C Description="Deviation" Units="microm" /><D Description="Deviation" Units="microm" /><E Description="Deviation" Units="microm" /><F Description="Deviation" Units="microm" /><G Description="Deviation" Units="microm" /><H Description="Deviation" Units="microm" /><I Description="Deviation" Units="microm" /><J Description="Deviation" Units="microm" /><K Description="Deviation" Units="microm" /><L Description="Deviation" Units="microm" /><M Description="Deviation" Units="microm" /><N Description="Deviation" Units="microm" /><O Description="Deviation" Units="microm" /><P Description="Deviation" Units="microm" /><Q Description="Deviation" Units="microm" /><R Description="Deviation" Units="microm" /><S Description="Deviation" Units="microm" /><T Description="Deviation" Units="microm" /><U Description="Deviation" Units="microm" /><V Description="Deviation" Units="microm" />
+			</Columns>
+			<Note>First row contain: Limit Circumferential Runout [microm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>8</B><C>10</C><D>12</D><E>16</E><F>20</F><G>25</G><H>32</H><I>40</I><J>50</J><K>60</K><L>80</L><M>100</M><N>125</N><O>160</O><P>200</P><Q>250</Q><R>320</R><S>400</S><T>500</T><U>630</U><V>800</V>
+			</Row>
+			<Row>
+				<A>h</A><B>28</B><C>30</C><D>35</D><E>40</E><F>40</F><G>45</G><H>55</H><I>60</I><J>70</J><K>80</K><L>110</L><M>120</M><N>160</N><O>200</O><P>250</P><Q>300</Q><R>450</R><S>450</S><T>550</T><U>700</U><V>900</V>
+			</Row>
+			<Row>
+				<A>d</A><B>35</B><C>40</C><D>40</D><E>45</E><F>55</F><G>60</G><H>70</H><I>80</I><J>90</J><K>100</K><L>140</L><M>160</M><N>200</N><O>250</O><P>300</P><Q>350</Q><R>450</R><S>600</S><T>700</T><U>900</U><V>1200</V>
+			</Row>
+			<Row>
+				<A>c</A><B>45</B><C>50</C><D>55</D><E>60</E><F>70</F><G>80</G><H>90</H><I>100</I><J>120</J><K>140</K><L>180</L><M>200</M><N>250</N><O>300</O><P>400</P><Q>500</Q><R>600</R><S>700</S><T>900</T><U>1200</U><V>1400</V>
+			</Row>
+			<Row>
+				<A>b</A><B>55</B><C>60</C><D>70</D><E>70</E><F>80</F><G>90</G><H>100</H><I>120</I><J>140</J><K>180</K><L>200</L><M>250</M><N>300</N><O>400</O><P>500</P><Q>600</Q><R>700</R><S>900</S><T>1100</T><U>1400</U><V>1800</V>
+			</Row>
+			<Row>
+				<A>a</A><B>70</B><C>80</C><D>80</D><E>90</E><F>100</F><G>110</G><H>140</H><I>160</I><J>180</J><K>200</K><L>250</L><M>300</M><N>350</N><O>450</O><P>550</P><Q>700</Q><R>900</R><S>1100</S><T>1400</T><U>1600</U><V>2000</V>
+			</Row>
+			<Row>
+				<A>z</A><B>90</B><C>100</C><D>100</D><E>110</E><F>120</F><G>140</G><H>160</H><I>180</I><J>220</J><K>230</K><L>300</L><M>350</M><N>450</N><O>550</O><P>700</P><Q>900</Q><R>1100</R><S>1400</S><T>1600</T><U>2000</U><V>2500</V>
+			</Row>
+			<Row>
+				<A>y</A><B>110</B><C>120</C><D>140</D><E>140</E><F>160</F><G>180</G><H>200</H><I>250</I><J>280</J><K>350</K><L>400</L><M>500</M><N>600</N><O>700</O><P>900</P><Q>1100</Q><R>1400</R><S>1600</S><T>2000</T><U>2500</U><V>3500</V>
+			</Row>
+			<Row>
+				<A>x</A><B>140</B><C>160</C><D>160</D><E>180</E><F>200</F><G>220</G><H>250</H><I>300</I><J>350</J><K>400</K><L>500</L><M>600</M><N>700</N><O>900</O><P>1100</P><Q>1400</Q><R>1800</R><S>2000</S><T>2500</T><U>3000</U><V>4000</V>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

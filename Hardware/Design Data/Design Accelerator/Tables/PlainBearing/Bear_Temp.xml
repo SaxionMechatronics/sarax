@@ -1,0 +1,58 @@
+<FDesign>
+	<Table InternalName="0BDC8AF9-32DC-4d91-A8F3-5D2E29CEA4B1">
+		<Definition DisplayName="Lubricant Temperature at Bearing Exit">
+			<Columns>
+				<t  Description="Temperature" Units="|^o|C" />
+                <ID  Description="ID of column in Bear_Oil" IsVisible="0" Units="" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<t>0</t>
+				<ID>A</ID>
+			</Row>		
+			<Row>
+				<t>10</t>
+				<ID>B</ID>
+			</Row>
+			<Row>
+				<t>20</t>
+				<ID>C</ID>
+			</Row>
+			<Row>
+				<t>30</t>
+				<ID>D</ID>
+			</Row>
+			<Row>
+				<t>40</t>
+				<ID>E</ID>
+			</Row>
+			<Row>
+				<t>50</t>
+				<ID>F</ID>
+			</Row>
+			<Row>
+				<t>60</t>
+				<ID>G</ID>
+			</Row>
+			<Row>
+				<t>70</t>
+				<ID>H</ID>
+			</Row>
+			<Row>
+				<t>80</t>
+				<ID>I</ID>
+			</Row>
+			<Row>
+				<t>90</t>
+				<ID>J</ID>
+			</Row>
+			<Row>
+				<t>100</t>
+				<ID>K</ID>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>
+
+	

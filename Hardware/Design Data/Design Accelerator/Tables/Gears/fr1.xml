@@ -1,0 +1,48 @@
+<FDesign>
+	<Table InternalName="BECF5213-F8FE-4179-B280-5838E61E77C6">
+		<Definition DisplayName="Limit Circumferential Run-out - Worm">
+			<Columns>
+				<A Description="Accuracy Degree" Units="ul" /><B Description="Factor" Units="microm" /><C Description="Factor" Units="microm" /><D Description="Factor" Units="microm" /><E Description="Factor" Units="microm" /><F Description="Factor" Units="microm" /><G Description="Factor" Units="microm" /><H Description="Factor" Units="microm" /><I Description="Factor" Units="microm" /><J Description="Factor" Units="microm" /><K Description="Factor" Units="microm" /><L Description="Factor" Units="microm" />
+			</Columns>
+			<Note>First row contain: Worm Pitch Diameter [mm]</Note>
+		</Definition>
+		<Data>
+			<Row>
+				<A></A><B>10</B><C>18</C><D>30</D><E>50</E><F>80</F><G>120</G><H>180</H><I>250</I><J>315</J><K>400</K><L>800</L>
+			</Row>
+			<Row>
+				<A>2</A><B>1.8</B><C>1.8</C><D>1.9</D><E>2</E><F>2.2</F><G>2.5</G><H>3</H><I>3.4</I><J>4</J><K>4.5</K><L>4.3</L>
+			</Row>
+			<Row>
+				<A>3</A><B>2.8</B><C>2.8</C><D>3</D><E>3.2</E><F>3.6</F><G>4</G><H>4.5</H><I>5.3</I><J>6.3</J><K>7.5</K><L>8.5</L>
+			</Row>
+			<Row>
+				<A>4</A><B>4.5</B><C>4.5</C><D>4.8</D><E>5</E><F>5.6</F><G>6.3</G><H>7.5</H><I>8.5</I><J>10</J><K>11.5</K><L>13</L>
+			</Row>
+			<Row>
+				<A>5</A><B>7.1</B><C>7.1</C><D>7.5</D><E>8</E><F>9</F><G>10</G><H>11.5</H><I>14</I><J>16</J><K>18</K><L>21</L>
+			</Row>
+			<Row>
+				<A>6</A><B>11</B><C>11.5</C><D>12</D><E>13</E><F>14</F><G>16</G><H>18</H><I>22</I><J>25</J><K>28</K><L>34</L>
+			</Row>
+			<Row>
+				<A>7</A><B>15</B><C>16</C><D>17</D><E>18</E><F>20</F><G>22</G><H>25</H><I>30</I><J>34</J><K>40</K><L>48</L>
+			</Row>
+			<Row>
+				<A>8</A><B>20</B><C>20</C><D>21</D><E>22</E><F>25</F><G>28</G><H>32</H><I>38</I><J>45</J><K>50</K><L>60</L>
+			</Row>
+			<Row>
+				<A>9</A><B>25</B><C>25</C><D>26</D><E>28</E><F>32</F><G>36</G><H>40</H><I>48</I><J>56</J><K>63</K><L>75</L>
+			</Row>
+			<Row>
+				<A>10</A><B>32</B><C>32</C><D>34</D><E>36</E><F>40</F><G>45</G><H>50</H><I>60</I><J>71</J><K>80</K><L>95</L>
+			</Row>
+			<Row>
+				<A>11</A><B>40</B><C>40</C><D>42</D><E>45</E><F>50</F><G>56</G><H>63</H><I>75</I><J>90</J><K>100</K><L>120</L>
+			</Row>
+			<Row>
+				<A>12</A><B>48</B><C>50</C><D>53</D><E>56</E><F>63</F><G>70</G><H>80</H><I>95</I><J>110</J><K>130</K><L>150</L>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

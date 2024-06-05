@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<TransitionSymbol Version="0">
+
+  <!--The schema of this file is subject to change without notice and is not guaranteed to remain the same from one release to the next.-->
+
+  <Style EditFlag="0" InternalName="1:Transition Symbol (ISO)&#xA;">
+    <SubStyle Collection="Leader" Language="1033" Type="LeaderStyleEdge">General (ISO)</SubStyle>
+    <SubStyle Collection="Leader" Language="1033" Type="LeaderStyleFace">Alternate (ISO)</SubStyle>
+    <SubStyle Collection="Text" Language="1033" Type="TextStyle">Note Text (ISO)</SubStyle>
+	<Name Description="根據 ISO 21204:2020" Language="1028">轉換符號(ISO)</Name>
+    <Name Description="Podle normy ISO 21204:2020" Language="1029">Symbol přechodu (ISO)</Name>
+    <Name Description="Basiert auf ISO 21204:2020" Language="1031">Übergangssymbol (ISO)</Name>
+	<Name Description="Based on ISO 21204:2020" Language="1033">Transition Symbol (ISO)</Name>
+    <Name Description="En fonction d'ISO 21204:2020" Language="1036">Symbole de transition (ISO)</Name>
+    <Name Description="Alapja: ISO 21204:2020" Language="1038">Átmenetjel (ISO)</Name>
+    <Name Description="Basato su ISO 21204:2020" Language="1040">Simbolo di transizione (ISO)</Name>
+    <Name Description="Based on ISO 21204:2020" Language="1041">遷移記号(ISO)</Name>
+    <Name Description="ISO 21204:2020 기준" Language="1042">변환 기호(ISO)</Name>
+    <Name Description="Na podstawie ISO 21204:2020" Language="1045">Symbol przejścia (ISO)</Name>
+    <Name Description="Baseado na ISO 21204:2020" Language="1046">Símbolo de transição (ISO)</Name>
+    <Name Description="Согласно ISO 21204:2020" Language="1049">Обозначение перехода (ISO)</Name>
+    <Name Description="基于 ISO 21204:2020" Language="2052">过渡符号(ISO)</Name>
+    <Name Description="Basado en ISO 21204:2020" Language="3082">Símbolo de transición (ISO)</Name>
+  </Style>
+
+</TransitionSymbol>

@@ -1,0 +1,105 @@
+<FDesign>
+  <Table InternalName="0254D1FA-524A-453e-B9E4-D23935E23241">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <Name Description="%2%" IsNumeric="0"/>
+        <Type Description="%3%" IsNumeric="1"/>
+        <Base Description="%4%" IsNumeric="1"/>
+        <Description Description="%5%" IsNumeric="0"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <Name>LT1(H7/js6)</Name><Type>1</Type><Base>1</Base><Description>%10%</Description>
+      </Row>
+      <Row>
+        <Name>LT2(H8/js7)</Name><Type>1</Type><Base>1</Base><Description>%10%</Description>
+      </Row>
+      <Row>
+        <Name>LT3(H7/k6)</Name><Type>1</Type><Base>1</Base><Description>%10%</Description>
+      </Row>
+      <Row>
+        <Name>LT4(H8/k7)</Name><Type>1</Type><Base>1</Base><Description>%10%</Description>
+      </Row>
+      <Row>
+        <Name>LT5(H7/n6)</Name><Type>1</Type><Base>1</Base><Description>%10%</Description>
+      </Row>
+      <Row>
+        <Name>LT6(H7/n7)</Name><Type>1</Type><Base>1</Base><Description>%10%</Description>
+      </Row>
+      <Row>
+        <Name>LN1(H6/n5)</Name><Type>2</Type><Base>1</Base><Description>%11%</Description>
+      </Row>
+      <Row>
+        <Name>LN2(H7/p6)</Name><Type>2</Type><Base>1</Base><Description>%11%</Description>
+      </Row>
+      <Row>
+        <Name>LN3(H7/r6)</Name><Type>2</Type><Base>1</Base><Description>%11%</Description>
+      </Row>
+      <Row>
+        <Name>FN2(H7/s6)</Name><Type>2</Type><Base>1</Base><Description>%12%</Description>
+      </Row>
+      <Row>
+        <Name>FN3(H7/t6)</Name><Type>2</Type><Base>1</Base><Description>%13%</Description>
+      </Row>
+      <Row>
+        <Name>FN4(H7/u6)</Name><Type>2</Type><Base>1</Base><Description>%14%</Description>
+      </Row>
+      <Row>
+        <Name>FN5(H8/x7)</Name><Type>2</Type><Base>1</Base><Description>%14%</Description>
+      </Row>
+      <Row>
+        <Name>RC1(H5/g4)</Name><Type>3</Type><Base>1</Base><Description>%15%</Description>
+      </Row>
+      <Row>
+        <Name>RC2(H6/g5)</Name><Type>3</Type><Base>1</Base><Description>%16%</Description>
+      </Row>
+      <Row>
+        <Name>RC3(H7/f6)</Name><Type>3</Type><Base>1</Base><Description>%17%</Description>
+      </Row>
+      <Row>
+        <Name>RC4(H8/f7)</Name><Type>3</Type><Base>1</Base><Description>%18%</Description>
+      </Row>
+      <Row>
+        <Name>RC5(H8/e7)</Name><Type>3</Type><Base>1</Base><Description>%19%</Description>
+      </Row>
+      <Row>
+        <Name>RC6(H9/e8)</Name><Type>3</Type><Base>1</Base><Description>%19%</Description>
+      </Row>
+      <Row>
+        <Name>RC7(H9/d8)</Name><Type>3</Type><Base>1</Base><Description>%20%</Description>
+      </Row>
+      <Row>
+        <Name>RC8(H10/c9)</Name><Type>3</Type><Base>1</Base><Description>%21%</Description>
+      </Row>
+      <Row>
+        <Name>LC1(H6/h5)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC2(H7/h6)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC3(H8/h7)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC4(H10/h9)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC5(H7/g6)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC6(H9/f8)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC7(H10/e9)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC8(H10/d9)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+     <Row>
+        <Name>LC9(H11/c10)</Name><Type>3</Type><Base>1</Base><Description>%22%</Description>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>
+

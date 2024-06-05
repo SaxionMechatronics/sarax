@@ -1,0 +1,38 @@
+<FDesign>
+  <Table InternalName="E768F2DB-9468-4B6E-BF1A-0E7F3C8DF079">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%11%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <SigmaBA DisplayName="%12%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <TauA DisplayName="%13%" Description="%5%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>9BF61A2CFE6E4060B5CEA4E0707BE5B8</ID>
+        <Material>%7%</Material>
+        <SigmaBA>80</SigmaBA>
+        <TauA>50</TauA>
+      </Row>
+      <Row>
+        <ID>C06C72FB3FC6437D9667CCA1770F6BCF</ID>
+        <Material>%8%</Material>
+        <SigmaBA>110</SigmaBA>
+        <TauA>70</TauA>
+      </Row>
+      <Row>
+        <ID>6E55008C9C5A48E69B99EA87E9E73837</ID>
+        <Material>%9%</Material>
+        <SigmaBA>140</SigmaBA>
+        <TauA>90</TauA>
+      </Row>
+      <Row>
+        <ID>0CDF3400C61C4CB99C46CEE31762096B</ID>
+        <Material>%10%</Material>
+        <SigmaBA>160</SigmaBA>
+        <TauA>100</TauA>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

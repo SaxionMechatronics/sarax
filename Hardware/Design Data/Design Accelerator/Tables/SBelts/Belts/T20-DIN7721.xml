@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTS" thumbnail="T20-DIN7721.jpg" measuresystem="metric" name="%1%" desc="%2%" profile="single">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="mm">20</Pitch>
+    <S src="fixed" dt="number" units="mm">10.15</S>
+    <ht src="fixed" dt="number" units="mm">5</ht>
+    <PitchOfst src="fixed" dt="number" units="mm">1.5</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">20.0</beta>
+    <Height src="fixed" dt="number" units="mm">8</Height>
+    <ra src="fixed" dt="number" units="mm">0.8</ra>
+    <rr src="fixed" dt="number" units="mm">0.8</rr>
+    <Width0 src="fixed" dt="number" units="mm">100.0</Width0>
+    <Width src="table" dt="number" units="mm" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">30.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">40.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.74</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">95.0</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">15000.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="32-T20-63">
+      <Size>32T20 x 1260</Size>
+      <Width>32</Width>
+      <Teeth>63</Teeth>
+    </Member>
+    <Member moniker="32-T20-73">
+      <Size>32T20 x 1460</Size>
+      <Width>32</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="32-T20-89">
+      <Size>32T20 x 1780</Size>
+      <Width>32</Width>
+      <Teeth>89</Teeth>
+    </Member>
+    <Member moniker="32-T20-94">
+      <Size>32T20 x 1880</Size>
+      <Width>32</Width>
+      <Teeth>94</Teeth>
+    </Member>
+    <Member moniker="32-T20-118">
+      <Size>32T20 x 2360</Size>
+      <Width>32</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="32-T20-130">
+      <Size>32T20 x 2600</Size>
+      <Width>32</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="32-T20-155">
+      <Size>32T20 x 3100</Size>
+      <Width>32</Width>
+      <Teeth>155</Teeth>
+    </Member>
+    <Member moniker="32-T20-181">
+      <Size>32T20 x 3620</Size>
+      <Width>32</Width>
+      <Teeth>181</Teeth>
+    </Member>
+    <Member moniker="50-T20-63">
+      <Size>50T20 x 1260</Size>
+      <Width>50</Width>
+      <Teeth>63</Teeth>
+    </Member>
+    <Member moniker="50-T20-73">
+      <Size>50T20 x 1460</Size>
+      <Width>50</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="50-T20-89">
+      <Size>50T20 x 1780</Size>
+      <Width>50</Width>
+      <Teeth>89</Teeth>
+    </Member>
+    <Member moniker="50-T20-94">
+      <Size>50T20 x 1880</Size>
+      <Width>50</Width>
+      <Teeth>94</Teeth>
+    </Member>
+    <Member moniker="50-T20-118">
+      <Size>50T20 x 2360</Size>
+      <Width>50</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="50-T20-130">
+      <Size>50T20 x 2600</Size>
+      <Width>50</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="50-T20-155">
+      <Size>50T20 x 3100</Size>
+      <Width>50</Width>
+      <Teeth>155</Teeth>
+    </Member>
+    <Member moniker="50-T20-181">
+      <Size>50T20 x 3620</Size>
+      <Width>50</Width>
+      <Teeth>181</Teeth>
+    </Member>
+    <Member moniker="75-T20-63">
+      <Size>75T20 x 1260</Size>
+      <Width>75</Width>
+      <Teeth>63</Teeth>
+    </Member>
+    <Member moniker="75-T20-73">
+      <Size>75T20 x 1460</Size>
+      <Width>75</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="75-T20-89">
+      <Size>75T20 x 1780</Size>
+      <Width>75</Width>
+      <Teeth>89</Teeth>
+    </Member>
+    <Member moniker="75-T20-94">
+      <Size>75T20 x 1880</Size>
+      <Width>75</Width>
+      <Teeth>94</Teeth>
+    </Member>
+    <Member moniker="75-T20-118">
+      <Size>75T20 x 2360</Size>
+      <Width>75</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="75-T20-130">
+      <Size>75T20 x 2600</Size>
+      <Width>75</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="75-T20-155">
+      <Size>75T20 x 3100</Size>
+      <Width>75</Width>
+      <Teeth>155</Teeth>
+    </Member>
+    <Member moniker="75-T20-181">
+      <Size>75T20 x 3620</Size>
+      <Width>75</Width>
+      <Teeth>181</Teeth>
+    </Member>
+    <Member moniker="100-T20-63">
+      <Size>100T20 x 1260</Size>
+      <Width>100</Width>
+      <Teeth>63</Teeth>
+    </Member>
+    <Member moniker="100-T20-73">
+      <Size>100T20 x 1460</Size>
+      <Width>100</Width>
+      <Teeth>73</Teeth>
+    </Member>
+    <Member moniker="100-T20-89">
+      <Size>100T20 x 1780</Size>
+      <Width>100</Width>
+      <Teeth>89</Teeth>
+    </Member>
+    <Member moniker="100-T20-94">
+      <Size>100T20 x 1880</Size>
+      <Width>100</Width>
+      <Teeth>94</Teeth>
+    </Member>
+    <Member moniker="100-T20-118">
+      <Size>100T20 x 2360</Size>
+      <Width>100</Width>
+      <Teeth>118</Teeth>
+    </Member>
+    <Member moniker="100-T20-130">
+      <Size>100T20 x 2600</Size>
+      <Width>100</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="100-T20-155">
+      <Size>100T20 x 3100</Size>
+      <Width>100</Width>
+      <Teeth>155</Teeth>
+    </Member>
+    <Member moniker="100-T20-181">
+      <Size>100T20 x 3620</Size>
+      <Width>100</Width>
+      <Teeth>181</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

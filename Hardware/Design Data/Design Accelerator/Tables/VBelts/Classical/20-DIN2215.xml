@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="20-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\20-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">12.5</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >20.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >17.0</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">48.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.24</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">160.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.08211756 - 4.88508236/{Dpk} - 2.28782684e-08*pow({Dpk}*{nk};2) - 0.01398696*(log({Dpk}*{nk})-log(2/(1+pow(10;349.26/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="20-900" >
+      <Size>20 x 900</Size>
+      <Length>948</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-950" >
+      <Size>20 x 950</Size>
+      <Length>998</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1000" >
+      <Size>20 x 1000</Size>
+      <Length>1048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1060" >
+      <Size>20 x 1060</Size>
+      <Length>1108</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1120" >
+      <Size>20 x 1120</Size>
+      <Length>1168</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1180" >
+      <Size>20 x 1180</Size>
+      <Length>1228</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1250" >
+      <Size>20 x 1250</Size>
+      <Length>1298</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1320" >
+      <Size>20 x 1320</Size>
+      <Length>1368</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1400" >
+      <Size>20 x 1400</Size>
+      <Length>1448</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1500" >
+      <Size>20 x 1500</Size>
+      <Length>1548</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1600" >
+      <Size>20 x 1600</Size>
+      <Length>1648</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1700" >
+      <Size>20 x 1700</Size>
+      <Length>1748</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1800" >
+      <Size>20 x 1800</Size>
+      <Length>1848</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-1900" >
+      <Size>20 x 1900</Size>
+      <Length>1948</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-2000" >
+      <Size>20 x 2000</Size>
+      <Length>2048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-2120" >
+      <Size>20 x 2120</Size>
+      <Length>2168</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-2240" >
+      <Size>20 x 2240</Size>
+      <Length>2288</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-2360" >
+      <Size>20 x 2360</Size>
+      <Length>2408</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-2500" >
+      <Size>20 x 2500</Size>
+      <Length>2548</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-2650" >
+      <Size>20 x 2650</Size>
+      <Length>2698</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-2800" >
+      <Size>20 x 2800</Size>
+      <Length>2848</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-3000" >
+      <Size>20 x 3000</Size>
+      <Length>3048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-3150" >
+      <Size>20 x 3150</Size>
+      <Length>3198</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-3350" >
+      <Size>20 x 3350</Size>
+      <Length>3398</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-3550" >
+      <Size>20 x 3550</Size>
+      <Length>3598</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-3750" >
+      <Size>20 x 3750</Size>
+      <Length>3798</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-4000" >
+      <Size>20 x 4000</Size>
+      <Length>4048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-4250" >
+      <Size>20 x 4250</Size>
+      <Length>4298</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-4500" >
+      <Size>20 x 4500</Size>
+      <Length>4548</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-4750" >
+      <Size>20 x 4750</Size>
+      <Length>4798</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-5000" >
+      <Size>20 x 5000</Size>
+      <Length>5048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-5300" >
+      <Size>20 x 5300</Size>
+      <Length>5348</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-5600" >
+      <Size>20 x 5600</Size>
+      <Length>5648</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-6000" >
+      <Size>20 x 6000</Size>
+      <Length>6048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-6300" >
+      <Size>20 x 6300</Size>
+      <Length>6348</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-6700" >
+      <Size>20 x 6700</Size>
+      <Length>6748</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-7100" >
+      <Size>20 x 7100</Size>
+      <Length>7148</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-7500" >
+      <Size>20 x 7500</Size>
+      <Length>7548</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-8000" >
+      <Size>20 x 8000</Size>
+      <Length>8048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-8500" >
+      <Size>20 x 8500</Size>
+      <Length>8548</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-9000" >
+      <Size>20 x 9000</Size>
+      <Length>9048</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="20-9500" >
+      <Size>20 x 9500</Size>
+      <Length>9098</Length>
+      <C3>1.0</C3>
+    </Member>
+  </Members>
+</CustomFamily>

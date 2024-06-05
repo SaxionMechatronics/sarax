@@ -1,0 +1,68 @@
+<FDesign>
+	<Table InternalName="BDB2AA85-F49E-41BB-B8C2-01D3AD205B5E">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Driving DisplayName="" Units="" IsNumeric="0" IsVisible="1" />
+				<A1 DisplayName="" Units="ul" IsNumeric="1" IsVisible="1" />
+				<A2 DisplayName="" Units="ul" IsNumeric="1" IsVisible="1" />
+				<A3 DisplayName="" Units="ul" IsNumeric="1" IsVisible="1" />
+				<A4 DisplayName="" Units="ul" IsNumeric="1" IsVisible="1" />
+				<SelectableRow_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<colspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<rowspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Driving>%2%</Driving>
+				<A1>%3%</A1>
+				<A2 />
+				<A3 />
+				<A4 />
+				<SelectableRow_>0</SelectableRow_>
+				<colspan_>0,4,0,0,0</colspan_>
+				<rowspan_>2,0,0,0,0</rowspan_>
+			</Row>
+			<Row>
+				<Driving />
+				<A1>%4%</A1>
+				<A2>%5%</A2>
+				<A3>%6%</A3>
+				<A4>%7%</A4>
+				<SelectableRow_>0</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>%4%</Driving>
+				<A1>1</A1>
+				<A2>1.25</A2>
+				<A3>1.5</A3>
+				<A4>1.75</A4>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>%5%</Driving>
+				<A1>1.1</A1>
+				<A2>1.35</A2>
+				<A3>1.6</A3>
+				<A4>1.85</A4>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>%6%</Driving>
+				<A1>1.25</A1>
+				<A2>1.5</A2>
+				<A3>1.75</A3>
+				<A4>2</A4>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>%7%</Driving>
+				<A1>1.5</A1>
+				<A2>1.75</A2>
+				<A3>2</A3>
+				<A4>2.25</A4>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

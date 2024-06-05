@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTS" thumbnail="B-DMXL-ISO5296.jpg" name="%1%" desc="%2%" profile="staggered" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="in">0.08</Pitch>
+    <S src="fixed" dt="number" units="in">0.045</S>
+    <ht src="fixed" dt="number" units="in">0.02</ht>
+    <PitchOfst src="fixed" dt="number" units="in">0.01</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">20.0</beta>
+    <Height src="fixed" dt="number" units="in" >0.06</Height>
+    <ra src="fixed" dt="number" units="in" >0.005</ra>
+    <rr src="fixed" dt="number" units="in" >0.005</rr>
+    <Width0 src="fixed" dt="number" units="in">0.25</Width0>
+    <Width src="table" dt="number" units="in" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">120.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">60.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.00328</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">0.254</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">27.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="B36D-MXL012" >
+      <Size>B 36 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>45</Teeth>
+    </Member>
+    <Member moniker="B40D-MXL012" >
+      <Size>B 40 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>50</Teeth>
+    </Member>
+    <Member moniker="B44D-MXL012" >
+      <Size>B 44 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>55</Teeth>
+    </Member>
+    <Member moniker="B48D-MXL012" >
+      <Size>B 48 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="B56D-MXL012" >
+      <Size>B 56 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="B60D-MXL012" >
+      <Size>B 60 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>75</Teeth>
+    </Member>
+    <Member moniker="B64D-MXL012" >
+      <Size>B 64 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="B72D-MXL012" >
+      <Size>B 72 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="B80D-MXL012" >
+      <Size>B 80 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="B88D-MXL012" >
+      <Size>B 88 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="B100D-MXL012" >
+      <Size>B 100 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>125</Teeth>
+    </Member>
+    <Member moniker="B112D-MXL012" >
+      <Size>B 112 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="B124D-MXL012" >
+      <Size>B 124 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>155</Teeth>
+    </Member>
+    <Member moniker="B140D-MXL012" >
+      <Size>B 140 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="B160D-MXL012" >
+      <Size>B 160 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="B180D-MXL012" >
+      <Size>B 180 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="B200D-MXL012" >
+      <Size>B 200 D-MXL 012</Size>
+      <Width>0.12</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="B36D-MXL019" >
+      <Size>B 36 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>45</Teeth>
+    </Member>
+    <Member moniker="B40D-MXL019" >
+      <Size>B 40 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>50</Teeth>
+    </Member>
+    <Member moniker="B44D-MXL019" >
+      <Size>B 44 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>55</Teeth>
+    </Member>
+    <Member moniker="B48D-MXL019" >
+      <Size>B 48 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="B56D-MXL019" >
+      <Size>B 56 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="B60D-MXL019" >
+      <Size>B 60 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>75</Teeth>
+    </Member>
+    <Member moniker="B64D-MXL019" >
+      <Size>B 64 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="B72D-MXL019" >
+      <Size>B 72 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="B80D-MXL019" >
+      <Size>B 80 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="B88D-MXL019" >
+      <Size>B 88 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="B100D-MXL019" >
+      <Size>B 100 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>125</Teeth>
+    </Member>
+    <Member moniker="B112D-MXL019" >
+      <Size>B 112 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="B124D-MXL019" >
+      <Size>B 124 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>155</Teeth>
+    </Member>
+    <Member moniker="B140D-MXL019" >
+      <Size>B 140 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="B160D-MXL019" >
+      <Size>B 160 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="B180D-MXL019" >
+      <Size>B 180 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="B200D-MXL019" >
+      <Size>B 200 D-MXL 019</Size>
+      <Width>0.19</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="B36D-MXL025" >
+      <Size>B 36 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>45</Teeth>
+    </Member>
+    <Member moniker="B40D-MXL025" >
+      <Size>B 40 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>50</Teeth>
+    </Member>
+    <Member moniker="B44D-MXL025" >
+      <Size>B 44 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>55</Teeth>
+    </Member>
+    <Member moniker="B48D-MXL025" >
+      <Size>B 48 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="B56D-MXL025" >
+      <Size>B 56 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="B60D-MXL025" >
+      <Size>B 60 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>75</Teeth>
+    </Member>
+    <Member moniker="B64D-MXL025" >
+      <Size>B 64 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="B72D-MXL025" >
+      <Size>B 72 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="B80D-MXL025" >
+      <Size>B 80 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="B88D-MXL025" >
+      <Size>B 88 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="B100D-MXL025" >
+      <Size>B 100 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>125</Teeth>
+    </Member>
+    <Member moniker="B112D-MXL025" >
+      <Size>B 112 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="B124D-MXL025" >
+      <Size>B 124 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>155</Teeth>
+    </Member>
+    <Member moniker="B140D-MXL025" >
+      <Size>B 140 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="B160D-MXL025" >
+      <Size>B 160 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="B180D-MXL025" >
+      <Size>B 180 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="B200D-MXL025" >
+      <Size>B 200 D-MXL 025</Size>
+      <Width>0.25</Width>
+      <Teeth>250</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

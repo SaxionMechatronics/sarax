@@ -1,0 +1,3987 @@
+<FDesign>
+	<Table InternalName="5B8C86AA-FB48-4460-B770-8B75E5940F18">
+		<Definition DisplayName="DIN 5480 - 30 deg">
+			<Columns>
+				<Name DisplayName="Name" Description="Spline designation 'dB - m x z'" Units="" />
+				<m DisplayName="m" Description="Module" Units="mm" />
+				<z DisplayName="z" Description="Number of teeth" Units="ul" />
+				<l DisplayName="l" Description="Spline length" Units="mm" />
+				<DB DisplayName="d|.B|" Description="Nominal diameter" Units="mm" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row><Name>6 %m% - 0.5 %m% x 10 %u%</Name>
+				<m>0.5</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>6</DB>
+			</Row>
+			<Row><Name>6 %m% - 0.6 %m% x 8 %u%</Name>
+				<m>0.6</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>6</DB>
+			</Row>
+			<Row><Name>6 %m% - 0.75 %m% x 6 %u%</Name>
+				<m>0.75</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>6</DB>
+			</Row>
+			<Row><Name>6 %m% - 0.8 %m% x 6 %u%</Name>
+				<m>0.8</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>6</DB>
+			</Row>	
+			<Row><Name>7 %m% - 0.5 %m% x 12 %u%</Name>
+				<m>0.5</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>7</DB>
+			</Row>	
+			<Row><Name>7 %m% - 0.6 %m% x 10 %u%</Name>
+				<m>0.6</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>7</DB>
+			</Row>	
+			<Row><Name>7 %m% - 0.75 %m% x 8 %u%</Name>
+				<m>0.75</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>7</DB>
+			</Row>									
+			<Row><Name>7 %m% - 0.8 %m% x 7 %u%</Name>
+				<m>0.8</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>7</DB>
+			</Row>
+			<Row><Name>8 %m% - 0.5 %m% x 14 %u%</Name>
+				<m>0.5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>8</DB>
+			</Row>		
+			<Row><Name>8 %m% - 0.6 %m% x 12 %u%</Name>
+				<m>0.6</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>8</DB>
+			</Row>	
+			<Row><Name>8 %m% - 0.75 %m% x 9 %u%</Name>
+				<m>0.75</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>8</DB>
+			</Row>			
+			<Row><Name>8 %m% - 0.8 %m% x 8 %u%</Name>
+				<m>0.8</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>8</DB>
+			</Row>						
+			<Row><Name>8 %m% - 1 %m% x 6 %u%</Name>
+				<m>1</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>8</DB>
+			</Row>
+			<Row><Name>9 %m% - 0.5 %m% x 16 %u%</Name>
+				<m>0.5</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>9</DB>
+			</Row>
+			<Row><Name>9 %m% - 0.6 %m% x 13 %u%</Name>
+				<m>0.6</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>9</DB>
+			</Row>
+			<Row><Name>9 %m% - 0.75 %m% x 10 %u%</Name>
+				<m>0.75</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>9</DB>
+			</Row>
+			<Row><Name>9 %m% - 0.8 %m% x 10 %u%</Name>
+				<m>0.8</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>9</DB>
+			</Row>			
+			<Row><Name>9 %m% - 1 %m% x 7 %u%</Name>
+				<m>1</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>9</DB>
+			</Row>
+			<Row><Name>10 %m% - 0.5 %m% x 18 %u%</Name>
+				<m>0.5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>10</DB>
+			</Row>
+			<Row><Name>10 %m% - 0.6 %m% x 15 %u%</Name>
+				<m>0.6</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>10</DB>
+			</Row>
+			<Row><Name>10 %m% - 0.75 %m% x 12 %u%</Name>
+				<m>0.75</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>10</DB>
+			</Row>
+			<Row><Name>10 %m% - 0.8 %m% x 11 %u%</Name>
+				<m>0.8</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>10</DB>
+			</Row>	
+			<Row><Name>10 %m% - 1 %m% x 8 %u%</Name>
+				<m>1</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>10</DB>
+			</Row>					
+			<Row><Name>10 %m% - 1.25 %m% x 6 %u%</Name>
+				<m>1.25</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>10</DB>
+			</Row>
+			<Row><Name>11 %m% - 0.5 %m% x 20 %u%</Name>
+				<m>0.5</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>11</DB>
+			</Row>
+			<Row><Name>11 %m% - 0.6 %m% x 17 %u%</Name>
+				<m>0.6</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>11</DB>
+			</Row>
+			<Row><Name>11 %m% - 0.75 %m% x 13 %u%</Name>
+				<m>0.75</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>11</DB>
+			</Row>
+			<Row><Name>11 %m% - 0.8 %m% x 12 %u%</Name>
+				<m>0.8</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>11</DB>
+			</Row>	
+			<Row><Name>11 %m% - 1 %m% x 9 %u%</Name>
+				<m>1</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>11</DB>
+			</Row>					
+			<Row><Name>11 %m% - 1.25 %m% x 7 %u%</Name>
+				<m>1.25</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>11</DB>
+			</Row>
+			<Row><Name>12 %m% - 0.5 %m% x 22 %u%</Name>
+				<m>0.5</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>12</DB>
+			</Row>
+			<Row><Name>12 %m% - 0.6 %m% x 18 %u%</Name>
+				<m>0.6</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>12</DB>
+			</Row>
+			<Row><Name>12 %m% - 0.75 %m% x 14 %u%</Name>
+				<m>0.75</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>12</DB>
+			</Row>
+			<Row><Name>12 %m% - 0.8 %m% x 13 %u%</Name>
+				<m>0.8</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>12</DB>
+			</Row>
+			<Row><Name>12 %m% - 1 %m% x 10 %u%</Name>
+				<m>1</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>12</DB>
+			</Row>		
+			<Row><Name>12 %m% - 1.25 %m% x 8 %u%</Name>
+				<m>1.25</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>12</DB>
+			</Row>				
+			<Row><Name>12 %m% - 1.5 %m% x 6 %u%</Name>
+				<m>1.5</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>12</DB>
+			</Row>
+			<Row><Name>13 %m% - 0.5 %m% x 24 %u%</Name>
+				<m>0.5</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>
+			<Row><Name>13 %m% - 0.6 %m% x 20 %u%</Name>
+				<m>0.6</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>	
+			<Row><Name>13 %m% - 0.75 %m% x 16 %u%</Name>
+				<m>0.75</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>	
+			<Row><Name>13 %m% - 0.8 %m% x 15 %u%</Name>
+				<m>0.8</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>		
+			<Row><Name>13 %m% - 1 %m% x 10 %u%</Name>
+				<m>1</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>		
+			<Row><Name>13 %m% - 1.25 %m% x 9 %u%</Name>
+				<m>1.25</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>									
+			<Row><Name>13 %m% - 1.5 %m% x 7 %u%</Name>
+				<m>1.5</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>
+			<Row><Name>13 %m% - 1.75 %m% x 6 %u%</Name>
+				<m>1.75</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>13</DB>
+			</Row>
+			<Row><Name>14 %m% - 0.5 %m% x 26 %u%</Name>
+				<m>0.5</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>
+			<Row><Name>14 %m% - 0.6 %m% x 22 %u%</Name>
+				<m>0.6</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>
+			<Row><Name>14 %m% - 0.75 %m% x 17 %u%</Name>
+				<m>0.75</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>
+			<Row><Name>14 %m% - 0.8 %m% x 16 %u%</Name>
+				<m>0.8</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>
+			<Row><Name>14 %m% - 1 %m% x 12 %u%</Name>
+				<m>1</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>
+			<Row><Name>14 %m% - 1.25 %m% x 10 %u%</Name>
+				<m>1.25</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>			
+			<Row><Name>14 %m% - 1.5 %m% x 8 %u%</Name>
+				<m>1.5</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>
+			<Row><Name>14 %m% - 1.75 %m% x 6 %u%</Name>
+				<m>1.75</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>14</DB>
+			</Row>
+			<Row><Name>15 %m% - 0.5 %m% x 28 %u%</Name>
+				<m>0.5</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>
+			<Row><Name>15 %m% - 0.6 %m% x 23 %u%</Name>
+				<m>0.6</m>
+				<z>23</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>
+			<Row><Name>15 %m% - 0.8 %m% x 17 %u%</Name>
+				<m>0.8</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>
+			<Row><Name>15 %m% - 1 %m% x 13 %u%</Name>
+				<m>1</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>
+			<Row><Name>15 %m% - 1.25 %m% x 10 %u%</Name>
+				<m>1.25</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>
+			<Row><Name>15 %m% - 1.5 %m% x 8 %u%</Name>
+				<m>1.5</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>		
+			<Row><Name>15 %m% - 1.75 %m% x 7 %u%</Name>
+				<m>1.75</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>					
+			<Row><Name>15 %m% - 2 %m% x 6 %u%</Name>
+				<m>2</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>15</DB>
+			</Row>
+			<Row><Name>16 %m% - 0.5 %m% x 30 %u%</Name>
+				<m>0.5</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>16 %m% - 0.6 %m% x 25 %u%</Name>
+				<m>0.6</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>16 %m% - 0.75 %m% x 20 %u%</Name>
+				<m>0.75</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>16 %m% - 0.8 %m% x 18 %u%</Name>
+				<m>0.8</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>			
+			<Row><Name>16 %m% - 1 %m% x 14 %u%</Name>
+				<m>1</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>16 %m% - 1.25 %m% x 11 %u%</Name>
+				<m>1.25</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>16 %m% - 1.5 %m% x 9 %u%</Name>
+				<m>1.5</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>16 %m% - 1.75 %m% x 8 %u%</Name>
+				<m>1.75</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>16 %m% - 2 %m% x 6 %u%</Name>
+				<m>2</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>16</DB>
+			</Row>
+			<Row><Name>17 %m% - 0.5 %m% x 32 %u%</Name>
+				<m>0.5</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>
+			<Row><Name>17 %m% - 0.6 %m% x 27 %u%</Name>
+				<m>0.6</m>
+				<z>27</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>
+			<Row><Name>17 %m% - 0.75 %m% x 21 %u%</Name>
+				<m>0.75</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>	
+			<Row><Name>17 %m% - 0.8 %m% x 20 %u%</Name>
+				<m>0.8</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>					
+			<Row><Name>17 %m% - 1 %m% x 15 %u%</Name>
+				<m>1</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>
+			<Row><Name>17 %m% - 1.25 %m% x 12 %u%</Name>
+				<m>1.25</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>
+			<Row><Name>17 %m% - 1.5 %m% x 10 %u%</Name>
+				<m>1.5</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>
+			<Row><Name>17 %m% - 1.75 %m% x 8 %u%</Name>
+				<m>1.75</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>
+			<Row><Name>17 %m% - 2 %m% x 7 %u%</Name>
+				<m>2</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>17</DB>
+			</Row>
+			<Row><Name>18 %m% - 0.5 %m% x 34 %u%</Name>
+				<m>0.5</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>
+			<Row><Name>18 %m% - 0.6 %m% x 28 %u%</Name>
+				<m>0.6</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>
+			<Row><Name>18 %m% - 0.75 %m% x 22 %u%</Name>
+				<m>0.75</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>	
+			<Row><Name>18 %m% - 0.8 %m% x 21 %u%</Name>
+				<m>0.8</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>					
+			<Row><Name>18 %m% - 1 %m% x 16 %u%</Name>
+				<m>1</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>
+			<Row><Name>18 %m% - 1.25 %m% x 13 %u%</Name>
+				<m>1.25</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>
+			<Row><Name>18 %m% - 1.5 %m% x 10 %u%</Name>
+				<m>1.5</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>
+			<Row><Name>18 %m% - 1.75 %m% x 9 %u%</Name>
+				<m>1.75</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>
+			<Row><Name>18 %m% - 2 %m% x 7 %u%</Name>
+				<m>2</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>18</DB>
+			</Row>
+			<Row><Name>19 %m% - 0.5 %m% x 36 %u%</Name>
+				<m>0.5</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>
+			<Row><Name>19 %m% - 0.6 %m% x 30 %u%</Name>
+				<m>0.6</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>
+			<Row><Name>19 %m% - 0.75 %m% x 24 %u%</Name>
+				<m>0.75</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>
+			<Row><Name>19 %m% - 0.8 %m% x 22 %u%</Name>
+				<m>0.8</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>						
+			<Row><Name>19 %m% - 1 %m% x 17 %u%</Name>
+				<m>1</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>
+			<Row><Name>19 %m% - 1.25 %m% x 14 %u%</Name>
+				<m>1.25</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>
+			<Row><Name>19 %m% - 1.5 %m% x 11 %u%</Name>
+				<m>1.5</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>
+			<Row><Name>19 %m% - 1.75 %m% x 11 %u%</Name>
+				<m>1.75</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>19</DB>
+			</Row>
+			<Row><Name>20 %m% - 0.5 %m% x 38 %u%</Name>
+				<m>0.5</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>20 %m% - 0.6 %m% x 32 %u%</Name>
+				<m>0.6</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>20 %m% - 0.75 %m% x 25 %u%</Name>
+				<m>0.75</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>	
+			<Row><Name>20 %m% - 0.8 %m% x 23 %u%</Name>
+				<m>0.8</m>
+				<z>23</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>					
+			<Row><Name>20 %m% - 0.8 %m% x 24 %u%</Name>
+				<m>0.8</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>20 %m% - 1 %m% x 18 %u%</Name>
+				<m>1</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>20 %m% - 1.25 %m% x 14 %u%</Name>
+				<m>1.25</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>			
+			<Row><Name>20 %m% - 1.5 %m% x 12 %u%</Name>
+				<m>1.5</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>20 %m% - 1.75 %m% x 10 %u%</Name>
+				<m>1.75</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>20 %m% - 2 %m% x 8 %u%</Name>
+				<m>2</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>20 %m% - 2.5 %m% x 6 %u%</Name>
+				<m>2.5</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>20</DB>
+			</Row>
+			<Row><Name>21 %m% - 0.5 %m% x 40 %u%</Name>
+				<m>0.5</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>
+			<Row><Name>21 %m% - 0.6 %m% x 34 %u%</Name>
+				<m>0.6</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>
+			<Row><Name>21 %m% - 0.6 %m% x 34 %u%</Name>
+				<m>0.6</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>	
+			<Row><Name>21 %m% - 0.8 %m% x 25 %u%</Name>
+				<m>0.8</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>					
+			<Row><Name>21 %m% - 1 %m% x 19 %u%</Name>
+				<m>1</m>
+				<z>19</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>
+			<Row><Name>21 %m% - 1.25 %m% x 15 %u%</Name>
+				<m>1.25</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>
+			<Row><Name>21 %m% - 1.5 %m% x 12 %u%</Name>
+				<m>1.5</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>
+			<Row><Name>21 %m% - 1.75 %m% x 10 %u%</Name>
+				<m>1.75</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>21</DB>
+			</Row>
+			<Row><Name>22 %m% - 0.5 %m% x 42 %u%</Name>
+				<m>0.5</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>			
+			<Row><Name>22 %m% - 0.6 %m% x 35 %u%</Name>
+				<m>0.6</m>
+				<z>35</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>	
+			<Row><Name>22 %m% - 0.75 %m% x 28 %u%</Name>
+				<m>0.75</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>
+			<Row><Name>22 %m% - 0.8 %m% x 26 %u%</Name>
+				<m>0.8</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>								
+			<Row><Name>22 %m% - 1 %m% x 20 %u%</Name>
+				<m>1</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>
+			<Row><Name>22 %m% - 1.25 %m% x 16 %u%</Name>
+				<m>1.25</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>
+			<Row><Name>22 %m% - 1.5 %m% x 13 %u%</Name>
+				<m>1.5</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>
+			<Row><Name>22 %m% - 1.75 %m% x 11 %u%</Name>
+				<m>1.75</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>			
+			<Row><Name>22 %m% - 2 %m% x 9 %u%</Name>
+				<m>2</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>
+			<Row><Name>22 %m% - 2.5 %m% x 7 %u%</Name>
+				<m>2.5</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>			
+			<Row><Name>22 %m% - 3 %m% x 6 %u%</Name>
+				<m>3</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>22</DB>
+			</Row>
+			<Row><Name>23 %m% - 0.5 %m% x 44 %u%</Name>
+				<m>0.5</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>			
+			<Row><Name>23 %m% - 0.6 %m% x 37 %u%</Name>
+				<m>0.6</m>
+				<z>37</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>			
+			<Row><Name>23 %m% - 0.75 %m% x 29 %u%</Name>
+				<m>0.75</m>
+				<z>29</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>	
+			<Row><Name>23 %m% - 0.8 %m% x 27 %u%</Name>
+				<m>0.8</m>
+				<z>27</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>					
+			<Row><Name>23 %m% - 1 %m% x 22 %u%</Name>
+				<m>1</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>
+			<Row><Name>23 %m% - 1.25 %m% x 17 %u%</Name>
+				<m>1.25</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>
+			<Row><Name>23 %m% - 1.5 %m% x 14 %u%</Name>
+				<m>1.5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>
+			<Row><Name>23 %m% - 1.75 %m% x 12 %u%</Name>
+				<m>1.75</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>23</DB>
+			</Row>
+			<Row><Name>24 %m% - 0.5 %m% x 46 %u%</Name>
+				<m>0.5</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>
+			<Row><Name>24 %m% - 0.6 %m% x 38 %u%</Name>
+				<m>0.6</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>
+			<Row><Name>24 %m% - 0.75 %m% x 30 %u%</Name>
+				<m>0.75</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>
+			<Row><Name>24 %m% - 0.8 %m% x 28 %u%</Name>
+				<m>0.8</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>			
+			<Row><Name>24 %m% - 1 %m% x 22 %u%</Name>
+				<m>1</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>
+			<Row><Name>24 %m% - 1.25 %m% x 18 %u%</Name>
+				<m>1.25</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>
+			<Row><Name>24 %m% - 1.5 %m% x 14 %u%</Name>
+				<m>1.5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>
+			<Row><Name>24 %m% - 1.75 %m% x 12 %u%</Name>
+				<m>1.75</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>24</DB>
+			</Row>
+			<Row><Name>25 %m% - 0.5 %m% x 48 %u%</Name>
+				<m>0.5</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>
+			<Row><Name>25 %m% - 0.6 %m% x 40 %u%</Name>
+				<m>0.6</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>		
+			<Row><Name>25 %m% - 0.75 %m% x 32 %u%</Name>
+				<m>0.75</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>		
+			<Row><Name>25 %m% - 0.8 %m% x 30 %u%</Name>
+				<m>0.8</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>
+			<Row><Name>25 %m% - 1 %m% x 24 %u%</Name>
+				<m>1</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>											
+			<Row><Name>25 %m% - 1.25 %m% x 18 %u%</Name>
+				<m>1.25</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>
+			<Row><Name>25 %m% - 1.5 %m% x 15 %u%</Name>
+				<m>1.5</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>			
+			<Row><Name>25 %m% - 1.75 %m% x 13 %u%</Name>
+				<m>1.75</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>		
+			<Row><Name>25 %m% - 2 %m% x 11 %u%</Name>
+				<m>2</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>		
+			<Row><Name>25 %m% - 2.5 %m% x 8 %u%</Name>
+				<m>2.5</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>						
+			<Row><Name>25 %m% - 3 %m% x 7 %u%</Name>
+				<m>3</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>25</DB>
+			</Row>
+			<Row><Name>26 %m% - 0.5 %m% x 50 %u%</Name>
+				<m>0.5</m>
+				<z>50</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>
+			<Row><Name>26 %m% - 0.6 %m% x 42 %u%</Name>
+				<m>0.6</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>		
+			<Row><Name>26 %m% - 0.75 %m% x 33 %u%</Name>
+				<m>0.75</m>
+				<z>33</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>		
+			<Row><Name>26 %m% - 0.8 %m% x 31 %u%</Name>
+				<m>0.8</m>
+				<z>31</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>								
+			<Row><Name>26 %m% - 1 %m% x 24 %u%</Name>
+				<m>1</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>
+			<Row><Name>26 %m% - 1.25 %m% x 19 %u%</Name>
+				<m>1.25</m>
+				<z>19</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>
+			<Row><Name>26 %m% - 1.5 %m% x 16 %u%</Name>
+				<m>1.5</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>
+			<Row><Name>26 %m% - 1.75 %m% x 13 %u%</Name>
+				<m>1.75</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>26</DB>
+			</Row>
+			<Row><Name>27 %m% - 0.5 %m% x 52 %u%</Name>
+				<m>0.5</m>
+				<z>52</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>27</DB>
+			</Row>	
+			<Row><Name>27 %m% - 0.6 %m% x 44 %u%</Name>
+				<m>0.6</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>27</DB>
+			</Row>	
+			<Row><Name>27 %m% - 0.6 %m% x 34 %u%</Name>
+				<m>0.6</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>27</DB>
+			</Row>		
+			<Row><Name>27 %m% - 0.8 %m% x 32 %u%</Name>
+				<m>0.8</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>27</DB>
+			</Row>								
+			<Row><Name>27 %m% - 1 %m% x 26 %u%</Name>
+				<m>1</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>27</DB>
+			</Row>
+			<Row><Name>27 %m% - 1.25 %m% x 20 %u%</Name>
+				<m>1.25</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>27</DB>
+			</Row>			
+			<Row><Name>27 %m% - 1.5 %m% x 16 %u%</Name>
+				<m>1.5</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>27</DB>
+			</Row>
+			<Row><Name>28 %m% - 0.5 %m% x 54 %u%</Name>
+				<m>0.5</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>
+			<Row><Name>28 %m% - 0.6 %m% x 45 %u%</Name>
+				<m>0.6</m>
+				<z>45</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>		
+			<Row><Name>28 %m% - 0.75 %m% x 36 %u%</Name>
+				<m>0.75</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>				
+			<Row><Name>28 %m% - 0.8 %m% x 34 %u%</Name>
+				<m>0.8</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>	
+			<Row><Name>28 %m% - 1 %m% x 26 %u%</Name>
+				<m>1</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>
+			<Row><Name>28 %m% - 1.25 %m% x 21 %u%</Name>
+				<m>1.25</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>
+			<Row><Name>28 %m% - 1.5 %m% x 17 %u%</Name>
+				<m>1.5</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>
+			<Row><Name>28 %m% - 1.75 %m% x 17 %u%</Name>
+				<m>1.75</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>	
+			<Row><Name>28 %m% - 2 %m% x 12 %u%</Name>
+				<m>2</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>
+			<Row><Name>28 %m% - 2.5 %m% x 10 %u%</Name>
+				<m>2.5</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>
+			<Row><Name>28 %m% - 3 %m% x 8 %u%</Name>
+				<m>3</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>28</DB>
+			</Row>
+			<Row><Name>29 %m% - 0.5 %m% x 56 %u%</Name>
+				<m>0.5</m>
+				<z>56</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>
+			<Row><Name>29 %m% - 0.6 %m% x 47 %u%</Name>
+				<m>0.6</m>
+				<z>47</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>
+			<Row><Name>29 %m% - 0.75 %m% x 37 %u%</Name>
+				<m>0.75</m>
+				<z>37</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>
+			<Row><Name>29 %m% - 0.8 %m% x 35 %u%</Name>
+				<m>0.8</m>
+				<z>35</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>	
+			<Row><Name>29 %m% - 1 %m% x 28 %u%</Name>
+				<m>1</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>
+			<Row><Name>29 %m% - 1.25 %m% x 22 %u%</Name>
+				<m>1.25</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>
+			<Row><Name>29 %m% - 1.5 %m% x 18 %u%</Name>
+				<m>1.5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>
+			<Row><Name>29 %m% - 1.75 %m% x 15 %u%</Name>
+				<m>1.75</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>29</DB>
+			</Row>
+			<Row><Name>30 %m% - 0.5 %m% x 58 %u%</Name>
+				<m>0.5</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>
+			<Row><Name>30 %m% - 0.6 %m% x 48 %u%</Name>
+				<m>0.6</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>	
+			<Row><Name>30 %m% - 0.75 %m% x 38 %u%</Name>
+				<m>0.75</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>	
+			<Row><Name>30 %m% - 0.8 %m% x 36 %u%</Name>
+				<m>0.8</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>	
+			<Row><Name>30 %m% - 1 %m% x 28 %u%</Name>
+				<m>1</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>
+			<Row><Name>30 %m% - 1.25 %m% x 22 %u%</Name>
+				<m>1.25</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>
+			<Row><Name>30 %m% - 1.5 %m% x 18 %u%</Name>
+				<m>1.5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>	
+			<Row><Name>30 %m% - 1.75 %m% x 16 %u%</Name>
+				<m>1.75</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>	
+			<Row><Name>30 %m% - 2 %m% x 13 %u%</Name>
+				<m>2</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>
+			<Row><Name>30 %m% - 2 %m% x 14 %u%</Name>
+				<m>2</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>
+			<Row><Name>30 %m% - 2.5 %m% x 10 %u%</Name>
+				<m>2.5</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>
+			<Row><Name>30 %m% - 3 %m% x 8 %u%</Name>
+				<m>3</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>30</DB>
+			</Row>
+			<Row><Name>31 %m% - 0.5 %m% x 60 %u%</Name>
+				<m>0.5</m>
+				<z>60</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>31</DB>
+			</Row>		
+			<Row><Name>31 %m% - 0.6 %m% x 50 %u%</Name>
+				<m>0.6</m>
+				<z>50</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>31</DB>
+			</Row>	
+			<Row><Name>31 %m% - 0.8 %m% x 37 %u%</Name>
+				<m>0.8</m>
+				<z>37</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>31</DB>
+			</Row>		
+			<Row><Name>31 %m% - 1 %m% x 30 %u%</Name>
+				<m>1</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>31</DB>
+			</Row>	
+			<Row><Name>31 %m% - 1.25 %m% x 23 %u%</Name>
+				<m>1.25</m>
+				<z>23</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>31</DB>
+			</Row>																	
+			<Row><Name>31 %m% - 1.5 %m% x 19 %u%</Name>
+				<m>1.5</m>
+				<z>19</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>31</DB>
+			</Row>
+			<Row><Name>32 %m% - 0.5 %m% x 62 %u%</Name>
+				<m>0.5</m>
+				<z>62</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>
+			<Row><Name>32 %m% - 0.6 %m% x 52 %u%</Name>
+				<m>0.6</m>
+				<z>52</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>
+			<Row><Name>32 %m% - 0.8 %m% x 38 %u%</Name>
+				<m>0.8</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>
+			<Row><Name>32 %m% - 1 %m% x 30 %u%</Name>
+				<m>1</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>
+			<Row><Name>32 %m% - 1.25 %m% x 24 %u%</Name>
+				<m>1.25</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>			
+			<Row><Name>32 %m% - 1.5 %m% x 20 %u%</Name>
+				<m>1.5</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>			
+			<Row><Name>32 %m% - 2 %m% x 14 %u%</Name>
+				<m>2</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>	
+			<Row><Name>32 %m% - 2.5 %m% x 11 %u%</Name>
+				<m>2.5</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>		
+			<Row><Name>32 %m% - 3 %m% x 9 %u%</Name>
+				<m>3</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>						
+			<Row><Name>32 %m% - 4 %m% x 6 %u%</Name>
+				<m>4</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>32</DB>
+			</Row>
+			<Row><Name>33 %m% - 0.5 %m% x 64 %u%</Name>
+				<m>0.5</m>
+				<z>64</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>33</DB>
+			</Row>
+			<Row><Name>33 %m% - 0.6 %m% x 54 %u%</Name>
+				<m>0.6</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>33</DB>
+			</Row>
+			<Row><Name>33 %m% - 0.8 %m% x 40 %u%</Name>
+				<m>0.8</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>33</DB>
+			</Row>
+			<Row><Name>33 %m% - 1 %m% x 32 %u%</Name>
+				<m>1</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>33</DB>
+			</Row>
+			<Row><Name>33 %m% - 1.25 %m% x 25 %u%</Name>
+				<m>1.25</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>33</DB>
+			</Row>
+			<Row><Name>33 %m% - 1.5 %m% x 20 %u%</Name>
+				<m>1.5</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>33</DB>
+			</Row>
+			<Row><Name>34 %m% - 0.5 %m% x 66 %u%</Name>
+				<m>0.5</m>
+				<z>66</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>34</DB>
+			</Row>
+			<Row><Name>34 %m% - 0.6 %m% x 55 %u%</Name>
+				<m>0.6</m>
+				<z>55</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>34</DB>
+			</Row>
+			<Row><Name>34 %m% - 0.8 %m% x 41 %u%</Name>
+				<m>0.8</m>
+				<z>41</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>34</DB>
+			</Row>
+			<Row><Name>34 %m% - 1 %m% x 32 %u%</Name>
+				<m>1</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>34</DB>
+			</Row>
+			<Row><Name>34 %m% - 1.25 %m% x 26 %u%</Name>
+				<m>1.25</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>34</DB>
+			</Row>
+			<Row><Name>34 %m% - 1.5 %m% x 21 %u%</Name>
+				<m>1.5</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>34</DB>
+			</Row>
+			<Row><Name>35 %m% - 0.5 %m% x 68 %u%</Name>
+				<m>0.5</m>
+				<z>68</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>		
+			<Row><Name>35 %m% - 0.6 %m% x 57 %u%</Name>
+				<m>0.6</m>
+				<z>57</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>35 %m% - 0.8 %m% x 42 %u%</Name>
+				<m>0.8</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>35 %m% - 1 %m% x 34 %u%</Name>
+				<m>1</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>		
+			<Row><Name>35 %m% - 1.25 %m% x 26 %u%</Name>
+				<m>1.25</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>35 %m% - 1.5 %m% x 22 %u%</Name>
+				<m>1.5</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>35 %m% - 2 %m% x 16 %u%</Name>
+				<m>2</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>35 %m% - 2.5 %m% x 12 %u%</Name>
+				<m>2.5</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>35 %m% - 3 %m% x 10 %u%</Name>
+				<m>3</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>35 %m% - 4 %m% x 7 %u%</Name>
+				<m>4</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>35</DB>
+			</Row>
+			<Row><Name>36 %m% - 0.5 %m% x 70 %u%</Name>
+				<m>0.5</m>
+				<z>70</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>36</DB>
+			</Row>
+			<Row><Name>36 %m% - 0.6 %m% x 58 %u%</Name>
+				<m>0.6</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>36</DB>
+			</Row>
+			<Row><Name>36 %m% - 0.8 %m% x 44 %u%</Name>
+				<m>0.8</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>36</DB>
+			</Row>
+			<Row><Name>36 %m% - 1 %m% x 34 %u%</Name>
+				<m>1</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>36</DB>
+			</Row>
+			<Row><Name>36 %m% - 1.25 %m% x 27 %u%</Name>
+				<m>1.25</m>
+				<z>27</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>36</DB>
+			</Row>
+			<Row><Name>36 %m% - 1.5 %m% x 22 %u%</Name>
+				<m>1.5</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>36</DB>
+			</Row>
+			<Row><Name>37 %m% - 0.5 %m% x 72 %u%</Name>
+				<m>0.5</m>
+				<z>72</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 0.6 %m% x 60 %u%</Name>
+				<m>0.6</m>
+				<z>60</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>			
+			<Row><Name>37 %m% - 0.8 %m% x 45 %u%</Name>
+				<m>0.8</m>
+				<z>45</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 1 %m% x 36 %u%</Name>
+				<m>1</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 1.25 %m% x 28 %u%</Name>
+				<m>1.25</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 1.5 %m% x 23 %u%</Name>
+				<m>1.5</m>
+				<z>23</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 2 %m% x 17 %u%</Name>
+				<m>2</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 2.5 %m% x 13 %u%</Name>
+				<m>2.5</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 3 %m% x 11 %u%</Name>
+				<m>3</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>37 %m% - 4 %m% x 8 %u%</Name>
+				<m>4</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>37</DB>
+			</Row>
+			<Row><Name>38 %m% - 0.5 %m% x 74 %u%</Name>
+				<m>0.5</m>
+				<z>74</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 0.6 %m% x 62 %u%</Name>
+				<m>0.6</m>
+				<z>62</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 0.8 %m% x 46 %u%</Name>
+				<m>0.8</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 1 %m% x 36 %u%</Name>
+				<m>1</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 1.25 %m% x 29 %u%</Name>
+				<m>1.25</m>
+				<z>29</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 1.5 %m% x 24 %u%</Name>
+				<m>1.5</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 2 %m% x 18 %u%</Name>
+				<m>2</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 2.5 %m% x 14 %u%</Name>
+				<m>2.5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 3 %m% x 11 %u%</Name>
+				<m>3</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>38 %m% - 4 %m% x 8 %u%</Name>
+				<m>4</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>38</DB>
+			</Row>
+			<Row><Name>39 %m% - 0.5 %m% x 76 %u%</Name>
+				<m>0.5</m>
+				<z>76</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>39</DB>
+			</Row>
+			<Row><Name>39 %m% - 0.6 %m% x 64 %u%</Name>
+				<m>0.6</m>
+				<z>64</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>39</DB>
+			</Row>
+			<Row><Name>39 %m% - 0.8 %m% x 47 %u%</Name>
+				<m>0.8</m>
+				<z>47</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>39</DB>
+			</Row>
+			<Row><Name>39 %m% - 1 %m% x 38 %u%</Name>
+				<m>1</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>39</DB>
+			</Row>
+			<Row><Name>39 %m% - 1.25 %m% x 30 %u%</Name>
+				<m>1.25</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>39</DB>
+			</Row>
+			<Row><Name>39 %m% - 1.5 %m% x 24 %u%</Name>
+				<m>1.5</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>39</DB>
+			</Row>
+			<Row><Name>40 %m% - 0.5 %m% x 78 %u%</Name>
+				<m>0.5</m>
+				<z>78</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 0.6 %m% x 64 %u%</Name>
+				<m>0.6</m>
+				<z>64</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 0.8 %m% x 48 %u%</Name>
+				<m>0.8</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 1 %m% x 38 %u%</Name>
+				<m>1</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 1.25 %m% x 30 %u%</Name>
+				<m>1.25</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 1.5 %m% x 25 %u%</Name>
+				<m>1.5</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 2 %m% x 18 %u%</Name>
+				<m>2</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 2.5 %m% x 14 %u%</Name>
+				<m>2.5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 3 %m% x 12 %u%</Name>
+				<m>3</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 4 %m% x 8 %u%</Name>
+				<m>4</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>40 %m% - 5 %m% x 6 %u%</Name>
+				<m>5</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>40</DB>
+			</Row>
+			<Row><Name>42 %m% - 0.6 %m% x 68 %u%</Name>
+				<m>0.6</m>
+				<z>68</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>42 %m% - 0.8 %m% x 51 %u%</Name>
+				<m>0.8</m>
+				<z>51</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>42 %m% - 1 %m% x 40 %u%</Name>
+				<m>1</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>42 %m% - 1.25 %m% x 32 %u%</Name>
+				<m>1.25</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>42 %m% - 1.5 %m% x 26 %u%</Name>
+				<m>1.5</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>			
+			<Row><Name>42 %m% - 2 %m% x 20 %u%</Name>
+				<m>2</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>			
+			<Row><Name>42 %m% - 2.5 %m% x 15 %u%</Name>
+				<m>2.5</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>42 %m% - 3 %m% x 12 %u%</Name>
+				<m>3</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>42 %m% - 4 %m% x 9 %u%</Name>
+				<m>4</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>42 %m% - 5 %m% x 7 %u%</Name>
+				<m>5</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>42</DB>
+			</Row>
+			<Row><Name>45 %m% - 0.6 %m% x 74 %u%</Name>
+				<m>0.6</m>
+				<z>74</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>
+			<Row><Name>45 %m% - 0.8 %m% x 55 %u%</Name>
+				<m>0.8</m>
+				<z>55</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>
+			<Row><Name>45 %m% - 1 %m% x 44 %u%</Name>
+				<m>1</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>
+			<Row><Name>45 %m% - 1.25 %m% x 34 %u%</Name>
+				<m>1.25</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>			
+			<Row><Name>45 %m% - 1.5 %m% x 28 %u%</Name>
+				<m>1.5</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>
+			<Row><Name>45 %m% - 2 %m% x 21 %u%</Name>
+				<m>2</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>
+			<Row><Name>45 %m% - 2.5 %m% x 16 %u%</Name>
+				<m>2.5</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>			
+			<Row><Name>45 %m% - 3 %m% x 14 %u%</Name>
+				<m>3</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>			
+			<Row><Name>45 %m% - 3 %m% x 13 %u%</Name>
+				<m>3</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>			
+			<Row><Name>45 %m% - 4 %m% x 10 %u%</Name>
+				<m>4</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>			
+			<Row><Name>45 %m% - 5 %m% x 7 %u%</Name>
+				<m>5</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>45</DB>
+			</Row>
+			<Row><Name>47 %m% - 0.6 %m% x 76 %u%</Name>
+				<m>0.6</m>
+				<z>76</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 0.8 %m% x 57 %u%</Name>
+				<m>0.8</m>
+				<z>57</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 1 %m% x 46 %u%</Name>
+				<m>1</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 1.25 %m% x 36 %u%</Name>
+				<m>1.25</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 1.5 %m% x 30 %u%</Name>
+				<m>1.5</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>		
+			<Row><Name>47 %m% - 2 %m% x 22 %u%</Name>
+				<m>2</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 2.5 %m% x 17 %u%</Name>
+				<m>2.5</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 3 %m% x 14 %u%</Name>
+				<m>3</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 4 %m% x 10 %u%</Name>
+				<m>4</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>47 %m% - 5 %m% x 8 %u%</Name>
+				<m>5</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>47</DB>
+			</Row>
+			<Row><Name>48 %m% - 0.6 %m% x 78 %u%</Name>
+				<m>0.6</m>
+				<z>78</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>48 %m% - 0.8 %m% x 58 %u%</Name>
+				<m>0.8</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>			
+			<Row><Name>48 %m% - 1 %m% x 46 %u%</Name>
+				<m>1</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>48 %m% - 1.25 %m% x 37 %u%</Name>
+				<m>1.25</m>
+				<z>37</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>48 %m% - 1.5 %m% x 30 %u%</Name>
+				<m>1.5</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>48 %m% - 2 %m% x 22 %u%</Name>
+				<m>2</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>			
+			<Row><Name>48 %m% - 2.5 %m% x 18 %u%</Name>
+				<m>2.5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>			
+			<Row><Name>48 %m% - 3 %m% x 14 %u%</Name>
+				<m>3</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>48 %m% - 4 %m% x 10 %u%</Name>
+				<m>4</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>48 %m% - 5 %m% x 8 %u%</Name>
+				<m>5</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>48 %m% - 6 %m% x 6 %u%</Name>
+				<m>6</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>48</DB>
+			</Row>
+			<Row><Name>50 %m% - 0.8 %m% x 60 %u%</Name>
+				<m>0.8</m>
+				<z>60</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>			
+			<Row><Name>50 %m% - 1 %m% x 48 %u%</Name>
+				<m>1</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 1.25 %m% x 38 %u%</Name>
+				<m>1.25</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 1.5 %m% x 32 %u%</Name>
+				<m>1.5</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 2 %m% x 24 %u%</Name>
+				<m>2</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 2.5 %m% x 18 %u%</Name>
+				<m>2.5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 3 %m% x 15 %u%</Name>
+				<m>3</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 4 %m% x 11 %u%</Name>
+				<m>4</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 5 %m% x 8 %u%</Name>
+				<m>5</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>50 %m% - 6 %m% x 7 %u%</Name>
+				<m>6</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>50</DB>
+			</Row>
+			<Row><Name>52 %m% - 0.8 %m% x 64 %u%</Name>
+				<m>0.8</m>
+				<z>64</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 1 %m% x 50 %u%</Name>
+				<m>1</m>
+				<z>50</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 1.25 %m% x 40 %u%</Name>
+				<m>1.25</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 1.5 %m% x 33 %u%</Name>
+				<m>1.5</m>
+				<z>33</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 2 %m% x 24 %u%</Name>
+				<m>2</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 2.5 %m% x 19 %u%</Name>
+				<m>2.5</m>
+				<z>19</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 3 %m% x 16 %u%</Name>
+				<m>3</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 4 %m% x 11 %u%</Name>
+				<m>4</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 5 %m% x 9 %u%</Name>
+				<m>5</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>52 %m% - 6 %m% x 7 %u%</Name>
+				<m>6</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>52</DB>
+			</Row>
+			<Row><Name>55 %m% - 0.8 %m% x 66 %u%</Name>
+				<m>0.8</m>
+				<z>66</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 1 %m% x 54 %u%</Name>
+				<m>1</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 1.25 %m% x 42 %u%</Name>
+				<m>1.25</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 1.5 %m% x 35 %u%</Name>
+				<m>1.5</m>
+				<z>35</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 2 %m% x 26 %u%</Name>
+				<m>2</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 2.5 %m% x 20 %u%</Name>
+				<m>2.5</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 3 %m% x 17 %u%</Name>
+				<m>3</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 4 %m% x 12 %u%</Name>
+				<m>4</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 5 %m% x 9 %u%</Name>
+				<m>5</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>55 %m% - 6 %m% x 8 %u%</Name>
+				<m>6</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>55</DB>
+			</Row>
+			<Row><Name>58 %m% - 0.8 %m% x 70 %u%</Name>
+				<m>0.8</m>
+				<z>70</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 1 %m% x 56 %u%</Name>
+				<m>1</m>
+				<z>56</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 1.25 %m% x 45 %u%</Name>
+				<m>1.25</m>
+				<z>45</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 1.5 %m% x 37 %u%</Name>
+				<m>1.5</m>
+				<z>37</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 2 %m% x 28 %u%</Name>
+				<m>2</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>			
+			<Row><Name>58 %m% - 2.5 %m% x 22 %u%</Name>
+				<m>2.5</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 3 %m% x 18 %u%</Name>
+				<m>3</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 4 %m% x 13 %u%</Name>
+				<m>4</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 5 %m% x 10 %u%</Name>
+				<m>5</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>58 %m% - 6 %m% x 8 %u%</Name>
+				<m>6</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>58</DB>
+			</Row>
+			<Row><Name>60 %m% - 0.8 %m% x 74 %u%</Name>
+				<m>0.8</m>
+				<z>74</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 1 %m% x 58 %u%</Name>
+				<m>1</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 1.25 %m% x 46 %u%</Name>
+				<m>1.25</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 1.5 %m% x 38 %u%</Name>
+				<m>1.5</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 2 %m% x 28 %u%</Name>
+				<m>2</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 2.5 %m% x 22 %u%</Name>
+				<m>2.5</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 3 %m% x 18 %u%</Name>
+				<m>3</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 4 %m% x 14 %u%</Name>
+				<m>4</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 4 %m% x 13 %u%</Name>
+				<m>4</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 5 %m% x 10 %u%</Name>
+				<m>5</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 6 %m% x 8 %u%</Name>
+				<m>6</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>60 %m% - 8 %m% x 6 %u%</Name>
+				<m>8</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>60</DB>
+			</Row>
+			<Row><Name>62 %m% - 1.25 %m% x 48 %u%</Name>
+				<m>1.25</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>62 %m% - 1.5 %m% x 40 %u%</Name>
+				<m>1.5</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>62 %m% - 2 %m% x 30 %u%</Name>
+				<m>2</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>62 %m% - 2.5 %m% x 23 %u%</Name>
+				<m>2.5</m>
+				<z>23</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>62 %m% - 3 %m% x 19 %u%</Name>
+				<m>3</m>
+				<z>19</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>62 %m% - 4 %m% x 14 %u%</Name>
+				<m>4</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>62 %m% - 5 %m% x 11 %u%</Name>
+				<m>5</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>62 %m% - 6 %m% x 9 %u%</Name>
+				<m>6</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>62</DB>
+			</Row>
+			<Row><Name>65 %m% - 1.25 %m% x 50 %u%</Name>
+				<m>1.25</m>
+				<z>50</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 1.5 %m% x 42 %u%</Name>
+				<m>1.5</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 2 %m% x 31 %u%</Name>
+				<m>2</m>
+				<z>31</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 2.5 %m% x 24 %u%</Name>
+				<m>2.5</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 3 %m% x 20 %u%</Name>
+				<m>3</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 4 %m% x 15 %u%</Name>
+				<m>4</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 5 %m% x 11 %u%</Name>
+				<m>5</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 6 %m% x 9 %u%</Name>
+				<m>6</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>65 %m% - 8 %m% x 7 %u%</Name>
+				<m>8</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>65</DB>
+			</Row>
+			<Row><Name>68 %m% - 1.25 %m% x 53 %u%</Name>
+				<m>1.25</m>
+				<z>53</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 1.5 %m% x 44 %u%</Name>
+				<m>1.5</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 2 %m% x 32 %u%</Name>
+				<m>2</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 2.5 %m% x 26 %u%</Name>
+				<m>2.5</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 3 %m% x 21 %u%</Name>
+				<m>3</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 4 %m% x 16 %u%</Name>
+				<m>4</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 4 %m% x 15 %u%</Name>
+				<m>4</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 5 %m% x 12 %u%</Name>
+				<m>5</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>68 %m% - 6 %m% x 10 %u%</Name>
+				<m>6</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>68</DB>
+			</Row>
+			<Row><Name>70 %m% - 1.25 %m% x 54 %u%</Name>
+				<m>1.25</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 1.5 %m% x 45 %u%</Name>
+				<m>1.5</m>
+				<z>45</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 2 %m% x 34 %u%</Name>
+				<m>2</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 2.5 %m% x 26 %u%</Name>
+				<m>2.5</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 3 %m% x 22 %u%</Name>
+				<m>3</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 4 %m% x 16 %u%</Name>
+				<m>4</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 5 %m% x 12 %u%</Name>
+				<m>5</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 6 %m% x 10 %u%</Name>
+				<m>6</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>70 %m% - 8 %m% x 7 %u%</Name>
+				<m>8</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>70</DB>
+			</Row>
+			<Row><Name>72 %m% - 1.25 %m% x 56 %u%</Name>
+				<m>1.25</m>
+				<z>56</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>72 %m% - 1.5 %m% x 46 %u%</Name>
+				<m>1.5</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>72 %m% - 2 %m% x 34 %u%</Name>
+				<m>2</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>72 %m% - 2.5 %m% x 27 %u%</Name>
+				<m>2.5</m>
+				<z>27</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>72 %m% - 3 %m% x 22 %u%</Name>
+				<m>3</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>72 %m% - 4 %m% x 16 %u%</Name>
+				<m>4</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>72 %m% - 5 %m% x 13 %u%</Name>
+				<m>5</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>72 %m% - 6 %m% x 10 %u%</Name>
+				<m>6</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>72</DB>
+			</Row>
+			<Row><Name>75 %m% - 1.25 %m% x 58 %u%</Name>
+				<m>1.25</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 1.5 %m% x 48 %u%</Name>
+				<m>1.5</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 2 %m% x 36 %u%</Name>
+				<m>2</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 2.5 %m% x 28 %u%</Name>
+				<m>2.5</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 3 %m% x 24 %u%</Name>
+				<m>3</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 4 %m% x 17 %u%</Name>
+				<m>4</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 5 %m% x 14 %u%</Name>
+				<m>5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 5 %m% x 13 %u%</Name>
+				<m>5</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 6 %m% x 11 %u%</Name>
+				<m>6</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>75 %m% - 8 %m% x 8 %u%</Name>
+				<m>8</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>75</DB>
+			</Row>
+			<Row><Name>78 %m% - 1.25 %m% x 60 %u%</Name>
+				<m>1.25</m>
+				<z>60</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 1.5 %m% x 50 %u%</Name>
+				<m>1.5</m>
+				<z>50</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 2 %m% x 38 %u%</Name>
+				<m>2</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 2.5 %m% x 30 %u%</Name>
+				<m>2.5</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 3 %m% x 24 %u%</Name>
+				<m>3</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 4 %m% x 18 %u%</Name>
+				<m>4</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 5 %m% x 14 %u%</Name>
+				<m>5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 6 %m% x 12 %u%</Name>
+				<m>6</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>78 %m% - 6 %m% x 11 %u%</Name>
+				<m>6</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>78</DB>
+			</Row>
+			<Row><Name>80 %m% - 1.25 %m% x 62 %u%</Name>
+				<m>1.25</m>
+				<z>62</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 1.5 %m% x 52 %u%</Name>
+				<m>1.5</m>
+				<z>52</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 2 %m% x 38 %u%</Name>
+				<m>2</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 2.5 %m% x 30 %u%</Name>
+				<m>2.5</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 3 %m% x 25 %u%</Name>
+				<m>3</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 4 %m% x 18 %u%</Name>
+				<m>4</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 5 %m% x 14 %u%</Name>
+				<m>5</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 6 %m% x 12 %u%</Name>
+				<m>6</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 8 %m% x 8 %u%</Name>
+				<m>8</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>80 %m% - 10 %m% x 6 %u%</Name>
+				<m>10</m>
+				<z>6</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>80</DB>
+			</Row>
+			<Row><Name>82 %m% - 1.5 %m% x 53 %u%</Name>
+				<m>1.5</m>
+				<z>53</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>82</DB>
+			</Row>
+			<Row><Name>82 %m% - 2 %m% x 40 %u%</Name>
+				<m>2</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>82</DB>
+			</Row>
+			<Row><Name>82 %m% - 2.5 %m% x 31 %u%</Name>
+				<m>2.5</m>
+				<z>31</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>82</DB>
+			</Row>
+			<Row><Name>82 %m% - 3 %m% x 26 %u%</Name>
+				<m>3</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>82</DB>
+			</Row>
+			<Row><Name>82 %m% - 4 %m% x 19 %u%</Name>
+				<m>4</m>
+				<z>19</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>82</DB>
+			</Row>
+			<Row><Name>82 %m% - 5 %m% x 15 %u%</Name>
+				<m>5</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>82</DB>
+			</Row>
+			<Row><Name>82 %m% - 6 %m% x 12 %u%</Name>
+				<m>6</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>82</DB>
+			</Row>
+			<Row><Name>85 %m% - 1.5 %m% x 55 %u%</Name>
+				<m>1.5</m>
+				<z>55</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 2 %m% x 41 %u%</Name>
+				<m>2</m>
+				<z>41</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 2.5 %m% x 32 %u%</Name>
+				<m>2.5</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 3 %m% x 27 %u%</Name>
+				<m>3</m>
+				<z>27</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 4 %m% x 20 %u%</Name>
+				<m>4</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>			
+			<Row><Name>85 %m% - 5 %m% x 16 %u%</Name>
+				<m>5</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 5 %m% x 15 %u%</Name>
+				<m>5</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 6 %m% x 13 %u%</Name>
+				<m>6</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 8 %m% x 9 %u%</Name>
+				<m>8</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>85 %m% - 10 %m% x 7 %u%</Name>
+				<m>10</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>85</DB>
+			</Row>
+			<Row><Name>88 %m% - 1.5 %m% x 57 %u%</Name>
+				<m>1.5</m>
+				<z>57</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>88</DB>
+			</Row>
+			<Row><Name>88 %m% - 2 %m% x 42 %u%</Name>
+				<m>2</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>88</DB>
+			</Row>
+			<Row><Name>88 %m% - 2.5 %m% x 34 %u%</Name>
+				<m>2.5</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>88</DB>
+			</Row>
+			<Row><Name>88 %m% - 3 %m% x 28 %u%</Name>
+				<m>3</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>88</DB>
+			</Row>
+			<Row><Name>88 %m% - 4 %m% x 20 %u%</Name>
+				<m>4</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>88</DB>
+			</Row>
+			<Row><Name>88 %m% - 5 %m% x 16 %u%</Name>
+				<m>5</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>88</DB>
+			</Row>
+			<Row><Name>88 %m% - 6 %m% x 13 %u%</Name>
+				<m>6</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>88</DB>
+			</Row>
+			<Row><Name>90 %m% - 1.5 %m% x 58 %u%</Name>
+				<m>1.5</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 2 %m% x 44 %u%</Name>
+				<m>2</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 2.5 %m% x 34 %u%</Name>
+				<m>2.5</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 3 %m% x 28 %u%</Name>
+				<m>3</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 4 %m% x 21 %u%</Name>
+				<m>4</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>			
+			<Row><Name>90 %m% - 5 %m% x 16 %u%</Name>
+				<m>5</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 6 %m% x 14 %u%</Name>
+				<m>6</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 6 %m% x 13 %u%</Name>
+				<m>6</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 8 %m% x 10 %u%</Name>
+				<m>8</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>90 %m% - 10 %m% x 7 %u%</Name>
+				<m>10</m>
+				<z>7</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>90</DB>
+			</Row>
+			<Row><Name>92 %m% - 1.5 %m% x 60 %u%</Name>
+				<m>1.5</m>
+				<z>60</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>92</DB>
+			</Row>
+			<Row><Name>92 %m% - 2 %m% x 44 %u%</Name>
+				<m>2</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>92</DB>
+			</Row>
+			<Row><Name>92 %m% - 2.5 %m% x 35 %u%</Name>
+				<m>2.5</m>
+				<z>35</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>92</DB>
+			</Row>
+			<Row><Name>92 %m% - 3 %m% x 29 %u%</Name>
+				<m>3</m>
+				<z>29</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>92</DB>
+			</Row>
+			<Row><Name>92 %m% - 4 %m% x 22 %u%</Name>
+				<m>4</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>92</DB>
+			</Row>
+			<Row><Name>92 %m% - 5 %m% x 17 %u%</Name>
+				<m>5</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>92</DB>
+			</Row>
+			<Row><Name>92 %m% - 6 %m% x 14 %u%</Name>
+				<m>6</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>92</DB>
+			</Row>
+			<Row><Name>95 %m% - 1.5 %m% x 62 %u%</Name>
+				<m>1.5</m>
+				<z>62</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 2 %m% x 46 %u%</Name>
+				<m>2</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 2.5 %m% x 36 %u%</Name>
+				<m>2.5</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 3 %m% x 30 %u%</Name>
+				<m>3</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 4 %m% x 22 %u%</Name>
+				<m>4</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 5 %m% x 18 %u%</Name>
+				<m>5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 6 %m% x 14 %u%</Name>
+				<m>6</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 8 %m% x 10 %u%</Name>
+				<m>8</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>
+			<Row><Name>95 %m% - 10 %m% x 8 %u%</Name>
+				<m>10</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>95</DB>
+			</Row>			
+			<Row><Name>98 %m% - 1.5 %m% x 64 %u%</Name>
+				<m>1.5</m>
+				<z>64</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>98</DB>
+			</Row>
+			<Row><Name>98 %m% - 2 %m% x 48 %u%</Name>
+				<m>2</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>98</DB>
+			</Row>
+			<Row><Name>98 %m% - 2.5 %m% x 38 %u%</Name>
+				<m>2.5</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>98</DB>
+			</Row>
+			<Row><Name>98 %m% - 3 %m% x 31 %u%</Name>
+				<m>3</m>
+				<z>31</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>98</DB>
+			</Row>
+			<Row><Name>98 %m% - 4 %m% x 23 %u%</Name>
+				<m>4</m>
+				<z>23</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>98</DB>
+			</Row>
+			<Row><Name>98 %m% - 5 %m% x 18 %u%</Name>
+				<m>5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>98</DB>
+			</Row>
+			<Row><Name>98 %m% - 6 %m% x 15 %u%</Name>
+				<m>6</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>98</DB>
+			</Row>
+			<Row><Name>100 %m% - 1.5 %m% x 64 %u%</Name>
+				<m>1.5</m>
+				<z>64</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 2 %m% x 48 %u%</Name>
+				<m>2</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 2.5 %m% x 38 %u%</Name>
+				<m>2.5</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 3 %m% x 32 %u%</Name>
+				<m>3</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 4 %m% x 24 %u%</Name>
+				<m>4</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 5 %m% x 18 %u%</Name>
+				<m>5</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 6 %m% x 15 %u%</Name>
+				<m>6</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 8 %m% x 11 %u%</Name>
+				<m>8</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>100 %m% - 10 %m% x 8 %u%</Name>
+				<m>10</m>
+				<z>8</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>100</DB>
+			</Row>
+			<Row><Name>105 %m% - 1.5 %m% x 68 %u%</Name>
+				<m>1.5</m>
+				<z>68</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 2 %m% x 51 %u%</Name>
+				<m>2</m>
+				<z>51</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 2.5 %m% x 40 %u%</Name>
+				<m>2.5</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 3 %m% x 34 %u%</Name>
+				<m>3</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 4 %m% x 25 %u%</Name>
+				<m>4</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 5 %m% x 20 %u%</Name>
+				<m>5</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 6 %m% x 16 %u%</Name>
+				<m>6</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 8 %m% x 12 %u%</Name>
+				<m>8</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>105 %m% - 10 %m% x 9 %u%</Name>
+				<m>10</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>105</DB>
+			</Row>
+			<Row><Name>110 %m% - 1.5 %m% x 72 %u%</Name>
+				<m>1.5</m>
+				<z>72</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 2 %m% x 54 %u%</Name>
+				<m>2</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 2.5 %m% x 42 %u%</Name>
+				<m>2.5</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 3 %m% x 35 %u%</Name>
+				<m>3</m>
+				<z>35</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 4 %m% x 26 %u%</Name>
+				<m>4</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 5 %m% x 20 %u%</Name>
+				<m>5</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 6 %m% x 17 %u%</Name>
+				<m>6</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 8 %m% x 12 %u%</Name>
+				<m>8</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>110 %m% - 10 %m% x 9 %u%</Name>
+				<m>10</m>
+				<z>9</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>110</DB>
+			</Row>
+			<Row><Name>120 %m% - 2 %m% x 58 %u%</Name>
+				<m>2</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 2.5 %m% x 46 %u%</Name>
+				<m>2.5</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 3 %m% x 38 %u%</Name>
+				<m>3</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 4 %m% x 28 %u%</Name>
+				<m>4</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 5 %m% x 22 %u%</Name>
+				<m>5</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 6 %m% x 18 %u%</Name>
+				<m>6</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 8 %m% x 14 %u%</Name>
+				<m>8</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 8 %m% x 13 %u%</Name>
+				<m>8</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>120 %m% - 10 %m% x 10 %u%</Name>
+				<m>10</m>
+				<z>10</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>120</DB>
+			</Row>
+			<Row><Name>130 %m% - 2 %m% x 64 %u%</Name>
+				<m>2</m>
+				<z>64</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>130 %m% - 2.5 %m% x 50 %u%</Name>
+				<m>2.5</m>
+				<z>50</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>130 %m% - 3 %m% x 42 %u%</Name>
+				<m>3</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>130 %m% - 4 %m% x 31 %u%</Name>
+				<m>4</m>
+				<z>31</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>			
+			<Row><Name>130 %m% - 5 %m% x 24 %u%</Name>
+				<m>5</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>130 %m% - 6 %m% x 20 %u%</Name>
+				<m>6</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>130 %m% - 8 %m% x 15 %u%</Name>
+				<m>8</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>130 %m% - 10 %m% x 12 %u%</Name>
+				<m>10</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>130 %m% - 10 %m% x 11 %u%</Name>
+				<m>10</m>
+				<z>11</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>130</DB>
+			</Row>
+			<Row><Name>140 %m% - 2 %m% x 68 %u%</Name>
+				<m>2</m>
+				<z>68</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>140 %m% - 2.5 %m% x 54 %u%</Name>
+				<m>2.5</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>140 %m% - 3 %m% x 45 %u%</Name>
+				<m>3</m>
+				<z>45</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>140 %m% - 4 %m% x 34 %u%</Name>
+				<m>4</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>140 %m% - 5 %m% x 26 %u%</Name>
+				<m>5</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>140 %m% - 6 %m% x 22 %u%</Name>
+				<m>6</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>140 %m% - 8 %m% x 16 %u%</Name>
+				<m>8</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>140 %m% - 10 %m% x 12 %u%</Name>
+				<m>10</m>
+				<z>12</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>140</DB>
+			</Row>
+			<Row><Name>150 %m% - 2 %m% x 74 %u%</Name>
+				<m>2</m>
+				<z>74</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 2.5 %m% x 58 %u%</Name>
+				<m>2.5</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 3 %m% x 48 %u%</Name>
+				<m>3</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 4 %m% x 36 %u%</Name>
+				<m>4</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 5 %m% x 28 %u%</Name>
+				<m>5</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 6 %m% x 24 %u%</Name>
+				<m>6</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 8 %m% x 17 %u%</Name>
+				<m>8</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 10 %m% x 14 %u%</Name>
+				<m>10</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>150 %m% - 10 %m% x 13 %u%</Name>
+				<m>10</m>
+				<z>13</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>150</DB>
+			</Row>
+			<Row><Name>160 %m% - 3 %m% x 52 %u%</Name>
+				<m>3</m>
+				<z>52</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>160</DB>
+			</Row>			
+			<Row><Name>160 %m% - 4 %m% x 38 %u%</Name>
+				<m>4</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>160</DB>
+			</Row>
+			<Row><Name>160 %m% - 5 %m% x 30 %u%</Name>
+				<m>5</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>160</DB>
+			</Row>
+			<Row><Name>160 %m% - 6 %m% x 25 %u%</Name>
+				<m>6</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>160</DB>
+			</Row>
+			<Row><Name>160 %m% - 8 %m% x 18 %u%</Name>
+				<m>8</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>160</DB>
+			</Row>
+			<Row><Name>160 %m% - 10 %m% x 14 %u%</Name>
+				<m>10</m>
+				<z>14</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>160</DB>
+			</Row>
+			<Row><Name>170 %m% - 3 %m% x 55 %u%</Name>
+				<m>3</m>
+				<z>55</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>170</DB>
+			</Row>
+			<Row><Name>170 %m% - 4 %m% x 41 %u%</Name>
+				<m>4</m>
+				<z>41</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>170</DB>
+			</Row>
+			<Row><Name>170 %m% - 5 %m% x 32 %u%</Name>
+				<m>5</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>170</DB>
+			</Row>			
+			<Row><Name>170 %m% - 6 %m% x 27 %u%</Name>
+				<m>6</m>
+				<z>27</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>170</DB>
+			</Row>
+			<Row><Name>170 %m% - 8 %m% x 20 %u%</Name>
+				<m>8</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>170</DB>
+			</Row>
+			<Row><Name>170 %m% - 10 %m% x 16 %u%</Name>
+				<m>10</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>170</DB>
+			</Row>
+			<Row><Name>170 %m% - 10 %m% x 15 %u%</Name>
+				<m>10</m>
+				<z>15</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>170</DB>
+			</Row>
+			<Row><Name>180 %m% - 3 %m% x 58 %u%</Name>
+				<m>3</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>180</DB>
+			</Row>
+			<Row><Name>180 %m% - 4 %m% x 44 %u%</Name>
+				<m>4</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>180</DB>
+			</Row>
+			<Row><Name>180 %m% - 5 %m% x 34 %u%</Name>
+				<m>5</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>180</DB>
+			</Row>
+			<Row><Name>180 %m% - 6 %m% x 28 %u%</Name>
+				<m>6</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>180</DB>
+			</Row>
+			<Row><Name>180 %m% - 8 %m% x 21 %u%</Name>
+				<m>8</m>
+				<z>21</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>180</DB>
+			</Row>
+			<Row><Name>180 %m% - 10 %m% x 16 %u%</Name>
+				<m>10</m>
+				<z>16</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>180</DB>
+			</Row>
+			<Row><Name>190 %m% - 3 %m% x 62 %u%</Name>
+				<m>3</m>
+				<z>62</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>190</DB>
+			</Row>
+			<Row><Name>190 %m% - 4 %m% x 46 %u%</Name>
+				<m>4</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>190</DB>
+			</Row>			
+			<Row><Name>190 %m% - 5 %m% x 36 %u%</Name>
+				<m>5</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>190</DB>
+			</Row>
+			<Row><Name>190 %m% - 6 %m% x 30 %u%</Name>
+				<m>6</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>190</DB>
+			</Row>
+			<Row><Name>190 %m% - 8 %m% x 22 %u%</Name>
+				<m>8</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>190</DB>
+			</Row>
+			<Row><Name>190 %m% - 10 %m% x 18 %u%</Name>
+				<m>10</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>190</DB>
+			</Row>
+			<Row><Name>190 %m% - 10 %m% x 17 %u%</Name>
+				<m>10</m>
+				<z>17</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>190</DB>
+			</Row>
+			<Row><Name>200 %m% - 3 %m% x 65 %u%</Name>
+				<m>3</m>
+				<z>65</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>200</DB>
+			</Row>
+			<Row><Name>200 %m% - 4 %m% x 48 %u%</Name>
+				<m>4</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>200</DB>
+			</Row>
+			<Row><Name>200 %m% - 5 %m% x 38 %u%</Name>
+				<m>5</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>200</DB>
+			</Row>
+			<Row><Name>200 %m% - 6 %m% x 32 %u%</Name>
+				<m>6</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>200</DB>
+			</Row>
+			<Row><Name>200 %m% - 8 %m% x 24 %u%</Name>
+				<m>8</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>200</DB>
+			</Row>
+			<Row><Name>200 %m% - 10 %m% x 18 %u%</Name>
+				<m>10</m>
+				<z>18</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>200</DB>
+			</Row>
+			<Row><Name>210 %m% - 3 %m% x 69 %u%</Name>
+				<m>3</m>
+				<z>69</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>210</DB>
+			</Row>
+			<Row><Name>210 %m% - 3 %m% x 68 %u%</Name>
+				<m>3</m>
+				<z>68</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>210</DB>
+			</Row>
+			<Row><Name>210 %m% - 4 %m% x 51 %u%</Name>
+				<m>4</m>
+				<z>51</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>210</DB>
+			</Row>
+			<Row><Name>210 %m% - 5 %m% x 40 %u%</Name>
+				<m>5</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>210</DB>
+			</Row>
+			<Row><Name>210 %m% - 6 %m% x 34 %u%</Name>
+				<m>6</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>210</DB>
+			</Row>
+			<Row><Name>210 %m% - 8 %m% x 25 %u%</Name>
+				<m>8</m>
+				<z>25</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>210</DB>
+			</Row>
+			<Row><Name>210 %m% - 10 %m% x 20 %u%</Name>
+				<m>10</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>210</DB>
+			</Row>
+			<Row><Name>240 %m% - 5 %m% x 46 %u%</Name>
+				<m>5</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>240</DB>
+			</Row>
+			<Row><Name>240 %m% - 6 %m% x 38 %u%</Name>
+				<m>6</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>240</DB>
+			</Row>
+			<Row><Name>240 %m% - 8 %m% x 28 %u%</Name>
+				<m>8</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>240</DB>
+			</Row>
+			<Row><Name>240 %m% - 10 %m% x 22 %u%</Name>
+				<m>10</m>
+				<z>22</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>240</DB>
+			</Row>
+			<Row><Name>220 %m% - 5 %m% x 42 %u%</Name>
+				<m>5</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>220</DB>
+			</Row>
+			<Row><Name>220 %m% - 6 %m% x 35 %u%</Name>
+				<m>6</m>
+				<z>35</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>220</DB>
+			</Row>
+			<Row><Name>220 %m% - 8 %m% x 26 %u%</Name>
+				<m>8</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>220</DB>
+			</Row>
+			<Row><Name>220 %m% - 10 %m% x 20 %u%</Name>
+				<m>10</m>
+				<z>20</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>220</DB>
+			</Row>
+			<Row><Name>250 %m% - 5 %m% x 48 %u%</Name>
+				<m>5</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>250</DB>
+			</Row>
+			<Row><Name>250 %m% - 6 %m% x 40 %u%</Name>
+				<m>6</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>250</DB>
+			</Row>
+			<Row><Name>250 %m% - 8 %m% x 30 %u%</Name>
+				<m>8</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>250</DB>
+			</Row>
+			<Row><Name>250 %m% - 10 %m% x 24 %u%</Name>
+				<m>10</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>250</DB>
+			</Row>
+			<Row><Name>260 %m% - 5 %m% x 50 %u%</Name>
+				<m>5</m>
+				<z>50</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>260</DB>
+			</Row>
+			<Row><Name>260 %m% - 6 %m% x 42 %u%</Name>
+				<m>6</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>260</DB>
+			</Row>
+			<Row><Name>260 %m% - 8 %m% x 31 %u%</Name>
+				<m>8</m>
+				<z>31</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>260</DB>
+			</Row>
+			<Row><Name>260 %m% - 10 %m% x 24 %u%</Name>
+				<m>10</m>
+				<z>24</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>260</DB>
+			</Row>
+			<Row><Name>280 %m% - 5 %m% x 54 %u%</Name>
+				<m>5</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>280</DB>
+			</Row>
+			<Row><Name>280 %m% - 6 %m% x 45 %u%</Name>
+				<m>6</m>
+				<z>45</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>280</DB>
+			</Row>
+			<Row><Name>280 %m% - 8 %m% x 34 %u%</Name>
+				<m>8</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>280</DB>
+			</Row>
+			<Row><Name>280 %m% - 10 %m% x 26 %u%</Name>
+				<m>10</m>
+				<z>26</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>280</DB>
+			</Row>
+			<Row><Name>300 %m% - 5 %m% x 58 %u%</Name>
+				<m>5</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>300</DB>
+			</Row>
+			<Row><Name>300 %m% - 6 %m% x 48 %u%</Name>
+				<m>6</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>300</DB>
+			</Row>
+			<Row><Name>300 %m% - 8 %m% x 36 %u%</Name>
+				<m>8</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>300</DB>
+			</Row>
+			<Row><Name>300 %m% - 10 %m% x 28 %u%</Name>
+				<m>10</m>
+				<z>28</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>300</DB>
+			</Row>
+			<Row><Name>320 %m% - 5 %m% x 62 %u%</Name>
+				<m>5</m>
+				<z>62</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>320</DB>
+			</Row>
+			<Row><Name>320 %m% - 6 %m% x 52 %u%</Name>
+				<m>6</m>
+				<z>52</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>320</DB>
+			</Row>
+			<Row><Name>320 %m% - 8 %m% x 38 %u%</Name>
+				<m>8</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>320</DB>
+			</Row>
+			<Row><Name>320 %m% - 10 %m% x 30 %u%</Name>
+				<m>10</m>
+				<z>30</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>320</DB>
+			</Row>
+			<Row><Name>340 %m% - 6 %m% x 55 %u%</Name>
+				<m>6</m>
+				<z>55</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>340</DB>
+			</Row>
+			<Row><Name>340 %m% - 8 %m% x 41 %u%</Name>
+				<m>8</m>
+				<z>41</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>340</DB>
+			</Row>
+			<Row><Name>340 %m% - 10 %m% x 32 %u%</Name>
+				<m>10</m>
+				<z>32</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>340</DB>
+			</Row>
+			<Row><Name>380 %m% - 10 %m% x 36 %u%</Name>
+				<m>10</m>
+				<z>36</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>380</DB>
+			</Row>
+			<Row><Name>360 %m% - 6 %m% x 58 %u%</Name>
+				<m>6</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>360</DB>
+			</Row>
+			<Row><Name>360 %m% - 8 %m% x 44 %u%</Name>
+				<m>8</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>360</DB>
+			</Row>			
+			<Row><Name>360 %m% - 10 %m% x 34 %u%</Name>
+				<m>10</m>
+				<z>34</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>360</DB>
+			</Row>
+			<Row><Name>380 %m% - 6 %m% x 62 %u%</Name>
+				<m>6</m>
+				<z>62</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>380</DB>
+			</Row>
+			<Row><Name>380 %m% - 8 %m% x 46 %u%</Name>
+				<m>8</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>380</DB>
+			</Row>
+			<Row><Name>400 %m% - 6 %m% x 65 %u%</Name>
+				<m>6</m>
+				<z>65</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>400</DB>
+			</Row>
+			<Row><Name>400 %m% - 8 %m% x 48 %u%</Name>
+				<m>8</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>400</DB>
+			</Row>			
+			<Row><Name>400 %m% - 10 %m% x 38 %u%</Name>
+				<m>10</m>
+				<z>38</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>400</DB>
+			</Row>
+			<Row><Name>420 %m% - 6 %m% x 68 %u%</Name>
+				<m>6</m>
+				<z>68</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>420</DB>
+			</Row>
+			<Row><Name>420 %m% - 8 %m% x 51 %u%</Name>
+				<m>8</m>
+				<z>51</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>420</DB>
+			</Row>
+			<Row><Name>420 %m% - 10 %m% x 40 %u%</Name>
+				<m>10</m>
+				<z>40</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>420</DB>
+			</Row>
+			<Row><Name>440 %m% - 6 %m% x 72 %u%</Name>
+				<m>6</m>
+				<z>72</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>440</DB>
+			</Row>
+			<Row><Name>440 %m% - 8 %m% x 54 %u%</Name>
+				<m>8</m>
+				<z>54</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>440</DB>
+			</Row>
+			<Row><Name>440 %m% - 10 %m% x 42 %u%</Name>
+				<m>10</m>
+				<z>42</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>440</DB>
+			</Row>
+			<Row><Name>450 %m% - 6 %m% x 74 %u%</Name>
+				<m>6</m>
+				<z>74</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>450</DB>
+			</Row>
+			<Row><Name>450 %m% - 8 %m% x 55 %u%</Name>
+				<m>8</m>
+				<z>55</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>450</DB>
+			</Row>
+			<Row><Name>450 %m% - 10 %m% x 44 %u%</Name>
+				<m>10</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>450</DB>
+			</Row>
+			<Row><Name>460 %m% - 6 %m% x 75 %u%</Name>
+				<m>6</m>
+				<z>75</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>460</DB>
+			</Row>
+			<Row><Name>460 %m% - 8 %m% x 56 %u%</Name>
+				<m>8</m>
+				<z>56</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>460</DB>
+			</Row>
+			<Row><Name>460 %m% - 10 %m% x 44 %u%</Name>
+				<m>10</m>
+				<z>44</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>460</DB>
+			</Row>
+			<Row><Name>480 %m% - 6 %m% x 78 %u%</Name>
+				<m>6</m>
+				<z>78</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>480</DB>
+			</Row>
+			<Row><Name>480 %m% - 8 %m% x 58 %u%</Name>
+				<m>8</m>
+				<z>58</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>480</DB>
+			</Row>
+			<Row><Name>480 %m% - 10 %m% x 46 %u%</Name>
+				<m>10</m>
+				<z>46</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>480</DB>
+			</Row>
+			<Row><Name>500 %m% - 6 %m% x 82 %u%</Name>
+				<m>6</m>
+				<z>82</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>500</DB>
+			</Row>
+			<Row><Name>500 %m% - 8 %m% x 61 %u%</Name>
+				<m>8</m>
+				<z>61</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>500</DB>
+			</Row>
+			<Row><Name>500 %m% - 10 %m% x 48 %u%</Name>
+				<m>10</m>
+				<z>48</z>
+				<l>7BC17020-D979-40c1-80C4-7BB24E8EB36D</l>
+				<DB>500</DB>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

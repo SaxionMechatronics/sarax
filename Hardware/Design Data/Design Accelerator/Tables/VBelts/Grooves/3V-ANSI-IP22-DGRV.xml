@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="effective" measuresystem="imperial" thumbnail="DeepGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="in" >0.35</NomWidth>
+    <Diameter src="table" dt="number" units="in" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="in">0.449</Depth>
+    <DistSe src="fixed" dt="number" units="in">0.375</DistSe>
+    <DistSg src="fixed" dt="number" units="in">0.5</DistSg>
+    <Height src="fixed" dt="number" units="in">0.109</Height>
+    <Rin src="fixed" dt="number" units="in">0.0</Rin>
+    <Rex src="fixed" dt="number" units="in">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="3V220" >
+      <Size>3V,3VX - 2.20</Size>
+      <Diameter>2.2</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V235" >
+      <Size>3V,3VX - 2.35</Size>
+      <Diameter>2.35</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V250" >
+      <Size>3V,3VX - 2.50</Size>
+      <Diameter>2.5</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V265" >
+      <Size>3V,3VX - 2.65</Size>
+      <Diameter>2.65</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V280" >
+      <Size>3V,3VX - 2.80</Size>
+      <Diameter>2.8</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V300" >
+      <Size>3V,3VX - 3.00</Size>
+      <Diameter>3.0</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V315" >
+      <Size>3V,3VX - 3.15</Size>
+      <Diameter>3.15</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V335" >
+      <Size>3V,3VX - 3.35</Size>
+      <Diameter>3.35</Diameter>
+      <WedgeAng>36</WedgeAng>
+    </Member>
+    <Member moniker="3V355" >
+      <Size>3V,3VX - 3.55</Size>
+      <Diameter>3.55</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V365" >
+      <Size>3V,3VX - 3.65</Size>
+      <Diameter>3.65</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V400" >
+      <Size>3V,3VX - 4.00</Size>
+      <Diameter>4</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V412" >
+      <Size>3V,3VX - 4.12</Size>
+      <Diameter>4.12</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V450" >
+      <Size>3V,3VX - 4.50</Size>
+      <Diameter>4.5</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V475" >
+      <Size>3V,3VX - 4.75</Size>
+      <Diameter>4.75</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V500" >
+      <Size>3V,3VX - 5.00</Size>
+      <Diameter>5</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V530" >
+      <Size>3V,3VX - 5.30</Size>
+      <Diameter>5.3</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V560" >
+      <Size>3V,3VX - 5.60</Size>
+      <Diameter>5.6</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V6300" >
+      <Size>3V,3VX - 6.00</Size>
+      <Diameter>6</Diameter>
+      <WedgeAng>38</WedgeAng>
+    </Member>
+    <Member moniker="3V630" >
+      <Size>3V,3VX - 6.30</Size>
+      <Diameter>6.3</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="3V650" >
+      <Size>3V,3VX - 6.50</Size>
+      <Diameter>6.5</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="3V690" >
+      <Size>3V,3VX - 6.90</Size>
+      <Diameter>6.9</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="3V800" >
+      <Size>3V,3VX - 8.00</Size>
+      <Diameter>8</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="3V1000" >
+      <Size>3V,3VX - 10.00</Size>
+      <Diameter>10</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="3V1060" >
+      <Size>3V,3VX - 10.60</Size>
+      <Diameter>10.6</Diameter>
+      <WedgeAng>40</WedgeAng>
+    </Member>
+    <Member moniker="3V1250" >
+      <Size>3V,3VX - 12.50</Size>
+      <Diameter>12.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="3V1400" >
+      <Size>3V,3VX - 14.00</Size>
+      <Diameter>14</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="3V1600" >
+      <Size>3V,3VX - 16.00</Size>
+      <Diameter>16</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="3V1900" >
+      <Size>3V,3VX - 19.00</Size>
+      <Diameter>19</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="3V2000" >
+      <Size>3V,3VX - 20.00</Size>
+      <Diameter>20</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="3V2500" >
+      <Size>3V,3VX - 25.00</Size>
+      <Diameter>25</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="3V3150" >
+      <Size>3V,3VX - 31.50</Size>
+      <Diameter>31.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+    <Member moniker="3V3350" >
+      <Size>3V,3VX - 33.50</Size>
+      <Diameter>33.5</Diameter>
+      <WedgeAng>42</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

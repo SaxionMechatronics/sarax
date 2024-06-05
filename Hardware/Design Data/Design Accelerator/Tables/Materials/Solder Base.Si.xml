@@ -1,0 +1,28 @@
+<FDesign>
+  <Table InternalName="61CE2DC2-F617-468E-BC5F-640429419401">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%8%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <SigmaD DisplayName="%9%" Description="%3%" Units="%4%" IsVisible="1" IsRequired="1" IsNumeric="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>72BECA00366D4F63BAC255B653E8DBB3</ID>
+        <Material>%5%</Material>
+        <SigmaD>370</SigmaD>
+      </Row>
+      <Row>
+        <ID>C6E41EADB3934DE290D62B68DD3AA57F</ID>
+        <Material>%6%</Material>
+        <SigmaD>420</SigmaD>
+      </Row>
+      <Row>
+        <ID>EBDDFAB6F5804A8CAD1C1D7161B5B0E8</ID>
+        <Material>%7%</Material>
+        <SigmaD>520</SigmaD>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

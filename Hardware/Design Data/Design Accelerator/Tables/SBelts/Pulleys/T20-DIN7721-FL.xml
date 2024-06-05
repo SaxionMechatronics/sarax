@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTSPULLEY" measuresystem="metric" thumbnail="FlangedFL.jpg" name="%1%" desc="%2%" flange="left">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <z src="table" dt="number" units="ul" />
+    <pb src="fixed" dt="number" units="mm">20</pb>
+    <hg src="fixed" dt="number" units="mm">5.2</hg>
+    <bw src="fixed" dt="number" units="mm">6.8</bw>
+    <fi src="fixed" dt="number" units="deg">25.0</fi>
+    <rb src="fixed" dt="number" units="mm">0.8</rb>
+    <rt src="fixed" dt="number" units="mm">1.2</rt>
+    <a src="fixed" dt="number" units="mm">1.5</a>
+    <b src="table" dt="number" units="mm" />
+    <bf src="table" dt="number" units="mm" />
+    <fw src="fixed" dt="number" units="mm">2</fw>
+    <fh src="fixed" dt="number" units="mm">3.2</fh>
+  </Parameters>
+  <Members>
+    <Member moniker="32-T20-15">
+      <Size>34T20 x 15</Size>
+      <z>15</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-16">
+      <Size>34T20 x 16</Size>
+      <z>16</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-17">
+      <Size>34T20 x 17</Size>
+      <z>17</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-18">
+      <Size>34T20 x 18</Size>
+      <z>18</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-19">
+      <Size>34T20 x 19</Size>
+      <z>19</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-20">
+      <Size>34T20 x 20</Size>
+      <z>20</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-22">
+      <Size>34T20 x 22</Size>
+      <z>22</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-25">
+      <Size>34T20 x 25</Size>
+      <z>25</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-28">
+      <Size>34T20 x 28</Size>
+      <z>28</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-32">
+      <Size>34T20 x 32</Size>
+      <z>32</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-36">
+      <Size>34T20 x 36</Size>
+      <z>36</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-40">
+      <Size>34T20 x 40</Size>
+      <z>40</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-48">
+      <Size>34T20 x 48</Size>
+      <z>48</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-60">
+      <Size>34T20 x 60</Size>
+      <z>60</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-72">
+      <Size>34T20 x 72</Size>
+      <z>72</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-84">
+      <Size>34T20 x 84</Size>
+      <z>84</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="32-T20-96">
+      <Size>34T20 x 96</Size>
+      <z>96</z>
+      <b>32</b>
+      <bf>34</bf>
+    </Member>
+    <Member moniker="50-T20-15">
+      <Size>52T20 x 15</Size>
+      <z>15</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-16">
+      <Size>52T20 x 16</Size>
+      <z>16</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-17">
+      <Size>52T20 x 17</Size>
+      <z>17</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-18">
+      <Size>52T20 x 18</Size>
+      <z>18</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-19">
+      <Size>52T20 x 19</Size>
+      <z>19</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-20">
+      <Size>52T20 x 20</Size>
+      <z>20</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-22">
+      <Size>52T20 x 22</Size>
+      <z>22</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-25">
+      <Size>52T20 x 25</Size>
+      <z>25</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-28">
+      <Size>52T20 x 28</Size>
+      <z>28</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-32">
+      <Size>52T20 x 32</Size>
+      <z>32</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-36">
+      <Size>52T20 x 36</Size>
+      <z>36</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-40">
+      <Size>52T20 x 40</Size>
+      <z>40</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-48">
+      <Size>52T20 x 48</Size>
+      <z>48</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-60">
+      <Size>52T20 x 60</Size>
+      <z>60</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-72">
+      <Size>52T20 x 72</Size>
+      <z>72</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-84">
+      <Size>52T20 x 84</Size>
+      <z>84</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="50-T20-96">
+      <Size>52T20 x 96</Size>
+      <z>96</z>
+      <b>50</b>
+      <bf>52</bf>
+    </Member>
+    <Member moniker="75-T20-15">
+      <Size>77T20 x 15</Size>
+      <z>15</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-16">
+      <Size>77T20 x 16</Size>
+      <z>16</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-17">
+      <Size>77T20 x 17</Size>
+      <z>17</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-18">
+      <Size>77T20 x 18</Size>
+      <z>18</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-19">
+      <Size>77T20 x 19</Size>
+      <z>19</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-20">
+      <Size>77T20 x 20</Size>
+      <z>20</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-22">
+      <Size>77T20 x 22</Size>
+      <z>22</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-25">
+      <Size>77T20 x 25</Size>
+      <z>25</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-28">
+      <Size>77T20 x 28</Size>
+      <z>28</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-32">
+      <Size>77T20 x 32</Size>
+      <z>32</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-36">
+      <Size>77T20 x 36</Size>
+      <z>36</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-40">
+      <Size>77T20 x 40</Size>
+      <z>40</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-48">
+      <Size>77T20 x 48</Size>
+      <z>48</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-60">
+      <Size>77T20 x 60</Size>
+      <z>60</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-72">
+      <Size>77T20 x 72</Size>
+      <z>72</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-84">
+      <Size>77T20 x 84</Size>
+      <z>84</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="75-T20-96">
+      <Size>77T20 x 96</Size>
+      <z>96</z>
+      <b>75</b>
+      <bf>77</bf>
+    </Member>
+    <Member moniker="100-T20-15">
+      <Size>102T20 x 15</Size>
+      <z>15</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-16">
+      <Size>102T20 x 16</Size>
+      <z>16</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-17">
+      <Size>102T20 x 17</Size>
+      <z>17</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-18">
+      <Size>102T20 x 18</Size>
+      <z>18</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-19">
+      <Size>102T20 x 19</Size>
+      <z>19</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-20">
+      <Size>102T20 x 20</Size>
+      <z>20</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-22">
+      <Size>102T20 x 22</Size>
+      <z>22</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-25">
+      <Size>102T20 x 25</Size>
+      <z>25</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-28">
+      <Size>102T20 x 28</Size>
+      <z>28</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-32">
+      <Size>102T20 x 32</Size>
+      <z>32</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-36">
+      <Size>102T20 x 36</Size>
+      <z>36</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-40">
+      <Size>102T20 x 40</Size>
+      <z>40</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-48">
+      <Size>102T20 x 48</Size>
+      <z>48</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-60">
+      <Size>102T20 x 60</Size>
+      <z>60</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-72">
+      <Size>102T20 x 72</Size>
+      <z>72</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-84">
+      <Size>102T20 x 84</Size>
+      <z>84</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+    <Member moniker="100-T20-96">
+      <Size>102T20 x 96</Size>
+      <z>96</z>
+      <b>100</b>
+      <bf>102</bf>
+    </Member>
+  </Members>
+</CustomFamily>

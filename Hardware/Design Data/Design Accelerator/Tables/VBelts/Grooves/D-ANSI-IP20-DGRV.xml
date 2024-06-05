@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="imperial" thumbnail="DeepGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="in" >1.076</NomWidth>
+    <Diameter src="table" dt="number" units="in" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="in">1.435</Depth>
+    <DistSe src="fixed" dt="number" units="in">1.062</DistSe>
+    <DistSg src="fixed" dt="number" units="in">1.75</DistSg>
+    <Height src="fixed" dt="number" units="in">0.715</Height>
+    <Rin src="fixed" dt="number" units="in">0.0</Rin>
+    <Rex src="fixed" dt="number" units="in">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="D-12" >
+      <Size>D - 12</Size>
+      <Diameter>12.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="D-13" >
+      <Size>D - 13</Size>
+      <Diameter>13</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-13.5" >
+      <Size>D - 13.5</Size>
+      <Diameter>13.5</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-14" >
+      <Size>D - 14</Size>
+      <Diameter>14</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-14.5" >
+      <Size>D - 14.5</Size>
+      <Diameter>14.5</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-15" >
+      <Size>D - 15</Size>
+      <Diameter>15</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-15.5" >
+      <Size>D - 15.5</Size>
+      <Diameter>15.5</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-16" >
+      <Size>D - 16</Size>
+      <Diameter>16</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-17" >
+      <Size>D - 17</Size>
+      <Diameter>17</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="D-18" >
+      <Size>D - 18</Size>
+      <Diameter>18</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-20" >
+      <Size>D - 20</Size>
+      <Diameter>20</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-22" >
+      <Size>D - 22</Size>
+      <Diameter>22</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-24" >
+      <Size>D - 24</Size>
+      <Diameter>24</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-27" >
+      <Size>D - 27</Size>
+      <Diameter>27</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-33" >
+      <Size>D - 33</Size>
+      <Diameter>33</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-40" >
+      <Size>D - 40</Size>
+      <Diameter>40</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-48" >
+      <Size>D - 48</Size>
+      <Diameter>48</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="D-58" >
+      <Size>D - 58</Size>
+      <Diameter>58</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

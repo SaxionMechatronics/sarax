@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="B639CFC0-0432-4e9c-A228-566F44FECEBB">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<A DisplayName="A" IsVisible="1" IsNumeric="0" Selectable="0" Units="ul" />
+				<B DisplayName="B" IsVisible="1" IsNumeric="1" Selectable="1" Units="ul" />
+				<C DisplayName="C" IsVisible="1" IsNumeric="1" Selectable="1" Units="ul" />
+				<D DisplayName="D" IsVisible="1" IsNumeric="1" Selectable="1" Units="ul" />
+				<E DisplayName="E" IsVisible="1" IsNumeric="1" Selectable="1" Units="ul" />
+				<F DisplayName="F" IsVisible="1" IsNumeric="0" Selectable="0" Units="ul" />
+				<G DisplayName="G" IsVisible="1" IsNumeric="0" Selectable="0" Units="ul" />
+				<colspan_ DisplayName="" IsNumeric="0" IsVisible="0" Selectable="0"/>
+				<rowspan_ DisplayName="" IsNumeric="0" IsVisible="0" Selectable="0"/>
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<A>%2%</A>
+				<B>%3%</B>
+				<C></C>
+				<D></D>
+				<E></E>
+				<F>%4%</F>
+				<G>%5%</G>
+				<colspan_>0,4,0,0,0,0,0</colspan_>
+				<rowspan_>3,0,0,0,0,3,3</rowspan_>
+			</Row>
+			<Row>
+				<A></A>
+				<B>%6%</B>
+				<C>%7%</C>
+				<D></D>
+				<E>%8%</E>
+				<F></F>
+				<G></G>
+				<colspan_>0,0,2,0,0,0,0</colspan_>
+				<rowspan_>0,2,0,0,2,0,0</rowspan_>
+			</Row>
+			<Row>
+				<A></A>
+				<B>%6%</B>
+				<C>%9%</C>
+				<D>%10%</D>
+				<E></E>
+				<F></F>
+				<G></G>
+			</Row>
+			<Row>
+				<A>%11%</A>
+				<B>1</B>
+				<C>0.6</C>
+				<D>0.3</D>
+				<E>0.15</E>
+				<F>%15%</F>
+				<G>%16%</G>
+				<colspan_>0,0,0,0,0,0,0</colspan_>
+				<rowspan_>0,4,0,0,0,0,0</rowspan_>
+			</Row>
+			<Row>
+				<A>%12%</A>
+				<B>1</B>
+				<C>0.3</C>
+				<D>0.15</D>
+				<E>%17%</E>
+				<F>%18%</F>
+				<G>%19%</G>
+			</Row>
+			<Row>
+				<A>%13%</A>
+				<B>1</B>
+				<C>%17%</C>
+				<D>%17%</D>
+				<E>%17%</E>
+				<F>%20%</F>
+				<colspan_>0,0,3,0,0,0,0</colspan_>
+				<rowspan_>0,0,2,2,2,0,0</rowspan_>
+				<G>%18%</G>
+			</Row>
+			<Row>
+				<A>%14%</A>
+				<B>1</B>
+				<C>%17%</C>
+				<D>%17%</D>
+				<E>%17%</E>
+				<F>%21%</F>
+				<G>%20%</G>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

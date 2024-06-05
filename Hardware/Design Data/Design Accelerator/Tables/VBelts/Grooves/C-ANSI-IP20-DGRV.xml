@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="imperial" thumbnail="DeepGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="in" >0.757</NomWidth>
+    <Diameter src="table" dt="number" units="in" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="in">1.055</Depth>
+    <DistSe src="fixed" dt="number" units="in">0.812</DistSe>
+    <DistSg src="fixed" dt="number" units="in">1.25</DistSg>
+    <Height src="fixed" dt="number" units="in">0.505</Height>
+    <Rin src="fixed" dt="number" units="in">0.0</Rin>
+    <Rex src="fixed" dt="number" units="in">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="C-6" >
+      <Size>C - 6</Size>
+      <Diameter>6.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="C-7" >
+      <Size>C - 7</Size>
+      <Diameter>7.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="C-7.5" >
+      <Size>C - 7.5</Size>
+      <Diameter>7.5</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="C-8" >
+      <Size>C - 8</Size>
+      <Diameter>8.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="C-8.5" >
+      <Size>C - 8.5</Size>
+      <Diameter>8.5</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="C-9" >
+      <Size>C - 9</Size>
+      <Diameter>9</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="C-10" >
+      <Size>C - 10</Size>
+      <Diameter>10.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="C-10.5" >
+      <Size>C - 10.5</Size>
+      <Diameter>10.5</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="C-11" >
+      <Size>C - 11</Size>
+      <Diameter>11.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="C-12" >
+      <Size>C - 12</Size>
+      <Diameter>12.0</Diameter>
+      <WedgeAng>36.0</WedgeAng>
+    </Member>
+    <Member moniker="C-13" >
+      <Size>C - 13</Size>
+      <Diameter>13</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-14" >
+      <Size>C - 14</Size>
+      <Diameter>14</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-16" >
+      <Size>C - 16</Size>
+      <Diameter>16</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-18" >
+      <Size>C - 18</Size>
+      <Diameter>18</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-20" >
+      <Size>C - 20</Size>
+      <Diameter>20</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-24" >
+      <Size>C - 24</Size>
+      <Diameter>24</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-27" >
+      <Size>C - 27</Size>
+      <Diameter>27</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-30" >
+      <Size>C - 30</Size>
+      <Diameter>30</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-36" >
+      <Size>C - 36</Size>
+      <Diameter>36</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-44" >
+      <Size>C - 44</Size>
+      <Diameter>44</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="C-50" >
+      <Size>C - 50</Size>
+      <Diameter>50</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

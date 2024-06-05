@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.1" category="SBELTS" thumbnail="A-DXXH-ISO5296.jpg" name="%1%" desc="%2%" profile="symmetrical" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="in">1.25</Pitch>
+    <S src="fixed" dt="number" units="in">0.75</S>
+    <ht src="fixed" dt="number" units="in">0.375</ht>
+    <PitchOfst src="fixed" dt="number" units="in">0.06</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">20.0</beta>
+    <Height src="fixed" dt="number" units="in" >0.87</Height>
+    <ra src="fixed" dt="number" units="in" >0.06</ra>
+    <rr src="fixed" dt="number" units="in" >0.09</rr>
+    <Width0 src="fixed" dt="number" units="in">5.0</Width0>
+    <Width src="table" dt="number" units="in" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">1.8</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">9.5</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">7100.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="A700DXXH200" >
+      <Size>A 700 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="A770DXXH200" >
+      <Size>A 800 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="A900DXXH200" >
+      <Size>A 900 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="A1000DXXH200" >
+      <Size>A 1000 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="A1200DXXH200" >
+      <Size>A 1200 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="A1400DXXH200" >
+      <Size>A 1400 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="A1540DXXH200" >
+      <Size>A 1600 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="A1800DXXH200" >
+      <Size>A 1800 D-XXH 200</Size>
+      <Width>2.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="A700DXXH300" >
+      <Size>A 700 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="A770DXXH300" >
+      <Size>A 800 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="A900DXXH300" >
+      <Size>A 900 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="A1000DXXH300" >
+      <Size>A 1000 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="A1200DXXH300" >
+      <Size>A 1200 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="A1400DXXH300" >
+      <Size>A 1400 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="A1540DXXH300" >
+      <Size>A 1600 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="A1800DXXH300" >
+      <Size>A 1800 D-XXH 300</Size>
+      <Width>3.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="A700DXXH400" >
+      <Size>A 700 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="A770DXXH400" >
+      <Size>A 800 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="A900DXXH400" >
+      <Size>A 900 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="A1000DXXH400" >
+      <Size>A 1000 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="A1200DXXH400" >
+      <Size>A 1200 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="A1400DXXH400" >
+      <Size>A 1400 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="A1540DXXH400" >
+      <Size>A 1600 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="A1800DXXH400" >
+      <Size>A 1800 D-XXH 400</Size>
+      <Width>4.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="A700DXXH500" >
+      <Size>A 700 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="A770DXXH500" >
+      <Size>A 800 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="A900DXXH500" >
+      <Size>A 900 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="A1000DXXH500" >
+      <Size>A 1000 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="A1200DXXH500" >
+      <Size>A 1200 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="A1400DXXH500" >
+      <Size>A 1400 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="A1540DXXH500" >
+      <Size>A 1600 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="A1800DXXH500" >
+      <Size>A 1800 D-XXH 500</Size>
+      <Width>5.0</Width>
+      <Teeth>144</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

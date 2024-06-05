@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.2" category="RCHAIN" thumbnail="ASME291MB.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="ANS" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="in"/>
+    <Pt src="table" dt="number" units="in"/>
+    <d1 src="table" dt="number" units="in"/>
+    <b1 src="table" dt="number" units="in"/>
+    <d2 src="table" dt="number" units="in"/>
+    <b src="table" dt="number" units="in"/>
+    <h2 src="table" dt="number" units="in"/>
+    <h3 src="table" dt="number" units="in"/>
+    <t1 src="table" dt="number" units="in"/>
+    <t2 src="table" dt="number" units="in"/>
+    <Fu src="table" dt="number" units="lbforce"/>
+    <m  src="table" dt="number" units="lbmass/ft"/>
+    <A src="table" dt="number" units="in^2"/>
+    <fi src="fixed" dt="number" units="ul">1.0</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.125</bax>
+    <Pc1 src="table" dt="string">0.0044hp*{zs}ul*pow({ns;rpm}ul;0.96ul)*pow({p;in}ul;3ul-0.07ul*{p;in}ul)</Pc1>
+    <Pc2 src="table" dt="string">29000hp*pow({zs}ul;1.5ul)*pow({p;in}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">6.452hp*{zs}ul*pow({p;in}ul;2ul)-1hp*pow({ns;rpm}ul*{zs}ul;3ul)*pow({p;in};5ul)*(2ul+0.03226ul*{zs}ul)/3.96e12ul</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="25-1" >
+      <Designation>25-1</Designation>
+      <Size>25</Size>
+      <k>1</k>
+      <p>0.25 </p>
+      <b1>0.125</b1>
+      <d1>0.130</d1>
+      <d2>0.0905</d2>
+      <b2>0.189</b2>
+      <b>0.34</b>
+      <Pt>0.252</Pt>
+      <h2>0.236</h2>
+      <h3>0.205</h3>
+      <t1>0.03</t1>
+      <t2>0.03</t2>
+      <Fu>780</Fu>
+      <A>0.017</A>
+      <m>0.35</m>
+    </Member>      
+    <Member moniker="25-2" >
+      <Designation>25-2</Designation>
+      <Size>25</Size>
+      <k>2</k>
+      <p>0.25 </p>
+      <b1>0.125</b1>
+      <d1>0.130</d1>
+      <d2>0.0905</d2>
+      <b2>0.189</b2>
+      <b>0.59</b>
+      <Pt>0.252</Pt>
+      <h2>0.236</h2>
+      <h3>0.205</h3>
+      <t1>0.03</t1>
+      <t2>0.03</t2>
+      <Fu>780*1.7</Fu>
+      <A>0.017*2</A>
+      <m>0.35*2</m>
+    </Member>      
+    <Member moniker="25-3" >
+      <Designation>25-3</Designation>
+      <Size>25</Size>
+      <k>3</k>
+      <p>0.25 </p>
+      <b1>0.125</b1>
+      <d1>0.130</d1>
+      <d2>0.0905</d2>
+      <b2>0.189</b2>
+      <b>0.84</b>
+      <Pt>0.252</Pt>
+      <h2>0.236</h2>
+      <h3>0.205</h3>
+      <t1>0.03</t1>
+      <t2>0.03</t2>
+      <Fu>780*2.5</Fu>
+      <A>0.017*3</A>
+      <m>0.35*3</m>
+    </Member>      
+    <Member moniker="25-4" >
+      <Designation>25-4</Designation>
+      <Size>25</Size>
+      <k>4</k>
+      <p>0.25 </p>
+      <b1>0.125</b1>
+      <d1>0.130</d1>
+      <d2>0.0905</d2>
+      <b2>0.189</b2>
+      <b>1.1</b>
+      <Pt>0.252</Pt>
+      <h2>0.236</h2>
+      <h3>0.205</h3>
+      <t1>0.03</t1>
+      <t2>0.03</t2>
+      <Fu>780*3.3</Fu>
+      <A>0.017*4</A>
+      <m>0.35*4</m>
+    </Member>      
+    <Member moniker="25-6" >
+      <Designation>25-6</Designation>
+      <Size>25</Size>
+      <k>6</k>
+      <p>0.25 </p>
+      <b1>0.125</b1>
+      <d1>0.130</d1>
+      <d2>0.0905</d2>
+      <b2>0.189</b2>
+      <b>1.6</b>
+      <Pt>0.252</Pt>
+      <h2>0.236</h2>
+      <h3>0.205</h3>
+      <t1>0.03</t1>
+      <t2>0.03</t2>
+      <Fu>780*4.6</Fu>
+      <A>0.017*4</A>
+      <m>0.35*4</m>
+    </Member>      
+    <Member moniker="35-1" >
+      <Designation>35-1</Designation>
+      <Size>35</Size>
+      <k>1</k>
+      <p>0.375</p>
+      <b1>0.188</b1>
+      <d1>0.2</d1>
+      <d2>0.141</d2>
+      <b2>0.294</b2>
+      <b>0.5</b>
+      <Pt>0.399</Pt>
+      <h2>0.354</h2>
+      <h3>0.307</h3>
+      <t1>0.05</t1>
+      <t2>0.05</t2>
+      <Fu>1760</Fu>
+      <A>0.041</A>
+      <m>0.7</m>
+    </Member>
+    <Member moniker="35-2" >
+      <Designation>35-2</Designation>
+      <Size>35</Size>
+      <k>2</k>
+      <p>0.375</p>
+      <b1>0.188</b1>
+      <d1>0.2</d1>
+      <d2>0.141</d2>
+      <b2>0.294</b2>
+      <b>0.9</b>
+      <Pt>0.399</Pt>
+      <h2>0.354</h2>
+      <h3>0.307</h3>
+      <t1>0.05</t1>
+      <t2>0.05</t2>
+      <Fu>1760*1.7</Fu>
+      <A>0.041*2</A>
+      <m>1.4</m>
+    </Member>
+    <Member moniker="35-3" >
+      <Designation>35-3</Designation>
+      <Size>35</Size>
+      <k>3</k>
+      <p>0.375</p>
+      <b1>0.188</b1>
+      <d1>0.2</d1>
+      <d2>0.141</d2>
+      <b2>0.294</b2>
+      <b>1.31</b>
+      <Pt>0.399</Pt>
+      <h2>0.354</h2>
+      <h3>0.307</h3>
+      <t1>0.05</t1>
+      <t2>0.05</t2>
+      <Fu>1760*2.5</Fu>
+      <A>0.041*3</A>
+      <m>2.1</m>
+    </Member>
+    <Member moniker="35-4" >
+      <Designation>35-4</Designation>
+      <Size>35</Size>
+      <k>4</k>
+      <p>0.375</p>
+      <b1>0.188</b1>
+      <d1>0.2</d1>
+      <d2>0.141</d2>
+      <b2>0.294</b2>
+      <b>1.7</b>
+      <Pt>0.399</Pt>
+      <h2>0.354</h2>
+      <h3>0.307</h3>
+      <t1>0.05</t1>
+      <t2>0.05</t2>
+      <Fu>1760*3.3</Fu>
+      <A>0.041*4</A>
+      <m>2.8</m>
+    </Member>
+    <Member moniker="35-6" >
+      <Designation>35-6</Designation>
+      <Size>35</Size>
+      <k>6</k>
+      <p>0.375</p>
+      <b1>0.188</b1>
+      <d1>0.2</d1>
+      <d2>0.141</d2>
+      <b2>0.294</b2>
+      <b>2.51</b>
+      <Pt>0.399</Pt>
+      <h2>0.354</h2>
+      <h3>0.307</h3>
+      <t1>0.05</t1>
+      <t2>0.05</t2>
+      <Fu>1760*4.6</Fu>
+      <A>0.041*4</A>
+      <m>0.7*6</m>
+    </Member>
+    <Member moniker="41-1" >
+      <Designation>41-1</Designation>
+      <Size>41</Size>
+      <k>1</k>
+      <p>0.5</p>
+      <b1>0.25</b1>
+      <d1>0.306</d1>
+      <d2>0.141</d2>
+      <b2>0.357</b2>
+      <b>0.57</b>
+      <Pt>0.46</Pt>
+      <h2>0.39</h2>
+      <h3>0.335</h3>
+      <t1>0.05</t1>
+      <t2>0.05</t2>
+      <A>0.049</A>
+      <Fu>1500</Fu>
+      <m>1.23</m>
+      <Pc1>0.00242hp*{zs}ul*pow({ns;rpm}ul;0.96ul)*pow({p;in}ul;3ul-0.07ul*{p;in}ul)</Pc1>
+      <Pc2>3400hp*pow({zs}ul;1.5ul)*pow({p;in}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    </Member>
+  </Members>
+</CustomFamily>

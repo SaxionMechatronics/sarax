@@ -1,0 +1,64 @@
+<FDesign>
+  <Table InternalName="48B210B6-8598-4293-9E2D-ADA667339605">
+    <Definition DisplayName="%1%">
+      <Columns>
+        <ID IsVisible="0" IsNumeric="0" EditableState="0"/>
+        <Material DisplayName="%14%" Description="%2%" Units="" IsVisible="1" IsNumeric="0" EditableState="1"/>
+        <E DisplayName="%15%" Description="%3%" Units="%4%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <mi DisplayName="%16%" Description="%5%" Units="%3%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+        <CoeffT DisplayName="%17%" Description="%6%" Units="%3%" IsVisible="1" IsNumeric="1" IsRequired="1" EditableState="1"/>
+      </Columns>
+    </Definition>
+    <Data>
+      <Row>
+        <ID>494741A12733464FBD8C947CAE56C7F5</ID>
+        <Material>%7%</Material>
+        <E>210000</E>
+        <mi>0.30</mi>
+        <CoeffT>0.0000117</CoeffT>
+      </Row>
+      <Row>
+        <ID>54895C3172FF4910AD58C0041038B50F</ID>
+        <Material>%8%</Material>
+        <E>110000</E>
+        <mi>0.25</mi>
+        <CoeffT>0.0000105</CoeffT>
+      </Row>
+      <Row>
+        <ID>6C321BE6AAFA4891B543D0C673B01667</ID>
+        <Material>%9%</Material>
+        <E>70000</E>
+        <mi>0.33</mi>
+        <CoeffT>0.000021</CoeffT>
+      </Row>
+      <Row>
+        <ID>FE36B5D381DE44D0ABE52E45C8590C09</ID>
+        <Material>%10%</Material>
+        <E>34000</E>
+        <mi>0.30</mi>
+        <CoeffT>0.000025</CoeffT>
+      </Row>
+      <Row>
+        <ID>354425AA6FF444DAA67060EEF3F05404</ID>
+        <Material>%11%</Material>
+        <E>105000</E>
+        <mi>0.35</mi>
+        <CoeffT>0.000018</CoeffT>
+      </Row>
+      <Row>
+        <ID>EB42781591824920B48777CA93DC4DCB</ID>
+        <Material>%12%</Material>
+        <E>110000</E>
+        <mi>0.35</mi>
+        <CoeffT>0.0000165</CoeffT>
+      </Row>
+      <Row>
+        <ID>87144DB2D8954BF5B989D079D0508CE6</ID>
+        <Material>%13%</Material>
+        <E>95000</E>
+        <mi>0.35</mi>
+        <CoeffT>0.000019</CoeffT>
+      </Row>
+    </Data>
+  </Table>
+</FDesign>

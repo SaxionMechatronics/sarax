@@ -1,0 +1,26 @@
+<FDesign>
+	<Table InternalName="092CB585-8ACF-417c-B78C-6ED085AE372B">
+		<Definition DisplayName="GroundCoilsValues">
+			<Columns>
+				<zo Description="Ground Coils" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<zo>0</zo>
+			</Row>
+			<Row>
+				<zo>0.25</zo>
+			</Row>
+			<Row>
+				<zo>0.5</zo>
+			</Row>
+			<Row>
+				<zo>0.75</zo>
+			</Row>
+			<Row>
+				<zo>1</zo>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

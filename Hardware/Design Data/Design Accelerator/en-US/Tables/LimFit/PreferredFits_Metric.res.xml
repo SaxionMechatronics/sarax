@@ -1,0 +1,19 @@
+<Resources>
+  <string id="%1%" value="Prefered Fit(Metric)"/>
+  <string id="%2%" value="Fit name"/>
+  <string id="%3%" value="Transition=1 Interference=2 Clearance=3"/>
+  <string id="%4%" value="Hole-basis=1 Shaft-basis=2"/>
+  <string id="%5%" value="The description of the fit's usage"/>
+  <string id="%10%" value="Fixed pressure connection with imperceptible clearance or small interference\nAssembled using small force\nUsed for keeper of electric motors on shafts, gears or fitted bolts"/>
+  <string id="%11%" value="Consistent pressure connection with small clearance or with small interference\nAssembled using rubber or copper hammer\n Used for disassemble pressure connections for hubs of gears, pulleys, etc."/>
+  <string id="%12%" value="Shift pressure connection with small clearance and imperceptible interference\nAssembled by hand\nUsed for easily disassemble joints of gears, pulleys, sleeves, etc."/>
+  <string id="%13%" value="Pressure connection with a large interference\nAssembled using heavy force at different\ncomponent temperatures\nUsed for hubs of gears or flanges connected to the shaft"/>
+  <string id="%14%" value="Pressure connection with middle interference\nAssembled using heavy force. Different\ntemperatures of hole and shaft is proffered.\nUsed for hubs of clutch discs or bearing sleeves"/>  
+  <string id="%15%" value="Shear fit connection with imperceptible clearance\nPut on without larger force\nComponents can move by hand after lubrication\nExchangeable wheels, set-rings, circular conveyance"/>
+  <string id="%16%" value="Shear fit connection\nPut on without larger force\nComponents can move by hand after lubrication\nLightly disassemble portions, expanding ring,\nComponents of agricultural machines fixed to shafts with pivots,\nscrews or jacket join"/>
+  <string id="%17%" value="Rotary fit connection with very small clearance\nAssembly-currently assembled without appreciable clearance\nSliding gears and clutch wheels or sliding rods in bearings"/>
+  <string id="%18%" value="Rotary fit connections\nAssembly-with appreciable clearance\nMain fit connections for manufacturing machines\nFit connections of sliding sticks or cranked shafts"/>
+  <string id="%19%" value="More clear rotary fit connections\nAssembly-with larger clearance\nFit connections for long collated shafts, e.g. agricultural machines"/>
+  <string id="%20%" value="Rotary fit connection with considerable clearance\nAssembly-with a large clearance\nMultiple collated shafts of manufacturing and piston machines,\nShafts from melted steel circular sticks"/>
+  <string id="%21%" value="Fit connections with a large clearance for parts with large tolerances\nAssembly-with maximum clearance\nRotary plugs, bolts, furcated screws break's pull,\nFit connections for parts to be welded"/>
+</Resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="XPC-DIN7753.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\SPC-DIN2211-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">18.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >22.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >19.0</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Le2Ld src="fixed" dt="number" units="mm">30.0</Le2Ld>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">120.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">50.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.37</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">160.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.22537235 - 15.4944139/{Dpk} - 1.1356895e-08*pow({Dpk}*{nk};2) - 0.03330661*(log({Dpk}*{nk})-log(2/(1+pow(10;465.21/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="XPC2000">
+      <Size>XPC 2000</Size>
+      <Length>2000.0</Length>
+      <C3>0.8</C3>
+    </Member>
+    <Member moniker="XPC2240">
+      <Size>XPC 2240</Size>
+      <Length>2240.0</Length>
+      <C3>0.83</C3>
+    </Member>
+    <Member moniker="XPC2500">
+      <Size>XPC 2500</Size>
+      <Length>2500.0</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="XPC2800">
+      <Size>XPC 2800</Size>
+      <Length>2800.0</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="XPC3150">
+      <Size>XPC 3150</Size>
+      <Length>3150.0</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="XPC3550">
+      <Size>XPC 3550</Size>
+      <Length>3550.0</Length>
+      <C3>0.92</C3>
+    </Member>
+  </Members>
+</CustomFamily>

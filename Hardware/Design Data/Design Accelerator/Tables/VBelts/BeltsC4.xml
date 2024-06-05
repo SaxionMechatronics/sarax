@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FDesign>
+	<Table InternalName="EDC3E9E7-7392-4a04-9587-C9589DEE5679">
+		<Definition DisplayName="Number of belts correction factor">
+		  <Columns>
+			  <A Description="Number of belts" Units="ul" />
+			  <B Description="Factor" Units="ul"/>
+		  </Columns>
+		</Definition>
+	<Data>
+		<Row><A>1.0</A><B>1.0</B></Row>
+		<Row><A>3.0</A><B>0.95</B></Row>
+		<Row><A>6.0</A><B>0.9</B></Row>
+		<Row><A>999.0</A><B>0.85</B></Row>
+	</Data>
+	</Table>
+</FDesign>

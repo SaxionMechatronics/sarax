@@ -1,0 +1,11 @@
+<Resources>
+  <string id="%1%" value="Service Factor"/>
+  <string id="%2%" value="Static Loading"/>
+  <string id="%3%" value="Repeated Loading"/>
+  <string id="%4%" value="Alternating Loading"/>
+  <string id="%5%" value="Pernament Fit"/>
+  <string id="%6%" value="Running Fit"/>
+</Resources>
+
+
+

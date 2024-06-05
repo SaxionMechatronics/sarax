@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTS" thumbnail="XXL-ISO5296.jpg" name="%1%" desc="%2%" profile="single" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="in">0.125</Pitch>
+    <S src="fixed" dt="number" units="in">0.068</S>
+    <ht src="fixed" dt="number" units="in">0.03</ht>
+    <PitchOfst src="fixed" dt="number" units="in">0.01</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">25.0</beta>
+    <Height src="fixed" dt="number" units="in" >0.06</Height>
+    <ra src="fixed" dt="number" units="in" >0.012</ra>
+    <rr src="fixed" dt="number" units="in" >0.008</rr>
+    <Width0 src="fixed" dt="number" units="in">0.25</Width0>
+    <Width src="table" dt="number" units="in" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">120.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">60.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.0035</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">0.397</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">32.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="50XXL012" >
+      <Size>50XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>40</Teeth>
+    </Member>
+    <Member moniker="60XXL012" >
+      <Size>60XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="70XXL012" >
+      <Size>70XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="80XXL012" >
+      <Size>80XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="90XXL012" >
+      <Size>90XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="100XXL012" >
+      <Size>100XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="110XXL012" >
+      <Size>110XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>88</Teeth>
+    </Member>
+    <Member moniker="120XXL012" >
+      <Size>120XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="130XXL012" >
+      <Size>130XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>104</Teeth>
+    </Member>
+    <Member moniker="140XXL012" >
+      <Size>140XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="150XXL012" >
+      <Size>150XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="160XXL012" >
+      <Size>160XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="180XXL012" >
+      <Size>180XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="200XXL012" >
+      <Size>200XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="220XXL012" >
+      <Size>220XXL012</Size>
+      <Width>0.12</Width>
+      <Teeth>176</Teeth>
+    </Member>
+    <Member moniker="50XXL019" >
+      <Size>50XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>40</Teeth>
+    </Member>
+    <Member moniker="60XXL019" >
+      <Size>60XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="70XXL019" >
+      <Size>70XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="80XXL019" >
+      <Size>80XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="90XXL019" >
+      <Size>90XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="100XXL019" >
+      <Size>100XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="110XXL019" >
+      <Size>110XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>88</Teeth>
+    </Member>
+    <Member moniker="120XXL019" >
+      <Size>120XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="130XXL019" >
+      <Size>130XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>104</Teeth>
+    </Member>
+    <Member moniker="140XXL019" >
+      <Size>140XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="150XXL019" >
+      <Size>150XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="160XXL019" >
+      <Size>160XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="180XXL019" >
+      <Size>180XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="200XXL019" >
+      <Size>200XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="220XXL019" >
+      <Size>220XXL019</Size>
+      <Width>0.19</Width>
+      <Teeth>176</Teeth>
+    </Member>
+    <Member moniker="50XXL025" >
+      <Size>50XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>40</Teeth>
+    </Member>
+    <Member moniker="60XXL025" >
+      <Size>60XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>48</Teeth>
+    </Member>
+    <Member moniker="70XXL025" >
+      <Size>70XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>56</Teeth>
+    </Member>
+    <Member moniker="80XXL025" >
+      <Size>80XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>64</Teeth>
+    </Member>
+    <Member moniker="90XXL025" >
+      <Size>90XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>72</Teeth>
+    </Member>
+    <Member moniker="100XXL025" >
+      <Size>100XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="110XXL025" >
+      <Size>110XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>88</Teeth>
+    </Member>
+    <Member moniker="120XXL025" >
+      <Size>120XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>96</Teeth>
+    </Member>
+    <Member moniker="130XXL025" >
+      <Size>130XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>104</Teeth>
+    </Member>
+    <Member moniker="140XXL025" >
+      <Size>140XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>112</Teeth>
+    </Member>
+    <Member moniker="150XXL025" >
+      <Size>150XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="160XXL025" >
+      <Size>160XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="180XXL025" >
+      <Size>180XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>144</Teeth>
+    </Member>
+    <Member moniker="200XXL025" >
+      <Size>200XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="220XXL025" >
+      <Size>220XXL025</Size>
+      <Width>0.25</Width>
+      <Teeth>176</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

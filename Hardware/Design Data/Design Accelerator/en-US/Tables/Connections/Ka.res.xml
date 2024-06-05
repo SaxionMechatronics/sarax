@@ -1,0 +1,19 @@
+<Resources>
+  <string id="%1%" value="Application Factor"/>
+  <string id="%2%" value="Uniform"/>
+  <string id="%3%" value="Light Shock"/>
+  <string id="%4%" value="Intermittent Shock"/>
+  <string id="%5%" value="Heavy Shock"/>
+  <string id="%6%" value="Uniform (Turbine, Motor)"/>
+  <string id="%7%" value="Light	(Hydraulic Motor)"/>
+  <string id="%8%" value="Medium (Internal Combustion, Engine)"/>
+  <string id="%9%" value="Type of Load"/>
+  <string id="%10%" value="Power Source"/>
+  <string id="%11%" value="(Generator-Fan)"/>
+  <string id="%12%" value="(Oscilating, Pumps, etc.)"/>
+  <string id="%13%" value="(Actuating Pumps)"/>
+  <string id="%14%" value="(Punches, Shears, etc.)"/>  
+</Resources>
+
+
+

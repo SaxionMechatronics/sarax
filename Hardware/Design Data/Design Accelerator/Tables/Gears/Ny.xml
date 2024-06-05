@@ -1,0 +1,26 @@
+<FDesign>
+	<Table InternalName="39B964C8-BEF4-4CE9-AC22-51D16930875F">
+		<Definition DisplayName="Precision Degree Factor">
+			<Columns>
+				<A Description="Precision Degree" Units="ul" /><B Description="Precision Degree Factor" Units="ul" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<A>4</A><B>1.1</B>
+			</Row>
+			<Row>
+				<A>5</A><B>1.05</B>
+			</Row>
+			<Row>
+				<A>6</A><B>1</B>
+			</Row>
+			<Row>
+				<A>7</A><B>0.9</B>
+			</Row>
+			<Row>
+				<A>8</A><B>0.8</B>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

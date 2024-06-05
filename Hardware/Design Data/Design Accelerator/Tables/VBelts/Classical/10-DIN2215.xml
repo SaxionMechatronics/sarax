@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="metric" thumbnail="10-DIN2215.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\10-DIN2217-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="mm">6.0</Height>
+    <WidthExt src="fixed" dt="number" units="mm" >10.0</WidthExt>
+    <Width src="fixed" dt="number" units="mm" >8.5</Width>
+    <PitchOffset src="fixed" dt="number" units="mm">0.0</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="mm">22.0</Ld2Li>
+    <Length src="table" dt="number" units="mm" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">30.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.06</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">50.0</Dpkmin>
+    <Dpk src="fixed" dt="number" units="mm">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="kW">{Dpk}*{nk}*(0.01423174 - 0.37900313/{Dpk} - 2.5556567e-08*pow({Dpk}*{nk};2) - 0.00140155*(log({Dpk}*{nk})-log(2/(1+pow(10;270.42/{Dpk}*(1/{s}-1))))))</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="10-300" >
+      <Size>10 x 300</Size>
+      <Length>322.0</Length>
+      <C3>0.82</C3>
+    </Member>
+    <Member moniker="10-315">
+      <Size>10 x 315</Size>
+      <Length>337.0</Length>
+      <C3>0.83</C3>
+    </Member>
+    <Member moniker="10-335">
+      <Size>10 x 335</Size>
+      <Length>357.0</Length>
+      <C3>0.84</C3>
+    </Member>
+    <Member moniker="10-355">
+      <Size>10 x 355</Size>
+      <Length>377.0</Length>
+      <C3>0.85</C3>
+    </Member>
+    <Member moniker="10-375">
+      <Size>10 x 375</Size>
+      <Length>397.0</Length>
+      <C3>0.855</C3>
+    </Member>
+    <Member moniker="10-383">
+      <Size>10 x 383</Size>
+      <Length>405.0</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="10-400">
+      <Size>10 x 400</Size>
+      <Length>422.0</Length>
+      <C3>0.865</C3>
+    </Member>
+    <Member moniker="10-425">
+      <Size>10 x 425</Size>
+      <Length>447.0</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="10-450">
+      <Size>10 x 450</Size>
+      <Length>472.0</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="10-453">
+      <Size>10 x 453</Size>
+      <Length>475.0</Length>
+      <C3>0.885</C3>
+    </Member>
+    <Member moniker="10-475">
+      <Size>10 x 475</Size>
+      <Length>497.0</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="10-500">
+      <Size>10 x 500</Size>
+      <Length>522.0</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="10-508">
+      <Size>10 x 508</Size>
+      <Length>530.0</Length>
+      <C3>0.91</C3>
+    </Member>
+    <Member moniker="10-530">
+      <Size>10 x 530</Size>
+      <Length>552.0</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="10-560">
+      <Size>10 x 560</Size>
+      <Length>582.0</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="10-600">
+      <Size>10 x 600</Size>
+      <Length>622.0</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="10-603">
+      <Size>10 x 603</Size>
+      <Length>625.0</Length>
+      <C3>0.941</C3>
+    </Member>
+    <Member moniker="10-630">
+      <Size>10 x 630</Size>
+      <Length>652.0</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="10-670">
+      <Size>10 x 670</Size>
+      <Length>692.0</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="10-678">
+      <Size>10 x 678</Size>
+      <Length>700.0</Length>
+      <C3>0.97</C3>
+    </Member>
+    <Member moniker="10-710">
+      <Size>10 x 710</Size>
+      <Length>732.0</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="10-750">
+      <Size>10 x 750</Size>
+      <Length>772.0</Length>
+      <C3>0.985</C3>
+    </Member>
+    <Member moniker="10-758">
+      <Size>10 x 758</Size>
+      <Length>780.0</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="10-800">
+      <Size>10 x 800</Size>
+      <Length>822.0</Length>
+      <C3>1.00</C3>
+    </Member>
+    <Member moniker="10-850">
+      <Size>10 x 850</Size>
+      <Length>872.0</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="10-898">
+      <Size>10 x 898</Size>
+      <Length>920.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="10-900">
+      <Size>10 x 900</Size>
+      <Length>922.0</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="10-950">
+      <Size>10 x 950</Size>
+      <Length>972.0</Length>
+      <C3>1.035</C3>
+    </Member>
+    <Member moniker="10-1000">
+      <Size>10 x 1000</Size>
+      <Length>1022.0</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="10-1058">
+      <Size>10 x 1058</Size>
+      <Length>1080.0</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="10-1060">
+      <Size>10 x 1060</Size>
+      <Length>1082.0</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="10-1120">
+      <Size>10 x 1120</Size>
+      <Length>1142.0</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="10-1180">
+      <Size>10 x 1180</Size>
+      <Length>1202.0</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="10-1250">
+      <Size>10 x 1250</Size>
+      <Length>1272.0</Length>
+      <C3>1.10</C3>
+    </Member>
+    <Member moniker="10-1308">
+      <Size>10 x 1308</Size>
+      <Length>1330.0</Length>
+      <C3>1.105</C3>
+    </Member>
+    <Member moniker="10-1320">
+      <Size>10 x 1320</Size>
+      <Length>1342.0</Length>
+      <C3>1.11</C3>
+    </Member>
+    <Member moniker="10-1398">
+      <Size>10 x 1398</Size>
+      <Length>1420.0</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="10-1400">
+      <Size>10 x 1400</Size>
+      <Length>1422.0</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="10-1500">
+      <Size>10 x 1500</Size>
+      <Length>1522.0</Length>
+      <C3>1.13</C3>
+    </Member>
+    <Member moniker="10-1518">
+      <Size>10 x 1518</Size>
+      <Length>1540.0</Length>
+      <C3>1.138</C3>
+    </Member>
+    <Member moniker="10-1600">
+      <Size>10 x 1600</Size>
+      <Length>1622.0</Length>
+      <C3>1.15</C3>
+    </Member>
+    <Member moniker="10-1700">
+      <Size>10 x 1700</Size>
+      <Length>1722.0</Length>
+      <C3>1.165</C3>
+    </Member>
+    <Member moniker="10-1800">
+      <Size>10 x 1800</Size>
+      <Length>1822.0</Length>
+      <C3>1.18</C3>
+    </Member>
+    <Member moniker="10-1900">
+      <Size>10 x 1900</Size>
+      <Length>1922.0</Length>
+      <C3>1.19</C3>
+    </Member>
+    <Member moniker="10-2000">
+      <Size>10 x 2000</Size>
+      <Length>2022.0</Length>
+      <C3>1.20</C3>
+    </Member>
+    <Member moniker="10-2120">
+      <Size>10 x 2120</Size>
+      <Length>2142.0</Length>
+      <C3>1.21</C3>
+    </Member>
+    <Member moniker="10-2240">
+      <Size>10 x 2240</Size>
+      <Length>2262.0</Length>
+      <C3>1.22</C3>
+    </Member>
+    <Member moniker="10-2360">
+      <Size>10 x 2360</Size>
+      <Length>2382.0</Length>
+      <C3>1.23</C3>
+    </Member>
+    <Member moniker="10-2500">
+      <Size>10 x 2500</Size>
+      <Length>2522.0</Length>
+      <C3>1.24</C3>
+    </Member>
+    <Member moniker="10-2650">
+      <Size>10 x 2650</Size>
+      <Length>2672.0</Length>
+      <C3>1.25</C3>
+    </Member>
+    <Member moniker="10-2800">
+      <Size>10 x 2800</Size>
+      <Length>2822.0</Length>
+      <C3>1.26</C3>
+    </Member>
+  </Members>
+</CustomFamily>

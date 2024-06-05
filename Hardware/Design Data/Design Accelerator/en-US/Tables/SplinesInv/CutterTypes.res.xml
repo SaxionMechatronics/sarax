@@ -1,0 +1,14 @@
+<Resources>
+  <string id="%1%" value="DIN 5480 - Cutter Types"/>
+  <string id="%2%" value="Type"/>
+  <string id="%3%" value="Finishing of Flanks"/>
+  <string id="%4%" value="h|.aP0|"/>
+  <string id="%5%" value="Addendum Coefficient"/>  
+  <string id="%6%" value="ul"/>
+  <string id="%7%" value="Milled"/>
+  <string id="%8%" value="Poke"/>  
+  <string id="%9%" value="Broach"/> 
+  <string id="%10%" value="Ground"/>   
+  <string id="%11%" value="c|.FP0|"/>  
+  <string id="%12%" value="Coefficient"/>      
+</Resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTSPULLEY" lengthsystem="datum" measuresystem="imperial" thumbnail="StdGoove.jpg" name="%2%" desc="%1%">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <NomWedgeAng src="fixed" dt="number" units="deg">40.0</NomWedgeAng>
+    <NomWidth src="fixed" dt="number" units="in" >0.418</NomWidth>
+    <Diameter src="table" dt="number" units="in" />
+    <WedgeAng src="table" dt="number" units="deg"/>
+    <Depth src="fixed" dt="number" units="in">0.46</Depth>
+    <DistSe src="fixed" dt="number" units="in">0.375</DistSe>
+    <DistSg src="fixed" dt="number" units="in">0.625</DistSg>
+    <Height src="fixed" dt="number" units="in">0.125</Height>
+    <Rin src="fixed" dt="number" units="in">0.0</Rin>
+    <Rex src="fixed" dt="number" units="in">0.0</Rex>
+  </Parameters>
+  <Members>
+    <Member moniker="A-ANSI-IP20:1" >
+      <Size>A,AX - 3.0</Size>
+      <Diameter>3.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:2" >
+      <Size>A,AX - 3.2</Size>
+      <Diameter>3.2</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:3" >
+      <Size>A,AX - 3.4</Size>
+      <Diameter>3.4</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:4" >
+      <Size>A,AX - 3.6</Size>
+      <Diameter>3.6</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:5" >
+      <Size>A,AX - 3.8</Size>
+      <Diameter>3.8</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:6" >
+      <Size>A,AX - 4.0</Size>
+      <Diameter>4.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:7" >
+      <Size>A,AX - 4.2</Size>
+      <Diameter>4.2</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:8" >
+      <Size>A,AX - 4.4</Size>
+      <Diameter>4.4</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:9" >
+      <Size>A,AX - 4.6</Size>
+      <Diameter>4.6</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:10" >
+      <Size>A,AX - 4.8</Size>
+      <Diameter>4.8</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:11" >
+      <Size>A,AX - 5</Size>
+      <Diameter>5.0</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:12" >
+      <Size>A,AX - 5.2</Size>
+      <Diameter>5.2</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:13" >
+      <Size>A,AX - 5.4</Size>
+      <Diameter>5.4</Diameter>
+      <WedgeAng>34.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:14" >
+      <Size>A,AX - 5.6</Size>
+      <Diameter>5.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:15" >
+      <Size>A,AX - 5.8</Size>
+      <Diameter>5.8</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:16" >
+      <Size>A,AX - 6</Size>
+      <Diameter>6.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:17" >
+      <Size>A,AX - 6.2</Size>
+      <Diameter>6.2</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:18" >
+      <Size>A,AX - 6.4</Size>
+      <Diameter>6.4</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:19" >
+      <Size>A,AX - 6.6</Size>
+      <Diameter>6.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:20" >
+      <Size>A,AX - 7</Size>
+      <Diameter>7.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:21" >
+      <Size>A,AX - 7.6</Size>
+      <Diameter>7.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:22" >
+      <Size>A,AX - 8.2</Size>
+      <Diameter>8.2</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:23" >
+      <Size>A,AX - 9</Size>
+      <Diameter>9.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:24" >
+      <Size>A,AX - 10.6</Size>
+      <Diameter>10.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:25" >
+      <Size>A,AX - 12</Size>
+      <Diameter>12.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:26" >
+      <Size>A,AX - 13.2</Size>
+      <Diameter>13.2</Diameter>
+      <Diameter>13.2</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:27" >
+      <Size>A,AX - 15</Size>
+      <Diameter>15.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:28" >
+      <Size>A,AX - 15.6</Size>
+      <Diameter>15.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:29" >
+      <Size>A,AX - 18</Size>
+      <Diameter>18.0</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:30" >
+      <Size>A,AX - 19.6</Size>
+      <Diameter>19.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:31" >
+      <Size>A,AX - 24.6</Size>
+      <Diameter>24.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:32" >
+      <Size>A,AX - 29.6</Size>
+      <Diameter>29.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+    <Member moniker="A-ANSI-IP20:33" >
+      <Size>A,AX - 37.6</Size>
+      <Diameter>37.6</Diameter>
+      <WedgeAng>38.0</WedgeAng>
+    </Member>
+  </Members>
+</CustomFamily>

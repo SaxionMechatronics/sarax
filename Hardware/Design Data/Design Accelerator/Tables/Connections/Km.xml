@@ -1,0 +1,68 @@
+<FDesign>
+	<Table InternalName="94105087-7547-4518-9016-C79C080762AA">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Driving DisplayName="" Units="" IsNumeric="0" IsVisible="1" />
+				<HalfInch DisplayName="%4%" Units="in" IsNumeric="1" IsVisible="1" />
+				<Inch DisplayName="%5%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<TwoInch DisplayName="%6%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<FourInch DisplayName="%7%" Units="ul" IsNumeric="1" IsVisible="1" />
+				<SelectableRow_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<colspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+				<rowspan_ DisplayName="" IsNumeric="0" IsVisible="0" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Driving>%2%</Driving>
+				<HalfInch>%3%</HalfInch>
+				<Inch />
+				<TwoInch />
+				<FourInch />
+				<SelectableRow_>0</SelectableRow_>
+				<colspan_>0,4,0,0,0</colspan_>
+				<rowspan_>2,0,0,0,0</rowspan_>
+			</Row>
+			<Row>
+				<Driving>%2%</Driving>
+				<HalfInch>%4%</HalfInch>
+				<Inch>%5%</Inch>
+				<TwoInch>%6%</TwoInch>
+				<FourInch>%7%</FourInch>
+				<SelectableRow_>0</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>0.001</Driving>
+				<HalfInch>1</HalfInch>
+				<Inch>1</Inch>
+				<TwoInch>1</TwoInch>
+				<FourInch>1.5</FourInch>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>0.002</Driving>
+				<HalfInch>1</HalfInch>
+				<Inch>1</Inch>
+				<TwoInch>1.5</TwoInch>
+				<FourInch>2</FourInch>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>0.004</Driving>
+				<HalfInch>1</HalfInch>
+				<Inch>1.5</Inch>
+				<TwoInch>2</TwoInch>
+				<FourInch>2.5</FourInch>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>
+			<Row>
+				<Driving>0.008</Driving>
+				<HalfInch>1.5</HalfInch>
+				<Inch>2</Inch>
+				<TwoInch>2.5</TwoInch>
+				<FourInch>3</FourInch>
+				<SelectableRow_>1</SelectableRow_>
+			</Row>			
+		</Data>
+	</Table>
+</FDesign>

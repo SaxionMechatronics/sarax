@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTSPULLEY" measuresystem="imperial" thumbnail="FlangedFR.jpg" name="%1%" desc="%2%" flange="right">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <z src="table" dt="number" units="ul" />
+    <pb src="fixed" dt="number" units="in">0.375</pb>
+    <hg src="fixed" dt="number" units="in">0.105</hg>
+    <bw src="fixed" dt="number" units="in">0.120</bw>
+    <fi src="fixed" dt="number" units="deg">20.0</fi>
+    <rb src="fixed" dt="number" units="in">0.047</rb>
+    <rt src="fixed" dt="number" units="in">0.046</rt>
+    <fw src="fixed" dt="number" units="in">0.05</fw>
+    <fh src="fixed" dt="number" units="in">0.065</fh>
+    <a src="fixed" dt="number" units="in">0.015</a>
+    <b src="table" dt="number" units="in" />
+    <bf src="table" dt="number" units="in" />
+  </Parameters>
+  <Members>
+    <Member moniker="12L050" >
+      <Size>12L050</Size>
+      <z>12</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="13L050" >
+      <Size>13L050</Size>
+      <z>13</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="14L050" >
+      <Size>14L050</Size>
+      <z>14</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="15L050" >
+      <Size>15L050</Size>
+      <z>15</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="16L050" >
+      <Size>16L050</Size>
+      <z>16</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="17L050" >
+      <Size>17L050</Size>
+      <z>17</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="18L050" >
+      <Size>18L050</Size>
+      <z>18</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="19L050" >
+      <Size>19L050</Size>
+      <z>19</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="20L050" >
+      <Size>20L050</Size>
+      <z>20</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="21L050" >
+      <Size>21L050</Size>
+      <z>21</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="22L050" >
+      <Size>22L050</Size>
+      <z>22</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="23L050" >
+      <Size>23L050</Size>
+      <z>23</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="24L050" >
+      <Size>24L050</Size>
+      <z>24</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="25L050" >
+      <Size>25L050</Size>
+      <z>25</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="26L050" >
+      <Size>26L050</Size>
+      <z>26</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="27L050" >
+      <Size>27L050</Size>
+      <z>27</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="28L050" >
+      <Size>28L050</Size>
+      <z>28</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="30L050" >
+      <Size>30L050</Size>
+      <z>30</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="32L050" >
+      <Size>32L050</Size>
+      <z>32</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="36L050" >
+      <Size>36L050</Size>
+      <z>36</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="40L050" >
+      <Size>40L050</Size>
+      <z>40</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="48L050" >
+      <Size>48L050</Size>
+      <z>48</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="60L050" >
+      <Size>60L050</Size>
+      <z>60</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="72L050" >
+      <Size>72L050</Size>
+      <z>72</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="84L050" >
+      <Size>84L050</Size>
+      <z>84</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="96L050" >
+      <Size>96L050</Size>
+      <z>96</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="120L050" >
+      <Size>120L050</Size>
+      <z>120</z>
+      <b>0.5</b>
+      <bf>0.55</bf>
+    </Member>
+    <Member moniker="12L075" >
+      <Size>12L075</Size>
+      <z>12</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="13L075" >
+      <Size>13L075</Size>
+      <z>13</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="14L075" >
+      <Size>14L075</Size>
+      <z>14</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="15L075" >
+      <Size>15L075</Size>
+      <z>15</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="16L075" >
+      <Size>16L075</Size>
+      <z>16</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="17L075" >
+      <Size>17L075</Size>
+      <z>17</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="18L075" >
+      <Size>18L075</Size>
+      <z>18</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="19L075" >
+      <Size>19L075</Size>
+      <z>19</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="20L075" >
+      <Size>20L075</Size>
+      <z>20</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="21L075" >
+      <Size>21L075</Size>
+      <z>21</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="22L075" >
+      <Size>22L075</Size>
+      <z>22</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="L075" >
+      <Size>23L050</Size>
+      <z>23</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="24L075" >
+      <Size>24L075</Size>
+      <z>24</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="25L075" >
+      <Size>25L075</Size>
+      <z>25</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="26L075" >
+      <Size>26L075</Size>
+      <z>26</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="27L075" >
+      <Size>27L075</Size>
+      <z>27</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="28L075" >
+      <Size>28L075</Size>
+      <z>28</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="30L075" >
+      <Size>30L075</Size>
+      <z>30</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="32L075" >
+      <Size>32L075</Size>
+      <z>32</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="36L075" >
+      <Size>36L075</Size>
+      <z>36</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="40L075" >
+      <Size>40L075</Size>
+      <z>40</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="48L075" >
+      <Size>48L075</Size>
+      <z>48</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="60L075" >
+      <Size>60L075</Size>
+      <z>60</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="72L075" >
+      <Size>72L075</Size>
+      <z>72</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="84L075" >
+      <Size>84L075</Size>
+      <z>84</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="96L075" >
+      <Size>96L075</Size>
+      <z>96</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="120L075" >
+      <Size>120L075</Size>
+      <z>120</z>
+      <b>0.75</b>
+      <bf>0.8</bf>
+    </Member>
+    <Member moniker="12L100" >
+      <Size>12L100</Size>
+      <z>12</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="13L100" >
+      <Size>13L100</Size>
+      <z>13</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="14L100" >
+      <Size>14L100</Size>
+      <z>14</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="15L100" >
+      <Size>15L100</Size>
+      <z>15</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="16L100" >
+      <Size>16L100</Size>
+      <z>16</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="17L100" >
+      <Size>17L100</Size>
+      <z>17</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="18L100" >
+      <Size>18L100</Size>
+      <z>18</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="19L100" >
+      <Size>19L100</Size>
+      <z>19</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="20L100" >
+      <Size>20L100</Size>
+      <z>20</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="21L100" >
+      <Size>21L100</Size>
+      <z>21</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="22L100" >
+      <Size>22L100</Size>
+      <z>22</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="L100" >
+      <Size>23L050</Size>
+      <z>23</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="24L100" >
+      <Size>24L100</Size>
+      <z>24</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="25L100" >
+      <Size>25L100</Size>
+      <z>25</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="26L100" >
+      <Size>26L100</Size>
+      <z>26</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="27L100" >
+      <Size>27L100</Size>
+      <z>27</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="28L100" >
+      <Size>28L100</Size>
+      <z>28</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="30L100" >
+      <Size>30L100</Size>
+      <z>30</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="32L100" >
+      <Size>32L100</Size>
+      <z>32</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="36L100" >
+      <Size>36L100</Size>
+      <z>36</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="40L100" >
+      <Size>40L100</Size>
+      <z>40</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="48L100" >
+      <Size>48L100</Size>
+      <z>48</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="60L100" >
+      <Size>60L100</Size>
+      <z>60</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="72L100" >
+      <Size>72L100</Size>
+      <z>72</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="84L100" >
+      <Size>84L100</Size>
+      <z>84</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="96L100" >
+      <Size>96L100</Size>
+      <z>96</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>
+    <Member moniker="120L100" >
+      <Size>120L100</Size>
+      <z>120</z>
+      <b>1.0</b>
+      <bf>1.05</bf>
+    </Member>    
+  </Members>
+</CustomFamily>

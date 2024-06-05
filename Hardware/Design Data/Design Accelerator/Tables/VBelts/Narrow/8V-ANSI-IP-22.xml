@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="effective" measuresystem="imperial" thumbnail="8V-ANSI-IP-22.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\8V-ANSI-IP22-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="in">0.875</Height>
+    <HeightOffset src="fixed" dt="number" units="in">0</HeightOffset>
+    <WidthExt src="fixed" dt="number" units="in" >1</WidthExt>
+    <Width src="fixed" dt="number" units="in" >1</Width>
+    <PitchOffset src="fixed" dt="number" units="in">-0.1</PitchOffset>
+    <Length src="table" dt="number" units="in" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">100.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="ft/s">138.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="lbmass/ft">0.35</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">12.5</Dpkmin>
+    <Dpk src="fixed" dt="number" units="in">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="hp">{Dpk}*{nk}*(8.6628 - 49.323/{Dpk} - 1.5804e-03*pow({Dpk}*{nk};2) - 1.16690*log({Dpk}*{nk})) - {nk}*18.9704*log((1+pow(10;2.6/{s}-2.6))/2)</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="8V1000" >
+      <Size>8V1000</Size>
+      <Length>100</Length>
+      <C3>0.87</C3>
+    </Member>
+    <Member moniker="8V1060" >
+      <Size>8V1060</Size>
+      <Length>106</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="8V1120" >
+      <Size>8V1120</Size>
+      <Length>112</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="8V1180" >
+      <Size>8V1180</Size>
+      <Length>118</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="8V1250" >
+      <Size>8V1250</Size>
+      <Length>125</Length>
+      <C3>0.9</C3>
+    </Member>
+    <Member moniker="8V1320" >
+      <Size>8V1320</Size>
+      <Length>132</Length>
+      <C3>0.91</C3>
+    </Member>
+    <Member moniker="8V1400" >
+      <Size>8V1400</Size>
+      <Length>140</Length>
+      <C3>0.92</C3>
+    </Member>
+    <Member moniker="8V1500" >
+      <Size>8V1500</Size>
+      <Length>150</Length>
+      <C3>0.93</C3>
+    </Member>
+    <Member moniker="8V1600" >
+      <Size>8V1600</Size>
+      <Length>160</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="8V1700" >
+      <Size>8V1700</Size>
+      <Length>170</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="8V1800" >
+      <Size>8V1800</Size>
+      <Length>180</Length>
+      <C3>0.95</C3>
+    </Member>
+    <Member moniker="8V1900" >
+      <Size>8V1900</Size>
+      <Length>190</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="8V2000" >
+      <Size>8V2000</Size>
+      <Length>200</Length>
+      <C3>0.97</C3>
+    </Member>
+    <Member moniker="8V2120" >
+      <Size>8V2120</Size>
+      <Length>212</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="8V2240" >
+      <Size>8V2240</Size>
+      <Length>224</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="8V2360" >
+      <Size>8V2360</Size>
+      <Length>236</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="8V2500" >
+      <Size>8V2500</Size>
+      <Length>250</Length>
+      <C3>1</C3>
+    </Member>
+    <Member moniker="8V2650" >
+      <Size>8V2650</Size>
+      <Length>265</Length>
+      <C3>1.01</C3>
+    </Member>
+    <Member moniker="8V2800" >
+      <Size>8V2800</Size>
+      <Length>280</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="8V3000" >
+      <Size>8V3000</Size>
+      <Length>300</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="8V3150" >
+      <Size>8V3150</Size>
+      <Length>315</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="8V3350" >
+      <Size>8V3350</Size>
+      <Length>335</Length>
+      <C3>1.04</C3>
+    </Member>
+    <Member moniker="8V3550" >
+      <Size>8V3550</Size>
+      <Length>355</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="8V3750" >
+      <Size>8V3750</Size>
+      <Length>375</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="8V4000" >
+      <Size>8V4000</Size>
+      <Length>400</Length>
+      <C3>1.07</C3>
+    </Member>
+    <Member moniker="8V4250" >
+      <Size>8V4250</Size>
+      <Length>425</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="8V4500" >
+      <Size>8V4500</Size>
+      <Length>450</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="8V4750" >
+      <Size>8V4750</Size>
+      <Length>475</Length>
+      <C3>1.09</C3>
+    </Member>
+    <Member moniker="8V5000" >
+      <Size>8V5000</Size>
+      <Length>500</Length>
+      <C3>1.1</C3>
+    </Member>
+  </Members>
+</CustomFamily>

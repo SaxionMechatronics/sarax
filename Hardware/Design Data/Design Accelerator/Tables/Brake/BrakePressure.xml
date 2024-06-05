@@ -1,0 +1,20 @@
+<FDesign>
+  <Table InternalName="A7F0406F-3C69-4ee7-883E-840CB617729C">
+    <Definition DisplayName="%1%">
+       <Columns>
+          <Material DisplayName="%2%" IsVisible="1" Selectable="0" />
+          <p DisplayName="%3%" Units="MPa" IsVisible="1" IsNumeric="1" IsRange="1" SelType="MIN" />
+          <pMax DisplayName="" Units="MPa" IsVisible="0" IsNumeric="1"/>
+        </Columns>
+     </Definition>
+     <Data>
+        <Row><Material>%4%</Material><p>1.0</p><pMax>2.0</pMax></Row>
+        <Row><Material>%5%</Material><p>0.3</p><pMax>0.7</pMax></Row>
+        <Row><Material>%6%</Material><p>1.0</p><pMax>2.0</pMax></Row>
+        <Row><Material>%7%</Material><p>0.05</p><pMax>0.1</pMax></Row>
+        <Row><Material>%8%</Material><p>0.3</p><pMax>0.6</pMax></Row>
+        <Row><Material>%9%</Material><p>0.7</p><pMax>1.7</pMax></Row>
+      </Data>
+   </Table>
+</FDesign>
+ 

@@ -1,0 +1,29 @@
+<FDesign>
+	<Table InternalName="A38408E7-C607-4fd3-9128-8E41E42B7D84">
+		<Definition DisplayName="TransitionCoilsValues">
+			<Columns>
+				<nt Description="Transition Coils" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<nt>0.25</nt>
+			</Row>
+			<Row>
+				<nt>0.5</nt>
+			</Row>
+			<Row>
+				<nt>0.75</nt>
+			</Row>
+			<Row>
+				<nt>1.0</nt>
+			</Row>
+			<Row>
+				<nt>1.5</nt>
+			</Row>
+			<Row>
+				<nt>2.0</nt>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

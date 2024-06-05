@@ -1,0 +1,32 @@
+<FDesign>
+	<Table InternalName="CEBC016F-FB29-44B9-844B-E03A4FC4757E">
+		<Definition DisplayName="%1%">
+			<Columns>
+				<Desc DisplayName="" Units="" IsNumeric="0" IsVisible="1" Selectable="0" />
+				<A DisplayName="" Units="ul" IsNumeric="1" IsVisible="1" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<Desc>%2%</Desc>
+				<A>0.702</A>
+			</Row>
+			<Row>
+				<Desc>%3%</Desc>
+				<A>0.754</A>
+			</Row>
+			<Row>
+				<Desc>%4%</Desc>
+				<A>0.814</A>
+			</Row>
+			<Row>
+				<Desc>%5%</Desc>
+				<A>0.897</A>
+			</Row>
+			<Row>
+				<Desc>%6%</Desc>
+				<A>1</A>
+			</Row>
+		</Data>
+	</Table>
+</FDesign>

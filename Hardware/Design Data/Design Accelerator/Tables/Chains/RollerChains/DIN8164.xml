@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.2" category="RCHAIN" thumbnail="DIN8164.jpg" name="%1%" desc="%2%" DblPitch="False" Sprocket="DIN" X0="100">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Designation src="table" dt="string" units="ul"/>
+    <Size src="table" dt="string" units="ul"/>
+    <k src="table" dt="number" units="ul"/>
+    <p  src="table" dt="number" units="mm"/>
+    <Pt src="table" dt="number" units="mm"/>
+    <d1 src="table" dt="number" units="mm"/>
+    <b1 src="table" dt="number" units="mm"/>
+    <d2 src="table" dt="number" units="mm"/>
+    <b src="table" dt="number" units="mm"/>
+    <h2 src="table" dt="number" units="mm"/>
+    <h3 src="table" dt="number" units="mm"/>
+    <Fu src="table" dt="number" units="N"/>
+    <m  src="table" dt="number" units="kg/m"/>
+    <A src="table" dt="number" units="mm^2"/>
+    <fi src="fixed" dt="number" units="ul">0.8</fi>
+    <Lh0 src="fixed" dt="number" units="hr">15000</Lh0>
+    <bax src="fixed" dt="number" units="ul">0.125</bax>
+    <Pc1 src="fixed" dt="string">11.682kW*pow({zs}ul;1.08ul)*pow({ns;rpm}ul;0.9ul)*pow({p;mm}ul;3ul-0.0008ul*{p;mm}ul)/6e7ul</Pc1>
+    <Pc2 src="fixed" dt="string">953.5kW*pow({zs}ul;1.5ul)*pow({p;mm}ul;0.8ul)/pow({ns;rpm}ul;1.5ul)</Pc2>
+    <Pc3 src="fixed" dt="string">1kW*{zs}ul*{ns;rpm}ul*{p;mm}ul/3780ul*(4.413ul-2.073ul*{p;in}ul-0.0274ul*{zs}ul-ln({ns;rpm}ul/1000ul)*(1.59ul*log({p;in}ul)+1.873ul))</Pc3>
+  </Parameters>
+  <Members>
+    <Member moniker="15-1" >
+      <Designation>15</Designation>
+      <Size>15</Size>
+      <k>1</k>
+      <p>15</p>
+      <b1>14</b1>
+      <d1>9</d1>
+      <d2>6</d2>
+      <b2>18.5</b2>
+      <Pt>24</Pt>
+      <h2>14</h2>
+      <h3>14</h3>
+      <b>28</b>
+      <A>110</A>
+      <Fu>12500</Fu>
+      <m>1.2</m>
+    </Member>
+    <Member moniker="20-1" >
+      <Designation>20</Designation>
+      <Size>20</Size>
+      <k>1</k>
+      <p>20</p>
+      <b1>16</b1>
+      <d1>12</d1>
+      <d2>8</d2>
+      <b2>22.5</b2>
+      <Pt>30</Pt>
+      <h2>19</h2>
+      <h3>19</h3>
+      <b>34</b>
+      <A>180</A>
+      <Fu>25000</Fu>
+      <m>2.1</m>
+    </Member>
+    <Member moniker="25-1" >
+      <Designation>25</Designation>
+      <Size>25</Size>
+      <k>1</k>
+      <p>25</p>
+      <b1>18</b1>
+      <d1>15</d1>
+      <d2>10</d2>
+      <b2>24.5</b2>
+      <Pt>32</Pt>
+      <h2>24</h2>
+      <h3>24</h3>
+      <b>36</b>
+      <A>250</A>
+      <Fu>31500</Fu>
+      <m>2.6</m>
+    </Member>
+    <Member moniker="30-1" >
+      <Designation>30</Designation>
+      <Size>30</Size>
+      <k>1</k>
+      <p>30</p>
+      <b1>20</b1>
+      <d1>17</d1>
+      <d2>11</d2>
+      <b2>28.5</b2>
+      <Pt>39</Pt>
+      <h2>28</h2>
+      <h3>28</h3>
+      <b>44</b>
+      <A>310</A>
+      <Fu>40000</Fu>
+      <m>4</m>
+    </Member>
+    <Member moniker="35-1" >
+      <Designation>35</Designation>
+      <Size>35</Size>
+      <k>1</k>
+      <p>35</p>
+      <b1>22</b1>
+      <d1>18</d1>
+      <d2>12</d2>
+      <b2>30.5</b2>
+      <Pt>42</Pt>
+      <h2>30</h2>
+      <h3>30</h3>
+      <b>47</b>
+      <A>370</A>
+      <Fu>50000</Fu>
+      <m>4.3</m>
+    </Member>
+    <Member moniker="40-1" >
+      <Designation>40</Designation>
+      <Size>40</Size>
+      <k>1</k>
+      <p>40</p>
+      <b1>25</b1>
+      <d1>20</d1>
+      <d2>14</d2>
+      <b2>35.5</b2>
+      <Pt>48</Pt>
+      <h2>35</h2>
+      <h3>35</h3>
+      <b>55</b>
+      <A>500</A>
+      <Fu>63000</Fu>
+      <m>6</m>
+    </Member>
+    <Member moniker="45-1" >
+      <Designation>45</Designation>
+      <Size>45</Size>
+      <k>1</k>
+      <p>45</p>
+      <b1>30</b1>
+      <d1>22</d1>
+      <d2>16</d2>
+      <b2>42.5</b2>
+      <Pt>56</Pt>
+      <h2>40</h2>
+      <h3>40</h3>
+      <b>64</b>
+      <A>680</A>
+      <Fu>80000</Fu>
+      <m>8</m>
+    </Member>
+    <Member moniker="50-1" >
+      <Designation>50</Designation>
+      <Size>50</Size>
+      <k>1</k>
+      <p>50</p>
+      <b1>35</b1>
+      <d1>26</d1>
+      <d2>18</d2>
+      <b2>47.5</b2>
+      <Pt>61</Pt>
+      <h2>44</h2>
+      <h3>44</h3>
+      <b>68</b>
+      <A>860</A>
+      <Fu>100000</Fu>
+      <m>9</m>
+    </Member>
+    <Member moniker="55-1" >
+      <Designation>55</Designation>
+      <Size>55</Size>
+      <k>1</k>
+      <p>55</p>
+      <b1>45</b1>
+      <d1>30</d1>
+      <d2>20</d2>
+      <b2>61.5</b2>
+      <Pt>79</Pt>
+      <h2>49</h2>
+      <h3>49</h3>
+      <b>87</b>
+      <A>1230</A>
+      <Fu>125000</Fu>
+      <m>14</m>
+    </Member>
+    <Member moniker="60-1" >
+      <Designation>60</Designation>
+      <Size>60</Size>
+      <k>1</k>
+      <p>60</p>
+      <b1>50</b1>
+      <d1>32</d1>
+      <d2>22</d2>
+      <b2>66.5</b2>
+      <Pt>94</Pt>
+      <h2>55</h2>
+      <h3>55</h3>
+      <b>104</b>
+      <A>1460</A>
+      <Fu>160000</Fu>
+      <m>15</m>
+    </Member>
+    <Member moniker="65-1" >
+      <Designation>65</Designation>
+      <Size>65</Size>
+      <k>1</k>
+      <p>65</p>
+      <b1>55</b1>
+      <d1>36</d1>
+      <d2>26</d2>
+      <b2>72.0</b2>
+      <Pt>99</Pt>
+      <h2>61</h2>
+      <h3>61</h3>
+      <b>109</b>
+      <A>1870</A>
+      <Fu>200000</Fu>
+      <m>19</m>
+    </Member>
+    <Member moniker="70-1" >
+      <Designation>70</Designation>
+      <Size>70</Size>
+      <k>1</k>
+      <p>70</p>
+      <b1>60</b1>
+      <d1>42</d1>
+      <d2>30</d2>
+      <b2>86.0</b2>
+      <Pt>114</Pt>
+      <h2>67</h2>
+      <h3>67</h3>
+      <b>125</b>
+      <A>2580</A>
+      <Fu>250000</Fu>
+      <m>25</m>
+    </Member>
+    <Member moniker="80-1" >
+      <Designation>80</Designation>
+      <Size>80</Size>
+      <k>1</k>
+      <p>80</p>
+      <b1>70</b1>
+      <d1>44</d1>
+      <d2>32</d2>
+      <b2>96.0</b2>
+      <Pt>133</Pt>
+      <h2>75</h2>
+      <h3>75</h3>
+      <b>145</b>
+      <A>3070</A>
+      <Fu>315000</Fu>
+      <m>31</m>
+    </Member>
+    <Member moniker="90-1" >
+      <Designation>90</Designation>
+      <Size>90</Size>
+      <k>1</k>
+      <p>90</p>
+      <b1>80</b1>
+      <d1>50</d1>
+      <d2>36</d2>
+      <b2>106.0</b2>
+      <Pt>145</Pt>
+      <h2>85</h2>
+      <h3>85</h3>
+      <b>158</b>
+      <A>3820</A>
+      <Fu>400000</Fu>
+      <m>42</m>
+    </Member>
+    <Member moniker="100-1" >
+      <Designation>100</Designation>
+      <Size>100</Size>
+      <k>1</k>
+      <p>100</p>
+      <b1>90</b1>
+      <d1>56</d1>
+      <d2>42</d2>
+      <b2>116.0</b2>
+      <Pt>154</Pt>
+      <h2>95</h2>
+      <h3>95</h3>
+      <b>167</b>
+      <A>4870</A>
+      <Fu>500000</Fu>
+      <m>49</m>
+    </Member>
+  </Members>
+</CustomFamily>

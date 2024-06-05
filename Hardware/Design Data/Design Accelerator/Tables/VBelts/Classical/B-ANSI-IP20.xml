@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="VBELTS" lengthsystem="datum" measuresystem="imperial" thumbnail="B-ANSI-IP20.jpg" name="%2%" desc="%1%" Pulley="VBelts\Grooves\B-ANSI-IP20-GRV.xml" >
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%1%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <WedgeAng src="fixed" dt="number" units="deg">40.0</WedgeAng>
+    <Height src="fixed" dt="number" units="in">0.40625</Height>
+    <WidthExt src="fixed" dt="number" units="in" >0.65625</WidthExt>
+    <Width src="fixed" dt="number" units="in" >0.53</Width>
+    <PitchOffset src="fixed" dt="number" units="in">0.175</PitchOffset>
+    <Ld2Li src="fixed" dt="number" units="in">1.8</Ld2Li>
+    <Length src="table" dt="number" units="in" />
+    <C3 src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">60.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="ft/s">100.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="lbmass/ft">0.12</Weight>
+    <Dpkmin src="fixed" dt="number" units="in">5.4</Dpkmin>
+    <Dpk src="fixed" dt="number" units="in">1.0</Dpk>
+    <nk src="fixed" dt="number" units="rpm">0.001</nk>
+    <PowerRating src="fixed" dt="string" units="hp">{Dpk}*{nk}*(1.769 - 4.372/{Dpk} - 3.081e-4*pow({Dpk}*{nk};2) - 0.3658*log({Dpk}*{nk})) - {nk}*1.6815*log((1+pow(10;2.6/{s}-2.6))/2)</PowerRating> 
+  </Parameters>
+  <Members>
+    <Member moniker="ANSI-IP20-B-35" >
+      <Size>B35</Size>
+      <Length>36.8</Length>
+      <C3>0.8</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-38" >
+      <Size>B38</Size>
+      <Length>39.8</Length>
+      <C3>0.82</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-42" >
+      <Size>B42</Size>
+      <Length>43.8</Length>
+      <C3>0.84</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-46" >
+      <Size>B46</Size>
+      <Length>47.8</Length>
+      <C3>0.86</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-51" >
+      <Size>B51</Size>
+      <Length>52.8</Length>
+      <C3>0.88</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-55" >
+      <Size>B55</Size>
+      <Length>56.8</Length>
+      <C3>0.89</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-60" >
+      <Size>B60</Size>
+      <Length>61.8</Length>
+      <C3>0.91</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-68" >
+      <Size>B68</Size>
+      <Length>69.8</Length>
+      <C3>0.94</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-75" >
+      <Size>B75</Size>
+      <Length>76.8</Length>
+      <C3>0.96</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-81" >
+      <Size>B81</Size>
+      <Length>82.8</Length>
+      <C3>0.98</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-85" >
+      <Size>B85</Size>
+      <Length>86.8</Length>
+      <C3>0.99</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-90" >
+      <Size>B90</Size>
+      <Length>91.8</Length>
+      <C3>1.0</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-97" >
+      <Size>B97</Size>
+      <Length>98.8</Length>
+      <C3>1.02</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-105" >
+      <Size>B105</Size>
+      <Length>106.8</Length>
+      <C3>1.03</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-112" >
+      <Size>B112</Size>
+      <Length>113.8</Length>
+      <C3>1.05</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-120" >
+      <Size>B120</Size>
+      <Length>121.8</Length>
+      <C3>1.06</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-128" >
+      <Size>B128</Size>
+      <Length>129.8</Length>
+      <C3>1.08</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-144" >
+      <Size>B144</Size>
+      <Length>145.8</Length>
+      <C3>1.1</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-158" >
+      <Size>B158</Size>
+      <Length>159.8</Length>
+      <C3>1.12</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-173" >
+      <Size>B173</Size>
+      <Length>174.8</Length>
+      <C3>1.14</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-180" >
+      <Size>B180</Size>
+      <Length>181.8</Length>
+      <C3>1.15</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-195" >
+      <Size>B195</Size>
+      <Length>196.8</Length>
+      <C3>1.17</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-210" >
+      <Size>B210</Size>
+      <Length>211.8</Length>
+      <C3>1.18</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-240" >
+      <Size>B240</Size>
+      <Length>240.3</Length>
+      <C3>1.22</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-270" >
+      <Size>B270</Size>
+      <Length>270.3</Length>
+      <C3>1.24</C3>
+    </Member>
+    <Member moniker="ANSI-IP20-B-300" >
+      <Size>B300</Size>
+      <Length>300.3</Length>
+      <C3>1.27</C3>
+    </Member>
+  </Members>
+</CustomFamily>

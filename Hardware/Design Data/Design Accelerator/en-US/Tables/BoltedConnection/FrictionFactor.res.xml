@@ -1,0 +1,17 @@
+<Resources>
+  <string id="%1%" value="Friction Factor"/>
+  <string id="%2%" value="Material"/>
+  <string id="%3%" value="Non-lubricated"/>
+  <string id="%4%" value="Lubricated"/>
+  <string id="%5%" value="steel - steel"/>
+  <string id="%6%" value="steel - cast iron"/>
+  <string id="%7%" value="steel - brass"/>
+  <string id="%8%" value="steel - brass"/>
+  <string id="%9%" value="cast iron - cast iron"/>
+  <string id="%10%" value="cast iron - bronze"/>
+  <string id="%11%" value="bronze - bronze"/>
+  <string id="%12%" value="aluminium - aluminium"/>
+  <string id="%13%" value="copper - copper"/>
+  <string id="%14%" value="steel - plexiglas"/>
+  <string id="%15%" value="plexiglas - plexiglas"/>
+</Resources>

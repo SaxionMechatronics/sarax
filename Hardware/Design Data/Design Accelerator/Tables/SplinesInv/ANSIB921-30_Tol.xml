@@ -1,0 +1,602 @@
+<FDesign>
+	<Table InternalName="16982C5C-28D3-493E-8C04-AAD8E25DCD3B">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>
+			<Row>
+				<N>10</N>
+				<P>2.5</P>
+				<m>15.8</m>
+				<Lambda>23.5</Lambda>
+			</Row>
+			<Row>
+				<N>10</N>
+				<P>4</P>
+				<m>14.5</m>
+				<Lambda>23.5</Lambda>
+			</Row>
+			<Row>
+				<N>10</N>
+				<P>6</P>
+				<m>12.5</m>
+				<Lambda>17</Lambda>
+			</Row>
+			<Row>
+				<N>10</N>
+				<P>10</P>
+				<m>12</m>
+				<Lambda>15.7</Lambda>
+			</Row>
+			<Row>
+				<N>10</N>
+				<P>16</P>
+				<m>11.7</m>
+				<Lambda>14.2</Lambda>
+			</Row>
+			<Row>
+				<N>10</N>
+				<P>24</P>
+				<m>11.7</m>
+				<Lambda>12.2</Lambda>
+			</Row>
+			<Row>
+				<N>10</N>
+				<P>64</P>
+				<m>9.6</m>
+				<Lambda>11</Lambda>
+			</Row>
+			<Row>
+				<N>10</N>
+				<P>128</P>
+				<m>9.6</m>
+				<Lambda>9.8</Lambda>
+			</Row>
+		</Data>
+	</Table>
+	<Table InternalName="1346740A-C903-48e4-A2DE-6C1E98C14BE9">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>	
+			<Row>
+				<N>20</N>
+				<P>2.5</P>
+				<m>17.6</m>
+				<Lambda>27.0</Lambda>
+			</Row>
+			<Row>
+				<N>20</N>
+				<P>4</P>
+				<m>16</m>
+				<Lambda>22.6</Lambda>
+			</Row>
+			<Row>
+				<N>20</N>
+				<P>6</P>
+				<m>14</m>
+				<Lambda>19</Lambda>
+			</Row>
+			<Row>
+				<N>20</N>
+				<P>10</P>
+				<m>13</m>
+				<Lambda>17.4</Lambda>
+			</Row>
+			<Row>
+				<N>20</N>
+				<P>16</P>
+				<m>12.4</m>
+				<Lambda>15.4</Lambda>
+			</Row>
+			<Row>
+				<N>20</N>
+				<P>24</P>
+				<m>12.4</m>
+				<Lambda>13.4</Lambda>
+			</Row>
+			<Row>
+				<N>20</N>
+				<P>64</P>
+				<m>10.2</m>
+				<Lambda>12</Lambda>
+			</Row>
+			<Row>
+				<N>20</N>
+				<P>128</P>
+				<m>10</m>
+				<Lambda>10.6</Lambda>
+			</Row>
+		</Data>
+	</Table>	
+	<Table InternalName="0505B97B-9993-41bc-BCE1-4D52AF37613E">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>				
+			<Row>
+				<N>30</N>
+				<P>2.5</P>
+				<m>18.4</m>
+				<Lambda>30.5</Lambda>
+			</Row>
+			<Row>
+				<N>30</N>
+				<P>4</P>
+				<m>17.5</m>
+				<Lambda>24.9</Lambda>
+			</Row>
+			<Row>
+				<N>30</N>
+				<P>6</P>
+				<m>15.5</m>
+				<Lambda>21</Lambda>
+			</Row>
+			<Row>
+				<N>30</N>
+				<P>10</P>
+				<m>14</m>
+				<Lambda>19.1</Lambda>
+			</Row>
+			<Row>
+				<N>30</N>
+				<P>16</P>
+				<m>13.1</m>
+				<Lambda>16.6</Lambda>
+			</Row>
+			<Row>
+				<N>30</N>
+				<P>24</P>
+				<m>13.1</m>
+				<Lambda>14.6</Lambda>
+			</Row>
+			<Row>
+				<N>30</N>
+				<P>64</P>
+				<m>10.8</m>
+				<Lambda>13</Lambda>
+			</Row>
+			<Row>
+				<N>30</N>
+				<P>128</P>
+				<m>10.5</m>
+				<Lambda>11.4</Lambda>
+			</Row>
+		</Data>
+	</Table>	
+	<Table InternalName="5E9FBB52-280D-40d8-8892-A7A8B60BDEBE">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>				
+			<Row>
+				<N>40</N>
+				<P>2.5</P>
+				<m>21.8</m>
+				<Lambda>34</Lambda>
+			</Row>
+			<Row>
+				<N>40</N>
+				<P>4</P>
+				<m>19</m>
+				<Lambda>27.2</Lambda>
+			</Row>
+			<Row>
+				<N>40</N>
+				<P>6</P>
+				<m>17</m>
+				<Lambda>23</Lambda>
+			</Row>
+			<Row>
+				<N>40</N>
+				<P>10</P>
+				<m>15</m>
+				<Lambda>21.6</Lambda>
+			</Row>
+			<Row>
+				<N>40</N>
+				<P>16</P>
+				<m>13.8</m>
+				<Lambda>17.8</Lambda>
+			</Row>
+			<Row>
+				<N>40</N>
+				<P>24</P>
+				<m>13.8</m>
+				<Lambda>15.8</Lambda>
+			</Row>
+			<Row>
+				<N>40</N>
+				<P>64</P>
+				<m>11.4</m>
+				<Lambda>14</Lambda>
+			</Row>
+			<Row>
+				<N>40</N>
+				<P>128</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>	
+		</Data>
+	</Table>	
+	<Table InternalName="F1265FD0-BD1D-405e-B699-5E6ABE3BEDAA">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>				
+			<Row>
+				<N>50</N>
+				<P>2.5</P>
+				<m>23</m>
+				<Lambda>37.5</Lambda>
+			</Row>
+			<Row>
+				<N>50</N>
+				<P>4</P>
+				<m>20.5</m>
+				<Lambda>29.5</Lambda>
+			</Row>
+			<Row>
+				<N>50</N>
+				<P>6</P>
+				<m>18.5</m>
+				<Lambda>25</Lambda>
+			</Row>
+			<Row>
+				<N>50</N>
+				<P>10</P>
+				<m>16</m>
+				<Lambda>22.5</Lambda>
+			</Row>
+			<Row>
+				<N>50</N>
+				<P>16</P>
+				<m>14.5</m>
+				<Lambda>19</Lambda>
+			</Row>
+			<Row>
+				<N>50</N>
+				<P>24</P>
+				<m>14.5</m>
+				<Lambda>17</Lambda>
+			</Row>
+			<Row>
+				<N>50</N>
+				<P>64</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>50</N>
+				<P>128</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>	
+		</Data>
+	</Table>	
+	<Table InternalName="046B44B6-C078-440f-8041-EA4A4E11A59F">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>			
+			<Row>
+				<N>60</N>
+				<P>2.5</P>
+				<m>24.8</m>
+				<Lambda>41</Lambda>
+			</Row>
+			<Row>
+				<N>60</N>
+				<P>4</P>
+				<m>22</m>
+				<Lambda>31.8</Lambda>
+			</Row>
+			<Row>
+				<N>60</N>
+				<P>6</P>
+				<m>20</m>
+				<Lambda>27</Lambda>
+			</Row>
+			<Row>
+				<N>60</N>
+				<P>10</P>
+				<m>17</m>
+				<Lambda>24.2</Lambda>
+			</Row>
+			<Row>
+				<N>60</N>
+				<P>16</P>
+				<m>15.2</m>
+				<Lambda>20.2</Lambda>
+			</Row>
+			<Row>
+				<N>60</N>
+				<P>24</P>
+				<m>15.2</m>
+				<Lambda>17</Lambda>
+			</Row>
+			<Row>
+				<N>60</N>
+				<P>64</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>60</N>
+				<P>128</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>	
+		</Data>
+	</Table>	
+	<Table InternalName="264ADD85-2682-4f2f-B38D-C098ECB5D705">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>				
+			<Row>
+				<N>70</N>
+				<P>2.5</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>70</N>
+				<P>4</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>70</N>
+				<P>6</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>70</N>
+				<P>10</P>
+				<m>18</m>
+				<Lambda>25.9</Lambda>
+			</Row>
+			<Row>
+				<N>70</N>
+				<P>16</P>
+				<m>15.9</m>
+				<Lambda>21.4</Lambda>
+			</Row>
+			<Row>
+				<N>70</N>
+				<P>24</P>
+				<m>15.9</m>
+				<Lambda>19.4</Lambda>
+			</Row>
+			<Row>
+				<N>70</N>
+				<P>64</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>70</N>
+				<P>128</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>	
+		</Data>
+	</Table>	
+	<Table InternalName="042D1496-60C6-4f64-B1BA-9AE5A1240DBD">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>																				
+			<Row>
+				<N>80</N>
+				<P>2.5</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>80</N>
+				<P>4</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>80</N>
+				<P>6</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>80</N>
+				<P>10</P>
+				<m>19</m>
+				<Lambda>27.6</Lambda>
+			</Row>
+			<Row>
+				<N>80</N>
+				<P>16</P>
+				<m>16.6</m>
+				<Lambda>22.6</Lambda>
+			</Row>
+			<Row>
+				<N>80</N>
+				<P>24</P>
+				<m>16.6</m>
+				<Lambda>22.6</Lambda>
+			</Row>
+			<Row>
+				<N>80</N>
+				<P>64</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>80</N>
+				<P>128</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>	
+		</Data>
+	</Table>	
+	<Table InternalName="75455B5F-E1FD-4705-84F6-51EAFA7A96D0">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>					
+			<Row>
+				<N>90</N>
+				<P>2.5</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>90</N>
+				<P>4</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>90</N>
+				<P>6</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>90</N>
+				<P>10</P>
+				<m>20</m>
+				<Lambda>29.3</Lambda>
+			</Row>
+			<Row>
+				<N>90</N>
+				<P>16</P>
+				<m>17.3</m>
+				<Lambda>23.8</Lambda>
+			</Row>
+			<Row>
+				<N>90</N>
+				<P>24</P>
+				<m>17.3</m>
+				<Lambda>21.8</Lambda>
+			</Row>
+			<Row>
+				<N>90</N>
+				<P>64</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>90</N>
+				<P>128</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>	
+		</Data>
+	</Table>	
+	<Table InternalName="CDE23F30-14CA-47ad-BBAA-C6F2BCDC46D9">
+		<Definition DisplayName="Maximum Tolerances for Space width and Tooth Thickness of Tolerance Class 5 Splines">
+			<Columns>
+				<N DisplayName="N" Description="Teeth Number" Units="ul" />
+				<P DisplayName="P" Description="Pitch" Units="1/in" />
+				<m DisplayName="m" Description="Machining Tolerance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+				<Lambda DisplayName="||h|" Description="Variation Allowance" Units="in" Notes="values shown int ten thousandths; 20 == 0.0020" />
+			</Columns>
+		</Definition>
+		<Data>				
+			<Row>
+				<N>100</N>
+				<P>2.5</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>100</N>
+				<P>4</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>100</N>
+				<P>6</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>100</N>
+				<P>10</P>
+				<m>21</m>
+				<Lambda>31</Lambda>
+			</Row>
+			<Row>
+				<N>100</N>
+				<P>16</P>
+				<m>18</m>
+				<Lambda>25</Lambda>
+			</Row>
+			<Row>
+				<N>100</N>
+				<P>24</P>
+				<m>18</m>
+				<Lambda>23</Lambda>
+			</Row>
+			<Row>
+				<N>100</N>
+				<P>64</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>
+			<Row>
+				<N>100</N>
+				<P>128</P>
+				<m>0</m>
+				<Lambda>0</Lambda>
+			</Row>								
+		</Data>
+	</Table>
+</FDesign>
