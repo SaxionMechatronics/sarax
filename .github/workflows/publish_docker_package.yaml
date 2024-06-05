@@ -50,4 +50,4 @@ jobs:
 
       - name: Publish image
         run: |
-          docker push ghcr.io/SaxionMechatronics/sarax-framework:latest
+          docker push ghcr.io/saxionmechatronics/sarax-framework:latest
