@@ -4,13 +4,13 @@ name: Setup and build packages
 # on: workflow_dispatch
 
 # To automatically run on every push to GH, use the push and pull_request event trigger
-# on:
-#   push:
-#     branches:
-#       - main
-#   pull_request:
-#     branches:
-#       - main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 env:
   USER: github.actor
