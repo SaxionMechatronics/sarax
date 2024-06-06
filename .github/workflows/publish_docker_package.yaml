@@ -4,36 +4,37 @@ name: Publish docker image as package
 # on: workflow_dispatch
 
 # To test workflow using act, use the push event
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
+# To automatically run depending on the status of the build.yaml workflow, use workflow_run event trigger
+on:
+  workflow_run:
+    workflows: [Setup and build packages]
+    types: [completed]
+
+# Environments
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
-# To automatically run depending on the status of the build.yaml workflow, use workflow_run event trigger
-# on:
-#   workflow_run:
-#     workflows: [Setup and build packages]
-#     types: [completed]
-
 jobs:
-  # on-success:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event.workflow_run.conclusion == 'success' }}
-  #   steps:
-  #     - run: echo 'The build workflows have passed'
+  on-success:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - run: echo 'The build workflows have passed'
   
-  # on-failure:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-  #   steps:
-  #     - run: echo 'The build workflows have failed'
+  on-failure:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - run: echo 'The build workflows have failed'
 
   publish_package:
-    #needs: on-success             # Uncomment when on default branch (main)
+    needs: on-success             # Uncomment when on default branch (main)
     runs-on: ubuntu-latest
     steps:
       
@@ -69,15 +70,3 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-
-      # - name: Login to GH container registry
-      #   run: |
-      #     docker login --username saxionmechatronics --password ${{ secrets.GITHUB_TOKEN }} ghcr.io
-
-      # - name: Build Docker image
-      #   run: |
-      #     docker build --no-cache . -t ghcr.io/arief-ak/sarax-framework:latest
-
-      # - name: Publish image
-      #   run: |
-      #     docker push ghcr.io/arief-ak/sarax-framework:latest
