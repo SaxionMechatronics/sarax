@@ -15,6 +15,11 @@ on:
     workflows: [Setup and build packages]
     types: [completed]
 
+# Environments
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
 jobs:
   on-success:
     runs-on: ubuntu-latest
@@ -36,18 +41,32 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Login to GH container registry
-        run: |
-          docker login --username ${{ github.actor }} --password ${{ secrets.GH_PAT }} ghcr.io
+      - name: Extract metadata for the Docker image
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
+            type=sha,prefix={{branch}}-,suffix=-{{date 'X'}}
 
-      - name: Cleanup system
-        run: |
-          docker image prune
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+      
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-      - name: Build Docker image
-        run: |
-          docker build --no-cache . -t ghcr.io/SaxionMechatronics/sarax-framework:latest
-
-      - name: Publish image
-        run: |
-          docker push ghcr.io/SaxionMechatronics/sarax-framework:latest
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
