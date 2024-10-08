@@ -1,6 +1,6 @@
 # Getting started in Simulation
 
-![sim-setup](./docs/sim-setup.png)
+![sim-setup](../../.gitbook/assets/sim-setup.png)
 
 To quickly run the simulation of the manipulator in gazebo:
 
