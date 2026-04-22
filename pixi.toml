@@ -59,6 +59,7 @@ numpy = "*"
 packaging = "*"
 future = "*"
 pyulog = "*"
+jsonschema = "*"
 
 # ── PyPI-only packages (not available in conda channels) ─────────────────────
 [pypi-dependencies]

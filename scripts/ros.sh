@@ -15,7 +15,9 @@ set -euo pipefail
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
+set +u
 source "$REPO/install/setup.bash"
+set -u
 
 exec ros2 launch sarax_bringup sitl.launch.py \
     controller:="${SARAX_CONTROLLER:-joint_impedance_controller}" \
