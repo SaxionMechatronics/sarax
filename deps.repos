@@ -10,6 +10,21 @@ repositories:
     url: https://github.com/ros-controls/gz_ros2_control.git
     version: humble
 
+  # gps_msgs — required by ros_gz_bridge; not packaged in robostack-humble.
+  src/gps_umd:
+    type: git
+    url: https://github.com/swri-robotics/gps_umd.git
+    version: ros2
+
+  # ros_gz bridge built from source against Gazebo Harmonic (gz-sim8).
+  # robostack-humble only packages ros-humble-ros-gz against Fortress; there
+  # is no conda package for the Humble+Harmonic combination, so we build here.
+  # CMake picks up gz-sim8 from the pixi env when GZ_VERSION=harmonic is set.
+  src/ros_gz:
+    type: git
+    url: https://github.com/gazebosim/ros_gz.git
+    version: humble
+
   # Custom PX4 fork with the sarax_plus airframe (SYS_AUTOSTART=8001) and
   # the coaxial-octocopter mixer / control allocator tuned for ~9.5 kg.
   PX4-Autopilot:
