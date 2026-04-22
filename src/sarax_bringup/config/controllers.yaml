@@ -1,0 +1,39 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 250 # Hz -- matches Gazebo simulation period (0.004 s)
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    # A trivial effort-passthrough, useful for bring-up and bridge sanity checks.
+    forward_effort_controller:
+      type: forward_command_controller/ForwardCommandController
+
+    # The main deliverable.
+    joint_impedance_controller:
+      type: sarax_impedance_controller/JointImpedanceController
+
+# ---------------------------------------------------------------------------
+
+forward_effort_controller:
+  ros__parameters:
+    joints:
+      - mani_joint_1
+      - mani_joint_2
+    interface_name: effort
+
+joint_impedance_controller:
+  ros__parameters:
+    joints:
+      - mani_joint_1
+      - mani_joint_2
+    stiffness: [ 1.0, 1.0 ] # N.m / rad
+    damping: [ 10.0, 10.0 ] # N.m.s / rad
+    effort_limits: [ 30.0, 30.0 ] # N.m, per URDF
+    max_position_error: 0.5 # rad, clamp before Kp is applied
+
+    # Switch laws by changing this string. Shipped laws:
+    #   sarax_impedance_controller::PDLaw        (no dynamics)
+    #   sarax_impedance_controller::PDGravityLaw (gravity via Pinocchio)
+    # Third-party packages can add more via pluginlib.
+    impedance_law: sarax_impedance_controller::PDGravityLaw

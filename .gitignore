@@ -1,0 +1,32 @@
+# ── Colcon workspace artifacts ────────────────────────────────────────────────
+build/
+install/
+log/
+
+# ── External sources managed by deps.repos (cloned by scripts/install.sh) ────
+src/gz_ros2_control/
+PX4-Autopilot/
+
+# ── Robot model directory at workspace root (generated / imported from PX4) ──
+/sarax_plus/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ── CMake ─────────────────────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+
+# ── Pixi local state ──────────────────────────────────────────────────────────
+.pixi/
+
+# ── Claude Code ───────────────────────────────────────────────────────────────
+.claude/
+
+# ── Editor / OS ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store

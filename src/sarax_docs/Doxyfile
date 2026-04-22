@@ -1,0 +1,16 @@
+PROJECT_NAME           = "SARAX+ Control Stack"
+PROJECT_BRIEF          = "Joint-space impedance control for a 2-DoF manipulator on a PX4 drone"
+OUTPUT_DIRECTORY       = build/doxygen
+INPUT                  = ../sarax_impedance_controller/include ../sarax_impedance_controller/src \
+                         ../sarax_msgs/msg \
+                         ../sarax_bringup
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_XML           = YES      # consumed by Breathe for Sphinx integration
+XML_OUTPUT             = xml
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
+USE_MATHJAX            = YES

@@ -1,0 +1,12 @@
+<library path="sarax_impedance_laws">
+  <class name="sarax_impedance_controller::PDLaw"
+         type="sarax_impedance_controller::PDLaw"
+         base_class_type="sarax_impedance_controller::ImpedanceLaw">
+    <description>Plain PD law: tau = -Kp*(q - q_d) - Kd*(q_dot - q_dot_d). No dynamics.</description>
+  </class>
+  <class name="sarax_impedance_controller::PDGravityLaw"
+         type="sarax_impedance_controller::PDGravityLaw"
+         base_class_type="sarax_impedance_controller::ImpedanceLaw">
+    <description>PD + gravity compensation via Pinocchio's rnea.</description>
+  </class>
+</library>

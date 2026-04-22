@@ -1,0 +1,11 @@
+<library path="sarax_impedance_controller">
+  <class name="sarax_impedance_controller/JointImpedanceController"
+         type="sarax_impedance_controller::JointImpedanceController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>
+      Joint-space impedance controller with a pluggable ImpedanceLaw.
+      The concrete law is selected by the `impedance_law` parameter and
+      loaded at configure time via pluginlib.
+    </description>
+  </class>
+</library>

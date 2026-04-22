@@ -1,0 +1,18 @@
+repositories:
+
+  # gz_ros2_control built from source for ROS 2 Humble + Gazebo Garden.
+  # The apt package (ros-humble-gz-ros2-control) ships with the Ignition/Fortress
+  # shim baked in, which causes pluginlib::ClassLoaderException at runtime when
+  # the ament index only knows about /opt/ros/humble.  Building from source and
+  # sourcing the workspace overlay registers the package correctly.
+  src/gz_ros2_control:
+    type: git
+    url: https://github.com/ros-controls/gz_ros2_control.git
+    version: humble
+
+  # Custom PX4 fork with the sarax_plus airframe (SYS_AUTOSTART=8001) and
+  # the coaxial-octocopter mixer / control allocator tuned for ~9.5 kg.
+  PX4-Autopilot:
+    type: git
+    url: https://github.com/SaxionMechatronics/PX4-Autopilot.git
+    version: v1.16.0-sarax-sim

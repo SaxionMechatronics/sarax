@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!--
+    Declares the <ros2_control> hardware block for the SARAX+ manipulator.
+    Swap the <plugin> by passing `hardware:=...` at xacro expansion time.
+  -->
+  <xacro:macro name="sarax_ros2_control" params="hardware effort_limit">
+
+    <ros2_control name="SaraxManipulator" type="system">
+
+      <hardware>
+        <xacro:if value="${hardware == 'gazebo'}">
+          <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </xacro:if>
+        <xacro:if value="${hardware == 'mock'}">
+          <plugin>mock_components/GenericSystem</plugin>
+        </xacro:if>
+        <xacro:if value="${hardware == 'real'}">
+          <!-- Replace with the real hardware_interface plugin when available. -->
+          <plugin>sarax_hardware/HwInterface</plugin>
+        </xacro:if>
+      </hardware>
+
+      <joint name="mani_joint_1">
+        <command_interface name="effort">
+          <param name="min">-${effort_limit}</param>
+          <param name="max"> ${effort_limit}</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+      </joint>
+
+      <joint name="mani_joint_2">
+        <command_interface name="effort">
+          <param name="min">-${effort_limit}</param>
+          <param name="max"> ${effort_limit}</param>
+        </command_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+      </joint>
+
+    </ros2_control>
+
+    <!-- Gazebo side: tell gz_ros2_control where to find the controllers YAML. -->
+    <xacro:if value="${hardware == 'gazebo'}">
+      <gazebo>
+        <plugin filename="gz_ros2_control-system"
+                name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+          <parameters>$(find sarax_bringup)/config/controllers.yaml</parameters>
+        </plugin>
+      </gazebo>
+    </xacro:if>
+
+  </xacro:macro>
+
+</robot>

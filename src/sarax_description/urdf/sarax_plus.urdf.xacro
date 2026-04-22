@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<robot name="sarax_plus" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- =========================== Arguments =========================== -->
+  <!-- Hardware selection.
+       - "gazebo"  : use gz_ros2_control/GazeboSimSystem (default)
+       - "mock"    : use mock_components/GenericSystem (for offline tests)
+       - "real"    : placeholder for future sarax_hardware/HwInterface -->
+  <xacro:arg name="hardware" default="gazebo"/>
+  <!-- Effort limit (N.m) per manipulator joint, propagated into the ros2_control block. -->
+  <xacro:arg name="effort_limit" default="30.0"/>
+  <!-- Gazebo world+model names so downstream tools that need the long topic form can reuse them. -->
+  <xacro:arg name="gz_world_name" default="default"/>
+  <xacro:arg name="gz_model_name" default="sarax_plus"/>
+
+  <xacro:property name="mesh_pkg" value="package://sarax_description/meshes"/>
+
+  <!-- ============================ Joints ============================= -->
+  <!-- ar_mani_fixed and mani_fixed are structural; only mani_joint_1/2 are actuated. -->
+
+  <joint name="ar_mani_fixed" type="fixed">
+    <parent link="base_link"/>
+    <child  link="link1"/>
+    <origin xyz="0 0 0.002" rpy="1.5708 0 0"/>
+  </joint>
+
+  <joint name="mani_fixed" type="fixed">
+    <parent link="link1"/>
+    <child  link="link2"/>
+    <origin xyz="0 -0.002 -0.003" rpy="-1.57079 0 -1.5708"/>
+  </joint>
+
+  <joint name="mani_joint_1" type="revolute">
+    <parent link="link2"/>
+    <child  link="link3"/>
+    <origin xyz="0 0.07199 0" rpy="3.14159 -1.57079 3.14159"/>
+    <axis   xyz="1 0 0"/>
+    <limit  lower="-1.5708" upper="1.5708" effort="$(arg effort_limit)" velocity="1.0"/>
+    <dynamics damping="0.01" friction="0.0"/>
+  </joint>
+
+  <joint name="mani_joint_2" type="revolute">
+    <parent link="link3"/>
+    <child  link="link4"/>
+    <origin xyz="0 0.325 0" rpy="0 0 0"/>
+    <axis   xyz="1 0 0"/>
+    <limit  lower="-1.9" upper="2.6" effort="$(arg effort_limit)" velocity="1.0"/>
+    <dynamics damping="0.01" friction="0.0"/>
+  </joint>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child  link="imu_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Rotor joints (PX4's motor model drives these; ros2_control never touches them). -->
+  <xacro:macro name="rotor_joint" params="id xyz">
+    <joint name="rotor_${id}_joint" type="continuous">
+      <parent link="base_link"/>
+      <child  link="rotor_${id}"/>
+      <origin xyz="${xyz}" rpy="0 0 0"/>
+      <axis   xyz="0 0 1"/>
+      <dynamics damping="0.004" friction="0.0"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:rotor_joint id="1" xyz=" 0.3181 -0.3181  0.045"/>
+  <xacro:rotor_joint id="2" xyz=" 0.3181  0.3181  0.045"/>
+  <xacro:rotor_joint id="3" xyz="-0.3181  0.3181  0.045"/>
+  <xacro:rotor_joint id="4" xyz="-0.3181 -0.3181  0.045"/>
+  <xacro:rotor_joint id="5" xyz=" 0.3181  0.3181 -0.045"/>
+  <xacro:rotor_joint id="6" xyz=" 0.3181 -0.3181 -0.045"/>
+  <xacro:rotor_joint id="7" xyz="-0.3181 -0.3181 -0.045"/>
+  <xacro:rotor_joint id="8" xyz="-0.3181  0.3181 -0.045"/>
+
+  <!-- ============================ Links ============================== -->
+
+  <link name="base_link">
+    <inertial>
+      <mass value="5.7"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.2" ixy="0" ixz="0" iyy="0.2" iyz="0" izz="0.3"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><box size="0.47 0.47 0.4"/></geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="${mesh_pkg}/sarax-base.stl" scale="1 1 1"/></geometry>
+    </visual>
+  </link>
+
+  <link name="imu_link">
+    <inertial>
+      <mass value="0.015"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-05" ixy="0" ixz="0" iyy="1e-05" iyz="0" izz="1e-05"/>
+    </inertial>
+  </link>
+
+  <link name="link1">
+    <inertial>
+      <mass value="0.141134"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0001747" ixy="0" ixz="0" iyy="0.0003488" iyz="0" izz="0.0001747"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="${mesh_pkg}/link1.dae" scale="1 1 1"/></geometry>
+    </visual>
+  </link>
+
+  <link name="link2">
+    <inertial>
+      <mass value="1.06637"/>
+      <origin xyz="0 0.0014 0" rpy="0 0 0"/>
+      <inertia ixx="0.001663" ixy="-2.18382e-05" ixz="-2.18382e-05"
+               iyy="0.001855" iyz="-3.62233e-06" izz="0.002551"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 -0.003 0" rpy="3.14159 -1.57079 3.14159"/>
+      <geometry><mesh filename="${mesh_pkg}/link2.dae" scale="1 1 1"/></geometry>
+    </visual>
+  </link>
+
+  <link name="link3">
+    <inertial>
+      <mass value="0.363477"/>
+      <origin xyz="0 0.2587 0" rpy="0 0 0"/>
+      <inertia ixx="0.01032" ixy="-0.0001221" ixz="0"
+               iyy="0.000222" iyz="0" izz="0.01038"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 -0.075 0" rpy="0 0 0"/>
+      <geometry><mesh filename="${mesh_pkg}/link3.stl" scale="1 1 1"/></geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.075 0" rpy="0 0 0"/>
+      <geometry><mesh filename="${mesh_pkg}/link3.dae" scale="1 1 1"/></geometry>
+    </visual>
+  </link>
+
+  <link name="link4">
+    <inertial>
+      <mass value="0.113791"/>
+      <origin xyz="0 0.2 0" rpy="0 0 0"/>
+      <inertia ixx="0.003351" ixy="0" ixz="0" iyy="0.003336" iyz="0" izz="3.30137e-05"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 -0.4 0" rpy="0 0 0"/>
+      <geometry><mesh filename="${mesh_pkg}/link4.stl" scale="1 1 1"/></geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 -0.4 0" rpy="0 0 0"/>
+      <geometry><mesh filename="${mesh_pkg}/link4.dae" scale="1 1 1"/></geometry>
+    </visual>
+  </link>
+
+  <xacro:macro name="rotor_link" params="id direction">
+    <link name="rotor_${id}">
+      <inertial>
+        <mass value="0.005"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="9.75e-07" ixy="0" ixz="0"
+                 iyy="0.000273104" iyz="0" izz="0.000274004"/>
+      </inertial>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry><cylinder radius="0.23" length="0.005"/></geometry>
+      </collision>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry><mesh filename="${mesh_pkg}/iris_prop_${direction}.dae" scale="1 1 1"/></geometry>
+      </visual>
+    </link>
+  </xacro:macro>
+
+  <xacro:rotor_link id="1" direction="ccw"/>
+  <xacro:rotor_link id="2" direction="cw"/>
+  <xacro:rotor_link id="3" direction="cw"/>
+  <xacro:rotor_link id="4" direction="cw"/>
+  <xacro:rotor_link id="5" direction="cw"/>
+  <xacro:rotor_link id="6" direction="cw"/>
+  <xacro:rotor_link id="7" direction="cw"/>
+  <xacro:rotor_link id="8" direction="cw"/>
+
+  <!-- ======================== ros2_control =========================== -->
+  <xacro:include filename="$(find sarax_description)/urdf/ros2_control.xacro"/>
+  <xacro:sarax_ros2_control hardware="$(arg hardware)"
+                            effort_limit="$(arg effort_limit)"/>
+
+</robot>

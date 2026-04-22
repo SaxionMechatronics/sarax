@@ -1,0 +1,72 @@
+[project]
+name = "sarax"
+version = "0.1.0"
+description = "SARAX+ — 2-DoF manipulator on a PX4 coaxial octocopter (ROS 2 Humble + Gazebo Harmonic)"
+# robostack-humble provides pre-built ROS 2 Humble conda packages.
+# conda-forge provides Gazebo Harmonic, build tools, and Python deps.
+channels = ["robostack-humble", "conda-forge"]
+platforms = ["linux-64"]
+
+[activation.env]
+# Expose the workspace-built gz_ros2_control plugin to Gazebo's plugin loader.
+# pluginlib resolves packages via the ament index; the workspace overlay handles
+# that — but Gazebo's own loader also needs the .so on this path.
+GZ_SIM_SYSTEM_PLUGIN_PATH = "$PIXI_PROJECT_ROOT/install/gz_ros2_control/lib:$GZ_SIM_SYSTEM_PLUGIN_PATH"
+
+# ── ROS 2 Humble ─────────────────────────────────────────────────────────────
+[dependencies]
+ros-humble-desktop = "*"
+
+# Gazebo Harmonic ↔ ROS 2 bridge (gz-sim 8.x = Harmonic, the recommended LTS
+# pairing for ROS 2 Humble per https://gazebosim.org/docs/latest/ros_installation)
+ros-humble-ros-gzharmonic = "*"
+
+# ros2_control stack
+ros-humble-ros2-control = "*"
+ros-humble-ros2-controllers = "*"
+ros-humble-controller-manager = "*"
+ros-humble-joint-state-broadcaster = "*"
+ros-humble-forward-command-controller = "*"
+
+# Robot description
+ros-humble-robot-state-publisher = "*"
+ros-humble-xacro = "*"
+
+# Dynamics (used by PDGravityLaw inside sarax_impedance_controller)
+ros-humble-pinocchio = "*"
+ros-humble-realtime-tools = "*"
+
+# ── Gazebo Harmonic dev headers (needed to build gz_ros2_control from source) ─
+gz-sim8 = "*"
+gz-plugin2 = "*"
+
+# ── Build tools ───────────────────────────────────────────────────────────────
+colcon-common-extensions = "*"
+python-vcstool = "*"
+cmake = ">=3.16"
+python = ">=3.10"
+pip = "*"
+ninja = "*"
+
+# ── PX4 Python build dependencies ────────────────────────────────────────────
+# PX4 requires empy 3.x — 4.x changed the API and breaks the Jinja templates.
+empy = "3.3.4.*"
+jinja2 = "*"
+numpy = "*"
+packaging = "*"
+pyros-genmsg = "*"
+future = "*"
+pyulog = "*"
+
+[tasks]
+# ── First-time setup ─────────────────────────────────────────────────────────
+install = { cmd = "bash scripts/install.sh", description = "Clone deps and build everything" }
+
+# ── Incremental rebuild ──────────────────────────────────────────────────────
+build = { cmd = "bash scripts/build.sh", description = "Rebuild the ROS 2 workspace" }
+
+# ── Simulation (two terminals) ───────────────────────────────────────────────
+# Terminal 1 →  pixi run px4
+# Terminal 2 →  pixi run ros   (after "Gazebo world is ready")
+px4 = { cmd = "bash scripts/px4.sh", description = "Launch PX4 SITL + Gazebo Harmonic" }
+ros = { cmd = "bash scripts/ros.sh", description = "Launch robot_state_publisher + controllers" }
