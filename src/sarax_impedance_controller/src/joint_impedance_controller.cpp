@@ -26,8 +26,6 @@ CallbackReturn JointImpedanceController::on_init()
 {
   try {
     auto_declare<std::vector<std::string>>("joints", {});
-    auto_declare<std::vector<double>>("stiffness", {});
-    auto_declare<std::vector<double>>("damping", {});
     auto_declare<std::vector<double>>("effort_limits", {});
     auto_declare<double>("max_position_error",
                          std::numeric_limits<double>::infinity());
@@ -55,15 +53,31 @@ CallbackReturn JointImpedanceController::on_configure(
   }
   n_joints_ = joint_names_.size();
 
-  const auto k = node->get_parameter("stiffness").as_double_array();
-  const auto d = node->get_parameter("damping").as_double_array();
-  if (k.size() != n_joints_ || d.size() != n_joints_) {
-    RCLCPP_ERROR(node->get_logger(),
-      "stiffness/damping must have %zu entries (one per joint)", n_joints_);
-    return CallbackReturn::ERROR;
+  // Declare per-joint scalar params with FloatingPointRange so rqt_reconfigure
+  // renders them as sliders instead of text fields.
+  stiffness_.resize(n_joints_);
+  damping_.resize(n_joints_);
+  q_ref_param_ = Eigen::VectorXd::Zero(n_joints_);
+  {
+    rcl_interfaces::msg::FloatingPointRange kr, dr, qr;
+    kr.from_value = 0.0;   kr.to_value = 100.0; kr.step = 0.1;
+    dr.from_value = 0.0;   dr.to_value = 50.0;  dr.step = 0.1;
+    qr.from_value = -M_PI; qr.to_value = M_PI;  qr.step = 0.01;
+
+    rcl_interfaces::msg::ParameterDescriptor kd, dd, qd;
+    kd.floating_point_range.push_back(kr);
+    dd.floating_point_range.push_back(dr);
+    qd.floating_point_range.push_back(qr);
+
+    for (size_t i = 0; i < n_joints_; ++i) {
+      const auto si = std::to_string(i);
+      stiffness_[static_cast<Eigen::Index>(i)] =
+        node->declare_parameter("stiffness_" + si, 1.0, kd);
+      damping_[static_cast<Eigen::Index>(i)] =
+        node->declare_parameter("damping_" + si, 10.0, dd);
+      node->declare_parameter("q_ref_" + si, 0.0, qd);
+    }
   }
-  stiffness_ = Eigen::Map<const Eigen::VectorXd>(k.data(), k.size());
-  damping_   = Eigen::Map<const Eigen::VectorXd>(d.data(), d.size());
 
   auto el = node->get_parameter("effort_limits").as_double_array();
   if (el.empty()) {
@@ -147,6 +161,53 @@ CallbackReturn JointImpedanceController::on_configure(
       gains_buffer_.writeFromNonRT(msg);
     });
 
+  // Parameter callback — rqt_reconfigure sliders and `ros2 param set` both land here.
+  param_cb_handle_ = node->add_on_set_parameters_callback(
+    [this](const std::vector<rclcpp::Parameter> & params)
+    -> rcl_interfaces::msg::SetParametersResult
+    {
+      rcl_interfaces::msg::SetParametersResult result;
+      result.successful = true;
+
+      bool gains_changed = false;
+      bool ref_changed   = false;
+      Eigen::VectorXd new_k = stiffness_;
+      Eigen::VectorXd new_d = damping_;
+      Eigen::VectorXd new_ref = q_ref_param_;
+
+      for (const auto & p : params) {
+        for (size_t i = 0; i < n_joints_; ++i) {
+          const auto si = std::to_string(i);
+          const Eigen::Index ei = static_cast<Eigen::Index>(i);
+          if (p.get_name() == "stiffness_" + si) {
+            new_k[ei] = p.as_double();
+            gains_changed = true;
+          } else if (p.get_name() == "damping_" + si) {
+            new_d[ei] = p.as_double();
+            gains_changed = true;
+          } else if (p.get_name() == "q_ref_" + si) {
+            new_ref[ei] = p.as_double();
+            ref_changed = true;
+          }
+        }
+      }
+
+      if (gains_changed) {
+        auto msg = std::make_shared<GainsMsg>();
+        msg->stiffness.assign(new_k.data(), new_k.data() + n_joints_);
+        msg->damping.assign(new_d.data(), new_d.data() + n_joints_);
+        gains_buffer_.writeFromNonRT(msg);
+      }
+      if (ref_changed) {
+        q_ref_param_ = new_ref;
+        auto msg = std::make_shared<JointPoint>();
+        msg->positions.assign(new_ref.data(), new_ref.data() + n_joints_);
+        reference_buffer_.writeFromNonRT(msg);
+      }
+
+      return result;
+    });
+
   return CallbackReturn::SUCCESS;
 }
 
@@ -161,6 +222,16 @@ CallbackReturn JointImpedanceController::on_activate(
   }
   reference_buffer_.initRT(std::shared_ptr<JointPoint>());
   gains_buffer_.initRT(std::shared_ptr<GainsMsg>());
+
+  // Sync q_ref_N parameters to current joint positions so rqt_reconfigure
+  // sliders start at the real arm pose rather than zero.
+  for (size_t i = 0; i < n_joints_; ++i) {
+    const double q_now = state_interfaces_[i * 3 + 0].get_value();
+    q_ref_param_[static_cast<Eigen::Index>(i)] = q_now;
+    get_node()->set_parameter(
+      rclcpp::Parameter("q_ref_" + std::to_string(i), q_now));
+  }
+
   return CallbackReturn::SUCCESS;
 }
 

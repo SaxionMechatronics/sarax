@@ -27,9 +27,11 @@ joint_impedance_controller:
     joints:
       - mani_joint_1
       - mani_joint_2
-    stiffness: [ 1.0, 1.0 ] # N.m / rad
-    damping: [ 10.0, 10.0 ] # N.m.s / rad
-    effort_limits: [ 30.0, 30.0 ] # N.m, per URDF
+    stiffness_0: 10.0 # N.m / rad — mani_joint_1
+    stiffness_1: 10.0 # N.m / rad — mani_joint_2
+    damping_0: 0.0    # N.m.s / rad — mani_joint_1
+    damping_1: 0.0    # N.m.s / rad — mani_joint_2
+    effort_limits: [ 15.0, 15.0 ] # N.m, per URDF
     max_position_error: 0.5 # rad, clamp before Kp is applied
 
     # Switch laws by changing this string. Shipped laws:

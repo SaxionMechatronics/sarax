@@ -5,7 +5,7 @@
   <version>0.1.0</version>
   <description>Gazebo model + world assets for SARAX+, with gz_ros2_control wiring
   for the manipulator. Source copy mirrored to PX4-Autopilot/Tools/simulation/gz/models.</description>
-  <maintainer email="a.n.alharbat@gmail.com">Ayham</maintainer>
+  <maintainer email="a.alharbat@saxion.nl">Ayham</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

@@ -7,7 +7,7 @@
     Proof-of-concept publisher that sends arbitrary joint torques to the simulated
     SARAX+ 2-DoF manipulator via the Gazebo ApplyJointForce plugin, bridged to ROS 2.
   </description>
-  <maintainer email="a.n.alharbat@gmail.com">Ayham</maintainer>
+  <maintainer email="a.alharbat@saxion.nl">Ayham</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

@@ -14,7 +14,7 @@ repositories:
   src/gps_umd:
     type: git
     url: https://github.com/swri-robotics/gps_umd.git
-    version: ros2
+    version: ros2-devel
 
   # ros_gz bridge built from source against Gazebo Harmonic (gz-sim8).
   # robostack-humble only packages ros-humble-ros-gz against Fortress; there

@@ -15,7 +15,10 @@ GZ_VERSION = "harmonic"
 # pluginlib resolves packages via the ament index; the workspace overlay handles
 # that — but Gazebo's own loader also needs the .so on this path.
 GZ_SIM_SYSTEM_PLUGIN_PATH = "$PIXI_PROJECT_ROOT/install/gz_ros2_control/lib:$GZ_SIM_SYSTEM_PLUGIN_PATH"
-
+# Let Gazebo resolve model:// URIs for sarax meshes (base, links, rotors).
+# GZ_SIM_RESOURCE_PATH = "$PIXI_PROJECT_ROOT/install/sarax_description/share:$GZ_SIM_RESOURCE_PATH"
+# Gazebo subprocesses (ros_gz_sim/create) need librclcpp.so and friends on LD_LIBRARY_PATH.
+# LD_LIBRARY_PATH = "$PIXI_PROJECT_ROOT/.pixi/envs/default/lib:$LD_LIBRARY_PATH"
 # ── ROS 2 Humble ─────────────────────────────────────────────────────────────
 [dependencies]
 ros-humble-desktop = "*"
@@ -60,6 +63,7 @@ packaging = "*"
 future = "*"
 pyulog = "*"
 jsonschema = "*"
+pinocchio = ">=3.9.0,<4"
 
 # ── PyPI-only packages (not available in conda channels) ─────────────────────
 [pypi-dependencies]

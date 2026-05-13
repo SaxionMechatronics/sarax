@@ -18,6 +18,9 @@
 #include <rclcpp/rclcpp.hpp>
 #include <realtime_tools/realtime_buffer.h>
 
+#include <rcl_interfaces/msg/floating_point_range.hpp>
+#include <rcl_interfaces/msg/parameter_descriptor.hpp>
+#include <rcl_interfaces/msg/set_parameters_result.hpp>
 #include <sarax_msgs/msg/impedance_gains.hpp>
 #include <trajectory_msgs/msg/joint_trajectory_point.hpp>
 
@@ -77,6 +80,13 @@ private:
   using GainsMsg = sarax_msgs::msg::ImpedanceGains;
   realtime_tools::RealtimeBuffer<std::shared_ptr<GainsMsg>> gains_buffer_;
   rclcpp::Subscription<GainsMsg>::SharedPtr gains_sub_;
+
+  // Parameter callback handle (rqt_reconfigure / ros2 param set)
+  rclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr param_cb_handle_;
+
+  // Non-RT shadow of q_ref parameters so the callback can build full references
+  // when only one joint's slider moves.
+  Eigen::VectorXd q_ref_param_;
 
   // Working buffers to avoid allocation in update().
   Eigen::VectorXd q_, q_dot_;

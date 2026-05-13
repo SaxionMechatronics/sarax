@@ -171,14 +171,47 @@ $$\tau = K_d(q_d - q) + D_d(\dot{q}_d - \dot{q}) + g(q)$$
 
 Torque commands are clamped to ±30 N·m per joint. The stiffness term is saturated when $|q - q_d| >$ `max_position_error` (default 0.5 rad) to prevent runaway on bad references.
 
-### Live gain tuning
+### Live gain tuning and reference position
+
+The controller declares all tunable values as individual per-joint ROS 2 parameters with explicit min/max ranges, so `rqt_reconfigure` automatically renders them as sliders:
 
 ```bash
-ros2 param set /joint_impedance_controller stiffness "[300.0, 300.0]"
-ros2 param set /joint_impedance_controller damping "[30.0, 30.0]"
+ros2 run rqt_reconfigure rqt_reconfigure
 ```
 
-All parameters except `joints` support dynamic reconfiguration.
+Select `/joint_impedance_controller` in the left panel. Six sliders appear:
+
+| Parameter | Range | Description |
+|-----------|-------|-------------|
+| `stiffness_0` | 0 – 100 N·m/rad | Stiffness $K_d$ for mani_joint_1 |
+| `stiffness_1` | 0 – 100 N·m/rad | Stiffness $K_d$ for mani_joint_2 |
+| `damping_0` | 0 – 50 N·m·s/rad | Damping $D_d$ for mani_joint_1 |
+| `damping_1` | 0 – 50 N·m·s/rad | Damping $D_d$ for mani_joint_2 |
+| `q_ref_0` | −π – π rad | Reference angle $q_d$ for mani_joint_1 |
+| `q_ref_1` | −π – π rad | Reference angle $q_d$ for mani_joint_2 |
+
+`q_ref_N` is initialised to the actual joint positions each time the controller activates, so the arm holds its current pose until you move the sliders.
+
+**Command-line equivalents:**
+
+```bash
+ros2 param set /joint_impedance_controller stiffness_0 20.0
+ros2 param set /joint_impedance_controller stiffness_1 20.0
+ros2 param set /joint_impedance_controller damping_0 8.0
+ros2 param set /joint_impedance_controller damping_1 8.0
+ros2 param set /joint_impedance_controller q_ref_0 0.5
+ros2 param set /joint_impedance_controller q_ref_1 -0.3
+```
+
+Gains can also be pushed via the `~/gains` topic:
+
+```bash
+ros2 topic pub -1 /joint_impedance_controller/gains \
+  sarax_msgs/msg/ImpedanceGains \
+  "{joint_names: [mani_joint_1, mani_joint_2], stiffness: [20.0, 20.0], damping: [8.0, 8.0]}"
+```
+
+Static parameters (`joints`, `impedance_law`, `effort_limits`, `max_position_error`) require a controller restart to change.
 
 ### Adding a custom impedance law
 
