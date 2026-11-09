@@ -5,10 +5,20 @@
   <!-- Hardware selection.
        - "gazebo"  : use gz_ros2_control/GazeboSimSystem (default)
        - "mock"    : use mock_components/GenericSystem (for offline tests)
-       - "real"    : placeholder for future sarax_hardware/HwInterface -->
+      - "real"    : sarax_tmotor_ak60_driver/TmotorAk60System (explicit only) -->
   <xacro:arg name="hardware" default="gazebo"/>
   <!-- Effort limit (N.m) per manipulator joint, propagated into the ros2_control block. -->
   <xacro:arg name="effort_limit" default="30.0"/>
+  <!-- Physical joint mapping. Motor 2 is identified; the second ID is an example. -->
+  <xacro:arg name="ak60_can_interface" default="can0"/>
+  <xacro:arg name="ak60_hardware_verified" default="false"/>
+  <xacro:arg name="ak60_use_second_motor" default="false"/>
+  <xacro:arg name="ak60_feedback_timeout" default="0.1"/>
+  <xacro:arg name="ak60_startup_timeout" default="1.0"/>
+  <xacro:arg name="mani_joint_1_motor_id" default="2"/>
+  <xacro:arg name="mani_joint_1_effort_limit" default="5.0"/>
+  <xacro:arg name="mani_joint_2_motor_id" default="1"/>
+  <xacro:arg name="mani_joint_2_effort_limit" default="5.0"/>
   <!-- Gazebo world+model names so downstream tools that need the long topic form can reuse them. -->
   <xacro:arg name="gz_world_name" default="default"/>
   <xacro:arg name="gz_model_name" default="sarax_plus"/>
@@ -27,25 +37,29 @@
   <joint name="mani_fixed" type="fixed">
     <parent link="link1"/>
     <child  link="link2"/>
-    <origin xyz="0 -0.002 -0.003" rpy="-1.57079 0 -1.5708"/>
+    <origin xyz="0 0.003 0" rpy="0 1.5708 0"/>
   </joint>
 
   <joint name="mani_joint_1" type="revolute">
     <parent link="link2"/>
     <child  link="link3"/>
-    <origin xyz="0 0.07199 0" rpy="3.14159 -1.57079 3.14159"/>
-    <axis   xyz="1 0 0"/>
-    <limit  lower="-1.5708" upper="1.5708" effort="$(arg effort_limit)" velocity="1.0"/>
-    <dynamics damping="0.01" friction="0.0"/>
+    <origin xyz="0 0.075 0" rpy="0 0 0"/>
+    <axis   xyz="-1 0 0"/>
+    <limit  lower="-1.5708" upper="1.5708"
+            effort="${'$(arg mani_joint_1_effort_limit)' if '$(arg hardware)' == 'real' else '$(arg effort_limit)'}"
+            velocity="3.14"/>
+    <dynamics damping="0.7" friction="0.0"/>
   </joint>
 
   <joint name="mani_joint_2" type="revolute">
     <parent link="link3"/>
     <child  link="link4"/>
-    <origin xyz="0 0.325 0" rpy="0 0 0"/>
+    <origin xyz="0 0.4 0" rpy="0 0 0"/>
     <axis   xyz="1 0 0"/>
-    <limit  lower="-1.9" upper="2.6" effort="$(arg effort_limit)" velocity="1.0"/>
-    <dynamics damping="0.01" friction="0.0"/>
+    <limit  lower="-2.6" upper="2.6"
+            effort="${'$(arg mani_joint_2_effort_limit)' if '$(arg hardware)' == 'real' else '$(arg effort_limit)'}"
+            velocity="3.14"/>
+    <dynamics damping="0.7" friction="0.0"/>
   </joint>
 
   <joint name="imu_joint" type="fixed">

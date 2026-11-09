@@ -645,5 +645,50 @@
       </ros>
     </plugin>
 
+    <!-- Forward-facing RGB-D camera used as the inspection sensor. -->
+    <link name='camera_link'>
+      <pose relative_to='base_link'>0.15 0 0.05 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>1e-7</ixx><ixy>0</ixy><ixz>0</ixz>
+          <iyy>1e-7</iyy><iyz>0</iyz>
+          <izz>1e-7</izz>
+        </inertia>
+      </inertial>
+      <sensor name='rgbd_camera' type='rgbd_camera'>
+        <always_on>1</always_on>
+        <update_rate>5</update_rate>
+        <topic>camera</topic>
+        <camera name='camera'>
+          <horizontal_fov>1.5184</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>10.0</far>
+          </clip>
+          <depth_camera>
+            <clip>
+              <near>0.1</near>
+              <far>10.0</far>
+            </clip>
+          </depth_camera>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.007</stddev>
+          </noise>
+        </camera>
+      </sensor>
+    </link>
+    <joint name='camera_joint' type='fixed'>
+      <parent>base_link</parent>
+      <child>camera_link</child>
+    </joint>
+
   </model>
 </sdf>

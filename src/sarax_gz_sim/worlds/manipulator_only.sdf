@@ -16,6 +16,12 @@
       <cast_shadows>true</cast_shadows>
     </light>
 
+    <include>
+      <uri>model://wind_turbine_blade</uri>
+      <name>wind_turbine_blade</name>
+      <pose>0.45 4.38 1.50 1.5708 0 -1.5708</pose>
+    </include>
+
     <model name="ground_plane">
       <static>true</static>
       <link name="link">

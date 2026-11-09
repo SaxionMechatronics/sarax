@@ -74,4 +74,35 @@ def generate_launch_description():
         )
     )
 
-    return LaunchDescription([controller_arg, rsp, jsb_spawner, after_jsb])
+    camera_tf = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        arguments=[
+            "-0.15", "0", "0.05",
+            "0", "0", "1", "0",
+            "sarax_plus_0/base_link",
+            "sarax_plus_0/base_link/rgbd_camera",
+        ],
+        output="screen",
+    )
+
+    base_link_bridge = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        arguments=[
+            "0", "0", "0",
+            "0", "0", "0", "1",
+            "sarax_plus_0/base_link",
+            "base_link",
+        ],
+        output="screen",
+    )
+
+    return LaunchDescription([
+        controller_arg,
+        rsp,
+        jsb_spawner,
+        after_jsb,
+        camera_tf,
+        base_link_bridge,
+    ])

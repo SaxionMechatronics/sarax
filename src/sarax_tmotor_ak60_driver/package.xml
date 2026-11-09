@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sarax_tmotor_ak60_driver</name>
+  <version>0.1.0</version>
+  <description>Small SARAX AK60 effort-only hardware driver for ROS 2 Humble.</description>
+  <maintainer email="a.alharbat@saxion.nl">Ayham Alharbat</maintainer>
+  <author>SMART Research Group - Saxion University of Applied Sciences</author>
+  <license>BSD-3-Clause</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

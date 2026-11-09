@@ -62,7 +62,7 @@ CallbackReturn JointImpedanceController::on_configure(
     rcl_interfaces::msg::FloatingPointRange kr, dr, qr;
     kr.from_value = 0.0;   kr.to_value = 100.0; kr.step = 0.1;
     dr.from_value = 0.0;   dr.to_value = 50.0;  dr.step = 0.1;
-    qr.from_value = -M_PI; qr.to_value = M_PI;  qr.step = 0.01;
+    qr.from_value = -M_PI; qr.to_value = M_PI;  qr.step = 0.0;
 
     rcl_interfaces::msg::ParameterDescriptor kd, dd, qd;
     kd.floating_point_range.push_back(kr);
@@ -71,11 +71,19 @@ CallbackReturn JointImpedanceController::on_configure(
 
     for (size_t i = 0; i < n_joints_; ++i) {
       const auto si = std::to_string(i);
-      stiffness_[static_cast<Eigen::Index>(i)] =
-        node->declare_parameter("stiffness_" + si, 1.0, kd);
-      damping_[static_cast<Eigen::Index>(i)] =
-        node->declare_parameter("damping_" + si, 10.0, dd);
-      node->declare_parameter("q_ref_" + si, 0.0, qd);
+      const Eigen::Index ei = static_cast<Eigen::Index>(i);
+      if (!node->has_parameter("stiffness_" + si))
+        stiffness_[ei] = node->declare_parameter("stiffness_" + si, 1.0, kd);
+      else
+        stiffness_[ei] = node->get_parameter("stiffness_" + si).as_double();
+
+      if (!node->has_parameter("damping_" + si))
+        damping_[ei] = node->declare_parameter("damping_" + si, 10.0, dd);
+      else
+        damping_[ei] = node->get_parameter("damping_" + si).as_double();
+
+      if (!node->has_parameter("q_ref_" + si))
+        node->declare_parameter("q_ref_" + si, 0.0, qd);
     }
   }
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="wind_turbine_blade">
+    <static>true</static>
+    <link name="blade_link">
+      <visual name="blade_visual">
+        <geometry>
+          <mesh>
+            <uri>model://wind_turbine_blade/meshes/wind_turbine_blade_skin.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.85 0.85 0.85 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+        </material>
+      </visual>
+      <collision name="blade_collision">
+        <geometry>
+          <mesh>
+            <uri>model://wind_turbine_blade/meshes/wind_turbine_blade_skin.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

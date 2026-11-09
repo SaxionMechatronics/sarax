@@ -1,0 +1,5 @@
+<library path="sarax_tmotor_ak60_driver">
+  <class name="sarax_tmotor_ak60_driver/TmotorAk60System"
+         type="sarax_tmotor_ak60_driver::TmotorAk60System"
+         base_class_type="hardware_interface::SystemInterface"/>
+</library>

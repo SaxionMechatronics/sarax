@@ -6,6 +6,10 @@
     Swap the <plugin> by passing `hardware:=...` at xacro expansion time.
   -->
   <xacro:macro name="sarax_ros2_control" params="hardware effort_limit">
+    <xacro:property name="joint_1_limit"
+                    value="${float('$(arg mani_joint_1_effort_limit)') if hardware == 'real' else effort_limit}"/>
+    <xacro:property name="joint_2_limit"
+                    value="${float('$(arg mani_joint_2_effort_limit)') if hardware == 'real' else effort_limit}"/>
 
     <ros2_control name="SaraxManipulator" type="system">
 
@@ -17,30 +21,43 @@
           <plugin>mock_components/GenericSystem</plugin>
         </xacro:if>
         <xacro:if value="${hardware == 'real'}">
-          <!-- Replace with the real hardware_interface plugin when available. -->
-          <plugin>sarax_hardware/HwInterface</plugin>
+          <plugin>sarax_tmotor_ak60_driver/TmotorAk60System</plugin>
+          <param name="can_interface">$(arg ak60_can_interface)</param>
+          <param name="hardware_verified">$(arg ak60_hardware_verified)</param>
+          <param name="feedback_timeout">$(arg ak60_feedback_timeout)</param>
+          <param name="startup_timeout">$(arg ak60_startup_timeout)</param>
         </xacro:if>
       </hardware>
 
       <joint name="mani_joint_1">
+        <xacro:if value="${hardware == 'real'}">
+          <param name="motor_id">$(arg mani_joint_1_motor_id)</param>
+          <param name="effort_limit">$(arg mani_joint_1_effort_limit)</param>
+        </xacro:if>
         <command_interface name="effort">
-          <param name="min">-${effort_limit}</param>
-          <param name="max"> ${effort_limit}</param>
+          <param name="min">-${joint_1_limit}</param>
+          <param name="max"> ${joint_1_limit}</param>
         </command_interface>
         <state_interface name="position"/>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
 
-      <joint name="mani_joint_2">
-        <command_interface name="effort">
-          <param name="min">-${effort_limit}</param>
-          <param name="max"> ${effort_limit}</param>
-        </command_interface>
-        <state_interface name="position"/>
-        <state_interface name="velocity"/>
-        <state_interface name="effort"/>
-      </joint>
+      <xacro:if value="${hardware != 'real' or '$(arg ak60_use_second_motor)' == 'true'}">
+        <joint name="mani_joint_2">
+          <xacro:if value="${hardware == 'real'}">
+            <param name="motor_id">$(arg mani_joint_2_motor_id)</param>
+            <param name="effort_limit">$(arg mani_joint_2_effort_limit)</param>
+          </xacro:if>
+          <command_interface name="effort">
+            <param name="min">-${joint_2_limit}</param>
+            <param name="max"> ${joint_2_limit}</param>
+          </command_interface>
+          <state_interface name="position"/>
+          <state_interface name="velocity"/>
+          <state_interface name="effort"/>
+        </joint>
+      </xacro:if>
 
     </ros2_control>
 

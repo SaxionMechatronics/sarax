@@ -54,6 +54,7 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
 | `sarax_msgs` | messages | `ImpedanceGains.msg` |
 | `sarax_description` | config | URDF/xacro, meshes, RViz config |
 | `sarax_impedance_controller` | library | ros2_control controller + pluggable impedance laws |
+| `sarax_tmotor_ak60_driver` | library | Real AK60 motor feedback and effort commands over SocketCAN |
 | `sarax_bringup` | config | Launch files and `controllers.yaml` |
 | `sarax_gz_sim` | config | Gazebo model SDF and world files |
 | `sarax_torque_poc` | executable | Proof-of-concept direct torque publisher |
@@ -94,6 +95,37 @@ pixi run install
 ---
 
 ## Usage
+
+### Real manipulator hardware
+
+```bash
+pixi shell
+source install/setup.bash
+export LD_LIBRARY_PATH="$PWD/.pixi/envs/default/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+ros2 launch sarax_bringup ak60_hardware.launch.py
+```
+
+This uses the existing `sarax_plus.urdf.xacro`, real AK60 driver and the same
+`joint_impedance_controller` used in simulation. The default mapping is
+`mani_joint_1` -> motor ID 2; add `use_second_motor:=true motor_2_id:=<verified_id>`
+when the second motor is connected. Hardware starts unconfigured and controllers
+inactive; no motor commands are sent by launching. No simulated feedback or
+reference publisher is loaded. The full activation sequence and current
+hardware limitations are in [the driver README](src/sarax_tmotor_ak60_driver/README.md).
+
+The control path is:
+
+```text
+Motion planner -> /joint_impedance_controller/reference (JointTrajectoryPoint)
+  -> existing impedance controller -> real driver -> CAN motors
+CAN feedback -> real driver -> controller state interfaces and /joint_states
+```
+
+The topic and real joint names stay the same as in the simulation. One configured
+motor needs one reference position; two need two. Filtering, MLS and motion
+planning from the other workspace have not been imported. They can later feed
+this existing controller interface. The impedance-controller source and the
+simulation configuration are unchanged.
 
 ### Manipulator only (no drone)
 
@@ -263,3 +295,8 @@ sarax/
 ## Maintainer
 
 Ayham Alharbat — Saxion Mechatronics (<a.alharbat@saxion.nl>)
+
+## Contributors
+
+- Waleed Elfieky — ROS 2 port of the AK60 motor driver and
+  integration with ros2_control.

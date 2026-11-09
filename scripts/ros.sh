@@ -19,6 +19,24 @@ set +u
 source "$REPO/install/setup.bash"
 set -u
 
-exec ros2 launch sarax_bringup sitl.launch.py \
+PIXI_LIB="$REPO/.pixi/envs/default/lib"
+BRIDGE_BIN="$REPO/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge"
+
+LD_LIBRARY_PATH="$PIXI_LIB${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}" \
+    "$BRIDGE_BIN" \
+    "/camera/points@sensor_msgs/msg/PointCloud2[gz.msgs.PointCloudPacked" \
+    "/camera/image@sensor_msgs/msg/Image[gz.msgs.Image" \
+    "/camera/depth_image@sensor_msgs/msg/Image[gz.msgs.Image" \
+    "/camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo" \
+    --ros-args --remap __node:=camera_bridge &
+BRIDGE_PID=$!
+
+cleanup() {
+    kill "$BRIDGE_PID" 2>/dev/null || true
+    wait "$BRIDGE_PID" 2>/dev/null || true
+}
+trap cleanup EXIT INT TERM
+
+ros2 launch sarax_bringup sitl.launch.py \
     controller:="${SARAX_CONTROLLER:-joint_impedance_controller}" \
     "$@"
