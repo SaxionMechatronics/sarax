@@ -1,17 +1,5 @@
-// PD + gravity compensation, with g(q) from Pinocchio.
-//
-// The controller's claimed joints form a subset of the URDF's actuated joints.
-// We build a pinocchio::Model from the URDF and, each tick, drive it with the
-// joint_q vector padded for any unactuated joints (none exist in sarax_plus,
-// but the logic is kept general).
+// PD + the original SARAX hardware gravity equations, using measured motor angles.
 #pragma once
-
-#include <memory>
-
-// pinocchio::Model is a typedef, not a class — it cannot be forward-declared.
-// Include the real headers to get the full type.
-#include <pinocchio/multibody/model.hpp>
-#include <pinocchio/multibody/data.hpp>
 
 #include "sarax_impedance_controller/impedance_law.hpp"
 
@@ -24,6 +12,8 @@ public:
   PDGravityLaw();
   ~PDGravityLaw() override;
 
+  bool configure_gravity(const GravityParameters & parameters) override;
+
   bool initialize(
     const std::string & urdf_xml,
     const std::vector<std::string> & joints) override;
@@ -33,11 +23,8 @@ public:
   std::string name() const override { return "PDGravity"; }
 
 private:
-  std::unique_ptr<pinocchio::Model> model_;
-  std::unique_ptr<pinocchio::Data>  data_;
-  std::vector<int> joint_to_qidx_;   ///< controller joint index -> Pinocchio q index
-  std::vector<int> joint_to_vidx_;   ///< controller joint index -> Pinocchio v index
-  Eigen::VectorXd q_full_;           ///< scratch for Pinocchio's full q vector
+  GravityParameters gravity_;
+  std::vector<double> gravity_coefficients_;  ///< per-joint coefficient of -sin(q)
 };
 
 }  // namespace sarax_impedance_controller

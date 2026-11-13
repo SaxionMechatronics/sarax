@@ -3,8 +3,15 @@ build/
 install/
 log/
 
+# Recorded experiments and generated plots
+bags/
+images/
+scripts/plot_bags.py
+
 # ── External sources managed by deps.repos (cloned by scripts/install.sh) ────
 src/gz_ros2_control/
+src/gps_umd/
+src/ros_gz/
 PX4-Autopilot/
 
 # ── Robot model directory at workspace root (generated / imported from PX4) ──
@@ -21,6 +28,7 @@ CMakeFiles/
 
 # ── Pixi local state ──────────────────────────────────────────────────────────
 .pixi/
+pixi.lock
 
 # ── Claude Code ───────────────────────────────────────────────────────────────
 .claude/

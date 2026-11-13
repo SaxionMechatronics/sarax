@@ -11,7 +11,7 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
 
 ## Features
 
-- **Joint-space impedance control** with pluggable laws (PD, PD + gravity compensation via Pinocchio)
+- **Joint-space impedance control** with pluggable laws (PD, PD + gravity compensation)
 - **Runtime gain tuning** — stiffness and damping are `ros2 param set`-able without restart
 - **Full SITL** — PX4 + Gazebo Harmonic + ROS 2, all launched from two terminal commands
 - **Self-contained environment** via [pixi](https://pixi.sh) — no system-wide ROS 2 or Gazebo installation required
@@ -42,7 +42,7 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
 │    └── joint_impedance_controller                            │
 │         └── ImpedanceLaw (pluginlib)                         │
 │              ├── PDLaw            (PD only)                  │
-│              └── PDGravityLaw     (PD + Pinocchio g(q))      │
+│              └── PDGravityLaw     (PD + gravity compensation) │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -183,7 +183,6 @@ SARAX_CONTROLLER=forward_effort_controller pixi run ros
 
 ```bash
 ros2 topic echo /joint_states
-ros2 topic echo /joint_impedance_controller/state
 ros2 launch sarax_description view_robot.launch.py   # RViz
 ```
 
@@ -199,9 +198,36 @@ $$\tau = K_d(q_d - q) + D_d(\dot{q}_d - \dot{q}) + g(q)$$
 |--------|---------|---------|
 | $K_d$ | Diagonal stiffness (N·m/rad) | `[1.0, 1.0]` |
 | $D_d$ | Diagonal damping (N·m·s/rad) | `[10.0, 10.0]` |
-| $g(q)$ | Gravity torque via Pinocchio | enabled |
+| $g(q)$ | Gravity compensation torque | enabled in PDGravityLaw |
 
 Torque commands are clamped to ±30 N·m per joint. The stiffness term is saturated when $|q - q_d| >$ `max_position_error` (default 0.5 rad) to prevent runaway on bad references.
+
+### Gravity compensation
+
+`sarax_impedance_controller::PDGravityLaw` keeps the existing PD terms and adds:
+
+```text
+gravity_1 = -g * sin(theta1) * (m2*d2 + m3*L2)
+gravity_2 = -g * sin(theta2) * m3*d3
+```
+
+`theta1` and `theta2` are the measured angles in radians for `mani_joint_1` and
+`mani_joint_2`. Configure the following parameters under
+`joint_impedance_controller.ros__parameters` in
+`src/sarax_bringup/config/controllers.yaml`:
+
+| Parameter | Default | Meaning |
+| --- | --- | --- |
+| `gravity_g` | `9.81` | Gravity magnitude, m/s² |
+| `gravity_L2` | `0.4` | First moving link length, m |
+| `gravity_m2` | `0.363477` | First moving link mass, kg |
+| `gravity_d2` | `0.2587` | Its center-of-mass distance from its pivot, m |
+| `gravity_m3` | `0.113791` | Second moving link mass, kg |
+| `gravity_d3` | `0.2` | Its center-of-mass distance from its pivot, m |
+
+Parameters are validated and read during configuration. After editing the YAML,
+restart bringup to apply them. The equations assume matching angle zeros and
+rotation directions, with gravity fixed relative to the base.
 
 ### Live gain tuning and reference position
 

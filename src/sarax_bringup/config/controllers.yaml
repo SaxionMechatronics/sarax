@@ -34,8 +34,16 @@ joint_impedance_controller:
     effort_limits: [ 15.0, 15.0 ] # N.m, per URDF
     max_position_error: 0.5 # rad, clamp before Kp is applied
 
+    # Original hardware gravity model; read when the controller is configured.
+    gravity_g: 9.81       # m/s^2
+    gravity_L2: 0.46       # m, first moving link length
+    gravity_m2: 0.72  # kg, first moving link mass
+    gravity_d2: 0.23    # m, its center-of-mass distance from the pivot
+    gravity_m3: 0.3  # kg, second moving link mass
+    gravity_d3: 0.25       # m, its center-of-mass distance from the pivot
+
     # Switch laws by changing this string. Shipped laws:
     #   sarax_impedance_controller::PDLaw        (no dynamics)
-    #   sarax_impedance_controller::PDGravityLaw (gravity via Pinocchio)
+    #   sarax_impedance_controller::PDGravityLaw (original hardware gravity model)
     # Third-party packages can add more via pluginlib.
     impedance_law: sarax_impedance_controller::PDGravityLaw

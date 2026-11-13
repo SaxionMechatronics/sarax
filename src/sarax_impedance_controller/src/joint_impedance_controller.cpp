@@ -6,6 +6,7 @@
 
 #include <pluginlib/class_list_macros.hpp>
 #include <hardware_interface/types/hardware_interface_type_values.hpp>
+#include <rclcpp/create_publisher.hpp>
 
 namespace sarax_impedance_controller
 {
@@ -33,6 +34,13 @@ CallbackReturn JointImpedanceController::on_init()
       "impedance_law",
       "sarax_impedance_controller::PDGravityLaw");
     auto_declare<std::string>("robot_description_param", "robot_description");
+    const GravityParameters gravity;
+    auto_declare<double>("gravity_g", gravity.g);
+    auto_declare<double>("gravity_L2", gravity.L2);
+    auto_declare<double>("gravity_m2", gravity.m2);
+    auto_declare<double>("gravity_d2", gravity.d2);
+    auto_declare<double>("gravity_m3", gravity.m3);
+    auto_declare<double>("gravity_d3", gravity.d3);
   } catch (const std::exception & e) {
     RCLCPP_ERROR(get_node()->get_logger(),
                  "on_init failed: %s", e.what());
@@ -139,7 +147,14 @@ CallbackReturn JointImpedanceController::on_configure(
     return CallbackReturn::ERROR;
   }
 
-  if (!law_->initialize(robot_description_, joint_names_)) {
+  const GravityParameters gravity{
+    node->get_parameter("gravity_g").as_double(),
+    node->get_parameter("gravity_L2").as_double(),
+    node->get_parameter("gravity_m2").as_double(),
+    node->get_parameter("gravity_d2").as_double(),
+    node->get_parameter("gravity_m3").as_double(),
+    node->get_parameter("gravity_d3").as_double()};
+  if (!law_->configure_gravity(gravity) || !law_->initialize(robot_description_, joint_names_)) {
     RCLCPP_ERROR(node->get_logger(),
       "ImpedanceLaw '%s' failed to initialize", law_->name().c_str());
     return CallbackReturn::ERROR;
@@ -155,6 +170,14 @@ CallbackReturn JointImpedanceController::on_configure(
   q_d_     = Eigen::VectorXd::Zero(n_joints_);
   q_dot_d_ = Eigen::VectorXd::Zero(n_joints_);
   tau_   = Eigen::VectorXd::Zero(n_joints_);
+
+  const auto torque_publisher = rclcpp::create_publisher<TorqueMsg>(
+    node, "~/commanded_torque", rclcpp::QoS(10));
+  torque_publisher_ = std::make_unique<realtime_tools::RealtimePublisher<TorqueMsg>>(
+    torque_publisher);
+  torque_publisher_->lock();
+  torque_publisher_->msg_.data.resize(n_joints_);
+  torque_publisher_->unlock();
 
   // Reference (q_d, q_dot_d) comes via a JointTrajectoryPoint topic.
   reference_sub_ = node->create_subscription<JointPoint>(
@@ -354,6 +377,13 @@ return_type JointImpedanceController::update(
 
   for (size_t i = 0; i < n_joints_; ++i) {
     command_interfaces_[i].set_value(tau_[static_cast<Eigen::Index>(i)]);
+  }
+  // Copy the same limited commands; telemetry must not delay the control loop.
+  if (torque_publisher_ && torque_publisher_->trylock()) {
+    for (size_t i = 0; i < n_joints_; ++i) {
+      torque_publisher_->msg_.data[i] = tau_[static_cast<Eigen::Index>(i)];
+    }
+    torque_publisher_->unlockAndPublish();
   }
   return return_type::OK;
 }

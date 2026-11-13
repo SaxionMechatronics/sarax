@@ -5,15 +5,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_compile_options(-Wall -Wextra -Wpedantic)
 
 find_package(ament_cmake REQUIRED)
+find_package(controller_manager_msgs REQUIRED)
 find_package(hardware_interface REQUIRED)
+find_package(lifecycle_msgs REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
+find_package(std_srvs REQUIRED)
+find_package(Threads REQUIRED)
 
-add_library(${PROJECT_NAME} SHARED src/ak60_protocol.cpp src/tmotor_ak60_system.cpp)
+add_library(${PROJECT_NAME} SHARED src/ak60_protocol.cpp src/tmotor_ak60_system.cpp src/motor_services.cpp)
 target_include_directories(${PROJECT_NAME} PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include> $<INSTALL_INTERFACE:include>)
-ament_target_dependencies(${PROJECT_NAME} hardware_interface pluginlib rclcpp rclcpp_lifecycle)
+ament_target_dependencies(${PROJECT_NAME}
+  controller_manager_msgs hardware_interface lifecycle_msgs pluginlib rclcpp rclcpp_lifecycle std_srvs)
+target_link_libraries(${PROJECT_NAME} Threads::Threads)
 pluginlib_export_plugin_description_file(hardware_interface sarax_hardware.xml)
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
 install(DIRECTORY include/ DESTINATION include)

@@ -1,6 +1,7 @@
 """Connect the SARAX robot and existing impedance controller to physical AK60 motors."""
 
 import atexit
+import math
 from pathlib import Path
 import tempfile
 
@@ -18,12 +19,16 @@ def launch_hardware(context):
     names = (
         "can_interface", "hardware_verified", "use_second_motor", "motor_1_id", "motor_2_id",
         "motor_1_effort_limit", "motor_2_effort_limit", "feedback_timeout", "startup_timeout",
-        "impedance_law", "stiffness", "damping",
+        "impedance_law", "max_position_error",
+        "motor_1_stiffness", "motor_1_damping", "motor_2_stiffness", "motor_2_damping",
     )
     args = {name: LaunchConfiguration(name).perform(context) for name in names}
     for name in ("hardware_verified", "use_second_motor"):
         if args[name] not in ("true", "false"):
             raise ValueError(name + " must be true or false")
+    max_position_error = float(args["max_position_error"])
+    if not math.isfinite(max_position_error) or max_position_error <= 0.0:
+        raise ValueError("max_position_error must be finite and greater than zero")
     joints = ["mani_joint_1", "mani_joint_2"] if args["use_second_motor"] == "true" else ["mani_joint_1"]
     mappings = {
         "hardware": "real",
@@ -53,12 +58,13 @@ def launch_hardware(context):
         if name.startswith(("stiffness_", "damping_")):
             del controller[name]
     controller.update(joints=list(joints), robot_description=robot_description,
-                      impedance_law=args["impedance_law"], max_position_error=0.2,
+                      impedance_law=args["impedance_law"],
+                      max_position_error=float(args["max_position_error"]),
                       effort_limits=[float(args[f"motor_{i}_effort_limit"])
                                      for i in range(1, len(joints) + 1)])
     for i in range(len(joints)):
-        controller[f"stiffness_{i}"] = float(args["stiffness"])
-        controller[f"damping_{i}"] = float(args["damping"])
+        controller[f"stiffness_{i}"] = float(args[f"motor_{i + 1}_stiffness"])
+        controller[f"damping_{i}"] = float(args[f"motor_{i + 1}_damping"])
     # Reuse the system controller configuration with physical-joint overrides.
     with tempfile.NamedTemporaryFile(mode="w", prefix="launch_params_sarax_", suffix=".yaml",
                                      delete=False) as stream:
@@ -85,7 +91,10 @@ def generate_launch_description():
         "motor_1_id": "2", "motor_2_id": "1",
         "motor_1_effort_limit": "5.0", "motor_2_effort_limit": "5.0",
         "feedback_timeout": "0.1", "startup_timeout": "1.0",
-        "impedance_law": "sarax_impedance_controller::PDLaw", "stiffness": "10.0", "damping": "1.0",
+        "max_position_error": "0.2",
+        "impedance_law": "sarax_impedance_controller::PDLaw",
+        "motor_1_stiffness": "10.0", "motor_1_damping": "1.0",
+        "motor_2_stiffness": "10.0", "motor_2_damping": "1.0",
     }
     return LaunchDescription([
         *[DeclareLaunchArgument(name, default_value=value) for name, value in defaults.items()],

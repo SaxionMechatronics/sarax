@@ -7,6 +7,6 @@
   <class name="sarax_impedance_controller::PDGravityLaw"
          type="sarax_impedance_controller::PDGravityLaw"
          base_class_type="sarax_impedance_controller::ImpedanceLaw">
-    <description>PD + gravity compensation via Pinocchio's rnea.</description>
+    <description>PD + the original SARAX hardware gravity equations using measured motor angles.</description>
   </class>
 </library>

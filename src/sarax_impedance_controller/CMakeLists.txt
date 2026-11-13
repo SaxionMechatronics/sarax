@@ -18,7 +18,6 @@ find_package(trajectory_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 find_package(Eigen3 REQUIRED)
-find_package(pinocchio REQUIRED)
 find_package(sarax_msgs REQUIRED)
 
 include_directories(include)
@@ -35,7 +34,6 @@ target_include_directories(sarax_impedance_laws PUBLIC
 ament_target_dependencies(sarax_impedance_laws
   rclcpp
   pluginlib
-  pinocchio
 )
 target_link_libraries(sarax_impedance_laws Eigen3::Eigen)
 

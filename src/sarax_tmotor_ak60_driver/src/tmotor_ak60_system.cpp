@@ -28,7 +28,7 @@ static double number(const std::string & text)
   return value;
 }
 
-TmotorAk60System::~TmotorAk60System() {close_socket();}
+TmotorAk60System::~TmotorAk60System() {stop_services(); close_socket();}
 
 CallbackReturn TmotorAk60System::on_init(const hardware_interface::HardwareInfo & info)
 {
@@ -78,6 +78,7 @@ CallbackReturn TmotorAk60System::on_init(const hardware_interface::HardwareInfo 
     {
       throw std::invalid_argument("Joint names and motor IDs must be unique");
     }
+    if (rclcpp::ok()) {start_services();}
     initialized_ = true;
     return CallbackReturn::SUCCESS;
   } catch (const std::exception & error) {

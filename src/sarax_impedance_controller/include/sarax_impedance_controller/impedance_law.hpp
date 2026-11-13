@@ -25,6 +25,17 @@ struct ImpedanceInput
   Eigen::VectorXd damping;    ///< per-joint Kd (n)
 };
 
+/// Configuration-time constants for the original SARAX hardware gravity model.
+struct GravityParameters
+{
+  double g{9.81};       ///< gravity magnitude (m/s^2)
+  double L2{0.4};       ///< first moving link length (m)
+  double m2{0.363477};  ///< first moving link mass (kg)
+  double d2{0.2587};    ///< its center-of-mass distance from the pivot (m)
+  double m3{0.113791};  ///< second moving link mass (kg)
+  double d3{0.2};       ///< its center-of-mass distance from the pivot (m)
+};
+
 /// Pure-virtual base class for joint-space impedance laws.
 class ImpedanceLaw
 {
@@ -38,6 +49,9 @@ public:
   virtual bool initialize(
     const std::string & urdf_xml,
     const std::vector<std::string> & joints) = 0;
+
+  /// Called before initialize(); laws without gravity keep their existing behavior.
+  virtual bool configure_gravity(const GravityParameters & /*parameters*/) { return true; }
 
   /// Compute the commanded torque vector in the same joint order as `joints`.
   virtual Eigen::VectorXd compute(const ImpedanceInput & in) = 0;

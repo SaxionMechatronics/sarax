@@ -17,11 +17,13 @@
 #include <pluginlib/class_loader.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <realtime_tools/realtime_buffer.h>
+#include <realtime_tools/realtime_publisher.hpp>
 
 #include <rcl_interfaces/msg/floating_point_range.hpp>
 #include <rcl_interfaces/msg/parameter_descriptor.hpp>
 #include <rcl_interfaces/msg/set_parameters_result.hpp>
 #include <sarax_msgs/msg/impedance_gains.hpp>
+#include <std_msgs/msg/float64_multi_array.hpp>
 #include <trajectory_msgs/msg/joint_trajectory_point.hpp>
 
 #include "sarax_impedance_controller/impedance_law.hpp"
@@ -80,6 +82,9 @@ private:
   using GainsMsg = sarax_msgs::msg::ImpedanceGains;
   realtime_tools::RealtimeBuffer<std::shared_ptr<GainsMsg>> gains_buffer_;
   rclcpp::Subscription<GainsMsg>::SharedPtr gains_sub_;
+
+  using TorqueMsg = std_msgs::msg::Float64MultiArray;
+  std::unique_ptr<realtime_tools::RealtimePublisher<TorqueMsg>> torque_publisher_;
 
   // Parameter callback handle (rqt_reconfigure / ros2 param set)
   rclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr param_cb_handle_;

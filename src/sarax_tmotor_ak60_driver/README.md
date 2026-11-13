@@ -99,6 +99,81 @@ ros2 control set_hardware_component_state SaraxManipulator inactive -c /controll
 ros2 control set_hardware_component_state SaraxManipulator unconfigured -c /controller_manager
 ```
 
+## Motor services
+
+The driver provides three `std_srvs/srv/Trigger` services through an internal
+ROS node. No additional executable or launch file is needed. Their namespace is
+the hardware component name: `/SaraxManipulator` in the current Xacro.
+Only motors configured in this hardware component are affected: one configured
+joint means one motor, two joints means two motors. IDs come from each joint's
+`motor_id`; there are no hard-coded motor IDs.
+
+| Service | Behavior |
+| --- | --- |
+| `/SaraxManipulator/enableAllMotors` | Requests the existing transition to hardware `active`, which sends `Operation::Enable` (`FF FF FF FF FF FF FF FC`) and the existing zero-effort startup commands. |
+| `/SaraxManipulator/disableAllMotors` | Requests the existing transition to hardware `inactive`, which uses the existing zero-effort and `Operation::Disable` (`FF FF FF FF FF FF FF FD`) stopping code. |
+| `/SaraxManipulator/zeroAllMotors` | Sends `Operation::Zero` (`FF FF FF FF FF FF FF FE`) to every configured ID through the existing socket, under the existing mutex. This defines each motor's **current position as zero**; it does not command a move to zero. |
+
+Enable and disable go through the controller manager rather than changing only
+the physical motor state. Otherwise its lifecycle state and the driver's
+`enabled_` bookkeeping could disagree. The existing lifecycle callbacks,
+read/write loop, startup behavior, torque limits and command validation are
+unchanged. A request for an already reached lifecycle state is successful
+without repeating its CAN commands.
+
+All three services require the hardware to be configured (CAN open).
+`hardware_verified` and all existing lifecycle checks still apply. Enable and
+zero reject faulted hardware; use the existing lifecycle recovery sequence first.
+Zero additionally requires hardware `inactive` with motors disabled, so its
+coordinate change cannot occur during normal torque transmission. Cached
+measurements are cleared after a zero attempt; obtain fresh feedback after
+reactivation before activating the impedance controller.
+
+Enable/disable use `/controller_manager/set_hardware_component_state`, matching
+the current launch. For a differently named manager, supply its fully qualified
+name as the optional hardware parameter `controller_manager` in the hardware
+description. A manager discovery failure returns `success: false`. An
+unconfirmed lifecycle request returns failure after five seconds; the request
+may still complete, so check the manager's actual hardware state before retrying.
+
+For example, after the usual hardware launch and CAN setup, configure the
+component once:
+
+```bash
+ros2 control set_hardware_component_state SaraxManipulator inactive -c /controller_manager
+```
+
+With the impedance controller inactive, optionally define the current physical
+pose as zero, then enable the configured group:
+
+```bash
+ros2 service call /SaraxManipulator/zeroAllMotors std_srvs/srv/Trigger '{}'
+ros2 service call /SaraxManipulator/enableAllMotors std_srvs/srv/Trigger '{}'
+```
+
+Follow the existing fresh-feedback and controller activation sequence above.
+Before disabling or zeroing, deactivate the impedance controller:
+
+```bash
+ros2 control switch_controllers --deactivate joint_impedance_controller -c /controller_manager
+ros2 service call /SaraxManipulator/disableAllMotors std_srvs/srv/Trigger '{}'
+```
+
+Zero can now be requested again if a new encoder origin is intended. Enabling
+does not activate the impedance controller or publish a reference. When ready,
+reactivate that controller through its existing command; it captures the fresh
+measured position as its initial reference.
+
+`success: true` confirms the existing lifecycle transition or successful local
+CAN transmission, **not a motor acknowledgement**. Zeroing attempts every
+configured ID even after a transmission failure. A failed zero response lists
+the failed IDs; other motors may already have been zeroed. The driver then
+requires lifecycle recovery before enabling again. These operations are not
+atomic across multiple motors.
+
+The command bytes follow the original ROS 1
+[`tmotor_ak60_drivers_cpp` implementation](https://github.com/SaxionMechatronics/sarax/blob/main/src/m4e_manipulator/tmotor_ak60_drivers_cpp/src/m4e_ros_controller_node.cpp).
+
 ## Credits and license
 
 ROS 2 hardware-interface port contributed by Waleed Elfieky.
