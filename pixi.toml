@@ -84,3 +84,15 @@ build = { cmd = "bash scripts/build.sh", description = "Rebuild the ROS 2 worksp
 # Terminal 2 →  pixi run ros   (after "Gazebo world is ready")
 px4 = { cmd = "bash scripts/px4.sh", description = "Launch PX4 SITL + Gazebo Harmonic" }
 ros = { cmd = "bash scripts/ros.sh", description = "Launch robot_state_publisher + controllers" }
+motor_hardware = { cmd = "bash scripts/motor_hardware.sh", description = "Configure CAN and launch the real AK60 motors; activation stays manual" }
+camera_hardware = { cmd = "bash scripts/camera_hardware.sh", description = "Start the real depth camera and point-cloud filter" }
+
+# Keep the camera SDK's Python 3.11 dependencies separate from the control stack.
+[feature.camera.dependencies]
+python = "3.11.*"
+ros-humble-realsense2-camera = "==4.55.1"
+ros-humble-ros-base = "*"
+ros-humble-rmw-cyclonedds-cpp = "*"
+
+[environments]
+camera = { features = ["camera"], no-default-feature = true }

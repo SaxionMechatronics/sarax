@@ -36,7 +36,6 @@ public:
   hardware_interface::return_type write(const rclcpp::Time &, const rclcpp::Duration &) override;
 
 private:
-  friend class TmotorAk60SystemTest;  // Tests attach local Unix socket pairs, never CAN.
   using Clock = std::chrono::steady_clock;
   struct Joint
   {

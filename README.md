@@ -98,20 +98,81 @@ pixi run install
 
 ### Real manipulator hardware
 
+Terminal 1, from the workspace root:
+
+```bash
+pixi run motor_hardware
+```
+
+This sources the workspace overlay, sets the Pixi library path,
+`ROS_DOMAIN_ID=0` and Cyclone DDS, and configures the selected CAN adapter
+(down, classic CAN at 1 Mbit/s with FD
+off, then up). `sudo` may ask for your password for the CAN commands. It then
+launches the real AK60 system with your two-motor settings:
+
+| Setting | Value |
+| --- | --- |
+| Motor IDs (`mani_joint_1`, `mani_joint_2`) | 2, 3 |
+| Impedance law | `sarax_impedance_controller::PDGravityLaw` |
+| Effort limits | 7, 7 |
+| Stiffness | 9.0, 5.0 |
+| Damping | 1.0, 1.0 |
+| Maximum position error | 1.0 rad |
+| Hardware verified / second motor | `true` / `true` |
+
+The task discovers CAN adapters by their kernel type, so a single adapter is
+selected even if its name changes from `can0` to `can1` or another name. With
+multiple adapters it stops and lists their names instead of choosing one. To
+select an adapter explicitly, use either form:
+
+```bash
+pixi run motor_hardware can_interface:=can1
+# Equivalent:
+SARAX_CAN_INTERFACE=can1 pixi run motor_hardware
+```
+
+An explicit interface must exist and be a CAN adapter. No adapter, an ambiguous
+selection, or a failed CAN command stops startup before ROS launch. The selected
+name is used for both CAN setup and the motor driver. See the Linux
+[SocketCAN documentation](https://docs.kernel.org/networking/can.html) for CAN
+network-device configuration.
+
+Other launch arguments can be appended, for example
+`pixi run motor_hardware motor_1_stiffness:=8.0`. Ctrl+C stops the ROS launch.
+To change the task's default motor settings, edit the arguments in the final
+`ros2 launch` command in `scripts/motor_hardware.sh`, then restart the task.
+No rebuild is needed for these script changes.
+
+Terminal 2 stays manual. Prepare its environment as before:
+
 ```bash
 pixi shell
 source install/setup.bash
 export LD_LIBRARY_PATH="$PWD/.pixi/envs/default/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
-ros2 launch sarax_bringup ak60_hardware.launch.py
+export ROS_DOMAIN_ID=0
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+```
+
+Then run these commands one at a time, checking that each succeeds before the
+next. Zeroing defines the motors' current positions as zero:
+
+```bash
+ros2 control set_hardware_component_state SaraxManipulator inactive -c /controller_manager
+ros2 control switch_controllers --activate joint_state_broadcaster -c /controller_manager
+ros2 service call /SaraxManipulator/zeroAllMotors std_srvs/srv/Trigger '{}'
+ros2 service call /SaraxManipulator/enableAllMotors std_srvs/srv/Trigger '{}'
+ros2 control switch_controllers --activate joint_impedance_controller -c /controller_manager
 ```
 
 This uses the existing `sarax_plus.urdf.xacro`, real AK60 driver and the same
-`joint_impedance_controller` used in simulation. The default mapping is
-`mani_joint_1` -> motor ID 2; add `use_second_motor:=true motor_2_id:=<verified_id>`
-when the second motor is connected. Hardware starts unconfigured and controllers
-inactive; no motor commands are sent by launching. No simulated feedback or
+`joint_impedance_controller` used in simulation. Hardware starts unconfigured and
+controllers inactive; no motor commands are sent by launching. No simulated feedback or
 reference publisher is loaded. The full activation sequence and current
 hardware limitations are in [the driver README](src/sarax_tmotor_ak60_driver/README.md).
+
+The underlying `ros2 launch sarax_bringup ak60_hardware.launch.py` still uses its
+original defaults when called directly; the two-motor settings above belong to
+the Pixi task.
 
 The control path is:
 
@@ -122,10 +183,80 @@ CAN feedback -> real driver -> controller state interfaces and /joint_states
 ```
 
 The topic and real joint names stay the same as in the simulation. One configured
-motor needs one reference position; two need two. Filtering, MLS and motion
-planning from the other workspace have not been imported. They can later feed
+motor needs one reference position; two need two. Point-cloud filtering is
+available as described below. MLS/PCA and motion planning can later feed
 this existing controller interface. The impedance-controller source and the
 simulation configuration are unchanged.
+
+### Real camera and point-cloud filtering
+
+Stop any previously started RealSense driver, then run from a fresh terminal:
+
+```bash
+pixi run camera_hardware
+```
+
+This starts the depth-only RealSense driver in the `camera` environment and the
+existing ROI filter in the default environment. Both use the same ROS domain
+and middleware. It publishes `/camera/points` and `/camera/points_filtered`.
+Gazebo, PX4, and the motor controllers are not started by this task.
+
+Pass camera settings after the command using `name:=value`, just like the motor
+task. For example, change the camera's published topic and the crop depth:
+
+```bash
+pixi run camera_hardware \
+  points_topic:=/my_camera/points \
+  min_z:=0.50 \
+  max_z:=3.50
+```
+
+The filter input follows `points_topic` automatically. Use absolute topic names
+starting with `/`, with different input and output names. Available arguments:
+
+| Argument | Default | Existing environment variable |
+| --- | --- | --- |
+| `points_topic` | `/camera/points` | `SARAX_CAMERA_POINTS_TOPIC` |
+| `filtered_points_topic` | `/camera/points_filtered` | `SARAX_FILTERED_POINTS_TOPIC` |
+| `min_x` | `-1.35` | `SARAX_CLOUD_MIN_X` |
+| `max_x` | `1.35` | `SARAX_CLOUD_MAX_X` |
+| `max_abs_y` | `1.35` | `SARAX_CLOUD_MAX_ABS_Y` |
+| `min_z` | `0.30` | `SARAX_CLOUD_MIN_Z` |
+| `max_z` | `4.20` | `SARAX_CLOUD_MAX_Z` |
+| `max_range` | `6.0` | `SARAX_CLOUD_MAX_RANGE` |
+| `ros_domain_id` | `0` | `ROS_DOMAIN_ID` |
+| `rmw_implementation` | `rmw_cyclonedds_cpp` | `RMW_IMPLEMENTATION` |
+| `ros_localhost_only` | `0` | `ROS_LOCALHOST_ONLY` |
+
+Command-line arguments take precedence over existing environment variables;
+otherwise the script uses the defaults above. Unknown arguments and empty
+values are rejected. Both processes receive the same ROS domain, middleware,
+and localhost setting. Ctrl+C stops the camera and filter.
+
+To change the camera task's default settings, edit the fallback values in the
+defaults block near the top of `scripts/camera_hardware.sh`. For example,
+`${SARAX_CLOUD_MIN_Z:-0.30}` uses `0.30` when no environment override is set.
+Restart the task to use the new defaults; no rebuild is needed. Changes to the
+C++ filter implementation require rebuilding `sarax_perception`.
+
+In RViz, use `camera_link` as Fixed Frame and add the raw or filtered PointCloud2
+topic with the FlatColor transformer. The driver publishes the TF connecting
+`camera_link` and `camera_depth_optical_frame`. The clouds retain optical
+coordinates and their original frame IDs; changing a topic or RViz Fixed Frame
+does not rotate their stored XYZ values.
+
+The hardware crop uses optical axes: X is sideways, Y is down, Z is forward.
+Its defaults are X in `[-1.35, 1.35]` m, `abs(Y) <= 1.35` m, Z in `[0.30, 4.20]` m,
+and range at most 6 m. Override the crop arguments above to tune the real scene.
+The filter code is unchanged.
+
+The v1 simulation-to-hardware differences are traced in
+[Camera frame analysis](CAMERA_FRAME_ANALYSIS.md), including a numerical example
+from a saved selection and the proposed camera-to-NED integration boundary.
+
+`pixi run ros` remains the simulation startup: robot state publisher, controller
+spawners, the Gazebo camera bridge, and the simulation-configured cloud filter.
+Use one camera/filter startup at a time when they share the default topic names.
 
 ### Manipulator only (no drone)
 

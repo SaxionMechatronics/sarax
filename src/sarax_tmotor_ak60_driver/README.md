@@ -21,7 +21,6 @@ Planner JointTrajectoryPoint -> /joint_impedance_controller/reference
 | `src/tmotor_ak60_system.cpp` and its header | One CAN socket, actual joint states, ROS lifecycle and effort commands |
 | `sarax_hardware.xml` | Registers the C++ hardware plugin with ROS |
 | `CMakeLists.txt`, `package.xml` | Build and install the plugin and its dependencies |
-| `test/test_ak60.cpp` | Offline packet/timeout regression tests; never part of runtime control |
 
 System configuration lives in the existing packages:
 
