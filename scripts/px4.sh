@@ -46,5 +46,8 @@ set +u
 source "$REPO/install/setup.bash"
 set -u
 
+# PX4 and Gazebo load their shared libraries from the Pixi environment.
+export LD_LIBRARY_PATH="$REPO/.pixi/envs/default/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+
 cd "$PX4_DIR"
 exec make px4_sitl gz_sarax_plus

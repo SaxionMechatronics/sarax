@@ -286,6 +286,10 @@ Open two terminals in the repo directory.
 pixi run px4
 ```
 
+The task sources the workspace overlay and adds the default Pixi environment's
+library directory to `LD_LIBRARY_PATH`. It derives this directory from the
+workspace location, so no username or absolute installation path is required.
+
 Wait for `Gazebo world is ready` and `Ready for takeoff!` in the output.
 
 **Terminal 2** — ROS 2 side:
