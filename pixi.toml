@@ -66,6 +66,7 @@ jsonschema = "*"
 pinocchio = ">=3.9.0,<4"
 ros-humble-plotjuggler = ">=3.15.0,<4"
 ros-humble-plotjuggler-ros = ">=2.3.1,<3"
+ros-humble-joint-state-publisher-gui = ">=2.4.0,<3"
 
 # ── PyPI-only packages (not available in conda channels) ─────────────────────
 [pypi-dependencies]
@@ -86,6 +87,13 @@ px4 = { cmd = "bash scripts/px4.sh", description = "Launch PX4 SITL + Gazebo Har
 ros = { cmd = "bash scripts/ros.sh", description = "Launch robot_state_publisher + controllers" }
 motor_hardware = { cmd = "bash scripts/motor_hardware.sh", description = "Configure CAN and launch the real AK60 motors; activation stays manual" }
 camera_hardware = { cmd = "bash scripts/camera_hardware.sh", description = "Start the real depth camera and point-cloud filter" }
+
+# Normal estimation; append launch arguments such as search_radius:=0.1.
+mls = { cmd = "bash -c 'set -e; source install/setup.bash; export LD_LIBRARY_PATH=\"${CONDA_PREFIX}/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}\"; export RMW_IMPLEMENTATION=\"${RMW_IMPLEMENTATION:-rmw_cyclonedds_cpp}\"; exec ros2 launch sarax_perception mls_normal_launch.py \"$@\"' --", description = "MLS normal estimation from the filtered point cloud" }
+pca = { cmd = "bash -c 'set -e; source install/setup.bash; export LD_LIBRARY_PATH=\"${CONDA_PREFIX}/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}\"; export RMW_IMPLEMENTATION=\"${RMW_IMPLEMENTATION:-rmw_cyclonedds_cpp}\"; exec ros2 launch sarax_perception pca_normal_launch.py \"$@\"' --", description = "PCA normal estimation from the filtered point cloud" }
+perception_frames = { cmd = "bash -c 'set -e; source install/setup.bash; export LD_LIBRARY_PATH=\"${CONDA_PREFIX}/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}\"; export RMW_IMPLEMENTATION=\"${RMW_IMPLEMENTATION:-rmw_cyclonedds_cpp}\"; exec ros2 launch sarax_description perception_frames.launch.py \"$@\"' --", description = "Publish robot frames and a temporary world equal to the base; no motors" }
+select_v1 = { cmd = "bash -c 'set -e; source install/setup.bash; export LD_LIBRARY_PATH=\"${CONDA_PREFIX}/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}\"; export RMW_IMPLEMENTATION=\"${RMW_IMPLEMENTATION:-rmw_cyclonedds_cpp}\"; exec ros2 run sarax_perception normal_selector_v1.py --ros-args -p input_topic:=/pca_normals \"$@\"' --", description = "Select a PCA normal with the v1 UI and save TF coordinates" }
+select_mls_v1 = { cmd = "bash -c 'set -e; source install/setup.bash; export LD_LIBRARY_PATH=\"${CONDA_PREFIX}/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}\"; export RMW_IMPLEMENTATION=\"${RMW_IMPLEMENTATION:-rmw_cyclonedds_cpp}\"; exec ros2 run sarax_perception normal_selector_v1.py --ros-args -p input_topic:=/mls_normals \"$@\"' --", description = "Select an MLS normal with the v1 UI and save TF coordinates" }
 
 # Keep the camera SDK's Python 3.11 dependencies separate from the control stack.
 [feature.camera.dependencies]

@@ -1102,6 +1102,8 @@ environments:
       - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-intra-process-demo-0.20.8-np2py312h3b5449b_15.conda
       - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-limits-2.53.1-np2py312h2ed9cc7_15.conda
       - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-state-broadcaster-2.52.0-np2py312h2ed9cc7_15.conda
+      - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-state-publisher-2.4.0-np2py312h2ed9cc7_15.conda
+      - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-state-publisher-gui-2.4.0-np2py312h2ed9cc7_15.conda
       - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-trajectory-controller-2.52.0-np2py312h2ed9cc7_15.conda
       - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joy-3.3.0-np2py312h2ed9cc7_15.conda
       - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-kdl-parser-2.6.4-np2py312h2ed9cc7_15.conda
@@ -14026,6 +14028,44 @@ packages:
   license: Apache-2.0
   size: 166955
   timestamp: 1773690420282
+- conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-state-publisher-2.4.0-np2py312h2ed9cc7_15.conda
+  sha256: 7d09d942d222843eb95a41574bba454d4cc7841cbb908edfcae6ed7fd2a78fb3
+  md5: 613b6fa00f8a7461705112c1f0351c21
+  depends:
+  - python
+  - ros-humble-rclpy
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros-humble-std-msgs
+  - ros2-distro-mutex 0.8.* humble_*
+  - libgcc >=14
+  - __glibc >=2.17,<3.0.a0
+  - libstdcxx >=14
+  - numpy >=1.23,<3
+  - python_abi 3.12.* *_cp312
+  - ros2-distro-mutex >=0.8.0,<0.9.0a0
+  license: BSD-3-Clause
+  size: 44180
+  timestamp: 1773689814063
+- conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-state-publisher-gui-2.4.0-np2py312h2ed9cc7_15.conda
+  sha256: 3c4efdbb49a274fc92a573f245bb76e834432cb332fb3058da22821fcb0c5f1b
+  md5: bf789872466a0cbd3f1cea7eb84f0495
+  depends:
+  - python
+  - ros-humble-joint-state-publisher
+  - ros-humble-python-qt-binding
+  - ros-humble-rclpy
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.8.* humble_*
+  - __glibc >=2.17,<3.0.a0
+  - libstdcxx >=14
+  - libgcc >=14
+  - python_abi 3.12.* *_cp312
+  - ros2-distro-mutex >=0.8.0,<0.9.0a0
+  - numpy >=1.23,<3
+  license: BSD-3-Clause
+  size: 28960
+  timestamp: 1773690079727
 - conda: https://conda.anaconda.org/robostack-humble/linux-64/ros-humble-joint-trajectory-controller-2.52.0-np2py312h2ed9cc7_15.conda
   sha256: 9e248327c60aa6e3f21bd1082a8b2d54a2a5e8c41e90bc64353b6951ad48e24a
   md5: 25f1f69d6883627dbc1f82746fcb617e

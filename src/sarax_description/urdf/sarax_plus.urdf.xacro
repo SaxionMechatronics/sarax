@@ -28,6 +28,14 @@
   <!-- ============================ Joints ============================= -->
   <!-- ar_mani_fixed and mani_fixed are structural; only mani_joint_1/2 are actuated. -->
 
+  <!-- Provisional camera mounting: replace with measured offsets and orientation. -->
+  <joint name="camera_fixed_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="camera_link"/>
+
   <joint name="ar_mani_fixed" type="fixed">
     <parent link="base_link"/>
     <child  link="link1"/>
