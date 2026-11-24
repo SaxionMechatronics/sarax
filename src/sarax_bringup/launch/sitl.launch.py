@@ -28,8 +28,14 @@ from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 from launch_ros.substitutions import FindPackageShare
 
+from sarax_bringup import profile as sarax_profile
+
 
 def generate_launch_description():
+    prof = sarax_profile.load()  # SARAX_TARGET (default sitl)
+    get = lambda key: sarax_profile.get(prof, key)  # noqa: E731
+    use_sim_time = bool(get("use_sim_time"))
+    camera_tf_pose = [str(v) for v in get("camera_tf")]
     controller_arg = DeclareLaunchArgument(
         "controller",
         default_value="forward_effort_controller",
@@ -52,7 +58,7 @@ def generate_launch_description():
         package="robot_state_publisher",
         executable="robot_state_publisher",
         output="both",
-        parameters=[robot_description, {"use_sim_time": True}],
+        parameters=[robot_description, {"use_sim_time": use_sim_time}],
     )
 
     jsb_spawner = Node(
@@ -82,10 +88,9 @@ def generate_launch_description():
         package="tf2_ros",
         executable="static_transform_publisher",
         arguments=[
-            "-0.15", "0", "0.05",
-            "0", "0", "1", "0",
-            "sarax_plus_0/base_link",
-            "sarax_plus_0/base_link/rgbd_camera",
+            *camera_tf_pose,
+            get("frames.gz_base_link"),
+            get("frames.gz_camera"),
         ],
         output="screen",
     )
@@ -96,8 +101,8 @@ def generate_launch_description():
         arguments=[
             "0", "0", "0",
             "0", "0", "0", "1",
-            "sarax_plus_0/base_link",
-            "base_link",
+            get("frames.gz_base_link"),
+            get("frames.base_link"),
         ],
         output="screen",
     )

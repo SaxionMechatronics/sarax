@@ -30,8 +30,13 @@ from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 from launch_ros.substitutions import FindPackageShare
 
+from sarax_bringup import profile as sarax_profile
+
 
 def generate_launch_description():
+    prof = sarax_profile.load()  # SARAX_TARGET (default sitl)
+    get = lambda key: sarax_profile.get(prof, key)  # noqa: E731
+    use_sim_time = bool(get("use_sim_time"))
     controller_arg = DeclareLaunchArgument(
         "controller",
         default_value="forward_effort_controller",
@@ -55,7 +60,7 @@ def generate_launch_description():
         package="robot_state_publisher",
         executable="robot_state_publisher",
         output="both",
-        parameters=[robot_description, {"use_sim_time": True}],
+        parameters=[robot_description, {"use_sim_time": use_sim_time}],
     )
 
     world_file = PathJoinSubstitution(
@@ -75,9 +80,9 @@ def generate_launch_description():
         package="ros_gz_sim",
         executable="create",
         arguments=[
-            "-name", "sarax_plus",
+            "-name", get("manipulator_only.model_name"),
             "-topic", "robot_description",
-            "-z", "0.3",
+            "-z", str(get("manipulator_only.spawn_z")),
         ],
         output="screen",
     )

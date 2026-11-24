@@ -1,0 +1,27 @@
+# Platform values for the real vehicle (SARAX_TARGET=hw).
+target: hw
+
+use_sim_time: false
+
+# SocketCAN adapter of the AK60 motors. Empty: scripts/motor_hardware.sh picks the single
+# CAN adapter found; the launch file then needs can_interface:= explicitly.
+can_interface: ""
+can_bitrate: 1000000
+
+# Manipulator joints (index = joint number). Effort limits are N*m.
+motors:
+  motor_1: {id: 2, effort_limit: 7.0, stiffness: 9.0, damping: 1.0}
+  motor_2: {id: 3, effort_limit: 7.0, stiffness: 5.0, damping: 1.0}
+
+controller:
+  impedance_law: sarax_impedance_controller::PDGravityLaw
+  max_position_error: 1.0
+  reference_timeout: 0.5
+
+driver:
+  use_second_motor: true
+  feedback_timeout: 0.1
+  startup_timeout: 1.0
+
+# Hardware-only PX4 parameters belong here (none yet; SITL-only ones live in sitl.yaml).
+px4_params: {}

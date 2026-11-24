@@ -1,0 +1,26 @@
+# Platform values for the simulated vehicle (SARAX_TARGET=sitl, the default).
+target: sitl
+
+# SITL runs the ROS side on the Gazebo clock (/clock bridged).
+use_sim_time: true
+
+# SITL-only PX4 parameters, applied by scripts/px4.sh as PX4_PARAM_<NAME>
+# (an exported environment variable still wins). Never set these on the vehicle.
+px4_params:
+  # No data-link-loss action, so arming does not require a ground station.
+  NAV_DLL_ACT: 0
+
+# Frame names of the Gazebo model.
+frames:
+  gz_base_link: sarax_plus_0/base_link
+  gz_camera: sarax_plus_0/base_link/rgbd_camera
+  base_link: base_link
+
+# Fixed transform base -> camera of the Gazebo model, [x, y, z, qx, qy, qz, qw]. Must match
+# the camera pose in the URDF and models/sarax_plus/model.sdf (rear camera).
+camera_tf: [-0.15, 0.0, 0.05, 0.0, 0.0, 1.0, 0.0]
+
+# manipulator_only.launch.py
+manipulator_only:
+  model_name: sarax_plus
+  spawn_z: 0.3

@@ -58,9 +58,18 @@ _rootfs="$PX4_DIR/build/px4_sitl_default/rootfs"
 rm -f "$_rootfs/parameters.bson" "$_rootfs/parameters_backup.bson" "$_rootfs/dataman"
 
 # ── SITL-only parameter overrides (applied by rcS from PX4_PARAM_<name>) ─────
-# NAV_DLL_ACT=0: no data-link-loss action, so arming does not require a ground
-# station connection. SITL ONLY: on the vehicle keep a GCS link and its failsafe.
-export PX4_PARAM_NAV_DLL_ACT="${PX4_PARAM_NAV_DLL_ACT:-0}"
+# They come from the `px4_params` section of the SARAX_TARGET profile
+# (sarax_bringup/config/profiles; default sitl, e.g. NAV_DLL_ACT=0: no data-link-loss
+# action, so arming does not require a ground station). An already exported
+# PX4_PARAM_<name> wins. This script starts the simulator, so a target other than
+# sitl is refused. On the vehicle keep a GCS link and its failsafes.
+_target="$(python3 -m sarax_bringup.profile target)" || exit 1
+if [ "$_target" != "sitl" ]; then
+    echo "ERROR: scripts/px4.sh starts PX4 SITL; SARAX_TARGET=$_target is not a simulator target."
+    exit 1
+fi
+_px4_env="$(python3 -m sarax_bringup.profile px4-env)" || exit 1
+eval "$_px4_env"
 
 # ── World and model come from this repo, not from the PX4 tree ───────────────
 # The PX4 fork's Tools/simulation/gz submodule is upstream PX4-gazebo-models,

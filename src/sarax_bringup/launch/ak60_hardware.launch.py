@@ -14,6 +14,8 @@ from launch_ros.parameter_descriptions import ParameterValue
 import xacro
 import yaml
 
+from sarax_bringup import profile as sarax_profile
+
 
 def launch_hardware(context):
     names = (
@@ -23,6 +25,9 @@ def launch_hardware(context):
         "motor_1_stiffness", "motor_1_damping", "motor_2_stiffness", "motor_2_damping",
     )
     args = {name: LaunchConfiguration(name).perform(context) for name in names}
+    if not args["can_interface"]:
+        raise ValueError("can_interface is empty: pass can_interface:=<name> "
+                         "(or set can_interface in the hw profile)")
     for name in ("hardware_verified", "use_second_motor"):
         if args[name] not in ("true", "false"):
             raise ValueError(name + " must be true or false")
@@ -90,18 +95,29 @@ def launch_hardware(context):
 
 
 def generate_launch_description():
+    # Platform values come from the profile picked by SARAX_TARGET (unset means hw here;
+    # an explicit sitl fails loudly because that profile has no motors); command-line
+    # arguments override them. hardware_verified stays an explicit per-run acknowledgement.
+    prof = sarax_profile.load(default="hw")
+    get = lambda key: sarax_profile.get(prof, key)  # noqa: E731
+    text = lambda value: str(value).lower() if isinstance(value, bool) else str(value)  # noqa: E731
     defaults = {
-        "can_interface": "can0", "hardware_verified": "false", "use_second_motor": "false",
-        "motor_1_id": "2", "motor_2_id": "1",
-        "motor_1_effort_limit": "5.0", "motor_2_effort_limit": "5.0",
-        "feedback_timeout": "0.1", "startup_timeout": "1.0",
-        "max_position_error": "0.2",
-        "reference_timeout": "0.5",
-        "impedance_law": "sarax_impedance_controller::PDLaw",
-        "motor_1_stiffness": "10.0", "motor_1_damping": "1.0",
-        "motor_2_stiffness": "10.0", "motor_2_damping": "1.0",
+        "can_interface": get("can_interface"), "hardware_verified": "false",
+        "use_second_motor": get("driver.use_second_motor"),
+        "motor_1_id": get("motors.motor_1.id"), "motor_2_id": get("motors.motor_2.id"),
+        "motor_1_effort_limit": get("motors.motor_1.effort_limit"),
+        "motor_2_effort_limit": get("motors.motor_2.effort_limit"),
+        "feedback_timeout": get("driver.feedback_timeout"),
+        "startup_timeout": get("driver.startup_timeout"),
+        "max_position_error": get("controller.max_position_error"),
+        "reference_timeout": get("controller.reference_timeout"),
+        "impedance_law": get("controller.impedance_law"),
+        "motor_1_stiffness": get("motors.motor_1.stiffness"),
+        "motor_1_damping": get("motors.motor_1.damping"),
+        "motor_2_stiffness": get("motors.motor_2.stiffness"),
+        "motor_2_damping": get("motors.motor_2.damping"),
     }
     return LaunchDescription([
-        *[DeclareLaunchArgument(name, default_value=value) for name, value in defaults.items()],
+        *[DeclareLaunchArgument(name, default_value=text(value)) for name, value in defaults.items()],
         OpaqueFunction(function=launch_hardware),
     ])
