@@ -45,6 +45,8 @@ joint_impedance_controller:
 
     # Switch laws by changing this string. Shipped laws:
     #   sarax_impedance_controller::PDLaw        (no dynamics)
-    #   sarax_impedance_controller::PDGravityLaw (original hardware gravity model)
+    #   sarax_impedance_controller::PDGravityLaw (original hardware gravity model, default)
+    #   sarax_impedance_controller::PDPinocchioGravityLaw (Pinocchio RNEA on robot_description;
+    #                                             ignores the gravity_* constants above)
     # Third-party packages can add more via pluginlib.
     impedance_law: sarax_impedance_controller::PDGravityLaw
