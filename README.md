@@ -96,6 +96,27 @@ pixi run install
 
 ## Usage
 
+### Platform profiles
+
+Platform values live in one YAML per target in
+`src/sarax_bringup/config/profiles/` (`sitl.yaml`, `hw.yaml`). `SARAX_TARGET=sitl|hw`
+picks the profile; unset means `sitl`, any other value is an error that lists the
+available targets. The SITL bringup (`sitl.launch.py`, `scripts/px4.sh`), the
+`manipulator_only` launch and the AK60 bringup (`ak60_hardware.launch.py`,
+`scripts/motor_hardware.sh`) read their values from it:
+
+| Profile | Holds |
+| --- | --- |
+| `sitl` | `use_sim_time`, SITL-only PX4 parameters (`px4_params`, e.g. `NAV_DLL_ACT=0`; an exported `PX4_PARAM_<NAME>` still wins), Gazebo frame names and camera transform, `manipulator_only` model name and spawn height |
+| `hw` | CAN interface and bitrate, motor IDs, effort limits, gains, impedance law, reference/feedback timeouts |
+
+A launch file asked for a value its profile does not have (for example
+`SARAX_TARGET=hw ros2 launch sarax_bringup sitl.launch.py`) stops with a message
+naming the profile and the key. Hardware-only bringups (`ak60_hardware.launch.py`,
+`pixi run motor_hardware`) treat an unset `SARAX_TARGET` as `hw`, and `scripts/px4.sh`
+refuses anything but `sitl`. Query a value from a shell with the overlay sourced:
+`python3 -m sarax_bringup.profile get motors.motor_1.id`.
+
 ### Real manipulator hardware
 
 Terminal 1, from the workspace root:
@@ -139,9 +160,10 @@ network-device configuration.
 
 Other launch arguments can be appended, for example
 `pixi run motor_hardware motor_1_stiffness:=8.0`. Ctrl+C stops the ROS launch.
-To change the task's default motor settings, edit the arguments in the final
-`ros2 launch` command in `scripts/motor_hardware.sh`, then restart the task.
-No rebuild is needed for these script changes.
+The motor settings in the table are the `hw` platform profile (see
+[Platform profiles](#platform-profiles)). To change them, edit
+`src/sarax_bringup/config/profiles/hw.yaml` and restart the task; with
+`--symlink-install` (what `pixi run build` uses) no rebuild is needed.
 
 Terminal 2 stays manual. Prepare its environment as before:
 
@@ -170,9 +192,11 @@ controllers inactive; no motor commands are sent by launching. No simulated feed
 reference publisher is loaded. The full activation sequence and current
 hardware limitations are in [the driver README](src/sarax_tmotor_ak60_driver/README.md).
 
-The underlying `ros2 launch sarax_bringup ak60_hardware.launch.py` still uses its
-original defaults when called directly; the two-motor settings above belong to
-the Pixi task.
+The underlying `ros2 launch sarax_bringup ak60_hardware.launch.py` takes the same
+defaults from the `hw` profile (it defaults to `hw` when `SARAX_TARGET` is unset;
+an explicit `SARAX_TARGET=sitl` fails because that profile has no motors).
+`hardware_verified` is not profile data: it stays `false` unless you pass
+`hardware_verified:=true` (the Pixi task does).
 
 The control path is:
 
