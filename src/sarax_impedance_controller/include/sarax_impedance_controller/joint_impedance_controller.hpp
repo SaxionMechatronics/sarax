@@ -7,6 +7,7 @@
 // into the `impedance_law` parameter.
 #pragma once
 
+#include <atomic>
 #include <memory>
 #include <string>
 #include <vector>
@@ -23,10 +24,12 @@
 #include <rcl_interfaces/msg/parameter_descriptor.hpp>
 #include <rcl_interfaces/msg/set_parameters_result.hpp>
 #include <sarax_msgs/msg/impedance_gains.hpp>
+#include <std_msgs/msg/bool.hpp>
 #include <std_msgs/msg/float64_multi_array.hpp>
 #include <trajectory_msgs/msg/joint_trajectory_point.hpp>
 
 #include "sarax_impedance_controller/impedance_law.hpp"
+#include "sarax_impedance_controller/reference_watchdog.hpp"
 
 namespace sarax_impedance_controller
 {
@@ -78,6 +81,21 @@ private:
   realtime_tools::RealtimeBuffer<std::shared_ptr<JointPoint>> reference_buffer_;
   rclcpp::Subscription<JointPoint>::SharedPtr reference_sub_;
 
+  // Reference watchdog: a reference that arrives on ~/reference but is not refreshed
+  // within `reference_timeout` seconds is dropped and the arm holds its current pose
+  // (q_d <- q, q_dot_d <- 0). 0 disables it. References set through the q_ref_N
+  // parameters never expire. ~/reference_active (Bool, transient local) tells
+  // whether a live reference is being tracked.
+  ReferenceWatchdog watchdog_;
+  std::atomic<bool> reference_persistent_{false};
+  // Held (not a raw pointer) so a freed message's address cannot be reused by a
+  // later one and be mistaken for "no new reference".
+  std::shared_ptr<JointPoint> last_reference_;
+  bool reference_active_{false};
+  bool active_published_{false};
+  using ActiveMsg = std_msgs::msg::Bool;
+  std::unique_ptr<realtime_tools::RealtimePublisher<ActiveMsg>> active_publisher_;
+
   // Live gain override
   using GainsMsg = sarax_msgs::msg::ImpedanceGains;
   realtime_tools::RealtimeBuffer<std::shared_ptr<GainsMsg>> gains_buffer_;
@@ -92,6 +110,8 @@ private:
   // Non-RT shadow of q_ref parameters so the callback can build full references
   // when only one joint's slider moves.
   Eigen::VectorXd q_ref_param_;
+  // True while on_activate copies the current pose into q_ref_N (not a reference).
+  bool syncing_q_ref_{false};
 
   // Working buffers to avoid allocation in update().
   Eigen::VectorXd q_, q_dot_;

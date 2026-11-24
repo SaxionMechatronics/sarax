@@ -41,6 +41,7 @@ CallbackReturn JointImpedanceController::on_init()
     auto_declare<double>("gravity_d2", gravity.d2);
     auto_declare<double>("gravity_m3", gravity.m3);
     auto_declare<double>("gravity_d3", gravity.d3);
+    auto_declare<double>("reference_timeout", 0.5);
   } catch (const std::exception & e) {
     RCLCPP_ERROR(get_node()->get_logger(),
                  "on_init failed: %s", e.what());
@@ -106,6 +107,12 @@ CallbackReturn JointImpedanceController::on_configure(
   effort_limits_ = Eigen::Map<const Eigen::VectorXd>(el.data(), el.size());
 
   max_position_error_ = node->get_parameter("max_position_error").as_double();
+  const double reference_timeout = node->get_parameter("reference_timeout").as_double();
+  if (!std::isfinite(reference_timeout) || reference_timeout < 0.0) {
+    RCLCPP_ERROR(node->get_logger(), "reference_timeout must be finite and >= 0 (0 = off)");
+    return CallbackReturn::ERROR;
+  }
+  watchdog_.set_timeout(reference_timeout);
   impedance_law_name_ = node->get_parameter("impedance_law").as_string();
 
   // Fetch robot_description from the controller manager's parameters.
@@ -179,10 +186,16 @@ CallbackReturn JointImpedanceController::on_configure(
   torque_publisher_->msg_.data.resize(n_joints_);
   torque_publisher_->unlock();
 
+  const auto active_publisher = rclcpp::create_publisher<ActiveMsg>(
+    node, "~/reference_active", rclcpp::QoS(1).transient_local().reliable());
+  active_publisher_ = std::make_unique<realtime_tools::RealtimePublisher<ActiveMsg>>(
+    active_publisher);
+
   // Reference (q_d, q_dot_d) comes via a JointTrajectoryPoint topic.
   reference_sub_ = node->create_subscription<JointPoint>(
     "~/reference", rclcpp::SystemDefaultsQoS(),
     [this](std::shared_ptr<JointPoint> msg) {
+      reference_persistent_ = false;
       reference_buffer_.writeFromNonRT(msg);
     });
 
@@ -229,10 +242,11 @@ CallbackReturn JointImpedanceController::on_configure(
         msg->damping.assign(new_d.data(), new_d.data() + n_joints_);
         gains_buffer_.writeFromNonRT(msg);
       }
-      if (ref_changed) {
+      if (ref_changed && !syncing_q_ref_) {
         q_ref_param_ = new_ref;
         auto msg = std::make_shared<JointPoint>();
         msg->positions.assign(new_ref.data(), new_ref.data() + n_joints_);
+        reference_persistent_ = true;   // parameter references do not time out
         reference_buffer_.writeFromNonRT(msg);
       }
 
@@ -252,16 +266,25 @@ CallbackReturn JointImpedanceController::on_activate(
     q_dot_d_[static_cast<Eigen::Index>(i)] = 0.0;
   }
   reference_buffer_.initRT(std::shared_ptr<JointPoint>());
+  last_reference_.reset();
+  watchdog_.reset();
+  reference_active_ = false;
+  active_published_ = false;
+  reference_persistent_ = false;
   gains_buffer_.initRT(std::shared_ptr<GainsMsg>());
 
   // Sync q_ref_N parameters to current joint positions so rqt_reconfigure
-  // sliders start at the real arm pose rather than zero.
+  // sliders start at the real arm pose rather than zero. This is not a reference:
+  // the callback (run synchronously by set_parameter) must not install one, or
+  // ~/reference_active would report a tracked reference that nobody sent.
+  syncing_q_ref_ = true;
   for (size_t i = 0; i < n_joints_; ++i) {
     const double q_now = state_interfaces_[i * 3 + 0].get_value();
     q_ref_param_[static_cast<Eigen::Index>(i)] = q_now;
     get_node()->set_parameter(
       rclcpp::Parameter("q_ref_" + std::to_string(i), q_now));
   }
+  syncing_q_ref_ = false;
 
   return CallbackReturn::SUCCESS;
 }
@@ -311,7 +334,7 @@ JointImpedanceController::state_interface_configuration() const
 // --------------------------------------------------------------------------
 
 return_type JointImpedanceController::update(
-  const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
+  const rclcpp::Time & time, const rclcpp::Duration & /*period*/)
 {
   // Read current state. State interfaces are stored in the same order the
   // controller claimed them: [q0, qd0, tau0, q1, qd1, tau1, ...].
@@ -322,7 +345,17 @@ return_type JointImpedanceController::update(
 
   // Update reference from the last received JointTrajectoryPoint, if any.
   auto ref_msg = *reference_buffer_.readFromRT();
-  if (ref_msg) {
+  const bool have_reference = static_cast<bool>(ref_msg);
+  const bool fresh = have_reference && ref_msg != last_reference_;
+  if (fresh) {
+    last_reference_ = ref_msg;
+  }
+  if (watchdog_.update(have_reference, fresh, reference_persistent_.load(), time.seconds())) {
+    // The publisher went silent: hold the current pose instead of the stale target.
+    q_d_ = q_;
+    q_dot_d_.setZero();
+  }
+  if (have_reference && !watchdog_.expired()) {
     const auto & p = *ref_msg;
     if (p.positions.size() == n_joints_) {
       for (size_t i = 0; i < n_joints_; ++i) {
@@ -336,6 +369,15 @@ return_type JointImpedanceController::update(
     } else {
       q_dot_d_.setZero();
     }
+  }
+  const bool now_active = watchdog_.active(have_reference);
+  if ((now_active != reference_active_ || !active_published_) && active_publisher_ &&
+      active_publisher_->trylock())
+  {
+    active_publisher_->msg_.data = now_active;
+    active_publisher_->unlockAndPublish();
+    reference_active_ = now_active;
+    active_published_ = true;
   }
 
   // Update gains from the last ImpedanceGains message, if any.

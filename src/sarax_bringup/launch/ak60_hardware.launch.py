@@ -19,7 +19,7 @@ def launch_hardware(context):
     names = (
         "can_interface", "hardware_verified", "use_second_motor", "motor_1_id", "motor_2_id",
         "motor_1_effort_limit", "motor_2_effort_limit", "feedback_timeout", "startup_timeout",
-        "impedance_law", "max_position_error",
+        "impedance_law", "max_position_error", "reference_timeout",
         "motor_1_stiffness", "motor_1_damping", "motor_2_stiffness", "motor_2_damping",
     )
     args = {name: LaunchConfiguration(name).perform(context) for name in names}
@@ -29,6 +29,9 @@ def launch_hardware(context):
     max_position_error = float(args["max_position_error"])
     if not math.isfinite(max_position_error) or max_position_error <= 0.0:
         raise ValueError("max_position_error must be finite and greater than zero")
+    reference_timeout = float(args["reference_timeout"])
+    if not math.isfinite(reference_timeout) or reference_timeout < 0.0:
+        raise ValueError("reference_timeout must be finite and >= 0 (0 = off)")
     joints = ["mani_joint_1", "mani_joint_2"] if args["use_second_motor"] == "true" else ["mani_joint_1"]
     mappings = {
         "hardware": "real",
@@ -60,6 +63,7 @@ def launch_hardware(context):
     controller.update(joints=list(joints), robot_description=robot_description,
                       impedance_law=args["impedance_law"],
                       max_position_error=float(args["max_position_error"]),
+                      reference_timeout=reference_timeout,
                       effort_limits=[float(args[f"motor_{i}_effort_limit"])
                                      for i in range(1, len(joints) + 1)])
     for i in range(len(joints)):
@@ -92,6 +96,7 @@ def generate_launch_description():
         "motor_1_effort_limit": "5.0", "motor_2_effort_limit": "5.0",
         "feedback_timeout": "0.1", "startup_timeout": "1.0",
         "max_position_error": "0.2",
+        "reference_timeout": "0.5",
         "impedance_law": "sarax_impedance_controller::PDLaw",
         "motor_1_stiffness": "10.0", "motor_1_damping": "1.0",
         "motor_2_stiffness": "10.0", "motor_2_damping": "1.0",

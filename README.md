@@ -454,7 +454,7 @@ pixi shell
 ros2 launch sarax_bringup manipulator_only.launch.py
 ```
 
-Send a step reference:
+Send a step reference (streamed until Ctrl-C; the arm then holds its pose, see the reference watchdog):
 ```bash
 ros2 launch sarax_bringup send_step_reference.launch.py q1:=0.5 q2:=-0.3
 ```

@@ -33,6 +33,7 @@ joint_impedance_controller:
     damping_1: 0.37   # N.m.s / rad — mani_joint_2
     effort_limits: [ 15.0, 15.0 ] # N.m, per URDF
     max_position_error: 0.5 # rad, clamp before Kp is applied
+    reference_timeout: 0.5 # s; a ~/reference that stops refreshing is dropped and the arm holds its pose (0 = off)
 
     # Original hardware gravity model; read when the controller is configured.
     gravity_g: 9.81       # m/s^2
