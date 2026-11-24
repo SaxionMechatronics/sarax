@@ -65,6 +65,9 @@ def launch_hardware(context):
     for name in list(controller):
         if name.startswith(("stiffness_", "damping_")):
             del controller[name]
+    hw_profile = sarax_profile.load("hw")
+    for key, value in sarax_profile.get(hw_profile, "controller.gravity").items():
+        controller[f"gravity_{key}"] = float(value)
     controller.update(joints=list(joints), robot_description=robot_description,
                       impedance_law=args["impedance_law"],
                       max_position_error=float(args["max_position_error"]),

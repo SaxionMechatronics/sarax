@@ -17,6 +17,8 @@ controller:
   impedance_law: sarax_impedance_controller::PDGravityLaw
   max_position_error: 1.0
   reference_timeout: 0.5
+  # Original ROS 1 hardware gravity constants; replace after system identification on the bench.
+  gravity: {g: 9.81, L2: 0.46, m2: 0.72, d2: 0.23, m3: 0.3, d3: 0.25}
 
 driver:
   use_second_motor: true
