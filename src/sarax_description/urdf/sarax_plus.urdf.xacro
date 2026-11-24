@@ -28,13 +28,6 @@
   <!-- ============================ Joints ============================= -->
   <!-- ar_mani_fixed and mani_fixed are structural; only mani_joint_1/2 are actuated. -->
 
-  <!-- Provisional camera mounting: replace with measured offsets and orientation. -->
-  <joint name="camera_fixed_joint" type="fixed">
-    <parent link="base_link"/>
-    <child link="camera_link"/>
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-  </joint>
-  <link name="camera_link"/>
 
   <joint name="ar_mani_fixed" type="fixed">
     <parent link="base_link"/>
@@ -122,6 +115,11 @@
     </inertial>
   </link>
 
+  <!-- The arm meshes are modelled in their own link frames (link3 runs from joint 1 to joint 2,
+       link4 from joint 2 to ee_link, and link4.dae carries a 0.001 scale node), so the visual
+       and collision origins are identity, as in the Gazebo SDF. Earlier offsets of -0.075 and
+       -0.4 m drew link4 inside link3 and hid the second long link.
+       Keep colons out of comments in this file, since launch parses robot_description as YAML. -->
   <link name="link1">
     <inertial>
       <mass value="0.141134"/>
@@ -142,7 +140,7 @@
                iyy="0.001855" iyz="-3.62233e-06" izz="0.002551"/>
     </inertial>
     <visual>
-      <origin xyz="0 -0.003 0" rpy="3.14159 -1.57079 3.14159"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry><mesh filename="${mesh_pkg}/link2.dae" scale="1 1 1"/></geometry>
     </visual>
   </link>
@@ -155,11 +153,11 @@
                iyy="0.000222" iyz="0" izz="0.01038"/>
     </inertial>
     <collision>
-      <origin xyz="0 -0.075 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry><mesh filename="${mesh_pkg}/link3.stl" scale="1 1 1"/></geometry>
     </collision>
     <visual>
-      <origin xyz="0 -0.075 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry><mesh filename="${mesh_pkg}/link3.dae" scale="1 1 1"/></geometry>
     </visual>
   </link>
@@ -171,11 +169,11 @@
       <inertia ixx="0.003351" ixy="0" ixz="0" iyy="0.003336" iyz="0" izz="3.30137e-05"/>
     </inertial>
     <collision>
-      <origin xyz="0 -0.4 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry><mesh filename="${mesh_pkg}/link4.stl" scale="1 1 1"/></geometry>
     </collision>
     <visual>
-      <origin xyz="0 -0.4 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry><mesh filename="${mesh_pkg}/link4.dae" scale="1 1 1"/></geometry>
     </visual>
   </link>
@@ -212,5 +210,36 @@
   <xacro:include filename="$(find sarax_description)/urdf/ros2_control.xacro"/>
   <xacro:sarax_ros2_control hardware="$(arg hardware)"
                             effort_limit="$(arg effort_limit)"/>
+
+
+  <link name="ee_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1e-5" ixy="0" ixz="0" iyy="1e-5" iyz="0" izz="1e-5"/>
+    </inertial>
+  </link>
+
+  <joint name="ee_fixed_joint" type="fixed">
+    <parent link="link4"/>
+    <child link="ee_link"/>
+    <origin xyz="0 0.4 0" rpy="3.14159265 0.0 1.5707963268"/>
+  </joint>
+
+  <!-- ======================== RGBD camera ============================ -->
+  <!-- Single source of the camera extrinsic for ROS (TF via robot_state_publisher)
+       and the planner (Pinocchio frame "camera_link").  Rear-facing: 15 cm behind,
+       5 cm above base_link, yaw pi.  camera_link uses the x-forward / z-up body
+       convention (Gazebo rgbd_camera and the RealSense driver's camera_link).
+       The Gazebo SDF (sarax_gz_sim/models/sarax_plus) must place its sensor at
+       the same pose. -->
+  <xacro:arg name="camera_xyz" default="-0.15 0 0.05"/>
+  <xacro:arg name="camera_rpy" default="0 0 3.14159265"/>
+  <link name="camera_link"/>
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <origin xyz="$(arg camera_xyz)" rpy="$(arg camera_rpy)"/>
+  </joint>
 
 </robot>
