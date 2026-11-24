@@ -19,6 +19,7 @@ find_package(std_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(sarax_msgs REQUIRED)
+find_package(pinocchio REQUIRED)
 
 include_directories(include)
 
@@ -26,6 +27,7 @@ include_directories(include)
 add_library(sarax_impedance_laws SHARED
   src/laws/pd_law.cpp
   src/laws/pd_gravity_law.cpp
+  src/laws/pd_pinocchio_gravity_law.cpp
 )
 target_include_directories(sarax_impedance_laws PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -35,7 +37,7 @@ ament_target_dependencies(sarax_impedance_laws
   rclcpp
   pluginlib
 )
-target_link_libraries(sarax_impedance_laws Eigen3::Eigen)
+target_link_libraries(sarax_impedance_laws Eigen3::Eigen pinocchio::pinocchio_default pinocchio::pinocchio_parsers)
 
 # -------- Controller plugin (separate shared lib) --------
 add_library(sarax_impedance_controller SHARED
@@ -81,7 +83,7 @@ ament_export_include_directories(include)
 ament_export_libraries(sarax_impedance_laws sarax_impedance_controller)
 ament_export_dependencies(
   rclcpp rclcpp_lifecycle controller_interface hardware_interface pluginlib
-  realtime_tools trajectory_msgs std_msgs sarax_msgs)
+  realtime_tools trajectory_msgs std_msgs sarax_msgs pinocchio)
 
 # -------- tests --------
 if(BUILD_TESTING)
@@ -90,6 +92,28 @@ if(BUILD_TESTING)
   target_link_libraries(test_pd_law sarax_impedance_laws)
   ament_add_gtest(test_pd_gravity_law test/test_pd_gravity_law.cpp)
   target_link_libraries(test_pd_gravity_law sarax_impedance_laws)
+
+  # The Pinocchio law is tested on the real URDF: expand the xacro at configure time.
+  find_package(sarax_description QUIET)
+  find_program(XACRO_EXECUTABLE xacro)
+  if(sarax_description_FOUND AND XACRO_EXECUTABLE)
+    set(TEST_URDF ${CMAKE_CURRENT_BINARY_DIR}/sarax_plus_test.urdf)
+    execute_process(
+      COMMAND ${XACRO_EXECUTABLE}
+        ${sarax_description_DIR}/../urdf/sarax_plus.urdf.xacro hardware:=gazebo
+      OUTPUT_FILE ${TEST_URDF}
+      RESULT_VARIABLE XACRO_RESULT)
+    if(XACRO_RESULT EQUAL 0)
+      ament_add_gtest(test_pd_pinocchio_gravity_law test/test_pd_pinocchio_gravity_law.cpp)
+      target_link_libraries(test_pd_pinocchio_gravity_law sarax_impedance_laws)
+      target_compile_definitions(test_pd_pinocchio_gravity_law
+        PRIVATE TEST_URDF_PATH="${TEST_URDF}")
+    else()
+      message(WARNING "xacro failed; skipping test_pd_pinocchio_gravity_law")
+    endif()
+  else()
+    message(WARNING "sarax_description or xacro not found; skipping test_pd_pinocchio_gravity_law")
+  endif()
   ament_add_gtest(test_reference_watchdog test/test_reference_watchdog.cpp)
 endif()
 

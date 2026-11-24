@@ -9,4 +9,9 @@
          base_class_type="sarax_impedance_controller::ImpedanceLaw">
     <description>PD + the original SARAX hardware gravity equations using measured motor angles.</description>
   </class>
+  <class name="sarax_impedance_controller::PDPinocchioGravityLaw"
+         type="sarax_impedance_controller::PDPinocchioGravityLaw"
+         base_class_type="sarax_impedance_controller::ImpedanceLaw">
+    <description>PD + Pinocchio RNEA gravity torques computed from robot_description (joint angles).</description>
+  </class>
 </library>

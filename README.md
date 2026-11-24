@@ -42,7 +42,8 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
 │    └── joint_impedance_controller                            │
 │         └── ImpedanceLaw (pluginlib)                         │
 │              ├── PDLaw            (PD only)                  │
-│              └── PDGravityLaw     (PD + gravity compensation) │
+│              ├── PDGravityLaw     (PD + analytic gravity)    │
+│              └── PDPinocchioGravityLaw (PD + RNEA gravity)   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -565,6 +566,15 @@ gravity_2 = -g * sin(theta2) * m3*d3
 | `gravity_d2` | `0.2587` | Its center-of-mass distance from its pivot, m |
 | `gravity_m3` | `0.113791` | Second moving link mass, kg |
 | `gravity_d3` | `0.2` | Its center-of-mass distance from its pivot, m |
+
+#### Pinocchio gravity law
+
+`impedance_law: sarax_impedance_controller::PDPinocchioGravityLaw` computes $g(q)$ with Pinocchio's RNEA
+(`v = a = 0`) on the `robot_description` URDF (`base_link` fixed, gravity along $-z$ of `base_link`).
+Masses, centres of mass and joint axes come from the URDF, so the `gravity_*` parameters are ignored and
+`q` is the URDF joint angle. `PDGravityLaw` stays the default until system identification has checked the URDF
+against the real arm. The controller refuses to configure if the URDF is empty or lacks a controlled joint.
+Like the analytic law, it assumes a level base.
 
 Parameters are validated and read during configuration. After editing the YAML,
 restart bringup to apply them. The equations assume matching angle zeros and
