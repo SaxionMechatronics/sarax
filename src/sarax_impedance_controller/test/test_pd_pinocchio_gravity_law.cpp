@@ -9,7 +9,7 @@
 // and g(q) = dU/dq with U = g * sum(m * height):
 //   tau1 = -g [ (m3 d3 + m4 L) sin(theta1) + m4 d4 sin(theta2) ]
 //   tau2 =  g  m4 d4 sin(theta2)
-// Link1 and link2 are fixed to the base and do not load the joints.
+// ee_link (0.01 kg, 0.4 m along link4) is lumped into link4. Link1 and link2 are fixed to the base and do not load the joints.
 #include <cmath>
 #include <fstream>
 #include <sstream>
@@ -36,7 +36,9 @@ std::string urdf()
 Eigen::Vector2d reference(double q1, double q2)
 {
   const double g = 9.81;
-  const double m3 = 0.363477, d3 = 0.2587, m4 = 0.113791, L = 0.4, d4 = 0.2;
+  // link4 plus the fixed ee_link (0.01 kg at 0.4 m along link4) act as one body on joint 2
+  const double m3 = 0.363477, d3 = 0.2587, L = 0.4;
+  const double m4 = 0.113791 + 0.01, d4 = (0.113791 * 0.2 + 0.01 * 0.4) / m4;
   const double th2 = q1 - q2;
   return {-g * ((m3 * d3 + m4 * L) * std::sin(q1) + m4 * d4 * std::sin(th2)),
     g * m4 * d4 * std::sin(th2)};

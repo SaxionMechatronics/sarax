@@ -549,12 +549,13 @@ Torque commands are clamped to ±30 N·m per joint. The stiffness term is satura
 `sarax_impedance_controller::PDGravityLaw` keeps the existing PD terms and adds:
 
 ```text
-gravity_1 = -g * sin(theta1) * (m2*d2 + m3*L2)
-gravity_2 = -g * sin(theta2) * m3*d3
+gravity_1 = -g * ((m2*d2 + m3*L2) * sin(q1) + m3*d3 * sin(q1 - q2))
+gravity_2 =  g * m3*d3 * sin(q1 - q2)
 ```
 
-`theta1` and `theta2` are the measured angles in radians for `mani_joint_1` and
-`mani_joint_2`. Configure the following parameters under
+`q1` and `q2` are the URDF joint angles in radians of `mani_joint_1` and `mani_joint_2`
+(serial joint coordinates; the `q1 - q2` coupling follows from the antiparallel joint axes in the
+URDF). It agrees with the Pinocchio law when the constants match the URDF. Configure the following parameters under
 `joint_impedance_controller.ros__parameters` in
 `src/sarax_bringup/config/controllers.yaml`:
 

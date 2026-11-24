@@ -36,7 +36,8 @@ bool PDGravityLaw::configure_gravity(const GravityParameters & parameters)
 bool PDGravityLaw::initialize(const std::string & /*urdf_xml*/,
                               const std::vector<std::string> & joints)
 {
-  gravity_coefficients_.clear();
+  index_1_ = index_2_ = -1;
+  size_ = 0;
   if (joints.empty() || joints.size() > 2 ||
     (joints.size() == 2 && joints[0] == joints[1]))
   {
@@ -45,35 +46,43 @@ bool PDGravityLaw::initialize(const std::string & /*urdf_xml*/,
     return false;
   }
 
-  const double gravity_1 = gravity_.g * (gravity_.m2 * gravity_.d2 + gravity_.m3 * gravity_.L2);
-  const double gravity_2 = gravity_.g * gravity_.m3 * gravity_.d3;
-  if (!std::isfinite(gravity_1) || !std::isfinite(gravity_2)) {
+  const double c1 = gravity_.g * (gravity_.m2 * gravity_.d2 + gravity_.m3 * gravity_.L2);
+  const double c2 = gravity_.g * gravity_.m3 * gravity_.d3;
+  if (!std::isfinite(c1) || !std::isfinite(c2)) {
     RCLCPP_ERROR(rclcpp::get_logger("PDGravityLaw"), "Gravity coefficients overflow");
     return false;
   }
 
-  for (const auto & jname : joints) {
-    if (jname == "mani_joint_1") {
-      gravity_coefficients_.push_back(gravity_1);
-    } else if (jname == "mani_joint_2") {
-      gravity_coefficients_.push_back(gravity_2);
+  for (size_t i = 0; i < joints.size(); ++i) {
+    if (joints[i] == "mani_joint_1") {
+      index_1_ = static_cast<int>(i);
+    } else if (joints[i] == "mani_joint_2") {
+      index_2_ = static_cast<int>(i);
     } else {
       RCLCPP_ERROR(rclcpp::get_logger("PDGravityLaw"),
-        "Hardware gravity model does not define joint '%s'", jname.c_str());
-      gravity_coefficients_.clear();
+        "Analytic gravity model does not define joint '%s'", joints[i].c_str());
+      index_1_ = index_2_ = -1;
       return false;
     }
   }
+  size_ = joints.size();
   return true;
 }
 
 Eigen::VectorXd PDGravityLaw::compute(const ImpedanceInput & in)
 {
-  Eigen::VectorXd tau_g(gravity_coefficients_.size());
-  // ROS 1 hardware angles are used directly, including in the one-motor setup.
-  for (size_t i = 0; i < gravity_coefficients_.size(); ++i) {
-    const auto index = static_cast<Eigen::Index>(i);
-    tau_g[index] = -gravity_coefficients_[i] * std::sin(in.q[index]);
+  const double q1 = index_1_ >= 0 ? in.q[index_1_] : 0.0;
+  const double q2 = index_2_ >= 0 ? in.q[index_2_] : 0.0;
+  const double c1 = gravity_.g * (gravity_.m2 * gravity_.d2 + gravity_.m3 * gravity_.L2);
+  const double c2 = gravity_.g * gravity_.m3 * gravity_.d3;
+  const double s2 = std::sin(q1 - q2);  // the joint axes are antiparallel in the URDF
+
+  Eigen::VectorXd tau_g = Eigen::VectorXd::Zero(static_cast<Eigen::Index>(size_));
+  if (index_1_ >= 0) {
+    tau_g[index_1_] = -c1 * std::sin(q1) - c2 * s2;
+  }
+  if (index_2_ >= 0) {
+    tau_g[index_2_] = c2 * s2;
   }
 
   // tau = -Kp (q - q_d) - Kd (q_dot - q_dot_d) + g(q)
