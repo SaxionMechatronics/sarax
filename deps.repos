@@ -25,9 +25,11 @@ repositories:
     url: https://github.com/gazebosim/ros_gz.git
     version: humble
 
-  # Custom PX4 fork with the sarax_plus airframe (SYS_AUTOSTART=8001) and
-  # the coaxial-octocopter mixer / control allocator tuned for ~9.5 kg.
+  # PX4 fork: upstream v1.17.0 (what the vehicle runs) + the sarax_plus SITL
+  # airframe (SYS_AUTOSTART=8001) + a C++17 build (needed by the env's abseil/protobuf).
+  # The Gazebo model comes from src/sarax_gz_sim, not from this tree: the fork's
+  # Tools/simulation/gz submodule is upstream PX4-gazebo-models (no sarax_plus).
   PX4-Autopilot:
     type: git
     url: https://github.com/SaxionMechatronics/PX4-Autopilot.git
-    version: v1.16.0-sarax-sim
+    version: v1.17.0-sarax-sim

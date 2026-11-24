@@ -3,7 +3,7 @@
 ROS 2 control stack for a **coaxial octocopter (~9.5 kg) with a 2-DoF manipulator arm**, using PX4 for flight and `gz_ros2_control` for manipulator control in Gazebo Harmonic.
 
 ```
-Platform:  PX4 v1.16 · ROS 2 Humble · Gazebo Harmonic (gz-sim 8)
+Platform:  PX4 v1.17 · ROS 2 Humble · Gazebo Harmonic (gz-sim 8)
 Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
 ```
 
@@ -23,7 +23,7 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  PX4 SITL (make px4_sitl gz_sarax_plus)                     │
+│  PX4 SITL (standalone, attached to sarax_plus_0)            │
 │    ├── Flight controller (attitude / position loops)         │
 │    └── gz_bridge  ──────────────────────────────────────┐   │
 └─────────────────────────────────────────────────────────│───┘
@@ -86,7 +86,7 @@ pixi run install
 `pixi run install` will:
 
 1. Remove any conflicting system-wide `gz_ros2_control` apt packages (if present)
-2. Clone `gz_ros2_control` (Harmonic, from source) and PX4-Autopilot (`v1.16.0-sarax-sim`) via vcstool
+2. Clone `gz_ros2_control` (Harmonic, from source) and PX4-Autopilot (`v1.17.0-sarax-sim`: v1.17.0 + airframe 8001 + C++17 build) via vcstool. The Gazebo model is `src/sarax_gz_sim/models/sarax_plus`; `pixi run px4` spawns it, then PX4 attaches
 3. Remove `ign_ros2_control` (Fortress) from the source tree — it registers duplicate pluginlib descriptors that crash the Harmonic runtime
 4. Build the ROS 2 workspace with colcon
 
@@ -472,7 +472,7 @@ The task sources the workspace overlay and adds the default Pixi environment's
 library directory to `LD_LIBRARY_PATH`. It derives this directory from the
 workspace location, so no username or absolute installation path is required.
 
-Wait for `Gazebo world is ready` and `Ready for takeoff!` in the output.
+Wait for `>>> Spawning sarax_plus_0`, start terminal 2, then wait for `Ready for takeoff!`.
 
 **Terminal 2** — ROS 2 side:
 ```bash

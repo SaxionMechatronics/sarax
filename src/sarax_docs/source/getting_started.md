@@ -15,7 +15,7 @@ sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers \
 ## Build
 
 ```bash
-cd ~/wspaces/sarax_ws
+cd sarax   # the repository root
 colcon build --symlink-install
 source install/setup.bash
 ```

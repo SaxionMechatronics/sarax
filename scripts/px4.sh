@@ -4,7 +4,7 @@
 # Builds PX4 on the first run (takes a few minutes); subsequent launches
 # reuse the cached build.
 #
-# After "Gazebo world is ready" appears, open a second terminal and run:
+# After ">>> Spawning sarax_plus_0" appears, open a second terminal and run:
 #   pixi run ros
 #
 # Invoke via:  pixi run px4
@@ -50,4 +50,70 @@ set -u
 export LD_LIBRARY_PATH="$REPO/.pixi/envs/default/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 
 cd "$PX4_DIR"
-exec make px4_sitl gz_sarax_plus
+
+# Wipe stored parameters on every SITL launch so the airframe's param set-default
+# values always apply from scratch. A persisted parameters.bson carries sensor
+# calibration IDs across restarts that no longer match and fail the preflight checks.
+_rootfs="$PX4_DIR/build/px4_sitl_default/rootfs"
+rm -f "$_rootfs/parameters.bson" "$_rootfs/parameters_backup.bson" "$_rootfs/dataman"
+
+# ── SITL-only parameter overrides (applied by rcS from PX4_PARAM_<name>) ─────
+# NAV_DLL_ACT=0: no data-link-loss action, so arming does not require a ground
+# station connection. SITL ONLY: on the vehicle keep a GCS link and its failsafe.
+export PX4_PARAM_NAV_DLL_ACT="${PX4_PARAM_NAV_DLL_ACT:-0}"
+
+# ── World and model come from this repo, not from the PX4 tree ───────────────
+# The PX4 fork's Tools/simulation/gz submodule is upstream PX4-gazebo-models,
+# which has no sarax_plus. Start Gazebo with a world (PX4's empty default world
+# unless SARAX_GZ_WORLD names one in sarax_gz_sim/worlds), spawn sarax_plus_0
+# from src/sarax_gz_sim, then let PX4 attach to it (standalone mode).
+make px4_sitl   # builds on the first run; creates rootfs/gz_env.sh
+
+# PX4's Gazebo environment (server.config with the sensor systems, PX4 plugins).
+# It appends the PX4 model path after the overlay's, so model://sarax_plus and
+# its meshes resolve to the sarax_gz_sim copy.
+# shellcheck disable=SC1091
+source "$PX4_DIR/build/px4_sitl_default/rootfs/gz_env.sh"
+
+if [ -n "${SARAX_GZ_WORLD:-}" ]; then
+    WORLD_SDF="$REPO/install/sarax_gz_sim/share/sarax_gz_sim/worlds/$SARAX_GZ_WORLD.sdf"
+else
+    WORLD_SDF="$PX4_DIR/Tools/simulation/gz/worlds/default.sdf"
+fi
+if [ ! -f "$WORLD_SDF" ]; then
+    echo "ERROR: world not found: $WORLD_SDF"
+    exit 1
+fi
+
+echo ">>> Starting Gazebo with $WORLD_SDF"
+gz sim --verbose=1 -r -s "$WORLD_SDF" &
+GZ_SERVER_PID=$!
+GZ_GUI_PID=""
+if [ -z "${HEADLESS:-}" ]; then
+    gz sim -g > /dev/null 2>&1 &
+    GZ_GUI_PID=$!
+fi
+trap 'kill $GZ_SERVER_PID $GZ_GUI_PID 2>/dev/null || true' EXIT INT TERM
+
+for _ in $(seq 1 60); do
+    gz service -i --service /world/default/scene/info 2>&1 | grep -q "Service providers" && break
+    sleep 1
+done
+
+# gz_ros2_control needs the absolute controllers.yaml path: fill in the model's
+# placeholder for this checkout and spawn that copy.
+MODEL_SRC="$REPO/install/sarax_gz_sim/share/sarax_gz_sim/models/sarax_plus/model.sdf"
+CONTROLLERS_YAML="$REPO/install/sarax_bringup/share/sarax_bringup/config/controllers.yaml"
+MODEL_SDF="$REPO/build/sarax_plus_spawn.sdf"
+mkdir -p "$REPO/build"
+sed "s#@SARAX_CONTROLLERS_YAML@#$CONTROLLERS_YAML#" "$MODEL_SRC" > "$MODEL_SDF"
+echo ">>> Spawning sarax_plus_0 from $MODEL_SDF"
+gz service -s /world/default/create --reqtype gz.msgs.EntityFactory \
+    --reptype gz.msgs.Boolean --timeout 5000 \
+    --req "sdf_filename: \"$MODEL_SDF\", name: \"sarax_plus_0\", allow_renaming: false" > /dev/null
+sleep 1
+
+# Standalone: PX4 does not start its own world; it binds to sarax_plus_0.
+# Start 'pixi run ros' now: the model's gz_ros2_control plugin waits for
+# robot_state_publisher.
+PX4_GZ_STANDALONE=1 PX4_GZ_MODEL_NAME=sarax_plus_0 make px4_sitl gz_sarax_plus

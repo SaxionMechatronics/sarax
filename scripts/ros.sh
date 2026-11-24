@@ -5,7 +5,7 @@
 #   - the chosen manipulator controller (default: joint_impedance_controller)
 #   - camera point-cloud filter
 #
-# Run AFTER "Gazebo world is ready" appears in the px4 terminal.
+# Run AFTER ">>> Spawning sarax_plus_0" appears in the px4 terminal.
 #
 # Invoke via:  pixi run ros
 # Override the controller:  SARAX_CONTROLLER=forward_effort_controller pixi run ros

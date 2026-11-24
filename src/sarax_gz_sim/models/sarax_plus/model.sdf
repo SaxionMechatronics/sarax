@@ -633,11 +633,13 @@
          ApplyJointForce + JointStatePublisher plugins: the controller_manager
          spawned inside Gazebo exposes effort command + position/velocity state
          interfaces for mani_joint_1 and mani_joint_2 natively on the ROS 2 bus.
-         Controllers are loaded from the YAML shipped by sarax_bringup. Update
-         the absolute path below if you relocate the workspace. -->
+         Controllers are loaded from the YAML shipped by sarax_bringup.
+         gz_ros2_control needs an absolute path, so scripts/px4.sh replaces the
+         placeholder below with this workspace's installed controllers.yaml
+         before it spawns the model. -->
     <plugin filename="gz_ros2_control-system"
             name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-      <parameters>/home/ayham/wspaces/sarax_ws/install/sarax_bringup/share/sarax_bringup/config/controllers.yaml</parameters>
+      <parameters>@SARAX_CONTROLLERS_YAML@</parameters>
       <robot_param>robot_description</robot_param>
       <robot_param_node>robot_state_publisher</robot_param_node>
       <ros>
