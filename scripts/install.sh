@@ -45,6 +45,10 @@ rm -rf \
     "$REPO/src/gz_ros2_control/ign_ros2_control" \
     "$REPO/src/gz_ros2_control/ign_ros2_control_demos"
 
+# ── 3b. Skip the interface library's example packages ───────────────────────
+# The library repo ships ~10 example modes; only px4_ros2_cpp is needed.
+touch "$REPO/src/px4-ros2-interface-lib/examples/COLCON_IGNORE" 2>/dev/null || true
+
 # ── 4. Build the ROS 2 workspace ──────────────────────────────────────────────
 bash "$REPO/scripts/build.sh"
 

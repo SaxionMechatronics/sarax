@@ -46,7 +46,7 @@ colcon build \
         ros_ign_gazebo_demos \
     --cmake-args \
         -DCMAKE_BUILD_TYPE=RelWithDebInfo \
-        -DBUILD_TESTING=OFF \
+        "-DBUILD_TESTING=${SARAX_BUILD_TESTING:-OFF}" \
         "-DCMAKE_EXE_LINKER_FLAGS=${_CONDA_LDFLAG}" \
         "-DCMAKE_SHARED_LINKER_FLAGS=${_CONDA_LDFLAG}" \
     "$@"
