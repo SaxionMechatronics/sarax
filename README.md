@@ -208,8 +208,7 @@ CAN feedback -> real driver -> controller state interfaces and /joint_states
 ```
 
 The topic and real joint names stay the same as in the simulation. One configured
-motor needs one reference position; two need two. Point-cloud filtering and
-MLS/PCA normal estimation and TF-based normal selection are available below.
+motor needs one reference position; two need two. Point-cloud filtering is available below.
 Motion planning can later feed this existing controller interface. The
 impedance-controller source and the simulation configuration are unchanged.
 
@@ -275,195 +274,38 @@ Its defaults are X in `[-1.35, 1.35]` m, `abs(Y) <= 1.35` m, Z in `[0.30, 4.20]`
 and range at most 6 m. Override the crop arguments above to tune the real scene.
 The filter code is unchanged.
 
-The v1 simulation-to-hardware differences are traced in
-[Camera frame analysis](CAMERA_FRAME_ANALYSIS.md), including a numerical example
-from a saved selection and the proposed camera-to-NED integration boundary.
-
 `pixi run ros` remains the simulation startup: robot state publisher, controller
 spawners, the Gazebo camera bridge, and the simulation-configured cloud filter.
 Use one camera/filter startup at a time when they share the default topic names.
 
-### MLS and PCA normal estimation
+### Camera frames without PX4 or motors
 
-`sarax_perception` contains `cloud_filter_node`, `mls_normal_node`, and
-`pca_normal_node`. The MLS and PCA C++ implementations are copied unchanged;
-their launch files expose the existing ROS parameters as overridable arguments.
-
-Build after adding or changing C++ code:
-
-```bash
-pixi run build --packages-select sarax_perception
-```
-
-With the simulation camera/filter running, choose either estimator:
-
-```bash
-pixi run mls
-```
-
-Or run `pixi run pca`. Both preserve the original simulation default
-`use_sim_time:=true`. With the real camera/filter running through
-`pixi run camera_hardware`, use:
-
-```bash
-pixi run mls use_sim_time:=false
-```
-
-For PCA on the real camera, use `pixi run pca use_sim_time:=false`.
-The tasks source the workspace overlay and use Cyclone DDS unless
-`RMW_IMPLEMENTATION` is already set. Use the same ROS domain and middleware as
-the camera/filter processes.
-
-Override any of the following launch arguments; they are passed to the node as
-typed ROS parameters. Defaults match the previous estimator launch files:
-
-| Argument | MLS default | PCA default | Meaning |
-| --- | --- | --- | --- |
-| `use_sim_time` | `true` | `true` | Use `/clock`; set `false` for the real camera. |
-| `input_topic` | `/camera/points_filtered` | `/camera/points_filtered` | Input `PointCloud2` topic. |
-| `output_topic` | `/mls_normals` | `/pca_normals` | Output points with normals. |
-| `search_radius` | `0.2` | — | MLS neighbourhood radius in metres. |
-| `polynomial_order` | `2` | — | MLS polynomial fitting order. |
-| `sqr_gauss_param` | `-1.0` | — | MLS Gaussian parameter squared; negative uses `search_radius²`. |
-| `k_neighbors` | — | `500` | Number of neighbours used for PCA normal estimation. |
-| `voxel_size` | `0.007` | `0.01` | Downsampling cell size in metres. |
-| `max_range` | `5.0` | `5.0` | Maximum distance from the camera origin in metres. |
-| `arrow_scale` | `0.3` | `0.3` | Normal-arrow length in metres. |
-| `arrow_step` | `5` | `2` | Draw an arrow for every Nth output point. |
-| `csv_output_path` | Empty | Empty | Optional CSV output file; empty disables saving. |
-
-For example:
-
-```bash
-pixi run mls use_sim_time:=false search_radius:=0.1 voxel_size:=0.005
-pixi run pca use_sim_time:=false k_neighbors:=100 input_topic:=/my_camera/points_filtered
-```
-
-Use `pixi run mls --show-args` or `pixi run pca --show-args` to list arguments
-without starting a node. The default values are declared in
-`src/sarax_perception/launch/mls_normal_launch.py` and `pca_normal_launch.py`.
-
-Each estimator processes its first nonempty cloud and republishes the stored
-result at 1 Hz. Restart it to capture another scene or apply new parameters.
-The marker topics remain `/mls_normal_markers` and `/pca_normal_markers`.
-Point and normal coordinates remain in the input cloud's frame; this step adds
-no world-frame conversion or motion commands.
-
-### Camera frames and normal selector v1 without PX4 or motors
-
-The robot description now has a fixed `base_link -> camera_link` joint. Its
-translation and roll/pitch/yaw are **provisionally zero**, so the camera reference
-has the same origin and axes as the base. Replace the joint's origin in
-`src/sarax_description/urdf/sarax_plus.urdf.xacro` with measured mounting values
-before treating the projected coordinates as calibrated physical locations.
-The old simulation mounting had a backward-facing camera; it was not aligned
-with the base in orientation.
-
-The RealSense driver continues publishing its own internal sensor transforms.
-The temporary setup is:
+The robot description has a fixed `base_link -> camera_link` joint (mounting values
+in the `camera_fixed_joint` entry of `src/sarax_description/urdf/sarax_plus.urdf.xacro`).
+The RealSense driver publishes its own internal sensor transforms:
 
 ```text
 world -> base_link -> camera_link -> camera_depth_frame -> camera_depth_optical_frame
-        identity      provisional       RealSense driver transforms
+        identity      URDF            RealSense driver transforms
 ```
 
-Build the updated packages once:
+Build once, then run each command in a separate terminal:
 
 ```bash
 pixi run build --packages-select sarax_description sarax_perception
-```
-
-Run each command below in a separate terminal from the workspace directory.
-Start the camera only if another RealSense process is not already using it:
-
-```bash
 pixi run perception_frames
-```
-
-```bash
 pixi run camera_hardware
 ```
 
-```bash
-pixi run mls use_sim_time:=false
-```
-
-```bash
-pixi run select_mls_v1
-```
-
-For PCA, replace the last two commands with `pixi run pca use_sim_time:=false`
-and `pixi run select_v1`.
-
 `perception_frames` runs `robot_state_publisher` and an identity static transform
-from `world` to `base_link`. It starts no controller manager, motor driver,
-joint-state generator, or PX4 process. Motors do not need to be connected.
-Its `world` is a stationary reference with the base's axes, **not PX4 NED**.
-The camera and base must remain fixed relative to this assumed world while
-checking the resulting geometry.
+from `world` to `base_link`. It starts no controller manager, motor driver, or PX4
+process. Its `world` is a stationary reference with the base's axes, **not PX4 NED**.
+If the motor launch already supplies `robot_state_publisher`, use
+`pixi run perception_frames publish_robot_description:=false`; disable the temporary
+world transform with `publish_test_world:=false` once a real world-to-base pose exists.
 
-The mounting values are in the `camera_fixed_joint` entry of
-`src/sarax_description/urdf/sarax_plus.urdf.xacro`. Change its `xyz` and `rpy`
-when the real mounting has been measured, then restart the frame publisher.
-The old simulation used a backward-facing camera (yaw approximately pi);
-the current provisional joint has matching camera/base axes (zero yaw).
-The optical frame still has its own RealSense rotation. With the defaults,
-an optical point `(0, 0, 1)` is expressed as `(1, 0, 0)` in `world`.
-
-The fixed camera chain works without arm feedback. Moving arm frames and the
-selector's optional arm-joint snapshot require `/joint_states`; no synthetic
-joint feedback is generated by this launch.
-
-In RViz, set Fixed Frame to `world` and add the filtered PointCloud2 topic and a
-MarkerArray display for `/normal_selector/markers`. The v1 UI retains its
-sampling and highlighting behavior: with 20 candidates, enter an index from
-**0 to 19**. The selected arrow becomes green. Ctrl+C stops the selector.
-
-The selector looks up TF from the incoming cloud's actual `header.frame_id` to
-`target_frame` at the captured cloud stamp. It translates and rotates the point,
-rotates and normalizes the normal, and saves the result. It no longer waits for
-commander's `/sarax/world_ned/camera_pose` topic or applies the simulation's
-legacy point-cloud mapping. A missing transform prevents saving that selection;
-it does not silently substitute a different pose.
-
-The output defaults to **`~/selected_normal_tf.yaml`**. It retains the original
-camera-frame point/normal and stores `world_contact`, `world_normal`, and
-`ee_target_world` using `x/y/z` fields in the named `world_frame`. Pose metadata
-is labelled `frame_convention: TF`. It does not overwrite the original
-`~/selected_normal.yaml` or label these base-aligned coordinates as NED. The old
-v1 planner expects NED and cannot consume this output unchanged.
-
-The inherited staging-pose calculation is reported as geometry in the Z-up
-target frame. Its Z limits are relative to that frame's origin, not measured
-ground clearance. No flight or motor command is sent by the selector.
-
-Selector ROS parameters can be overridden after the Pixi task with `-p`:
-
-```bash
-pixi run select_mls_v1 -p num_arrows:=10 -p target_frame:=base_link \
-  -p output_file:=/tmp/selected_normal_tf.yaml
-```
-
-| Parameter | Default |
-| --- | --- |
-| `input_topic` | `/mls_normals` for `select_mls_v1`; `/pca_normals` for `select_v1` |
-| `target_frame` | `world` |
-| `num_arrows` | `20` |
-| `arrow_scale` | `0.15` m |
-| `fresh_cloud_topic` | `/camera/points_filtered` |
-| `output_file` | `~/selected_normal_tf.yaml` |
-| `standoff` | `0.05` m |
-| `preplan_distance` | `1.8` m |
-| `preplan_alt_offset` | `0.3` m in target +Z |
-| `preplan_min_alt` | `0.8` m minimum target Z |
-
-If the motor launch already supplies `robot_state_publisher`, do not start a
-second copy with the same frames. Use
-`pixi run perception_frames publish_robot_description:=false` to supply only
-the temporary world transform. When a real world-to-base pose publisher is
-introduced, disable the temporary one with `publish_test_world:=false`. A live
-PX4 reference, its conventions, capture-time transforms, and the planner's
-interface will be integrated separately; this step does not validate them.
+Normal estimation (MLS/PCA) and the normal selector live in the vision-repo; they
+consume `/camera/points_filtered`.
 
 ### Manipulator only (no drone)
 
