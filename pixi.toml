@@ -89,6 +89,7 @@ motor_hardware = { cmd = "bash scripts/motor_hardware.sh", description = "Config
 # (PX4: UXRCE_DDS_CFG on that port, SER_*_BAUD to match). Arguments after `agent` go to MicroXRCEAgent.
 agent = { cmd = "bash scripts/agent.sh", description = "Micro XRCE-DDS Agent (PX4 <-> ROS 2 /fmu topics); default udp4 -p 8888 (SITL), `agent serial --dev /dev/ttyUSB0 -b 921600` on the vehicle" }
 state_bridge = { cmd = "bash -c 'set -e; source install/setup.bash; export LD_LIBRARY_PATH=\"${CONDA_PREFIX}/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}\"; exec ros2 launch sarax_px4_bridge state_bridge.launch.py \"$@\"' --", description = "PX4 /fmu/out/vehicle_odometry -> /sarax/odom + TF world->base_link (ENU/FLU); use_sim_time follows SARAX_TARGET" }
+hardware = { cmd = "bash scripts/hardware.sh", description = "One hardware bringup: CAN, arm (hardware:=mock for no motors), XRCE agent, state_bridge, ros2 bag record (extra_topics:='/a /b')" }
 camera_hardware = { cmd = "bash scripts/camera_hardware.sh", description = "Start the real depth camera and point-cloud filter" }
 
 # Robot frames for camera-only bringup (no motors).
