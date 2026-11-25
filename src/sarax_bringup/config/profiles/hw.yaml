@@ -13,6 +13,11 @@ motors:
   motor_1: {id: 2, effort_limit: 7.0, stiffness: 9.0, damping: 1.0}
   motor_2: {id: 3, effort_limit: 7.0, stiffness: 5.0, damping: 1.0}
 
+# Belt between motor 2 and the second link (URDF <transmission>, applied by sarax_arm_system).
+# ratio: motor turns per joint turn (> 0); sign: +1 or -1 for the direction flip. 1:1 until the
+# bench measures them.
+belt: {ratio: 1.0, sign: 1}
+
 controller:
   impedance_law: sarax_impedance_controller::PDGravityLaw
   max_position_error: 1.0

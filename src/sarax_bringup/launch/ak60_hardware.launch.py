@@ -23,6 +23,7 @@ def launch_hardware(context):
         "motor_1_effort_limit", "motor_2_effort_limit", "feedback_timeout", "startup_timeout",
         "impedance_law", "max_position_error", "reference_timeout",
         "motor_1_stiffness", "motor_1_damping", "motor_2_stiffness", "motor_2_damping",
+        "belt_ratio", "belt_sign",
     )
     args = {name: LaunchConfiguration(name).perform(context) for name in names}
     if not args["can_interface"]:
@@ -31,6 +32,11 @@ def launch_hardware(context):
     for name in ("hardware_verified", "use_second_motor"):
         if args[name] not in ("true", "false"):
             raise ValueError(name + " must be true or false")
+    belt_ratio = float(args["belt_ratio"])
+    if not math.isfinite(belt_ratio) or belt_ratio <= 0.0:
+        raise ValueError("belt_ratio must be finite and greater than zero")
+    if args["belt_sign"] not in ("1", "-1"):
+        raise ValueError("belt_sign must be 1 or -1")
     max_position_error = float(args["max_position_error"])
     if not math.isfinite(max_position_error) or max_position_error <= 0.0:
         raise ValueError("max_position_error must be finite and greater than zero")
@@ -45,6 +51,8 @@ def launch_hardware(context):
         "ak60_use_second_motor": args["use_second_motor"],
         "ak60_feedback_timeout": args["feedback_timeout"],
         "ak60_startup_timeout": args["startup_timeout"],
+        "belt_ratio": args["belt_ratio"],
+        "belt_sign": args["belt_sign"],
         **{f"mani_joint_{i}_motor_id": args[f"motor_{i}_id"] for i in (1, 2)},
         **{f"mani_joint_{i}_effort_limit": args[f"motor_{i}_effort_limit"] for i in (1, 2)},
     }
@@ -119,6 +127,7 @@ def generate_launch_description():
         "motor_1_damping": get("motors.motor_1.damping"),
         "motor_2_stiffness": get("motors.motor_2.stiffness"),
         "motor_2_damping": get("motors.motor_2.damping"),
+        "belt_ratio": get("belt.ratio"), "belt_sign": get("belt.sign"),
     }
     return LaunchDescription([
         *[DeclareLaunchArgument(name, default_value=text(value)) for name, value in defaults.items()],

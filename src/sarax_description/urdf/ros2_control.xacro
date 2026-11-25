@@ -5,6 +5,8 @@
     Declares the <ros2_control> hardware block for the SARAX+ manipulator.
     Swap the <plugin> by passing `hardware:=...` at xacro expansion time.
   -->
+  <xacro:include filename="$(find sarax_description)/urdf/belt_transmission.xacro"/>
+
   <xacro:macro name="sarax_ros2_control" params="hardware effort_limit">
     <xacro:property name="joint_1_limit"
                     value="${float('$(arg mani_joint_1_effort_limit)') if hardware == 'real' else effort_limit}"/>
@@ -17,11 +19,15 @@
         <xacro:if value="${hardware == 'gazebo'}">
           <plugin>gz_ros2_control/GazeboSimSystem</plugin>
         </xacro:if>
+        <!-- mock and real go through sarax_arm_system, which applies the belt <transmission>
+             on top of the motor-space driver named in inner_plugin. -->
         <xacro:if value="${hardware == 'mock'}">
-          <plugin>mock_components/GenericSystem</plugin>
+          <plugin>sarax_arm_system/SaraxArmSystem</plugin>
+          <param name="inner_plugin">mock_components/GenericSystem</param>
         </xacro:if>
         <xacro:if value="${hardware == 'real'}">
-          <plugin>sarax_tmotor_ak60_driver/TmotorAk60System</plugin>
+          <plugin>sarax_arm_system/SaraxArmSystem</plugin>
+          <param name="inner_plugin">sarax_tmotor_ak60_driver/TmotorAk60System</param>
           <param name="can_interface">$(arg ak60_can_interface)</param>
           <param name="hardware_verified">$(arg ak60_hardware_verified)</param>
           <param name="feedback_timeout">$(arg ak60_feedback_timeout)</param>
@@ -57,6 +63,11 @@
           <state_interface name="velocity"/>
           <state_interface name="effort"/>
         </joint>
+      </xacro:if>
+
+      <!-- Inside <ros2_control>: ros2_control hands it to the hardware as HardwareInfo.transmissions. -->
+      <xacro:if value="${hardware == 'mock' or (hardware == 'real' and '$(arg ak60_use_second_motor)' == 'true')}">
+        <xacro:sarax_belt_transmission/>
       </xacro:if>
 
     </ros2_control>

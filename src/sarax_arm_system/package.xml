@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sarax_arm_system</name>
+  <version>0.1.0</version>
+  <description>Arm hardware component that applies the belt transmission (URDF FourBarLinkageTransmission) on top of an unmodified motor-space driver.</description>
+  <maintainer email="a.alharbat@saxion.nl">Ayham Alharbat</maintainer>
+  <license>BSD-3-Clause</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>hardware_interface</depend>
+  <depend>lifecycle_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>transmission_interface</depend>
+  <exec_depend>sarax_tmotor_ak60_driver</exec_depend>
+  <exec_depend>mock_components</exec_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
