@@ -61,36 +61,9 @@ CAN_BITRATE="$(profile_get can_bitrate)"
 ros2 pkg prefix sarax_bringup >/dev/null
 ros2 pkg prefix rmw_cyclonedds_cpp >/dev/null
 
-# Use the kernel-reported CAN kind, not an interface-name pattern. This also
-# excludes virtual CAN devices, which cannot be configured with a bitrate.
-CAN_INTERFACE="$("$IP" -details -json link show type can | python -c '
-import json
-import sys
-
-interfaces = sorted({
-    link["ifname"] for link in json.load(sys.stdin)
-    if link.get("linkinfo", {}).get("info_kind") == "can"
-})
-requested = sys.argv[1]
-if requested:
-    if requested not in interfaces:
-        sys.exit("CAN interface %r was not found. Available CAN interfaces: %s"
-                 % (requested, ", ".join(interfaces) or "(none)"))
-    selected = requested
-elif len(interfaces) == 1:
-    selected = interfaces[0]
-elif not interfaces:
-    sys.exit("No CAN adapter found. Connect it and check: ip -details link show type can")
-else:
-    sys.exit("Multiple CAN interfaces found: %s. Select the motor adapter with "
-             "pixi run motor_hardware can_interface:=<name>" % ", ".join(interfaces))
-print(selected)
-' "$CAN_INTERFACE")"
-
-echo "Configuring $CAN_INTERFACE: classic CAN, $CAN_BITRATE bit/s (sudo may ask for your password)."
-sudo "$IP" link set dev "$CAN_INTERFACE" down
-sudo "$IP" link set dev "$CAN_INTERFACE" type can bitrate "$CAN_BITRATE" fd off
-sudo "$IP" link set dev "$CAN_INTERFACE" up
+# shellcheck source=scripts/can_setup.sh
+source "$REPO/scripts/can_setup.sh"
+sarax_can_setup "$CAN_INTERFACE" "$CAN_BITRATE"
 
 echo "Launching with CAN interface $CAN_INTERFACE, ROS_DOMAIN_ID=$ROS_DOMAIN_ID and RMW_IMPLEMENTATION=$RMW_IMPLEMENTATION."
 echo "Continue the manual hardware/zero/enable/controller sequence in terminal 2."
