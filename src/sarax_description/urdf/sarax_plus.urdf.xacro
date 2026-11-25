@@ -58,8 +58,9 @@
     <child  link="link4"/>
     <origin xyz="0 0.4 0" rpy="0 0 0"/>
     <axis   xyz="1 0 0"/>
-    <!-- Joint limits as in the ROS 1 experiments, until the bench measures them. -->
-    <limit  lower="-1.9" upper="2.6"
+    <!-- Lower limit and velocity as in the ROS 1 experiments; upper limit raised from 2.6 to 2.8 rad so the
+         converted ROS 1 stowed pose (155 deg = 2.705 rad) fits. The bench measures the real range. -->
+    <limit  lower="-1.9" upper="2.8"
             effort="$(arg effort_limit)"
             velocity="1.0"/>
     <dynamics damping="0.7" friction="0.0"/>

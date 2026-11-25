@@ -69,3 +69,27 @@ def test_hw_arm_poses_cover_stowed_and_extended():
     poses = profile.get(profile.load("hw"), "arm_poses")
     assert set(poses) == {"stowed", "extended"}
     assert all(len(values) == 2 for values in poses.values())
+
+
+def _urdf_limits():
+    """[(lower, upper), ...] of mani_joint_1 and mani_joint_2 from the source xacro."""
+    import re
+
+    from ament_index_python.packages import get_package_share_directory
+
+    urdf = (Path(get_package_share_directory("sarax_description")) / "urdf"
+            / "sarax_plus.urdf.xacro").read_text()
+    out = []
+    for joint in ("mani_joint_1", "mani_joint_2"):
+        block = re.search(rf'<joint name="{joint}".*?</joint>', urdf, re.S).group(0)
+        m = re.search(r'<limit\s+lower="([-\d.]+)"\s+upper="([-\d.]+)"', block)
+        out.append((float(m.group(1)), float(m.group(2))))
+    return out
+
+
+@pytest.mark.parametrize("target", ["sitl", "hw"])
+def test_arm_poses_lie_inside_the_urdf_joint_limits(target):
+    limits = _urdf_limits()
+    for name, values in profile.get(profile.load(target), "arm_poses").items():
+        for q, (lo, hi) in zip(values, limits):
+            assert lo <= q <= hi, f"{target} pose {name}: {q} outside [{lo}, {hi}]"

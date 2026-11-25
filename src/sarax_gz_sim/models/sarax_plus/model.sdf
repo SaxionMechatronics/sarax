@@ -228,7 +228,7 @@
         <xyz>1 0 0</xyz>
         <limit>
           <lower>-1.9</lower>
-          <upper>2.6</upper>
+          <upper>2.8</upper>
           <effort>5</effort>
           <velocity>1.0</velocity>
         </limit>

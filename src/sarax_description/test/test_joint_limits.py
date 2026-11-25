@@ -38,7 +38,7 @@ def test_effort_limit_arg_is_the_only_knob():
 
 def test_second_joint_has_ros1_limits():
     lim = _limit(_expand(), "mani_joint_2")
-    assert (float(lim["lower"]), float(lim["upper"]), float(lim["velocity"])) == (-1.9, 2.6, 1.0)
+    assert (float(lim["lower"]), float(lim["upper"]), float(lim["velocity"])) == (-1.9, 2.8, 1.0)
 
 
 def test_sdf_matches_urdf_limits():
