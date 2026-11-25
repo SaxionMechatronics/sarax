@@ -4,6 +4,8 @@
 #include <cmath>
 #include <stdexcept>
 
+#include "sarax_impedance_controller/effort_limits.hpp"
+
 #include <pluginlib/class_list_macros.hpp>
 #include <hardware_interface/types/hardware_interface_type_values.hpp>
 #include <rclcpp/create_publisher.hpp>
@@ -27,7 +29,6 @@ CallbackReturn JointImpedanceController::on_init()
 {
   try {
     auto_declare<std::vector<std::string>>("joints", {});
-    auto_declare<std::vector<double>>("effort_limits", {});
     auto_declare<double>("max_position_error",
                          std::numeric_limits<double>::infinity());
     auto_declare<std::string>(
@@ -96,16 +97,6 @@ CallbackReturn JointImpedanceController::on_configure(
     }
   }
 
-  auto el = node->get_parameter("effort_limits").as_double_array();
-  if (el.empty()) {
-    el.assign(n_joints_, std::numeric_limits<double>::infinity());
-  } else if (el.size() != n_joints_) {
-    RCLCPP_ERROR(node->get_logger(),
-      "effort_limits must be empty or have %zu entries", n_joints_);
-    return CallbackReturn::ERROR;
-  }
-  effort_limits_ = Eigen::Map<const Eigen::VectorXd>(el.data(), el.size());
-
   max_position_error_ = node->get_parameter("max_position_error").as_double();
   const double reference_timeout = node->get_parameter("reference_timeout").as_double();
   if (!std::isfinite(reference_timeout) || reference_timeout < 0.0) {
@@ -140,6 +131,15 @@ CallbackReturn JointImpedanceController::on_configure(
   if (robot_description_.empty()) {
     RCLCPP_WARN(node->get_logger(),
       "robot_description is empty; dynamics-based laws will likely fail.");
+  }
+
+  // The torque limit is the URDF <limit effort> of each joint; there is no other source.
+  {
+    std::string error;
+    if (!effort_limits_from_urdf(robot_description_, joint_names_, effort_limits_, error)) {
+      RCLCPP_ERROR(node->get_logger(), "Cannot read the effort limits: %s", error.c_str());
+      return CallbackReturn::ERROR;
+    }
   }
 
   // Load the impedance law via pluginlib.
@@ -410,12 +410,8 @@ return_type JointImpedanceController::update(
 
   tau_ = law_->compute(in);
 
-  // Saturate to per-joint effort limits.
-  for (Eigen::Index i = 0; i < tau_.size(); ++i) {
-    if (std::isfinite(effort_limits_[i])) {
-      tau_[i] = std::clamp(tau_[i], -effort_limits_[i], effort_limits_[i]);
-    }
-  }
+  // Saturate to the URDF effort limit of each joint.
+  clamp_effort(tau_, effort_limits_);
 
   for (size_t i = 0; i < n_joints_; ++i) {
     command_interfaces_[i].set_value(tau_[static_cast<Eigen::Index>(i)]);

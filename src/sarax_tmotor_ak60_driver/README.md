@@ -37,7 +37,8 @@ joints require their actual feedback.
 
 The launch uses the existing `PDLaw` for the currently unloaded motor. It sets
 stiffness 10, damping 1, maximum position error 0.2 rad and controller/hardware
-effort limits +/-5.0. Override these through launch arguments. These settings still
+effort limits +/-5.0 (the URDF joint effort, the only source; the driver accepts at most the
++/-15 N.m CAN encoding range). Override the other settings through launch arguments. These settings still
 need physical validation. Select the existing `PDGravityLaw` only when the real
 arm assembly, joint mapping and units match its URDF model. Neither law's source
 code is changed. The simulation configuration is unchanged.

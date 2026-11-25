@@ -8,10 +8,11 @@ use_sim_time: false
 can_interface: ""
 can_bitrate: 1000000
 
-# Manipulator joints (index = joint number). Effort limits are N*m.
+# Manipulator joints (index = joint number). The torque limit (5 N*m) is not set here: its
+# only source is the URDF joint <limit effort> (sarax_description).
 motors:
-  motor_1: {id: 2, effort_limit: 7.0, stiffness: 9.0, damping: 1.0}
-  motor_2: {id: 3, effort_limit: 7.0, stiffness: 5.0, damping: 1.0}
+  motor_1: {id: 2, stiffness: 9.0, damping: 1.0}
+  motor_2: {id: 3, stiffness: 5.0, damping: 1.0}
 
 controller:
   impedance_law: sarax_impedance_controller::PDGravityLaw

@@ -20,6 +20,7 @@ find_package(rcl_interfaces REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(sarax_msgs REQUIRED)
 find_package(pinocchio REQUIRED)
+find_package(urdfdom REQUIRED)
 
 include_directories(include)
 
@@ -28,6 +29,7 @@ add_library(sarax_impedance_laws SHARED
   src/laws/pd_law.cpp
   src/laws/pd_gravity_law.cpp
   src/laws/pd_pinocchio_gravity_law.cpp
+  src/effort_limits.cpp
 )
 target_include_directories(sarax_impedance_laws PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -37,7 +39,7 @@ ament_target_dependencies(sarax_impedance_laws
   rclcpp
   pluginlib
 )
-target_link_libraries(sarax_impedance_laws Eigen3::Eigen pinocchio::pinocchio_default pinocchio::pinocchio_parsers)
+target_link_libraries(sarax_impedance_laws Eigen3::Eigen pinocchio::pinocchio_default pinocchio::pinocchio_parsers urdfdom::urdfdom_model)
 
 # -------- Controller plugin (separate shared lib) --------
 add_library(sarax_impedance_controller SHARED
@@ -59,7 +61,7 @@ ament_target_dependencies(sarax_impedance_controller
   rcl_interfaces
   sarax_msgs
 )
-target_link_libraries(sarax_impedance_controller Eigen3::Eigen)
+target_link_libraries(sarax_impedance_controller Eigen3::Eigen sarax_impedance_laws)
 
 # -------- pluginlib manifests --------
 pluginlib_export_plugin_description_file(
@@ -92,6 +94,8 @@ if(BUILD_TESTING)
   target_link_libraries(test_pd_law sarax_impedance_laws)
   ament_add_gtest(test_pd_gravity_law test/test_pd_gravity_law.cpp)
   target_link_libraries(test_pd_gravity_law sarax_impedance_laws)
+  ament_add_gtest(test_effort_limits test/test_effort_limits.cpp)
+  target_link_libraries(test_effort_limits sarax_impedance_laws)
 
   # The Pinocchio law is tested on the real URDF: expand the xacro at configure time.
   find_package(sarax_description QUIET)
@@ -108,6 +112,7 @@ if(BUILD_TESTING)
       target_link_libraries(test_pd_pinocchio_gravity_law sarax_impedance_laws)
       target_compile_definitions(test_pd_pinocchio_gravity_law
         PRIVATE TEST_URDF_PATH="${TEST_URDF}")
+      target_compile_definitions(test_effort_limits PRIVATE TEST_URDF_PATH="${TEST_URDF}")
     else()
       message(WARNING "xacro failed; skipping test_pd_pinocchio_gravity_law")
     endif()

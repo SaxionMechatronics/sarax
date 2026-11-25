@@ -20,7 +20,7 @@ from sarax_bringup import profile as sarax_profile
 def launch_hardware(context):
     names = (
         "can_interface", "hardware_verified", "use_second_motor", "motor_1_id", "motor_2_id",
-        "motor_1_effort_limit", "motor_2_effort_limit", "feedback_timeout", "startup_timeout",
+        "feedback_timeout", "startup_timeout",
         "impedance_law", "max_position_error", "reference_timeout",
         "motor_1_stiffness", "motor_1_damping", "motor_2_stiffness", "motor_2_damping",
     )
@@ -46,7 +46,6 @@ def launch_hardware(context):
         "ak60_feedback_timeout": args["feedback_timeout"],
         "ak60_startup_timeout": args["startup_timeout"],
         **{f"mani_joint_{i}_motor_id": args[f"motor_{i}_id"] for i in (1, 2)},
-        **{f"mani_joint_{i}_effort_limit": args[f"motor_{i}_effort_limit"] for i in (1, 2)},
     }
     description = Path(get_package_share_directory("sarax_description")) / "urdf/sarax_plus.urdf.xacro"
     robot_description = xacro.process_file(str(description), mappings=mappings).toxml()
@@ -71,9 +70,7 @@ def launch_hardware(context):
     controller.update(joints=list(joints), robot_description=robot_description,
                       impedance_law=args["impedance_law"],
                       max_position_error=float(args["max_position_error"]),
-                      reference_timeout=reference_timeout,
-                      effort_limits=[float(args[f"motor_{i}_effort_limit"])
-                                     for i in range(1, len(joints) + 1)])
+                      reference_timeout=reference_timeout)
     for i in range(len(joints)):
         controller[f"stiffness_{i}"] = float(args[f"motor_{i + 1}_stiffness"])
         controller[f"damping_{i}"] = float(args[f"motor_{i + 1}_damping"])
@@ -108,8 +105,6 @@ def generate_launch_description():
         "can_interface": get("can_interface"), "hardware_verified": "false",
         "use_second_motor": get("driver.use_second_motor"),
         "motor_1_id": get("motors.motor_1.id"), "motor_2_id": get("motors.motor_2.id"),
-        "motor_1_effort_limit": get("motors.motor_1.effort_limit"),
-        "motor_2_effort_limit": get("motors.motor_2.effort_limit"),
         "feedback_timeout": get("driver.feedback_timeout"),
         "startup_timeout": get("driver.startup_timeout"),
         "max_position_error": get("controller.max_position_error"),
