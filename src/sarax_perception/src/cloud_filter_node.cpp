@@ -1,9 +1,9 @@
-// cloud_filter_node — camera-frame ROI filtering before normal estimation.
+// cloud_filter_node — camera-frame ROI filtering of the depth cloud (consumed by the vision-repo normal estimation).
 //
 // Camera frame (forward-facing, body frame):
 //   x = forward (depth), y = left/right, z = up
 //
-// Keep a rectangular window around the blade so MLS/PCA do not process the
+// Keep a rectangular window around the blade so downstream normal estimation does not process the
 // whole scene. Tune with SARAX_CLOUD_* env vars in scripts/ros.sh.
 
 #include <rclcpp/rclcpp.hpp>

@@ -2,20 +2,12 @@
 <package format="3">
   <name>sarax_perception</name>
   <version>0.1.0</version>
-  <description>Point cloud filtering and MLS/PCA normal estimation for SARAX+</description>
+  <description>Point cloud filtering for SARAX+ (RealSense and Gazebo cameras)</description>
   <maintainer email="elfiekywaleed@gmail.com">waleedelfieky</maintainer>
   <license>MIT</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
-  <depend>visualization_msgs</depend>
-  <depend>geometry_msgs</depend>
   <depend>pcl_conversions</depend>
-  <exec_depend>launch</exec_depend>
-  <exec_depend>launch_ros</exec_depend>
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>tf2_ros</exec_depend>
-  <exec_depend>python3-numpy</exec_depend>
-  <exec_depend>python3-yaml</exec_depend>
   <export><build_type>ament_cmake</build_type></export>
 </package>
