@@ -397,6 +397,39 @@ ros2 launch sarax_description view_robot.launch.py   # RViz
 
 ---
 
+## Arm kinematics: joints versus motors
+
+The URDF and Gazebo describe the manipulator as a **serial chain**: `mani_joint_1` moves link 3, and `mani_joint_2` is the elbow, an angle measured against link 3. **The real arm is not a serial chain.** Both AK60 motors sit on the vehicle base. Motor 1 turns link 3. Motor 2 drives link 4 through a belt along link 3, so the angle of motor 2 is referenced to the vehicle, not to link 3. A motor angle is therefore not a joint angle, and the software maps between the two.
+
+![Serial chain in the URDF versus the belt-driven arm](docs/figures/arm_serial_vs_belt.png)
+
+| | Joint space | Motor space |
+|---|---|---|
+| What it is | the serial chain of the URDF: `q1`, `q2` (elbow angle) | what the AK60 encoders read: `a1`, `a2` (both against the vehicle) |
+| Who uses it | impedance controller and its laws, `/joint_states`, `~/reference`, the planner, the poses, the URDF | the AK60 driver (`TmotorAk60System`), the CAN bus |
+| Where it applies | simulation (Gazebo drives the joints directly) and the controllers on every target | real arm and `mock`, below `SaraxArmSystem` |
+
+**The mapping** is a four-bar-linkage transmission declared in the URDF (`sarax_description/urdf/belt_transmission.xacro`, a `<transmission>` inside `<ros2_control>`). Humble's `ros2_control` parses it but does not apply it, so `sarax_arm_system/SaraxArmSystem` loads it and applies it on top of the unmodified motor-space driver:
+
+$$q_1 = a_1, \qquad q_2 = a_2 - a_1 \qquad\text{(unit belt ratio, } n = \text{ratio}\cdot\text{sign)}, \qquad \tau_{m1} = \tau_{j1} - \tau_{j2}, \quad \tau_{m2} = \tau_{j2}$$
+
+The controllers only see joint space, under the joint names. The driver only sees motor space and knows nothing about the belt. With `hardware:=gazebo` there is no mapping, because the simulated model is the serial chain itself. The belt `ratio` and `sign` are the `belt` entry of the hardware profile (and the `belt_ratio` / `belt_sign` xacro arguments). They are 1 and +1 until the bench measures them. `test_arm_transmission` checks the angle and torque mappings.
+
+The picture below uses the URDF model to show the difference. The same four link-3 angles are shown twice. On the real arm, turning only motor 1 swings link 3 while link 4 keeps pointing the same way. A serial chain would carry link 4 along with link 3.
+
+![Motor 1 alone versus joint 1 alone](docs/figures/arm_motor_vs_joint_motion.png)
+
+What follows from it:
+
+- **Torque limits are per motor, after the mapping.** Motor 1 carries $\tau_{j1} - \tau_{j2}$, so joint torques of 4 and −4 N·m ask motor 1 for 8 N·m. `SaraxArmSystem::write()` clamps each motor to the URDF effort limit for that reason (see [Control Law](#control-law)).
+- **Gravity depends on link 4's angle against the vehicle.** That is the motor-2 angle `a2`, up to the sign convention below, not the elbow angle `q2`. The gravity laws use $\sin(q_1 - q_2)$ in URDF coordinates, where the joint axes are antiparallel.
+- **Numbers from the ROS 1 stack are not joint angles.** Its controller works in motor-like coordinates (it converts the simulated elbow with `q3 = q2 − q1`). ROS 1 values such as its fold and extend poses must be converted before they are used as `mani_joint_*` values. The poses in `arm_poses` are still unconverted placeholders for that reason.
+- **Do not treat the two spaces as interchangeable.** A joint-space angle sent to a motor-space driver, or the reverse, moves link 4 by the wrong amount.
+
+> **Open point, to settle on the bench.** The figure follows the URDF axes, where holding link 4's direction means `mani_joint_2 = mani_joint_1`. The transmission with `belt_sign = +1` gives `q2 = a2 − a1`, so holding motor 2 would give `q2 = −q1`. Either the real belt reverses the direction (`belt_sign = −1`) or the motor encoders have the opposite sign. Measure the belt `ratio` and `sign` on the arm before trusting joint-space values on the vehicle.
+
+---
+
 ## Control Law
 
 The impedance controller implements:
@@ -530,6 +563,7 @@ Laws are loaded via pluginlib. To add your own:
 sarax/
 ├── pixi.toml              # environment + task definitions
 ├── deps.repos             # vcstool: gz_ros2_control + PX4-Autopilot + px4_msgs + px4-ros2-interface-lib
+├── docs/figures/          # figures used by this README
 ├── scripts/
 │   ├── install.sh
 │   ├── build.sh
