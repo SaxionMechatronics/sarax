@@ -213,6 +213,48 @@ motor needs one reference position; two need two. Point-cloud filtering is avail
 Motion planning can later feed this existing controller interface. The
 impedance-controller source and the simulation configuration are unchanged.
 
+### One hardware bringup with flight recording
+
+`pixi run hardware` starts everything the companion computer needs for a flight: CAN setup,
+the arm through the transmission layer (`SaraxArmSystem` with the AK60 driver), the XRCE
+agent, `state_bridge` and `ros2 bag record`. It uses the `hw` profile (`SARAX_TARGET`
+defaults to `hw`; anything else is refused).
+
+```bash
+pixi run hardware                                   # real AK60 motors
+pixi run hardware can_interface:=can1               # explicit adapter (as for motor_hardware)
+pixi run hardware can_setup:=skip can_interface:=can0   # adapter already configured
+pixi run hardware agent_args:='serial --dev /dev/ttyUSB0 -b 921600'   # FC on a serial port
+pixi run hardware extra_topics:='/inspection_target /operator/status'
+pixi run hardware hardware:=mock                    # mock arm, no CAN adapter, controllers active
+```
+
+- **CAN** is set up by `scripts/hardware.sh` before the launch (it needs `sudo` and a terminal),
+  with the same adapter detection as `motor_hardware`. `hardware:=mock` and `can_setup:=skip`
+  skip it. With no adapter, an ambiguous or missing one, or a failed `ip` command, it stops
+  with the reason and starts nothing.
+- **Arm**: real motors stay unconfigured and the controllers inactive, as with `motor_hardware`
+  (activation stays manual). `hardware:=mock` runs the same stack on
+  `mock_components/GenericSystem` and activates it at launch; the mock joints do not move
+  under torque, so use it for the wiring, the recording and the services, not for dynamics.
+  Arm arguments such as `motor_1_stiffness:=8.0` go to `ak60_hardware.launch.py`.
+- **Agent**: `scripts/agent.sh` with `agent_args` (default `udp4 -p 8888`, which is SITL);
+  `agent:=false` if you run it yourself. The agent speaks Fast DDS, so this task uses
+  `rmw_fastrtps_cpp` (override with `RMW_IMPLEMENTATION`); a second terminal needs the same.
+  `ROS_DOMAIN_ID` defaults to 0 and must equal PX4's `UXRCE_DDS_DOM_ID`.
+- **Recording**: one bag per flight in `$SARAX_BAG_DIR` (default `bags/`, git-ignored) as
+  `flight_<timestamp>`, started with the launch and closed when you stop it with Ctrl+C. The
+  platform topics are `/fmu/out/*`, `/joint_states`,
+  `/joint_impedance_controller/commanded_torque` and `/joint_impedance_controller/reference_active`
+  (`sarax_bringup/recording.py`). An application adds its own through
+  `extra_topics:='/a /b'` (absolute names, spaces or commas); `bag_dir:=` sets the directory
+  and `record:=false` switches the recording off. The PX4 ULog stays on the flight controller.
+
+PX4 SITL can stand in for the vehicle: start `SARAX_GZ_ARM_PLUGIN=0 pixi run px4` (the model is
+spawned without its `gz_ros2_control` plugin, which would clash with the arm's own controller
+manager) and run `pixi run hardware hardware:=mock` with the same `ROS_DOMAIN_ID` (PX4 SITL
+follows it).
+
 ### Real camera and point-cloud filtering
 
 Stop any previously started RealSense driver, then run from a fresh terminal:
