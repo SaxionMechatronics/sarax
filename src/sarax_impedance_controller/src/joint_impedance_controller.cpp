@@ -43,6 +43,9 @@ CallbackReturn JointImpedanceController::on_init()
     auto_declare<double>("gravity_m3", gravity.m3);
     auto_declare<double>("gravity_d3", gravity.d3);
     auto_declare<double>("reference_timeout", 0.5);
+    auto_declare<std::vector<double>>("pose_stowed", std::vector<double>{});
+    auto_declare<std::vector<double>>("pose_extended", std::vector<double>{});
+    auto_declare<double>("ramp_velocity_scale", 0.5);
   } catch (const std::exception & e) {
     RCLCPP_ERROR(get_node()->get_logger(),
                  "on_init failed: %s", e.what());
@@ -142,6 +145,46 @@ CallbackReturn JointImpedanceController::on_configure(
     }
   }
 
+  // Named poses for ~/move_to_pose, ramped at a fraction of the URDF joint velocity limit.
+  {
+    std::string error;
+    if (!motion_limits_from_urdf(
+        robot_description_, joint_names_, joint_lower_, joint_upper_, ramp_velocity_, error))
+    {
+      RCLCPP_ERROR(node->get_logger(), "Cannot read the joint limits: %s", error.c_str());
+      return CallbackReturn::ERROR;
+    }
+    ramp_velocity_scale_ = node->get_parameter("ramp_velocity_scale").as_double();
+    if (!(ramp_velocity_scale_ > 0.0 && ramp_velocity_scale_ <= 1.0)) {
+      RCLCPP_ERROR(node->get_logger(), "ramp_velocity_scale must be in (0, 1]");
+      return CallbackReturn::ERROR;
+    }
+    ramp_velocity_ *= ramp_velocity_scale_;
+    named_poses_.clear();
+    for (const std::string name : {"stowed", "extended"}) {
+      const auto values = node->get_parameter("pose_" + name).as_double_array();
+      if (values.empty()) {
+        continue;  // not configured: the service refuses it
+      }
+      if (values.size() != n_joints_) {
+        RCLCPP_ERROR(node->get_logger(), "pose_%s needs %zu values, got %zu",
+          name.c_str(), n_joints_, values.size());
+        return CallbackReturn::ERROR;
+      }
+      const Eigen::VectorXd q = Eigen::Map<const Eigen::VectorXd>(
+        values.data(), static_cast<Eigen::Index>(values.size()));
+      for (Eigen::Index i = 0; i < q.size(); ++i) {
+        if (!std::isfinite(q[i]) || q[i] < joint_lower_[i] || q[i] > joint_upper_[i]) {
+          RCLCPP_ERROR(node->get_logger(),
+            "pose_%s joint %ld = %g is outside the URDF limits [%g, %g]",
+            name.c_str(), static_cast<long>(i), q[i], joint_lower_[i], joint_upper_[i]);
+          return CallbackReturn::ERROR;
+        }
+      }
+      named_poses_[name] = q;
+    }
+  }
+
   // Load the impedance law via pluginlib.
   try {
     law_loader_ = std::make_unique<pluginlib::ClassLoader<ImpedanceLaw>>(
@@ -197,6 +240,28 @@ CallbackReturn JointImpedanceController::on_configure(
     [this](std::shared_ptr<JointPoint> msg) {
       reference_persistent_ = false;
       reference_buffer_.writeFromNonRT(msg);
+    });
+
+  move_service_ = node->create_service<MoveToPose>(
+    "~/move_to_pose",
+    [this](const std::shared_ptr<MoveToPose::Request> request,
+    std::shared_ptr<MoveToPose::Response> response) {
+      const auto it = named_poses_.find(request->pose);
+      if (it == named_poses_.end()) {
+        std::string known;
+        for (const auto & entry : named_poses_) {
+          known += (known.empty() ? "" : ", ") + entry.first;
+        }
+        response->success = false;
+        response->message = "unknown pose '" + request->pose + "' (configured: " +
+          (known.empty() ? "none" : known) + ")";
+      } else if (!activated_) {
+        response->success = false;
+        response->message = "the controller is not active";
+      } else {
+        pose_request_buffer_.writeFromNonRT(std::make_shared<Eigen::VectorXd>(it->second));
+        response->success = true;
+      }
     });
 
   gains_sub_ = node->create_subscription<GainsMsg>(
@@ -267,6 +332,11 @@ CallbackReturn JointImpedanceController::on_activate(
   }
   reference_buffer_.initRT(std::shared_ptr<JointPoint>());
   last_reference_.reset();
+  pose_request_buffer_.initRT(std::shared_ptr<Eigen::VectorXd>());
+  last_pose_request_.reset();
+  ramp_.cancel();
+  ramp_owns_reference_ = false;
+  activated_ = true;
   watchdog_.reset();
   reference_active_ = false;
   active_published_ = false;
@@ -292,6 +362,8 @@ CallbackReturn JointImpedanceController::on_activate(
 CallbackReturn JointImpedanceController::on_deactivate(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
+  activated_ = false;
+  ramp_.cancel();
   // Release all command interfaces to zero to avoid lingering torque.
   for (auto & ci : command_interfaces_) {
     ci.set_value(0.0);
@@ -334,7 +406,7 @@ JointImpedanceController::state_interface_configuration() const
 // --------------------------------------------------------------------------
 
 return_type JointImpedanceController::update(
-  const rclcpp::Time & time, const rclcpp::Duration & /*period*/)
+  const rclcpp::Time & time, const rclcpp::Duration & period)
 {
   // Read current state. State interfaces are stored in the same order the
   // controller claimed them: [q0, qd0, tau0, q1, qd1, tau1, ...].
@@ -345,17 +417,39 @@ return_type JointImpedanceController::update(
 
   // Update reference from the last received JointTrajectoryPoint, if any.
   auto ref_msg = *reference_buffer_.readFromRT();
-  const bool have_reference = static_cast<bool>(ref_msg);
-  const bool fresh = have_reference && ref_msg != last_reference_;
-  if (fresh) {
+  const bool external = static_cast<bool>(ref_msg);
+  const bool external_fresh = external && ref_msg != last_reference_;
+  if (external_fresh) {
     last_reference_ = ref_msg;
+    // A new reference from outside takes the reference back from the ramp.
+    ramp_.cancel();
+    ramp_owns_reference_ = false;
   }
+  // A fold/extend request starts a ramp from the current desired pose.
+  const auto pose_request = *pose_request_buffer_.readFromRT();
+  const bool requested = pose_request && pose_request != last_pose_request_;
+  if (requested) {
+    last_pose_request_ = pose_request;
+    ramp_.start(q_d_, *pose_request, ramp_velocity_);
+    ramp_owns_reference_ = true;
+    reference_persistent_ = false;  // a q_ref_N reference would otherwise never expire
+    if (!ramp_.active()) {
+      q_d_ = *pose_request;  // already there
+      q_dot_d_.setZero();
+    }
+  }
+  const bool ramping = ramp_.active();
+  if (ramping) {
+    ramp_.step(period.seconds(), q_d_, q_dot_d_);
+  }
+  const bool have_reference = external || ramp_owns_reference_;
+  const bool fresh = external_fresh || ramping || requested;
   if (watchdog_.update(have_reference, fresh, reference_persistent_.load(), time.seconds())) {
-    // The publisher went silent: hold the current pose instead of the stale target.
+    // The publisher went silent (or the ramp ended): hold the current pose.
     q_d_ = q_;
     q_dot_d_.setZero();
   }
-  if (have_reference && !watchdog_.expired()) {
+  if (external && !ramp_owns_reference_ && !watchdog_.expired()) {
     const auto & p = *ref_msg;
     if (p.positions.size() == n_joints_) {
       for (size_t i = 0; i < n_joints_; ++i) {

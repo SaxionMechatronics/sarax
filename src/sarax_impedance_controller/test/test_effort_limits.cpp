@@ -8,6 +8,7 @@
 
 using sarax_impedance_controller::clamp_effort;
 using sarax_impedance_controller::effort_limits_from_urdf;
+using sarax_impedance_controller::motion_limits_from_urdf;
 
 namespace
 {
@@ -35,6 +36,31 @@ TEST(EffortLimits, UnknownJointOrBadUrdfFails)
   EXPECT_FALSE(error.empty());
   EXPECT_FALSE(effort_limits_from_urdf("", {"j1"}, limits, error));
   EXPECT_FALSE(effort_limits_from_urdf("<robot", {"j1"}, limits, error));
+}
+
+TEST(MotionLimits, ReadFromUrdfInJointOrder)
+{
+  Eigen::VectorXd lo, hi, vel;
+  std::string error;
+  ASSERT_TRUE(motion_limits_from_urdf(kUrdf, {"j2", "j1"}, lo, hi, vel, error)) << error;
+  EXPECT_DOUBLE_EQ(lo[0], -1.9);
+  EXPECT_DOUBLE_EQ(hi[0], 2.6);
+  EXPECT_DOUBLE_EQ(vel[0], 1.0);
+  EXPECT_DOUBLE_EQ(vel[1], 3.0);
+}
+
+TEST(MotionLimits, MissingJointOrBadVelocityFails)
+{
+  Eigen::VectorXd lo, hi, vel;
+  std::string error;
+  EXPECT_FALSE(motion_limits_from_urdf(kUrdf, {"nope"}, lo, hi, vel, error));
+  EXPECT_FALSE(motion_limits_from_urdf("", {"j1"}, lo, hi, vel, error));
+  const std::string zero_velocity =
+    R"(<robot name="r"><link name="a"/><link name="b"/><joint name="j" type="revolute">
+    <parent link="a"/><child link="b"/><axis xyz="1 0 0"/>
+    <limit lower="-1" upper="1" effort="5" velocity="0"/></joint></robot>)";
+  EXPECT_FALSE(motion_limits_from_urdf(zero_velocity, {"j"}, lo, hi, vel, error));
+  EXPECT_NE(error.find("velocity"), std::string::npos);
 }
 
 TEST(EffortLimits, ClampIsSymmetric)

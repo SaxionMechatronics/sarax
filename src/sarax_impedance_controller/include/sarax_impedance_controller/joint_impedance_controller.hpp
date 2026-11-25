@@ -8,6 +8,7 @@
 #pragma once
 
 #include <atomic>
+#include <map>
 #include <memory>
 #include <string>
 #include <vector>
@@ -24,11 +25,13 @@
 #include <rcl_interfaces/msg/parameter_descriptor.hpp>
 #include <rcl_interfaces/msg/set_parameters_result.hpp>
 #include <sarax_msgs/msg/impedance_gains.hpp>
+#include <sarax_msgs/srv/move_to_pose.hpp>
 #include <std_msgs/msg/bool.hpp>
 #include <std_msgs/msg/float64_multi_array.hpp>
 #include <trajectory_msgs/msg/joint_trajectory_point.hpp>
 
 #include "sarax_impedance_controller/impedance_law.hpp"
+#include "sarax_impedance_controller/pose_ramp.hpp"
 #include "sarax_impedance_controller/reference_watchdog.hpp"
 
 namespace sarax_impedance_controller
@@ -95,6 +98,22 @@ private:
   bool active_published_{false};
   using ActiveMsg = std_msgs::msg::Bool;
   std::unique_ptr<realtime_tools::RealtimePublisher<ActiveMsg>> active_publisher_;
+
+  // Fold/extend: ~/move_to_pose ramps the reference to a named pose (parameters pose_stowed,
+  // pose_extended, empty = not configured). The service callback only validates and hands the
+  // target to update(), which owns the ramp. While the ramp owns the reference, a new
+  // ~/reference (or q_ref_N change) cancels it; when it ends nothing refreshes the reference, so
+  // the watchdog expires and holds the pose (~/reference_active goes false).
+  using MoveToPose = sarax_msgs::srv::MoveToPose;
+  std::map<std::string, Eigen::VectorXd> named_poses_;
+  Eigen::VectorXd joint_lower_, joint_upper_, ramp_velocity_;
+  double ramp_velocity_scale_{0.5};
+  rclcpp::Service<MoveToPose>::SharedPtr move_service_;
+  realtime_tools::RealtimeBuffer<std::shared_ptr<Eigen::VectorXd>> pose_request_buffer_;
+  std::shared_ptr<Eigen::VectorXd> last_pose_request_;
+  std::atomic<bool> activated_{false};
+  PoseRamp ramp_;
+  bool ramp_owns_reference_{false};
 
   // Live gain override
   using GainsMsg = sarax_msgs::msg::ImpedanceGains;

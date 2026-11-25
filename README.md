@@ -490,6 +490,19 @@ ros2 topic pub -1 /joint_impedance_controller/gains \
 
 Static parameters (`joints`, `impedance_law`, `max_position_error`) require a controller restart to change.
 
+### Fold and extend the arm
+
+`~/move_to_pose` (`sarax_msgs/srv/MoveToPose`) ramps the arm to a named pose, `stowed` or `extended`, for safe takeoff and landing:
+
+```bash
+ros2 service call /joint_impedance_controller/move_to_pose sarax_msgs/srv/MoveToPose "{pose: stowed}"
+```
+
+- The poses are the `pose_stowed` / `pose_extended` controller parameters (`[mani_joint_1, mani_joint_2]`, rad). They come from `arm_poses` in the platform profile: the simulator loads them from `config/controllers.yaml` (a test keeps it equal to `profiles/sitl.yaml`), the vehicle from `profiles/hw.yaml` through `ak60_hardware.launch.py`. **The values are placeholders until the bench measures the real poses.** At configure time a pose outside the URDF joint limits is an error; a pose left empty is refused by the service.
+- The ramp is minimum-jerk, all joints start and stop together, and it takes as long as the slowest joint needs to stay within `ramp_velocity_scale` (default 0.5) x its URDF velocity limit.
+- The reply comes when the request is accepted, not when the ramp ends. `~/reference_active` is true during the ramp. When it ends nothing refreshes the reference, so after `reference_timeout` the watchdog holds the pose and `~/reference_active` goes false.
+- An unknown pose, or a controller that is not active, is refused (`success: false`, with `message`). A new `~/reference` message, or a `q_ref_N` change, takes over from a running ramp; a new request restarts the ramp from the current desired pose.
+
 ### Adding a custom impedance law
 
 Laws are loaded via pluginlib. To add your own:

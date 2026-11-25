@@ -1,0 +1,8 @@
+# Ramp the arm reference to a named pose of the platform profile ("stowed" or "extended").
+# The reply comes when the ramp is accepted, not when it ends: the controller publishes
+# ~/reference_active as true during the ramp and false once it has ended and the pose is held.
+string pose
+---
+bool success
+# Why the request was refused (unknown pose, controller not active, ...); empty on success.
+string message

@@ -35,6 +35,14 @@ joint_impedance_controller:
     max_position_error: 0.5 # rad, clamp before Kp is applied
     reference_timeout: 0.5 # s; a ~/reference that stops refreshing is dropped and the arm holds its pose (0 = off)
 
+    # Fold/extend (~/move_to_pose): named poses [mani_joint_1, mani_joint_2] in rad, ramped to at
+    # ramp_velocity_scale x the URDF joint velocity limit. SITL values, equal to arm_poses in
+    # profiles/sitl.yaml (a test checks it); the vehicle gets arm_poses of profiles/hw.yaml from
+    # ak60_hardware.launch.py. PLACEHOLDERS until the bench measures the real stowed/extended poses.
+    pose_stowed: [0.0, 0.0]
+    pose_extended: [0.0, 1.0]
+    ramp_velocity_scale: 0.5
+
     # SITL gravity model: constants consistent with sarax_plus.urdf.xacro (link3 = L2 0.4 m,
     # m2/d2 from link3; m3/d3 = link4 + ee_link lumped). The gz_ros2_control plugin loads this
     # file directly. The real vehicle uses the hw profile's controller.gravity (ROS 1 hardware

@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pytest
 
 from sarax_bringup import profile
@@ -50,3 +52,20 @@ def test_hardware_only_bringup_defaults_to_hw(monkeypatch):
     assert profile.load(default="hw")["target"] == "hw"
     monkeypatch.setenv("SARAX_TARGET", "sitl")
     assert profile.load(default="hw")["target"] == "sitl"
+
+
+def test_sitl_arm_poses_match_controllers_yaml(monkeypatch):
+    """The simulator loads controllers.yaml directly, so it must carry the sitl profile's poses."""
+    import yaml
+    monkeypatch.setenv("SARAX_TARGET", "sitl")
+    poses = profile.get(profile.load(), "arm_poses")
+    controllers = Path(profile.profile_dir()).parent / "controllers.yaml"
+    params = yaml.safe_load(controllers.read_text())["joint_impedance_controller"]["ros__parameters"]
+    for name, values in poses.items():
+        assert params[f"pose_{name}"] == values
+
+
+def test_hw_arm_poses_cover_stowed_and_extended():
+    poses = profile.get(profile.load("hw"), "arm_poses")
+    assert set(poses) == {"stowed", "extended"}
+    assert all(len(values) == 2 for values in poses.values())

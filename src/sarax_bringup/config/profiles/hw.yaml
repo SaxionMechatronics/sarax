@@ -19,6 +19,12 @@ motors:
 # bench measures them.
 belt: {ratio: 1.0, sign: 1}
 
+# Arm poses [mani_joint_1, mani_joint_2] [rad] of ~/move_to_pose, applied by ak60_hardware.launch.py.
+# PLACEHOLDERS: measure the stowed and extended poses on the bench (inside the URDF joint limits).
+arm_poses:
+  stowed: [0.0, 0.0]
+  extended: [0.0, 1.0]
+
 controller:
   impedance_law: sarax_impedance_controller::PDGravityLaw
   max_position_error: 1.0
