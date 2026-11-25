@@ -10,11 +10,11 @@ px4_params:
   # No data-link-loss action, so arming does not require a ground station.
   NAV_DLL_ACT: 0
 
-# Arm poses [mani_joint_1, mani_joint_2] [rad] of ~/move_to_pose. PLACEHOLDERS until measured on the
-# bench. The simulator loads config/controllers.yaml directly, which must hold the same values.
+# Arm poses [mani_joint_1, mani_joint_2] [rad] of ~/move_to_pose. The ROS 1 values (controller_user_control.cpp on sarax@main); the bench
+# confirms them. The simulator loads config/controllers.yaml directly, which must hold the same values.
 arm_poses:
-  stowed: [0.0, 0.0]
-  extended: [0.0, 1.0]
+  stowed: [1.309, 1.3963]    # 75, 80 deg
+  extended: [-1.0472, 1.5708]  # -60, 90 deg
 
 # Frame names of the Gazebo model.
 frames:
