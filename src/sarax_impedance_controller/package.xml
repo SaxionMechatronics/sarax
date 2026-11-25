@@ -24,6 +24,7 @@
   <depend>eigen</depend>
   <depend>sarax_msgs</depend>
   <depend>pinocchio</depend>
+  <depend>urdfdom</depend>
 
   <test_depend>ament_cmake_gtest</test_depend>
   <test_depend>sarax_description</test_depend>

@@ -185,7 +185,7 @@
         <limit>
           <lower>-1.5708</lower>
           <upper>1.5708</upper>
-          <effort>30</effort>
+          <effort>5</effort>
           <velocity>3.14</velocity>
         </limit>
         <dynamics>
@@ -227,10 +227,10 @@
       <axis>
         <xyz>1 0 0</xyz>
         <limit>
-          <lower>-2.6</lower>
+          <lower>-1.9</lower>
           <upper>2.6</upper>
-          <effort>30</effort>
-          <velocity>3.14</velocity>
+          <effort>5</effort>
+          <velocity>1.0</velocity>
         </limit>
         <dynamics>
           <damping>0.7</damping>

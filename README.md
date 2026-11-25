@@ -4,7 +4,7 @@ ROS 2 control stack for a **coaxial octocopter (~9.5 kg) with a 2-DoF manipulato
 
 ```
 Platform:  PX4 v1.17 · ROS 2 Humble · Gazebo Harmonic (gz-sim 8)
-Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
+Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±5 N·m per motor)
 ```
 
 ---
@@ -110,7 +110,7 @@ available targets. The SITL bringup (`sitl.launch.py`, `scripts/px4.sh`), the
 | Profile | Holds |
 | --- | --- |
 | `sitl` | `use_sim_time`, SITL-only PX4 parameters (`px4_params`, e.g. `NAV_DLL_ACT=0`; an exported `PX4_PARAM_<NAME>` still wins), Gazebo frame names and camera transform, `manipulator_only` model name and spawn height |
-| `hw` | CAN interface and bitrate, motor IDs, effort limits, gains, impedance law, reference/feedback timeouts |
+| `hw` | CAN interface and bitrate, motor IDs, gains, impedance law, reference/feedback timeouts |
 
 A launch file asked for a value its profile does not have (for example
 `SARAX_TARGET=hw ros2 launch sarax_bringup sitl.launch.py`) stops with a message
@@ -137,7 +137,7 @@ launches the real AK60 system with your two-motor settings:
 | --- | --- |
 | Motor IDs (`mani_joint_1`, `mani_joint_2`) | 2, 3 |
 | Impedance law | `sarax_impedance_controller::PDGravityLaw` |
-| Effort limits | 7, 7 |
+| Effort limits | 5, 5 (URDF `effort_limit`, not in the profile) |
 | Stiffness | 9.0, 5.0 |
 | Damping | 1.0, 1.0 |
 | Maximum position error | 1.0 rad |
@@ -409,7 +409,7 @@ $$\tau = K_d(q_d - q) + D_d(\dot{q}_d - \dot{q}) + g(q)$$
 | $D_d$ | Diagonal damping (N·m·s/rad) | `[10.0, 10.0]` |
 | $g(q)$ | Gravity compensation torque | enabled in PDGravityLaw |
 
-Torque commands are clamped to ±30 N·m per joint. The stiffness term is saturated when $|q - q_d| >$ `max_position_error` (default 0.5 rad) to prevent runaway on bad references.
+Torque commands are clamped to ±5 N·m per joint, read from the URDF joint `<limit effort>` (the only source of the torque limit; change it with the `effort_limit` xacro argument). The stiffness term is saturated when $|q - q_d| >$ `max_position_error` (default 0.5 rad) to prevent runaway on bad references.
 
 ### Gravity compensation
 
@@ -488,7 +488,7 @@ ros2 topic pub -1 /joint_impedance_controller/gains \
   "{joint_names: [mani_joint_1, mani_joint_2], stiffness: [20.0, 20.0], damping: [8.0, 8.0]}"
 ```
 
-Static parameters (`joints`, `impedance_law`, `effort_limits`, `max_position_error`) require a controller restart to change.
+Static parameters (`joints`, `impedance_law`, `max_position_error`) require a controller restart to change.
 
 ### Adding a custom impedance law
 

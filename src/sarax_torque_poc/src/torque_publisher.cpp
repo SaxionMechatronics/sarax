@@ -20,9 +20,8 @@ public:
     joints_ = declare_parameter<std::vector<std::string>>(
       "joints", std::vector<std::string>{"mani_joint_1", "mani_joint_2"});
     efforts_ = declare_parameter<std::vector<double>>(
-      "efforts", std::vector<double>{-10.5, -10.5});
+      "efforts", std::vector<double>{-2.0, -2.0});
     const double rate_hz = declare_parameter<double>("publish_rate_hz", 100.0);
-    effort_limit_ = declare_parameter<double>("effort_limit", 30.0);
     sinusoid_amp_ = declare_parameter<double>("sinusoid_amplitude", 0.0);
     sinusoid_freq_ = declare_parameter<double>("sinusoid_frequency_hz", 0.25);
 
@@ -57,17 +56,16 @@ private:
       : 0.0;
 
     for (size_t i = 0; i < publishers_.size(); ++i) {
-      const double raw = efforts_[i] + modulation;
-      const double clamped = std::clamp(raw, -effort_limit_, effort_limit_);
+      // No clamp here: the torque limit is the URDF/SDF joint effort (5 N.m), enforced
+      // downstream. Keep efforts + sinusoid_amplitude within it.
       std_msgs::msg::Float64 msg;
-      msg.data = clamped;
+      msg.data = efforts_[i] + modulation;
       publishers_[i]->publish(msg);
     }
   }
 
   std::vector<std::string> joints_;
   std::vector<double> efforts_;
-  double effort_limit_{30.0};
   double sinusoid_amp_{0.0};
   double sinusoid_freq_{0.25};
   rclcpp::Time start_;

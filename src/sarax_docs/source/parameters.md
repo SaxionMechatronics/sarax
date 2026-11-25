@@ -8,7 +8,6 @@ Parameters are declared via `generate_parameter_library` from
 | `joints` | `string[]` | `[mani_joint_1, mani_joint_2]` | Controlled joints |
 | `stiffness` | `double[]` | `[200.0, 200.0]` | Per-joint $K_d$ (N·m/rad) |
 | `damping` | `double[]` | `[20.0, 20.0]` | Per-joint $D_d$ (N·m·s/rad) |
-| `effort_limits` | `double[]` | `[30.0, 30.0]` | Torque clamp (N·m) |
 | `use_gravity_compensation` | `bool` | `true` | Enable Pinocchio $g(q)$ |
 | `max_position_error` | `double` | `0.5` | Stiffness saturation threshold (rad) |
 | `impedance_law_type` | `string` | `pd_gravity` | Plugin type: `pd` or `pd_gravity` |

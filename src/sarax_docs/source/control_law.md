@@ -26,7 +26,7 @@ upright relative to gravity, which holds near hover.
 
 ## Safety Limits
 
-Torque commands are clamped to ±30 N·m per joint (from URDF effort limits). The
+Torque commands are clamped to ±5 N·m per joint (the joint `<limit effort>` of the URDF, the only source of the limit). The
 stiffness contribution is further saturated when $|q - q_d| >$ `max_position_error`
 (default 0.5 rad) to prevent torque saturation on bad references.
 
