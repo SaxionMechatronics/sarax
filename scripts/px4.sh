@@ -116,6 +116,24 @@ CONTROLLERS_YAML="$REPO/install/sarax_bringup/share/sarax_bringup/config/control
 MODEL_SDF="$REPO/build/sarax_plus_spawn.sdf"
 mkdir -p "$REPO/build"
 sed "s#@SARAX_CONTROLLERS_YAML@#$CONTROLLERS_YAML#" "$MODEL_SRC" > "$MODEL_SDF"
+# SARAX_GZ_ARM_PLUGIN=0: spawn the model without its gz_ros2_control plugin, so PX4 SITL can
+# stand in for the vehicle while the arm runs elsewhere (`pixi run hardware hardware:=mock`
+# has its own controller_manager; two would clash, and the plugin would wait for a
+# robot_state_publisher for ever). The Gazebo arm joints are then passive.
+if [ "${SARAX_GZ_ARM_PLUGIN:-1}" = 0 ]; then
+    python3 - "$MODEL_SDF" <<'PY'
+import re
+import sys
+
+path = sys.argv[1]
+text = open(path).read()
+text, n = re.subn(r'<plugin filename="gz_ros2_control-system".*?</plugin>', "", text, flags=re.S)
+if n != 1:
+    sys.exit(f"expected one gz_ros2_control plugin in {path}, found {n}")
+open(path, "w").write(text)
+PY
+    echo ">>> Arm plugin removed from the model (SARAX_GZ_ARM_PLUGIN=0): no ros2_control inside Gazebo."
+fi
 echo ">>> Spawning sarax_plus_0 from $MODEL_SDF"
 gz service -s /world/default/create --reqtype gz.msgs.EntityFactory \
     --reptype gz.msgs.Boolean --timeout 5000 \
@@ -124,5 +142,5 @@ sleep 1
 
 # Standalone: PX4 does not start its own world; it binds to sarax_plus_0.
 # Start 'pixi run ros' now: the model's gz_ros2_control plugin waits for
-# robot_state_publisher.
+# robot_state_publisher (not needed with SARAX_GZ_ARM_PLUGIN=0).
 PX4_GZ_STANDALONE=1 PX4_GZ_MODEL_NAME=sarax_plus_0 make px4_sitl gz_sarax_plus
