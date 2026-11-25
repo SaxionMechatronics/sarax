@@ -29,7 +29,6 @@ add_library(sarax_impedance_laws SHARED
   src/laws/pd_law.cpp
   src/laws/pd_gravity_law.cpp
   src/laws/pd_pinocchio_gravity_law.cpp
-  src/effort_limits.cpp
 )
 target_include_directories(sarax_impedance_laws PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -40,6 +39,17 @@ ament_target_dependencies(sarax_impedance_laws
   pluginlib
 )
 target_link_libraries(sarax_impedance_laws Eigen3::Eigen pinocchio::pinocchio_default pinocchio::pinocchio_parsers urdfdom::urdfdom_model)
+
+# -------- Effort-limit helpers (plain lib, no plugins) --------
+# Must NOT live in sarax_impedance_laws: the controller would then link that library, and in the
+# simulator (controller manager inside gz sim) the controller then fails to configure with
+# "no factory exists" for every law. Seen in SITL; this unit-test process does not reproduce it.
+add_library(sarax_effort_limits SHARED src/effort_limits.cpp)
+target_include_directories(sarax_effort_limits PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>
+)
+target_link_libraries(sarax_effort_limits Eigen3::Eigen urdfdom::urdfdom_model)
 
 # -------- Controller plugin (separate shared lib) --------
 add_library(sarax_impedance_controller SHARED
@@ -61,7 +71,8 @@ ament_target_dependencies(sarax_impedance_controller
   rcl_interfaces
   sarax_msgs
 )
-target_link_libraries(sarax_impedance_controller Eigen3::Eigen sarax_impedance_laws)
+# Do not link sarax_impedance_laws here (see above): pluginlib loads it.
+target_link_libraries(sarax_impedance_controller Eigen3::Eigen sarax_effort_limits)
 
 # -------- pluginlib manifests --------
 pluginlib_export_plugin_description_file(
@@ -70,7 +81,7 @@ pluginlib_export_plugin_description_file(
   sarax_impedance_controller sarax_impedance_laws.xml)
 
 # -------- install --------
-install(TARGETS sarax_impedance_laws sarax_impedance_controller
+install(TARGETS sarax_impedance_laws sarax_effort_limits sarax_impedance_controller
   EXPORT export_${PROJECT_NAME}
   RUNTIME DESTINATION bin
   LIBRARY DESTINATION lib
@@ -82,7 +93,7 @@ install(FILES sarax_controllers.xml sarax_impedance_laws.xml
   DESTINATION share/${PROJECT_NAME})
 
 ament_export_include_directories(include)
-ament_export_libraries(sarax_impedance_laws sarax_impedance_controller)
+ament_export_libraries(sarax_impedance_laws sarax_effort_limits sarax_impedance_controller)
 ament_export_dependencies(
   rclcpp rclcpp_lifecycle controller_interface hardware_interface pluginlib
   realtime_tools trajectory_msgs std_msgs sarax_msgs pinocchio)
@@ -95,7 +106,12 @@ if(BUILD_TESTING)
   ament_add_gtest(test_pd_gravity_law test/test_pd_gravity_law.cpp)
   target_link_libraries(test_pd_gravity_law sarax_impedance_laws)
   ament_add_gtest(test_effort_limits test/test_effort_limits.cpp)
-  target_link_libraries(test_effort_limits sarax_impedance_laws)
+  target_link_libraries(test_effort_limits sarax_effort_limits)
+
+  ament_add_gtest(test_law_plugins test/test_law_plugins.cpp)
+  ament_target_dependencies(test_law_plugins pluginlib)
+  target_include_directories(test_law_plugins PRIVATE include)
+  target_link_libraries(test_law_plugins Eigen3::Eigen)
 
   # The Pinocchio law is tested on the real URDF: expand the xacro at configure time.
   find_package(sarax_description QUIET)
