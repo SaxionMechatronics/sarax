@@ -25,8 +25,8 @@ frames:
   base_link: base_link
 
 # Fixed transform base -> camera of the Gazebo model, [x, y, z, qx, qy, qz, qw]. Must match
-# the camera pose in the URDF and models/sarax_plus/model.sdf (rear camera).
-camera_tf: [-0.15, 0.0, 0.05, 0.0, 0.0, 1.0, 0.0]
+# the camera pose in the URDF and models/sarax_plus/model.sdf (front camera: 15 cm ahead, 5 cm up, yaw 0).
+camera_tf: [0.15, 0.0, 0.05, 0.0, 0.0, 0.0, 1.0]
 
 # manipulator_only.launch.py
 manipulator_only:

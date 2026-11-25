@@ -231,13 +231,13 @@
 
   <!-- ======================== RGBD camera ============================ -->
   <!-- Single source of the camera extrinsic for ROS (TF via robot_state_publisher)
-       and the planner (Pinocchio frame "camera_link").  Rear-facing: 15 cm behind,
-       5 cm above base_link, yaw pi.  camera_link uses the x-forward / z-up body
+       and the planner (Pinocchio frame "camera_link").  Front-facing: 15 cm in front of,
+       5 cm above base_link, yaw 0 (as in the first committed model).  camera_link uses the x-forward / z-up body
        convention (Gazebo rgbd_camera and the RealSense driver's camera_link).
        The Gazebo SDF (sarax_gz_sim/models/sarax_plus) must place its sensor at
        the same pose. -->
-  <xacro:arg name="camera_xyz" default="-0.15 0 0.05"/>
-  <xacro:arg name="camera_rpy" default="0 0 3.14159265"/>
+  <xacro:arg name="camera_xyz" default="0.15 0 0.05"/>
+  <xacro:arg name="camera_rpy" default="0 0 0"/>
   <link name="camera_link"/>
   <joint name="camera_joint" type="fixed">
     <parent link="base_link"/>

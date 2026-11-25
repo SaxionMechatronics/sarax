@@ -6,7 +6,7 @@ SRC = Path(__file__).resolve().parents[2]
 URDF = SRC / "sarax_description/urdf/sarax_plus.urdf.xacro"
 SDF = SRC / "sarax_gz_sim/models/sarax_plus/model.sdf"
 
-EXPECTED = [-0.15, 0.0, 0.05, 0.0, 0.0, 3.14159265]
+EXPECTED = [0.15, 0.0, 0.05, 0.0, 0.0, 0.0]
 
 
 def _floats(text):
@@ -26,7 +26,7 @@ def _sdf_pose():
     return _floats(m.group(1))
 
 
-def test_urdf_camera_pose_is_rear():
+def test_urdf_camera_pose_is_front():
     assert _urdf_pose() == EXPECTED
 
 
