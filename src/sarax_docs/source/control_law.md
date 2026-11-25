@@ -26,7 +26,7 @@ upright relative to gravity, which holds near hover.
 
 ## Safety Limits
 
-Torque commands are clamped to ±5 N·m per joint (the joint `<limit effort>` of the URDF, the only source of the limit). The
+Torque is limited to ±5 N·m, taken from the URDF `effort_limit` (the only source; the joint `<limit effort>`, the ros2_control effort `min`/`max` and the AK60 driver limit all come from it). It is enforced in two places: the impedance controller clamps its joint-space command per joint (defence in depth, so a command is bounded before it reaches the hardware layer), and `SaraxArmSystem::write()` clamps the motor-space effort per motor after the belt transmission. The second one is the binding limit: motor 1 carries $\tau_{j1} - \tau_{j2}$, so joint torques of 4 and -4 N·m command 8 N·m on motor 1 and are clamped to 5. The
 stiffness contribution is further saturated when $|q - q_d| >$ `max_position_error`
 (default 0.5 rad) to prevent torque saturation on bad references.
 

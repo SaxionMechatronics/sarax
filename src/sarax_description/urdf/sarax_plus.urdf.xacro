@@ -9,7 +9,8 @@
   <xacro:arg name="hardware" default="gazebo"/>
   <!-- The one torque limit (N.m) per manipulator motor (the ROS 1 experiments ran with 5).
        It feeds the joint <limit effort>, the ros2_control command interfaces and the driver;
-       the impedance controller clamps to the joint <limit effort> read from this URDF. -->
+       the impedance controller clamps to the joint <limit effort> read from this URDF (per joint) and
+       SaraxArmSystem clamps per motor, after the belt transmission, to the effort min/max below. -->
   <xacro:arg name="effort_limit" default="5.0"/>
   <!-- Physical joint mapping. Motor 2 is identified; the second ID is an example. -->
   <xacro:arg name="ak60_can_interface" default="can0"/>

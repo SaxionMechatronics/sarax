@@ -3,6 +3,8 @@
 
 #include <cmath>
 #include <initializer_list>
+#include <stdexcept>
+#include <string>
 #include <hardware_interface/hardware_info.hpp>
 #include "sarax_arm_system/arm_transmission.hpp"
 
@@ -128,4 +130,76 @@ TEST(ArmTransmission, RejectsWrongLayout)
   info.actuators.pop_back();
   EXPECT_THROW(ArmTransmission{info}, std::invalid_argument);
   EXPECT_ANY_THROW(ArmTransmission{make_info(0.0)});
+}
+
+namespace
+{
+hardware_interface::HardwareInfo make_hw(const std::string & min, const std::string & max)
+{
+  hardware_interface::HardwareInfo info;
+  for (const char * name : {"mani_joint_1", "mani_joint_2"}) {
+    hardware_interface::ComponentInfo joint;
+    joint.name = name;
+    hardware_interface::InterfaceInfo effort;
+    effort.name = "effort";
+    effort.min = min;
+    effort.max = max;
+    joint.command_interfaces.push_back(effort);
+    info.joints.push_back(joint);
+  }
+  return info;
+}
+}  // namespace
+
+TEST(ActuatorLimit, ReadFromEffortInterfaceOfTheUrdf)
+{
+  const auto limits = sarax_arm_system::effort_limits_from_info(make_hw("-5.0", " 5.0"), 2);
+  EXPECT_DOUBLE_EQ(limits[0], 5.0);
+  EXPECT_DOUBLE_EQ(limits[1], 5.0);
+}
+
+TEST(ActuatorLimit, MissingOrBadLimitIsRejected)
+{
+  using sarax_arm_system::effort_limits_from_info;
+  EXPECT_THROW(effort_limits_from_info(make_hw("", ""), 2), std::invalid_argument);
+  EXPECT_THROW(effort_limits_from_info(make_hw("-5", "x"), 2), std::invalid_argument);
+  EXPECT_THROW(effort_limits_from_info(make_hw("0", "0"), 2), std::invalid_argument);
+  EXPECT_THROW(effort_limits_from_info(make_hw("-3", "5"), 2), std::invalid_argument);
+  hardware_interface::HardwareInfo none;
+  none.joints.resize(2);
+  EXPECT_THROW(effort_limits_from_info(none, 2), std::invalid_argument);
+}
+
+TEST(ActuatorLimit, ClampActsPerMotorAfterTheTransmission)
+{
+  ArmTransmission t(make_info(1.0));
+  const auto limits = sarax_arm_system::effort_limits_from_info(make_hw("-5", "5"), 2);
+  // Both joint torques are within 5 N*m, but motor 1 carries tau_j1 - tau_j2 = 8 N*m.
+  AxisValues joint;
+  joint.effort = {4.0, -4.0};
+  auto actuator = t.to_actuator(joint);
+  EXPECT_NEAR(actuator.effort[0], 8.0, 1e-12);
+  sarax_arm_system::clamp_actuator_effort(actuator, limits, 2);
+  EXPECT_NEAR(actuator.effort[0], 5.0, 1e-12);
+  EXPECT_NEAR(actuator.effort[1], -4.0, 1e-12);
+  // Symmetric, and within-limit values pass unchanged.
+  joint.effort = {-4.0, 4.0};
+  actuator = t.to_actuator(joint);
+  sarax_arm_system::clamp_actuator_effort(actuator, limits, 2);
+  EXPECT_NEAR(actuator.effort[0], -5.0, 1e-12);
+  EXPECT_NEAR(actuator.effort[1], 4.0, 1e-12);
+  joint.effort = {1.0, 2.0};
+  actuator = t.to_actuator(joint);
+  sarax_arm_system::clamp_actuator_effort(actuator, limits, 2);
+  EXPECT_NEAR(actuator.effort[0], -1.0, 1e-12);
+  EXPECT_NEAR(actuator.effort[1], 2.0, 1e-12);
+}
+
+TEST(ActuatorLimit, NanCommandBecomesZero)
+{
+  AxisValues a;
+  a.effort = {std::nan(""), 3.0};
+  sarax_arm_system::clamp_actuator_effort(a, {5.0, 5.0}, 2);
+  EXPECT_EQ(a.effort[0], 0.0);
+  EXPECT_EQ(a.effort[1], 3.0);
 }

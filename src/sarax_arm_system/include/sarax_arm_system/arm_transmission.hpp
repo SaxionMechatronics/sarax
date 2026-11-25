@@ -38,4 +38,14 @@ private:
   struct Impl;
   std::unique_ptr<Impl> impl_;
 };
+
+/// Per-actuator effort limit [N*m] of the first `n` joints, from the effort command interface
+/// `min`/`max` of each joint in HardwareInfo (the URDF `effort_limit`, the one source of the
+/// torque limit; Humble does not carry the joint `<limit effort>` itself into HardwareInfo).
+/// Joint i is driven by actuator i. Throws std::invalid_argument when a limit is missing,
+/// not finite, not greater than zero, or not symmetric (min != -max).
+std::array<double, 2> effort_limits_from_info(const hardware_interface::HardwareInfo & info, size_t n);
+
+/// Clamps the actuator-space effort symmetrically to [-limits, +limits] (first `n` axes).
+void clamp_actuator_effort(AxisValues & actuator, const std::array<double, 2> & limits, size_t n);
 }  // namespace sarax_arm_system

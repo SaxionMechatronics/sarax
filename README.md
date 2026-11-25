@@ -409,7 +409,7 @@ $$\tau = K_d(q_d - q) + D_d(\dot{q}_d - \dot{q}) + g(q)$$
 | $D_d$ | Diagonal damping (N·m·s/rad) | `[10.0, 10.0]` |
 | $g(q)$ | Gravity compensation torque | enabled in PDGravityLaw |
 
-Torque commands are clamped to ±5 N·m per joint, read from the URDF joint `<limit effort>` (the only source of the torque limit; change it with the `effort_limit` xacro argument). The stiffness term is saturated when $|q - q_d| >$ `max_position_error` (default 0.5 rad) to prevent runaway on bad references.
+Torque is limited to ±5 N·m, taken from the URDF `effort_limit` (the only source; the joint `<limit effort>`, the ros2_control effort `min`/`max` and the AK60 driver limit all come from it). It is enforced in two places: the impedance controller clamps its joint-space command per joint (defence in depth, so a command is bounded before it reaches the hardware layer), and `SaraxArmSystem::write()` clamps the motor-space effort per motor after the belt transmission. The second one is the binding limit: motor 1 carries $\tau_{j1} - \tau_{j2}$, so joint torques of 4 and -4 N·m command 8 N·m on motor 1 and are clamped to 5. Change it with the `effort_limit` xacro argument. The stiffness term is saturated when $|q - q_d| >$ `max_position_error` (default 0.5 rad) to prevent runaway on bad references.
 
 ### Gravity compensation
 

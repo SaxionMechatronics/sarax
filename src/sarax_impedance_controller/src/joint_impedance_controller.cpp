@@ -410,7 +410,8 @@ return_type JointImpedanceController::update(
 
   tau_ = law_->compute(in);
 
-  // Saturate to the URDF effort limit of each joint.
+  // Saturate to the URDF effort limit of each joint. Defence in depth: the binding limit is per
+  // motor, after the belt transmission, in SaraxArmSystem::write().
   clamp_effort(tau_, effort_limits_);
 
   for (size_t i = 0; i < n_joints_; ++i) {

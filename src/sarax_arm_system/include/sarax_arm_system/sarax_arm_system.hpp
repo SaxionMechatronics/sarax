@@ -16,7 +16,8 @@ namespace sarax_arm_system
 /// sarax_tmotor_ak60_driver/TmotorAk60System or mock_components/GenericSystem), forwards the
 /// lifecycle to it and maps its states and commands through the URDF transmission. The
 /// controllers see joint-space interfaces under the joint names. The inner driver is unmodified
-/// and knows nothing about the belt. With one joint, or no transmission, the mapping is identity.
+/// and knows nothing about the belt. The torque limit acts per motor: write() clamps the
+/// motor-space effort (after the transmission) to the URDF effort limit of each joint's motor. With one joint, or no transmission, the mapping is identity.
 class SaraxArmSystem : public hardware_interface::SystemInterface
 {
 public:
@@ -43,6 +44,8 @@ private:
   pluginlib::UniquePtr<hardware_interface::SystemInterface> inner_;
   std::optional<ArmTransmission> transmission_;
   size_t n_{0};
+  // Per-motor torque limit [N*m], applied to the actuator-space effort after the transmission.
+  std::array<double, 2> actuator_limits_{0.0, 0.0};
 
   // Joint-space values exported to controllers (pointers stay valid: sized once).
   AxisValues joint_state_, joint_command_;

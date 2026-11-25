@@ -38,6 +38,7 @@ CallbackReturn SaraxArmSystem::on_init(const hardware_interface::HardwareInfo & 
       }
       transmission_.emplace(t);
     }
+    actuator_limits_ = effort_limits_from_info(info, n_);
     const auto plugin = info.hardware_parameters.at("inner_plugin");
     loader_ = std::make_unique<pluginlib::ClassLoader<hardware_interface::SystemInterface>>(
       "hardware_interface", "hardware_interface::SystemInterface");
@@ -162,7 +163,9 @@ return_type SaraxArmSystem::read(const rclcpp::Time & time, const rclcpp::Durati
 
 return_type SaraxArmSystem::write(const rclcpp::Time & time, const rclcpp::Duration & period)
 {
-  const AxisValues actuator = transmission_ ? transmission_->to_actuator(joint_command_) : joint_command_;
+  AxisValues actuator = transmission_ ? transmission_->to_actuator(joint_command_) : joint_command_;
+  // The limit acts per motor, after the transmission (tau_j1 - tau_j2 can exceed it on motor 1).
+  clamp_actuator_effort(actuator, actuator_limits_, n_);
   for (size_t i = 0; i < n_; ++i) {
     if (inner_handles_[i].command) {inner_handles_[i].command->set_value(actuator.effort[i]);}
   }

@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: BSD-3-Clause
 #include "sarax_arm_system/arm_transmission.hpp"
 
+#include <algorithm>
+#include <cmath>
 #include <memory>
 #include <sstream>
 #include <stdexcept>
@@ -62,5 +64,44 @@ AxisValues ArmTransmission::to_actuator(const AxisValues & joint)
   impl_->joint = joint;
   impl_->transmission->joint_to_actuator();
   return impl_->actuator;
+}
+
+std::array<double, 2> effort_limits_from_info(const hardware_interface::HardwareInfo & info, size_t n)
+{
+  std::array<double, 2> limits{0.0, 0.0};
+  for (size_t i = 0; i < n && i < info.joints.size(); ++i) {
+    const auto & joint = info.joints[i];
+    const hardware_interface::InterfaceInfo * effort = nullptr;
+    for (const auto & command : joint.command_interfaces) {
+      if (command.name == "effort") {effort = &command;}
+    }
+    const auto fail = [&joint](const std::string & what) {
+        return std::invalid_argument("Joint '" + joint.name + "': " + what);
+      };
+    if (!effort || effort->min.empty() || effort->max.empty()) {
+      throw fail("the effort command interface needs min and max (the URDF effort_limit)");
+    }
+    double lo = 0.0, hi = 0.0;
+    try {
+      lo = std::stod(effort->min);
+      hi = std::stod(effort->max);
+    } catch (const std::exception &) {
+      throw fail("effort min/max are not numbers");
+    }
+    if (!std::isfinite(lo) || !std::isfinite(hi) || hi <= 0.0) {
+      throw fail("effort limit must be finite and greater than zero");
+    }
+    if (std::abs(lo + hi) > 1e-9 * hi) {throw fail("effort limit must be symmetric (min = -max)");}
+    limits[i] = hi;
+  }
+  return limits;
+}
+
+void clamp_actuator_effort(AxisValues & actuator, const std::array<double, 2> & limits, size_t n)
+{
+  for (size_t i = 0; i < n && i < 2; ++i) {
+    double & tau = actuator.effort[i];
+    tau = std::isnan(tau) ? 0.0 : std::clamp(tau, -limits[i], limits[i]);
+  }
 }
 }  // namespace sarax_arm_system
