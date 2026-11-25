@@ -13,7 +13,7 @@ px4_params:
 # Frame names of the Gazebo model.
 frames:
   gz_base_link: sarax_plus_0/base_link
-  gz_camera: sarax_plus_0/base_link/rgbd_camera
+  gz_camera: sarax_plus_0/camera_link/rgbd_camera
   base_link: base_link
 
 # Fixed transform base -> camera of the Gazebo model, [x, y, z, qx, qy, qz, qw]. Must match
