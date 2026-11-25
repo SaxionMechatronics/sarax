@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!--
+    Belt between motor 2 and the second link. The URDF and Gazebo stay a serial chain
+    (mani_joint_1, mani_joint_2); the encoder of motor 2 reads the motor angle, referenced to the
+    base. ros2_control (Humble) only parses <transmission> (it must sit inside <ros2_control>); sarax_arm_system/SaraxArmSystem loads
+    and applies it on top of the motor-space driver.
+
+    Reductions follow transmission_interface: n = motor turns per joint turn, negative = direction
+    flip. Only motor 2 carries the belt. Ratio and sign are bench values (hw profile `belt`).
+  -->
+  <xacro:arg name="belt_ratio" default="1.0"/>
+  <xacro:arg name="belt_sign" default="1"/>
+
+  <xacro:macro name="sarax_belt_transmission">
+    <transmission name="belt_transmission">
+      <plugin>transmission_interface/FourBarLinkageTransmission</plugin>
+      <joint name="mani_joint_1" role="joint1">
+        <mechanical_reduction>1.0</mechanical_reduction>
+      </joint>
+      <joint name="mani_joint_2" role="joint2">
+        <mechanical_reduction>1.0</mechanical_reduction>
+      </joint>
+      <actuator name="mani_motor_1" role="actuator1">
+        <mechanical_reduction>1.0</mechanical_reduction>
+      </actuator>
+      <actuator name="mani_motor_2" role="actuator2">
+        <mechanical_reduction>${float('$(arg belt_sign)') * float('$(arg belt_ratio)')}</mechanical_reduction>
+      </actuator>
+    </transmission>
+  </xacro:macro>
+
+</robot>
