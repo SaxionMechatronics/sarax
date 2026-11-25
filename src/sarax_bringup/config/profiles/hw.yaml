@@ -20,8 +20,9 @@ motors:
 belt: {ratio: 1.0, sign: 1}
 
 # Arm poses [mani_joint_1, mani_joint_2] [rad] of ~/move_to_pose, applied by ak60_hardware.launch.py.
-# The ROS 1 values (controller_user_control.cpp on sarax@main: fold 75/80 deg, extend -60/90 deg,
-# its joints 2 and 3); confirm them on the bench (they must stay inside the URDF joint limits).
+# PROVISIONAL, NOT the ROS 1 poses. ROS 1 (controller_user_control.cpp on sarax@main: fold 75/80 deg,
+# extend -60/90 deg) commands them in its controller coordinates (q3c = q2 - q1), so they must be
+# converted first; parked until the real joint-2 range is confirmed (parameters_todo.md). Do not fly these.
 arm_poses:
   stowed: [1.309, 1.3963]    # 75, 80 deg
   extended: [-1.0472, 1.5708]  # -60, 90 deg

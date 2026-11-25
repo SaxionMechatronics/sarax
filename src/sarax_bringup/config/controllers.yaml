@@ -38,8 +38,8 @@ joint_impedance_controller:
     # Fold/extend (~/move_to_pose): named poses [mani_joint_1, mani_joint_2] in rad, ramped to at
     # ramp_velocity_scale x the URDF joint velocity limit. SITL values, equal to arm_poses in
     # profiles/sitl.yaml (a test checks it); the vehicle gets arm_poses of profiles/hw.yaml from
-    # ak60_hardware.launch.py. ROS 1 values (controller_user_control.cpp on main: fold 75/80 deg,
-    # extend -60/90 deg; its joints 2 and 3 are mani_joint_1 and mani_joint_2).
+    # ak60_hardware.launch.py. PROVISIONAL, not the ROS 1 poses: ROS 1 fold 75/80 and extend -60/90 deg are in its
+    # controller coordinates (q3c = q2 - q1) and still need converting (parked, parameters_todo.md).
     pose_stowed: [1.309, 1.3963]
     pose_extended: [-1.0472, 1.5708]
     ramp_velocity_scale: 0.5
