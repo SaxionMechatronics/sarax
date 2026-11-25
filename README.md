@@ -14,6 +14,10 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±5 N·m per motor)
 - **Joint-space impedance control** with pluggable laws (PD, PD + gravity compensation)
 - **Runtime gain tuning** — stiffness and damping are `ros2 param set`-able without restart
 - **Full SITL** — PX4 + Gazebo Harmonic + ROS 2, all launched from two terminal commands
+- **Real arm on AK60 motors** over SocketCAN, with the belt mapping between joints and motors (`sarax_arm_system`) and a per-motor torque clamp
+- **Fold and extend** the arm with one service (`~/move_to_pose`), from named poses in the platform profile
+- **One hardware bringup** (`pixi run hardware`): CAN, arm, XRCE agent, `state_bridge` and `ros2 bag record`
+- **Platform profiles** (`SARAX_TARGET=sitl|hw`) for motors, limits, poses, frame names and PX4 parameters
 - **Self-contained environment** via [pixi](https://pixi.sh) — no system-wide ROS 2 or Gazebo installation required
 - **Manipulator-only mode** for controller development without a running drone
 
@@ -55,9 +59,11 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±5 N·m per motor)
 | `sarax_msgs` | messages | `ImpedanceGains.msg` |
 | `sarax_description` | config | URDF/xacro, meshes, RViz config |
 | `sarax_impedance_controller` | library | ros2_control controller + pluggable impedance laws |
+| `sarax_arm_system` | library | `SaraxArmSystem`: ros2_control system that applies the belt transmission (joint space <-> motor space) on top of a motor-space driver and clamps the torque per motor |
 | `sarax_tmotor_ak60_driver` | library | Real AK60 motor feedback and effort commands over SocketCAN |
 | `sarax_bringup` | config | Launch files and `controllers.yaml` |
 | `sarax_px4_bridge` | executable + library | PX4 link: `state_bridge` (`/fmu/out/vehicle_odometry` to `/sarax/odom` and the world to base_link TF), ENU/FLU to NED/FRD frame helpers (`frames.hpp`, `sarax_px4_bridge.frames`) |
+| `sarax_perception` | executable | `cloud_filter_node`: ROI crop of the camera cloud (`camera_frame_type` `x_forward` or `optical`) |
 | `sarax_gz_sim` | config | Gazebo model SDF and world files |
 | `sarax_torque_poc` | executable | Proof-of-concept direct torque publisher |
 | `sarax_docs` | docs | Sphinx + Doxygen sources |
@@ -607,17 +613,17 @@ sarax/
 ├── deps.repos             # vcstool: gz_ros2_control + PX4-Autopilot + px4_msgs + px4-ros2-interface-lib
 ├── docs/figures/          # figures used by this README
 ├── scripts/
-│   ├── install.sh
-│   ├── build.sh
-│   ├── px4.sh
-│   ├── agent.sh
-│   └── ros.sh
+│   ├── install.sh · build.sh · px4.sh · agent.sh · ros.sh
+│   └── hardware.sh · can_setup.sh · motor_hardware.sh   # hardware bringup, CAN setup, arm only
 └── src/
     ├── sarax/
     ├── sarax_msgs/
     ├── sarax_description/
     ├── sarax_impedance_controller/
+    ├── sarax_arm_system/
+    ├── sarax_tmotor_ak60_driver/
     ├── sarax_bringup/
+    ├── sarax_perception/
     ├── sarax_px4_bridge/
     ├── sarax_gz_sim/
     ├── sarax_torque_poc/
