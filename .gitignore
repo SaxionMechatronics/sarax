@@ -12,6 +12,8 @@ scripts/plot_bags.py
 src/gz_ros2_control/
 src/gps_umd/
 src/ros_gz/
+src/px4_msgs/
+src/px4-ros2-interface-lib/
 PX4-Autopilot/
 
 # ── Robot model directory at workspace root (generated / imported from PX4) ──

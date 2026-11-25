@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>sarax_px4_bridge</name>
+  <version>0.1.0</version>
+  <description>PX4 link of the Sarax platform: state_bridge (/fmu/out/vehicle_odometry to /sarax/odom and the world to base_link TF) and the ENU/FLU to NED/FRD frame helpers (C++ and Python).</description>
+  <maintainer email="a.alharbat@saxion.nl">Ayham</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>px4_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>eigen</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>sarax_bringup</exec_depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

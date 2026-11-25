@@ -33,3 +33,18 @@ repositories:
     type: git
     url: https://github.com/SaxionMechatronics/PX4-Autopilot.git
     version: v1.17.0-sarax-sim
+
+  # PX4 ROS 2 Interface Library + message definitions, both release/1.17 pinned by
+  # commit (the branches move).  Compatible with PX4 v1.17.0 per
+  # px4-ros2-interface-lib/scripts/check-message-compatibility.py (release/1.17 copy).
+  # `main` of the library does NOT match v1.17 messages.  px4_msgs is what
+  # sarax_px4_bridge builds against; the library (px4_ros2_cpp) is for PX4 external
+  # modes in applications built on the platform.
+  src/px4_msgs:
+    type: git
+    url: https://github.com/PX4/px4_msgs.git
+    version: 86d8239e962f6939e05c3737784f60c02fa884db
+  src/px4-ros2-interface-lib:
+    type: git
+    url: https://github.com/Auterion/px4-ros2-interface-lib.git
+    version: b6d52ad120f68fbe82c9039f85e52c2a8d868083

@@ -57,6 +57,7 @@ Hardware:  SARAX+ coaxial octocopter · 2-DoF manipulator (±30 N·m per joint)
 | `sarax_impedance_controller` | library | ros2_control controller + pluggable impedance laws |
 | `sarax_tmotor_ak60_driver` | library | Real AK60 motor feedback and effort commands over SocketCAN |
 | `sarax_bringup` | config | Launch files and `controllers.yaml` |
+| `sarax_px4_bridge` | executable + library | PX4 link: `state_bridge` (`/fmu/out/vehicle_odometry` to `/sarax/odom` and the world to base_link TF), ENU/FLU to NED/FRD frame helpers (`frames.hpp`, `sarax_px4_bridge.frames`) |
 | `sarax_gz_sim` | config | Gazebo model SDF and world files |
 | `sarax_torque_poc` | executable | Proof-of-concept direct torque publisher |
 | `sarax_docs` | docs | Sphinx + Doxygen sources |
@@ -514,6 +515,30 @@ Once hovering, send a manipulator reference:
 ros2 launch sarax_bringup send_step_reference.launch.py q1:=0.3 q2:=-0.4
 ```
 
+### PX4 link (XRCE agent and state bridge)
+
+PX4 talks to ROS 2 through the Micro XRCE-DDS Agent; `px4_msgs` (release/1.17, pinned in
+`deps.repos`, matching PX4 v1.17.0) defines the `/fmu/*` topics. The agent is not packaged for
+conda: install v2.4.x once as described in the header of `scripts/agent.sh` (or set
+`SARAX_XRCE_AGENT`).
+
+```bash
+pixi run agent                                        # SITL: udp4 -p 8888 (SARAX_XRCE_PORT changes the port)
+pixi run agent serial --dev /dev/ttyUSB0 -b 921600    # vehicle: companion computer on the FC's serial link
+pixi run state_bridge                                 # /fmu/out/vehicle_odometry -> /sarax/odom + TF world -> base_link
+```
+
+Arguments after `agent` go to `MicroXRCEAgent` unchanged. For the serial form, PX4 needs
+`UXRCE_DDS_CFG` set to that port and the port's `SER_*_BAUD` equal to `-b`. An agent already
+running with the same arguments is replaced; agents on other ports stay up.
+
+`state_bridge` publishes `nav_msgs/Odometry` on `/sarax/odom` (pose of the base in `world`, ENU;
+twist in the base frame, FLU) and the TF `world` -> `sarax_plus_0/base_link`. Stamps use the node
+clock, so `use_sim_time` follows the platform profile (`sitl`: true, `hw`: false). Use the frame
+helpers (`sarax::frames` in C++, `sarax_px4_bridge.frames` in Python) for every ENU/FLU <-> NED/FRD
+conversion; the unit tests run with `SARAX_BUILD_TESTING=ON pixi run build` then
+`colcon test --packages-select sarax_px4_bridge`.
+
 ### Choosing a controller
 
 The default controller is `joint_impedance_controller`. To use the simpler passthrough:
@@ -649,11 +674,12 @@ Laws are loaded via pluginlib. To add your own:
 ```
 sarax/
 ├── pixi.toml              # environment + task definitions
-├── deps.repos             # vcstool: gz_ros2_control + PX4-Autopilot
+├── deps.repos             # vcstool: gz_ros2_control + PX4-Autopilot + px4_msgs + px4-ros2-interface-lib
 ├── scripts/
 │   ├── install.sh
 │   ├── build.sh
 │   ├── px4.sh
+│   ├── agent.sh
 │   └── ros.sh
 └── src/
     ├── sarax/
@@ -661,12 +687,13 @@ sarax/
     ├── sarax_description/
     ├── sarax_impedance_controller/
     ├── sarax_bringup/
+    ├── sarax_px4_bridge/
     ├── sarax_gz_sim/
     ├── sarax_torque_poc/
     └── sarax_docs/
 ```
 
-`src/gz_ros2_control/` and `PX4-Autopilot/` are gitignored and cloned by `pixi run install`.
+`src/gz_ros2_control/`, `src/px4_msgs/`, `src/px4-ros2-interface-lib/` and `PX4-Autopilot/` are gitignored and cloned by `pixi run install`.
 
 ---
 
