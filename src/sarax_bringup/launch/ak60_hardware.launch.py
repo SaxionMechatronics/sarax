@@ -1,4 +1,9 @@
-"""Connect the SARAX robot and existing impedance controller to physical AK60 motors."""
+"""Connect the SARAX robot and existing impedance controller to physical AK60 motors.
+
+``hardware:=mock`` runs the same stack (SaraxArmSystem with its belt transmission, the same
+controllers) on ``mock_components/GenericSystem`` instead of the motors: no CAN adapter is
+needed, and the hardware and controllers are activated at launch because no motor can move.
+"""
 
 import atexit
 import math
@@ -19,14 +24,17 @@ from sarax_bringup import profile as sarax_profile
 
 def launch_hardware(context):
     names = (
-        "can_interface", "hardware_verified", "use_second_motor", "motor_1_id", "motor_2_id",
+        "hardware", "can_interface", "hardware_verified", "use_second_motor", "motor_1_id", "motor_2_id",
         "feedback_timeout", "startup_timeout",
         "impedance_law", "max_position_error", "reference_timeout",
         "motor_1_stiffness", "motor_1_damping", "motor_2_stiffness", "motor_2_damping",
         "belt_ratio", "belt_sign",
     )
     args = {name: LaunchConfiguration(name).perform(context) for name in names}
-    if not args["can_interface"]:
+    if args["hardware"] not in ("real", "mock"):
+        raise ValueError("hardware must be real or mock")
+    real = args["hardware"] == "real"
+    if real and not args["can_interface"]:
         raise ValueError("can_interface is empty: pass can_interface:=<name> "
                          "(or set can_interface in the hw profile)")
     for name in ("hardware_verified", "use_second_motor"):
@@ -43,9 +51,10 @@ def launch_hardware(context):
     reference_timeout = float(args["reference_timeout"])
     if not math.isfinite(reference_timeout) or reference_timeout < 0.0:
         raise ValueError("reference_timeout must be finite and >= 0 (0 = off)")
-    joints = ["mani_joint_1", "mani_joint_2"] if args["use_second_motor"] == "true" else ["mani_joint_1"]
+    two_joints = args["use_second_motor"] == "true" or not real  # the mock arm always has both
+    joints = ["mani_joint_1", "mani_joint_2"] if two_joints else ["mani_joint_1"]
     mappings = {
-        "hardware": "real",
+        "hardware": args["hardware"],
         "ak60_can_interface": args["can_interface"],
         "ak60_hardware_verified": args["hardware_verified"],
         "ak60_use_second_motor": args["use_second_motor"],
@@ -61,8 +70,9 @@ def launch_hardware(context):
     config_path = Path(get_package_share_directory("sarax_bringup")) / "config/controllers.yaml"
     config = yaml.safe_load(config_path.read_text())
     manager = config["controller_manager"]["ros__parameters"]
-    manager.update(robot_description=robot_description, use_sim_time=False,
-                   hardware_components_initial_state={"unconfigured": ["SaraxManipulator"]})
+    manager.update(robot_description=robot_description, use_sim_time=False)
+    if real:  # real motors stay unconfigured until the operator brings them up
+        manager["hardware_components_initial_state"] = {"unconfigured": ["SaraxManipulator"]}
     manager.pop("forward_effort_controller", None)
     config.pop("forward_effort_controller", None)
     config["joint_state_broadcaster"] = {"ros__parameters": {
@@ -97,9 +107,11 @@ def launch_hardware(context):
                           "use_sim_time": False}]),
         Node(package="controller_manager", executable="ros2_control_node", output="screen",
              parameters=[parameters]),
-        # Activation follows fresh real feedback; loading does not enable motors.
+        # Real motors: activation follows fresh feedback, loading does not enable them.
+        # Mock: nothing can move, so the controllers start active.
         Node(package="controller_manager", executable="spawner", output="screen",
-             arguments=["joint_state_broadcaster", "joint_impedance_controller", "--inactive",
+             arguments=["joint_state_broadcaster", "joint_impedance_controller",
+                        *(["--inactive"] if real else []),
                         "-c", "/controller_manager", "--controller-manager-timeout", "20"]),
     ]
 
@@ -112,6 +124,7 @@ def generate_launch_description():
     get = lambda key: sarax_profile.get(prof, key)  # noqa: E731
     text = lambda value: str(value).lower() if isinstance(value, bool) else str(value)  # noqa: E731
     defaults = {
+        "hardware": "real",
         "can_interface": get("can_interface"), "hardware_verified": "false",
         "use_second_motor": get("driver.use_second_motor"),
         "motor_1_id": get("motors.motor_1.id"), "motor_2_id": get("motors.motor_2.id"),
